@@ -3,8 +3,14 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
+  - name: DIGG webbplats
+    url: https://www.digg.se/
+  - name: DIGG dataportal
+    url: https://www.dataportal.se/
   - name: DIGG forum
     url: https://community.dataportal.se/
+  - name: DIGG webbriktlinjer
+    url: https://webbriktlinjer.se/
   - name: SwedishMuseum
     url: https://swedishmuseum.org/
 
