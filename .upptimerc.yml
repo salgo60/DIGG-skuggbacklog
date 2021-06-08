@@ -11,9 +11,9 @@ sites:
     url: https://community.dataportal.se/
   - name: DIGG webbriktlinjer
     url: https://webbriktlinjer.se/
-  - name: SwedishMuseum
-    url: https://swedishmuseum.org/
-
+  - name: Google
+    url: https://www.google.com
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
