@@ -63,7 +63,7 @@
     "url": "https://webbriktlinjer.se/",
     "icon": "https://favicons.githubusercontent.com/webbriktlinjer.se",
     "slug": "digg-webbriktlinjer",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -74,7 +74,9 @@
     "timeWeek": 1140,
     "timeMonth": 1031,
     "timeYear": 984,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-01-18": 0
+    }
   },
   {
     "name": "Google",
