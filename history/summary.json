@@ -26,9 +26,9 @@
     "url": "https://www.dataportal.se/",
     "icon": "https://favicons.githubusercontent.com/www.dataportal.se",
     "slug": "digg-dataportal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
@@ -38,6 +38,7 @@
     "timeMonth": 1594,
     "timeYear": 1386,
     "dailyMinutesDown": {
+      "2022-09-22": 0,
       "2022-06-01": 32,
       "2022-05-23": 81
     }
