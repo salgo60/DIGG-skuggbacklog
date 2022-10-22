@@ -2,7 +2,7 @@
 
 - [Dashboard](https://github.com/users/salgo60/projects/3/views/1) - [lista #47](https://github.com/salgo60/DiggUptime/issues/47)
 
-![image](https://user-images.githubusercontent.com/14206509/196948363-241158cd-708d-46d1-bd6a-5a641fcaeaab.png)
+[![image](https://user-images.githubusercontent.com/14206509/196948363-241158cd-708d-46d1-bd6a-5a641fcaeaab.png)](https://github.com/users/salgo60/projects/3/views/1)
 
 # [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟩 All systems operational**
 
