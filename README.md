@@ -4,6 +4,9 @@
 
 [![image](https://user-images.githubusercontent.com/14206509/196948363-241158cd-708d-46d1-bd6a-5a641fcaeaab.png)](https://github.com/users/salgo60/projects/3/views/1)
 
+<img width="517" alt="image" src="https://user-images.githubusercontent.com/14206509/198021092-7384e911-87e6-4fe7-8740-9ce69f4e0432.png">
+
+
 # [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟩 All systems operational**
 
 - This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
