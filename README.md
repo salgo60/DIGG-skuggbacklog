@@ -4,7 +4,7 @@
 
 [![image](https://user-images.githubusercontent.com/14206509/196948363-241158cd-708d-46d1-bd6a-5a641fcaeaab.png)](https://github.com/users/salgo60/projects/3/views/1)
 
-<img width="517" alt="image" src="https://user-images.githubusercontent.com/14206509/198021092-7384e911-87e6-4fe7-8740-9ce69f4e0432.png">
+<img width="490" alt="image" src="https://user-images.githubusercontent.com/14206509/198217026-15613ac4-5614-425c-a4c6-0588fb778c51.png">
 
 # [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟩 All systems operational**
 
