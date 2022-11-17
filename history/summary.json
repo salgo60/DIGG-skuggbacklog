@@ -115,18 +115,20 @@
     "url": "https://oswald.wikibase.cloud/wiki/NOSAD-POC",
     "icon": "https://icons.duckduckgo.com/ip3/oswald.wikibase.cloud.ico",
     "slug": "oswald",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1242,
-    "timeDay": 885,
-    "timeWeek": 1186,
-    "timeMonth": 1242,
-    "timeYear": 1242,
-    "dailyMinutesDown": {}
+    "time": 1275,
+    "timeDay": 1396,
+    "timeWeek": 1276,
+    "timeMonth": 1275,
+    "timeYear": 1275,
+    "dailyMinutesDown": {
+      "2022-11-17": 0
+    }
   },
   {
     "name": "OswaldSPARQLEndPoint",
