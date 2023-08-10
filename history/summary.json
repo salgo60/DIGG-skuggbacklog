@@ -313,10 +313,10 @@
     "url": "https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/",
     "icon": "https://icons.duckduckgo.com/ip3/www.scb.se.ico",
     "slug": "scb-svensk-utbildningsnomenklatur-sun",
-    "status": "up",
+    "status": "down",
     "uptime": "99.80%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.57%",
     "uptimeYear": "99.80%",
     "time": 1143,
@@ -325,6 +325,7 @@
     "timeMonth": 1093,
     "timeYear": 1143,
     "dailyMinutesDown": {
+      "2023-08-10": 1,
       "2023-07-25": 74,
       "2023-07-24": 112,
       "2023-06-16": 15
@@ -347,7 +348,7 @@
     "timeMonth": 805,
     "timeYear": 867,
     "dailyMinutesDown": {
-      "2023-08-10": 1098,
+      "2023-08-10": 1135,
       "2023-08-09": 1432,
       "2023-08-08": 1440,
       "2023-08-07": 1440,
