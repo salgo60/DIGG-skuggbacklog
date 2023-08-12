@@ -1,6 +1,4 @@
-# DIGG skuggbacklog
-
-- [Dashboard](https://github.com/users/salgo60/projects/3/views/1) - [lista #47](https://github.com/salgo60/DiggUptime/issues/47)
+* [DIGG skuggbacklog](https://github.com/salgo60/DiggUptime/issues/47)
 
 # [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟧 Partial outage**
 
