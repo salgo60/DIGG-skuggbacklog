@@ -1,6 +1,6 @@
-* [DIGG skuggbacklog](https://github.com/users/salgo60/projects/3/views/1) - [lista #47](https://github.com/salgo60/DiggUptime/issues/47)
+* [DIGG skuggbacklog](https://github.com/salgo60/DiggUptime/issues/47)
 
-### [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟧 Partial outage**
+#### [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟧 Partial outage**
 
 - This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
 
