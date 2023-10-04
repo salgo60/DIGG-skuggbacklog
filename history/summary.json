@@ -86,9 +86,9 @@
     "url": "https://webbriktlinjer.se/",
     "icon": "https://icons.duckduckgo.com/ip3/webbriktlinjer.se.ico",
     "slug": "digg-webbriktlinjer",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -97,7 +97,9 @@
     "timeWeek": 808,
     "timeMonth": 911,
     "timeYear": 978,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-10-04": 0
+    }
   },
   {
     "name": "RAÄ Kringla",
@@ -347,7 +349,7 @@
     "timeMonth": 895,
     "timeYear": 855,
     "dailyMinutesDown": {
-      "2023-10-04": 40,
+      "2023-10-04": 404,
       "2023-10-03": 1440,
       "2023-10-02": 1432,
       "2023-10-01": 1440,
