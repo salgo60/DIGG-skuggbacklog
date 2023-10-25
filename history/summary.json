@@ -5,7 +5,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.digg.se.ico",
     "slug": "digg-webbplats",
     "status": "up",
-    "uptime": "99.30%",
+    "uptime": "99.31%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -160,18 +160,20 @@
     "url": "https://www.google.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
     "slug": "google",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 119,
-    "timeDay": 111,
-    "timeWeek": 100,
-    "timeMonth": 129,
-    "timeYear": 117,
-    "dailyMinutesDown": {}
+    "timeDay": 299,
+    "timeWeek": 148,
+    "timeMonth": 140,
+    "timeYear": 118,
+    "dailyMinutesDown": {
+      "2023-10-25": 0
+    }
   },
   {
     "name": "Oswald",
@@ -353,7 +355,7 @@
     "timeMonth": 924,
     "timeYear": 872,
     "dailyMinutesDown": {
-      "2023-10-25": 628,
+      "2023-10-25": 1061,
       "2023-10-24": 1431,
       "2023-10-23": 1440,
       "2023-10-22": 1440,
