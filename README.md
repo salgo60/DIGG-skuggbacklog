@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11183793.svg)](https://doi.org/10.5281/zenodo.11183793)
+Upptime Bot, Magnus Sälgö, & Nizo Priskorn. (2024). salgo60/DIGG-skuggbacklog: Baserelease (Baserelease). Zenodo. https://doi.org/10.5281/zenodo.11183793
 - [DIGG skuggbacklog](https://github.com/salgo60/DiggUptime/issues/47)
 
 #### [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟧 Partial outage**
