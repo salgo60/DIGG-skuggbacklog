@@ -31,6 +31,11 @@ sites:
     url: https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/
   - name: SCB - h6.scb.se/metadata/klassdb
     url: https://www.h6.scb.se/metadata/klassdb.aspx
+  - name: LIBRIS - libris.kb.se/bib/18150951
+    url: https://libris.kb.se/bib/18150951
+  - name: LIBRISXL - libris.kb.se/wt7bg5jf33c4kvl
+    url: https://libris.kb.se/wt7bg5jf33c4kvl
+    
     
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
