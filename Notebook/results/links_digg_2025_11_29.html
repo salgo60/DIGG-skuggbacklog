@@ -28,19 +28,61 @@
       table.pivot th:hover {
         background: #e2e2e2;
       }
+      .meta {
+        background: #f8f8f8;
+        border: 1px solid #ccc;
+        padding: 12px;
+        margin-bottom: 20px;
+        font-size: 13px;
+      }
+      .meta h2 {
+        margin-top: 0;
+      }
+      .meta ul {
+        margin: 0;
+        padding-left: 18px;
+      }
     </style>
     
     </head>
     <body>
+
       <h1>Wikipedia → DIGG</h1>
+
+      <div class="meta">
+        <h2>Metadata</h2>
+        <ul>
+          <li><strong>Rerun:</strong> 2025-11-29 10:21:03</li>
+          <li><strong>Script:</strong> notebook</li>
+          <li><strong>Git commit:</strong> 398a3e89e</li>
+          <li><strong>Issue:</strong>
+            <a href="https://github.com/salgo60/DIGG-skuggbacklog/issues/1467" target="_blank">1467</a>
+          </li>
+          <li><strong>Datakällor:</strong>
+            <ul>
+              <li>Wikidata</li>
+              <li>MediaWiki API – exturlusage</li>
+            </ul>
+          </li>
+          <li><strong>Parametrar:</strong>
+            <ul>
+              <li>Domäner: —</li>
+              <li>Språkfilter: exkluderar "special"</li>
+              </ul>
+
+          </li>
+              <li><strong>Antal språk genomsökta:</strong> 207</li>
+              <li><strong>Antal språk med träffar:</strong> 4</li>
+              <li><strong>Wikipedia-språk med träffar:</strong> da, en, no, sv</li>
+                
+              <li><strong>Totala länkar:</strong> 67</li>
+              <li><strong>Unika länkar:</strong> 52</li>
+
+        </ul>
+      </div>
+
       <p>Sorterbar tabell. Klicka på kolumnrubriker för sortering.</p>
-      <p><strong>Rerun:</strong> 2025-11-29 09:57:44</p>
-      <p>
-        <strong>Issue:</strong>
-        <a href="https://github.com/salgo60/DIGG-skuggbacklog/issues/1467" target="_blank">
-          #1467
-        </a>
-      </p>
+
       <table class="dataframe pivot">
   <thead>
     <tr style="text-align: right;">
@@ -659,6 +701,7 @@
     </tr>
   </tbody>
 </table>
+
       
     <script>
     document.addEventListener('DOMContentLoaded', () => {
