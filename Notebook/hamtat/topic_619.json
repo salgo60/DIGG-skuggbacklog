@@ -1,0 +1,1090 @@
+{
+  "cid": 4,
+  "lastposttime": 1669374519918,
+  "mainPid": 3515,
+  "postcount": 8,
+  "slug": "619/community-förslag-notiser",
+  "tid": 619,
+  "timestamp": 1669301814840,
+  "title": "Community - Förslag Notiser",
+  "uid": 744,
+  "viewcount": 595,
+  "postercount": 3,
+  "teaserPid": 3585,
+  "downvotes": 0,
+  "upvotes": 0,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Community - Förslag Notiser",
+  "timestampISO": "2022-11-24T14:56:54.840Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-25T11:08:39.918Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Gissar att det inte kommer vara prioriterat men tänker om det kanske är en quick fix. För mig så skulle dessa förändringar (1-3 tror jag inte är för stora) göra stor skillnad för användarvänligheten med notiser:</p>\n<ol>\n<li>Möjlighet att göra flerval i notiskategorier (se bild 1 nedan) istället för att man väljer en kategori dvs möjlighet att visa både Mentions och exempelvis svar.</li>\n<li>Lästlogiken, om jag har <em>svarat</em> på ett inlägg (som genererat en notis) eller <em>röstat upp</em> ett inlägg så blir notisen läst automatiskt (tillägg: \"rösta upp\" måste ju vara ultimata beviset på att svenskan ibland inte blir vackrare för att vi försöker ta bort engelska begrepp <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f602.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--joy\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":joy:\" alt=\"😂\" />  )</li>\n<li>Om två inte är möjlig, kan vi få till checkbox (möjlighet att välja flera notiser) som en mellanväg mellan \"läs alla\" och att läsa (och redirectas) till en.</li>\n<li>Om det mot förmodan finns, eller inte är så stor åtgärd, så man kan få en högerspalt med preview alternativt om man i vyn alla Notiser skulle kunna välja och ha en preview under varje meddelande, så man visar några rader till förutom subject. Lite som blänkarna till höger bredvid trådarna (se bild 2)</li>\n</ol>\n<p dir=\"auto\">Bild 1<br />\n<img src=\"/assets/uploads/files/1669301050228-99722b64-18c8-4d5a-9d2d-4778d058e599-image.png\" alt=\"99722b64-18c8-4d5a-9d2d-4778d058e599-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Bild 2<br />\n<img src=\"/assets/uploads/files/1669301739912-922d5087-6170-4a8e-9c5e-dea60a9ae354-image.png\" alt=\"922d5087-6170-4a8e-9c5e-dea60a9ae354-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 3515,
+      "tid": 619,
+      "timestamp": 1669301814840,
+      "uid": 744,
+      "edited": 1669301837002,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T19:30:35.915Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T14:56:54.840Z",
+      "editedISO": "2022-11-24T14:57:17.002Z",
+      "index": 0,
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3515\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">(tillägg: \"rösta upp\" måste ju vara ultimata beviset på att svenskan ibland inte blir vackrare för att vi försöker ta bort engelska begrepp   )</p>\n</blockquote>\n<p dir=\"auto\">Som användare upplever jag heller inte att jag röstar på något när jag trycker på knappen \"<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /> Gilla\". Det här kan vi förbättra, men i vilken plattform översätts forumets programvara?</p>\n",
+      "pid": 3546,
+      "tid": 619,
+      "timestamp": 1669318235915,
+      "toPid": "3515",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T22:19:54.983Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-24T19:30:35.915Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> sa i <a href=\"/post/3546\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">Gilla</p>\n</blockquote>\n<p dir=\"auto\">haha, jag var så inne i notis-vyn så missade faktiskt att den hette gilla här. Var just \"rösta upp\" och \"uppröster\" som kändes som vi verkligen inte ville säga like <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f604.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smile\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":D\" alt=\"😄\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1669328086252-22b85df6-55a4-4e87-ba5f-7f743d409cb2-image.png\" alt=\"22b85df6-55a4-4e87-ba5f-7f743d409cb2-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1669328108165-b1898533-3a64-427f-b6b4-0ab3a511c39b-image.png\" alt=\"b1898533-3a64-427f-b6b4-0ab3a511c39b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> sa i <a href=\"/post/3546\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">Som användare upplever jag heller inte att jag röstar på något</p>\n</blockquote>\n<p dir=\"auto\">Valid tanke, men är syftet att vi vill \"rösta\" på något med Gilla-knappen eller är det att vi vill kunna ha Quiz?</p>\n<p dir=\"auto\">Inte för att jag tror att detta forum kommer leda till den hetsen efter likes men tänker att det är ju något som gjort att många plattformar som Instagram mfl har exprimenterat för att  gömma antal likes även om man kan likea. Så tänker att känslan att man inte \"röstar\" utan mer klappar någon på axeln kanske är bra?</p>\n<p dir=\"auto\">Döpa om till \"High five\" eller svenska alternativ \"Ryggdunk\" \"Ge mig kardan\" <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44f.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--clap\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":clap:\" alt=\"👏\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f590.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--raised_hand_with_fingers_splayed\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":raised_hand_with_fingers_splayed:\" alt=\"🖐\" /> för att ta bort känslan av rösta?</p>\n",
+      "pid": 3557,
+      "tid": 619,
+      "timestamp": 1669328394983,
+      "toPid": "3546",
+      "uid": 744,
+      "edited": 1669328551215,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T22:46:18.345Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T22:19:54.983Z",
+      "editedISO": "2022-11-24T22:22:31.215Z",
+      "index": 2,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3557\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">Valid tanke, men är syftet att vi vill \"rösta\" på något med Gilla-knappen eller är det att vi vill kunna ha Quiz?</p>\n</blockquote>\n<p dir=\"auto\">Jag tänkte snarare att översättningen var inkonsekvent. Oavsett om det står rösta eller gilla på knappen, så ska notisen säga samma sak. Så antingen en knapp där det står \"Rösta upp\" eller kanske \"Rösta på denna\" och då är nuvarande notis okej. Eller så har vi kvar knappen som den är nu, men då ska notisen säga \"X har gillat ditt inlägg..\". Vilken av dessa spelar mig ingen större roll, så länge termerna används konsekvent.</p>\n",
+      "pid": 3561,
+      "tid": 619,
+      "timestamp": 1669329978345,
+      "toPid": "3557",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-24T23:01:23.769Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-24T22:46:18.345Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> sa i <a href=\"/post/3561\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">inkonsekvent</p>\n</blockquote>\n<p dir=\"auto\">I see! Det håller jag med om men tycker det är vanligt idag med manuellt inkonsekventa översättningar. Tänkte man kunde tänka utanför boxen. \"Du har fåt 9 ryggdunk\" skulle få mig att le iaf <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Men kanske lite för långt utanför boxen?</p>\n<p dir=\"auto\">Om du är kodkunnig kan du ju göra en insats här. Hjälpa till med stavfel och content brukar jag vara bekväm med men jag har inte försökt mig på nodebb än så håller mig lite innan jag ger mig på forumet <a href=\"/post/73\">Är forumets kod öppen källkod?</a></p>\n",
+      "pid": 3565,
+      "tid": 619,
+      "timestamp": 1669330883769,
+      "toPid": "3561",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T23:01:23.769Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> sa i <a href=\"/post/3561\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">översättningen var inkonsekvent</p>\n</blockquote>\n<p dir=\"auto\">Hittade att NodeBB community (svenska kanalen, med inga svar <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f61e.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--disappointed\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":(\" alt=\"😞\" /> ) faktiskt efterfrågar <a href=\"https://www.uex.se/topic/679/vi-beh%C3%B6ver-hj%C3%A4lp-att-%C3%B6vers%C3%A4tta-saker-i-nodebb/1\" rel=\"nofollow ugc\">hjälp</a> med översättning till svenska. Tydligen har vi bara kommit upp i <a href=\"https://explore.transifex.com/nodebb/nodebb/\" rel=\"nofollow ugc\">45% översättning</a>.</p>\n",
+      "pid": 3567,
+      "tid": 619,
+      "timestamp": 1669361296858,
+      "toPid": "3561",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T08:00:47.146Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-25T07:28:16.858Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> Vilken bra idé att hjälpa till att uppdatera texter etc. Forumets specifika design verkar återfinnas här: <a href=\"https://github.com/DIGGSweden/nodebb-theme-digg\" rel=\"nofollow ugc\">https://github.com/DIGGSweden/nodebb-theme-digg</a>.</p>\n<p dir=\"auto\">Tror att någon (<a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a>) behöver verifiera att ovan repo är det som faktiskt används. Gissar att det kan finnas en intern spegling med tanke på uppdateringsfrekvensen i koden.</p>\n",
+      "pid": 3570,
+      "tid": 619,
+      "timestamp": 1669363247146,
+      "toPid": "3567",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T11:08:39.918Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-25T08:00:47.146Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> sa i <a href=\"/post/3570\">Community - Förslag Notiser</a>:</p>\n<blockquote>\n<p dir=\"auto\">Tror att någon (<a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a></a>) behöver verifiera att ovan repo är det som faktiskt används.</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a></a> tror inte du fick en ping av taggen när den lades i parantes. Kan du se om du kan verifiera ovan så vi kan hjälpas åt att översätta för ett bättre svenskt community?</p>\n",
+      "pid": 3585,
+      "tid": 619,
+      "timestamp": 1669374519918,
+      "toPid": "3570",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-25T11:08:39.918Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "619",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/619.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/619",
+  "bodyClass": "page-topic page-topic-619 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Community - Förslag Notiser"
+        },
+        {
+          "name": "description",
+          "content": "Gissar att det inte kommer vara prioriterat men tänker om det kanske är en quick fix. För mig så skulle dessa förändringar (1-3 tror jag inte är för stora) göra stor skillnad för användarvänligheten med notiser:  Möjlighet att göra flerval i notiskategori..."
+        },
+        {
+          "property": "og:title",
+          "content": "Community - Förslag Notiser"
+        },
+        {
+          "property": "og:description",
+          "content": "Gissar att det inte kommer vara prioriterat men tänker om det kanske är en quick fix. För mig så skulle dessa förändringar (1-3 tror jag inte är för stora) göra stor skillnad för användarvänligheten med notiser:  Möjlighet att göra flerval i notiskategori..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-24T14:56:54.840Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-25T11:08:39.918Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669301739912-922d5087-6170-4a8e-9c5e-dea60a9ae354-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669301739912-922d5087-6170-4a8e-9c5e-dea60a9ae354-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "258"
+        },
+        {
+          "property": "og:image:height",
+          "content": "80"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669301050228-99722b64-18c8-4d5a-9d2d-4778d058e599-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669301050228-99722b64-18c8-4d5a-9d2d-4778d058e599-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "276"
+        },
+        {
+          "property": "og:image:height",
+          "content": "311"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/619",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/619/community-förslag-notiser",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/619.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/tove"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

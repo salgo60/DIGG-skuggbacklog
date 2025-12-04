@@ -1,0 +1,813 @@
+{
+  "cid": 11,
+  "lastposttime": 1669032176962,
+  "mainPid": 3098,
+  "postcount": 5,
+  "slug": "564/krav-på-verifiering-av-e-postadress",
+  "tid": 564,
+  "timestamp": 1667834083128,
+  "title": "Krav på verifiering av e-postadress",
+  "uid": 531,
+  "viewcount": 563,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 3338,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Krav på verifiering av e-postadress",
+  "timestampISO": "2022-11-07T15:14:43.128Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-21T12:02:56.962Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!</p>\n<p dir=\"auto\">Vi vill informera om att användare nu behöver verifiera e-postadressen de angivit för sitt konto <strong>innan</strong> de kan publicera inlägg på forumet. En overifierad användare kommer fortfarande att kunna läsa det som står på forumet men personen kommer inte att kunna publicera inlägg.</p>\n<p dir=\"auto\">Denna ändring görs för att minska antalet SPAM-konton, få fler verifierade användare och möjliggöra att alla användare kan göra lösenordsåterställning.</p>\n",
+      "pid": 3098,
+      "tid": 564,
+      "timestamp": 1667834083128,
+      "uid": 531,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-21T09:01:24.007Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-07T15:14:43.128Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 531,
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "reputation": 37,
+        "postcount": 54,
+        "topiccount": 24,
+        "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+        "signature": "<p dir=\"auto\">Administratör av forumet, Myndigheten för digital förvaltning - Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761730215316,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "DIGG_admin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-29T09:30:15.316Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/531\">@DIGG_admin</a> toppen, finns möjlighet att byta e-postadress på roadmap?</p>\n",
+      "pid": 3328,
+      "tid": 564,
+      "timestamp": 1669021284007,
+      "toPid": "3098",
+      "uid": 744,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-21T11:07:45.879Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-21T09:01:24.007Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "DIGG_admin",
+        "displayname": "DIGG_admin"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> det går att byta e-postadress för ditt användarkonto redan. Du klickar på din bild och klickar sedan på Redigera profil. Under din profilbild kommer du att få ett val som heter Ändra e-postadress. Skriv  in den e-postadress du vill byta till samt ditt nuvarande lösenord. Genomför ändringen och du kommer då att få ett bekräftelsemejl till den nya e-postadressen. Gå in på det mejlet och verifiera e-postadressen.</p>\n",
+      "pid": 3335,
+      "tid": 564,
+      "timestamp": 1669028865879,
+      "toPid": "3328",
+      "uid": 117,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-21T11:09:32.203Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-21T11:07:45.879Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/117\">@jenniferskoglund</a> jag tyckte jag provade men när det inte fungerade så tänkte jag att det säkert var under utveckling. Provar igen och återkommer i annan kanal om det är någon bugg.</p>\n",
+      "pid": 3336,
+      "tid": 564,
+      "timestamp": 1669028972203,
+      "toPid": "3335",
+      "uid": 744,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-21T12:02:56.962Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-21T11:09:32.203Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jenniferskoglund",
+        "displayname": "jenniferskoglund"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> jaha, vad jag kan se när jag testar är att det verkar fungera. Men pröva gärna och återkom via <a href=\"mailto:info@digg.se\" rel=\"nofollow ugc\">info@digg.se</a> eller via denna kategori <a href=\"https://community.dataportal.se/category/4/feedback-p%C3%A5-dataportal-se\">Feedback på Dataportal</a> för att rapportera en bugg.</p>\n",
+      "pid": 3338,
+      "tid": 564,
+      "timestamp": 1669032176962,
+      "toPid": "3336",
+      "uid": 117,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-21T12:02:56.962Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#A1B56C",
+    "cid": 11,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Här kan du läsa viktig information såsom forumets användarvillkor.",
+    "descriptionParsed": "<p dir=\"auto\">Här kan du läsa viktig information såsom forumets användarvillkor.</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Om detta community",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 0,
+    "post_count": 53,
+    "slug": "11/om-detta-community",
+    "subCategoriesPerPage": 10,
+    "topic_count": 24,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 53,
+    "totalTopicCount": 24
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "564",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/564.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Om detta community",
+      "url": "/category/11/om-detta-community",
+      "cid": 11
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/564",
+  "bodyClass": "page-topic page-topic-564 template-topic page-topic-category-11 page-topic-category-om-detta-community parent-category-11 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Krav på verifiering av e-postadress"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Vi vill informera om att användare nu behöver verifiera e-postadressen de angivit för sitt konto innan de kan publicera inlägg på forumet. En overifierad användare kommer fortfarande att kunna läsa det som står på forumet men personen kommer inte att..."
+        },
+        {
+          "property": "og:title",
+          "content": "Krav på verifiering av e-postadress"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Vi vill informera om att användare nu behöver verifiera e-postadressen de angivit för sitt konto innan de kan publicera inlägg på forumet. En overifierad användare kommer fortfarande att kunna läsa det som står på forumet men personen kommer inte att..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-07T15:14:43.128Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-21T12:02:56.962Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Om detta community"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/531-profileavatar-1662995628514.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/531-profileavatar-1662995628514.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/564",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/564/krav-på-verifiering-av-e-postadress",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/564.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/11/om-detta-community"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/digg_admin"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

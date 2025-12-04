@@ -1,0 +1,807 @@
+{
+  "cid": 23,
+  "lastposttime": 1612881443365,
+  "mainPid": 79,
+  "postcount": 4,
+  "slug": "40/skala-åtkomst-till-flera-språk-abstract-wikipedia",
+  "tid": 40,
+  "timestamp": 1612868489059,
+  "title": "Skala åtkomst till flera språk - Abstract Wikipedia",
+  "uid": 24,
+  "viewcount": 554,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 0,
+  "teaserPid": 87,
+  "tags": [
+    {
+      "value": "wikidata",
+      "valueEscaped": "wikidata",
+      "valueEncoded": "wikidata",
+      "class": "wikidata"
+    },
+    {
+      "value": "språk",
+      "valueEscaped": "språk",
+      "valueEncoded": "spr%C3%A5k",
+      "class": "språk"
+    }
+  ],
+  "oldCid": 3,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Skala åtkomst till flera språk - Abstract Wikipedia",
+  "timestampISO": "2021-02-09T11:01:29.059Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-02-09T14:37:23.365Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Vi lever idag i ett samhälle där många språk pratas men ofta ser vi Öppen data publiceras bara på svenska....</p>\n<p dir=\"auto\">Wikipedia är som ni alla vet ett gäng volontärer som alltid tänkt globalt och idag <a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedias\" rel=\"nofollow ugc\">stöds &gt; 200 språk</a> MEN de flesta artiklarna finns på engelsk wikipedia. För att lösa denna ekvation har dom gjort som svensk Öppen data bör göra</p>\n<ul>\n<li><strong>Skapa en kunskapgraf</strong> som är språkoberoende - <a href=\"https://www.youtube.com/watch?v=m_9_23jXPoE\" rel=\"nofollow ugc\">Wikidata</a></li>\n<li>Nästa projekt är att från Kunskapsgrafen skapa artiklar på alla språk dvs. finns tillräckligt med metadata i Wikidata så skall artiklar kunna genereras upp på samiska, gotländska, arabiska, Svenska - <a href=\"https://www.youtube.com/watch?v=9vYOpV-1ipU\" rel=\"nofollow ugc\">video</a></li>\n</ul>\n<p dir=\"auto\">Min undran</p>\n<ol>\n<li>Hur får vi öppen data att bli öppen för alla språk??? Vem tar stafettpinnen och springer i kapp med Wikipedia....</li>\n<li>Begränsar vi inte nyttan av datat om det bara finns på svenska?</li>\n</ol>\n",
+      "pid": 79,
+      "tid": 40,
+      "timestamp": 1612868489059,
+      "uid": 24,
+      "edited": 1613386761396,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-02-09T11:58:04.199Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-02-09T11:01:29.059Z",
+      "editedISO": "2021-02-15T10:59:21.396Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 detta bliver mycket enklare om myndigheterna publicerar data med så mycket textsträngar på svenska som möjligt. Eller?</p>\n<p dir=\"auto\">Kanske dags att komplettera i alla era databaser med identifierare som pekar antingen på en egen kunskapsgraf (där konceptet finns översatt eller länkar till ett ställe (tex Wikidata) där det är översatt.</p>\n<p dir=\"auto\">För att ta ett exempel så vet vi som konsumerar stigar och anordningar från NVV inte riktigt vad de menar när de anger typen i textsträng som \"statlig led\".<br />\nJag kan ju svenska men nått sånt koncept finns inte utanför NVV vad jag vet. Detta behöver åtgärdas och gärna beskrivas med kopplingar tex till Lantmätetiet, Wikidata och OSM. Om det har stöd eller förordning i lag då hänvisas dit.</p>\n<p dir=\"auto\">Detta görs bäst IMO som @salgo60 föreslår i en kunskapsgraf. Det finns säkert andra sätt, men jag har inte hittat nått bättre och enklare som möjliggör maskinläsning.</p>\n",
+      "pid": 81,
+      "tid": 40,
+      "timestamp": 1612871884199,
+      "toPid": "79",
+      "uid": 25,
+      "edited": 1612871902019,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-02-09T14:02:13.418Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-02-09T11:58:04.199Z",
+      "editedISO": "2021-02-09T11:58:22.019Z",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn se den vision jag pekar på i Naturvårdsverkets nya webplats <strong>att alla dom personer som bor i Sverige och inte behärska Svenska skall kunna komma ut i naturen och få en artikel om Naturreservatet på deras språk</strong></p>\n<ul>\n<li>Naturvårdsverket <a href=\"https://github.com/greentechdev/source/issues/3\" rel=\"nofollow ugc\">github greentechdev</a><br />\n<img src=\"/assets/uploads/files/1612877875283-85c43c9a-f46e-4710-ab89-5748eeec789f-image.png\" alt=\"85c43c9a-f46e-4710-ab89-5748eeec789f-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n<p dir=\"auto\">I Wikidata världen har vi koll på</p>\n<ul>\n<li>alla &gt; 300 olika Wikipedias som finns på olika språk</li>\n<li>vilka språk som någon av dom 300 WIkipedierna skrivit om ett svenskt Naturreservat  <a href=\"https://w.wiki/xf6\" rel=\"nofollow ugc\">bubbelchart</a></li>\n<li><a href=\"https://w.wiki/yYL\" rel=\"nofollow ugc\">vilka externa källor</a> som pekar på dessa naturreservat\n<ul>\n<li><a href=\"http://tinyurl.com/yanfufjb\" rel=\"nofollow ugc\">karta vilka naturreservat</a> som har koppling Naturvårdsverket och <a href=\"https://www.protectedplanet.net/en/news-and-stories/the-lag-effect-in-the-world-database-on-protected-areas\" rel=\"nofollow ugc\">WDPA</a>\n<ul>\n<li>eftersom vi har en kunskapsgraf kan vi ställa frågan <a href=\"https://w.wiki/yYT\" rel=\"nofollow ugc\">visa  alla Naturreservat i HELA VÄRLDEN</a>  (med brasklapp att alla inte matats in dvs. det saknas bra Öppen Data)</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">vän av ordning kan då se att Naturvårdsverket täcker bara en liten del av världen  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f913.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--nerd_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":nerd_face:\" alt=\"🤓\" /> men <strong>Öppen Data är hela världen</strong> och Wikidata vet om 47258 naturreservat</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1612879106060-77039e72-ee39-451b-b638-ba2d5a565259-image-resized.png\" alt=\"77039e72-ee39-451b-b638-ba2d5a565259-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>Wikidata har ett dynamiskt frågespråk med maskinläsbart resultat <a href=\"https://query.wikidata.org/#%23defaultView%3ABubbleChart%0ASELECT%20%3FlangLabel%20(COUNT(DISTINCT%20%3Flanguagelink)%20AS%20%3Flinkcount)%0AWHERE%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP3613%20%3FNat.%20%20%20%20%20%20%0A%20%20%20%20%3Flanguagelink%20schema%3Aabout%20%3Fitem.%0A%20%20%20%20%3Flanguagelink%20schema%3AinLanguage%20%3Flang.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cde%2Ces%2Car%2Csv%22%20%7D%0A%7D%0AGROUP%20BY%20%3FlangLabel%20%0AORDER%20BY%20DESC(%3Flinkcount)\" rel=\"nofollow ugc\">länk</a></li>\n</ul>\n<p dir=\"auto\">Tänk om Öppen data skapades så att vi jobbade ihop och enkelt kunde se vilka kommuners sidor som finns om ett naturvårdsreservat och vilket språk dom finns på? Och att man som Wikidata kan <strong>med en fråga få realtidsstatus</strong>?</p>\n<p dir=\"auto\"><strong>Har vi en vision om ett inkluderande samhälle?</strong> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f913.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--nerd_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":nerd_face:\" alt=\"🤓\" /></p>\n",
+      "pid": 85,
+      "tid": 40,
+      "timestamp": 1612879333418,
+      "toPid": "81",
+      "uid": 24,
+      "edited": 1612879710481,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-02-09T14:37:23.365Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-02-09T14:02:13.418Z",
+      "editedISO": "2021-02-09T14:08:30.481Z",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 sa i <a href=\"/post/85\">Skala åtkomst till flera språk - Abstract Wikipedia</a>:</p>\n<blockquote>\n<p dir=\"auto\">@dennis_priskorn se den vision jag pekar på i Naturvårdsverkets nya webplats <strong>att alla dom personer som bor i Sverige och inte behärska Svenska skall kunna komma ut i naturen och få en artikel om Naturreservatet på deras språk</strong></p>\n</blockquote>\n<p dir=\"auto\">Det kände jag inte till. Lantmäteriet är inte till någon hjälp, vad jag vet har de bara svenska och samiska textsträngar i sina databaser. (Samma problem där med brist på identifierare)</p>\n<blockquote>\n<ul>\n<li>Naturvårdsverket <a href=\"https://github.com/greentechdev/source/issues/3\" rel=\"nofollow ugc\">github greentechdev</a><br />\n<img src=\"/assets/uploads/files/1612877875283-85c43c9a-f46e-4710-ab89-5748eeec789f-image.png\" alt=\"85c43c9a-f46e-4710-ab89-5748eeec789f-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n<p dir=\"auto\">I Wikidata världen har vi koll på</p>\n<ul>\n<li>alla &gt; 300 olika Wikipedias som finns på olika språk</li>\n<li>vilka språk som någon av dom 300 WIkipedierna skrivit om ett svenskt Naturreservat  <a href=\"https://w.wiki/xf6\" rel=\"nofollow ugc\">bubbelchart</a></li>\n<li><a href=\"https://w.wiki/yYL\" rel=\"nofollow ugc\">vilka externa källor</a> som pekar på dessa naturreservat\n<ul>\n<li><a href=\"http://tinyurl.com/yanfufjb\" rel=\"nofollow ugc\">karta vilka naturreservat</a> som har koppling Naturvårdsverket och <a href=\"https://www.protectedplanet.net/en/news-and-stories/the-lag-effect-in-the-world-database-on-protected-areas\" rel=\"nofollow ugc\">WDPA</a>\n<ul>\n<li>eftersom vi har en kunskapsgraf kan vi ställa frågan <a href=\"https://w.wiki/yYT\" rel=\"nofollow ugc\">visa  alla Naturreservat i HELA VÄRLDEN</a>  (med brasklapp att alla inte matats in dvs. det saknas bra Öppen Data)</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">vän av ordning kan då se att Naturvårdsverket täcker bara en liten del av världen  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f913.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--nerd_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":nerd_face:\" alt=\"🤓\" /> men <strong>Öppen Data är hela världen</strong> och Wikidata vet om 47258 naturreservat</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1612879106060-77039e72-ee39-451b-b638-ba2d5a565259-image-resized.png\" alt=\"77039e72-ee39-451b-b638-ba2d5a565259-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>Wikidata har ett dynamiskt frågespråk med maskinläsbart resultat <a href=\"https://query.wikidata.org/#%23defaultView%3ABubbleChart%0ASELECT%20%3FlangLabel%20(COUNT(DISTINCT%20%3Flanguagelink)%20AS%20%3Flinkcount)%0AWHERE%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP3613%20%3FNat.%20%20%20%20%20%20%0A%20%20%20%20%3Flanguagelink%20schema%3Aabout%20%3Fitem.%0A%20%20%20%20%3Flanguagelink%20schema%3AinLanguage%20%3Flang.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cde%2Ces%2Car%2Csv%22%20%7D%0A%7D%0AGROUP%20BY%20%3FlangLabel%20%0AORDER%20BY%20DESC(%3Flinkcount)\" rel=\"nofollow ugc\">länk</a></li>\n</ul>\n</blockquote>\n<p dir=\"auto\">Wow. Jag får spontant lust att besöka vartenda ett. Om jag besöker 1 per dag då behöver jag 129 år exklusive restid på det projektet. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f604.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smile\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":D\" alt=\"😄\" /> Dags att sätta igång idag. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f61b.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--stuck_out_tongue\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":p\" alt=\"😛\" /></p>\n<blockquote>\n<p dir=\"auto\">Tänk om Öppen data skapades så att vi jobbade ihop och enkelt kunde se vilka kommuners sidor som finns om ett naturvårdsreservat och vilket språk dom finns på? Och att man som Wikidata kan <strong>med en fråga få realtidsstatus</strong>?</p>\n</blockquote>\n<p dir=\"auto\">Det skulle vara intressant med en myndighetskunskapsgraf som senare kunde augmenteras med Wikifunctions så varje kommun inte måste sitta och anställa folk till att skriva innehåll om alla sevärdheter. Det genereras bara via funktioner från grafen.<br />\nMyndighetsgrafen är länkad till Wikidata så då tas bara in det myndigheterna inte själva vill hålla uppdaterad, tex översättning av basala koncept eller liknande.</p>\n<p dir=\"auto\">Kommunerna skulle kunna projektanställa Wikimedianer i residens och ber dem se till att artiklarna från WP inkluderas sömlöst i kommunwebben eller whatever så de slipper sitta och skriva allt i flera kommuner och myndigheter om och om igen.</p>\n",
+      "pid": 87,
+      "tid": 40,
+      "timestamp": 1612881443365,
+      "toPid": "85",
+      "uid": 25,
+      "edited": 1612881473185,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-02-09T14:37:23.365Z",
+      "editedISO": "2021-02-09T14:37:53.185Z",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "40",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/40.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/40",
+  "bodyClass": "page-topic page-topic-40 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Skala åtkomst till flera språk - Abstract Wikipedia"
+        },
+        {
+          "name": "description",
+          "content": "Vi lever idag i ett samhälle där många språk pratas men ofta ser vi Öppen data publiceras bara på svenska.... Wikipedia är som ni alla vet ett gäng volontärer som alltid tänkt globalt och idag stöds &gt; 200 språk MEN de flesta artiklarna finns på engelsk wi..."
+        },
+        {
+          "property": "og:title",
+          "content": "Skala åtkomst till flera språk - Abstract Wikipedia"
+        },
+        {
+          "property": "og:description",
+          "content": "Vi lever idag i ett samhälle där många språk pratas men ofta ser vi Öppen data publiceras bara på svenska.... Wikipedia är som ni alla vet ett gäng volontärer som alltid tänkt globalt och idag stöds &gt; 200 språk MEN de flesta artiklarna finns på engelsk wi..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-02-09T11:01:29.059Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-02-15T10:59:21.396Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/40",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/40/skala-åtkomst-till-flera-språk-abstract-wikipedia",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/40.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

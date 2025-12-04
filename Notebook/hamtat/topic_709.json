@@ -1,0 +1,801 @@
+{
+  "cid": 23,
+  "lastposttime": 1680521592965,
+  "mainPid": 4022,
+  "postcount": 5,
+  "slug": "709/förslag-uid-istället-för-id-i-specifikationer",
+  "tid": 709,
+  "timestamp": 1678202938890,
+  "title": "Förslag UID istället för ID i specifikationer",
+  "uid": 36,
+  "viewcount": 389,
+  "postercount": 5,
+  "teaserPid": 4064,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Förslag UID istället för ID i specifikationer",
+  "timestampISO": "2023-03-07T15:28:58.890Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-04-03T11:33:12.965Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!</p>\n<p dir=\"auto\">Vi tittar i Södertälje kommun på specifikationen Grillplatser och följer såklart den vid vår publicering av Grillplatser i kommunen.</p>\n<p dir=\"auto\">Dock stötte vi på ett problem som jag vill lyfta.<br />\nVårt GIS-system får en konflikt med attributet ID då GIS-systemet skapar upp ett eget ID som också heter just ID.<br />\nJag gissar att fler kommuner kan ha samma problem.</p>\n<p dir=\"auto\">Skulle det vara lämpligt att vid en ny version av Grillplatser och även andra datamängder istället använda UID?<br />\nUnique Identifier.</p>\n<p dir=\"auto\">Vad säger ni andra?</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/29\">@Eric</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/49\">@Maria-Söderlind</a> med flera</p>\n",
+      "pid": 4022,
+      "tid": 709,
+      "timestamp": 1678202938890,
+      "uid": 36,
+      "edited": 1678202969159,
+      "editor": {
+        "uid": 36,
+        "username": "Andreas Sundberg",
+        "userslug": "andreas-sundberg",
+        "displayname": "Andreas Sundberg"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 49,
+            "username": "Maria Söderlind",
+            "userslug": "maria-söderlind",
+            "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+            "fullname": "Maria Söderlind",
+            "displayname": "Maria Söderlind",
+            "icon:text": "M",
+            "icon:bgColor": "#1b5e20"
+          },
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-03-08T06:49:49.155Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-03-07T15:28:58.890Z",
+      "editedISO": "2023-03-07T15:29:29.159Z",
+      "index": 0,
+      "user": {
+        "uid": 36,
+        "username": "Andreas Sundberg",
+        "fullname": "Andreas Sundberg",
+        "userslug": "andreas-sundberg",
+        "reputation": 23,
+        "postcount": 26,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/36-profileavatar-1740577321676.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1760437791602,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Andreas Sundberg",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-10-14T10:29:51.602Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/36\">@Andreas-Sundberg</a> En fundering, det ID som ert interna system har -  är det inte detta som ska in i datamängden? Självklart förutsatt att det är unikt och inte återanvänds.<br />\nVi har möjlighet att byta namn på fält vid importen till vår dataportal, så för oss kommer det inte att bli ett problem om ID kvarstår. Men, med det sagt är det viktigaste att specifikationerna funkar för alla, inte bara för vissa. Så om ID ställer till det för er så håller jag med om att vi fortsättningsvis bör kalla sådana fält för UID</p>\n",
+      "pid": 4024,
+      "tid": 709,
+      "timestamp": 1678258189155,
+      "toPid": "4022",
+      "uid": 49,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-03-08T06:49:49.155Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Andreas Sundberg",
+        "displayname": "Andreas Sundberg"
+      },
+      "user": {
+        "uid": 49,
+        "username": "Maria Söderlind",
+        "userslug": "maria-söderlind",
+        "reputation": 116,
+        "postcount": 83,
+        "topiccount": 7,
+        "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1762977287884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria Söderlind",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2025-11-12T19:54:47.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Om man ska göra en generell lösning, för kanske finns det system som har en egen kolumn som heter UID, så bör ni kika om det går att ge ett alias för fältnamnen vid export/exponering eller automatisera en transformation av datat vid export från ert system.</p>\n",
+      "pid": 4025,
+      "tid": 709,
+      "timestamp": 1678260758462,
+      "toPid": "4022",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-03-28T09:23:57.703Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-03-08T07:32:38.462Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Andreas Sundberg",
+        "displayname": "Andreas Sundberg"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a></a> Bra inspel här. <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/36\">@Andreas-Sundberg</a> Vi har ju pratat lite om detta och jag håller med <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a></a> - det bör gå att i ett GIS-system anpassa till ID. Det är ju risk för att UID lika gärna krockar med något annat. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4046,
+      "tid": 709,
+      "timestamp": 1679995437703,
+      "toPid": "4025",
+      "uid": 30,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-03-28T09:23:57.703Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej jag instämmer med övriga. Det är svårt eller omöjligt att ta höjd för alla system med reserverade ord, i en är ID reserverat, i ett annat system är \"latitude\" och \"longitude\" reserverade.</p>\n<p dir=\"auto\">Jag är lite osäker på hur exakt konflikten sker, men nån form av transformation kanske man kan få till?</p>\n<p dir=\"auto\">Uppstår konflikten då ni tänker er att datat om en grillplats ska läsas i realtid från en tabell via ett API i ert GIS-system?</p>\n<p dir=\"auto\">Jag tänker att man kan döpa tabellen i GIS-systemet annars till vad som helst och när man som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> skriver byta det namnet vid export. Så gör vi i Töreboda/Mariestad/Gullspång när vi hanterar grillplatser i en sharepointlista eller Excelblad - där heter kolumnerna \"Badplatsens fullständiga namn\" men när datat exporteras till vår datakatalog transformerar man namnet till \"name\".</p>\n<p dir=\"auto\">Jag sparkar ju in öppna dörrar kanske, har det löst sig, kom ni på nån lösning som du kan dela med dig av?</p>\n<p dir=\"auto\">Ser inga problem att ändra i specifikationen heller, vi måste till slut börja versionshantera dem, så det är ju lika bra att träna på något \"enkelt\" och \"ofarligt\" som grillplatser <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4064,
+      "tid": 709,
+      "timestamp": 1680521592965,
+      "uid": 127,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-04-03T11:33:12.965Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "709",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/709.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/709",
+  "bodyClass": "page-topic page-topic-709 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Förslag UID istället för ID i specifikationer"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Vi tittar i Södertälje kommun på specifikationen Grillplatser och följer såklart den vid vår publicering av Grillplatser i kommunen. Dock stötte vi på ett problem som jag vill lyfta. Vårt GIS-system får en konflikt med attributet ID då GIS-systemet s..."
+        },
+        {
+          "property": "og:title",
+          "content": "Förslag UID istället för ID i specifikationer"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Vi tittar i Södertälje kommun på specifikationen Grillplatser och följer såklart den vid vår publicering av Grillplatser i kommunen. Dock stötte vi på ett problem som jag vill lyfta. Vårt GIS-system får en konflikt med attributet ID då GIS-systemet s..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-03-07T15:28:58.890Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-04-03T11:33:12.965Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/36-profileavatar-1740577321676.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/36-profileavatar-1740577321676.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/709",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/709/förslag-uid-istället-för-id-i-specifikationer",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/709.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/andreas-sundberg"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

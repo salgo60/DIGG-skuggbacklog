@@ -1,0 +1,880 @@
+{
+  "cid": 29,
+  "lastposttime": 1725157917478,
+  "mainPid": 4811,
+  "postcount": 6,
+  "slug": "963/skatteverkets-api-rättsliga-regler-och-regelfilskonceptet-i-sin-helhet",
+  "tid": 963,
+  "timestamp": 1724928212680,
+  "title": "Skatteverkets API Rättsliga regler och regelfilskonceptet i sin helhet",
+  "uid": 1750,
+  "viewcount": 579,
+  "postercount": 3,
+  "teaserPid": 4824,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Skatteverkets API Rättsliga regler och regelfilskonceptet i sin helhet",
+  "timestampISO": "2024-08-29T10:43:32.680Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-09-01T02:31:57.478Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!<br />\nI denna tråd är tanken att vi diskuterar Skatteverkets API Rättsliga regler och regelfilskoncept. Förhoppningen är att kunna få till en öppen dialog där Skatteverket delar med sig av nyheter kring produkterna och tankar och idéer om hur såväl API som koncept kan utvecklas för att bli så användbara som möjligt (utan att bli för komplexa).  All feedback mottages tacksamt!</p>\n<p dir=\"auto\">Tråden öppnas på prov och kommer att stängas om det visar sig att användandet är begränsat.</p>\n<p dir=\"auto\">/Andreas Bertilsson<br />\n<em>Produktägare Rättsliga regler</em></p>\n",
+      "pid": 4811,
+      "tid": 963,
+      "timestamp": 1724928212680,
+      "uid": 1750,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1750,
+            "username": "SKV RaC",
+            "userslug": "skv-rac",
+            "picture": null,
+            "fullname": null,
+            "displayname": "SKV RaC",
+            "icon:text": "S",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-08-29T10:57:37.308Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-08-29T10:43:32.680Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1750,
+        "username": "SKV RaC",
+        "userslug": "skv-rac",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1725028109642,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "SKV RaC",
+        "groupTitleArray": [],
+        "icon:text": "S",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2024-08-30T14:28:29.642Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><strong>Nytt regelområde och utökad funktionalitet i API:ets testtjänst</strong><br />\nNu finns regelfiler samt specifikation för området Uthyrning av privatbostad tillgängliga för nedladdning på Skatteverkets Utvecklarportal eller via API:et(regelfilerna).</p>\n<p dir=\"auto\"><a href=\"https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/oppetdata/R%C3%A4ttsliga%20regelfiler\" rel=\"nofollow ugc\">Länk till regelfilerna</a></p>\n<p dir=\"auto\">Vi har också adderat funktionalitet i API:ets testtjänst för att kunna hämta utlandstraktamentesbelopp för ett visst år (för tillfället endast 2024) och fråga om man har senaste versionen av en regelfil.</p>\n<p dir=\"auto\"><a href=\"https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/regelverk-rattsliga-regler/1.0.2/%C3%96versikt\" rel=\"nofollow ugc\">Länk till API:et</a></p>\n",
+      "pid": 4814,
+      "tid": 963,
+      "timestamp": 1724929057308,
+      "toPid": "4811",
+      "uid": 1750,
+      "edited": 1724929229675,
+      "editor": {
+        "uid": 1750,
+        "username": "SKV RaC",
+        "userslug": "skv-rac",
+        "displayname": "SKV RaC"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 472,
+            "username": "elias",
+            "userslug": "elias",
+            "picture": null,
+            "fullname": "Elias Rudberg",
+            "displayname": "elias",
+            "icon:text": "E",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-08-29T20:26:30.434Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-08-29T10:57:37.308Z",
+      "editedISO": "2024-08-29T11:00:29.675Z",
+      "index": 1,
+      "parent": {
+        "username": "SKV RaC",
+        "displayname": "SKV RaC"
+      },
+      "user": {
+        "uid": 1750,
+        "username": "SKV RaC",
+        "userslug": "skv-rac",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1725028109642,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "SKV RaC",
+        "groupTitleArray": [],
+        "icon:text": "S",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2024-08-30T14:28:29.642Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1750\">@SKV-RaC</a> hej, vad fint att ni har ett API!</p>\n<p dir=\"auto\">Jag undrar lite kring vem som kan använda det, och hur. Läste under \"Målgrupp\" att det står \"Alla får använda API:et\" vilket jag tycker låter mycket bra. Men samtidigt står det \"API:et riktar sig till programvaruföretag som hanterar skatteregler\", som om det inte är alla utan bara företag, och på sidan \"Begär tillgång till driftsatt tjänst Rättsliga regler\" förväntas man fylla i information \"Om företaget\", \"Företagets namn\" o.s.v. så även där verkar det som om bara företag får använda APIet.</p>\n<p dir=\"auto\">Jag tycker det verkar som en konstig begränsning. Varför skulle bara företag få använda APIet?</p>\n<p dir=\"auto\">Borde inte både privatpersoner och olika organisationer i civilsammhället (ideella föreningar till exempel) också få använda APIet?</p>\n",
+      "pid": 4815,
+      "tid": 963,
+      "timestamp": 1724963190434,
+      "toPid": "4814",
+      "uid": 472,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1750,
+            "username": "SKV RaC",
+            "userslug": "skv-rac",
+            "picture": null,
+            "fullname": null,
+            "displayname": "SKV RaC",
+            "icon:text": "S",
+            "icon:bgColor": "#3f51b5"
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-08-30T14:28:29.236Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-08-29T20:26:30.434Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "SKV RaC",
+        "displayname": "SKV RaC"
+      },
+      "user": {
+        "uid": 472,
+        "username": "elias",
+        "userslug": "elias",
+        "reputation": 96,
+        "postcount": 68,
+        "topiccount": 13,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756032209452,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "elias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-08-24T10:43:29.452Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/472\">@elias</a><br />\nHej Elias!</p>\n<p dir=\"auto\">Tack för dina synpunkter.</p>\n<p dir=\"auto\">Skatteverkets API Rättsliga regler är ett s.k. partner API som kräver avtal om reglering av nyttjandet med Skatteverket för att kunna användas. I dagsläget är det möjligt för organisationer men inte privatpersoner att teckna sådana avtal. (Jag tar självklart till mig att skrivningen om API:ets \"Målgrupp\" ska förtydligas.)</p>\n<p dir=\"auto\"><a href=\"https://www.skatteverket.se/omoss/digitalasamarbeten/utvecklingavapierochoppnadata/kunskapochinspiration/avtalsprocessforpartnerapier.4.96cca41179bad4b1aacb46.html\" rel=\"nofollow ugc\">Här kan du lämna mer om grundkraven och  avtalsprocessen för partner API:er</a></p>\n<p dir=\"auto\">När det gäller Skatteverkets regelfilskoncept är vår generella ambition att vara så öppna som möjligt med våra produkter och tjänster så att de ska komma till så stor nytta som möjligt. Vi tillhandahåller därför regelfilerna och specifikationerna som öppen data på vår Utvecklarportal. Det kan därför framstå som ologiskt att det finns begränsningar kring API:ets användning. Det är dock en mängd faktorer som vägs in när ett nytt API skapas bl.a. kundbehov men även säkerhetsmässiga och verksamhetsmässiga aspekter och i det här fallet har Skatteverket landat i att API:et Rättsliga regler ska vara ett partner API.</p>\n<p dir=\"auto\">Om du har exempel på tänkt användning där Skatteverkets utbud idag inte motsvarar behovet får du gärna utveckla detta. Det går i så fall bra att skriva direkt här i tråden alternativt kontakta oss på via kontaktformuläret på <a href=\"http://Skatteverket.se\" rel=\"nofollow ugc\">Skatteverket.se</a>.</p>\n<p dir=\"auto\"><a href=\"https://www.skatteverket.se/omoss/digitalasamarbeten/samarbeten/kontaktaossforsamarbeten.4.7c708f0e16bed42cd055c16.html\" rel=\"nofollow ugc\">Kontakta oss</a></p>\n<p dir=\"auto\">Vänliga hälsningar<br />\nAndreas</p>\n",
+      "pid": 4819,
+      "tid": 963,
+      "timestamp": 1725028109236,
+      "toPid": "4815",
+      "uid": 1750,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 472,
+            "username": "elias",
+            "userslug": "elias",
+            "picture": null,
+            "fullname": "Elias Rudberg",
+            "displayname": "elias",
+            "icon:text": "E",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-09-01T02:31:57.478Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-08-30T14:28:29.236Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "elias",
+        "displayname": "elias"
+      },
+      "user": {
+        "uid": 1750,
+        "username": "SKV RaC",
+        "userslug": "skv-rac",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1725028109642,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "SKV RaC",
+        "groupTitleArray": [],
+        "icon:text": "S",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2024-08-30T14:28:29.642Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/472\">@elias</a> sa i <a href=\"/post/4815\">Skatteverkets API Rättsliga regler och regelfilskonceptet i sin helhet</a>:</p>\n<blockquote>\n<p dir=\"auto\">Borde inte både privatpersoner och olika organisationer i civilsammhället (ideella föreningar till exempel) också få använda APIet?</p>\n</blockquote>\n<p dir=\"auto\">Det kan man undra, skälen till begränsningen är oklara. De kanske tror att det skulle underlätta för ekonomisk brottslighet på något vis? Kan man se någon nytta i att allmänheten får tillgång till API-tjänsterna? Vad blir skadan?</p>\n",
+      "pid": 4822,
+      "tid": 963,
+      "timestamp": 1725047038546,
+      "toPid": "4815",
+      "uid": 125,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-08-30T19:43:58.546Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "elias",
+        "displayname": "elias"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1750\">@SKV-RaC</a> sa i <a href=\"/post/4819\">Skatteverkets API Rättsliga regler och regelfilskonceptet i sin helhet</a>:</p>\n<blockquote>\n<p dir=\"auto\">Om du har exempel på tänkt användning där Skatteverkets utbud idag inte motsvarar behovet får du gärna utveckla detta.</p>\n</blockquote>\n<p dir=\"auto\">Jag föreställer mig att ett relevant användningsfall är att någon vill skapa ett program (mjukvara) som visar skatteregler och hur reglerna ändrats över tid.</p>\n<p dir=\"auto\">Det verkar som om Skatteverket har tänkt att denna \"någon\" som vill skapa ett sådant program, alltid är ett företag eller en formell organisation (formellt registrerad organisation så att den har ett org-nummer tror jag ni menar).</p>\n<p dir=\"auto\">Men det behöver inte alls vara ett företag eller den typ av organisation ni tänkt, det kan vara en privatperson som vill göra ett eget program, eller det kan vara någon mindre formell organisation som inte kan eller vill teckna avtal.</p>\n<p dir=\"auto\">Om vi tar privatpersonen som exempel, det skulle kunna vara jag själv som privatperson, jag kanske är intresserad av någon viss skatteregel (kanske i samband med att jag ska lämna in min deklaration) och jag vill skriva ett script som via ert API plockar fram de olika versioner som funnits av den skatteregeln. Jag kanske använder Debian, kanske gillar jag bash och curl och jag skulle ganska enkelt kunna skriva ett litet bash-script som tog fram informationen jag ville ha, om jag hade tillgång till ert API. Inget företag är inblandat, det är bara jag som privatperson som kommunicerar med Skatteverket.</p>\n<p dir=\"auto\">Kanske är ert svar till mig då att jag istället ska köpa en produkt utvecklad av ett företag som har avtal med er, så att det företagets produkt kan hämta informationen åt mig. Men jag vill inte köpa någon produkt från något företag, det är både snabbare och enklare för mig att skriva mitt eget script.</p>\n<p dir=\"auto\">Ett annat exempel är att någon organisation kanske driver ett öppen-källkod-projekt där de tar fram programvara som kan visa saker som t.ex. era skatteregler. Det är då fri och öppen programvara som vem som helst kan köra på sin egen dator, men för att köra den kommer man behöva tillgång till ert API. Om det t.ex. krävs en API-token för tillgång så skulle varje användare behöva konfigurera programmet med en sån API-token, i princip skulle varje användare kunna ansöka hos er om access, men det går ju inte om inte privatpersoner kan få access.</p>\n<p dir=\"auto\">Förstår ni vad jag menar med de här exemplen?</p>\n",
+      "pid": 4824,
+      "tid": 963,
+      "timestamp": 1725157917478,
+      "toPid": "4819",
+      "uid": 472,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-09-01T02:31:57.478Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "SKV RaC",
+        "displayname": "SKV RaC"
+      },
+      "user": {
+        "uid": 472,
+        "username": "elias",
+        "userslug": "elias",
+        "reputation": 96,
+        "postcount": 68,
+        "topiccount": 13,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756032209452,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "elias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-08-24T10:43:29.452Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#357692",
+    "cid": 29,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "En egen kategori för diskussion kring Skatteverkets API:er",
+    "descriptionParsed": "<p dir=\"auto\">En egen kategori för diskussion kring Skatteverkets API:er</p>\n",
+    "disabled": 0,
+    "icon": "fa-chain",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Skatteverkets API:er",
+    "numRecentReplies": 1,
+    "order": 11,
+    "parentCid": 0,
+    "post_count": 20,
+    "slug": "29/skatteverkets-api-er",
+    "subCategoriesPerPage": 10,
+    "topic_count": 11,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 20,
+    "totalTopicCount": 11
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "963",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/963.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Skatteverkets API:er",
+      "url": "/category/29/skatteverkets-api-er",
+      "cid": 29
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/963",
+  "bodyClass": "page-topic page-topic-963 template-topic page-topic-category-29 page-topic-category-skatteverkets-api-er parent-category-29 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Skatteverkets API Rättsliga regler och regelfilskonceptet i sin helhet"
+        },
+        {
+          "name": "description",
+          "content": "Hej! I denna tråd är tanken att vi diskuterar Skatteverkets API Rättsliga regler och regelfilskoncept. Förhoppningen är att kunna få till en öppen dialog där Skatteverket delar med sig av nyheter kring produkterna och tankar och idéer om hur såväl API som..."
+        },
+        {
+          "property": "og:title",
+          "content": "Skatteverkets API Rättsliga regler och regelfilskonceptet i sin helhet"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! I denna tråd är tanken att vi diskuterar Skatteverkets API Rättsliga regler och regelfilskoncept. Förhoppningen är att kunna få till en öppen dialog där Skatteverket delar med sig av nyheter kring produkterna och tankar och idéer om hur såväl API som..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-08-29T10:43:32.680Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-09-01T02:31:57.478Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Skatteverkets API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/963",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/963/skatteverkets-api-rättsliga-regler-och-regelfilskonceptet-i-sin-helhet",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/963.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/29/skatteverkets-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/skv-rac"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

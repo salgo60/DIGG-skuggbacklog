@@ -1,0 +1,815 @@
+{
+  "cid": 31,
+  "lastposttime": 1672134710869,
+  "mainPid": 3825,
+  "postcount": 5,
+  "slug": "659/uppdaterad-dokumentation-20221221-version-3",
+  "tid": 659,
+  "timestamp": 1671637505751,
+  "title": "Uppdaterad dokumentation (20221221) - version 3",
+  "uid": 454,
+  "viewcount": 515,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 3830,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Uppdaterad dokumentation (20221221) - version 3",
+  "timestampISO": "2022-12-21T15:45:05.751Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-12-27T09:51:50.869Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Mina ärenden har den 21 december 2022 uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att dokumentationen uppdateras/förändras.</p>\n<p dir=\"auto\">Om du som läser detta har några frågor så är du välkommen att skriva de i denna tråd.</p>\n<h2>Förändringar</h2>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>ID</th>\n<th>Vart</th>\n<th>Beskrivning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2022-12-21-<strong>01</strong></td>\n<td>Verksamhetsguide</td>\n<td>Språkliga justeringar och flyttat runt innehåll. Avsnittet om notifering har flyttats till kap. 5 \"Kommunikationstaktik och kanalsamordning\"</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>02</strong></td>\n<td>Verksamhetsguide</td>\n<td>Uppdaterat språkguide med anledning av ändring av lösning för \"referenser och mönster för tvåvägskommunikation\"</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>03</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Uppdatering med anledning av nytt angreppssätt för att tillgodose mönster för tvåvägskommunikation. Nytt informationsobjekt \"referenser\" har lagts till i Tjänstebeskrivning.</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>04</strong></td>\n<td>Verksamhetsguide</td>\n<td>Mönster för tvåvägskommunikation beskrivs kap. 2 avsnitt \"Mönster för tvåvägskommunikation - referenser\"</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>05</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Nytt attribut \"version\" i \"kundhandelsResponse\" som informerar vilken version av Mina ärenens standard som producenten implementerat</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>06</strong></td>\n<td>Enkel kundhändelsetjänst</td>\n<td>Svaren i enkel kundhändelsetjänst har uppdaterats i enlighet med senaste versionen av Tjänstebeskrivning</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>07</strong></td>\n<td>Kom igång med Mina ärenden</td>\n<td>En kom igång-guide som tagits fram utifrån de frågor och diskussioner som väckts i samband med att Värmdö kommun börjat sätta sig in i byggblocket Mina ärenden. Kom igång-guiden avser att ge stöd för hur en producent steg-för-steg kan närma sig området med att lämna ärendeåterkoppling på ett standardiserat sätt</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>08</strong></td>\n<td>Prototyp Kundhändelsetypskatalog</td>\n<td>En första enkel prototyp för att bättre kunna kommunicera hur en kundhändelsetypskatalog kan utformas för att få input i den fortsatta utvecklinen. <a href=\"https://community.dataportal.se/topic/658/prototyp-kundh%C3%A4ndelsetypskatalog\">Behandlas i en separat tråd här på communityt</a>.</td>\n</tr>\n<tr>\n<td>2022-12-21-<strong>09</strong></td>\n<td>Versionshantering av Mina ärendens standard och Producenters API:er</td>\n<td>Dokument som beskriver Mina ärendens versionshantering och hur byggblocket förhåller sig till producenternas versionshantering.</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\"><em>Det kan dröja till imorgon innan de nya versionerna och nya resurser \"skördats\" till dataportalen, vill man se dessa nu så går de hitta på Skatteverkets utvecklarportal.</em></p>\n<p dir=\"auto\">I och med att vi genomför en förändring av Tjänstebeskrivningen som innebär att ett nytt informationsobjekt \"referenser\" tillkommer dit bl.a. attributet producentReferens och \"konsumentReferens\" läggs så blir detta en ny version av standarden för kundhändelser - version 3.</p>\n<p dir=\"auto\">Är man intresserad av att ta del av tidigare versioner finns dessa samlade på dataportal <a href=\"https://www.dataportal.se/sv/datasets/6_72041/mina-arenden-tidigare-versioner\" rel=\"nofollow ugc\">Mina ärenden - Tidigare versioner</a></p>\n<p dir=\"auto\"><a href=\"https://www.dataportal.se/sv/datasets/6_71657/mina-arenden\" rel=\"nofollow ugc\">På dataportal.se</a> finns senast uppdaterade dokumentation.</p>\n<p dir=\"auto\"><strong>Övrig info:</strong></p>\n<ul>\n<li>Skatteverket har tagit fram ett första kundhändelse-API som möjliggör för en användare att via en s.k. konsumenttjänst hämta kundhändelser från Skatteverket.  API:et lanserades v.50 och bygger på Mina ärendens första standard (v.1). <a href=\"https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/kundhandelser/3.0.4/%C3%96versikt\" rel=\"nofollow ugc\">Läs mer om API:et på Skatteverkets utvecklarportal.</a></li>\n<li>Digg har publicerat byggblocksbeskrivningar för flera byggblock, inkl. Mina ärenden. <a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/byggblock/byggblocksbeskrivningar\" rel=\"nofollow ugc\">De finns att läsa på Diggs webbplats.</a></li>\n</ul>\n<hr />\n<p dir=\"auto\">Uppdaterade tråden m.a.a. vi lade till nytt dokument \"<em>Versionshantering av Mina ärendens standard och Producenters API:er</em>\" samt inte beskrivit nytt attribut \"version\" i Tjänstebeskrivning.</p>\n",
+      "pid": 3825,
+      "tid": 659,
+      "timestamp": 1671637505751,
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 2,
+      "edited": 1671713171015,
+      "editor": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "displayname": "johantjader"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-12-24T09:20:59.571Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-12-21T15:45:05.751Z",
+      "editedISO": "2022-12-22T12:46:11.015Z",
+      "index": 0,
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> varför väljer ni att publicera som ni gör och inte i ett diffbart format som exvis github/gitlab/gerrit(🤮)/bitbucket? Tänker att det skulle vara enklare att se de faktiska ändringarna då.</p>\n",
+      "pid": 3827,
+      "tid": 659,
+      "timestamp": 1671873659571,
+      "toPid": "3825",
+      "uid": 128,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-12-26T07:49:22.666Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-12-24T09:20:59.571Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> bra och relevant fråga!<br />\nNär vi fick behov av att publicera och tillgängliggöra dokumentation och specifikationer så undersökte vi vilka möjligheter som stod till buds. På Skatteverket används idag ingen av de lösningar du nämner utan istället är det framförallt <a href=\"https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen\" rel=\"nofollow ugc\">Utvecklarportalen</a> som används och som sen skördas till Dataportalen.</p>\n<p dir=\"auto\">Vi ville inte skapa konton i eget (privat) namn på t.ex. Github av flera skäl, dels vill vi inte att det ska finnas någon tveksamhet vem som är avsändare (Skatteverket som byggblocksansvarigt), dels kommer det komma fler byggblock i Ena som har ungefär samma behov som BB Mina ärenden där man kommer vilja tillgängliggöra tekniska förmågor, tjänster, standardiserade modeller, ramverk och mönster enkelt, tillgängligt och med en fungerande versionshantering.</p>\n<p dir=\"auto\">Vi tror att det bästa är att vi inom Ena tar ett större grepp kring frågan så att de lösningar som tas fram av vårt och andras byggblock blir enkelt och sammanhängande att både hitta och använda för tänkta användare.</p>\n<p dir=\"auto\">Mot bakgrund av ovanstående valde vi att köra med det som fanns tillhands idag med Utvecklarportalen och medvetna om en del av de brister som ett sådant val medför. Viktigast för oss har varit att tidigt få vår dokumentation publik så det finns möjlighet för andra att ta del och tycka till. Med sagt så kvarstår dock ambitionerna att hitta bättre sätt framöver - helst på ett inom Ena enhetligt sätt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f604.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smile\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":smile:\" alt=\"😄\" /></p>\n<p dir=\"auto\">Trevlig fortsättning! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f384.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--christmas_tree\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":christmas_tree:\" alt=\"🎄\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f386.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--fireworks\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":fireworks:\" alt=\"🎆\" /></p>\n",
+      "pid": 3828,
+      "tid": 659,
+      "timestamp": 1672040962666,
+      "toPid": "3827",
+      "uid": 454,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-12-26T08:21:58.248Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-12-26T07:49:22.666Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> Vad är ni rädda för? Att skapa en organisation på Github som heter Ena, bjuda in alla i byggblocken och börja publicera kan göras på 5 minuter. Skapa ett Repo för varje byggblock och kör. Blev det inte optimalt, ändra och förbättra, länka vidare från gamla repon, byter ni till gitlab/bitbucket eller vad helst annat, länka vidare i readmen.</p>\n<p dir=\"auto\">Att ta större grepp är en enkel undanflykt för att inget göra istället för att successivt bygga upp processer.</p>\n<p dir=\"auto\">I mina ögon har ni genom detta enda beslut brutit mot 3 av 4  ställningstagande i det agila manifestot.</p>\n<ul>\n<li><strong>Individuals and interactions</strong> over processes and tools (ni verkar vara rädda för att privata utvecklare ska synas på github och få ett renommé )</li>\n<li><strong>Working software</strong> over comprehensive documentation (Få ut dokumentationen och ändringarna tydligt läsbart)</li>\n<li><strong>Customer collaboration</strong> over contract negotiation (Ta emot feedback på ett lämpligt sätt genom ex.vis PR,  diskussioner i issues)</li>\n<li><strong>Responding to change</strong> over following a plan</li>\n</ul>\n",
+      "pid": 3829,
+      "tid": 659,
+      "timestamp": 1672042918248,
+      "toPid": "3828",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-12-27T09:51:50.869Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-12-26T08:21:58.248Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> Jag skulle säga att <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> och hans team har tagit ställning enligt det agila manifestet på ett föredömligt sätt.<br />\n<strong>Individuals and interactions</strong> over processes and tools: När vi inte kan tillhandahålla processer och verktyg för dem, prioriterar de att få ut resultatet till oss med de verktyg och processer som står till buds idag.<br />\n<strong>Customer collaboration</strong> over contract negotiation: Trots att de vet att de kommer få kritik för formatet tycker de ändå att det är så viktigt att ha en dialog om sina resultat så de startar den i alla fall.<br />\nKudos till <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> &amp; Co, pionjärer är vad ni är! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Att ni väljer att dela med er sätter fingret på vilka verktyg och processer vi saknar, vilket är första steget på vägen att ta fram dem.<br />\nGod Jul och Gott Nytt År! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f31f.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--star2\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":star2:\" alt=\"🌟\" /></p>\n",
+      "pid": 3830,
+      "tid": 659,
+      "timestamp": 1672134710869,
+      "toPid": "3829",
+      "uid": 216,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-12-27T09:51:50.869Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#A16946",
+    "cid": 31,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Mina ärenden",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 30,
+    "post_count": 72,
+    "slug": "31/mina-ärenden",
+    "subCategoriesPerPage": 10,
+    "topic_count": 18,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 72,
+    "totalTopicCount": 18
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "659",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/659.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    },
+    {
+      "text": "Mina ärenden",
+      "url": "/category/31/mina-ärenden",
+      "cid": 31
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/659",
+  "bodyClass": "page-topic page-topic-659 template-topic page-topic-category-31 page-topic-category-mina-ärenden parent-category-30 parent-category-31 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Uppdaterad dokumentation (20221221) - version 3"
+        },
+        {
+          "name": "description",
+          "content": "Mina ärenden har den 21 december 2022 uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samb..."
+        },
+        {
+          "property": "og:title",
+          "content": "Uppdaterad dokumentation (20221221) - version 3"
+        },
+        {
+          "property": "og:description",
+          "content": "Mina ärenden har den 21 december 2022 uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samb..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-12-21T15:45:05.751Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-12-27T09:51:50.869Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Mina ärenden"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/659",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/659/uppdaterad-dokumentation-20221221-version-3",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/659.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/31/mina-ärenden"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/johantjader"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

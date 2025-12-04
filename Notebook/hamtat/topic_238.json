@@ -1,0 +1,1278 @@
+{
+  "cid": 23,
+  "lastposttime": 1669191192827,
+  "mainPid": 1041,
+  "postcount": 10,
+  "slug": "238/leverantörsreskontra-som-öppna-data-hur-du-publicerar",
+  "tags": [
+    {
+      "value": "leverantörsfaktura",
+      "valueEscaped": "leverantörsfaktura",
+      "valueEncoded": "leverant%C3%B6rsfaktura",
+      "class": "leverantörsfaktura"
+    },
+    {
+      "value": "openspending",
+      "valueEscaped": "openspending",
+      "valueEncoded": "openspending",
+      "class": "openspending"
+    },
+    {
+      "value": "levreskontra",
+      "valueEscaped": "levreskontra",
+      "valueEncoded": "levreskontra",
+      "class": "levreskontra"
+    },
+    {
+      "value": "utgifter",
+      "valueEscaped": "utgifter",
+      "valueEncoded": "utgifter",
+      "class": "utgifter"
+    },
+    {
+      "value": "upphandling",
+      "valueEscaped": "upphandling",
+      "valueEncoded": "upphandling",
+      "class": "upphandling"
+    }
+  ],
+  "tid": 238,
+  "timestamp": 1636548270579,
+  "title": "Leverantörsreskontra som öppna data - hur du publicerar",
+  "uid": 30,
+  "viewcount": 1432,
+  "postercount": 6,
+  "teaserPid": 3419,
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Leverantörsreskontra som öppna data - hur du publicerar",
+  "timestampISO": "2021-11-10T12:44:30.579Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-23T08:13:12.827Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Alla kommuner och myndigheter genomför inköp av produkter och tjänster och har andra utgifter vars resultat representeras som leverantörsreskontra. Årligen görs inköp för nära 800 miljarder kronor så det är viktigt både för medarbetare inom offentlig sektor och medborgare som skattebetalare att kunna se vilka dessa är samt de resultat det leder till. För att det ska bli så enkelt som möjligt att kunna använda och ta del av gjorda inköp bör informationen om inköpen publiceras som öppna data. Dessa kan vem som helst kan se, analysera och använda hur de vill.</p>\n<p dir=\"auto\">Inom ramen för projektet <a href=\"https://community.entryscape.com/c/nsod/15\" rel=\"nofollow ugc\">NSÖD (Nationell Skalning Öppna Data)</a> har vi på MetaSolutions samordnande att ta fram en specifikation för hur informationen bör publiceras som öppna data. Arbetet påbörjades redan 2019.</p>\n<p dir=\"auto\">Genom det gemensamma arbete med specifikationen har flera myndigheter och kommuner också börjat sina publiceringar. Del i arbetet har även olika aktörer inom offentlig sektor och leverantörer varit inblandade för att det ska vara möjligt för dem att stödja specifikationen.</p>\n<p dir=\"auto\">Det finns en del utmaningar när denna information ska publiceras och vi har försökt ta höjd för dessa i arbetet och lagt till mer information i rekommendationen.</p>\n<p dir=\"auto\">Diskutera gärna alla aspekter kring datramängden och denna specifikation här i tråden. Både hur den kan och bör publiceras samt tankar och synpunkter du som användare av informationen har.</p>\n<p dir=\"auto\">Specifikationen finns publicerad på nationella dataportalen <a href=\"https://www.dataportal.se/sv/specifications/leverantorsreskontra/latest#ref=?p=1&amp;q=leverant%C3%B6rsreskontra&amp;s=2&amp;t=20&amp;f=&amp;rt=spec_standard%24spec_profile&amp;c=false\" rel=\"nofollow ugc\">dataportal.se</a> .</p>\n<p dir=\"auto\">Specifikationen består av följande filer:</p>\n<p dir=\"auto\"><strong>Specifikation för publicering av leverantörsreskontra</strong><br />\nHär finns beskrivning av specifikationen och en guide för vad som behöver göras för att publicera leverantörsreskontra som öppna data. Detta är ofta det bästa dokumentet att läsa först.</p>\n<p dir=\"auto\"><strong>Terminologi med olika grunder för inköp</strong><br />\nEn grundläggande enkel terminologi för att standardisera uttryck som används kopplat till specifikationen.</p>\n<p dir=\"auto\"><strong>Källkod - validering</strong><br />\nHär finns den tekniska källkoden som ligger till grund för hur leverantörsreskontra ska publiceras. Vilken information som ska publiceras och definitionen av varje datapunkt. Källkod finns på GitLab <a href=\"https://gitlab.com/lankadedata/spec/levreskontra\" rel=\"nofollow ugc\">här</a>.</p>\n<p dir=\"auto\"><strong>Leverantörsreskontra - JSON schema</strong><br />\nEtt exempel på hur den tekniska rekommendationen kan se ut när man implementerat den i JSON-format.</p>\n<p dir=\"auto\"><strong>Leverantörsreskontra - CSV schema</strong><br />\nEtt exempel på hur den tekniska rekommendationen kan se ut när man implementerat den i JSON-format.</p>\n<p dir=\"auto\"><strong>Leverantörsreskontra - DCAT-AP-SE</strong><br />\nEtt förslag på metadata enligt specifikationen DCAT-AP-SE som används för att göra information sökbar på Sveriges dataportal <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a>. Viss metadata bör vara gemensam för alla som publicerar denna information som öppna data och viss information är specifik för respektive publicerande organisation.</p>\n<p dir=\"auto\">Se relaterade trådar <a href=\"https://community.entryscape.com/t/specifikation-for-leverantorsreskontra-klar/561\" rel=\"nofollow ugc\">Specifikation för leverantörsreskontra klar</a> och tråden <a href=\"https://community.entryscape.com/t/exportera-och-publicera-leverantorsreskontra-t-ex-via-ekonomisystem-och-teis/550\" rel=\"nofollow ugc\">Exportera och publicera leverantörsreskontra t.ex. via ekonomisystem och TEIS</a>.</p>\n",
+      "pid": 1041,
+      "tid": 238,
+      "timestamp": 1636548270579,
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 90,
+            "username": "jamespether",
+            "userslug": "jamespether",
+            "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+            "fullname": "James Pether Sörling",
+            "displayname": "jamespether",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-11-10T13:02:38.248Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-10T12:44:30.579Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> var hittar vi data enligt denna spec?  hur många levererar idag, vad är planerat? vem driver detta dvs, att detta data kommer att finnas för alla kommuner... kan vi se status någonstans....</p>\n<ul>\n<li><a href=\"https://w.wiki/kVX\" rel=\"nofollow ugc\">kommuner WD</a> har</li>\n<li><a href=\"https://w.wiki/4N6V\" rel=\"nofollow ugc\">myndigheter WD har</a></li>\n</ul>\n",
+      "pid": 1042,
+      "tid": 238,
+      "timestamp": 1636549358248,
+      "toPid": "1041",
+      "uid": 24,
+      "edited": 1636549765573,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-12T14:42:20.149Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-10T13:02:38.248Z",
+      "editedISO": "2021-11-10T13:09:25.573Z",
+      "index": 1,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> intressant</p>\n<p dir=\"auto\">Fanns tidigare all transaktioner , <a href=\"http://govdata.se\" rel=\"nofollow ugc\">govdata.se</a> (<a href=\"https://web.archive.org/web/20150115023740/http://govdata.se/popular\" rel=\"nofollow ugc\">https://web.archive.org/web/20150115023740/http://govdata.se/popular</a>) men gjordes avveckling av transaktionsdatabasen (TDB)(<a href=\"https://www.esv.se/publicerat/Publikationer/2014/Avveckling-av-transaktionsdatabasen-TDB/\" rel=\"nofollow ugc\">https://www.esv.se/publicerat/Publikationer/2014/Avveckling-av-transaktionsdatabasen-TDB/</a>) .</p>\n<p dir=\"auto\">Man vill ju kunna se till vilka företag pengarna går till.</p>\n<p dir=\"auto\">Fanns en motion 2014 för att återskap <a href=\"http://data.riksdagen.se/fil/FB4055EC-6555-42AF-A548-F15A943D24D3\" rel=\"nofollow ugc\">http://data.riksdagen.se/fil/FB4055EC-6555-42AF-A548-F15A943D24D3</a> .</p>\n<p dir=\"auto\">Men bör vara möjligt nu när e-faktura används.</p>\n",
+      "pid": 1047,
+      "tid": 238,
+      "timestamp": 1636561122721,
+      "toPid": "1041",
+      "uid": 90,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-10T16:51:16.822Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-10T16:18:42.721Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/90\">@jamespether</a> du vill även kunna se vilka aktiviteter som hänger ihop med en faktura och hur denna faktura är kopplad till det myndigheten gör och hur det är kopplat till regleringsbrevet känns som man missat det</p>\n<p dir=\"auto\">DIGG redovisar idag <a href=\"https://www.dataportal.se/sv/datasets/760_1544/leverantorsfakturor\" rel=\"nofollow ugc\">47 miljoner i 2021-Q3</a>  men du kan inte se på vad och hur det relaterar aktiviteter i <a href=\"https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-20181486-med-instruktion-for_sfs-2018-1486\" rel=\"nofollow ugc\">regleringsbrevet</a> och kan jämföra hur mycket andra länder lägger på liknande aktiviteter typ ställa frågor</p>\n<ul>\n<li>OECD rankar oss idag bland de sämsta på öppna data i Europa\n<ul>\n<li>satsar vi för lite jmf med andra länder?</li>\n<li>är <a href=\"https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-20181486-med-instruktion-for_sfs-2018-1486\" rel=\"nofollow ugc\">DIGGs regleringsbrevet otydligt</a> jmf med andra länder?</li>\n<li>underlevererar DIGG?</li>\n<li>har DIGG fel kompetens?</li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 1048,
+      "tid": 238,
+      "timestamp": 1636563076822,
+      "toPid": "1047",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 90,
+            "username": "jamespether",
+            "userslug": "jamespether",
+            "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+            "fullname": "James Pether Sörling",
+            "displayname": "jamespether",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-11-10T17:09:02.556Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-10T16:51:16.822Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jamespether",
+        "displayname": "jamespether"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv bra att det finns fakturor för en myndighet, men behövs ju för alla myndigheter om man skall få en bra överblick vart pengarna går.</p>\n<p dir=\"auto\"><a href=\"https://www.esv.se/psidata/\" rel=\"nofollow ugc\">https://www.esv.se/psidata/</a> kanske innehåller aktiviteter ?  Använder data därifrån på CIA projektet.</p>\n",
+      "pid": 1049,
+      "tid": 238,
+      "timestamp": 1636564142556,
+      "toPid": "1048",
+      "uid": 90,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-10T18:04:12.611Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-10T17:09:02.556Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/90\">@jamespether</a> eller kanske pinsamt om det inte fanns känns inte raketforskning att samla ihop dom digitalt 2021 <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\">Om jag fattade målbilden för ESV så är det typ <a href=\"https://community.dataportal.se/topic/222/www-usaspending-gov\">https://community.dataportal.se/topic/222/www-usaspending-gov</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1636567367284-08832e24-9687-4a56-8644-d30b2e0d97b0-image.png\" alt=\"08832e24-9687-4a56-8644-d30b2e0d97b0-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1050,
+      "tid": 238,
+      "timestamp": 1636567452611,
+      "toPid": "1049",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-10T18:04:12.611Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "jamespether",
+        "displayname": "jamespether"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Den typen av information finns inte i det som kallas Leverantörsreskontra. Det finns många kompletterande informationsmängder som behöver publiceras öppet om hela upphandlingskedjan ska vara öppen och det vore ju toppen.</p>\n",
+      "pid": 1052,
+      "tid": 238,
+      "timestamp": 1636707515243,
+      "toPid": "1048",
+      "uid": 9,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-12T08:58:35.243Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv sa i <a href=\"/post/1042\">Leverantörsreskontra som öppna data - hur du publicerar</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> var hittar vi data enligt denna spec?</p>\n</blockquote>\n<p dir=\"auto\">Om de följer specifikationen, publicerar med titel eller nyckelord \"leverantörsreskontra\", och har aktiverat skördning till <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> så kan du hitta dem och se om de angett att de följer specifikationen. Därefter kan du hitta själva datamängden i den distribution de publicerat till datamängden vars metadata har skördats. Hoppas detta hjälper dig att hitta det.</p>\n<blockquote>\n<p dir=\"auto\">hur många levererar idag, vad är planerat?</p>\n</blockquote>\n<p dir=\"auto\">Bra frågor, hade gärna svarat om jag visste. Se svar nedan.</p>\n<blockquote>\n<p dir=\"auto\">vem driver detta dvs, att detta data kommer att finnas för alla kommuner... kan vi se status någonstans....</p>\n</blockquote>\n<p dir=\"auto\">Jag hjälper de jag kan hjälpa - när de vill ha hjälp. Går inte att hjälpa den som inte vill. It takes two to tango!</p>\n",
+      "pid": 1057,
+      "tid": 238,
+      "timestamp": 1636728140149,
+      "toPid": "1042",
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-14T22:47:23.422Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-12T14:42:20.149Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Det vore intressant att se en uppföljning av publiceringar över tid, går det att få fram?</p>\n",
+      "pid": 1063,
+      "tid": 238,
+      "timestamp": 1636930043422,
+      "toPid": "1057",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "bookmarks": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 196,
+            "username": "FredrikEriksson",
+            "userslug": "fredrikeriksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "FredrikEriksson",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-23T08:13:12.827Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-14T22:47:23.422Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Hej, precis som Mattias skriver är det på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> man kan se vilka organisationer som publicerar öppen leverantörsreskontra (sök på leverantörsfak*). Men fler är på G. Innan årsskiftet är målet att Borås och Trollhättan ska publicera denna data. Utöver dem så är både VGR på gång samt ytterligare fem kommuner i Västra Götaland (precis påbörjat detta arbete).</p>\n<p dir=\"auto\">Jag har oxå uppmanat Upphandlingsmyndigheten om att göra samma sak, de är dock i startgroparna med sitt öppna data arbete. Det skulle ge en viktig signal till andra myndigheter att göra samma sak. Vi får se om och när det blir verklighet...</p>\n<p dir=\"auto\">Från dataverkstadens sida driver vi på publiceringen av denna data öppet och hoppas att proppen snart går ur. Det känns som en självklar datamängd att publicera för alla myndigheter.</p>\n<p dir=\"auto\">Inom kort kommer vi att publicera en vägledning på <a href=\"http://www.dataverkstad.se\" rel=\"nofollow ugc\">www.dataverkstad.se</a> (under datamängder) för hur man går tillväga för att publicera Öppen leverantörsreskontra - och i samband med det erbjuda stöd i arbetet</p>\n",
+      "pid": 3419,
+      "tid": 238,
+      "timestamp": 1669191192827,
+      "toPid": "1063",
+      "uid": 196,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-23T08:13:12.827Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "238",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/238.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/238",
+  "bodyClass": "page-topic page-topic-238 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Leverantörsreskontra som öppna data - hur du publicerar"
+        },
+        {
+          "name": "description",
+          "content": "Alla kommuner och myndigheter genomför inköp av produkter och tjänster och har andra utgifter vars resultat representeras som leverantörsreskontra. Årligen görs inköp för nära 800 miljarder kronor så det är viktigt både för medarbetare inom offentlig sekt..."
+        },
+        {
+          "property": "og:title",
+          "content": "Leverantörsreskontra som öppna data - hur du publicerar"
+        },
+        {
+          "property": "og:description",
+          "content": "Alla kommuner och myndigheter genomför inköp av produkter och tjänster och har andra utgifter vars resultat representeras som leverantörsreskontra. Årligen görs inköp för nära 800 miljarder kronor så det är viktigt både för medarbetare inom offentlig sekt..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-11-10T12:44:30.579Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-23T08:13:12.827Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/238",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/238/leverantörsreskontra-som-öppna-data-hur-du-publicerar",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/238.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/mattias"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

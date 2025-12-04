@@ -1,0 +1,959 @@
+{
+  "cid": 23,
+  "lastposttime": 1734532457085,
+  "mainPid": 4888,
+  "postcount": 7,
+  "slug": "981/flera-datakataloger-och-leverans-till-dataportal",
+  "tid": 981,
+  "timestamp": 1729666543752,
+  "title": "Flera datakataloger och leverans till dataportal",
+  "uid": 9,
+  "viewcount": 616,
+  "postercount": 4,
+  "teaserPid": 4910,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Flera datakataloger och leverans till dataportal",
+  "timestampISO": "2024-10-23T06:55:43.752Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-12-18T14:34:17.085Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag har ett scenario där vi är på väg att skaffa en central metadatakatalog samtidigt som vi har minst en datakälla som redan levererar DCAT-AP-SE utifrån sin data.</p>\n<p dir=\"auto\">Enligt <a href=\"https://docs.dataportal.se/dcat/docs/harvesting/#multipla-kataloger-per-organisation\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/docs/harvesting/#multipla-kataloger-per-organisation</a> kan man leverera underkataloger till dataportalen men då måste detta vara en del av DCAT-AP-SE från vår centrala metadatakatalog?</p>\n<p dir=\"auto\">Det verkar som att det är möjligt att peka på en separat ström för DCAT-AP-SE och att dataportalen skördar denna genom dct:hasPart men jag är inte helt säker på att jag tolkar det rätt. Någon som vet hur det fungerar?</p>\n<p dir=\"auto\">Eller kan man peka på två separata skördningskällor i dataportalen? Om det är möjligt känns det som den enklaste lösningen för oss.</p>\n<p dir=\"auto\">Någon som vet om Entryscape och/eller CKAn har stöd för dct:hasPart?</p>\n",
+      "pid": 4888,
+      "tid": 981,
+      "timestamp": 1729666543752,
+      "uid": 9,
+      "bookmarks": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 666,
+            "username": "PierreMesure",
+            "userslug": "pierremesure",
+            "picture": "/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+            "fullname": "Pierre Mesure",
+            "displayname": "PierreMesure",
+            "icon:text": "P",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          },
+          {
+            "uid": 523,
+            "username": "PerAnd",
+            "userslug": "perand",
+            "picture": null,
+            "fullname": "Per Åke Andersson",
+            "displayname": "PerAnd",
+            "icon:text": "P",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 4]]",
+        "count": 4,
+        "timestampISO": "2024-10-30T16:18:56.659Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "votes": 0,
+      "timestampISO": "2024-10-23T06:55:43.752Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> Jag har provat och jag har för mig att det fungerade men har inget fungerande exempel på <a href=\"http://dataportalen.se\" rel=\"nofollow ugc\">dataportalen.se</a> just nu. Jag ska försöka att göra det i helgen igen! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f600.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--grinning\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":grinning:\" alt=\"😀\" /><br />\nJag tror att det var dct:hasPart som användes och jag pekade mot en annan DCAT-AP-fil.</p>\n",
+      "pid": 4890,
+      "tid": 981,
+      "timestamp": 1730305136659,
+      "toPid": "4888",
+      "uid": 666,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-10-30T16:18:56.659Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 666,
+        "username": "PierreMesure",
+        "userslug": "pierremesure",
+        "reputation": 18,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764432799455,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PierreMesure",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-11-29T16:13:19.455Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> sa i <a href=\"/post/4888\">Flera datakataloger och leverans till dataportal</a>:</p>\n<blockquote>\n<p dir=\"auto\">Någon som vet om Entryscape och/eller CKAn har stöd för dct:hasPart?</p>\n</blockquote>\n<p dir=\"auto\">Jag råkar känna till att det finns flera organisationer med EntryScape som kör med flera kataloger och <em>dct:hasPart</em> och fungerar väldigt bra. Det finns öppet dokumenterat. Om det fungerar med CKAN eller ej vet jag inte men hittar inget om det någonstans så det kan jag inte uttala mig om. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" /></p>\n",
+      "pid": 4891,
+      "tid": 981,
+      "timestamp": 1730471786237,
+      "toPid": "4888",
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-11-08T11:00:30.045Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-11-01T14:36:26.237Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Nej inte din sak att tala för CKAN heller:) Men bra att det fungerar i Entryscape!</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/666\">@PierreMesure</a> Tackar för inputen och jag tror att Mattias svar gav mig det jag behöver.</p>\n",
+      "pid": 4893,
+      "tid": 981,
+      "timestamp": 1731063630045,
+      "toPid": "4891",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-12-18T14:34:17.085Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-11-08T11:00:30.045Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 4899,
+      "tid": 981,
+      "timestamp": 1732191591913,
+      "toPid": "4888",
+      "uid": 523,
+      "deleted": 1,
+      "deleterUid": 523,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-11-21T12:19:51.913Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 523,
+        "username": "PerAnd",
+        "userslug": "perand",
+        "reputation": 15,
+        "postcount": 25,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1760975248576,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PerAnd",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2025-10-20T15:47:28.576Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> Jag tog kontakt med  Linkdigital och dom skrev så här:</p>\n<p dir=\"auto\">We recently announced our first stage of improved changes for DCAT support in CKAN:</p>\n<p dir=\"auto\"><a href=\"https://ckan.org/blog/enhancing-dcat-support-in-ckan-dcat-ap-v3-scheming-integration-and-more\" rel=\"nofollow ugc\">https://ckan.org/blog/enhancing-dcat-support-in-ckan-dcat-ap-v3-scheming-integration-and-more</a></p>\n<p dir=\"auto\">And, we are very happy to work directly with DCAT producers or consumers to learn about use cases and expand any support required.</p>\n<p dir=\"auto\">Feel free to contact us as per the blog post, here:</p>\n<p dir=\"auto\"><a href=\"https://github.com/ckan/ckan/discussions\" rel=\"nofollow ugc\">https://github.com/ckan/ckan/discussions</a></p>\n",
+      "pid": 4900,
+      "tid": 981,
+      "timestamp": 1732192147806,
+      "toPid": "4888",
+      "uid": 523,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-11-21T12:29:07.806Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 523,
+        "username": "PerAnd",
+        "userslug": "perand",
+        "reputation": 15,
+        "postcount": 25,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1760975248576,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PerAnd",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2025-10-20T15:47:28.576Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> Men jag vill inte prata ned CKAN, det var mitt första intresse som programvarustöd för öppna data-publiceringar! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Men ändå, jag tror det är bra att den som jobbar aktivt med CKAN bör tala om det, och har pratat med LinkDigital som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/523\">@PerAnd</a> nämner. Så det låter bra att <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/523\">@PerAnd</a> kollat upp det. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4910,
+      "tid": 981,
+      "timestamp": 1734532457085,
+      "toPid": "4893",
+      "uid": 30,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-12-18T14:34:17.085Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "981",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/981.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/981",
+  "bodyClass": "page-topic page-topic-981 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Flera datakataloger och leverans till dataportal"
+        },
+        {
+          "name": "description",
+          "content": "Jag har ett scenario där vi är på väg att skaffa en central metadatakatalog samtidigt som vi har minst en datakälla som redan levererar DCAT-AP-SE utifrån sin data. Enligt https://docs.dataportal.se/dcat/docs/harvesting/#multipla-kataloger-per-organisatio..."
+        },
+        {
+          "property": "og:title",
+          "content": "Flera datakataloger och leverans till dataportal"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag har ett scenario där vi är på väg att skaffa en central metadatakatalog samtidigt som vi har minst en datakälla som redan levererar DCAT-AP-SE utifrån sin data. Enligt https://docs.dataportal.se/dcat/docs/harvesting/#multipla-kataloger-per-organisatio..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-10-23T06:55:43.752Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-12-18T14:34:17.085Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/981",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/981/flera-datakataloger-och-leverans-till-dataportal",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/981.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/björn-hagström"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

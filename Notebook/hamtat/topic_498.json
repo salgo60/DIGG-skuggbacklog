@@ -1,0 +1,2132 @@
+{
+  "cid": 27,
+  "lastposttime": 1671618863412,
+  "mainPid": 2794,
+  "postcount": 37,
+  "slug": "498/devops-anteckningar",
+  "tid": 498,
+  "timestamp": 1665000799398,
+  "title": "DevOps (anteckningar)",
+  "uid": 591,
+  "viewcount": 7768,
+  "postercount": 7,
+  "downvotes": 0,
+  "upvotes": 3,
+  "teaserPid": 3820,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "DevOps (anteckningar)",
+  "timestampISO": "2022-10-05T20:13:19.398Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-12-21T10:34:23.412Z",
+  "pinExpiryISO": "",
+  "votes": 3,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Mitt första inlägg här och jag vill höra mig för om hur det tänks och tycks kring DevOps och DevSecOps?</p>\n<p dir=\"auto\">Jag har följt rörelsen under ett antal år som serverdriftare och utvecklare och har väl en del tankar och åsikter.</p>\n<p dir=\"auto\">Några formuleringar om DevOps och DevSecOps:<br />\nCloud Native Computing Foundation:<br />\n<em>\"En metodik där team tillsammans äger hela processen från systemutveckling till drift i produktion, därav namnet DevOps.  . . .  DevOps kräver att utvecklare och drifttekniker fokuserar på mindre komponenter (inte större funktioner) vilket leder till mindre överlämningar (en vanlig felkälla).\"</em></p>\n<p dir=\"auto\">Google Cloud:<br />\n<em>“En organisatorisk och kulturell rörelse som syftar att öka takten på mjukvaruleveranser, förbättra tillgängligheten och pålitligheten för tjänster och att bygga ett delat ägarskap emellan intressenter.”</em></p>\n<p dir=\"auto\">Department of Defense:<br />\n<em>\"DevSecOps är en samling aktiviteter och förmågor inom systemutveckling som kombinerar utveckling, säkerhet och IT-drift med syftet att göra leveranser säkrare och att korta ned utvecklingsprojektens livscykler. Ny funktionalitet, buggrättningar, säkerhets- och andra uppdateringar ska kunna ske oftare och på ett mer automatiserat sätt. Säkerhet appliceras i alla faser av utvecklingsprojekten.\"</em></p>\n<p dir=\"auto\">DevOps är ju inget som ersätter Lean och Agile, men delar av det kan (potentiellt) hjälpa oss att jobba enligt Lean- och Agile-principer.</p>\n<p dir=\"auto\">Den årliga State of DevOps Report som gjorts sedan 2014 menar att de bästa måtten för en organisations utvecklingskapacitet är:</p>\n<ol>\n<li>Ledtid till release (från incheckad källkod till driftsättning)</li>\n<li>Hur ofta driftsätter vi nya releaser</li>\n<li>Tid det tar att återställa en tjänst (MTTR - Mean Time To Restore)</li>\n<li>Hur ofta orsakar en förändring/release problem</li>\n</ol>\n<p dir=\"auto\">Och det låter väl i alla fall sunt?</p>\n<p dir=\"auto\">Jag läste boken Accelerate förra hösten (från initiativtagarna bakom rapporten) och skrev ner några meningar...</p>\n<p dir=\"auto\">Några dåliga sätt att mäta utvecklingskapacitet i organisationer:</p>\n<ul>\n<li>\n<p dir=\"auto\">Vad man använder för teknik. Det spelar en viktig roll men kultur och processer är viktigare föga förvånande, sedan kan verktyg hjälpa till i en kulturförflyttning</p>\n</li>\n<li>\n<p dir=\"auto\">Om man har en CAB-funktion. Det visade sig t.o.m. att många org som förlitade sig på mer flexibla processer som parprogrammering eller peer review ofta var bättre både på att leverera OCH tillgänglighet och stabilitet i drift</p>\n</li>\n<li>\n<p dir=\"auto\">Att mäta antal rader kod. Föga förvånande är det ett ruskigt dåligt mått. En lösning med 10 rader kod är - givetvis - ofta att föredra än samma lösning med 1000 rader kod (om den korta lösningen samtidigt är läsbar och inte för komprimerad). Det bästa är förstås om vi kan lösa ett problem helt utan kod eller genom att ta bort kod! Vem älskar inte att få radera kod ibland?</p>\n</li>\n<li>\n<p dir=\"auto\">Snabbaste leveranserna. Undvik att fokusera så mycket på det. Det kan leda till att team nedprioriterar samarbete med andra team för att det tar tid från kodknackning och leverans.</p>\n</li>\n</ul>\n<p dir=\"auto\">Undvik att belöna utvecklare för mängden mjukvara som levereras och att belöna driftteam för stabilitet. Det leder gärna till att utvecklare \"kastar kod\" på drift och drift sätter upp plågsamma processer för att förhindra förändring.<br />\nVad ger det att ha en hög utvecklingskapacitet då? God förmåga att ta fram och bygga nya lösningar, anpassa sig till förändring, leverera värde till användarna, osv.</p>\n<p dir=\"auto\">Man kom fram till att mått på utvecklingskapacitet bör fokusera på två nyckelaspekter:</p>\n<ul>\n<li>Maximal verksamhetsnytta</li>\n<li>Goda resultat, inte hur mycket det jobbas. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /></li>\n</ul>\n<p dir=\"auto\">En bör inte uppmuntra att maximera mängden utfört arbete om det ändå inte hjälper organisationens mål (vad sa ni?! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /> )<br />\nDärav är genuin förståelse för vision och mål så himla viktigt!</p>\n<p dir=\"auto\">Något som inte är med bland dem måtten är tiden det tar att identifiera problem och att designa/ta fram potentiella lösningar. De kom fram till att det var många variabler i denna fas så att det var svårt att följa metodiskt (inte att det är mindre viktigt). Det är hög osäkerhet på estimat och resultat.<br />\nDet får bli en annan tråd en annan dag...</p>\n<p dir=\"auto\">Hur ser ni på DevOps? Anammar ni denna lära? Tycker ni mest att det är ett nytt modeord på vad ni redan gjort i 3000 år? (vilken sorts vampyr är du?!)<br />\nLåter det som namnet på en hel massa produkter som leverantörer försökt sälja in för att lösa alla era problem?<br />\nPersonligen tycker jag nog att det är på tok för mycket brus kontra signal. Men känner ändå att det finns mycket bra stoff här som jag gärna ställer mig bakom och drar nytta av. Som sagt, intressant att höra era tankar!</p>\n",
+      "pid": 2794,
+      "tid": 498,
+      "timestamp": 1665000799398,
+      "uid": 591,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 280,
+            "username": "pellep99",
+            "userslug": "pellep99",
+            "picture": null,
+            "fullname": "Per Persson",
+            "displayname": "pellep99",
+            "icon:text": "P",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-10-06T05:07:48.938Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-10-05T20:13:19.398Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> vilket trevligt inlägg! Du förklarar på ett enkelt och pedagogiskt sätt ett begrepp som har använts som ett buzzword, de senaste åren.</p>\n<p dir=\"auto\">Gillar särskilt det du skriver att hålla kodraderna få samt att satsa på stabilitet före mer mjukvara (funktioner).  Jag tror att många upplever att vi mäts på de ”synliga” leveranserna, fler funktioner. Men det finns andra leveranser som vi kan synliggöra såsom prestanda, låga förvaltningskostnader och välpaketerade tjänster som andra kan återanvända.<br />\nNågonstans känns det som att detta är det nya svarta,  i tider där vi utgör del av ett ekosystem, och där andra förväntas att använda och modifiera det vi tar fram.</p>\n<p dir=\"auto\">Hoppas att fler vill reflektera över och diskutera hur vi bygger bra öppna system och lösningar!</p>\n",
+      "pid": 2797,
+      "tid": 498,
+      "timestamp": 1665032868938,
+      "toPid": "2794",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-10-06T05:07:48.938Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> Jag har jobbat en del tillsammans med DevOps-team. Senast hade vi en ganska bra kombination av ITIL och agila arbetssätt. Vi hade precis börjat fundera på hur det funkar ihop med containerplattform, som ju också för med sig en del vad beträffar arbetssätt. Det var också lite stökigt att få ihop det hela vägen från metodiken för innovation och ända ut till prodsättning av innovativa förändringar.<br />\nHur ser du på saken?</p>\n",
+      "pid": 2798,
+      "tid": 498,
+      "timestamp": 1665054523351,
+      "toPid": "2794",
+      "uid": 216,
+      "edited": 1665054541955,
+      "editor": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-06T18:09:43.454Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-06T11:08:43.351Z",
+      "editedISO": "2022-10-06T11:09:01.955Z",
+      "index": 2,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> Jo men det finns en hel massa best practice och tekniska förmågor som brukar förknippas med DevOps som jag tror på. Versionshantering av allt: kod, konfiguration, dokumentation, infra som kod m.m. Kontinuerlig integration (trunk based, med testautomation), kontinuerliga leveranser i pipelines som är förståeliga för både drift och utv (oavsett hur du bygger upp det tekniskt).</p>\n<p dir=\"auto\">I slutändan vill vi leverera värde och vi vill att utvecklare/designers/UX får möjlighet att fokusera på affärslogik/användbara gränssnitt och att göra det iterativt med massor av actionable feedback från både driftsystem och användare (med mycket kontext). Sen behöver vi kunna byta kurs och pivotera vid nya insikter. Om vi gör det bäst i någon form av low code plattform, varför inte! Men jag tror mer på en mix av REST API:er uppepå plattformar som abstraherar underliggande infra (tänk serverless, även om begreppet används rätt slarvigt och kanske bara kan realiseras mha en ganska komplex Kubernetes-plattform om du behöver köra in prem, likt som många av oss ju måste).</p>\n<p dir=\"auto\">Containers i sig är nyttigt för utvecklare för att få mer empati och förståelse för drift, med fördelar som att slippa \"works on my computer\" osv. Jag är själv rätt djupt insatt i Kubernetes och tycker att det har varit fantastiskt värdefullt att lära sig - både för att lära sig hur big tech &amp; friends gör och att se hur folk mycket smartare än mig och med en helt annan skala än jag kanske någonsin kommer att vara i närheten av löser en hel del svåra problem. Och jag uppskattar verkligen alla barriärer som k8s tar bort när man väl kommit över inlärningströskeln. Så, om man inte kastar sig in i k8s och micro services för egen del, lär dig iaf vad det handlar om. Det är ett svindlande lyckat OSS projekt om inte annat! Även ekosystemet runt.</p>\n<p dir=\"auto\">Hm.. stannar där för ikväll <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /><br />\nBlir svårt att hålla sig inom ämnet Arbetssätt här <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f61b.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--stuck_out_tongue\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":P\" alt=\"😛\" /></p>\n",
+      "pid": 2800,
+      "tid": 498,
+      "timestamp": 1665079783454,
+      "toPid": "2798",
+      "uid": 591,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-07T07:23:23.233Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-10-06T18:09:43.454Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> Jag håller med om det här! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Det är mycket lättare att springa på incidenter när folk har koll på det här. Annars kan det nästan bli omöjligt.<br />\nDet jag tycker är det svåraste är att koppla på verksamheten i det här, att hitta vilken roll de behöver ha för att det ska fungera. För att de automatiserade (funktionella) testerna ska funka behöver verksamheten vara med och skriva given-when-then, eller åtminstone förstå testfallen och verifiera att de stämmer. Och det går inte att göra en bra pivot om man inte har med sig både verksamhet, utveckling och drift.<br />\nMin erfarenhet är att verksamheten ofta kommer med en briljant innovativ idé som man från IT-sidan inte orkar ge dem en miljö att hålla hus i för att utveckla, eftersom man är nedlusad med förvaltning av heritage.<br />\nEller, att IT-sidan kommer med en briljant innovativ idé som verksamheten inte orkar ta till sig eftersom den inte kommer från verksamheten och man därför får för sig att den inte kopplar till ett verkligt behov hos slutanvändarna.<br />\nJag tror på att vi behöver ett gemensamt samarbetsverktyg att hålla hus i, både verksamhet och IT. Det funkade ganska bra när vi körde Enterprise över hela linjen, även Atlassian funkade bra tills de låste in allt.<br />\nJag jobbar på att få in verksamheten i GitHub men det är verkligen inte helt enkelt. Verktyget är inte gjort för att passa behov man har i en verksamhet.</p>\n",
+      "pid": 2802,
+      "tid": 498,
+      "timestamp": 1665127403233,
+      "toPid": "2800",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 247,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "picture": null,
+            "fullname": "",
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-25T13:44:55.429Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-10-07T07:23:23.233Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej på er!</p>\n<p dir=\"auto\">Jag skrev precis ett mail till <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> där jag frågade om det inte var dags för ett seminarium om DevOps. Vårt team har haft visst utbyte med bl a PM (Pensionsmyndigheten) men jag tror att det finns stor potential om vi kan dela med oss mer.</p>\n<p dir=\"auto\">Maria bad mig därför skriva ett post och jag funderar på om jag ska skriva här eller om vi ska påbörja en ny tråd så att det är tydligt att det gäller ett DevOps-seminarium och att folk gärna får fylla på med vad de önskar för innehåll.</p>\n<p dir=\"auto\">Vårt team försöker nyttja DevOps så mycket det bara går (automatisera och effektivisera) och vi har förhoppningsvis något vi kan bidra med på ett seminarium som kan vara till gagn för andra.</p>\n",
+      "pid": 2995,
+      "tid": 498,
+      "timestamp": 1666705495429,
+      "toPid": "2802",
+      "uid": 247,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 90,
+            "username": "jamespether",
+            "userslug": "jamespether",
+            "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+            "fullname": "James Pether Sörling",
+            "displayname": "jamespether",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          },
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-10-27T22:11:41.613Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-10-25T13:44:55.429Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/3029",
+          "type": "backlink",
+          "uid": 247,
+          "id": 564,
+          "timestamp": 1666855839924,
+          "timestampISO": "2022-10-27T07:30:39.924Z",
+          "user": {
+            "picture": null,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "uid": 247,
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          },
+          "icon": "fa-link",
+          "text": "<span alt=\"lfvjimisola\" title=\"lfvjimisola\" data-uid=\"247\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #33691e;\">L</span> <a href=\"/user/lfvjimisola\">lfvjimisola</a> <a href=\"/post/3029\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-10-27T07:30:39.924Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/247\">@lfvjimisola</a> har jobbat med DevSecOp en del de sista 10 åren.</p>\n<p dir=\"auto\">Använt <a href=\"https://www.hack23.com/cia/\" rel=\"nofollow ugc\">Riksdagsmonitor</a> som exempel och pratat om säkerhets testningen en del</p>\n<p dir=\"auto\">How to secure your development pipeline with static application security test (SAST) / Dynamic application security test (DAST), software composition analysis (SCA) using Sonarqube.</p>\n<p dir=\"auto\">Talk at Javaforum Göteborg <a href=\"https://www.youtube.com/watch?v=A_hq2Y03d6I\" rel=\"nofollow ugc\">https://www.youtube.com/watch?v=A_hq2Y03d6I</a></p>\n<p dir=\"auto\">Security podcast \"Shift Left Like A Boss\" <a href=\"https://www.youtube.com/watch?v=aYwSd1Wu28Q&amp;ab_channel=Soluble\" rel=\"nofollow ugc\">https://www.youtube.com/watch?v=aYwSd1Wu28Q&amp;ab_channel=Soluble</a></p>\n<p dir=\"auto\">Presentation/slides at <a href=\"https://github.com/Hack23/talks/raw/master/SecureDevelopmentPipeline20190919.pptx\" rel=\"nofollow ugc\">https://github.com/Hack23/talks/raw/master/SecureDevelopmentPipeline20190919.pptx</a> and <a href=\"https://github.com/Hack23/talks/raw/master/SecureDevelopmentPipeline20190919.odp\" rel=\"nofollow ugc\">https://github.com/Hack23/talks/raw/master/SecureDevelopmentPipeline20190919.odp</a></p>\n<p dir=\"auto\">Mvh</p>\n",
+      "pid": 3042,
+      "tid": 498,
+      "timestamp": 1666908701613,
+      "toPid": "2995",
+      "uid": 90,
+      "edited": 1666908889447,
+      "editor": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "displayname": "jamespether"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-10-27T22:11:41.613Z",
+      "editedISO": "2022-10-27T22:14:49.447Z",
+      "index": 6,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Intressanta länkar och intressant att höra om era erfarenheter!</p>\n<p dir=\"auto\">Förra hösten letade jag efter strukturerad dokumentation kring detta (mycket brus och svårt att pejla in signal med allt säljsnack om DevOps-produkter!). Jag hittade till slut Fundamentals <a href=\"https://public.cyber.mil/dod-enterprise-devsecops-2/\" rel=\"nofollow ugc\">Playbook för DevSecOps från Department of Defense</a>.</p>\n<p dir=\"auto\">Och deras <a href=\"https://dodcio.defense.gov/portals/0/documents/dod%20enterprise%20devsecops%20reference%20design%20v1.0_public%20release.pdf?ver=2019-09-26-115824-583\" rel=\"nofollow ugc\">DevSecOps Reference Design</a>.</p>\n<p dir=\"auto\">Så under en tid har jag översatt den senare (så gott jag kunnat) och lagt in den i ett exceldokument för att börja prata om det här med en större förståelse för helheten. Och för att kunna se kopplingar mellan en given aktivitet (ex versionshantering av källkod) till ett lämpligt verktyg (git) och hitta en realistisk väg framåt för en organisation som vill anamma arbetssättet. Excel har väl inte riktigt visat sig vara det roligaste formatet, varken att jobba i eller som diskussionsunderlag. Och inte optimalt för ev publicering och samarbete/diskussion externt. Så jag bestämde mig för att knacka ner innehållet i webbformat istället. Initialt mha dokumentationsgeneratorn mkdocs (men jag är inte övertygad än om att jag gillar verktyget).<br />\nJag har valt att kalla resultatet för <a href=\"https://devopsguiden.github.io/devopsguiden/\" rel=\"nofollow ugc\">DevOpsGuiden</a>.</p>\n<p dir=\"auto\">Först och främst är jag bara väldigt tacksam att höra er tankar om formatet och innehållet och om det finns intresse att tillsammans ta det här vidare i det öppna. Jag känner att jag uppnått mitt första mål som var att lära mig om hur DevOps/DevSecOps bedrivs inom en offentlig verksamhet där detta är livsviktigt (bokstavligen). Och det har hjälpt mig med det interna arbetet med att forma rutiner och se oss om efter nödvändiga verktyg. Jag tänker att detta eller något liknande behöver underhållas och säkert kan ta nya former och uppfylla syften som jag inte tänkt på.</p>\n<p dir=\"auto\">Jag tänker, pragmatiskt, att en konkret koppling till faktiska verktyg och varför man behöver dem är det som verkligen skulle vara värt att jobba vidare med. Företrädelsevis med tips på öppen källkodsmjukvara.</p>\n",
+      "pid": 3179,
+      "tid": 498,
+      "timestamp": 1668591739046,
+      "toPid": "2995",
+      "uid": 591,
+      "edited": 1668591877084,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 4]]",
+        "count": 4,
+        "timestampISO": "2022-11-16T10:53:49.224Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-16T09:42:19.046Z",
+      "editedISO": "2022-11-16T09:44:37.084Z",
+      "index": 7,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a><br />\n..glömde att be om ursäkt för mina svenskaöversättningar. Det blev en mix av engelska och svenska till slut. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3183,
+      "tid": 498,
+      "timestamp": 1668596029224,
+      "toPid": "3179",
+      "uid": 591,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T10:53:49.224Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a></a> Skulle vilja trycka på gilla-tummen minst 2 ggr för detta! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a></a>, skriv den i markdown. Gärna basic syntax. <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> , <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> , kan ni hjälpa <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a></a> så han kan publicera det här på NOSAD så vi når det allihop?<br />\n<a href=\"https://www.markdownguide.org/basic-syntax/\" rel=\"nofollow ugc\">https://www.markdownguide.org/basic-syntax/</a></p>\n",
+      "pid": 3189,
+      "tid": 498,
+      "timestamp": 1668603966282,
+      "toPid": "3179",
+      "uid": 216,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T13:21:52.243Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T13:06:06.282Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a>  den är redan skriven i markdown  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /></p>\n",
+      "pid": 3192,
+      "tid": 498,
+      "timestamp": 1668604912243,
+      "toPid": "3189",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T13:31:35.341Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T13:21:52.243Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> klockren!<br />\nOch jag håller med <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> att denna bör längas upp som Nosad lästips. Men jag gillar konceptet Playbook och kanske kan fler bidra till att komplettera med intressanta kapitel.</p>\n<p dir=\"auto\">Vore skoj med kommentarer i forumet på denna guide.</p>\n",
+      "pid": 3194,
+      "tid": 498,
+      "timestamp": 1668605235076,
+      "toPid": "3179",
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T13:27:15.076Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a>  kompletterar mitt svar till hela community: ni alla som har bra saker att dela. Gör precis som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> och pinga <a href=\"http://nosad.se\" rel=\"nofollow ugc\">nosad.se</a> så lägger vi upp det läsbara där. Vi jobbar med att kurera det som vi lägger upp och skapar gärna en dialog om olika lästips i detta community. Vi kan hantera de mesta i formatväg.</p>\n",
+      "pid": 3197,
+      "tid": 498,
+      "timestamp": 1668605495341,
+      "toPid": "3192",
+      "uid": 62,
+      "edited": 1668605543210,
+      "editor": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T13:44:05.652Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T13:31:35.341Z",
+      "editedISO": "2022-11-16T13:32:23.210Z",
+      "index": 12,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag gillar enthusiasmen! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Hjälper gärna till att publicera den på nosad, ge den ett \"neutralt hem\". Allt är som sagt i markdown redan <a href=\"https://github.com/devopsguiden/devopsguiden\" rel=\"nofollow ugc\">https://github.com/devopsguiden/devopsguiden</a>.</p>\n<p dir=\"auto\">Jag är inte förtjust i byggsteget som krävs för mkdocs, men ni har väl redan automatik för stacket som körs på nosad.</p>\n",
+      "pid": 3199,
+      "tid": 498,
+      "timestamp": 1668606245652,
+      "toPid": "3197",
+      "uid": 591,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-16T14:02:21.130Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T13:44:05.652Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> NOSAD lästips är kurerade länkar och bilagor. Det viktigaste är att ha ett ställe som är en naturlig samlings-/visningsplats. På sikt vore det ju toppen med API:er av metodstöd, goda exempel, mallar o.s.v. men för att inte fastna i goda intentioner att ha den bästa av strukturer så  laddar vi upp länkar och artefakter på <a href=\"http://nosad.se\" rel=\"nofollow ugc\">nosad.se</a> i ett första steg.</p>\n",
+      "pid": 3201,
+      "tid": 498,
+      "timestamp": 1668607341130,
+      "toPid": "3199",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T14:40:50.346Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-16T14:02:21.130Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> <a href=\"https://nosad.se/tips\" rel=\"nofollow ugc\">https://nosad.se/tips</a> här ligger nu DevOpsGuiden. Följ redigeringsanvisningarna om du vill göra förändingar i texten om DevOpsGuiden eller maila mig på <a href=\"mailto:maria.dalhage@digg.se\" rel=\"nofollow ugc\">maria.dalhage@digg.se</a>. Om det är ok gör tummen upp <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3203,
+      "tid": 498,
+      "timestamp": 1668609297359,
+      "toPid": "3199",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-16T14:34:57.359Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Precis, NOSAD i ett första steg <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> sedan kanske vi kommer vilja lyfta över vissa playbooks/guider till digitala arenan. Men jag tror ändå vi kommer vilja behålla en del guider på NOSAD.</p>\n",
+      "pid": 3204,
+      "tid": 498,
+      "timestamp": 1668609650346,
+      "toPid": "3201",
+      "uid": 216,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T15:07:32.048Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T14:40:50.346Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a>  Semantikdiskussion nu när vi närmar oss lansering av \"Den Digitala Arenan\"</p>\n<p dir=\"auto\">Enligt min definition av den Digitala arenan så <strong>är</strong> <a href=\"http://NOSAD.se\" rel=\"nofollow ugc\">NOSAD.se</a> en del av den digitala arenan liksom <a href=\"http://Energimyndigheten.se\" rel=\"nofollow ugc\">Energimyndigheten.se</a>, <a href=\"http://DIGG.se\" rel=\"nofollow ugc\">DIGG.se</a>, <a href=\"http://SCB.se\" rel=\"nofollow ugc\">SCB.se</a> och andra organisationers webbsidor. Vi bygger tillsammans ett skyltfönster som leder tillbaka till organisationerna bakom resurserna. Vi kommer att behöva skruva på flera gånger på vår layout och design för att det ska bli så enkelt som möjligt att hitta det man letar efter och dela det som andra kan ha nytta av.</p>\n<p dir=\"auto\">Dataportalen kommer alltså att uppdateras med andra viktiga artefakter utöver data för att nå datadriven utveckling och innovation såsom öppen källkod , metodstöd från olika organisationer samt bl.a. en AI-samlingsyta.<br />\nCommunity blir ett nav för alla dialoger kring data, API:er och digitala resurser som öppen källkod, begrepp och specifikationer och standarder.</p>\n<p dir=\"auto\">Vi (Sverige/DIGG/Community) har ännu inte landat i alla frågor om tillit till innehåll och förvaltning av innehåll så vi provar oss fram.  Nätverket NOSAD kan ha en lite mer experimenterande karaktär. Men samtidigt så speglar NOSAD bättre än någon annan organisation det decentraliserat styrda Sverige.</p>\n<p dir=\"auto\">NOSAD är en DIGG-leverans, men också Arbetsförmedlingens och Internetstiftelsens leverans, utifrån Plattformar och därmed infrastruktur. Innehållsmässigt (content) så är NOSAD allas leverans och vi har än så länge 80 föredömliga organisationer som delat med sig av goda exempel och erfarenheter  på <a href=\"http://NOSAD.se\" rel=\"nofollow ugc\">NOSAD.se</a> förutom alla 600+ personer som deltagit på våra digitala workshops. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3206,
+      "tid": 498,
+      "timestamp": 1668611252048,
+      "toPid": "3204",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-16T15:57:19.027Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-16T15:07:32.048Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a><br />\nHar inte läst allt här än men tänkte be dig ändra i texten till David, inte Anders Berglund. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /> Jag är visserligen också musikintresserad så det var en glad överraskning att se namnet. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f604.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smile\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":D\" alt=\"😄\" /></p>\n",
+      "pid": 3209,
+      "tid": 498,
+      "timestamp": 1668614239027,
+      "toPid": "3206",
+      "uid": 591,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T15:58:32.758Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T15:57:19.027Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> hahaha. Sorry. Min hjärna var inte med mig riktigt.  I fix!</p>\n",
+      "pid": 3210,
+      "tid": 498,
+      "timestamp": 1668614312758,
+      "toPid": "3209",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T15:58:32.758Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/3029",
+      "type": "backlink",
+      "uid": 247,
+      "id": 564,
+      "timestamp": 1666855839924,
+      "timestampISO": "2022-10-27T07:30:39.924Z",
+      "user": {
+        "picture": null,
+        "username": "lfvjimisola",
+        "userslug": "lfvjimisola",
+        "uid": 247,
+        "displayname": "lfvjimisola",
+        "icon:text": "L",
+        "icon:bgColor": "#33691e"
+      },
+      "icon": "fa-link",
+      "text": "<span alt=\"lfvjimisola\" title=\"lfvjimisola\" data-uid=\"247\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #33691e;\">L</span> <a href=\"/user/lfvjimisola\">lfvjimisola</a> <a href=\"/post/3029\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-10-27T07:30:39.924Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#c9b42c",
+    "cid": 27,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-heartbeat",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Arbetssätt och organisation",
+    "numRecentReplies": 1,
+    "order": 7,
+    "parentCid": 0,
+    "post_count": 471,
+    "slug": "27/arbetssätt-och-organisation",
+    "subCategoriesPerPage": 10,
+    "topic_count": 78,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 471,
+    "totalTopicCount": 78
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "498",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/498.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Arbetssätt och organisation",
+      "url": "/category/27/arbetssätt-och-organisation",
+      "cid": 27
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/498/devops-anteckningar?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/498",
+  "bodyClass": "page-topic page-topic-498 template-topic page-topic-category-27 page-topic-category-arbetssätt-och-organisation parent-category-27 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "DevOps (anteckningar)"
+        },
+        {
+          "name": "description",
+          "content": "Mitt första inlägg här och jag vill höra mig för om hur det tänks och tycks kring DevOps och DevSecOps? Jag har följt rörelsen under ett antal år som serverdriftare och utvecklare och har väl en del tankar och åsikter. Några formuleringar om DevOps och De..."
+        },
+        {
+          "property": "og:title",
+          "content": "DevOps (anteckningar)"
+        },
+        {
+          "property": "og:description",
+          "content": "Mitt första inlägg här och jag vill höra mig för om hur det tänks och tycks kring DevOps och DevSecOps? Jag har följt rörelsen under ett antal år som serverdriftare och utvecklare och har väl en del tankar och åsikter. Några formuleringar om DevOps och De..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-10-05T20:13:19.398Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-12-21T10:34:23.412Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Arbetssätt och organisation"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/498",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/498/devops-anteckningar",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/498.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/27/arbetssätt-och-organisation"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/davidlars"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/498/devops-anteckningar?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

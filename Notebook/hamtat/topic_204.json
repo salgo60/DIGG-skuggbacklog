@@ -1,0 +1,628 @@
+{
+  "cid": 23,
+  "lastposttime": 1634039490965,
+  "mainPid": 827,
+  "postcount": 2,
+  "slug": "204/nominera-sveriges-bästa-api",
+  "tid": 204,
+  "timestamp": 1634025482133,
+  "title": "Nominera Sveriges bästa API",
+  "uid": 144,
+  "viewcount": 345,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 833,
+  "oldCid": 3,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Nominera Sveriges bästa API",
+  "timestampISO": "2021-10-12T07:58:02.133Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-10-12T11:51:30.965Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">API 1st instiftar Sweden API Award 2021 för att uppmärksamma utmärkta API:er.</p>\n<p dir=\"auto\">Sveriges bästa API ska vara till nytta för mänskligheten, lättanvänt, säkert, byggd med integritet och på öppen teknik. Sista datum för nominering är 24 oktober.</p>\n<p dir=\"auto\"><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSenWwYlKGQlDN6mAQPx8Fc4e20NvzAb6kAyML5iZ9TOhVX1fQ/viewform\" rel=\"nofollow ugc\">Skicka in din nominering till Sweden API Award här</a></p>\n<p dir=\"auto\">Mer information<br />\n<a href=\"https://api1st.org/\" rel=\"nofollow ugc\">Läs mer om API 1st - initiativet bakom Sweden API Award</a></p>\n",
+      "pid": 827,
+      "tid": 204,
+      "timestamp": 1634025482133,
+      "uid": 144,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-12T11:51:30.965Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2021-10-12T07:58:02.133Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 144,
+        "username": "Erika Strandberg",
+        "userslug": "erika-strandberg",
+        "reputation": 4,
+        "postcount": 1,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/144-profileavatar-1618585555391.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1634036171621,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "Erika Strandberg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2021-10-12T10:56:11.621Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/144\">@erika-strandberg</a> Toppeninitiativ. Nominerat! Kan du förtydliga \"öppen teknik\"? Är öppen dokumentation till API? Backend som öppen källkod? Fri mjukvara?</p>\n",
+      "pid": 833,
+      "tid": 204,
+      "timestamp": 1634039490965,
+      "toPid": "827",
+      "uid": 30,
+      "edited": 1634039894716,
+      "editor": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "displayname": "mattias"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-12T11:51:30.965Z",
+      "editedISO": "2021-10-12T11:58:14.716Z",
+      "index": 1,
+      "parent": {
+        "username": "Erika Strandberg",
+        "displayname": "Erika Strandberg"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 3,
+          "type": "move",
+          "uid": 62,
+          "id": 243,
+          "timestamp": 1648837980853,
+          "timestampISO": "2022-04-01T18:33:00.853Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Goda exempel och inspiration",
+            "slug": "3/goda-exempel-och-inspiration",
+            "icon": "fa-newspaper-o",
+            "color": "#fff",
+            "bgColor": "#5a6751"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-04-01T18:33:00.853Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 3,
+      "type": "move",
+      "uid": 62,
+      "id": 243,
+      "timestamp": 1648837980853,
+      "timestampISO": "2022-04-01T18:33:00.853Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Goda exempel och inspiration",
+        "slug": "3/goda-exempel-och-inspiration",
+        "icon": "fa-newspaper-o",
+        "color": "#fff",
+        "bgColor": "#5a6751"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-04-01T18:33:00.853Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "204",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/204.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/204",
+  "bodyClass": "page-topic page-topic-204 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Nominera Sveriges bästa API"
+        },
+        {
+          "name": "description",
+          "content": "API 1st instiftar Sweden API Award 2021 för att uppmärksamma utmärkta API:er. Sveriges bästa API ska vara till nytta för mänskligheten, lättanvänt, säkert, byggd med integritet och på öppen teknik. Sista datum för nominering är 24 oktober. Skicka in din n..."
+        },
+        {
+          "property": "og:title",
+          "content": "Nominera Sveriges bästa API"
+        },
+        {
+          "property": "og:description",
+          "content": "API 1st instiftar Sweden API Award 2021 för att uppmärksamma utmärkta API:er. Sveriges bästa API ska vara till nytta för mänskligheten, lättanvänt, säkert, byggd med integritet och på öppen teknik. Sista datum för nominering är 24 oktober. Skicka in din n..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-10-12T07:58:02.133Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-10-12T11:51:30.965Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/144-profileavatar-1618585555391.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/144-profileavatar-1618585555391.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/204",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/204/nominera-sveriges-bästa-api",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/204.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/erika-strandberg"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

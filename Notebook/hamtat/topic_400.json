@@ -1,0 +1,2329 @@
+{
+  "cid": 27,
+  "lastposttime": 1669306260658,
+  "mainPid": 1852,
+  "postcount": 42,
+  "slug": "400/vad-saknas-varför-blir-det-så-dumt-ingen-pratar-designmönster",
+  "tid": 400,
+  "timestamp": 1660295390555,
+  "title": "Vad saknas? Varför blir det så dumt? - ingen pratar designmönster",
+  "uid": 24,
+  "viewcount": 11685,
+  "postercount": 9,
+  "teaserPid": 3519,
+  "downvotes": 0,
+  "upvotes": 1,
+  "tags": [],
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Vad saknas? Varför blir det så dumt? - ingen pratar designmönster",
+  "timestampISO": "2022-08-12T09:09:50.555Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-24T16:11:00.658Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a href=\"https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/kommunallag-2017725_sfs-2017-725\" rel=\"nofollow ugc\">SFS 2017:725</a> - Kommunallagen</p>\n<ul>\n<li><a href=\"https://github.com/salgo60/Anslagstavla/issues/19\" rel=\"nofollow ugc\">Feedback hur användare upplever det 2022</a></li>\n</ul>\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/Anslagstavla/issues/19\" rel=\"nofollow ugc\"><img src=\"/assets/uploads/files/1668687147868-b01f27fb-d67f-4b26-b960-ec0371fd80b7-image.png\" alt=\"b01f27fb-d67f-4b26-b960-ec0371fd80b7-image.png\" class=\" img-fluid img-markdown\" /></a></p>\n<p dir=\"auto\"><strong>Dataverkstadens reaktion - är jobbigt att jobba</strong></p>\n<blockquote>\n<p dir=\"auto\">Det vi vet är att dubbelarbete inte kommer att accepteras av dessa verksamheter</p>\n</blockquote>\n<p dir=\"auto\">Saknas en ambition att leverera till medborgarna det vi kan förvänta oss 2022</p>\n<p dir=\"auto\">Se <a href=\"https://github.com/salgo60/Anslagstavla/issues/19\" rel=\"nofollow ugc\">Anslagstavlan Issue 19</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1668947975312-974f926f-9029-4abe-a5d1-2a5211e5e130-image.png\" alt=\"974f926f-9029-4abe-a5d1-2a5211e5e130-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>Kommunallagen pratar om tillkännagivande</strong><br />\nTror alla lagar måste peka tydligare på Öppna data och datamodell som skall stödjas och semantisk interoperabilitet annars blir det <a href=\"https://sweopendata.wikibase.cloud/query/embed.html#%23%23title%3A%20Kommuners%20Anslagstavla%20-%20test%20Wikibase%0A%23defaultView%3AMap%7B%22hide%22%3A%5B%22%3Fcoord%22%5D%7D%0A%0APREFIX%20wb%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fentity%2F%3E%0APREFIX%20wbt%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0A%0ASELECT%20%3FrLabel%20%3Fvideo%20%3Fcoord%20%3Fimg%20%3FwdQ%20%3FsvWikipedia%20WHERE%20%7B%0A%20%20VALUES%20%20%3FAnslagsTavla%20%7Bwb%3AQ240%7D%0A%20%20%20%3Fr%20wbt%3AP2%20%3FAnslagsTavla%20.%0A%20%20%20%3Fr%20wbt%3AP11%20%3Fvideo.%0A%20%20%3Fr%20wbt%3AP1%20%3FwdQ%0A%20%20BIND%28URI%28concat%28%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%2C%3FwdQ%29%29%20AS%20%3Fwikidata_iri%29%0A%20%20%0A%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwikidata_iri%20wdt%3AP625%20%3Fcoord.%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP41%20%3Fflag%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP94%20%3Fcoat%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP154%20%3Flogo%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP18%20%3Fimage%20%7D%20%20%0A%20%20%20BIND%28%20COALESCE%28%3Fflag%2C%20%3Fcoat%2C%20%3Flogo%2C%20%3Fimage%29%20as%20%3Fimg%20%29%0A%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3Aabout%20%3Fwikidata_iri%20.%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3AinLanguage%20%22sv%22%20.%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E%20.%0A%20%20%20%20%7D%0A%20%20%20%20%7D%0A%09SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D\" rel=\"nofollow ugc\">290 silos</a></p>\n<p dir=\"auto\"><strong>Anslagstavlan</strong></p>\n<pre><code>9 §   Varje kommun och region ska på sin webbplats ha en\nanslagstavla. Anslagstavlan ska vara lättillgänglig och kunna\nsärskiljas från övrigt innehåll på webbplatsen.\nKommuner och regioner ska i sina lokaler eller på annan plats ge \nallmänheten möjlighet att ta del av innehållet på anslagstavlan. Lag (2019:835\n</code></pre>\n<p dir=\"auto\">......</p>\n<pre><code>Anslagstavlan ska innehålla tillkännagivanden om fullmäktiges sammanträden, \njusterade protokoll, delegationsbeslut som inte ska anmälas till en nämnd och upplysningar om hur \nbeslut kan överklagas. Anslagstavlan ska även innehålla kungörelser, tillkännagivanden eller annan\n information som med stöd av lag eller annan författning ska meddelas på anslagstavlan \n(Kommunallagen 8 kap. Delaktighet och insyn 9 - 13 §).\n</code></pre>\n<pre><code>Varje medlem av en kommun har rätt att få lagligheten av kommunens beslut prövad \ngenom att överklaga beslutet till förvaltningsrätten. Ett beslut överklagas skriftligt. I överklagandet \nska klaganden ange vilket beslut som överklagas och de omständigheter som överklagandet grundas på. \nÖverklagandet ska ha kommit in till förvaltningsrätten inom tre veckor från den dag då det tillkännagavs på \nanslagstavlan. (Kommunallagen 13 kap. Laglighetsprövning).\n</code></pre>\n<h2>Fråga A: Hur kunde det skapas 290 silos utan API eller tanke på namnstandard eller SPARQL federation eller ändringsströmmar som man kan prenumerera på?</h2>\n<p dir=\"auto\"><a href=\"https://sweopendata.wikibase.cloud/query/embed.html#%23%23title%3A%20Kommuners%20Anslagstavla%20-%20test%20Wikibase%0A%23defaultView%3AMap%7B%22hide%22%3A%5B%22%3Fcoord%22%5D%7D%0A%0APREFIX%20wb%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fentity%2F%3E%0APREFIX%20wbt%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0A%0ASELECT%20%3FrLabel%20%3Fvideo%20%3Fcoord%20%3Fimg%20%3FwdQ%20%3FsvWikipedia%20WHERE%20%7B%0A%20%20VALUES%20%20%3FAnslagsTavla%20%7Bwb%3AQ240%7D%0A%20%20%20%3Fr%20wbt%3AP2%20%3FAnslagsTavla%20.%0A%20%20%20%3Fr%20wbt%3AP11%20%3Fvideo.%0A%20%20%3Fr%20wbt%3AP1%20%3FwdQ%0A%20%20BIND%28URI%28concat%28%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%2C%3FwdQ%29%29%20AS%20%3Fwikidata_iri%29%0A%20%20%0A%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwikidata_iri%20wdt%3AP625%20%3Fcoord.%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP41%20%3Fflag%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP94%20%3Fcoat%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP154%20%3Flogo%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP18%20%3Fimage%20%7D%20%20%0A%20%20%20BIND%28%20COALESCE%28%3Fflag%2C%20%3Fcoat%2C%20%3Flogo%2C%20%3Fimage%29%20as%20%3Fimg%20%29%0A%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3Aabout%20%3Fwikidata_iri%20.%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3AinLanguage%20%22sv%22%20.%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E%20.%0A%20%20%20%20%7D%0A%20%20%20%20%7D%0A%09SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D\" rel=\"nofollow ugc\">Karta</a> / <a href=\"https://sweopendata.wikibase.cloud/query/embed.html#%23title%3A%20Swedish%20Municipals%20Billboards%20-%20test%20SPARQL%20federation%20Wikibase%20WD%0A%0APREFIX%20wb%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fentity%2F%3E%0APREFIX%20wbt%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0A%0ASELECT%20%20%3FrLabel%20%20%3FMunicipalpage%20%3Fwikidata_iri%20%3FWDcoord%20WHERE%20%7B%0A%20%20VALUES%20%20%3FAnslagsTavla%20%7Bwb%3AQ240%7D%0A%20%20%20%3Fr%20wbt%3AP2%20%3FAnslagsTavla%20.%0A%20%20%20%3Fr%20wbt%3AP11%20%3FMunicipalpage.%0A%20%20%3Fr%20wbt%3AP1%20%3FwdQ%0A%20%20BIND%28URI%28concat%28%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%2C%3FwdQ%29%29%20AS%20%3Fwikidata_iri%29%0A%20%20%0A%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwikidata_iri%20wdt%3AP625%20%3FWDcoord.%0A%20%20%20%20%3Fwikidata_iri%20wdt%3AP18%20%3Fimg.%0A%20%20%20%20%7D%0A%09SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7Dorder%20by%20%3FrLabel\" rel=\"nofollow ugc\">Lista</a> / <a href=\"https://wikidata-todo.toolforge.org/rcvis.html\" rel=\"nofollow ugc\">Wikidatas ändringsström</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660289342505-1b99ff6a-73a9-406a-83a4-17e6e11038a0-image.png\" alt=\"1b99ff6a-73a9-406a-83a4-17e6e11038a0-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://wikidata-todo.toolforge.org/rcvis.html\" rel=\"nofollow ugc\">Wikidatas ändringsström</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660291729005-e35475e8-3dd7-437e-b7b1-b26bd95aef9b-image-resized.png\" alt=\"e35475e8-3dd7-437e-b7b1-b26bd95aef9b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://sweopendata.wikibase.cloud/query/index.html#%23%23title%3A%20Kommuners%20Anslagstavla%20-%20test%20Wikibase%0A%23defaultView%3AMap%7B%22hide%22%3A%5B%22%3Fcoord%22%5D%7D%0A%0APREFIX%20wb%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fentity%2F%3E%0APREFIX%20wbt%3A%20%3Chttps%3A%2F%2Fsweopendata.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0A%0ASELECT%20%3FrLabel%20%3Fvideo%20%3Fcoord%20%3Fimg%20%3FwdQ%20%3FsvWikipedia%20WHERE%20%7B%0A%20%20VALUES%20%20%3FAnslagsTavla%20%7Bwb%3AQ240%7D%0A%20%20%20%3Fr%20wbt%3AP2%20%3FAnslagsTavla%20.%0A%20%20%20%3Fr%20wbt%3AP11%20%3Fvideo.%0A%20%20%3Fr%20wbt%3AP1%20%3FwdQ%0A%20%20BIND%28URI%28concat%28%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%2C%3FwdQ%29%29%20AS%20%3Fwikidata_iri%29%0A%20%20%0A%20SERVICE%20%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E%20%7B%0A%20%20%20%20%3Fwikidata_iri%20wdt%3AP625%20%3Fcoord.%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP41%20%3Fflag%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP94%20%3Fcoat%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP154%20%3Flogo%20%7D%0A%20%20%20OPTIONAL%20%7B%20%3Fwikidata_iri%20wdt%3AP18%20%3Fimage%20%7D%20%20%0A%20%20%20BIND%28%20COALESCE%28%3Fflag%2C%20%3Fcoat%2C%20%3Flogo%2C%20%3Fimage%29%20as%20%3Fimg%20%29%0A%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3Aabout%20%3Fwikidata_iri%20.%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3AinLanguage%20%22sv%22%20.%0A%20%20%20%20%20%20%3FsvWikipedia%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E%20.%0A%20%20%20%20%7D%0A%20%20%20%20%7D%0A%09SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D\" rel=\"nofollow ugc\">Kartan</a> ovan är skapad med SPARQL federation mellan en Wikibase och Wikidata dvs. samma mönster borde kunna användas så vi medborgarare kan hämta alla Anslagstavlor/ prenumerera på det vi är intresserade av....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660292076534-3b0d0f28-1fc5-4f68-9af0-a77ddc4151d1-image-resized.png\" alt=\"3b0d0f28-1fc5-4f68-9af0-a77ddc4151d1-image.png\" class=\" img-fluid img-markdown\" /></p>\n<h2>Ge mig lite bortförklaringar</h2>\n<p dir=\"auto\">eller <strong>ännu bättre någon som brustit i sitt ansvar</strong></p>\n<h2>Det jag ser</h2>\n<ul>\n<li>\n<p dir=\"auto\"><a href=\"https://www.ri.se/sv/vad-vi-gor/projekt/nationell-skalning-oppna-data\" rel=\"nofollow ugc\">NSÖD</a> utreder öppna data i 3 år och kommer fram till att dom saknar API kunskaper - sanningen är värre en så dom pratar inte ens om hur Silos som ovan skall hanteras.... har inte ens <a href=\"https://github.com/salgo60/DiggUptime/issues/77#issuecomment-1308500384\" rel=\"nofollow ugc\">sjukdomsinsikt se projektkyrkogården #77</a></p>\n</li>\n<li>\n<p dir=\"auto\">DIGG förbrukar massa skattepengar (<strong><a href=\"https://www.digg.se/download/18.3b27105f17fb89447e81d55/1648652890700/budgetunderlag-2023-2025-myndigheten-for-digital-forvaltning.pdf\" rel=\"nofollow ugc\">passerar nog snart 1 miljard</a></strong>) och pratar om lagspel men jag ser inte att dom ställt upp ett lag på planen som börjat kämpa för att saker som ovan <strong>skall bekämpas</strong> eller vilka som spelar i DIGGs lag....</p>\n<ul>\n<li>2022-09-23 delar av DIGGs personal reagerar och skickar brev till Regeringskansliet se <a href=\"https://github.com/salgo60/DiggUptime/issues/75#issuecomment-1312411222\" rel=\"nofollow ugc\">DIGGuptime #75</a> - att dom själva på 3 år inte lyckats skapa ett lag yada yada yada .... nästa steg i denna soppa med en ny gammal myndighet som inte någon verkar försvara väntar vi på <a href=\"https://github.com/salgo60/DiggUptime/issues/77#issuecomment-1318346873\" rel=\"nofollow ugc\">en fara vi ser är att som Johan Magnusson - Professor inom samhällets digitalisering vid Göteborg universitet säger det finns ett styrningshaveri</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><a href=\"https://www.vgregion.se/ov/dataverkstad/\" rel=\"nofollow ugc\">Nationell Dataverkstad</a> kan inte ens hantera 3 kommuners utegym så jag som datakonsument kan enkelt hämta datat utan det blir 3 Silos - <a href=\"https://github.com/salgo60/ProjectOutdoorGyms/issues/112\" rel=\"nofollow ugc\">ProjectOutdoorGyms/issues/112</a></p>\n</li>\n<li>\n<p dir=\"auto\">Länsstyrelsen Skåne skall med EU pengar mäta <a href=\"https://community.dataportal.se/topic/385/att-m%C3%A4ta-kommuners-%C3%B6ppna-data-mognad\">kommuners datamognad</a> - känns som torrsim, tycker vi har en tydlig sjukdomsinsikt bara med exemplet ovan, det saknas design, arkitektur, förmåga att involvera andra en webdesigners... 290 kommuner köper in 290 olika lösningar dvs. galet resursslöseri plus helt omöjligt att konsumera</p>\n</li>\n<li>\n<p dir=\"auto\"><strong>Fråga B</strong> Varför har man inte enhetlig url till anslagstavlan ex. <strong>kommunweb/anslagstavla</strong> utan det skapas URL:ar som</p>\n<ul>\n<li><a href=\"https://www.bollebygd.se/kommunochpolitik/anslagstavla.4.7705107915f6dfbd89345a3.html\" rel=\"nofollow ugc\">https://www.bollebygd.se/kommunochpolitik/anslagstavla.4.7705107915f6dfbd89345a3.html</a></li>\n<li>eller</li>\n<li><a href=\"https://www.bracke.se/kommunochpolitik/beslutinsynochrattssakerhet/officiellanslagstavla.4.448d2df3160e422a5736f46e.html\" rel=\"nofollow ugc\">https://www.bracke.se/kommunochpolitik/beslutinsynochrattssakerhet/officiellanslagstavla.4.448d2df3160e422a5736f46e.html</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><strong>Fråga C</strong> varför verkar INGEN ha ett API</p>\n</li>\n<li>\n<p dir=\"auto\"><strong>Fråga D</strong> varför pratar man inte SPARQL federation</p>\n</li>\n<li>\n<p dir=\"auto\"><strong>Fråga E</strong> var är det semantiska tänkadet och att koppla saker till vokabulär så informationen kan navigeras/ prenumereras på se <a href=\"https://github.com/salgo60/DiggUptime/issues/51\" rel=\"nofollow ugc\">DIGGuptime #51 \"Use keywords that are shared from known vocabularies\"</a></p>\n</li>\n</ul>\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/DiggUptime/issues/51\" rel=\"nofollow ugc\"><img src=\"/assets/uploads/files/1669053768362-1fbaef35-e729-4c2f-9dbc-f1a2399db437-image.png\" alt=\"1fbaef35-e729-4c2f-9dbc-f1a2399db437-image.png\" class=\" img-fluid img-markdown\" /></a><br />\n<strong>Frågorna är många och lösningen jag ser bara att nya laguppställningar är lösningen</strong> .... idag 2022 vet vi att ovanstående initiativ inte levererar...</p>\n<p dir=\"auto\">Hur information presenteras på våra kommunala anslagstavlor så medborgarna kan enkelt ta del av det är viktigt för en fungerande demokrati... <strong>Sverige underleverar just nu</strong></p>\n<p dir=\"auto\"><strong>EDIT</strong> mer om <a href=\"https://github.com/salgo60/DiggUptime/issues/77#issuecomment-1310334500\" rel=\"nofollow ugc\">Anslagstavlor</a></p>\n",
+      "pid": 1852,
+      "tid": 400,
+      "timestamp": 1660295390555,
+      "uid": 24,
+      "edited": 1669066971712,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 493,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-08-12T09:44:11.459Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-08-12T09:09:50.555Z",
+      "editedISO": "2022-11-21T21:42:51.712Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Svar på fråga A finner du högre upp i samma lag. Varje kommun har självstyre och får själva bestämma hur de vill göra detta. För att komma runt detta behöver man ändra på andra delar av lagen först (eller möjligtvis se till att paragrafer likt Anslagstavlan skrivs in i andra lagar istället).</p>\n",
+      "pid": 1853,
+      "tid": 400,
+      "timestamp": 1660297451459,
+      "toPid": "1852",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-20T05:36:16.710Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T09:44:11.459Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/1852\">Vad saknas? Varför blir det så dumt? - ingen pratar design mönster</a>:</p>\n<blockquote>\n<p dir=\"auto\">Hur information presenteras på våra kommunala anslagstavlor så medborgarna kan enkelt ta del av det är viktigt för en fungerande demokrati... Sverige underleverar just nu</p>\n</blockquote>\n<p dir=\"auto\">Jag håller med om detta, men SPARQL, API et.c. underlättar inte presentationen för medborgare utan är till för att bygga saker vi tekniker klarar av. Ska man fokusera på vanliga medborgare gör man helt rätt i att strunta i semantik och interoperabilitet.</p>\n<p dir=\"auto\">Men, vill man också bygga ett ekosystem där saker hänger ihop och där vi kan bygga förståelse ovanpå och aggregerat då har du helt rätt. Frågan är vilka prioriteringar som driver utvecklingen och om man har insikt om vad som skulle kunna ske om man bara släppte ut datan konsekvent och standardiserat.</p>\n<p dir=\"auto\">Vad tror du som pratat med många politiker och tjänstemän, vilket mål springer de efter?</p>\n",
+      "pid": 1854,
+      "tid": 400,
+      "timestamp": 1660309362330,
+      "toPid": "1852",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-12T13:44:25.630Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T13:02:42.330Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a></p>\n<blockquote>\n<p dir=\"auto\">Ska man fokusera på vanliga medborgare gör man helt rätt i att strunta i semantik och interoperabilitet.</p>\n</blockquote>\n<p dir=\"auto\"><strong>Nix</strong> vanliga medborgare måste involveras  vad som händer och vanliga medborgare pratar inte bara svenska...</p>\n<ol>\n<li>idag är det enklare att veta vad grannen käkat till middag via facebook än att veta att ett <strong>höghus snart byggs utanför min dörr</strong><br />\n1-1) exempel på ett <a href=\"https://vaxer.stockholm/projekt/flerbostadshus-vid-medsolsbacken/\" rel=\"nofollow ugc\">höghus bygge</a> som kommunen ville bygga i Hässelby som stoppades pga folk engagerade sig i Facebook grupper, tog kontakt med politiker, tidningar och grävde i handlingar..... skall detta funka kan man inte ha <strong>290 silos som bara producerar svenska text strängar i PDF:er</strong> ...  eller som en användare på svenska WIkipedia <a href=\"https://sv.wikipedia.org/w/index.php?title=Wikipedia%3ABybrunnen&amp;type=revision&amp;diff=51062637&amp;oldid=51062543\" rel=\"nofollow ugc\">berätta att man lägger ut på anslagstavlan att dokumentet finns i stadshuset</a>...<br />\n<img src=\"/assets/uploads/files/1660311749388-a52b15d4-e247-4bb2-b6fc-3720c6b74039-image.png\" alt=\"a52b15d4-e247-4bb2-b6fc-3720c6b74039-image.png\" class=\" img-fluid img-markdown\" /><br />\n1-2) kan man <strong>knyta ihop saker semantiskt</strong> kan vi lära av varandra<br />\n1-3) idag plöjer Meta in miljoner i ML (<a href=\"https://mashable.com/article/meta-facebook-ai-chatbot-racism-donald-trump\" rel=\"nofollow ugc\">som blir galet</a>) varför skall vi nöja oss med att kommunerna gömmer pdf:er på olika ställen på 290 web:ar <strong>GÖR OM GÖR RÄTT</strong> och skaffa kompetens som hjälper vanliga medborgare att hävda sin rätt.... <strong>avståndet mellan digitala A och B lag blir bara större och större...</strong> vi behöver inte utreda om kompetens saknas... bygg upp ny kompetens och lär av <a href=\"https://hbr.org/2014/01/how-netflix-reinvented-hr\" rel=\"nofollow ugc\">NetFlix att digital kompetens är färskvara</a> så teamet skall inte alltid jobba till 65 - <a href=\"https://www.peoplehum.com/blog/5-ways-netflix-reinvented-hr\" rel=\"nofollow ugc\">Keepers Test</a></li>\n</ol>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660311417196-3750f15a-bbb5-4029-90f3-fd3ea413be2f-image-resized.png\" alt=\"3750f15a-bbb5-4029-90f3-fd3ea413be2f-image.png\" class=\" img-fluid img-markdown\" /><br />\nJag skrev lite visioner på <a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen#Kommunallagen_s%C3%A4ger_att_varje_kommun_nu_SKA_ha_en_digital_anslagstavla\" rel=\"nofollow ugc\">svenska Wikipedia Bybrunnen där jag för en hårdare kamp</a> att svenska Wikipedia skall visa hur man med snygg infrastruktur och mallar kan göra 290 kommunsidor enhetliga och <strong>länka kommunernas virrvarr av anslagstavlor</strong>....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660311497798-3fe4123d-68f7-45d4-aa27-3ef2ef2c0e4f-image-resized.png\" alt=\"3fe4123d-68f7-45d4-aa27-3ef2ef2c0e4f-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1855,
+      "tid": 400,
+      "timestamp": 1660311865630,
+      "toPid": "1854",
+      "uid": 24,
+      "edited": 1660312266722,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-12T14:29:41.211Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T13:44:25.630Z",
+      "editedISO": "2022-08-12T13:51:06.722Z",
+      "index": 3,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Jag håller med dig hela vägen, både om A och B-lag. Jag vet ju hur semantik kan underlätta presentation. Utryckte mig lite klumpigt i förra inlägget. Det jag menade är att det på ytan inte verkar som att semantiken tillför något när man redan har publicerat en PDF eller en sida på en sajt. Framförallt om de som formulerar målen tror syftet är att informera medborgare på svenska och att huvudsaken är notiserna, inte innehållet (dokumentet finns ju i stadshuset <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /> )</p>\n<hr />\n<p dir=\"auto\">Aningens Off-topic, men en sak jag funderat på är hur långt kan man rimligen dra semantisk interoperabilitet-snöret innan det blir ivägen och en byråkratisk soppa att underhålla.</p>\n<p dir=\"auto\">Om vi tar Kommunfullmäktigsmöten till exempel, med nya beslut som avhandlas varje vecka. I en utopi så skulle man kunna låta kallelsens ämnens innehåll vara samma som och länkat kors och tvärs till protokollets ämnens innehåll. Alltså vad är det man beslutat och hur. Detta bör såklart vara semantiskt interoperabelt så att jag kan förstå beslutet på både svenska, engelska, samiska och arabiska, eller urdu för den delen. Men hur mycket jobb blir det att klassificera alla beredningars texter och betydelser? Finns det en risk att vi tappar detaljer  och nyanser på vägen?</p>\n",
+      "pid": 1856,
+      "tid": 400,
+      "timestamp": 1660314581211,
+      "toPid": "1855",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-12T15:11:02.439Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T14:29:41.211Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<blockquote>\n<p dir=\"auto\">men en sak jag funderat på är hur långt kan man rimligen dra semantisk interoperabilitet-snöret innan det blir ivägen och en byråkratisk soppa att underhålla</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> japp och <strong>det är den diskussionen som är den intressanta</strong> men jag tror som jag sagt på annat ställe att nya krav ställs på ny kompetens.... precis som vi idag ställer krav på <a href=\"https://www.knowledgehut.com/blog/data-science/skills-of-ai-and-ml-engineer\" rel=\"nofollow ugc\">ny kompetens då man skall leverera ML lösningar</a></p>\n<p dir=\"auto\">Nu har DIGG laddat upp med en laguppställning där det är svårt att fundera fram om det skall vara 1<a href=\"https://community.dataportal.se/topic/364/kategorier-av-%C3%B6ppna-data\">0 eller 15  kategorier</a>... då är det som att <a href=\"https://www.bible.com/sv/bible/161/LUK.8.5-8.SK73\" rel=\"nofollow ugc\">så på Hälleberget</a> att ens fundera över semantik</p>\n<p dir=\"auto\">Vad jag fångat upp</p>\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=hewPZFCDSZM\" rel=\"nofollow ugc\">Denny som skapa Wikidata</a> och är 2000 ggr smartare än mig säger\n<ul>\n<li>Wikidata skall kunna vara så bra att det kan förklara varför första världskriget uppstod</li>\n<li>det skall vara lätt att göra rätt... tycker Wikidata designen gör det rel. lätt att länka saker....</li>\n</ul>\n</li>\n<li>vi har <a href=\"https://github.com/salgo60/LagrummetLight\" rel=\"nofollow ugc\">Rättsinformationssystemet</a> med SGML där det blev för svårt för många myndigheter... <strong>frågan Varför</strong> om det var B-laget som jobbade med detta eller om det var andra fel....\n<ul>\n<li>det intressanta är hur en av killarna i projektet funderar över vad semantik och lagar kan innebära <strong><a href=\"https://web.archive.org/web/20160824172252/http://blog.tomtebo.org/wp-content/uploads/2011/08/Legal_information_systems_and_the_Semantic_Web.pdf\" rel=\"nofollow ugc\">\"Legal information system and the semantic web\"</a></strong> och \"<a href=\"https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.3802&amp;rep=rep1&amp;type=pdf\" rel=\"nofollow ugc\">Towards a theory of jurisprudential  relevance ranking -  Using link analysis on EU case law</a>\"</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660316781616-3a295f16-e228-40ff-ab64-4cd97bb62422-image.png\" alt=\"3a295f16-e228-40ff-ab64-4cd97bb62422-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>Så mitt svar:</strong> Jag vet inte men hoppas saker som Wikidata och <a href=\"https://recogito.pelagios.org/\" rel=\"nofollow ugc\">Recogito</a> kan vara vägen framåt</p>\n<ul>\n<li>intressant att lyssna på Denny som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> säger i sin pod skall ha en demo i helgen på en prototyp av Abstract Wikipedia</li>\n</ul>\n",
+      "pid": 1857,
+      "tid": 400,
+      "timestamp": 1660317062439,
+      "toPid": "1856",
+      "uid": 24,
+      "edited": 1660317366525,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-12T15:57:22.364Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T15:11:02.439Z",
+      "editedISO": "2022-08-12T15:16:06.525Z",
+      "index": 5,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a>  testa web extension <a href=\"https://www.wikidata.org/wiki/Wikidata:Entity_Explosion\" rel=\"nofollow ugc\">Entity Explostion</a>  den utnyttjar det som finns i Wikidata för att navigera WEB:en..... att ha semantiska dokument skulle kunna vara 100 000 mera häftigt</p>\n<ul>\n<li>snackade lite om detta på annat ställe och <a href=\"https://www.youtube.com/watch?v=fOj-xPHU5TE\" rel=\"nofollow ugc\">laddar nu upp en video</a> där jag hoppar runt med web extension <a href=\"https://www.wikidata.org/wiki/Wikidata:Entity_Explosion\" rel=\"nofollow ugc\">Entity Explotion</a>... - youtube <a href=\"https://www.youtube.com/results?search_query=%23entityexplosion\" rel=\"nofollow ugc\">#EntityExplosion</a>\n<ul>\n<li>tänk om man kan hoppa från Google Map direkt till kommunernas Anslagstavla, stå på en kommuns anslagstavla och se att liknande case har <a href=\"https://vaxer.stockholm/projekt/flerbostadshus-vid-medsolsbacken/\" rel=\"nofollow ugc\">drivits i Hässelby för att stoppa bebyggande av grönytor</a>... eller hoppa till Naturskyddsföreningens tips om att bevara xxxx\n<ul>\n<li>eller se vilka Facebook grupper som pratar om vikten av yyyy</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">När jag håller föredrag brukar jag ta höjd för hur var saker innan internet och hur omöjligt det skulle vara att 1988 beskriva för någon vad internet skulle bli (<a href=\"https://minancestry.blogspot.com/2020/06/kunskapsdatabaser-for-slaktforskning.html\" rel=\"nofollow ugc\">Youtube har tagit bort mina föreläsningar om DNA och Linked data</a> för deras ML algoritmer uppfattar det som racism ;-(  )</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660319553082-6a677508-af31-4bfd-b344-3b669372fbde-image-resized.png\" alt=\"6a677508-af31-4bfd-b344-3b669372fbde-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1858,
+      "tid": 400,
+      "timestamp": 1660319842364,
+      "toPid": "1857",
+      "uid": 24,
+      "edited": 1660320045015,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T15:57:22.364Z",
+      "editedISO": "2022-08-12T16:00:45.015Z",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/1857\">Vad saknas? Varför blir det så dumt? - ingen pratar design mönster</a>:</p>\n<blockquote>\n<p dir=\"auto\">intressant att lyssna på Denny som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> säger i sin pod skall ha en demo i helgen på en prototyp av Abstract Wikipedia</p>\n</blockquote>\n<p dir=\"auto\">Oj, jag var nog otydlig <a href=\"https://wikipediapodden.se/avsnitt-184-infor-wikimania/\" rel=\"nofollow ugc\">i podden</a>. Det är inte Denny som demar, utan prototypen är den som byggts av Mahir Morshed. Sessionen ifråga är på söndag 10:50 och heter <a href=\"https://wikimania.wikimedia.org/wiki/2022:Submissions/Ninai-Udiron:_Using_Wikidata_Items_and_Lexemes_for_Abstract_Wikipedia-Like_Text_Generation\" rel=\"nofollow ugc\">Ninai/Udiron: Using Wikidata Items and Lexemes for Abstract Wikipedia-Like Text Generation</a>. Den kommer alltså att visa vad som går att göra redan idag, och kommer säkert att ge god vägledning för det fortsatta bygget av Abstrakta Wikipedia.</p>\n",
+      "pid": 1859,
+      "tid": 400,
+      "timestamp": 1660331915933,
+      "toPid": "1857",
+      "uid": 41,
+      "edited": 1660331962122,
+      "editor": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "displayname": "Ainali"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T19:18:35.933Z",
+      "editedISO": "2022-08-12T19:19:22.122Z",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Jag håller med dig, men som jag skrivit i ett annat inlägg, så ser inte kommunerna information till medborgarna som ett område för informationsexperter, utan det är webbredaktörer som arbetar med publicering. Jag menar inte att förringa webbredaktörerna på något sätt, men de arbetar inte med materialet som data (i den mening du avser). Att url:er ska vara enhetliga, begreppen standardiserade, information länkbara mm är okänt. Och, som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> säger, varje kommun gör som den vill. Det är tom värre än då - inom varje kommun gör varje förvaltning som den vill. Därför kan det i en större kommun vara \"vilda västern\" kring hur information redovisas.</p>\n<p dir=\"auto\">De flesta kommuner har inte någon anställd informationsstrateg, de har kommunikationsstrateger, men återigen - de jobbar med webbpubliceringar (och traditionella kanaler) och har inte en aning om vad länkade data är - eller vad öppna data - på riktigt - är. Om du pratar \"SPARQL-federation\", så kan du lika gärna prata om  intergalaktiska klotformiga stjärnhopar, ditt budskap går tyvärr inte fram.</p>\n",
+      "pid": 1860,
+      "tid": 400,
+      "timestamp": 1660332031379,
+      "toPid": "1852",
+      "uid": 493,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-12T20:12:20.579Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-08-12T19:20:31.379Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 493,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@mistral sa i <a href=\"/post/1860\">Vad saknas? Varför blir det så dumt? - ingen pratar design mönster</a>:</p>\n<blockquote>\n<p dir=\"auto\">å kan du lika gärna prata om  intergalaktiska klotformiga stjärnhopar, ditt budskap går tyvärr inte fram</p>\n</blockquote>\n<p dir=\"auto\">känns som vi bör ha en ny tråd och kanske en ny myndighet  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\"><strong>Frågan är om det är ok</strong> jag fick lite hints från folk som håller på att det är enormt svårt att navigera och hitta dokumenten.</p>\n<p dir=\"auto\">Med de tester vi gör på Wikidata kan vi med länkade data exempelvis hitta gator uppkallade efter personer beskrivna hos <a href=\"https://www.riksarkivet.se/sbl\" rel=\"nofollow ugc\">Riksarkivet SBL</a> <strong>se <a href=\"https://w.wiki/5ZmR\" rel=\"nofollow ugc\">karta</a></strong> (detta kan inte Riksarkivet som bara har text....)</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660334998615-e827a507-8d26-46e3-8774-3ad44edf0a4c-image-resized.png\" alt=\"e827a507-8d26-46e3-8774-3ad44edf0a4c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Testa gärna Stockholms stad och <strong>försök hitta svar på medborgarförslag om hopptorn</strong> ledtråd gavs 2021-05-27 - gissar att det är Google som hittar det....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660334632924-425d1e4d-bbc7-42c0-9e3d-ffcd78dcc704-image.png\" alt=\"425d1e4d-bbc7-42c0-9e3d-ffcd78dcc704-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1861,
+      "tid": 400,
+      "timestamp": 1660335140579,
+      "toPid": "1860",
+      "uid": 24,
+      "edited": 1660335658801,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-14T13:08:40.325Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-12T20:12:20.579Z",
+      "editedISO": "2022-08-12T20:20:58.801Z",
+      "index": 9,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h4>Förfrågan nationell dataverkstad om denna datamängd med API:er och semantiska kooplingar</h4>\n<ul>\n<li>se ´<a href=\"https://github.com/salgo60/ProjectOutdoorGyms/issues/115\" rel=\"nofollow ugc\">salgo60/ProjectOutdoorGyms/issues/115</a></li>\n<li><strong>fyll på med user cases som dom skall uppfylla....</strong></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660551591535-3e4cc64e-e707-4aca-b6fe-2d8eb0d0ef64-image.png\" alt=\"3e4cc64e-e707-4aca-b6fe-2d8eb0d0ef64-image.png\" class=\" img-fluid img-markdown\" /></p>\n<h3>Hittade <a href=\"https://insynsverige.se/\" rel=\"nofollow ugc\">insyn Sverige</a></h3>\n<p dir=\"auto\">Känns som rätt tänkt <strong>MEN man fegar med att inte jobba</strong> med persistenta identifierare och semantik</p>\n<p dir=\"auto\">Email jag fick idag<br />\n<img src=\"/assets/uploads/files/1660553374240-ee2fca51-c563-46c7-a12e-f60626b012fc-image.png\" alt=\"ee2fca51-c563-46c7-a12e-f60626b012fc-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>länkar <a href=\"https://insynsverige.se/stockholm-exploatering/dagordning?date=2022-08-25&amp;cl=1\" rel=\"nofollow ugc\">Exploateringsnämnden Nästa sammanträde, torsdag 25 augusti 2022 kl 16:30</a>\n<ul>\n<li>snyggt att <a href=\"https://insynsverige.se/stockholm-exploatering/dagordning?date=2022-08-25\" rel=\"nofollow ugc\">ha varje föredragningspunkt</a> som ett objekt och inte en stor PDF gegga</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660553603533-04d07555-78ab-4409-a14c-1755c39b4e20-image.png\" alt=\"04d07555-78ab-4409-a14c-1755c39b4e20-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">jag har prenumerationer</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660553739740-f565b70d-7def-4c0d-ab27-88f76ce41028-image.png\" alt=\"f565b70d-7def-4c0d-ab27-88f76ce41028-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>plus <strong>utegym</strong> som ord skulle vilja ha det kopplat till ett vokabulär med stöd för flera språk...</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660553857327-c207d065-5942-4dfe-8651-423418b30cd9-image.png\" alt=\"c207d065-5942-4dfe-8651-423418b30cd9-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1863,
+      "tid": 400,
+      "timestamp": 1660554038458,
+      "toPid": "1862",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-15T09:28:46.359Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-15T09:00:38.458Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a></p>\n<p dir=\"auto\">Tycker inget annat än er. Provade att \"hacka lite\", gick igenom 15 kommuners webbsidor. Relativt \"lätt\" att sammanställa informationen trots att den är ostrukturerad. Självklart är bra strukturerad data det bästa. Men ibland måste man skrapa. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f603.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smiley\" style=\"height:23px;width:auto;vertical-align:middle\" title=\"=)\" alt=\"😃\" /></p>\n<pre><code>curl --silent https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/ | htmlq a --attribute href -b https://start.stockholm\n</code></pre>\n<p dir=\"auto\">Resultat för Stockholm, tror inte det är omöjligt att sammanställa alla kommuners data strukturerat med lite skrapning.</p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/kungorelse-om-flyttade-fordon-den-12-augusti-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/kungorelse-om-flyttade-fordon-den-12-augusti-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/kungorelse-om-flyttade-fordon-5-augusti-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/kungorelse-om-flyttade-fordon-5-augusti-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/sodermalms-stadsdelsnamnd-sociala-delegationens-protokoll-for-den-2-augusti-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/sodermalms-stadsdelsnamnd-sociala-delegationens-protokoll-for-den-2-augusti-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/rinkeby-kista-stadsdelsnamnds-protokoll-for-den-12-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/8/rinkeby-kista-stadsdelsnamnds-protokoll-for-den-12-juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-29-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-29-juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/sodermalms-stadsdelsnamnd-sociala-delegationens-protokoll-for-den-26-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/sodermalms-stadsdelsnamnd-sociala-delegationens-protokoll-for-den-26-juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-22-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-22-juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-15-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-15-juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-8-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-8-juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-1--juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-1--juli-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-17-juni-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-17-juni-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-10-juni-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-10-juni-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-den-3-juni-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-den-3-juni-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/5/kungorelse-om-flyttade-fordon-27-maj-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/5/kungorelse-om-flyttade-fordon-27-maj-2022/</a><br />\n<a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2021/4/kungorelse-om-flyttade-fordon-den-30-april-2021/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2021/4/kungorelse-om-flyttade-fordon-den-30-april-2021/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2021/3/enskede-arsta-vantors-stadsdelsnamnds-protokoll-for-den-18-mars-2021/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2021/3/enskede-arsta-vantors-stadsdelsnamnds-protokoll-for-den-18-mars-2021/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2021/3/stockholms-fastighetsnamnds-protokoll-for-den-9-mars-20212/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2021/3/stockholms-fastighetsnamnds-protokoll-for-den-9-mars-20212/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/5/kungorelse-om-flyttade-fordon-27-maj-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/5/kungorelse-om-flyttade-fordon-27-maj-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-den-3-juni-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-den-3-juni-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-10-juni-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-10-juni-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-17-juni-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/6/kungorelse-om-flyttade-fordon-17-juni-2022/</a></p>\n<p dir=\"auto\"><a href=\"https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-22-juli-2022/\" rel=\"nofollow ugc\">https://start.stockholm/om-stockholms-stad/politik-och-demokrati/stockholms-stads-anslagstavla/anslag/2022/7/kungorelse-om-flyttade-fordon-den-22-juli-2022/</a></p>\n",
+      "pid": 1864,
+      "tid": 400,
+      "timestamp": 1660555726359,
+      "toPid": "1863",
+      "uid": 78,
+      "edited": 1660555763324,
+      "editor": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "displayname": "jonass"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-08-15T09:28:46.359Z",
+      "editedISO": "2022-08-15T09:29:23.324Z",
+      "index": 11,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Steg 1 <strong>är att börja</strong> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f603.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smiley\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":smiley:\" alt=\"😃\" /></p>\n<p dir=\"auto\">även fast jag samlat ihop alla så är det en stor skillnad på hur sidorna ser ut.... ung. 290 smaker.... många verkar nästan satt i system att skylla på GDPR</p>\n<p dir=\"auto\">En API standard behövs....</p>\n<p dir=\"auto\">Här en <a href=\"https://github.com/salgo60/ProjectOutdoorGyms/blob/main/Jupyter/ExtractDatafromWIkibaseCloud.ipynb\" rel=\"nofollow ugc\">Notebook</a> och en <a href=\"https://github.com/salgo60/ProjectOutdoorGyms/blob/main/Jupyter/Anslagstavla.csv\" rel=\"nofollow ugc\">csvfil</a> (<a href=\"https://raw.githubusercontent.com/salgo60/ProjectOutdoorGyms/main/Jupyter/Anslagstavla.csv\" rel=\"nofollow ugc\">raw</a>) med det jag samlat ihop min <a href=\"https://sweopendata.wikibase.cloud/wiki/Kommuner\" rel=\"nofollow ugc\">samlingssida</a></p>\n",
+      "pid": 1868,
+      "tid": 400,
+      "timestamp": 1660565093968,
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-15T12:40:57.641Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-08-15T12:04:53.968Z",
+      "editedISO": "",
+      "index": 12,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Se där, du har ju samlat alla ingångssidor iaf! Blir faktiskt lite förvånad att det är så stor skillnad på hur HTML:en ser ut med tanke på att konceptet/lagen \"Anslagstavla\" är så tydlig. Borde faktiskt inte vara möjligt att implementera på så många olika sätt.  Finns det något lämpligt schema på <a href=\"http://schema.org\" rel=\"nofollow ugc\">schema.org</a> som skulle kunna passa här? Har inte kollar än själv.</p>\n",
+      "pid": 1869,
+      "tid": 400,
+      "timestamp": 1660567257641,
+      "toPid": "1868",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-15T12:54:58.383Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-15T12:40:57.641Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">API:er är bra! Men tror också att ett enkelt sätt att komma igång skulle kunna vara att kommunerna taggar sin HTML. Ett exempel från <a href=\"http://schema.org\" rel=\"nofollow ugc\">schema.org</a> för att annotera HTML:en.</p>\n<pre><code>&lt;script type=\"application/ld+json\"&gt;\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SpecialAnnouncement\",\n  \"name\": \"New Paycheck Protection Program for small business\",\n  \"text\": \"Example Administration announces a new loan that helps small businesses keep their workforce employed during the Coronavirus (COVID-19) crisis.\",\n  \"datePosted\": \"2020-03-30T08:00\",\n  \"expires\": \"2020-04-24T23:59\",\n  \"category\": \"https://www.wikidata.org/wiki/Q81068910\",\n  \"spatialCoverage\":\n      {\n        \"type\": \"Country\",\n        \"name\": \"US\"\n      },\n  \"governmentBenefitsInfo\": {\n    \"@type\": \"GovernmentService\",\n    \"name\": \"Paycheck Protection Program\",\n    \"url\":  \"https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program-ppp\",\n    \"provider\": {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"US Small Business Administration\"\n     },\n    \"serviceType\": \"https://schema.org/BusinessSupport\",\n    \"audience\": {\n      \"@type\": \"Audience\",\n      \"name\": \"Small businesses\"\n     }\n   }\n}\n&lt;/script&gt;\n</code></pre>\n",
+      "pid": 1870,
+      "tid": 400,
+      "timestamp": 1660568098383,
+      "toPid": "1869",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-15T12:54:58.383Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> mmm det är därför det är bra att börja så inser man utmaningen.... att sedan göra som vi gör i Wikidata identifiera enskilda hus, tomter, författningar då behövs 2 som dansar ihop....</p>\n<p dir=\"auto\">Det som vore ett lyft som webscrappare gissar jag är i steg 1 är att man har \"standard\" css taggar eller html tag id....  jag har <a href=\"https://github.com/perrohdin/Bildhistoria-Masterdata-och-Wikidata/blob/main/Notebook/Skolregistret%20Stockholms%20stadsarkiv.ipynb\" rel=\"nofollow ugc\">testat lite med Riksarkivets html</a> och ofta används verktyg som autogenererar --&gt; blir namn som data-copy-value</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1660567576127-8fc4b4a4-67e6-4738-8022-ac8d2e25b1cd-image.png\" alt=\"8fc4b4a4-67e6-4738-8022-ac8d2e25b1cd-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Tror det finns en leverantör(kan vara <a href=\"https://www.visma.se/it-konsulttjanster/ciceron/dokument-och-arende/anslagstavla/\" rel=\"nofollow ugc\">Visma</a> - <a href=\"https://vimeo.com/367746164\" rel=\"nofollow ugc\">video</a>) som har en produkt som dom levererat till åtminstone 6 kommuner (har billboard i namnet)</p>\n<ul>\n<li><a href=\"https://anslagstavlan.falkoping.se/#!/billboard\" rel=\"nofollow ugc\">Falköping</a>, <a href=\"http://anslagstavlan.hudiksvall.se/#!/billboard/\" rel=\"nofollow ugc\">Hudiksvall</a>, <a href=\"https://ciceronanslagstavla.kungsbacka.se/#!/billboard/\" rel=\"nofollow ugc\">Kungsbacka</a>, <a href=\"https://anslagstavlan.nordanstig.se/#!/billboard/\" rel=\"nofollow ugc\">Nordanstig</a>, <a href=\"https://anslagstavlan.svalov.se/#!/billboard/\" rel=\"nofollow ugc\">Svalöv</a>, <a href=\"https://anslagstavla.amal.se/#!/billboard\" rel=\"nofollow ugc\">Åmål</a></li>\n</ul>\n<h3><a href=\"http://Schema.org\" rel=\"nofollow ugc\">Schema.org</a></h3>\n<p dir=\"auto\">Vore magiskt om vi kunde börja använda den se hur <a href=\"https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data\" rel=\"nofollow ugc\">Google pushar</a> strukturerat data...</p>\n<h3>Bra case att lära sig</h3>\n<p dir=\"auto\">Känns som anslagstavlor är ett bra träningscase för kommuner att börja jobba ihop... steg 1 kan vara bara titel, publicerat och några fält till... nästan i nivå med mina <a href=\"https://github.com/salgo60/ProjectOutdoorGyms\" rel=\"nofollow ugc\">utegym</a></p>\n",
+      "pid": 1871,
+      "tid": 400,
+      "timestamp": 1660568123446,
+      "toPid": "1869",
+      "uid": 24,
+      "edited": 1660568690658,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-15T13:12:07.653Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-15T12:55:23.446Z",
+      "editedISO": "2022-08-15T13:04:50.658Z",
+      "index": 15,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> jag tror inte att det kan vara rimligt att använda html-klasser till detta likt <a href=\"http://schema.org\" rel=\"nofollow ugc\">schema.org</a>, alldeles för bräckligt kodmässigt, ändra designen och risken är att någon sabbar semantiken, bättre att ha .json på alla entiteter man publicerar som är maskinläsbart. Då blir det åtminstone uppenbart att det kan finns någon konsument som är intresserad av JSON:en istället för random css-klasser.</p>\n<p dir=\"auto\">Det jag menar är att vi inte ska gå runt och rekommendera att hitta på ett nytt schema.org-sätt för att skapa interoperabilitet.</p>\n",
+      "pid": 1872,
+      "tid": 400,
+      "timestamp": 1660569127653,
+      "toPid": "1871",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-15T13:42:36.581Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-08-15T13:12:07.653Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 1873,
+      "tid": 400,
+      "timestamp": 1660570956581,
+      "toPid": "1872",
+      "uid": 78,
+      "deleted": 1,
+      "deleterUid": 78,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-15T13:42:36.581Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a></a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a></a> Absolut datafirst/API är alltid att föredra. Magnus poäng är väl dock att satsningar på API/\"öppna data\" tar för många år att implementera utan resultat. Så alla konstruktiva/enkla sätt att exponera data mer strukturerat är inte fel tänker jag. Att webbredaktörer lär sig nya sätt att tagga information som inte kräver stora IT-investeringar tror jag är ett bra mönster (men inte det enda).</p>\n",
+      "pid": 1874,
+      "tid": 400,
+      "timestamp": 1660576579238,
+      "toPid": "1872",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-15T17:47:59.949Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-08-15T15:16:19.238Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> Att webbredaktörer lär sig lägga in JSON-LD i webbsidorna låter ju som ett tänkbart första steg och kunde utgöra ett baskrav för webbpublicering.</p>\n<p dir=\"auto\">Det är inte samma sak som att använda HTML-klasser, utan datan kan ligga som ett JSON-paket för sig enligt ett standardiserat format om jag förstått saken rätt.</p>\n<p dir=\"auto\">Kan det finnas exempel på någon myndighet som gör detta idag?</p>\n<p dir=\"auto\">Det verkar finnas mycket läromaterial och handledningar för detta eftersom Google lockar med bättre sökplaceringar för den som märker upp sina webbplatser på ett bra sätt.</p>\n<p dir=\"auto\"><a href=\"https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data\" rel=\"nofollow ugc\">https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data</a></p>\n<pre><code class=\"language-html\">&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Party Coffee Cake&lt;/title&gt;\n    &lt;script type=\"application/ld+json\"&gt;\n    {\n      \"@context\": \"https://schema.org/\",\n      \"@type\": \"Recipe\",\n      \"name\": \"Party Coffee Cake\",\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Mary Stone\"\n      },\n      \"datePublished\": \"2018-03-10\",\n      \"description\": \"This coffee cake is awesome and perfect for parties.\",\n      \"prepTime\": \"PT20M\"\n    }\n    &lt;/script&gt;\n</code></pre>\n<p dir=\"auto\">Sen vet jag inte om/hur det lämpar sig där datamängder utgör  huvudinnehållet i sidor? T.ex. en lista med kungörelser på en anslagstavla. Men intressant att fundera över möjligheterna. Känns som det kunde vara en bra inkörsport för den som är van att arbeta med webbpublicering.</p>\n",
+      "pid": 1875,
+      "tid": 400,
+      "timestamp": 1660585679949,
+      "toPid": "1874",
+      "uid": 125,
+      "edited": 1660586015180,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-15T20:51:33.295Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-08-15T17:47:59.949Z",
+      "editedISO": "2022-08-15T17:53:35.180Z",
+      "index": 19,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#c9b42c",
+    "cid": 27,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-heartbeat",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Arbetssätt och organisation",
+    "numRecentReplies": 1,
+    "order": 7,
+    "parentCid": 0,
+    "post_count": 471,
+    "slug": "27/arbetssätt-och-organisation",
+    "subCategoriesPerPage": 10,
+    "topic_count": 78,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 471,
+    "totalTopicCount": 78
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "400",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/400.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Arbetssätt och organisation",
+      "url": "/category/27/arbetssätt-och-organisation",
+      "cid": 27
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/400/vad-saknas-varför-blir-det-så-dumt-ingen-pratar-designmönster?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      },
+      {
+        "page": 3,
+        "active": false,
+        "qs": "page=3"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 3,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 3,
+      "active": false,
+      "qs": "page=3"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/400",
+  "bodyClass": "page-topic page-topic-400 template-topic page-topic-category-27 page-topic-category-arbetssätt-och-organisation parent-category-27 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Vad saknas? Varför blir det så dumt? - ingen pratar designmönster"
+        },
+        {
+          "name": "description",
+          "content": "SFS 2017:725 - Kommunallagen  Feedback hur användare upplever det 2022   Dataverkstadens reaktion - är jobbigt att jobba  Det vi vet är att dubbelarbete inte kommer att accepteras av dessa verksamheter  Saknas en ambition att leverera till medborgarna det..."
+        },
+        {
+          "property": "og:title",
+          "content": "Vad saknas? Varför blir det så dumt? - ingen pratar designmönster"
+        },
+        {
+          "property": "og:description",
+          "content": "SFS 2017:725 - Kommunallagen  Feedback hur användare upplever det 2022   Dataverkstadens reaktion - är jobbigt att jobba  Det vi vet är att dubbelarbete inte kommer att accepteras av dessa verksamheter  Saknas en ambition att leverera till medborgarna det..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-08-12T09:09:50.555Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-24T16:11:00.658Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Arbetssätt och organisation"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1660292076534-3b0d0f28-1fc5-4f68-9af0-a77ddc4151d1-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1660292076534-3b0d0f28-1fc5-4f68-9af0-a77ddc4151d1-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2186"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1346"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1660291729005-e35475e8-3dd7-437e-b7b1-b26bd95aef9b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1660291729005-e35475e8-3dd7-437e-b7b1-b26bd95aef9b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2388"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1478"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1660289342505-1b99ff6a-73a9-406a-83a4-17e6e11038a0-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1660289342505-1b99ff6a-73a9-406a-83a4-17e6e11038a0-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1560"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1372"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1668687147868-b01f27fb-d67f-4b26-b960-ec0371fd80b7-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1668687147868-b01f27fb-d67f-4b26-b960-ec0371fd80b7-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1914"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1392"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1668947975312-974f926f-9029-4abe-a5d1-2a5211e5e130-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1668947975312-974f926f-9029-4abe-a5d1-2a5211e5e130-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1800"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1030"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669053768362-1fbaef35-e729-4c2f-9dbc-f1a2399db437-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669053768362-1fbaef35-e729-4c2f-9dbc-f1a2399db437-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "611"
+        },
+        {
+          "property": "og:image:height",
+          "content": "592"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/400",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/400/vad-saknas-varför-blir-det-så-dumt-ingen-pratar-designmönster",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/400.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/27/arbetssätt-och-organisation"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/400/vad-saknas-varför-blir-det-så-dumt-ingen-pratar-designmönster?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

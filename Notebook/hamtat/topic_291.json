@@ -1,0 +1,844 @@
+{
+  "cid": 1,
+  "lastposttime": 1643104816689,
+  "mainPid": 1241,
+  "postcount": 4,
+  "slug": "291/susa-navet-och-uhr",
+  "tags": [
+    {
+      "value": "uhr",
+      "valueEscaped": "uhr",
+      "valueEncoded": "uhr",
+      "class": "uhr"
+    },
+    {
+      "value": "susa",
+      "valueEscaped": "susa",
+      "valueEncoded": "susa",
+      "class": "susa"
+    }
+  ],
+  "tid": 291,
+  "timestamp": 1643030670167,
+  "title": "SUSA navet och UHR",
+  "uid": 371,
+  "viewcount": 787,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 1246,
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "SUSA navet och UHR",
+  "timestampISO": "2022-01-24T13:24:30.167Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-01-25T10:00:16.689Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej,</p>\n<p dir=\"auto\">Jag använder mig utav SUSA navet för några hobbyprojekt. Det fungerar bra och API:et är toppen. Nu är det dock så att jag hittat en hel del information på UHR:s webbplatser, främst antagningsstatistik som jag gärna skulle ta del av. Tyvärr verkar de inte ha något öppet API och deras egna sidor är serverside genererade. Det gör att jag inte heller kan hitta någon \"stängd\" endpoint att gå emot.</p>\n<p dir=\"auto\">Är det någon som känner någon på UHR eller vet mer om uhr-specifik data och ifall det går att komma åt den. Ett exempel nedan. Där går det att exportera som excel. Exakt den datan vill jag åt, men i API format.</p>\n<p dir=\"auto\"><a href=\"https://www.uhr.se/studier-och-antagning/antagningsstatistik/detaljsida/?utbildningId=4941FDB5DE35ED9443A21C887AEC7653&amp;astasearchperiod=HT21&amp;astasearchfor=systemvetenskap&amp;astasearchcategory=\" rel=\"nofollow ugc\">https://www.uhr.se/studier-och-antagning/antagningsstatistik/detaljsida/?utbildningId=4941FDB5DE35ED9443A21C887AEC7653&amp;astasearchperiod=HT21&amp;astasearchfor=systemvetenskap&amp;astasearchcategory=</a></p>\n<p dir=\"auto\">Mvh Lennart</p>\n",
+      "pid": 1241,
+      "tid": 291,
+      "timestamp": 1643030670167,
+      "uid": 371,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-01-24T15:42:12.878Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-24T13:24:30.167Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 371,
+        "username": "lennartjohansson",
+        "userslug": "lennartjohansson",
+        "reputation": 3,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670933015238,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "lennartjohansson",
+        "groupTitleArray": [],
+        "icon:text": "L",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2022-12-13T12:03:35.238Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/371\">@lennartjohansson</a> Jag provade också lite fort, verkar inte finnas någon naturlig endpoint. Excel-exporten verkar antyda ett \"api\" på något sätt dock, <a href=\"https://www.uhr.se/api/excel/utbildning?utbildningId=\" rel=\"nofollow ugc\">https://www.uhr.se/api/excel/utbildning?utbildningId=</a>. Tror vi får fråga UHR om nästa steg.</p>\n",
+      "pid": 1243,
+      "tid": 291,
+      "timestamp": 1643038932878,
+      "toPid": "1241",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-01-24T18:47:20.165Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-01-24T15:42:12.878Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "lennartjohansson",
+        "displayname": "lennartjohansson"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Kollade en gång till. Du ska nog rådfråga UHR. Men, prova:</p>\n<p dir=\"auto\"><a href=\"https://www.uhr.se/api/antagningsstatistik/searchTotal?searchfor=systemvetenskap&amp;searchterm=HT21&amp;searchkategori=&amp;pagesize=1000&amp;page=1&amp;tillfalle=urv2\" rel=\"nofollow ugc\">https://www.uhr.se/api/antagningsstatistik/searchTotal?searchfor=systemvetenskap&amp;searchterm=HT21&amp;searchkategori=&amp;pagesize=1000&amp;page=1&amp;tillfalle=urv2</a></p>\n<p dir=\"auto\">Verkar ge det du efterfrågar i JSON som används på sidan innan.</p>\n",
+      "pid": 1244,
+      "tid": 291,
+      "timestamp": 1643050040165,
+      "toPid": "1243",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 371,
+            "username": "lennartjohansson",
+            "userslug": "lennartjohansson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "lennartjohansson",
+            "icon:text": "L",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-01-25T10:00:16.689Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-24T18:47:20.165Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Tack Jonas! Precis vad jag var ute efter. Sökendpointen ger mig rätt mycket data. Det smidiga med detaljsidorna var att det var historik över flera år. Som du säger verkar det finnas ett detalj API men har inte lyckats klura ut ifall det finns någon endpoint. Jag har hört av mig till diverse UHR:are på LinkedIn. Förhoppningsvis får jag något svar.</p>\n<p dir=\"auto\">Men sökendpointen gav massa bra att fortsätta med och jag kan klistra ihop infon manuellt genom att köra den mot olika terminener och få ungefär det som finns på detaljsidan.</p>\n",
+      "pid": 1246,
+      "tid": 291,
+      "timestamp": 1643104816689,
+      "toPid": "1244",
+      "uid": 371,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-25T10:00:16.689Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 371,
+        "username": "lennartjohansson",
+        "userslug": "lennartjohansson",
+        "reputation": 3,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670933015238,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "lennartjohansson",
+        "groupTitleArray": [],
+        "icon:text": "L",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2022-12-13T12:03:35.238Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 1,
+          "type": "move",
+          "uid": 7,
+          "id": 126,
+          "timestamp": 1648475247017,
+          "timestampISO": "2022-03-28T13:47:27.017Z",
+          "user": {
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "uid": 7,
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          "fromCategory": {
+            "name": "Efterfråga data och API:er",
+            "slug": "1/efterfråga-data-och-api-er",
+            "icon": "fa-bullhorn",
+            "color": "#fff",
+            "bgColor": "#d59151"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:47:27.017Z\"></span>"
+        },
+        {
+          "fromCid": 23,
+          "type": "move",
+          "uid": 62,
+          "id": 299,
+          "timestamp": 1649761674216,
+          "timestampISO": "2022-04-12T11:07:54.216Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Data",
+            "slug": "23/data",
+            "icon": "fa-comments",
+            "color": "#ffffff",
+            "bgColor": "#000000"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T11:07:54.216Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 1,
+      "type": "move",
+      "uid": 7,
+      "id": 126,
+      "timestamp": 1648475247017,
+      "timestampISO": "2022-03-28T13:47:27.017Z",
+      "user": {
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "uid": 7,
+        "displayname": "Kristine_",
+        "icon:text": "K",
+        "icon:bgColor": "#795548"
+      },
+      "fromCategory": {
+        "name": "Efterfråga data och API:er",
+        "slug": "1/efterfråga-data-och-api-er",
+        "icon": "fa-bullhorn",
+        "color": "#fff",
+        "bgColor": "#d59151"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:47:27.017Z\"></span>"
+    },
+    {
+      "fromCid": 23,
+      "type": "move",
+      "uid": 62,
+      "id": 299,
+      "timestamp": 1649761674216,
+      "timestampISO": "2022-04-12T11:07:54.216Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Data",
+        "slug": "23/data",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#000000"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T11:07:54.216Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#d59151",
+    "cid": 1,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Diskutera data och API:er som du skulle vilja använda eller få tillgång till.",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera data och API:er som du skulle vilja använda eller få tillgång till.</p>\n",
+    "disabled": 0,
+    "icon": "fa-bullhorn",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Efterfråga data och API:er",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 23,
+    "post_count": 186,
+    "slug": "1/efterfråga-data-och-api-er",
+    "topic_count": 21,
+    "undefined": "Vad är \"Tag whitelist\"",
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 186,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "291",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/291.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Efterfråga data och API:er",
+      "url": "/category/1/efterfråga-data-och-api-er",
+      "cid": 1
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/291",
+  "bodyClass": "page-topic page-topic-291 template-topic page-topic-category-1 page-topic-category-efterfråga-data-och-api-er parent-category-23 parent-category-1 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "SUSA navet och UHR"
+        },
+        {
+          "name": "description",
+          "content": "Hej, Jag använder mig utav SUSA navet för några hobbyprojekt. Det fungerar bra och API:et är toppen. Nu är det dock så att jag hittat en hel del information på UHR:s webbplatser, främst antagningsstatistik som jag gärna skulle ta del av. Tyvärr verkar de ..."
+        },
+        {
+          "property": "og:title",
+          "content": "SUSA navet och UHR"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, Jag använder mig utav SUSA navet för några hobbyprojekt. Det fungerar bra och API:et är toppen. Nu är det dock så att jag hittat en hel del information på UHR:s webbplatser, främst antagningsstatistik som jag gärna skulle ta del av. Tyvärr verkar de ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-01-24T13:24:30.167Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-01-25T10:00:16.689Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Efterfråga data och API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/291",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/291/susa-navet-och-uhr",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/291.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/1/efterfråga-data-och-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/lennartjohansson"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

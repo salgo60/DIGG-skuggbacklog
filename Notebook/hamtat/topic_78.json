@@ -1,0 +1,776 @@
+{
+  "cid": 23,
+  "lastposttime": 1617975910999,
+  "mainPid": 238,
+  "postcount": 3,
+  "slug": "78/vaccinationsdata-covid",
+  "tid": 78,
+  "timestamp": 1617778598463,
+  "title": "Vaccinationsdata covid",
+  "uid": 24,
+  "viewcount": 636,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 0,
+  "oldCid": 1,
+  "teaserPid": 267,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Vaccinationsdata covid",
+  "timestampISO": "2021-04-07T06:56:38.463Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-04-09T13:45:10.999Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">FHM och Covid vaccineringsdata verkar skylla på att data skall vara tillgänglighetsanpassat så dom inte hinner leverera 5 rader maskinläsbardata format csv så att Sveriges vaccineringsstatus enklare kan läsas in av andra länder...</p>\n<p dir=\"auto\"><a href=\"https://ourworldindata.org/coronavirus\" rel=\"nofollow ugc\">OWiD</a> sammanställer COVID vaccineringsdata för hela världen och dom anger som källa en svensk <a href=\"https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/statistik-over-registrerade-vaccinationer-covid-19/\" rel=\"nofollow ugc\">websida</a> hos FHM det var detta jag reagerade på pch försökte fårstå om bättre möjlighet finns..... jmf Turkiet som <a href=\"https://covid19asi.saglik.gov.tr/\" rel=\"nofollow ugc\">levererar realtids uppdatering</a></p>\n<p dir=\"auto\">Min gissning efter 3-4 email är att datakunnandet är väldigt lågt hos dom hos FHM som svarar på emailen.... letade lite idag på deras websida och det finns ett <a href=\"https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data\" rel=\"nofollow ugc\">excel</a> men gissar att det kan vara svårt att hitta/använda för OWiD som jag gissar inte behärskar svenska....</p>\n<p dir=\"auto\"><strong>Min fråga  FHM 5 januari 2021 08:42</strong><br />\nVar och ung. när förväntas vi kunna hämta data om antalet vaccinerade i Sverige? Lägg gärna upp en fil så vi kan starta anpassa program....</p>\n<ul>\n<li>Jämför vad andra länder levererar <a href=\"https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/country_data\" rel=\"nofollow ugc\">https://github.com/owid/ data/vaccinations/country_data</a></li>\n<li>Exempel Notebook att hämta det datat <a href=\"https://github.com/salgo60/CoronaVaccinationCheck\" rel=\"nofollow ugc\">https://github.com/salgo60/CoronaVaccinationCheck</a></li>\n</ul>\n<p dir=\"auto\">Har ni frågor om metdata så är det bara att ringa jag har bra koll</p>\n<ol>\n<li>identifiera land med ISO kod dvs. SWE</li>\n<li>skall ni rapportera på lägre nivå fungerar kommunkod eller När det gäller produkter används idag textsträngar men kan ni rapportera med en unik identifierar är det bra se tankar <a href=\"https://twitter.com/redouad/status/1346030885901119488?s=20\" rel=\"nofollow ugc\">tweet</a><br />\n....</li>\n</ol>\n<p dir=\"auto\">Hlsn Magnus Sälgö<br />\n0705937579</p>\n<p dir=\"auto\"><strong>Min andra fråga 25 mars 2021 efter att bara fått svar att det skall komma</strong><br />\nFrån: Magnus Sälgö <a href=\"mailto:salgo60@msn.com\" rel=\"nofollow ugc\">salgo60@msn.com</a><br />\nSkickat: den 25 mars 2021 15:24<br />\nTill: Vaccinationsregistergruppen <a href=\"mailto:supportvaccinationsregister@folkhalsomyndigheten.se\" rel=\"nofollow ugc\">supportvaccinationsregister@folkhalsomyndigheten.se</a><br />\nÄmne: Re: Nationella vaccinationsregistret, meddelande till support: 'Jag vill skicka en fråga'</p>\n<p dir=\"auto\">Hej vad är status på att få Vaccinationsdatat maskinläsbart? se email nedan skickat 5 jan 2021</p>\n<p dir=\"auto\">Kollar jag OWiD som sammanställer hela världens covid vaccineringsdata så läser dom fortfarande från en websida</p>\n<p dir=\"auto\">OWID Sverige data  --&gt; dom hämtar datat från er websida <a href=\"https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/\" rel=\"nofollow ugc\">https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/vaccination-mot-covid-19/statistik/statistik-over-registrerade-vaccinationer-covid-19/</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1617714438400-907905e4-35de-404d-a4d2-c38cac7cec80-image.png\" alt=\"907905e4-35de-404d-a4d2-c38cac7cec80-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">se hur andra länder (152 stycken) har sitt data <a href=\"https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/country_data\" rel=\"nofollow ugc\">https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/country_data</a></p>\n<p dir=\"auto\">Hälsningar<br />\nMagnus Sälgö<br />\n0705937579</p>\n<p dir=\"auto\"><strong>SVAR FHM 4 april</strong><br />\n<img src=\"/assets/uploads/files/1617714692560-e0abd861-64ca-44ad-9762-2b6db21e55f9-image.png\" alt=\"e0abd861-64ca-44ad-9762-2b6db21e55f9-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 238,
+      "tid": 78,
+      "timestamp": 1617716438323,
+      "toPid": "237",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-07T03:17:07.212Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-06T13:40:38.323Z",
+      "editedISO": "",
+      "index": 0,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><strong>OT FHM</strong> Hur duktiga är Sverige jmf med övriga världen att uppdatera sitt Vaccineringsdata.... som dialogen ovan antyder fås inte tydliga svar och det saknas en plattform att föra denna dialog på.... det självklara 2021 att ha maskinläsbar data har inte nått FHM även svenska journalister bekräftar att FHM underlevererar och använder <a href=\"https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/country_data\" rel=\"nofollow ugc\">OWiDs data</a> plus ovan nämnda <a href=\"https://fohm.maps.arcgis.com/sharing/rest/content/items/fc749115877443d29c2a49ea9eca77e9/data\" rel=\"nofollow ugc\">excel blad hos FHM</a></p>\n<ul>\n<li>PSI-data sida saknas\n<ul>\n<li><a href=\"https://www.folkhalsomyndigheten.se/psidata\" rel=\"nofollow ugc\">https://www.folkhalsomyndigheten.se/psidata</a> jmf <a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_Myndigheter\" rel=\"nofollow ugc\">övriga Myndigheter</a></li>\n</ul>\n</li>\n<li><a href=\"https://github.com/salgo60/CoronaVaccinationCheck/blob/main/What%20is%20reported.ipynb\" rel=\"nofollow ugc\">antal ggr OwID</a> hittat data hos FHM om Sverige =  18 --&gt; plats 91 i världen\n<ul>\n<li><a href=\"https://github.com/salgo60/CoronaVaccinationCheck/blob/main/What%20is%20reported.ipynb\" rel=\"nofollow ugc\">jmf top 20</a><br />\n<img src=\"/assets/uploads/files/1617765238458-d4d099b3-ecb5-460f-bb06-570ca2743576-image.png\" alt=\"d4d099b3-ecb5-460f-bb06-570ca2743576-image.png\" class=\" img-fluid img-markdown\" /><br />\n<img src=\"/assets/uploads/files/1617765288566-436a6dd1-6dad-45f3-8ca9-30a47f6d15e6-image.png\" alt=\"436a6dd1-6dad-45f3-8ca9-30a47f6d15e6-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 239,
+      "tid": 78,
+      "timestamp": 1617765427212,
+      "toPid": "238",
+      "uid": 24,
+      "edited": 1617765486843,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-09T13:45:10.999Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-07T03:17:07.212Z",
+      "editedISO": "2021-04-07T03:18:06.843Z",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 intressant analys av SVT hur dödstalen rapporteras i Sverige</p>\n<ul>\n<li>\"<a href=\"https://www.svt.se/datajournalistik/en-koll-rapporterade-covid-dodsfall/\" rel=\"nofollow ugc\">En koll på rapporterade dödsfall</a>\"</li>\n</ul>\n<p dir=\"auto\">visar sig att Sverige ligger på 122 plats....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1617975897487-9523e208-2478-4941-a416-50d6fa8bde3a-image.png\" alt=\"9523e208-2478-4941-a416-50d6fa8bde3a-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 267,
+      "tid": 78,
+      "timestamp": 1617975910999,
+      "toPid": "239",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-09T13:45:10.999Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 1,
+          "type": "move",
+          "uid": 62,
+          "id": 136,
+          "timestamp": 1648475600467,
+          "timestampISO": "2022-03-28T13:53:20.467Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Efterfråga data och API:er",
+            "slug": "1/efterfråga-data-och-api-er",
+            "icon": "fa-bullhorn",
+            "color": "#fff",
+            "bgColor": "#d59151"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:53:20.467Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 1,
+      "type": "move",
+      "uid": 62,
+      "id": 136,
+      "timestamp": 1648475600467,
+      "timestampISO": "2022-03-28T13:53:20.467Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Efterfråga data och API:er",
+        "slug": "1/efterfråga-data-och-api-er",
+        "icon": "fa-bullhorn",
+        "color": "#fff",
+        "bgColor": "#d59151"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:53:20.467Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "78",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/78.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/78",
+  "bodyClass": "page-topic page-topic-78 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Vaccinationsdata covid"
+        },
+        {
+          "name": "description",
+          "content": "FHM och Covid vaccineringsdata verkar skylla på att data skall vara tillgänglighetsanpassat så dom inte hinner leverera 5 rader maskinläsbardata format csv så att Sveriges vaccineringsstatus enklare kan läsas in av andra länder... OWiD sammanställer COVID..."
+        },
+        {
+          "property": "og:title",
+          "content": "Vaccinationsdata covid"
+        },
+        {
+          "property": "og:description",
+          "content": "FHM och Covid vaccineringsdata verkar skylla på att data skall vara tillgänglighetsanpassat så dom inte hinner leverera 5 rader maskinläsbardata format csv så att Sveriges vaccineringsstatus enklare kan läsas in av andra länder... OWiD sammanställer COVID..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-04-07T06:56:38.463Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-09T13:45:10.999Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1617714438400-907905e4-35de-404d-a4d2-c38cac7cec80-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1617714438400-907905e4-35de-404d-a4d2-c38cac7cec80-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1846"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1080"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1617714692560-e0abd861-64ca-44ad-9762-2b6db21e55f9-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1617714692560-e0abd861-64ca-44ad-9762-2b6db21e55f9-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1356"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1084"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/78",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/78/vaccinationsdata-covid",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/78.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

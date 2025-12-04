@@ -1,0 +1,2001 @@
+{
+  "cid": 37,
+  "lastposttime": 1749579331764,
+  "mainPid": 5216,
+  "postcount": 31,
+  "slug": "1044/den-öppna-wmts-tjänsten-topografisk-webbkarta-stängd",
+  "tid": 1044,
+  "timestamp": 1749115535373,
+  "title": "Den öppna WMTS-tjänsten Topografisk webbkarta stängd.",
+  "uid": 109,
+  "viewcount": 6133,
+  "postercount": 3,
+  "teaserPid": 5246,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Den öppna WMTS-tjänsten Topografisk webbkarta stängd.",
+  "timestampISO": "2025-06-05T09:25:35.373Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-06-10T18:15:31.764Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Nu har Lantmäteriet stängt WMTS-tjänsten Topografisk webbkarta, översiktlig, som var deras enda öppna och avgiftsfria visningstjänst. Detta aviserades redan i början av året, tillsammans med ett flertal andra tjänster som avses att avvecklas som en följd av lanseringen av avgiftsfria särskilt värdefulla data (HVD).<br />\nStängningen drabbar till exempel Artportalens fyndkartor och alla andra karttjänster som använde produkten som bakgrundskarta. Det var också den bästa fria bakgrundskartan för enskilda användare som arbetar med öppen källkod. Låt vara att skalområdet var begränsat, men produkten var lättanvänd. Det enda alternativet är egentligen Open Street Map.<br />\nMen Lantmäteriet aviserade också avvecklingen av den avgiftsbelagda WMS-tjänsten Topografisk webbkarta, som används som bakgrundskarta av så gott som alla offentliga karttjänster hos kommuner och myndigheter. Ska de också behöva hålla till godo med OSM eller Google Maps?<br />\n<a href=\"https://www.lantmateriet.se/sv/geodata/vara-produkter/produktutveckling/#anchor-0\" rel=\"nofollow ugc\">https://www.lantmateriet.se/sv/geodata/vara-produkter/produktutveckling/#anchor-0</a></p>\n",
+      "pid": 5216,
+      "tid": 1044,
+      "timestamp": 1749115535373,
+      "uid": 109,
+      "edited": 1749115640569,
+      "editor": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "displayname": "Matself"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2025-06-05T09:37:03.449Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T09:25:35.373Z",
+      "editedISO": "2025-06-05T09:27:20.569Z",
+      "index": 0,
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, tjänsten finns tillgänglig genom en ny åtkomstpunkt. Inga konstigheter!</p>\n<p dir=\"auto\"><a href=\"https://geotorget.lantmateriet.se/dokumentation/GEODOK/72/latest/atkomst-och-leverans/teknisk-beskrivning.html\" rel=\"nofollow ugc\">https://geotorget.lantmateriet.se/dokumentation/GEODOK/72/latest/atkomst-och-leverans/teknisk-beskrivning.html</a></p>\n",
+      "pid": 5217,
+      "tid": 1044,
+      "timestamp": 1749116223449,
+      "toPid": "5216",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-05T12:55:42.240Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T09:37:03.449Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, läs mer här:<br />\n<a href=\"https://www.lantmateriet.se/sv/geodata/vara-produkter/Produktnyheter/Geografisk-information/andrad-atkomst-for-vissa-oppna-dataprodukter/\" rel=\"nofollow ugc\">https://www.lantmateriet.se/sv/geodata/vara-produkter/Produktnyheter/Geografisk-information/andrad-atkomst-for-vissa-oppna-dataprodukter/</a></p>\n",
+      "pid": 5218,
+      "tid": 1044,
+      "timestamp": 1749116873464,
+      "toPid": "5216",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-05T12:57:06.289Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T09:47:53.464Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, var kan jag läsa mer om att Topografisk webbkarta ska avvecklas? Det lät ju inte alls bra och något som jag helt missat! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f631.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--scream\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":scream:\" alt=\"😱\" /></p>\n",
+      "pid": 5219,
+      "tid": 1044,
+      "timestamp": 1749117920198,
+      "toPid": "5216",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-05T13:07:40.072Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T10:05:20.198Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Problem verkar finnas</p>\n<ul>\n<li><a href=\"https://www.slu.se/artdatabanken/rapportering-och-fynddata/artportalens-nyhetsflode/problem-med-lantmateriets-kartor2/\" rel=\"nofollow ugc\">Artportalen</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1749119986149-00912c6f-2435-414e-bc03-f90a5075ed98-image.png\" alt=\"00912c6f-2435-414e-bc03-f90a5075ed98-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>smyggt är att använda verktyg som <a href=\"https://grafana.wikimedia.org/d/000000489/wikidata-query-service?orgId=1&amp;from=now-7d&amp;to=now&amp;timezone=utc&amp;var-cluster_name=wdqs-main&amp;var-graph_type=%289102%7C919%5B35%5D%29&amp;refresh=1m\" rel=\"nofollow ugc\">grafana</a></li>\n</ul>\n",
+      "pid": 5220,
+      "tid": 1044,
+      "timestamp": 1749120426864,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T10:47:06.864Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Det visade sig vara mer än så, det krävs ett användarkonto, en behörighet och en beställning - plus sedan en inlogging innan något dyker upp på skärmen. -&gt;</p>\n",
+      "pid": 5221,
+      "tid": 1044,
+      "timestamp": 1749128142240,
+      "toPid": "5217",
+      "uid": 109,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T12:55:42.240Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> -&gt; den här informationen har jag missat, men är nog inte ensam om det. Nu letar jag efter ett nytt 'token' så att jag som vanligt kan skapa en URL till WMTS-tjänsten.</p>\n",
+      "pid": 5222,
+      "tid": 1044,
+      "timestamp": 1749128226289,
+      "toPid": "5218",
+      "uid": 109,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T12:57:06.289Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 5223,
+      "tid": 1044,
+      "timestamp": 1749128860072,
+      "toPid": "5219",
+      "uid": 109,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2025-06-05T15:20:56.839Z"
+      },
+      "flagId": 555,
+      "deleted": 1,
+      "deleterUid": 531,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T13:07:40.072Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, jag tror på det när någon sådan information finns tillgänglig externt. Jag ogillar att du i denna tråd börjat sprida egenfabricerade rykten på grund av ditt agg mot Lantmäteriet och deras val av lösningar. Rykten och osanningar har jag inte mycket för.</p>\n",
+      "pid": 5224,
+      "tid": 1044,
+      "timestamp": 1749136856839,
+      "toPid": "5223",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-06T11:17:50.846Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T15:20:56.839Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, den gamla WMTS-tjänsten har avvecklats. Produkten (Topografisk webbkarta, översiktlig) som var åtkomlig via den gamla tjänsten finns ju dock tillgänglig genom en ny WMTS-tjänst. Jag tror att du blandar ihop tjänster och produkter – lätt hänt såklart – det gör även jag.</p>\n",
+      "pid": 5225,
+      "tid": 1044,
+      "timestamp": 1749137466078,
+      "toPid": "5223",
+      "uid": 1715,
+      "edited": 1749137692792,
+      "editor": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-05T15:31:06.078Z",
+      "editedISO": "2025-06-05T15:34:52.792Z",
+      "index": 9,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Nej Daniel, jag hyser inget agg till Lantmäteriet. Fjorton år som anställd i Lantmäteriet/Metria gav mig grunderna i kartteknik, geodesi, fastighetsjuridik, fotogrammetri och geodata, men också uppfattningen att offentligt framställda geodata ska vara fria att använda i hela samhället för att vara till största möjliga nytta. Det var långt innan ‘öppna data’ var ett begrepp.<br />\nInte heller fabricerar jag rykten. Jag misstog flytten av den Öppna topowebbkartan för den aviserade avvecklingen av WMTS-tjänsten, förlåt det misstaget. Men att Lantmäteriet 19 november 2024 i ett webbinarium uttryckte en önskan att stänga de avgiftsbelagda WMS-tjänsterna eftersom de var populära och dyra att driva är jag alldeles säker på. Det var så anmärkningsvärt att jag antecknade det, och även skrev om det på Facebook och Linkedin veckan efter. Den som vill kan söka upp mitt referat i Facebook-gruppen Digital samhällsbyggnad från 24 november 2024.<br />\nMen för att komma till det som är viktigt. Jag är väldigt kritisk, och mycket ledsen över det sätt som Lantmäteriet valt att tillgängliggöra NGP och HVD. Genom att stänga in geodata bakom en labyrint av staket och låsta grindar främjas inte en bred användning av våra geodata i samhället. Och det är sorgligt att det inte finns utrymme att diskutera det. Lantmäteriet har på avgörande sätt försämrat tillgängligheten till Öppna geodata de senaste åren. Mystiken kring geodata, att det behövs dyra GIS-system och särskild personal, stärker bara den redan mäktiga ‘geodatabranschen’ genom en ensidig inriktning på maskingränssnitt. Och återigen; Det behöver inte vara antingen eller. Det är bara en fråga om gränssnitt och åtkomst. Det går att driva WMS, WFS, WMTS och API:er parallellt, eller erbjuda nedladdning av direkt användbara paketerade data i öppna format. Vad vill egentligen Lantmäteriet?</p>\n",
+      "pid": 5226,
+      "tid": 1044,
+      "timestamp": 1749208670846,
+      "toPid": "5224",
+      "uid": 109,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-06T14:02:52.873Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-06-06T11:17:50.846Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a> sa i <a href=\"/post/5226\">Den öppna WMTS-tjänsten Topografisk webbkarta stängd.</a>:</p>\n<blockquote>\n<p dir=\"auto\">det behövs dyra GIS-system och särskild personal</p>\n</blockquote>\n<p dir=\"auto\">Det där är ju osant. Det enda som behövs för att hämta data är en url och användarnamn och lösenord. Inget avancerat. Du får data i ett öppet format – en geopackage. Det komplicerade är att du behöver veta kommunkod, men det tror jag att du kan plocka fram ur minnet eller på internet. Siffrorna efter \"kn\" är komminkoden.</p>\n<p dir=\"auto\">För belägenhetsadresser är det:<br />\n<a href=\"https://dl1.lantmateriet.se/adress/belagenhetsadresser/belagenhetsadresser_kn0480.zip\" rel=\"nofollow ugc\">https://dl1.lantmateriet.se/adress/belagenhetsadresser/belagenhetsadresser_kn0480.zip</a></p>\n<p dir=\"auto\">För byggnad är det:<br />\n<a href=\"https://dl1.lantmateriet.se/byggnadsverk/byggnad_kn0480.zip\" rel=\"nofollow ugc\">https://dl1.lantmateriet.se/byggnadsverk/byggnad_kn0480.zip</a></p>\n<p dir=\"auto\">För marktäcke är det:<br />\n<a href=\"https://dl1.lantmateriet.se/mark/marktacke/marktacke_kn0480.zip\" rel=\"nofollow ugc\">https://dl1.lantmateriet.se/mark/marktacke/marktacke_kn0480.zip</a></p>\n<p dir=\"auto\">För fastighetsindelning är det:<br />\n<a href=\"https://dl1.lantmateriet.se/fastighet/fastighetsindelning_kn0480.zip\" rel=\"nofollow ugc\">https://dl1.lantmateriet.se/fastighet/fastighetsindelning_kn0480.zip</a></p>\n<p dir=\"auto\">För ortnamn är det:<br />\n<a href=\"https://dl1.lantmateriet.se/namnsatt-plats/ortnamn_se.zip\" rel=\"nofollow ugc\">https://dl1.lantmateriet.se/namnsatt-plats/ortnamn_se.zip</a></p>\n<p dir=\"auto\">För ytor för kommun/län/rike är det:<br />\n<a href=\"https://dl1.lantmateriet.se/administrativ-indelning/kommun-lan-rike/kommun-lan-rike_aktuell.zip\" rel=\"nofollow ugc\">https://dl1.lantmateriet.se/administrativ-indelning/kommun-lan-rike/kommun-lan-rike_aktuell.zip</a></p>\n<p dir=\"auto\">Är detta ett svårt sätt att hämta data på?</p>\n",
+      "pid": 5227,
+      "tid": 1044,
+      "timestamp": 1749218572873,
+      "toPid": "5226",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2025-06-06T14:27:41.454Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-06T14:02:52.873Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a>, för privatperson är användarnamn och lösenord samma som till Geotorget.</p>\n",
+      "pid": 5228,
+      "tid": 1044,
+      "timestamp": 1749220061454,
+      "toPid": "5227",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-06T14:27:41.454Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Nej, Daniel det kan tyckas enkelt.<br />\nFör dig som vet var de här länkarna finns, och kanske för mig om jag kan lista ut var jag hittar dem. Men dina exempel-länkar kan jag inte komma åt, jag får 403 forbidden med mitt Geotorget-konto. Det är möjligt att jag behöver komma till dem en annan väg, men jag kan inte räkna ut hur det skulle gå till.<br />\nMen sätt dig nu i situationen att du är en ny användare, som inte har något konto alls hos Lantmäteriet. Hur skulle du då beskriva processen på en skala från lätt - medelsvår - svår - omöjlig?<br />\nJag slutar denna tråd här, vi kommer inte någonstans. Du tycker att Lantmäteriet skapat en lättillgänglig och användarvänlig plattform för att leverera öppna geodata - jag tycker precis motsatsen. Då blir det svårt att diskutera.</p>\n",
+      "pid": 5229,
+      "tid": 1044,
+      "timestamp": 1749318439574,
+      "toPid": "5227",
+      "uid": 109,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2025-06-07T18:29:23.724Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-06-07T17:47:19.574Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, länkarna fungerar fint förutsatt att du har ansökt och blivit beviljad behörighet. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /><br />\nMen självklart kan Lantmäteriet bli mer pedagogisk i hur apierna kan nyttjas på ett enkelt sätt. Där håller jag med dig!<br />\nDet jag vänder mig mot är din beskrivning av att det behövs särskilda system med mera. Det stämmer helt enkelt inte. Det går att hämta data genom ett vanligt url-anrop.<br />\n<img src=\"/assets/uploads/files/1749320913034-screenshot_20250607_202500_chrome.jpg\" alt=\"Screenshot_20250607_202500_Chrome.jpg\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5230,
+      "tid": 1044,
+      "timestamp": 1749320963724,
+      "toPid": "5229",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-07T18:29:23.724Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a>, det är inte tekniken det är fel på. Det är kommunikationen och pedagogiken. Och här finns det mycket att jobba med <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\"(:\" alt=\"🙂\" /></p>\n",
+      "pid": 5231,
+      "tid": 1044,
+      "timestamp": 1749321502593,
+      "toPid": "5229",
+      "uid": 1715,
+      "edited": 1749321511634,
+      "editor": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1802,
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "fullname": null,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-08T11:37:13.652Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-07T18:38:22.593Z",
+      "editedISO": "2025-06-07T18:38:31.634Z",
+      "index": 15,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a></a> sa i <a href=\"/post/5231\">Den öppna WMTS-tjänsten Topografisk webbkarta stängd.</a>:</p>\n<blockquote>\n<p dir=\"auto\">det är inte tekniken det är fel på. Det är kommunikationen och pedagogiken. Och här finns det mycket att jobba med</p>\n</blockquote>\n<p dir=\"auto\">Fråga: <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a></a> finns det en lösning?</p>\n<p dir=\"auto\">Är det inte samma systemfel som vi ser med Domstolsverket \"<a href=\"https://community.dataportal.se/topic/1042/sfs-1999-175-kvar-p%C3%A5-ruta-0-efter-flera-miljoner-och-29-%C3%A5r\">SFS 1999:175 kvar på ruta 0 efter flera miljoner och &gt; 29 år</a>\" som tappar det <a href=\"https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/1998/01/ds-199810/\" rel=\"nofollow ugc\">DS 1998:10</a> pekar på ifråga om vinster för samhället om ETT rättsinformationssystem skapas.... nu har det <strong>gått 20 år</strong> och <strong>100 myndigheter är inte lärande</strong> organisationer kontentan blir att allt bara kostar pengar...</p>\n<p dir=\"auto\">Det känns tragikomisk att läsa en tweet från 2013 <a href=\"https://github.com/salgo60/LagrummetLight\" rel=\"nofollow ugc\">jag hittat från desperata medarbetare i projektet</a> och idag 2025 försöker Domstolsverket mörka att inget hänt på &gt; 25 år och att det finns underliggande problem...</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1749381854105-ccd5aaec-5e5a-4cee-ba1e-719df41d3d75-image.png\" alt=\"ccd5aaec-5e5a-4cee-ba1e-719df41d3d75-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Min tro är att skall saker ske måste</p>\n<ul>\n<li>det <strong>finnas publika öppna backlogs</strong> så saker kan spåras... om inte så är det svårt att inse var problemet är</li>\n</ul>\n<h4>Hur illa det blir med att LM inte är första valet</h4>\n<p dir=\"auto\">Saker jag känner är systemfel är att <a href=\"https://www.hjartstartarregistret.se/#/\" rel=\"nofollow ugc\">hjärtstartarregistret</a> som <a href=\"https://www.sosalarm.se/112-och-andra-viktiga-nummer/112-appen/vanliga-fragor-och-svar/om-hlr/\" rel=\"nofollow ugc\">jobbar med 112</a> har kartor från Open Street map där vi alla skulle vinna på att dom har dom bästa kartorna men av någon anledning inte använder LMs produkt...</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1749382215077-2ab19f26-586c-47a5-9bb7-fa377270bc61-image.png\" alt=\"2ab19f26-586c-47a5-9bb7-fa377270bc61-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li><a href=\"https://www.sosalarm.se/112-och-andra-viktiga-nummer/112-appen/vanliga-fragor-och-svar/om-hlr/\" rel=\"nofollow ugc\">www.sosalarm.se 112</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1749382346934-b2fe25f5-3605-419a-90c5-650f48f80357-image.png\" alt=\"b2fe25f5-3605-419a-90c5-650f48f80357-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>nu försöker jag få bättre OSM kartor där hjärtstartare finns genom att koppla ihop OSM och hjärtstartarregistret bättre men vi får se... <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/79\" rel=\"nofollow ugc\">min issue #79</a></li>\n</ul>\n",
+      "pid": 5232,
+      "tid": 1044,
+      "timestamp": 1749382633652,
+      "toPid": "5231",
+      "uid": 1802,
+      "edited": 1749382810655,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-08T12:17:18.872Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-08T11:37:13.652Z",
+      "editedISO": "2025-06-08T11:40:10.655Z",
+      "index": 16,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5232\">Den öppna WMTS-tjänsten Topografisk webbkarta stängd.</a>:</p>\n<blockquote>\n<p dir=\"auto\">Fråga: <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> finns det en lösning?</p>\n</blockquote>\n<p dir=\"auto\">Lösningen tänker jag är att ta frågan på allvar och satsa just på kommunikation och pedagogik.<br />\nJag är alldeles för dåligt insatt om liknelsen med Domstolsverket. Spontant tänker jag att det är olika problematik, men jag vet inte?</p>\n<p dir=\"auto\">Vilka likheter ser du?</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5232\">Den öppna WMTS-tjänsten Topografisk webbkarta stängd.</a>:</p>\n<blockquote>\n<p dir=\"auto\">Hur illa det blir med att LM inte är första valet</p>\n</blockquote>\n<p dir=\"auto\">Jag ser egentligen inget problem med att produkter från Lantmäteriet inte är första-hands-val. Jag tänker att det kan vara av många olika orsaker. Utvecklaren kanske hade en förkärlek för OSM. Kartvisaren kanske var förinställd på OSM och prioritet i projektet var att få ut information om hjärtstartarna. Färgsättningen i Lantmäteriets produkter kanske inte var tillfredsställande? Utvecklarna kanske hade okunskap om att SOS Alarm är med i Geodatasamverkan och därigenom har tillgång till produkter från Lantmäteriet. Jag vet inte. Jag är glad att en karta används!</p>\n",
+      "pid": 5233,
+      "tid": 1044,
+      "timestamp": 1749385038872,
+      "toPid": "5232",
+      "uid": 1715,
+      "edited": 1749385060621,
+      "editor": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1802,
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "fullname": null,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-08T14:25:48.996Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-08T12:17:18.872Z",
+      "editedISO": "2025-06-08T12:17:40.621Z",
+      "index": 17,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> sa i <a href=\"/post/5233\">Den öppna WMTS-tjänsten Topografisk webbkarta stängd.</a>:</p>\n<blockquote>\n<p dir=\"auto\">Jag ser egentligen inget problem med att produkter</p>\n</blockquote>\n<p dir=\"auto\"><strong>Gissar att du ser det då du behöver en hjärtstartare <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></strong>  då kommer säkert dina tankar om att ta frågan på allvar....</p>\n<p dir=\"auto\">Open Street Map kan vara nerdigt noggrann har jag hört där folk är intresserade och det är magiskt bra för mig med <a href=\"https://en.wikivoyage.org/wiki/Stockholm_Archipelago_Trail\" rel=\"nofollow ugc\">Stockholm Archipelago Trail</a> att vi kan skapa spåret mha av intresserade....</p>\n<ul>\n<li>men att lita på folks intresse att skapa kartor som skall vara till hjälp att hitta hjärtstartare då man ringer 112 är fel alla dagar i veckan när vi betalar massa skattepengar till LM för \"likvärdig produkt\"...\n<ul>\n<li>men som sagt det kanske händer först då man själv behöver hjärtstartare att man inser att LMs produkter skall vara så bra och enkla att använda att det alltid är första valet för sjukvården ....</li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 5234,
+      "tid": 1044,
+      "timestamp": 1749392748996,
+      "toPid": "5233",
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2025-06-08T14:33:07.295Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-08T14:25:48.996Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5234\">Den öppna WMTS-tjänsten Topografisk webbkarta stängd.</a>:</p>\n<blockquote>\n<p dir=\"auto\">Gissar att du ser det då du behöver en hjärtstartare  då kommer säkert dina tankar om att ta frågan på allvar....</p>\n</blockquote>\n<p dir=\"auto\">Men alltså, är det inte en tillräckligt bra lokalisering genom OSM? Och sedan finns skyltar och mer information på plats?</p>\n<p dir=\"auto\">Jag känner lite att detta eskalerade åt ett håll jag var oförberedd på. Jag tror att du själv ska ställa frågan till SOS Alarm om varför de använder OSM. Jag kan inte tvinga de till något.</p>\n",
+      "pid": 5235,
+      "tid": 1044,
+      "timestamp": 1749393187295,
+      "toPid": "5234",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1802,
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "fullname": null,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-06-08T15:52:46.165Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-06-08T14:33:07.295Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#8681b1",
+    "cid": 37,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Under denna kategori samlar vi frågor, behov och nyheter som rör användning, hantering och tillgängliggörande av geografiska data, Geodataportalen och den nationella geodataplattformen (NGP).",
+    "descriptionParsed": "<p dir=\"auto\">Under denna kategori samlar vi frågor, behov och nyheter som rör användning, hantering och tillgängliggörande av geografiska data, Geodataportalen och den nationella geodataplattformen (NGP).</p>\n",
+    "disabled": 0,
+    "icon": "fa-globe",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Geografiska data",
+    "numRecentReplies": 1,
+    "order": -1,
+    "parentCid": 23,
+    "post_count": 122,
+    "slug": "37/geografiska-data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 12,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 122,
+    "totalTopicCount": 12
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1044",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1044.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Geografiska data",
+      "url": "/category/37/geografiska-data",
+      "cid": 37
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/1044/den-öppna-wmts-tjänsten-topografisk-webbkarta-stängd?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1044",
+  "bodyClass": "page-topic page-topic-1044 template-topic page-topic-category-37 page-topic-category-geografiska-data parent-category-23 parent-category-37 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Den öppna WMTS-tjänsten Topografisk webbkarta stängd."
+        },
+        {
+          "name": "description",
+          "content": "Nu har Lantmäteriet stängt WMTS-tjänsten Topografisk webbkarta, översiktlig, som var deras enda öppna och avgiftsfria visningstjänst. Detta aviserades redan i början av året, tillsammans med ett flertal andra tjänster som avses att avvecklas som en följd ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Den öppna WMTS-tjänsten Topografisk webbkarta stängd."
+        },
+        {
+          "property": "og:description",
+          "content": "Nu har Lantmäteriet stängt WMTS-tjänsten Topografisk webbkarta, översiktlig, som var deras enda öppna och avgiftsfria visningstjänst. Detta aviserades redan i början av året, tillsammans med ett flertal andra tjänster som avses att avvecklas som en följd ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-06-05T09:25:35.373Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-06-10T18:15:31.764Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Geografiska data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1044",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1044/den-öppna-wmts-tjänsten-topografisk-webbkarta-stängd",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1044.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/37/geografiska-data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/matself"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/1044/den-öppna-wmts-tjänsten-topografisk-webbkarta-stängd?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "cid": 25,
+  "lastposttime": 1641903508089,
+  "mainPid": 1162,
+  "postcount": 3,
+  "slug": "269/it-kompetens-vid-e-arkiveringsprojekt",
+  "tid": 269,
+  "timestamp": 1638954509459,
+  "title": "IT-kompetens vid e-arkiveringsprojekt",
+  "uid": 299,
+  "viewcount": 542,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 3,
+  "teaserPid": 1208,
+  "oldCid": 2,
+  "tags": [
+    {
+      "value": "e-arkiv",
+      "valueEscaped": "e-arkiv",
+      "valueEncoded": "e-arkiv",
+      "class": "e-arkiv"
+    }
+  ],
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "IT-kompetens vid e-arkiveringsprojekt",
+  "timestampISO": "2021-12-08T09:08:29.459Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-01-11T12:18:28.089Z",
+  "pinExpiryISO": "",
+  "votes": 3,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">När ni har genomfört e-arkiveringsprojekt, dvs uttag av data ur tex ett system för leverans till e-arkivet, vilka roller inom teknisk kompetens har varit med i processen då? Inom vårt införandeprojekt tittar vi just nu på implementering av den nya verksamheten för e-arkiv och behöver då speca vilka IT-resurser vi behöver vid e-arkiveringsprojekt. Inom införandeprojektet ska vi genomföra en pilotleverans och då är det två systemutvecklare som ska sköta de tekniska bitarna, men vi är lite osäkra på hur vi ska göra sedan. LFV har ingen riktig IT-avdelning och IT-bitarna är liksom uppsplittrade på flera håll. (Ja jag vet att en open source-produkt eg. kräver en stor IT-avdelning, men herregud, vi kan ju inte låta en sådan liten detalj stoppa oss från att införa e-arkiv <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> )</p>\n<p dir=\"auto\">I vissa fall kanske en systemleverantör hjälper till, i andra fall supporten för e-arkivet, men om man behöver in-house-kompetens, vilka är lämpliga då?</p>\n",
+      "pid": 1162,
+      "tid": 269,
+      "timestamp": 1638954509459,
+      "uid": 299,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-01-11T10:35:30.928Z"
+      },
+      "edited": 1649770387694,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2021-12-08T09:08:29.459Z",
+      "editedISO": "2022-04-12T13:33:07.694Z",
+      "index": 0,
+      "user": {
+        "uid": 299,
+        "username": "Anna_Bayard",
+        "userslug": "anna_bayard",
+        "reputation": 7,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1707833488179,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Anna_Bayard",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-13T14:11:28.179Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/299\">@anna_bayard</a><br />\nNär vi haft våra leveransprojekt så har vi nästan alltid haft minst en utvecklare med oss. Vi har tidigare kravspecat att den ska kunna något eller båda språken: python och java. (detta kan såklart förändras beroende på system som ska leverera). Sen ska det finnas kompetens om databaser osv, men jag vet inte om det räknas som en självklar it-kompetens.</p>\n<p dir=\"auto\">Beroende på hur ni planerar att genomföra era leveranser så kan man ta höjd för en resurs som kan hantera ett ETL-verktyg. I vår erfarenhet har det även varit relevant med kompetens inom python i samband med verktyget.</p>\n",
+      "pid": 1207,
+      "tid": 269,
+      "timestamp": 1641897330928,
+      "toPid": "1162",
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-11T10:35:30.928Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Anna_Bayard",
+        "displayname": "Anna_Bayard"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Tack <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a> ! <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/299\">@Anna_Bayard</a>, jag tror att om ni behöver kompetens kring databaser så behöver ni ange det specifikt, om möjligt gärna med vilken databashanterare det rör sig om. Databaser är en lite nischad IT-kompetens, det är inte allt IT-folk som har den och den är inte alltid så lätt att få tag på heller enligt mina erfarenheter.</p>\n",
+      "pid": 1208,
+      "tid": 269,
+      "timestamp": 1641903508089,
+      "toPid": "1162",
+      "uid": 216,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-01-11T12:18:28.089Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Anna_Bayard",
+        "displayname": "Anna_Bayard"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 6,
+          "type": "move",
+          "uid": 7,
+          "id": 118,
+          "timestamp": 1643756743101,
+          "timestampISO": "2022-02-01T23:05:43.101Z",
+          "user": {
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "uid": 7,
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          "fromCategory": {
+            "name": "Meetups och evenemang",
+            "slug": "6/meetups-och-evenemang",
+            "icon": "fa-ticket",
+            "color": "#ffffff",
+            "bgColor": "#695f59"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Meetups och evenemang on <span class=\"timeago timeline-text\" title=\"2022-02-01T23:05:43.101Z\"></span>"
+        },
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 171,
+          "timestamp": 1648478124023,
+          "timestampISO": "2022-03-28T14:35:24.023Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:35:24.023Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 6,
+      "type": "move",
+      "uid": 7,
+      "id": 118,
+      "timestamp": 1643756743101,
+      "timestampISO": "2022-02-01T23:05:43.101Z",
+      "user": {
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "uid": 7,
+        "displayname": "Kristine_",
+        "icon:text": "K",
+        "icon:bgColor": "#795548"
+      },
+      "fromCategory": {
+        "name": "Meetups och evenemang",
+        "slug": "6/meetups-och-evenemang",
+        "icon": "fa-ticket",
+        "color": "#ffffff",
+        "bgColor": "#695f59"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Meetups och evenemang on <span class=\"timeago timeline-text\" title=\"2022-02-01T23:05:43.101Z\"></span>"
+    },
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 171,
+      "timestamp": 1648478124023,
+      "timestampISO": "2022-03-28T14:35:24.023Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:35:24.023Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#5a6751",
+    "cid": 25,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppna standarder och format",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppna standarder och format</p>\n",
+    "disabled": 0,
+    "icon": "fa-newspaper-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppna standarder och format",
+    "numRecentReplies": 1,
+    "order": 6,
+    "parentCid": 0,
+    "post_count": 252,
+    "slug": "25/öppna-standarder-och-format",
+    "subCategoriesPerPage": 10,
+    "topic_count": 34,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 252,
+    "totalTopicCount": 34
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "269",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/269.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppna standarder och format",
+      "url": "/category/25/öppna-standarder-och-format",
+      "cid": 25
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/269",
+  "bodyClass": "page-topic page-topic-269 template-topic page-topic-category-25 page-topic-category-öppna-standarder-och-format parent-category-25 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "IT-kompetens vid e-arkiveringsprojekt"
+        },
+        {
+          "name": "description",
+          "content": "När ni har genomfört e-arkiveringsprojekt, dvs uttag av data ur tex ett system för leverans till e-arkivet, vilka roller inom teknisk kompetens har varit med i processen då? Inom vårt införandeprojekt tittar vi just nu på implementering av den nya verksam..."
+        },
+        {
+          "property": "og:title",
+          "content": "IT-kompetens vid e-arkiveringsprojekt"
+        },
+        {
+          "property": "og:description",
+          "content": "När ni har genomfört e-arkiveringsprojekt, dvs uttag av data ur tex ett system för leverans till e-arkivet, vilka roller inom teknisk kompetens har varit med i processen då? Inom vårt införandeprojekt tittar vi just nu på implementering av den nya verksam..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-12-08T09:08:29.459Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-04-12T13:33:07.694Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppna standarder och format"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/269",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/269/it-kompetens-vid-e-arkiveringsprojekt",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/269.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/25/öppna-standarder-och-format"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/anna_bayard"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

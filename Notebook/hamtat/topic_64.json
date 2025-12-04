@@ -1,0 +1,963 @@
+{
+  "cid": 24,
+  "lastposttime": 1616046057681,
+  "mainPid": 172,
+  "postcount": 6,
+  "slug": "64/dela-kodexempel-ett-enda-klick-kan-räcka",
+  "tid": 64,
+  "timestamp": 1615949959588,
+  "title": "Dela kodexempel: ett enda klick kan räcka",
+  "uid": 114,
+  "viewcount": 589,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 185,
+  "oldCid": 3,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Dela kodexempel: ett enda klick kan räcka",
+  "timestampISO": "2021-03-17T02:59:19.588Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-03-18T05:40:57.681Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<h1>Att dela kodexempel</h1>\n<p dir=\"auto\">För några år sedan som gymnasielärare ville jag tillgängliggöra ett utbildningsmaterial som involverade programmeringskod. Jag kom fram till följande önskemål:</p>\n<ol>\n<li>Enkelt att komma igång</li>\n<li>Något icke-kommersiellt</li>\n<li>Roligare än bara kod och ett terminalfönster</li>\n</ol>\n<p dir=\"auto\">Jag hade upptäckt <a href=\"https://jupyter.org\" rel=\"nofollow ugc\">Jupyter</a> och bestämde mig för det som grund. Jupyter är en arbetsmiljö där kod kan skrivas och köras i så kallade <em>Jupyter Notebooks</em> där kod, text, grafer, och annat interaktivt kan få plats. Just därför lämpar de sig väl för utbildningsmaterial tycker jag!</p>\n<h2>Två lösningar</h2>\n<p dir=\"auto\">Jag kommer presentera två lösningar för att tillgängligöra kodexempel, utbildningsmaterial, och övrigt.</p>\n<h3>Den enklare lösningen</h3>\n<p dir=\"auto\">Med gratistjänsten <a href=\"http://mybinder.org\" rel=\"nofollow ugc\">mybinder.org</a> kan du dela kodexempel som blir tillgänliga för andra att köra genom ett enda länkklick.</p>\n<p dir=\"auto\">Ungefär såhär gör du för att dela kodexempel med <a href=\"http://mybinder.org\" rel=\"nofollow ugc\">mybinder.org</a>:</p>\n<ol>\n<li>Gör kodexemplet tillgängligt på GitHub, GitLab, eller liknande.</li>\n<li>Skapa en konfigurationsfil (requirements.txt för Python t.ex.) som beskriver vad som behövs installeras</li>\n<li>Besök <a href=\"http://mybinder.org\" rel=\"nofollow ugc\">mybinder.org</a> och skapa en länk</li>\n<li>Dela länken</li>\n</ol>\n<p dir=\"auto\"><strong>Exempel på kodmaterial delat via <a href=\"http://mybinder.org\" rel=\"nofollow ugc\">mybinder.org</a>:</strong></p>\n<ul>\n<li>\n<p dir=\"auto\">Klassiskt kodexempel av Jupyter notebooks interaktivitet:<br />\n<a href=\"https://gke.mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo/Lorenz.ipynb\" rel=\"nofollow ugc\">https://gke.mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo/Lorenz.ipynb</a></p>\n<p dir=\"auto\"><img src=\"https://drive.google.com/uc?export=download&amp;id=1fhU5FVVPBcGs7cPsDtdV63TzHNO-VrJe\" class=\" img-fluid img-markdown\" /></p>\n</li>\n<li>\n<p dir=\"auto\">Utbildningsmaterial för maskininlärning av mig, lämpligt för engagerade elever i gymnasiet som läst iallafall matte 3:<br />\n<a href=\"https://gke.mybinder.org/v2/gh/consideratio/jupyter-se-math-teacher/master?urlpath=lab/tree/source/gradient-descent/gradient-descent.ipynb\" rel=\"nofollow ugc\">https://gke.mybinder.org/v2/gh/consideratio/jupyter-se-math-teacher/master?urlpath=lab/tree/source/gradient-descent/gradient-descent.ipynb</a></p>\n<p dir=\"auto\"><img src=\"https://drive.google.com/uc?export=download&amp;id=1YB4NTFFL0zv0a0qa7Jw4PlOYNHgVOqn4\" class=\" img-fluid img-markdown\" /></p>\n</li>\n<li>\n<p dir=\"auto\">Kodexempel på hur ett API av <a href=\"http://polisen.se\" rel=\"nofollow ugc\">polisen.se</a> kan användas, skapat av @salgo60 under Hack for Sweden 2019:<br />\n<a href=\"https://gke.mybinder.org/v2/gh/hack-for-sweden/open-data-examples/HEAD?urlpath=lab/tree/polisen-se.ipynb\" rel=\"nofollow ugc\">https://gke.mybinder.org/v2/gh/hack-for-sweden/open-data-examples/HEAD?urlpath=lab/tree/polisen-se.ipynb</a></p>\n<p dir=\"auto\"><img src=\"https://drive.google.com/uc?export=download&amp;id=1pJrADdZ45Zs3c-DkuggM3W61vEE3nak4\" class=\" img-fluid img-markdown\" /></p>\n</li>\n</ul>\n<h3>Den klumpigare lösningen</h3>\n<p dir=\"auto\">Som lärare ville jag att mina elever skulle kunna spara sitt arbete och liknande, men för detta krävdes något mer än <a href=\"http://mybinder.org\" rel=\"nofollow ugc\">mybinder.org</a>. Jag listar nedan projekten som möjliggör detta, och är nu projekt jag har möjliggjorts att arbeta fulltid med att utveckla. Att använda dessa lämpar sig kanske bäst för universitet, skolor, företag osv. som kan investera lite tid och energi att tillhandahålla en sådan infrastruktur för sina elever, anställda, eller liknande.</p>\n<ul>\n<li>\n<p dir=\"auto\"><a href=\"https://jupyterhub.readthedocs.io\" rel=\"nofollow ugc\">JupyterHub</a> var ett lämpligt verktyg för att hjälpa mig göra Jupyter arbetsmiljöer tillgängliga för mina elever. Med en JupyterHub kunde de få köra koden på en extern dator istället för sin egen, och även spara sitt arbetsmaterial där osv.</p>\n</li>\n<li>\n<p dir=\"auto\"><a href=\"https://z2jh.jupyter.org\" rel=\"nofollow ugc\">JupyterHub installerat på Kubernetes</a> visade sig även mycket lovande för att hjälpa hela min skola eller <a href=\"http://t.om\" rel=\"nofollow ugc\">t.om</a>. hela skolkoncernen.</p>\n<p dir=\"auto\"><img src=\"https://github.com/jupyterhub/zero-to-jupyterhub-k8s/raw/master/doc/source/_static/images/data8_massive_audience.jpg\" class=\" img-fluid img-markdown\" /><br />\n<em>University of California: Berkeley, studenter som går Data8 kursen där eleverna övar med kodexempel med hjälp av en JupyterHub.</em></p>\n</li>\n</ul>\n<h2>Tack för er tid</h2>\n<p dir=\"auto\">Jag hoppas detta har kunnat fungera som en introduktion av potentiellt relevanta verktyg.</p>\n<p dir=\"auto\">Varma hälsningar från Uppsala!<br />\n/ Erik Sundell</p>\n",
+      "pid": 172,
+      "tid": 64,
+      "timestamp": 1615949959588,
+      "uid": 114,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-17T03:57:29.842Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-03-17T02:59:19.588Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 114,
+        "username": "consideratio",
+        "userslug": "consideratio",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1617322463629,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "consideratio",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2021-04-02T00:14:23.629Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/114\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/114\">@consideratio</a></a> stort tack</p>\n<p dir=\"auto\">Jobtech hade en session \"<a href=\"https://www.goto10.se/event/api-nycklar-och-notebooks-hur-maximerar-vi-tillganglighetgorandet-av-oppna-data/?fbclid=IwAR12II3SLWdtGiLuiuUuvqke_pQG9uGQSql3aEkpUASgZ58YtzU4zoTP5yY\" rel=\"nofollow ugc\">API-nycklar, Swaggger och notebooks - hur maximerar vi tillgänglighetgörandet av öppna data?</a>\" 2 feb 2021 där Kevin Dee Boman (Göteborgs universitet) presenterade Jupyter se <a href=\"https://youtu.be/sfWWPpTysjk?t=2955\" rel=\"nofollow ugc\">video vid 51 min</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1615951991001-c18e5b30-96d7-4005-9518-4efdc4b86c28-image-resized.png\" alt=\"c18e5b30-96d7-4005-9518-4efdc4b86c28-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Det intressanta jag tog med mig var <a href=\"https://youtu.be/sfWWPpTysjk?t=3670\" rel=\"nofollow ugc\">frågan vid 60 min</a> där man föreslog att denna Jupyter lösning borde finnas tillgänglig och det intressanta var att som student var detta redan gjort på GITHUB <strong>och självklart</strong>. Känns som vi har en generations fråga och att vi behöver få detta tänk hos alla....</p>\n<p dir=\"auto\"><strong>Fråga <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/114\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/114\">@consideratio</a></a></strong> : Jag gjorde en koppling #Wikidata och GITHUB Topics <a href=\"https://github.community/t/wikidata-property-p9100-created-for-github-topics/158508\" rel=\"nofollow ugc\">länk</a>.... har du någon bra erfarenhet/tankar hur man enklare kan hitta vilka applikationer som skapats och som använder dataset...</p>\n<p dir=\"auto\">Skall Sverige bli bäst i världen på Öppen data som alla lovar så måste vi få en helt annan utväxling är min tro. Viktiga komponenter</p>\n<ul>\n<li>tydligt ägande av data och dess kvalitet och då inte bara datat i min SILO utan mer som <a href=\"https://ourworldindata.org/covid-vaccinations\" rel=\"nofollow ugc\">OWiD som samlar in all vaccinerings</a> info från <a href=\"https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations/country_data\" rel=\"nofollow ugc\">alla länder</a> som alla kan hämta på GITHUB\n<ul>\n<li>tyvärr för OWiD verkar <a href=\"https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/country_data/Sweden.csv\" rel=\"nofollow ugc\">Sverige</a> och FHM inte verkar kunna leverera maskinläsbar data om vaccineringen utan det finns på en <a href=\"https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/statistik-over-registrerade-vaccinationer-covid-19/\" rel=\"nofollow ugc\">websida</a>... jag har pratat med SVT och deras datajournalister som bara skakar på huvudet åt denna galenskap....</li>\n</ul>\n</li>\n<li>enormt <a href=\"https://www.youtube.com/watch?v=K0l4fv5uUvg&amp;t=1580s\" rel=\"nofollow ugc\">mycket mer dialog</a> och att det finns tydligt <a href=\"https://www.youtube.com/watch?v=502ILHjX9EE\" rel=\"nofollow ugc\">produktägande med publika backlogs</a></li>\n<li>synlighet från <strong>Ledare</strong> som pekar med rak hand att dom inte skyr några medel att vi skall bli bäst i världen och att man på ett trovärdigt sätt har en plan/uppföljning att detta skall ske...</li>\n<li>att dessa ledare hela tiden lyfter fram lyckade försök och identifierade problem så vi får\n<ul>\n<li>ett momentum</li>\n<li>en <a href=\"https://medium.com/@sourabhpandey05/do-these-5-things-to-build-sense-of-urgency-in-you-and-your-organization-d56be812db7b#:~:text=Urgency%20means%20something%20is%20urgent,with%20as%20soon%20as%20possible.&amp;text=Sense%20of%20urgency%20means%20you,a%20deadline%20in%20your%20mind.\" rel=\"nofollow ugc\">känsla av urgency</a>....</li>\n<li>att identifierade problem lyfts till någon typ av <a href=\"https://www.mountaingoatsoftware.com/articles/advice-on-conducting-the-scrum-of-scrums-meeting/comments#:~:text=The%20scrum%20of%20scrum%20meeting,areas%20of%20overlap%20and%20integration.&amp;text=Each%20of%20the%20seven%20teams,its%20own%20daily%20scrum%20meeting.\" rel=\"nofollow ugc\">scrum av scrum möten</a> mellan kommuner/myndigheter/intressenter ... SILOS är inte ok...</li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 173,
+      "tid": 64,
+      "timestamp": 1615953449842,
+      "toPid": "172",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 114,
+            "username": "consideratio",
+            "userslug": "consideratio",
+            "picture": "/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+            "fullname": "Erik Sundell",
+            "displayname": "consideratio",
+            "icon:text": "C",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-17T23:55:01.317Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-17T03:57:29.842Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "consideratio",
+        "displayname": "consideratio"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Superbra exempel! På Jobtech Development blev vi så inspirerade av dina exempel så vi tittar på om vi kan skapa en \"paketerad\"-miljö för icke-programmerare.</p>\n",
+      "pid": 174,
+      "tid": 64,
+      "timestamp": 1615965703802,
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 114,
+            "username": "consideratio",
+            "userslug": "consideratio",
+            "picture": "/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+            "fullname": "Erik Sundell",
+            "displayname": "consideratio",
+            "icon:text": "C",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-17T23:11:59.776Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-17T07:21:43.802Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Va roligt!</p>\n<p dir=\"auto\">Vill då kort också tipsa om en lättviktigare installation av JupyterHub kan göras utan Kubernetes med guiden på <a href=\"http://tljh.jupyter.org\" rel=\"nofollow ugc\">tljh.jupyter.org</a> - då kan en ensam server används för upp till ungefär 100 samtida användare.</p>\n<p dir=\"auto\">Vid behov kan en fråga efter hjälp på <a href=\"http://discourse.jupyter.org\" rel=\"nofollow ugc\">discourse.jupyter.org</a> för övrigt, eller besöka <a href=\"https://gitter.im/jupyterhub/jupyterhub\" rel=\"nofollow ugc\">JupyterHub's chatkanal på Gitter / Matrix</a>.</p>\n<p dir=\"auto\">Lycka till!</p>\n",
+      "pid": 182,
+      "tid": 64,
+      "timestamp": 1616022719776,
+      "toPid": "174",
+      "uid": 114,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-17T23:11:59.776Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 114,
+        "username": "consideratio",
+        "userslug": "consideratio",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1617322463629,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "consideratio",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2021-04-02T00:14:23.629Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 sa i <a href=\"/post/173\">Dela kodexempel: ett enda klick kan räcka</a>:</p>\n<blockquote>\n<p dir=\"auto\">har du någon bra erfarenhet/tankar hur man enklare kan hitta vilka applikationer som skapats och som använder dataset...</p>\n</blockquote>\n<p dir=\"auto\">Hmmm nej tror det krävs en standard för deklarera datakällor. Det kan mycket väl krävas att det finns någon morot att använda denna standard för att deklarera datakällor också för att den ska tillämpas.</p>\n<p dir=\"auto\">Jag kom att tänka på att GitHub <a href=\"https://github.com/pytest-dev/pytest/network/dependencies\" rel=\"nofollow ugc\">redan kan visa vilka kodprojekt som beror på andra kodprojekt</a> genom att söka efter välkända filnamn. På motsvarande sätt funderar jag på ifall det finns motsvarande filer som deklarerar datakällor, och jag tror det.</p>\n<p dir=\"auto\">Jag kan inte så mycket om <a href=\"https://intake.readthedocs.io/en/latest/?badge=latest\" rel=\"nofollow ugc\">Intake</a>, men det är ett verktyg som hjälper användare att konsumera data från olika källor. Med Intake så deklarerar användarna faktiskt sina datakällor i en YAML fil. Så om <a href=\"https://github.com/intake/intake/issues/587\" rel=\"nofollow ugc\">de börjar rekommendera ett enhetligt sätt att namnge dessa filer</a> så vore det fullt rimligt att scanna källkod på GitHub, GitLab etc efter dessa filer.</p>\n<p dir=\"auto\">Detta blev en avstickare från ämnet av att dela kodexempel, så jag föreslår att uppföljningar görs från en helt ny tråd i detta forum dock!</p>\n",
+      "pid": 183,
+      "tid": 64,
+      "timestamp": 1616025301317,
+      "toPid": "173",
+      "uid": 114,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-18T05:40:57.681Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-17T23:55:01.317Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 114,
+        "username": "consideratio",
+        "userslug": "consideratio",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1617322463629,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "consideratio",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2021-04-02T00:14:23.629Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/114\">@consideratio</a> jag skrev lite om DOI som publik unik identifierare <a href=\"https://community.dataportal.se/topic/62/hur-jobbar-google-med-dataset/2?_=1616045646324\">här</a> som jag tror är det sätt vi borde vandra att peka unikt på en version av ett dataset</p>\n<p dir=\"auto\"><a href=\"https://en.wikipedia.org/wiki/Digital_object_identifier\" rel=\"nofollow ugc\">DOI</a> och <a href=\"https://en.wikipedia.org/wiki/ORCID\" rel=\"nofollow ugc\">ORCID</a> används av forskare och detta mönster känns värt att följa....</p>\n<p dir=\"auto\">Tycker mig ha sett att <a href=\"https://www.fairsfair.eu/\" rel=\"nofollow ugc\">https://www.fairsfair.eu/</a> driver detta på ett bra sätt <a href=\"https://www.youtube.com/watch?v=7JwO_tXXqKc\" rel=\"nofollow ugc\">video</a></p>\n<p dir=\"auto\"><a href=\"https://theresearchwhisperer.files.wordpress.com/2013/04/doi-poster.jpg\" rel=\"nofollow ugc\">bild</a><br />\n<img src=\"/assets/uploads/files/1616045958837-3d8805ac-999d-442e-a8fc-15be9f890192-image.png\" alt=\"3d8805ac-999d-442e-a8fc-15be9f890192-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 185,
+      "tid": 64,
+      "timestamp": 1616046057681,
+      "toPid": "183",
+      "uid": 24,
+      "edited": 1616046255647,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-18T05:40:57.681Z",
+      "editedISO": "2021-03-18T05:44:15.647Z",
+      "index": 5,
+      "parent": {
+        "username": "consideratio",
+        "displayname": "consideratio"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 3,
+          "type": "move",
+          "uid": 62,
+          "id": 208,
+          "timestamp": 1648482232591,
+          "timestampISO": "2022-03-28T15:43:52.591Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Goda exempel och inspiration",
+            "slug": "3/goda-exempel-och-inspiration",
+            "icon": "fa-newspaper-o",
+            "color": "#fff",
+            "bgColor": "#5a6751"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:43:52.591Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 3,
+      "type": "move",
+      "uid": 62,
+      "id": 208,
+      "timestamp": 1648482232591,
+      "timestampISO": "2022-03-28T15:43:52.591Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Goda exempel och inspiration",
+        "slug": "3/goda-exempel-och-inspiration",
+        "icon": "fa-newspaper-o",
+        "color": "#fff",
+        "bgColor": "#5a6751"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:43:52.591Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "64",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/64.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/64",
+  "bodyClass": "page-topic page-topic-64 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Dela kodexempel: ett enda klick kan räcka"
+        },
+        {
+          "name": "description",
+          "content": "Att dela kodexempel För några år sedan som gymnasielärare ville jag tillgängliggöra ett utbildningsmaterial som involverade programmeringskod. Jag kom fram till följande önskemål:  Enkelt att komma igång Något icke-kommersiellt Roligare än bara kod och et..."
+        },
+        {
+          "property": "og:title",
+          "content": "Dela kodexempel: ett enda klick kan räcka"
+        },
+        {
+          "property": "og:description",
+          "content": "Att dela kodexempel För några år sedan som gymnasielärare ville jag tillgängliggöra ett utbildningsmaterial som involverade programmeringskod. Jag kom fram till följande önskemål:  Enkelt att komma igång Något icke-kommersiellt Roligare än bara kod och et..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-03-17T02:59:19.588Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-03-18T05:40:57.681Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/114-profileavatar-1615940607361.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/64",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/64/dela-kodexempel-ett-enda-klick-kan-räcka",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/64.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/consideratio"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

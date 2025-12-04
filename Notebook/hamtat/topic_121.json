@@ -1,0 +1,1465 @@
+{
+  "cid": 24,
+  "lastposttime": 1624898056831,
+  "mainPid": 517,
+  "postcount": 12,
+  "slug": "121/kund-person-register-baserat-på-open-source",
+  "tid": 121,
+  "timestamp": 1622820184404,
+  "title": "Kund&#x2F;person-&quot;register&quot; baserat på Open Source",
+  "uid": 55,
+  "viewcount": 1372,
+  "postercount": 6,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 573,
+  "tags": [
+    {
+      "value": "öppna programvaror",
+      "valueEscaped": "öppna programvaror",
+      "valueEncoded": "%C3%B6ppna%20programvaror",
+      "class": "öppna-programvaror"
+    },
+    {
+      "value": "öppen källkod",
+      "valueEscaped": "öppen källkod",
+      "valueEncoded": "%C3%B6ppen%20k%C3%A4llkod",
+      "class": "öppen-källkod"
+    }
+  ],
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Kund/person-\"register\" baserat på Open Source",
+  "timestampISO": "2021-06-04T15:23:04.404Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-06-28T16:34:16.831Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Okej, detta kanske blir en lång harang, vi får se.</p>\n<p dir=\"auto\">Jag utreder just nu hur min förvaltning kan börja jobba mer med Open Source. Ett exempel som lägligt kommit upp är att vi inom kort kommer konkurrensutsätta vårt ärendehanteringssytem för kundtjänsten samtidigt som vi behöver nytt systemstöd för \"generell kundhantering\" om man kan säga så.. vi behöver alltså ett ställe där vi kan lagra den mest basala kundinformationen för att föda system som behöver den, exempelvis biljettsystemet, i framtiden.</p>\n<p dir=\"auto\">I kombination med detta (och detta kanske är överambitiöst) hoppas jag kunna förflytta min bransch, kollektivtrafiken, till att jobba mer tillsammans i tekniska lösningar av denna typ där vi i stort har samma behov.. och då kommer ju Open Source in som ett efterlängtat brev på posten!</p>\n<p dir=\"auto\">Snabba googlingar leder till lösningar som exempelvis SuiteCRM och liknande för ändamålet, och jag ser egentligen inga fel med att vi skulle hamna i ett läge där vi ändå köper upp en \"färdig\" lösning som ändå bygger på OS i grunden, det finns absolut fördelar med detta också.</p>\n<p dir=\"auto\"><strong>Däremot</strong> undrar jag om detta forums, och framförallt ni som representerar offentlighetens, erfarenheter kring Open Source-alternativ kring detta, samt om det  redan idag finns något pågående samarbete i dessa frågor, eller närliggande i offentligheten i Sverige/Europa som man kan ta nytta av, lära sig av och även i förlängningen bidra till.</p>\n<p dir=\"auto\">För att förklara ytterligare vart vi ligger i processen så är vi i ett läge där inget formellt beslut finns kring OS-lösningar och, bedömer <strong>jag</strong>, låg kunskap i organisationen kring denna typ av lösningar, fördelar, nackdelar, utvecklingsgång etc. så även där kommer vi som är intresserade och (någorlunda) insatta ha en resa att göra.. Den resan hoppas jag alltså kunna starta nu.</p>\n<p dir=\"auto\">Allt gott,</p>\n",
+      "pid": 517,
+      "tid": 121,
+      "timestamp": 1622820184404,
+      "uid": 55,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-06-06T20:53:12.590Z"
+      },
+      "edited": 1623182186353,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-06-04T15:23:04.404Z",
+      "editedISO": "2021-06-08T19:56:26.353Z",
+      "index": 0,
+      "user": {
+        "uid": 55,
+        "username": "ULJerry",
+        "userslug": "uljerry",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+        "signature": "<p dir=\"auto\">--<br />\nJerry<br />\nUtvecklingsledare IT - UL (Trafik &amp; Samhälle, Region Uppsala)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1632725385769,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "ULJerry",
+        "groupTitleArray": [],
+        "icon:text": "U",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2021-09-27T06:49:45.769Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@uljerry</a> Hej, det nämns en programvara som heter Odoo i katalogen här:</p>\n<p dir=\"auto\"><a href=\"https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Katalog-%C3%B6ver-%C3%B6ppen-programvara-inom-offentlig-sektor\" rel=\"nofollow ugc\">https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Katalog-över-öppen-programvara-inom-offentlig-sektor</a></p>\n<p dir=\"auto\">Länk från <a href=\"http://nosad.se\" rel=\"nofollow ugc\">nosad.se</a></p>\n",
+      "pid": 518,
+      "tid": 121,
+      "timestamp": 1623012792590,
+      "toPid": "517",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 55,
+            "username": "ULJerry",
+            "userslug": "uljerry",
+            "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+            "fullname": "Jerry Löfvenhaft",
+            "displayname": "ULJerry",
+            "icon:text": "U",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-06-07T14:11:13.106Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-06-06T20:53:12.590Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "ULJerry",
+        "displayname": "ULJerry"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Tack! Hade helt glömt att den katalogen existerade! Den var bara påtänkt när jag var med i NOSAD <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f604.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smile\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":D\" alt=\"😄\" /></p>\n",
+      "pid": 519,
+      "tid": 121,
+      "timestamp": 1623075073106,
+      "toPid": "518",
+      "uid": 55,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-06-07T14:11:13.106Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 55,
+        "username": "ULJerry",
+        "userslug": "uljerry",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+        "signature": "<p dir=\"auto\">--<br />\nJerry<br />\nUtvecklingsledare IT - UL (Trafik &amp; Samhälle, Region Uppsala)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1632725385769,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "ULJerry",
+        "groupTitleArray": [],
+        "icon:text": "U",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2021-09-27T06:49:45.769Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/518\">Kund/person-\"register\" baserat på Open Source</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@uljerry</a> Hej, det nämns en programvara som heter Odoo i katalogen här:</p>\n<p dir=\"auto\"><a href=\"https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Katalog-%C3%B6ver-%C3%B6ppen-programvara-inom-offentlig-sektor\" rel=\"nofollow ugc\">https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Katalog-över-öppen-programvara-inom-offentlig-sektor</a></p>\n<p dir=\"auto\">Länk från <a href=\"http://nosad.se\" rel=\"nofollow ugc\">nosad.se</a></p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Har du eller Jonas någon personlig erfarenhet av Odoo? Får man i så fall krama ur er lite information?</p>\n",
+      "pid": 520,
+      "tid": 121,
+      "timestamp": 1623075243851,
+      "toPid": "518",
+      "uid": 55,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-06-07T21:01:10.270Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-06-07T14:14:03.851Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 55,
+        "username": "ULJerry",
+        "userslug": "uljerry",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+        "signature": "<p dir=\"auto\">--<br />\nJerry<br />\nUtvecklingsledare IT - UL (Trafik &amp; Samhälle, Region Uppsala)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1632725385769,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "ULJerry",
+        "groupTitleArray": [],
+        "icon:text": "U",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2021-09-27T06:49:45.769Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@uljerry</a> Vi använder Odoo på mitt jobb, så jag har lite erfarenhet jag kan dela med mig. Du får gärna PM:a mig, och vi kan gärna ta en videochat så kan jag skärmdela och visa lite hur vi använder det. (Vi är dock inte en myndighet utan en ideell förening så vi kanske fokuserar lite på olika saker.)</p>\n",
+      "pid": 524,
+      "tid": 121,
+      "timestamp": 1623099670270,
+      "toPid": "520",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-06-07T21:01:10.270Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "ULJerry",
+        "displayname": "ULJerry"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@ainali</a> Hade gärna PM:at om jag bara visste hur man gjorde i detta forum! lite hjälp?</p>\n",
+      "pid": 525,
+      "tid": 121,
+      "timestamp": 1623133092562,
+      "uid": 55,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-06-08T06:20:20.011Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-06-08T06:18:12.562Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 55,
+        "username": "ULJerry",
+        "userslug": "uljerry",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+        "signature": "<p dir=\"auto\">--<br />\nJerry<br />\nUtvecklingsledare IT - UL (Trafik &amp; Samhälle, Region Uppsala)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1632725385769,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "ULJerry",
+        "groupTitleArray": [],
+        "icon:text": "U",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2021-09-27T06:49:45.769Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@uljerry</a><br />\nHej, idag kan man inte i forumet göra direkt-PM dvs privata meddelanden / chat <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":-)\" alt=\"🙂\" /><br />\n/Kristine</p>\n",
+      "pid": 526,
+      "tid": 121,
+      "timestamp": 1623133220011,
+      "toPid": "525",
+      "uid": 7,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 55,
+            "username": "ULJerry",
+            "userslug": "uljerry",
+            "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+            "fullname": "Jerry Löfvenhaft",
+            "displayname": "ULJerry",
+            "icon:text": "U",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-06-08T07:08:21.888Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-06-08T06:20:20.011Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "ULJerry",
+        "displayname": "ULJerry"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> Det förklarar en del <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Tack Kristine</p>\n",
+      "pid": 527,
+      "tid": 121,
+      "timestamp": 1623136101888,
+      "toPid": "526",
+      "uid": 55,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-06-08T07:08:21.888Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 55,
+        "username": "ULJerry",
+        "userslug": "uljerry",
+        "reputation": 2,
+        "postcount": 5,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+        "signature": "<p dir=\"auto\">--<br />\nJerry<br />\nUtvecklingsledare IT - UL (Trafik &amp; Samhälle, Region Uppsala)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1632725385769,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "ULJerry",
+        "groupTitleArray": [],
+        "icon:text": "U",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2021-09-27T06:49:45.769Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@uljerry</a> Oops, jag trodde att det var en standard Discourse installation <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /><br />\nMaila mig på <a href=\"mailto:jan@publiccode.net\" rel=\"nofollow ugc\">jan@publiccode.net</a> så kan vi ta det därifrån!</p>\n",
+      "pid": 529,
+      "tid": 121,
+      "timestamp": 1623150802009,
+      "toPid": "525",
+      "uid": 41,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-06-08T11:13:22.009Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "ULJerry",
+        "displayname": "ULJerry"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@uljerry</a>  Odoo finns på AF i stort och i en \"renare\" mindre komplex implementation på Jobbtech. Beroende på vad du vill fråga omså kan vi skaka fram svar och personer som kan ge dig vettig dialog.  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 534,
+      "tid": 121,
+      "timestamp": 1623238013183,
+      "toPid": "520",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-06-09T11:26:53.183Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "ULJerry",
+        "displayname": "ULJerry"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@maria_dalhage</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/55\">@ULJerry</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a>  Är hela Odoo öppen källkod? Läste tidigare att det var \"open core\" med en proprietär Enterprise Edition som innehöll alla funktioner och att endast begränsad Community Edition var öppen källkod. ERPNext var då det 100% öppna alternativet.</p>\n<ul>\n<li><a href=\"https://erpnext.com/\" rel=\"nofollow ugc\">https://erpnext.com/</a></li>\n<li><a href=\"https://github.com/frappe/erpnext\" rel=\"nofollow ugc\">https://github.com/frappe/erpnext</a></li>\n<li><a href=\"https://alternativeto.net/software/openerp/about/\" rel=\"nofollow ugc\">https://alternativeto.net/software/openerp/about/</a></li>\n<li><a href=\"https://alternativeto.net/software/erpnext/about/\" rel=\"nofollow ugc\">https://alternativeto.net/software/erpnext/about/</a></li>\n</ul>\n",
+      "pid": 572,
+      "tid": 121,
+      "timestamp": 1624872562703,
+      "toPid": "517",
+      "uid": 30,
+      "edited": 1624872576030,
+      "editor": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "displayname": "mattias"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-06-28T16:34:16.831Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-06-28T09:29:22.703Z",
+      "editedISO": "2021-06-28T09:29:36.030Z",
+      "index": 10,
+      "parent": {
+        "username": "ULJerry",
+        "displayname": "ULJerry"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Ja, du har rätt i att det är Community Edition av Odoo som är open source, men det är i alla fall tillräckligt bra för oss. Om jag fattar det är så är det inte någon egentlig begränsning i själva Odoo, men att många av apparna (som är vad de kallar olika tilläggsfunktioner) bara funkar på Enterprise edition.</p>\n",
+      "pid": 573,
+      "tid": 121,
+      "timestamp": 1624898056831,
+      "toPid": "572",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-06-28T16:34:16.831Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 221,
+          "timestamp": 1648482879740,
+          "timestampISO": "2022-03-28T15:54:39.740Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:54:39.740Z\"></span>"
+        },
+        {
+          "fromCid": 23,
+          "type": "move",
+          "uid": 62,
+          "id": 294,
+          "timestamp": 1649754287538,
+          "timestampISO": "2022-04-12T09:04:47.538Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Data",
+            "slug": "23/data",
+            "icon": "fa-comments",
+            "color": "#ffffff",
+            "bgColor": "#000000"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T09:04:47.538Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 221,
+      "timestamp": 1648482879740,
+      "timestampISO": "2022-03-28T15:54:39.740Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:54:39.740Z\"></span>"
+    },
+    {
+      "fromCid": 23,
+      "type": "move",
+      "uid": 62,
+      "id": 294,
+      "timestamp": 1649754287538,
+      "timestampISO": "2022-04-12T09:04:47.538Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Data",
+        "slug": "23/data",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#000000"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T09:04:47.538Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "121",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/121.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/121",
+  "bodyClass": "page-topic page-topic-121 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Kund/person-&quot;register&quot; baserat på Open Source"
+        },
+        {
+          "name": "description",
+          "content": "Okej, detta kanske blir en lång harang, vi får se. Jag utreder just nu hur min förvaltning kan börja jobba mer med Open Source. Ett exempel som lägligt kommit upp är att vi inom kort kommer konkurrensutsätta vårt ärendehanteringssytem för kundtjänsten sam..."
+        },
+        {
+          "property": "og:title",
+          "content": "Kund/person-&quot;register&quot; baserat på Open Source"
+        },
+        {
+          "property": "og:description",
+          "content": "Okej, detta kanske blir en lång harang, vi får se. Jag utreder just nu hur min förvaltning kan börja jobba mer med Open Source. Ett exempel som lägligt kommit upp är att vi inom kort kommer konkurrensutsätta vårt ärendehanteringssytem för kundtjänsten sam..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-06-04T15:23:04.404Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-06-28T16:34:16.831Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/55-profileavatar-1622821244428.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/121",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/121/kund-person-register-baserat-på-open-source",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/121.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/uljerry"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

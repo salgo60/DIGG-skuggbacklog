@@ -1,0 +1,1165 @@
+{
+  "cid": 23,
+  "lastposttime": 1669303738790,
+  "mainPid": 3474,
+  "postcount": 9,
+  "slug": "612/förslag-ny-lag-om-öppen-data-om-driftstörningar",
+  "tid": 612,
+  "timestamp": 1669280037216,
+  "title": "Förslag: Ny lag om öppen data om driftstörningar",
+  "uid": 25,
+  "viewcount": 433,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 0,
+  "teaserPid": 3516,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Förslag: Ny lag om öppen data om driftstörningar",
+  "timestampISO": "2022-11-24T08:53:57.216Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-24T15:28:58.790Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag önskar mig öppen data om alla säkerhetsincidenter och driftstörningar hos all samhällsviktig verksamhet såväl privat som offentlig.</p>\n<p dir=\"auto\">Jag vill ha den CC0, strukturerad enligt ett vettigt schema och öppen såväl juridisk som praktisk. Då kan vi på Wikidata länka till datamängderna och vem som helst kan då sammanställa läget såväl nu som bakåt i tiden. Då går det tex att mäta om vi får färre incidenter över tid eller flera.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1669279791443-b36d8a09-efdd-4038-8e57-9c58b03453be-image.png\" alt=\"b36d8a09-efdd-4038-8e57-9c58b03453be-image.png\" class=\" img-fluid img-markdown\" /><br />\n<a href=\"http://www.teknikaliteter.se/2021/11/05/it-skandaler-som-ingen-bryr-sig-om/\" rel=\"nofollow ugc\">http://www.teknikaliteter.se/2021/11/05/it-skandaler-som-ingen-bryr-sig-om/</a><br />\n<a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a></p>\n",
+      "pid": 3474,
+      "tid": 612,
+      "timestamp": 1669280037216,
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T09:21:25.086Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T08:53:57.216Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn du kan ta och diskutera den med Bankföreningen. Jag lägger min energi på annat ställe och avvaktar vad nya föreskrifterna om säkerhetsskydd från FI får för effekt.</p>\n<p dir=\"auto\">Men det jag kan dela är att det är ett aktivt val av i vart fall vissa banker att inte redovisa det. Om jag minns rätt (stor brask för att jag inte gör det) var argument:</p>\n<ul>\n<li>risk för att exponera information om kritisk infrastruktur (inkl. vilken som är det),</li>\n<li>risk för att möjliggöra kartläggning av infrastruktur eller infiltrering (söka jobb i vissa team),</li>\n<li>risk för att det skapar datan för att möjliggöra förutseebarhet för sårbara perioder,</li>\n<li>risk för att säkerhetstänket urvattnas och att man t.ex. transparent delar planerade driftstörningar, vilket möjliggör att någon planerar attacker utifrån detta.</li>\n</ul>\n<p dir=\"auto\">Men England har ju kommit väldigt långt med sitt Cybersecurity Partnership/membership också, så jag utgår ifrån att alla som omfattas av de reglerna ingår i det och då kan de få stängd vägledning och samverkan i hur de öppet ska kommunicera. Varför i vart fall punkt fyra bör kunna undvikas.</p>\n",
+      "pid": 3481,
+      "tid": 612,
+      "timestamp": 1669281685086,
+      "toPid": "3474",
+      "uid": 744,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T09:32:22.193Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T09:21:25.086Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> Intressant diskussion, problemet är att den inte förs offentligt i Sverige vad jag vet.</p>\n<p dir=\"auto\">Wikimedia har delat ALLT, dvs alla sina serverkonfigurationer, alla sina programvaror, alla sina säkerhetsluckor (de döljs tills de är fixade), m.m. öppet så vem som helst kan replikera deras infrastruktur.</p>\n<p dir=\"auto\">Hur är deras uppetid? Vi kan ta ett exempel: <a href=\"https://uptime.com/wikipedia.org\" rel=\"nofollow ugc\">https://uptime.com/wikipedia.org</a></p>\n<p dir=\"auto\">Nu säger jag inte att samhällsviktiga organisationer ska kopiera deras strategi om radikal öppenhet direkt och börja dela detaljer om sina hemsnickrade och kassa proprietära it-system som har en massa ännu oupptäckta säkerhetshål. Däremot så önskar jag att vi ser en rörelse mot öppen programvara för alla delar av våra samhällsfunktioner.</p>\n<p dir=\"auto\">Jag skulle vilja gå så långt som att säga att det är en säkerhetsrisk i sig att leverera samhällsviktiga funktioner (som tex banksystem) byggd på proprietära system. Jag ser ingen anledning att regeringen/FI tillåter att det fortsätter framöver. Ge dem en tydlig lag och en rimlig omställningsperiod samt kräv öppen programvara för alla organisationer som ansöker om ny banklicens. (förslagsvis kan lagen innehålla krav på banken att publicera öppen länkad data om sina banksystem så att vem som helst kan kolla att deras programvaror verkligen är öppna)</p>\n<p dir=\"auto\">Om vi tvingar de privata banker t.ex. att öppna upp sina system eller bli ersatt av nån annan som har öppna system, vad väljer de då? (bankerna har själva valt att driva sin verksamhet dold och intransparent och på det viset liknar de många av våra myndigheter. Det är knappast till samhällets bästa vad jag kan se)</p>\n<p dir=\"auto\">Bahnhof valde ett öppet system för sin senaste satsning på Cloud tex. Det är ett exempel på potentiell samhällsviktig infrastruktur och därmed anmärkningsvärt!</p>\n<p dir=\"auto\">Det finns iaf 8 öppna bankinfrastruktursystem enligt en väldigt snabb sökning: <a href=\"https://www.goodfirms.co/banking-software/blog/the-best-8-free-and-open-source-banking-software-solutions-1\" rel=\"nofollow ugc\">https://www.goodfirms.co/banking-software/blog/the-best-8-free-and-open-source-banking-software-solutions-1</a></p>\n",
+      "pid": 3482,
+      "tid": 612,
+      "timestamp": 1669282342193,
+      "toPid": "3481",
+      "uid": 25,
+      "edited": 1669282842221,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T11:03:48.229Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T09:32:22.193Z",
+      "editedISO": "2022-11-24T09:40:42.221Z",
+      "index": 2,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn jo, men vad har Wikimedia för krav på säkerhet, governance och riskarbete? Jag som kund i banker vill inte att alla ska kunna replikera min banks infrastruktur.</p>\n<p dir=\"auto\">Håller med om att delar borde kunna vara mer öppet, men Swedbank har väl öppet repo för Swedbank Pay (i alla fall öppet read).</p>\n<p dir=\"auto\">Jag påbörjade ett konstruktivt pedagogiskt svar men sen när du skriver saker som nedan så är det svårt att inte dras med.</p>\n<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/3482\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">Jag ser ingen anledning att regeringen/FI tillåter att det fortsätter framöver.</p>\n</blockquote>\n<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/3482\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">förslagsvis kan lagen innehålla krav på banken att publicera öppen länkad data om sina banksystem så att vem som helst kan kolla att deras programvaror verkligen är öppna</p>\n</blockquote>\n<p dir=\"auto\">Det är inte upp till varken regeringen eller FI, eftersom vi är del av ett globalt finansiellt system. Svenska banker har ju en radda av regler att förhålla sig till när det kommer till operativ risk som detta kallas (såväl internationella som nationella som branschstandard om de exempelvis vill ha möjlighet till utlandstransaktioner eller ta betalt).</p>\n<p dir=\"auto\">Vill du lägga dina pengar i en bank som för alla har öppet hur pengarna är förvarade och skyddade? Även om de inte tillhandahåller nycklar eller hela planritningen så är det ju väldigt mycket lättare att ta sig in om du har planritningen, även om vissa rum är svarta lådor. Jag berör den frågan något <a href=\"https://www.linkedin.com/pulse/blueprints-bluebleed-tove-palm/\" rel=\"nofollow ugc\">här</a> (på engelska och kallat blueprints).</p>\n<p dir=\"auto\">Spontant tänker jag att analysen för driftinfo för banker berör bl.a. PCI-DSS, EBA guidelines (de spottar ur sig nästan värre än EU för tillfället) som FI i många fall behandlar som lag, NIS och FI:s Författningar (FFFS) som nu inkluderar säkerhetsskydd (bortser från allt kring investering, penningtvätt, terrorverksamhet osv då jag inte tror det påverkar denna fråga).</p>\n<p dir=\"auto\">Du kan läsa mer om reglerna här på <a href=\"https://www.fi.se/sv/bank/\" rel=\"nofollow ugc\">FI:s hemsida</a>.</p>\n<p dir=\"auto\">Sen håller jag som sagt med om att vissa system borde kunna vara mer öppna även i finansiell sektor och de kanske kan tillhandahålla någon typ av nuvarande driftstatus utan historik (men säkerställa att även om någon scrapar den så är den inte så specifik att det innebär en operational risk för kritiska system). Men det beror ju på hur det är uppbyggt bakomliggande om man vill automatisera det. Jag tror många aktörer i andra branscher har en plain sida som en webbredaktör manuellt uppdaterar och då är frågan vad syftet med informationen är och om formen säkerställer det.</p>\n<p dir=\"auto\">Som sagt är det ju öppet att ta en öppen diskussion med exempelvis Bankföreningen. Men om jag får ge ett icke efterfrågat tips skulle jag läsa på lite om vad som faktiskt är möjligt, då det blir långt och är svårt att besvara förslag som är omöjliga. Jag förstår att man ibland för dramaturgi använder sig av aldrig eller alltid eller extrema exempel för att visa på ett behov, men man måste komma ihåg att ibland är nyttan större att ge lösningen eller argumenten för de 99% av fallen än för den sista extrema %.</p>\n<p dir=\"auto\">Om du är intresserad av en konstruktiv dialog om öppen och säker informationshantering och systemutveckling bl.a. sårbarhet- och incidentrapportering, så håller jag på med en projektbeskrivning om det just nu. Vi kan i så fall ta en dialog och se om det finns möjlighet till samverkan mot ett gemensamt mål, för det behövs fler händer om detta ska komma i mål.</p>\n",
+      "pid": 3496,
+      "tid": 612,
+      "timestamp": 1669287828229,
+      "toPid": "3482",
+      "uid": 744,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-24T11:14:31.324Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T11:03:48.229Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3496\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">@Dennis_Priskorn jo, men vad har Wikimedia för krav på säkerhet, governance och riskarbete? Jag som kund i banker vill inte att alla ska kunna replikera min banks infrastruktur.</p>\n</blockquote>\n<p dir=\"auto\">Varför inte? Vad ser du för risker med det? Hela iden/rörelsen mot öppen källkod bygger ju på att jag kan sätta upp ett liknande system, förbättra det och skicka in mina ändringar.</p>\n",
+      "pid": 3499,
+      "tid": 612,
+      "timestamp": 1669288471324,
+      "toPid": "3496",
+      "uid": 25,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-24T13:49:01.214Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T11:14:31.324Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3496\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">Vill du lägga dina pengar i en bank som för alla har öppet hur pengarna är förvarade och skyddade?</p>\n</blockquote>\n<p dir=\"auto\">Ja, se <a href=\"https://en.wikipedia.org/wiki/Security_through_obscurity\" rel=\"nofollow ugc\">https://en.wikipedia.org/wiki/Security_through_obscurity</a> är varken säkert eller effektivt. Se även <a href=\"https://www.schneier.com/tag/obscurity/\" rel=\"nofollow ugc\">https://www.schneier.com/tag/obscurity/</a></p>\n<p dir=\"auto\">Schneier är knivskarp när det gäller IT-säkerhet och otroligt påläst på området. Jag följde hans blogg i flera år för ca 10 år sedan och kan varmt rekommendera den.</p>\n<blockquote>\n<p dir=\"auto\">Även om de inte tillhandahåller nycklar eller hela planritningen så är det ju väldigt mycket lättare att ta sig in om du har planritningen, även om vissa rum är svarta lådor. Jag berör den frågan något här (på engelska och kallat blueprints).</p>\n</blockquote>\n<p dir=\"auto\">Värdet av att vem som helst kan försöka knäcka systemet är högt. Att dölja hur infrastrukturen är satt ihop är en riktigt dålig ide om du frågar mig eftersom det tippar balansen till idoga välfinansierade angriparnas fördel vilket vi ju inte vill.</p>\n<p dir=\"auto\">Iden om att dölja verkar vara vanlig och kulturellt förankrat i just denna sektor, men även hos våra myndigheter. Problemet är att det inte finns någon forskning på att det är effektivt att skydda sig genom att dölja implementationsdetaljer eller nätverksdetaljer.</p>\n<p dir=\"auto\">Självklart finns det ett värde i att bygga skalskydd och brandväggar och liknande runt system, men de måste testas jämt av kompetenta team och alla incidenter måste redovisas öppet så vi alla kan lära oss ihop.</p>\n<p dir=\"auto\">Just därför är det så himla effektivt att öppet publicera sårbarheter så som görs inom open source-miljön. Jag har kört Linux i 20+ år och har aldrig haft en säkerhetsincident. Jag har administrerat flertalet servrar åt kunder och lappat hål.</p>\n<p dir=\"auto\">Telegram utlovade tidigare en stor <a href=\"https://www.wikidata.org/wiki/Lexeme:L740218\" rel=\"nofollow ugc\">dusör</a> på <a href=\"https://telegram.org/blog/cryptocontest\" rel=\"nofollow ugc\">300.000$</a> för de som lyckades knäcka deras IT-system inom en given tidsperiod. Svenska banker skulle troligtvis effektivt kunna tillämpa något liknande om de vill ha hjälp att testa sina skal och system.</p>\n",
+      "pid": 3500,
+      "tid": 612,
+      "timestamp": 1669288841541,
+      "toPid": "3496",
+      "uid": 25,
+      "edited": 1669290006620,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T13:38:07.720Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T11:20:41.541Z",
+      "editedISO": "2022-11-24T11:40:06.620Z",
+      "index": 5,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/3500\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">dölja hur infrastrukturen är satt ihop</p>\n</blockquote>\n<p dir=\"auto\">Jag håller med om att vår samverkan måste bli bättre både nationellt och i unionen. Det kanske ska vara partnerships och semi-öppna bounty program eller öppna bounty program i en testmiljö, men utan karta. Men det är inget som säger att man inte kan göra sådant i dagsläget.</p>\n<p dir=\"auto\">Jag tror som sagt att fler applikationer kan vara öppna än det är idag. Men jag tror inte på full transparens om kritisk infrastruktur är vägen för att få maximal operationell säkerhet.</p>\n<p dir=\"auto\">Även om det blir säkrare teknik för att vi kollektivt, när som helst, kan försöka knäcka systemet så underlättar du för exempelvis social engineering och annan kartläggning av utvecklare. Det finns risk att sätta en större måltavla på dina anställda och kanske minska deras privata sfär då de pga sitt yrke behöver iakta extra försiktighet, mer än det är idag.</p>\n<p dir=\"auto\">Telegram skyddas inte av social engineering och finns ju fall i flera länder att ministrar och andra fått sina konton hackade. Man är heller inte av spionprogram såsom Pegasus eftersom de läser av enheten och inte påverkas av krypteringen (som numera inte ens kräver en interaktion/click av dig utan det har räckt med att din telefon är på, någongång). Dessutom kräver det väl mobilnummer och om det går att återställa med det blir SIM-swapping en risk också.</p>\n<p dir=\"auto\">Sen det viktigaste tycker jag om vi är inne på Telegram, så för mig handlar ju open source om att dela och möjliggöra utveckling och innovation. Att någon kan återanvända och förbättra och samtidigt hjälpa till att hitta sårbarheter i min kod eftersom deras tjänar på det. Men jag förstår det som att Telegram är som en genomskinlig box, du kan se men egentligen inte röra på ett bra sätt <a href=\"https://yalantis.com/blog/whats-wrong-telegram-open-api/\" rel=\"nofollow ugc\">exempelvis</a>.</p>\n",
+      "pid": 3508,
+      "tid": 612,
+      "timestamp": 1669297087720,
+      "toPid": "3500",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T13:38:07.720Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/3499\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">Varför inte? Vad ser du för risker med det? Hela iden/rörelsen mot öppen källkod bygger ju på att jag kan sätta upp ett liknande system, förbättra det och skicka in mina ändringar.</p>\n</blockquote>\n<p dir=\"auto\">För att måltavlan och risken för din data, system och anställda blir de fakto högre om du tar dig in i en banks system än i Wikimedia. Exempelvis hack för många år sedan i US att några kunde låta bankomater spotta ut pengar tills de var tomma.</p>\n<p dir=\"auto\">Risken är högre för någon med mer att skydda av flera anledningar men dels i att balansen är för skev mellan profit för att anmäla det och att utnyttja det, dels att du påverkar anställdas privata sfär och hotbild.</p>\n<p dir=\"auto\">Men som sagt, öppna samarbeten med insyn mellan de med kritisk infrastruktur kan ju vara något om det inte redan genomförs.</p>\n",
+      "pid": 3509,
+      "tid": 612,
+      "timestamp": 1669297741214,
+      "toPid": "3499",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T13:49:01.214Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/3499\">Förslag: Ny lag om öppen data om driftstörningar</a>:</p>\n<blockquote>\n<p dir=\"auto\">Varför inte? Vad ser du för risker med det?</p>\n</blockquote>\n<p dir=\"auto\">Kom på en fråga. Efter helikopterrånet så insåg man att det inte varit bra att man kunde begära ut planritningar för den specifika värdedepån som allmän handling för händelseförloppet och hur de kunnat planera rånet.</p>\n<p dir=\"auto\">Om du skulle vara med och öppna en värdedepå idag, skulle du aktivt be dom inte sekretessmarkera planritningen?</p>\n<p dir=\"auto\">Om det känns för abstrakt har jag en annan. Om du skulle vinna/ärva något väldigt värdefullt föremål och det ingår ett bankfack som du får välja. Skulle du välja:</p>\n<ol>\n<li>Ett som har planritning över hela banken och 3D-skiss på valvet, material och de fysiska skyddet, beskrivet och du får följa med in i valvet och låsa.</li>\n<li>Eller ett där de säger att du får vänta i ett rum och de kommer med en gedigen låda du får lägga ner sakerna i och låsa (även så du hämtar ut det sen). De lägger in det i valvet och säger att de låser särskilt om din låda också (förutom ditt lås) samt till valvet. Men att ingen får tillträde pga säkerhetsrisken.</li>\n</ol>\n<p dir=\"auto\">Väljer du 1 eller 2?</p>\n<p dir=\"auto\">(Andra får gärna svara också, bara intressant hur vi tänker olika.)</p>\n",
+      "pid": 3516,
+      "tid": 612,
+      "timestamp": 1669303738790,
+      "toPid": "3499",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T15:28:58.790Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "612",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/612.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/612",
+  "bodyClass": "page-topic page-topic-612 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Förslag: Ny lag om öppen data om driftstörningar"
+        },
+        {
+          "name": "description",
+          "content": "Jag önskar mig öppen data om alla säkerhetsincidenter och driftstörningar hos all samhällsviktig verksamhet såväl privat som offentlig. Jag vill ha den CC0, strukturerad enligt ett vettigt schema och öppen såväl juridisk som praktisk. Då kan vi på Wikidat..."
+        },
+        {
+          "property": "og:title",
+          "content": "Förslag: Ny lag om öppen data om driftstörningar"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag önskar mig öppen data om alla säkerhetsincidenter och driftstörningar hos all samhällsviktig verksamhet såväl privat som offentlig. Jag vill ha den CC0, strukturerad enligt ett vettigt schema och öppen såväl juridisk som praktisk. Då kan vi på Wikidat..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-24T08:53:57.216Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-24T15:28:58.790Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669279791443-b36d8a09-efdd-4038-8e57-9c58b03453be-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669279791443-b36d8a09-efdd-4038-8e57-9c58b03453be-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "771"
+        },
+        {
+          "property": "og:image:height",
+          "content": "363"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/612",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/612/förslag-ny-lag-om-öppen-data-om-driftstörningar",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/612.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

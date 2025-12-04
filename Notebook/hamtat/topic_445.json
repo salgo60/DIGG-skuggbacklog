@@ -1,0 +1,753 @@
+{
+  "cid": 27,
+  "lastposttime": 1663574506667,
+  "mainPid": 2461,
+  "postcount": 4,
+  "slug": "445/dags-för-öppen-kod-öppen-data-kontor-i-varje-län",
+  "tid": 445,
+  "timestamp": 1663529831303,
+  "title": "Dags för öppen kod&#x2F;öppen data kontor i varje län?",
+  "uid": 25,
+  "viewcount": 343,
+  "postercount": 3,
+  "teaserPid": 2469,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Dags för öppen kod/öppen data kontor i varje län?",
+  "timestampISO": "2022-09-18T19:37:11.303Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-09-19T08:01:46.667Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Nu när vi sett hur trögt det går med att öppna upp hos olika myndigheter, kanske det vore en ide att ta rygg på EU kommissionen och börja med <a href=\"https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/ec-ospo-heralds-new-ish-way-managing-open-source\" rel=\"nofollow ugc\">OSPO</a>?</p>\n<p dir=\"auto\">Det måste såklart först finnas en <a href=\"https://ec.europa.eu/info/sites/default/files/en_ec_open_source_strategy_2020-2023.pdf\" rel=\"nofollow ugc\">strategi likt kommissionens</a> som regeringen ser till att de lägre förvaltningarna prioriterar att slutta upp omkring.</p>\n<p dir=\"auto\">Finns det en vettig strategi ens? Om den finns är det några som \"piskar\" de \"lägre\" förvaltningarna att ta den på allvar? Finns det några konkreta mål och datum som regeringen satt upp så myndigheterna själva kan mäta hur de ligger till?</p>\n",
+      "pid": 2461,
+      "tid": 445,
+      "timestamp": 1663529831303,
+      "uid": 25,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-18T19:44:42.349Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-18T19:37:11.303Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn Jag skulle vilja ha en mätbar väg fram. Jag vet inte vilka mätpunkter som skulle kunna vara relevanta, mängden datamängder verkar vara en dålig predikterare för kvalitet iaf.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> har du några idéer till hur vi kan mäta kvaliteten i den öppna datan? Mäta återanvändningen kanske, DIGG vill ni släppa öppna data med statistik på hur mycket unika IP:er som laddar ner? Om inte de laddar ner från er, hur mäter vi då? Ska alla kommuner tvingas släppa trafikdata om hur deras datamängder används?</p>\n<p dir=\"auto\">Skulle det vara värdefullt om DIGG gjorde det möjligt att ge betyg och recensera datamängderna på dataportalen? Då skulle vem som helst kunna se att vissa myndigheter har datamängder som uppskattas och andra får bara ris. Tex. skulle jag kunna ge Södertäljes data om vandringsleder ris på ett enkelt sätt.</p>\n<p dir=\"auto\">Hur mäter vi kvaliteten i implementationen av öppen källkod? Hur minskar vi risken för flera situationer likt den som uppstod runt skolplattformen där förvaltningen var direkt fientlig när det gäller öppna initiativet öppna skolplattformen? Ska det vara straffbart att bete sig så som anställt i offentlig förvaltning? Straffbart för hela förvaltningen? Vad ska det kosta organisationen att gå emot regeringens strategi om att öppna upp?</p>\n",
+      "pid": 2462,
+      "tid": 445,
+      "timestamp": 1663530282349,
+      "toPid": "2461",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 500,
+            "username": "IntegerOverflow1",
+            "userslug": "integeroverflow1",
+            "picture": null,
+            "fullname": "",
+            "displayname": "IntegerOverflow1",
+            "icon:text": "I",
+            "icon:bgColor": "#827717"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-19T08:01:46.667Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-18T19:44:42.349Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn Bra inlägg!</p>\n<p dir=\"auto\">DIGG (och därmed NOSAD) deltar i EU-Kommissionens OSPO-nätverk och nätverket  hade sitt första F2F-möte i Brno 15 september.  <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/250\">@Josef-Andersson</a> och jag deltog.</p>\n<p dir=\"auto\">Sverige har ännu inte några direkta styrningar kopplat till öppen källkod men DIGG främjar på följande sätt; via riktlinjer och rekommendationer och genom att föregå med gott exempel samt vår satsning på NOSAD.</p>\n<ul>\n<li>\n<p dir=\"auto\">DIGG har sedan 2018 en policy för anskaffning och utveckling av öppen källkod som precis har uppdaterats och kompletterats med Riktlinjer för utveckling av öppen programvara.</p>\n</li>\n<li>\n<p dir=\"auto\">DIGG arbetar med att ta fram rekommendationer för  öppna källkodslicenser och hade den 13 september en NOSAD workshop.</p>\n</li>\n<li>\n<p dir=\"auto\">DIGG har etablerat en expertgrupp open source (som jag är sammankallande till) för att främja internt arbete men också externt och internationellt arbete. Det är därför som jag deltagit i Digital Commons Working Team under Frankrikes ordförandeskap våren 2022 och därför som jag deltog på Tjeckiens event (<a href=\"https://openforumeurope.org/event/open-source-driving-the-european-digital-decade/\" rel=\"nofollow ugc\">https://openforumeurope.org/event/open-source-driving-the-european-digital-decade/</a>) förra veckan.</p>\n</li>\n<li>\n<p dir=\"auto\">DIGG håller på att ta fram möjligheter att kunna söka och visa upp offentlig sektors repon, Och vi jobbar på att skapa strukturer för att dela och återanvända varandras kod.</p>\n</li>\n<li>\n<p dir=\"auto\">DIGG är en del av NOSAD så allt som görs under <a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a> och <a href=\"https://nosad.se\" rel=\"nofollow ugc\">https://nosad.se</a> ses som en OSPO-leverans.</p>\n</li>\n</ul>\n<p dir=\"auto\">Att skapa en organisation är inte utmaningen utan att få tillstånd den digitala transformationen. Vi är på god väg!</p>\n<p dir=\"auto\">Idén att varje län, eller snarare kommun engagerar sig är toppen! Och mycket görs redan. Ta Alingsås, Sundsvall, Helsingborg, Malmö... Vi är ju redan internationellt duktiga. (Om än mindre styrda än i andra länder).</p>\n<p dir=\"auto\">Under OSPO-mötet 15 september i Brno diskuterade vi faktiskt hur vi skulle kunna mäta progress.  Precis som med öppna data så går kvalitet före kvantitet, om man verkligen vill få återanvändning på det som man delar. Här tar jag gärna input från er som försöker använda offentlig kod!</p>\n",
+      "pid": 2468,
+      "tid": 445,
+      "timestamp": 1663573354896,
+      "toPid": "2461",
+      "uid": 62,
+      "edited": 1663573401926,
+      "editor": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-19T08:05:39.789Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-19T07:42:34.896Z",
+      "editedISO": "2022-09-19T07:43:21.926Z",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag håller med dig Dennis om att det vore bra om det fanns möjlighet att recensera datamängderna och ge direkt feedback till dataproducenten!</p>\n<blockquote>\n<p dir=\"auto\">Skulle det vara värdefullt om DIGG gjorde det möjligt att ge betyg och recensera datamängderna på dataportalen? Då skulle vem som helst kunna se att vissa myndigheter har datamängder som uppskattas och andra får bara ris. Tex. skulle jag kunna ge Södertäljes data om vandringsleder ris på ett enkelt sätt.</p>\n</blockquote>\n",
+      "pid": 2469,
+      "tid": 445,
+      "timestamp": 1663574506667,
+      "toPid": "2462",
+      "uid": 500,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-19T08:01:46.667Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 500,
+        "username": "IntegerOverflow1",
+        "userslug": "integeroverflow1",
+        "reputation": 4,
+        "postcount": 26,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1725361369581,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "IntegerOverflow1",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "I",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2024-09-03T11:02:49.581Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#c9b42c",
+    "cid": 27,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-heartbeat",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Arbetssätt och organisation",
+    "numRecentReplies": 1,
+    "order": 7,
+    "parentCid": 0,
+    "post_count": 471,
+    "slug": "27/arbetssätt-och-organisation",
+    "subCategoriesPerPage": 10,
+    "topic_count": 78,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 471,
+    "totalTopicCount": 78
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "445",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/445.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Arbetssätt och organisation",
+      "url": "/category/27/arbetssätt-och-organisation",
+      "cid": 27
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/445",
+  "bodyClass": "page-topic page-topic-445 template-topic page-topic-category-27 page-topic-category-arbetssätt-och-organisation parent-category-27 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Dags för öppen kod/öppen data kontor i varje län?"
+        },
+        {
+          "name": "description",
+          "content": "Nu när vi sett hur trögt det går med att öppna upp hos olika myndigheter, kanske det vore en ide att ta rygg på EU kommissionen och börja med OSPO? Det måste såklart först finnas en strategi likt kommissionens som regeringen ser till att de lägre förvaltn..."
+        },
+        {
+          "property": "og:title",
+          "content": "Dags för öppen kod/öppen data kontor i varje län?"
+        },
+        {
+          "property": "og:description",
+          "content": "Nu när vi sett hur trögt det går med att öppna upp hos olika myndigheter, kanske det vore en ide att ta rygg på EU kommissionen och börja med OSPO? Det måste såklart först finnas en strategi likt kommissionens som regeringen ser till att de lägre förvaltn..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-09-18T19:37:11.303Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-09-19T08:01:46.667Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Arbetssätt och organisation"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/445",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/445/dags-för-öppen-kod-öppen-data-kontor-i-varje-län",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/445.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/27/arbetssätt-och-organisation"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1041 @@
+{
+  "cid": 23,
+  "lastposttime": 1643970598619,
+  "mainPid": 967,
+  "postcount": 7,
+  "slug": "217/statens-budget-som-länkad-data",
+  "tid": 217,
+  "timestamp": 1635323621460,
+  "title": "Statens budget som länkad data?",
+  "uid": 25,
+  "viewcount": 835,
+  "postercount": 4,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 1263,
+  "tags": [
+    {
+      "value": "öppna data",
+      "valueEscaped": "öppna data",
+      "valueEncoded": "%C3%B6ppna%20data",
+      "class": "öppna-data"
+    },
+    {
+      "value": "statsbudget",
+      "valueEscaped": "statsbudget",
+      "valueEncoded": "statsbudget",
+      "class": "statsbudget"
+    }
+  ],
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Statens budget som länkad data?",
+  "timestampISO": "2021-10-27T08:33:41.460Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-02-04T10:29:58.619Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Både Italien och Sverige delar sin budget som data, men inga av dem har klarat av att lyfta datan till nivå 5 (rätta mig om jag har fel!).</p>\n<p dir=\"auto\">Enter <a href=\"http://g0v.it\" rel=\"nofollow ugc\">g0v.it</a>! De har skapat en ontologi för den italienska budgeten.</p>\n<p dir=\"auto\">Såhär ser ontologin ut, dvs. hur datans olika delar beskrivs i förhållande till varandra:<br />\n<img src=\"https://raw.githubusercontent.com/g0v-it/ontologies/master/mef/uml-diagram.png\" alt=\"Ontologin över italienska budgeten\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Är nån sugen på att göra samma med den svenska och ladda in i en graf? Forskningsprojekt?</p>\n<p dir=\"auto\">Den svenska budgeten delas i excel och csv formaten här <a href=\"https://www.regeringen.se/sveriges-regering/finansdepartementet/statens-budget/statens-budget-som-excel/\" rel=\"nofollow ugc\">https://www.regeringen.se/sveriges-regering/finansdepartementet/statens-budget/statens-budget-som-excel/</a> men där finns vad jag sett ingen ontologi, så det är en silo (enligt @salgo60-ej-aktiv's begrepp) och används nog inte mycket i dagsläget).</p>\n<p dir=\"auto\">Ändringar i budgetinformationen ut såhär:<br />\n<a href=\"https://www.regeringen.se/4978b3/contentassets/cae3434fdfc94f9da5f478fbd33b2cd0/varandringsbudget-for-2021-prop.-20202199.pdf\" rel=\"nofollow ugc\">https://www.regeringen.se/4978b3/contentassets/cae3434fdfc94f9da5f478fbd33b2cd0/varandringsbudget-for-2021-prop.-20202199.pdf</a></p>\n<p dir=\"auto\">Inuti verkar tjänstemännen inte orka länka till sina egna URI/URLer så att användarna/läsarna själva får gissa vad de olika förkortningarna betyder och hur man får tag i informationen bakom. Regeringen kanske vill att jag ska ringa växeln och fråga?</p>\n<p dir=\"auto\">Exempelvis hittar man<br />\n<img src=\"/assets/uploads/files/1635083961279-f8a61951-2110-4575-81b4-0572e06c0909-bild.png\" alt=\"f8a61951-2110-4575-81b4-0572e06c0909-bild.png\" class=\" img-fluid img-markdown\" /><br />\nSöker man på <a href=\"https://www.regeringen.se/sokresultat/?query=prop.+2020%2F21%3A77\" rel=\"nofollow ugc\">https://www.regeringen.se/sokresultat/?query=prop.+2020%2F21%3A77</a> då får man faktiskt dokumentet som första resultat ur 2.<br />\nSe <a href=\"https://www.regeringen.se/rattsliga-dokument/proposition/2021/01/prop.-20202177/\" rel=\"nofollow ugc\">https://www.regeringen.se/rattsliga-dokument/proposition/2021/01/prop.-20202177/</a><br />\nGissa hur datan där är strukturerad? Inte alls, det är PDF där med.</p>\n<p dir=\"auto\">Jag önskar mig strukturerad data från Regeringen så att det går att följa allt de tar sig till och koppla ihop personer, dokument, webbsidor, m.m.</p>\n<p dir=\"auto\">Bonus:<br />\nRegeringen skulle även kunna ge ut en ändringsström så att jag i realtid kan se vad som händer i grafen hos Regeringen, precis som jag kan på Wikipedia (de kör <a href=\"https://en.wikipedia.org/wiki/Apache_Kafka\" rel=\"nofollow ugc\">Kafka</a> internt och har <a href=\"https://diff.wikimedia.org/2017/03/20/eventstreams/\" rel=\"nofollow ugc\">ett enkelt API</a>).</p>\n",
+      "pid": 967,
+      "tid": 217,
+      "timestamp": 1635323621460,
+      "uid": 25,
+      "edited": 1635760249547,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-10-28T21:45:20.198Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-10-27T08:33:41.460Z",
+      "editedISO": "2021-11-01T09:50:49.547Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn Intressant projekt som tydligen går att hämta ned och provköra om man har ork och kunskaper.</p>\n<p dir=\"auto\">Ser ut som det också finns ändringsförslag i Excel-format på sidan om statsbudgeten som Excel, är det annan information än den som finns i vårändringsbudgeten? Fanns det budgetar även i csv-format, jag undrar lite hur det ser ut i så fall?</p>\n<p dir=\"auto\">En stor del av myndighetssverige med regeringskansliet i spetsen som det ser ut verkar ju annars publicera mycket av sitt material som PDF:er med hjälp av Adobe InDesign (Creative Cloud?) och Microsoft Office 365. Jag vet inte om det faktiskt finns en avsikt i att det inte enkelt ska gå att analysera och vidarenyttja materialet, eller om det mest är en tradition man håller kvar vid där all slutkonsumtion handlar om pappersutskrifter.</p>\n<p dir=\"auto\">Knepigt som sagt med alla referenser som ligger inbäddade i PDF-filer.</p>\n",
+      "pid": 1002,
+      "tid": 217,
+      "timestamp": 1635457520198,
+      "toPid": "967",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-10-29T10:26:39.636Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-28T21:45:20.198Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/1002\">Statens budget som länkad data?</a>:</p>\n<blockquote>\n<p dir=\"auto\">@dennis_priskorn Intressant projekt som tydligen går att hämta ned och provköra om man har ork och kunskaper.</p>\n<p dir=\"auto\">Ser ut som det också finns ändringsförslag i Excel-format på sidan om statsbudgeten som Excel, är det annan information än den som finns i vårändringsbudgeten? Fanns det budgetar även i csv-format, jag undrar lite hur det ser ut i så fall?</p>\n<p dir=\"auto\">En stor del av myndighetssverige med regeringskansliet i spetsen som det ser ut verkar ju annars publicera mycket av sitt material som PDF:er med hjälp av Adobe InDesign (Creative Cloud?) och Microsoft Office 365. Jag vet inte om det faktiskt finns en avsikt i att det inte enkelt ska gå att analysera och vidarenyttja materialet, eller om det mest är en tradition man håller kvar vid där all slutkonsumtion handlar om pappersutskrifter.</p>\n</blockquote>\n<p dir=\"auto\">Intressant, jag har inte sett en öppen-data strategi från Regeringskansliet, vet nån här om en sådan finns? Om inte så skulle jag vilja att de fixar en och börjar jobba mot att öppna upp maskinläsbar data. Ett litet första steg skulle vara att för varenda PDF de lägger upp också dela källdatan i txt (excel läcker känsklig metadata som ett såll så det är inte lämpligt IMO, och även <a href=\"https://www.schneier.com/blog/archives/2021/03/metadata-left-in-security-agency-pdfs.html\" rel=\"nofollow ugc\">PDF läcker känslig metadata</a>)</p>\n<p dir=\"auto\"><a href=\"https://www.schneier.com/blog/archives/2021/03/hacking-digitally-signed-pdf-files.html\" rel=\"nofollow ugc\">Det finns också säkerhetsbrister i PDFers skydd mot ändringar</a>.</p>\n<p dir=\"auto\">Min hobbykonklusion är att PDF-data är i dagsläget opålitligt och svårt att läsa och helt enkelt inget bra format att välja för utväxling eller delning av data i en offentlig förvaltning om ni frågar mig.</p>\n<p dir=\"auto\">Finns det någon säkerhetsforskare som försökt hitta hemligheter i regeringens PDF:er? Om nån är intresserad skulle jag gärna bidra, verkar som ett roligt projekt.</p>\n<p dir=\"auto\">Det finns <a href=\"https://duckduckgo.com/?t=ffab&amp;q=excel+metadata+leak&amp;ia=web\" rel=\"nofollow ugc\">lösningar för metadata-städning</a>, men min gissning är att inga/få av våra myndigheter har koll på denna risk i dagsläget...</p>\n",
+      "pid": 1008,
+      "tid": 217,
+      "timestamp": 1635503199636,
+      "toPid": "1002",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-29T10:26:39.636Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/1002\">Statens budget som länkad data?</a>:</p>\n<blockquote>\n<p dir=\"auto\">En stor del av myndighetssverige med regeringskansliet i spetsen som det ser ut verkar ju annars publicera mycket av sitt material som PDF:er</p>\n</blockquote>\n<p dir=\"auto\">tror det mer visar på inkompetens och brist på vision. Blir inte bättre av att öppna data projekt fastnar i hur en koordinat för öppna data skall representeras och i princip inte levererar några dataset eller mervärde....</p>\n<p dir=\"auto\">min tro är</p>\n<ul>\n<li><a href=\"https://community.dataportal.se/topic/200/knowledge-graph-team-ikea\">gör som IKEA</a> skapa dedikerade experter med tydliga och gärna mätbara mål. IKEA känns tydliga \"<strong>digital acceleration across the entire organization as part of large-scale data transformation</strong>\" dagens \"dutt projekt\" med utegym specar gör ingen glad.... mer än dom som får skicka sin faktura....</li>\n<li>var tydlig med att dagens organisationer behöver <strong>nya kompetenser</strong> inom ML, feature engineering och öppna data... \"dutt projekten\" borde begravas på design kyrkogården\n<ul>\n<li>att fastna flera år i \"egen påhittade\" beskrivning av koordinater och inte lyckas skapa dataset som används borde skicka \"<strong>varningssignaler</strong>\". Att så inte sker är nog mer en indikation på att massa nivåer är dysfunktionella.... och måste bytas ut innan detta tar fart och rör sig framåt....</li>\n<li>tror att bristen på öppna backlogs visar på en rädsla och att man inte är lärande organisationer... gissar att projekt som typ Vinnoiva finansierar blir lite som en <a href=\"https://www.svt.se/kultur/kommunpoet-tranemo-kommun-jimmy-alm\" rel=\"nofollow ugc\">kommunpoet</a> där öppna data inte är en del av verksamheten och skapar <a href=\"https://youtu.be/OM6XIICm_qo?t=623\" rel=\"nofollow ugc\"><strong>data first</strong> som det borde bli</a>  ... extern finansiering har sina avigsidor gissar jag....</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Sitter just nu på en workshop \"<a href=\"https://www.su.se/department-of-culture-and-aesthetics/calendar/research-infrastructures-in-heritage-institutions-1.573046\" rel=\"nofollow ugc\">Research infrastructures in heritage institutions</a>\" där man pratar om hur det digitala förskjuter saker till att arbeta ihop och inte bara dela \"output\" dvs. det som produceras.... med det tänket blir Öppna Prioriterade Backlogs lika viktiga och självklara som det idag är skapa en pdf</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1635509196978-6ac0f825-7503-4e42-809c-91f3b2c2ef83-image.png\" alt=\"6ac0f825-7503-4e42-809c-91f3b2c2ef83-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">PDF:er ser jag som en indikation att man tänker mer Output än att skapa digitala mervärden...</p>\n",
+      "pid": 1010,
+      "tid": 217,
+      "timestamp": 1635509426573,
+      "toPid": "1002",
+      "uid": 24,
+      "edited": 1635509539094,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-29T12:10:26.573Z",
+      "editedISO": "2021-10-29T12:12:19.094Z",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn Jag ställde också en fråga till regeringskansliet, angående publicering i PDF-formatet, om hur de förhöll sig till det uppdrag som tilldelats DIGG angående främjande av delning och nyttiggörande av data <a href=\"https://www.regeringen.se/49e173/contentassets/142e91d86d70461080d98041451af7ec/uppdrag-att-framja-delning-och-nyttiggorande-av-data#page=2\" rel=\"nofollow ugc\">(PDF från regeringen.se)</a>, men de återkom aldrig i den frågan.</p>\n<p dir=\"auto\">Kanske forumtråden om <a href=\"https://community.dataportal.se/topic/243/textdata-och-delning-av-statliga-utredningar-f%C3%B6r-maskinell-analys\">Textdata och delning av statliga utredningar för maskinell analys</a> är en form av svar på detta.</p>\n",
+      "pid": 1126,
+      "tid": 217,
+      "timestamp": 1638021560875,
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-27T13:59:20.875Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn sa i <a href=\"/post/1009\">Statens budget som länkad data?</a>:</p>\n<blockquote>\n<p dir=\"auto\">@dennis_priskorn sa i <a href=\"/post/1008\">Statens budget som länkad data?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Det finns <a href=\"https://duckduckgo.com/?t=ffab&amp;q=excel+metadata+leak&amp;ia=web\" rel=\"nofollow ugc\">lösningar för metadata-städning</a>, men min gissning är att inga/få av våra myndigheter har koll på denna risk i dagsläget...</p>\n</blockquote>\n<p dir=\"auto\">Skickade just en epost till Regeringskansliets IT-säkerhetschef Jens Storberget och frågade om de har koll på risken med PDF.  Han har varit många år på FRA så han har nog koll, men i mina ögon är PDF inte värt riskerna när det finns bra alternativ som tex. TXT i Markdown format som kan exporteras direkt från ordbehandlare och garantera noll läckning av metadata och dessutom är mycket lättare att maskinavläsa.</p>\n</blockquote>\n<p dir=\"auto\">Säkerhetsstrategin på regeringskansliet kanske består i att inte svara på några frågor, security by obscurity.</p>\n<p dir=\"auto\"><a href=\"https://sverigesradio.se/artikel/ekot-kunde-mejla-som-forsvarsministern\" rel=\"nofollow ugc\">https://sverigesradio.se/artikel/ekot-kunde-mejla-som-forsvarsministern</a></p>\n<blockquote>\n<p dir=\"auto\">I ett mejl skriver Regeringskansliets säkerhetschef Fredrik Agemark de inte kan gå in på hur säkerhetsarbetet ser ut, men att de har olika säkerhetslösningar och anpassar åtgärderna efter olika risker.</p>\n</blockquote>\n",
+      "pid": 1177,
+      "tid": 217,
+      "timestamp": 1639346361066,
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-12-12T21:59:21.066Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn Spännande idé! Vilken forskningsorganisation tycker du skulle kunna stå bakom? Och om det skulle finnas finansiering - vem tror du skulle vilja finansiera detta? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 1263,
+      "tid": 217,
+      "timestamp": 1643970598619,
+      "toPid": "967",
+      "uid": 30,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-02-04T10:29:58.619Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 165,
+          "timestamp": 1648477819136,
+          "timestampISO": "2022-03-28T14:30:19.136Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:30:19.136Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 165,
+      "timestamp": 1648477819136,
+      "timestampISO": "2022-03-28T14:30:19.136Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:30:19.136Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "217",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/217.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/217",
+  "bodyClass": "page-topic page-topic-217 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Statens budget som länkad data?"
+        },
+        {
+          "name": "description",
+          "content": "Både Italien och Sverige delar sin budget som data, men inga av dem har klarat av att lyfta datan till nivå 5 (rätta mig om jag har fel!). Enter g0v.it! De har skapat en ontologi för den italienska budgeten. Såhär ser ontologin ut, dvs. hur datans olika d..."
+        },
+        {
+          "property": "og:title",
+          "content": "Statens budget som länkad data?"
+        },
+        {
+          "property": "og:description",
+          "content": "Både Italien och Sverige delar sin budget som data, men inga av dem har klarat av att lyfta datan till nivå 5 (rätta mig om jag har fel!). Enter g0v.it! De har skapat en ontologi för den italienska budgeten. Såhär ser ontologin ut, dvs. hur datans olika d..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-10-27T08:33:41.460Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-02-04T10:29:58.619Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1635083961279-f8a61951-2110-4575-81b4-0572e06c0909-bild.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1635083961279-f8a61951-2110-4575-81b4-0572e06c0909-bild.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "999"
+        },
+        {
+          "property": "og:image:height",
+          "content": "537"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/217",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/217/statens-budget-som-länkad-data",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/217.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

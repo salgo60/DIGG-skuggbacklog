@@ -1,0 +1,1360 @@
+{
+  "cid": 4,
+  "lastposttime": 1664885322574,
+  "mainPid": 2656,
+  "postcount": 11,
+  "slug": "461/behov-av-att-kunna-visa-en-ändringsström",
+  "tid": 461,
+  "timestamp": 1664265881339,
+  "title": "Behov av att kunna visa en ändringsström",
+  "uid": 62,
+  "viewcount": 705,
+  "postercount": 6,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 2773,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Behov av att kunna visa en ändringsström",
+  "timestampISO": "2022-09-27T08:04:41.339Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-04T12:08:42.574Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> har uttryckt behov av att kunna visa en ändringsström; vad som laddats upp sen sist. Detta ligger nu som en Ticket hos oss och vi kommer att återrapportera i denna kategori. Tack för ett bra förslag!</p>\n",
+      "pid": 2656,
+      "tid": 461,
+      "timestamp": 1664265881339,
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-27T19:06:08.492Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-27T08:04:41.339Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> tänker du på denna ticket?</p>\n<p dir=\"auto\"><a href=\"https://github.com/DIGGSweden/dataportal-web/issues/4\" rel=\"nofollow ugc\">https://github.com/DIGGSweden/dataportal-web/issues/4</a></p>\n<p dir=\"auto\">Eller någon annan ticket som åsyftas?</p>\n",
+      "pid": 2676,
+      "tid": 461,
+      "timestamp": 1664305568492,
+      "toPid": "2656",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-28T06:20:46.904Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-27T19:06:08.492Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> jag åsyftar en annan ticket.  I forumet så kom behovet upp.  Detta behov har hanterats via internt jiratavla som används av dem som utvecklar dataportalen och Communityt.</p>\n",
+      "pid": 2684,
+      "tid": 461,
+      "timestamp": 1664346046904,
+      "toPid": "2676",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-28T07:31:58.456Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-28T06:20:46.904Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/2684\">Behov av att kunna visa en ändringsström</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> jag åsyftar en annan ticket.  I forumet så kom behovet upp.  Detta behov har hanterats via internt jiratavla som används av dem som utvecklar dataportalen och Communityt.</p>\n</blockquote>\n<p dir=\"auto\">Jag uppskattar den konkreta beskrivningen av hur ni jobbar internt, det blir lättare att förstå och resonera kring möjligheter och svårigheter då.</p>\n",
+      "pid": 2709,
+      "tid": 461,
+      "timestamp": 1664480326024,
+      "toPid": "2684",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-29T19:45:53.432Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-29T19:38:46.024Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Kort beskrivet har DIGG ett team som ansvarar för dataportalens livscykelhantering. Teamet använder Jira, vilket är ett låst system, och ett skäl till varför DIGG inte delar sin operativa backlog.</p>\n<p dir=\"auto\">Att vi nu samlar ihop olika typer av feedback under kategorin Feedback på dataportalen är för att ge er en inblick i vad vi noterat att ni adresserar så att vi kan återkoppla till er.</p>\n",
+      "pid": 2710,
+      "tid": 461,
+      "timestamp": 1664480753432,
+      "toPid": "2709",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-29T20:57:20.828Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-29T19:45:53.432Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/2710\">Behov av att kunna visa en ändringsström</a>:</p>\n<blockquote>\n<p dir=\"auto\">Jira...varför DIGG inte delar sin operativa backlog</p>\n</blockquote>\n<p dir=\"auto\">Den story jag hörde var att leverantören använder Jira för att ha koll på DIGG? Inte att DIGG hade det för sina processer.... Har det ändrats?</p>\n<p dir=\"auto\">Vi körde Jira på SEB... ni har ett API <a href=\"https://developer.atlassian.com/server/confluence/confluence-rest-api-examples/\" rel=\"nofollow ugc\">som borde kunna användas</a> enl. denna sida kan <a href=\"https://community.atlassian.com/t5/Jira-Software-questions/Publish-Product-backlog-on-website/qaq-p/1514778\" rel=\"nofollow ugc\">enskilda tickets visas upp</a></p>\n<p dir=\"auto\">Känns galet att en digital expertmyndighet som jobbar med öppna data inte kan ha en öppen process för några små ändringar....</p>\n<p dir=\"auto\"><strong>Tillbaka till ritbordet är mitt råd</strong> och sätt upp egna system så ni ka hålla koll på leverantörerna...</p>\n<ul>\n<li><a href=\"https://en.wikipedia.org/wiki/Eating_your_own_dog_food\" rel=\"nofollow ugc\">Eating your own dog food</a></li>\n</ul>\n",
+      "pid": 2713,
+      "tid": 461,
+      "timestamp": 1664485040828,
+      "toPid": "2710",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-30T05:57:10.779Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-29T20:57:20.828Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> att jobba öppet sparar tid i längden, men det kan behövas ske stegvis, för att möta arbetssätt, kultur och verktyg. Det vi gör nu är att ge er återkoppling via denna kanal.  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 2715,
+      "tid": 461,
+      "timestamp": 1664517430779,
+      "toPid": "2713",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-30T09:38:01.824Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-30T05:57:10.779Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> Angående ändringsström. Vi har en idé om att tillämpa strategin back-to-basic och bygga enkla kostnadseffektiva datadelningsprocesser. Exempelvis <a href=\"https://data.arbetsformedlingen.se/rss/datajobtechdevse.xml\" rel=\"nofollow ugc\">https://data.arbetsformedlingen.se/rss/datajobtechdevse.xml</a> är en rss-ström som pekar ut vad som ändrats och som pekar på vilken data som förändrads på <a href=\"http://data.arbetsformedlingen.se\" rel=\"nofollow ugc\">data.arbetsformedlingen.se</a>. Det är lite experimentellt. Men tror mycket på dessa enkla mönster.</p>\n",
+      "pid": 2725,
+      "tid": 461,
+      "timestamp": 1664530681824,
+      "toPid": "2715",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-30T10:05:51.547Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-30T09:38:01.824Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> tanke kolla med @Dennis_Priskorn hans erfarenhet med <a href=\"https://github.com/internetarchive/wcdimportbot\" rel=\"nofollow ugc\">IA projektet och läsa ändringsströmmar</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1664532341970-2c9a64cc-02a3-4e0c-9884-6e5c4e09e942-image.png\" alt=\"2c9a64cc-02a3-4e0c-9884-6e5c4e09e942-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 2726,
+      "tid": 461,
+      "timestamp": 1664532351547,
+      "toPid": "2725",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-03T11:53:18.057Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-30T10:05:51.547Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><strong>Tydligare change management önskas</strong></p>\n<p dir=\"auto\">Nu stängdes <a href=\"https://github.com/DIGGSweden/dataportal-web/issues/4#issuecomment-778359039\" rel=\"nofollow ugc\">DIGGSweden/dataportal-web/issues/4 CR: Senaste ändringar #4</a> med <strong>not planned</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1664797965826-71941b26-ac77-4450-a809-a36b638d33cf-image.png\" alt=\"71941b26-ac77-4450-a809-a36b638d33cf-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>borde vara tydligare om det anses samma som annan ändring</li>\n<li>även om saker sköts bakom kulissen med egen JIRA dela ert interna ID så vi fattar att vi pratar om samma saker....</li>\n<li>9 månader innan någon feedback kan även det förbättras\n<ul>\n<li>med <a href=\"https://github.com/owid/covid-19-data/issues/228#issuecomment-751214326\" rel=\"nofollow ugc\">Our World in Data tar det 5 minuter även på juldagen</a></li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 2757,
+      "tid": 461,
+      "timestamp": 1664797998057,
+      "toPid": "2726",
+      "uid": 24,
+      "edited": 1664798170004,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-03T11:53:18.057Z",
+      "editedISO": "2022-10-03T11:56:10.004Z",
+      "index": 9,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/2710\">Behov av att kunna visa en ändringsström</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Kort beskrivet har DIGG ett team som ansvarar för dataportalens livscykelhantering. Teamet använder Jira, vilket är ett låst system, och ett skäl till varför DIGG inte delar sin operativa backlog.</p>\n</blockquote>\n<p dir=\"auto\">Apropå låsta system så har Wikimedia nyss satt upp sin egen Gitlab för att kunna ha alla verktyg och kod där framöver. Se <a href=\"https://gitlab.wikimedia.org/explore\" rel=\"nofollow ugc\">https://gitlab.wikimedia.org/explore</a></p>\n",
+      "pid": 2773,
+      "tid": 461,
+      "timestamp": 1664885322574,
+      "toPid": "2710",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-10-04T12:08:42.574Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "461",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/461.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/461",
+  "bodyClass": "page-topic page-topic-461 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Behov av att kunna visa en ändringsström"
+        },
+        {
+          "name": "description",
+          "content": "@Magnus-Sälgö har uttryckt behov av att kunna visa en ändringsström; vad som laddats upp sen sist. Detta ligger nu som en Ticket hos oss och vi kommer att återrapportera i denna kategori. Tack för ett bra förslag! "
+        },
+        {
+          "property": "og:title",
+          "content": "Behov av att kunna visa en ändringsström"
+        },
+        {
+          "property": "og:description",
+          "content": "@Magnus-Sälgö har uttryckt behov av att kunna visa en ändringsström; vad som laddats upp sen sist. Detta ligger nu som en Ticket hos oss och vi kommer att återrapportera i denna kategori. Tack för ett bra förslag! "
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-09-27T08:04:41.339Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-04T12:08:42.574Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/461",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/461/behov-av-att-kunna-visa-en-ändringsström",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/461.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

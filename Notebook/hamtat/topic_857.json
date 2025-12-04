@@ -1,0 +1,1356 @@
+{
+  "cid": 30,
+  "lastposttime": 1702030173507,
+  "mainPid": 4399,
+  "postcount": 11,
+  "slug": "857/diba",
+  "tags": [
+    {
+      "value": "datasystem",
+      "valueEscaped": "datasystem",
+      "valueEncoded": "datasystem",
+      "class": "datasystem"
+    },
+    {
+      "value": "systemutveckling",
+      "valueEscaped": "systemutveckling",
+      "valueEncoded": "systemutveckling",
+      "class": "systemutveckling"
+    },
+    {
+      "value": "domstolsverket",
+      "valueEscaped": "domstolsverket",
+      "valueEncoded": "domstolsverket",
+      "class": "domstolsverket"
+    },
+    {
+      "value": "diba",
+      "valueEscaped": "diba",
+      "valueEncoded": "diba",
+      "class": "diba"
+    },
+    {
+      "value": "rättsinformation",
+      "valueEscaped": "rättsinformation",
+      "valueEncoded": "r%C3%A4ttsinformation",
+      "class": "rättsinformation"
+    }
+  ],
+  "tid": 857,
+  "timestamp": 1696977716659,
+  "title": "DiBa",
+  "uid": 125,
+  "viewcount": 1108,
+  "postercount": 4,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 4571,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "DiBa",
+  "timestampISO": "2023-10-10T22:41:56.659Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-12-08T10:09:33.507Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Apropå nyheter om det nya systemet för brottsmålsavgörande, och tidigare diskussioner om rättsinformationssystem för förordningar (Lagrummet).</p>\n<p dir=\"auto\">Jag undrar lite över hur ett sådant här system ser ut tekniskt i dagens läge, vilka plattformar är det utvecklat på, och vem äger och hur förvaltas programkoden?</p>\n<p dir=\"auto\"><a href=\"https://sverigesradio.se/artikel/datasystem-kranglar-uppgifter-blir-fel-i-domar\" rel=\"nofollow ugc\">https://sverigesradio.se/artikel/datasystem-kranglar-uppgifter-blir-fel-i-domar</a></p>\n<blockquote>\n<p dir=\"auto\">Det nya systemet för att skriva domar, som heter <strong>Digitalt Brottmålsavgörande - förkortat DiBa</strong> - har varit igång i snart ett år nu.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">tingsrätternas nya system DiBa – Digitalt brottmålsavgörande. Det har varit igång i ett år nu och andra problem har uppmärksammats i media tidigare, exempelvis att domtexten är oöverskådlig.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">Jan Josefsson, enhetschef på Domstolsverket med ansvar för DiBa-införandet, säger att flera nya uppdateringar är på gång som bland annat ska rätta till de fel som Ekot hittat i genomgången. Men han menar att det kan bli så här när man <strong>byter till ett system som är så stort och komplext</strong>.</p>\n</blockquote>\n<p dir=\"auto\">Hittade lite mer info:</p>\n<blockquote>\n<ul>\n<li>Domstolsverket tar nu successivt fram en ny generation av verksamhetsstödet till den dömande verksamheten inom Sveriges domstolar, och har nyligen driftsatt systemet DiBa som stödjer framtagande och rapportering av domar, enligt nya informationsstrukturer som är överenskomna i rättskedjan.</li>\n<li>De nya delarna av verksamhetsstödet bygger på deras nya utvecklingsplattform med Java EE, REST och Angular.</li>\n<li>tvärdisciplinärt team som arbetar enligt DAX (Domstolsverkets anpassning av Scrum). Utvecklingen bedrivs i en modern miljö med inriktning mot DevOps. Verktyg som används i utveckling är exempelvis IntelliJ, Maven, Jenkins, Git, SonarQube och Docker. För att hålla ordning och reda på arbetet används Jira och Confluence.</li>\n</ul>\n</blockquote>\n",
+      "pid": 4399,
+      "tid": 857,
+      "timestamp": 1696977716659,
+      "uid": 125,
+      "edited": 1696979366713,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-11T04:59:52.524Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-10T22:41:56.659Z",
+      "editedISO": "2023-10-10T23:09:26.713Z",
+      "index": 0,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> det här luktar inkompetens och skitsystem lång väg. Har de testet på användare? Om ja, varför har de inte fixat de här uppenbara problem innan de rullar ut systemet?<br />\nFinns en UX expert tillknyten?<br />\nDu kan begära ut dokumentation om projektet och upphandlingen från Domstolsverket.<br />\nOm de inte redan delat informationen om projektet öppet säger kanske en del i sig om hur de tänker när det gäller transparens.</p>\n",
+      "pid": 4400,
+      "tid": 857,
+      "timestamp": 1697000392524,
+      "toPid": "4399",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-31T15:45:05.666Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-11T04:59:52.524Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Du kan även använda <a href=\"http://Handlingar.se\" rel=\"nofollow ugc\">Handlingar.se</a> och testa begära ut källkoden för DiBa-systemet. De använder ju redan Git så en snapshot i zip-arkiv tar 5 minuter att lämna ut rent tekniskt men en begäran måste vara specifik och vässad för att det inte ska bli en lång och belastande juridisk bedömning.</p>\n<p dir=\"auto\">Ett så viktigt system som DiBa, som ska hjälpa till att uppfylla rättstatens principer och statens ansvar att skydda medborgare, bör kunna gå att inspekteras. Därmed kan det också få den tillit det systemet behöver i samhället för att sköta och hantera rättsliga processer.</p>\n<p dir=\"auto\">Det här är extra aktuellt idag då kriminella rapporteras infiltrera offentlig sektor, t.ex. även driva välfärdsföretag men speciellt farligt när det nu rapporteras ske även inom polis, kriminalvård och rättsväsende: <a href=\"https://www.svt.se/nyheter/inrikes/sa-infiltrerar-kriminella-den-offentliga-sektorn\" rel=\"nofollow ugc\">https://www.svt.se/nyheter/inrikes/sa-infiltrerar-kriminella-den-offentliga-sektorn</a></p>\n<p dir=\"auto\">Öppen källkod är som i en trädgård ett hälsosamt bekämpningsmedel mot ogräs som annars helt riskerar ta över det vackra som vi byggt upp och länge fungerat. Vi behöver använda alla rättssäkra medel vi kan för att säkra demokratins integritet och rättstatens principer. Regeringen skriver om detta här:<br />\n<a href=\"https://www.regeringen.se/regeringens-politik/demokrati-och-manskliga-rattigheter/fakta-om-manskliga-rattigheter/manskliga-rattigheter-demokrati-och-rattstatens-principer/\" rel=\"nofollow ugc\">https://www.regeringen.se/regeringens-politik/demokrati-och-manskliga-rattigheter/fakta-om-manskliga-rattigheter/manskliga-rattigheter-demokrati-och-rattstatens-principer/</a> och länkar till <a href=\"https://www.osce.org/odihr/\" rel=\"nofollow ugc\">https://www.osce.org/odihr/</a></p>\n<p dir=\"auto\">Jag skulle gärna se öppen källkod som ett kriterie i upphandlingar för att i sin tur säkra att system och lösningar uppfyller rättstatens principer.</p>\n",
+      "pid": 4410,
+      "tid": 857,
+      "timestamp": 1697102810149,
+      "toPid": "4399",
+      "uid": 30,
+      "edited": 1697219566598,
+      "editor": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "displayname": "mattias"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-13T05:44:55.619Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-10-12T09:26:50.149Z",
+      "editedISO": "2023-10-13T17:52:46.598Z",
+      "index": 2,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> sa i <a href=\"/post/4410\">DiBa</a>:</p>\n<blockquote>\n<p dir=\"auto\">Jag skulle gärna se öppen källkod som ett kriterie i upphandlingar för att i sin tur säkra att system och lösningar uppfyller rättstatens principer.</p>\n</blockquote>\n<p dir=\"auto\">Vet att du känner till detta men passar på att  informera om Kammarkollegiets vägledning för  att avropa programvaror och tjänster där det står:</p>\n<p dir=\"auto\"><strong>Kund får ställa ett obligatoriskt krav på specifik namngiven Programvara som i sin helhet är licensierad med en eller flera licenser godkända av Open Source Initiative (OSI), är gratis och fri för alla leverantörer att nyttja (det krävs ex. ingen återförsäljarstatus).</strong></p>\n<p dir=\"auto\"><strong>Kund får ställa obligatoriska krav på standarder om standarden uppfyller kraven på en öppen standard enligt SOU 2009:86.</strong></p>\n<p dir=\"auto\">I Diggs <a href=\"https://www.digg.se/download/18.72c5e64d183579af3fd1b6b/1664286148262/policy-for-anskaffning-samt-utveckling-av-programvara.pdf\" rel=\"nofollow ugc\">Policy för anskaffning samt utveckling av programvara:</a> går att läsa:</p>\n<p dir=\"auto\"><strong>Vid anskaffning och utveckling ska verksamheterna i första hand välja öppen<br />\nprogramvara samt tillgängliggöra denna under en öppen programvarulicens, om<br />\ninte särskilda skäl föreligger.</strong></p>\n",
+      "pid": 4412,
+      "tid": 857,
+      "timestamp": 1697175895619,
+      "toPid": "4410",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-17T10:56:29.028Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-10-13T05:44:55.619Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Jag har ingen som helst tillit till ett enda av samhällets IT-system i dagsläget. Allt jag grävt i har varit trasigt, ofullständigt, undermåligt eller rent av så kasst skött att det resulterat i lagbrott eller så ineffektivt ur kostnadsperspektiv att man förvånas att det öht kunnat beslutas på politisk nivå.</p>\n<p dir=\"auto\">Jag räknar med att jag kommer fara illa framöver pga. bristande IT-kompetens överallt.</p>\n<p dir=\"auto\">Jag förvånas över att det inte är flera som protesterar mot status quo. Jag förvånas även över att det inte är flera läckor och angrepp, för det är löjligt enkelt att installera keyloggers på regionens datorer, ta sig förbi skalskydd, m.m.</p>\n",
+      "pid": 4421,
+      "tid": 857,
+      "timestamp": 1697539879227,
+      "toPid": "4410",
+      "uid": 25,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-17T10:51:19.227Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/4412\">DiBa</a>:</p>\n<blockquote>\n<p dir=\"auto\">Vid anskaffning och utveckling ska verksamheterna i första hand välja öppen<br />\nprogramvara samt tillgängliggöra denna under en öppen programvarulicens, om<br />\ninte särskilda skäl föreligger.</p>\n</blockquote>\n<p dir=\"auto\">Skickade iväg följande med stimuli från detta. Tack! <a href=\"https://handlingar.se/request/upphandlingspolicyhandlingsplans\" rel=\"nofollow ugc\">https://handlingar.se/request/upphandlingspolicyhandlingsplans</a></p>\n",
+      "pid": 4422,
+      "tid": 857,
+      "timestamp": 1697540189028,
+      "toPid": "4412",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-12-08T10:08:00.267Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-17T10:56:29.028Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag undrade också över att de kommit så långt med att bygga och driftsätta systemet, men inte verkar ha testat och utvärderat funktionaliteten med dem som ska använda det och är insatta i verksamheten som systemet ska stödja?</p>\n<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/4400\">DiBa</a>:</p>\n<blockquote>\n<p dir=\"auto\">Har de testet på användare? Om ja, varför har de inte fixat de här uppenbara problem innan de rullar ut systemet?<br />\nFinns en UX expert tillknyten?</p>\n</blockquote>\n",
+      "pid": 4476,
+      "tid": 857,
+      "timestamp": 1698767105666,
+      "toPid": "4400",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-14T18:42:21.793Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-31T15:45:05.666Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Det verkar vara gjort med vattenfall-projektledningsmetodiken som sedan länge inte är rekommenderad för en komplex verklighet.</p>\n",
+      "pid": 4492,
+      "tid": 857,
+      "timestamp": 1699987341793,
+      "toPid": "4476",
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-15T08:11:32.107Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-14T18:42:21.793Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Mycket riktigt konstateras problematiken också i en granskningsrapport från Riksrevisionen, RiR 2023:6.</p>\n<blockquote>\n<p dir=\"auto\">Riksrevisionen bedömer att myndigheterna inte arbetar med att involvera användare i tillräcklig omfattning, när de utvecklar de digitala tjänsterna. Ett utvecklat arbete på området skulle leda till en avsevärd förbättring vad gäller tjänsternas användbarhet och tillgänglighet, enligt vår bedömning. Det finns också flera exempel på när samarbete mellan myndigheter som skulle kunna förbättra kvaliteten på de digitala tjänsterna ännu inte kommit till stånd. Det finns sålunda mycket som myndigheterna kan förbättra inom ramen för nuvarande förutsättningar.</p>\n<p dir=\"auto\">Digitalisering av tjänster genererar både kostnader och nyttor, men kan vara lönsam och betala sig på ett par år i form av minskad manuell hantering. Myndigheternas användning av kostnadsnyttoanalyser är dock begränsad och i den mån de används undersöks enbart myndigheternas besparingar och inte användarnas. Det finns därför en risk för att myndigheterna gör fel saker eller att de gör för lite.</p>\n</blockquote>\n",
+      "pid": 4495,
+      "tid": 857,
+      "timestamp": 1700035892107,
+      "toPid": "4492",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-12-08T10:09:33.507Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-11-15T08:11:32.107Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn Svar från Härnösand: Ingen sådant finns i dagsläget i vår inköpspolicy.</p>\n",
+      "pid": 4570,
+      "tid": 857,
+      "timestamp": 1702030080267,
+      "toPid": "4422",
+      "uid": 25,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-12-08T10:08:00.267Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/4495\">DiBa</a>:</p>\n<blockquote>\n<p dir=\"auto\">Riksrevisionen bedömer att myndigheterna inte arbetar med att involvera användare i tillräcklig omfattning, när de utvecklar de digitala tjänsterna.</p>\n</blockquote>\n<p dir=\"auto\">Tack för citatet. Å vad jag älskar Riksrevisionen!</p>\n",
+      "pid": 4571,
+      "tid": 857,
+      "timestamp": 1702030173507,
+      "toPid": "4495",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-12-08T10:09:33.507Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#AB4642",
+    "cid": 30,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Här samlar vi information om de byggblock som utgör [Ena - Sveriges digitala infrastruktur. ](https:&#x2F;&#x2F;www.digg.se&#x2F;ledning-och-samordning&#x2F;ena---sveriges-digitala-infrastruktur)\n\nI denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,\nRespektive byggblock visas som underkategorier till denna kategori. \n",
+    "descriptionParsed": "<p dir=\"auto\">Här samlar vi information om de byggblock som utgör <a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur\" rel=\"nofollow ugc\">Ena - Sveriges digitala infrastruktur. </a></p>\n<p dir=\"auto\">I denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,<br />\nRespektive byggblock visas som underkategorier till denna kategori.</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Digital Infrastruktur ",
+    "numRecentReplies": 1,
+    "order": 3,
+    "parentCid": 0,
+    "post_count": 113,
+    "slug": "30/digital-infrastruktur",
+    "subCategoriesPerPage": 15,
+    "topic_count": 19,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 113,
+    "totalTopicCount": 19
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "857",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/857.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/857",
+  "bodyClass": "page-topic page-topic-857 template-topic page-topic-category-30 page-topic-category-digital-infrastruktur parent-category-30 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "DiBa"
+        },
+        {
+          "name": "description",
+          "content": "Apropå nyheter om det nya systemet för brottsmålsavgörande, och tidigare diskussioner om rättsinformationssystem för förordningar (Lagrummet). Jag undrar lite över hur ett sådant här system ser ut tekniskt i dagens läge, vilka plattformar är det utvecklat..."
+        },
+        {
+          "property": "og:title",
+          "content": "DiBa"
+        },
+        {
+          "property": "og:description",
+          "content": "Apropå nyheter om det nya systemet för brottsmålsavgörande, och tidigare diskussioner om rättsinformationssystem för förordningar (Lagrummet). Jag undrar lite över hur ett sådant här system ser ut tekniskt i dagens läge, vilka plattformar är det utvecklat..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-10-10T22:41:56.659Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-12-08T10:09:33.507Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Digital Infrastruktur "
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/857",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/857/diba",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/857.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/30/digital-infrastruktur"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonor"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

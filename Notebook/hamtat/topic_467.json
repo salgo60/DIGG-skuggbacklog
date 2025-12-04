@@ -1,0 +1,532 @@
+{
+  "cid": 6,
+  "lastposttime": 1664285573255,
+  "mainPid": 2662,
+  "postcount": 1,
+  "slug": "467/om-kategorin",
+  "tid": 467,
+  "timestamp": 1664285573255,
+  "title": "Om kategorin",
+  "uid": 531,
+  "viewcount": 240,
+  "postercount": 1,
+  "pinned": 1,
+  "tags": [],
+  "deleted": 0,
+  "locked": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Om kategorin",
+  "timestampISO": "2022-09-27T13:32:53.255Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-09-27T13:32:53.255Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "teaserPid": null,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">I den här kategorin kan du sprida och ta del av information om meetups, events och hackathons som arrangeras.</p>\n<p dir=\"auto\">När du publicerar information om ett event skriv gärna månad/år i inlägget eller i titeln, till exempel \"nov-21\". På så vis kan användare filtrera i tid på ett bättre sätt.</p>\n",
+      "pid": 2662,
+      "tid": 467,
+      "timestamp": 1664285573255,
+      "uid": 531,
+      "edited": 1664287763290,
+      "editor": {
+        "uid": 531,
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "displayname": "DIGG_admin"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-27T13:32:53.255Z",
+      "editedISO": "2022-09-27T14:09:23.290Z",
+      "index": 0,
+      "user": {
+        "uid": 531,
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "reputation": 37,
+        "postcount": 54,
+        "topiccount": 24,
+        "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+        "signature": "<p dir=\"auto\">Administratör av forumet, Myndigheten för digital förvaltning - Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761730215316,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "DIGG_admin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-29T09:30:15.316Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "type": "pin",
+          "uid": 531,
+          "id": 458,
+          "timestamp": 1664287756235,
+          "timestampISO": "2022-09-27T14:09:16.235Z",
+          "user": {
+            "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+            "username": "DIGG_admin",
+            "userslug": "digg_admin",
+            "uid": 531,
+            "displayname": "DIGG_admin",
+            "icon:text": "D",
+            "icon:bgColor": "#673ab7"
+          },
+          "icon": "fa-thumb-tack",
+          "text": "<img alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/531-profileavatar-1662995628514.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">D</span> <a href=\"/user/digg_admin\">DIGG_admin</a> pinned this topic on <span class=\"timeago timeline-text\" title=\"2022-09-27T14:09:16.235Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "type": "pin",
+      "uid": 531,
+      "id": 458,
+      "timestamp": 1664287756235,
+      "timestampISO": "2022-09-27T14:09:16.235Z",
+      "user": {
+        "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "uid": 531,
+        "displayname": "DIGG_admin",
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7"
+      },
+      "icon": "fa-thumb-tack",
+      "text": "<img alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/531-profileavatar-1662995628514.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">D</span> <a href=\"/user/digg_admin\">DIGG_admin</a> pinned this topic on <span class=\"timeago timeline-text\" title=\"2022-09-27T14:09:16.235Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#695f59",
+    "cid": 6,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Diskutera och tipsa om möten, evenemang och tävlingar ",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera och tipsa om möten, evenemang och tävlingar</p>\n",
+    "disabled": 0,
+    "icon": "fa-ticket",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Meetups och evenemang",
+    "numRecentReplies": 1,
+    "order": 9,
+    "parentCid": 0,
+    "post_count": 462,
+    "slug": "6/meetups-och-evenemang",
+    "topic_count": 135,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 462,
+    "totalTopicCount": 135
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "467",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/467.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Meetups och evenemang",
+      "url": "/category/6/meetups-och-evenemang",
+      "cid": 6
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/467",
+  "bodyClass": "page-topic page-topic-467 template-topic page-topic-category-6 page-topic-category-meetups-och-evenemang parent-category-6 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Om kategorin"
+        },
+        {
+          "name": "description",
+          "content": "I den här kategorin kan du sprida och ta del av information om meetups, events och hackathons som arrangeras. När du publicerar information om ett event skriv gärna månad/år i inlägget eller i titeln, till exempel &quot;nov-21&quot;. På så vis kan användare filtrer..."
+        },
+        {
+          "property": "og:title",
+          "content": "Om kategorin"
+        },
+        {
+          "property": "og:description",
+          "content": "I den här kategorin kan du sprida och ta del av information om meetups, events och hackathons som arrangeras. När du publicerar information om ett event skriv gärna månad/år i inlägget eller i titeln, till exempel &quot;nov-21&quot;. På så vis kan användare filtrer..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-09-27T13:32:53.255Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-09-27T14:09:23.290Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Meetups och evenemang"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/531-profileavatar-1662995628514.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/531-profileavatar-1662995628514.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/467",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/467/om-kategorin",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/467.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/6/meetups-och-evenemang"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/digg_admin"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "cid": 23,
+  "lastposttime": 1620458973495,
+  "mainPid": 400,
+  "postcount": 3,
+  "slug": "105/tvättning-av-data",
+  "tid": 105,
+  "timestamp": 1620303881545,
+  "title": "Tvättning av data",
+  "uid": 173,
+  "viewcount": 930,
+  "postercount": 3,
+  "teaserPid": 411,
+  "tags": [
+    {
+      "value": "öppna data",
+      "valueEscaped": "öppna data",
+      "valueEncoded": "%C3%B6ppna%20data",
+      "class": "öppna-data"
+    },
+    {
+      "value": "persondata",
+      "valueEscaped": "persondata",
+      "valueEncoded": "persondata",
+      "class": "persondata"
+    },
+    {
+      "value": "gdpr",
+      "valueEscaped": "gdpr",
+      "valueEncoded": "gdpr",
+      "class": "gdpr"
+    }
+  ],
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Tvättning av data",
+  "timestampISO": "2021-05-06T12:24:41.545Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-05-08T07:29:33.495Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Re: <a href=\"/topic/54/leverant%C3%B6rsfakturor-som-%C3%B6ppna-data\">Tvättning av data</a><br />\nHej !<br />\nSka viss data vara tvättat från personuppgifter som tex org nr. En enskild firma har ju pers nr som org nr.<br />\nEller är det något som görs i Entry scape verktyget ?</p>\n",
+      "pid": 400,
+      "tid": 105,
+      "timestamp": 1620303881545,
+      "uid": 173,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-05-06T20:10:31.000Z"
+      },
+      "edited": 1620331930465,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-06T12:24:41.545Z",
+      "editedISO": "2021-05-06T20:12:10.465Z",
+      "index": 0,
+      "user": {
+        "uid": 173,
+        "username": "etuna",
+        "userslug": "etuna",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1622535373284,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "etuna",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2021-06-01T08:16:13.284Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/173\">@etuna</a><br />\nHej,<br />\nJag tolkar din fråga som att du ska tillgängliggöra öppna data, dvs data som fritt kan vidareutnyttjas utan begränsningar.</p>\n<p dir=\"auto\">Jag talar enbart utifrån min egna erfarenhet av att publicera fakturainformation/leverantörsreskontra som öppna data. Där tvättar vi bort eventuella enskilda firmors personnummer innan själva publiceringen. Det gör vi innan data laddas upp/publiceras. Vänd dig till din leverantör så kan de beskriva närmare vad verktyget gör och inte.</p>\n<p dir=\"auto\">Men det är viktigt att poängtera att det är upp till varje enskild organisation att göra bedömningar över vad man har lagligt stöd för att tillgängliggöra, eller vad som inte är det. Den bedömningen görs på den data som planerar att publiceras. På <a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/oppna-och-delade-data/offentliga-aktorer/vagledning-tillgangliggora#sakerstall_informationssakerheten\" rel=\"nofollow ugc\">digg.se</a> har vi viss vägledning om olika perspektiv kring informationssäkerhet kopplat till publicering av öppna och delade data.</p>\n<p dir=\"auto\">Fler får gärna bidra med erfarenheter!</p>\n",
+      "pid": 402,
+      "tid": 105,
+      "timestamp": 1620331831000,
+      "toPid": "400",
+      "uid": 7,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-06T20:10:31.000Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "etuna",
+        "displayname": "etuna"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/173\">@etuna</a> sa i <a href=\"/post/400\">Tvättning av data</a>:</p>\n<blockquote>\n<p dir=\"auto\">Re: <a href=\"/topic/54/leverant%C3%B6rsfakturor-som-%C3%B6ppna-data\">Tvättning av data</a><br />\nHej !<br />\nSka viss data vara tvättat från personuppgifter som tex org nr. En enskild firma har ju pers nr som org nr.<br />\nEller är det något som görs i Entry scape verktyget ?</p>\n</blockquote>\n<p dir=\"auto\">Bra fråga. Hur vet du om en leverantör har enskild firma? Jag är bara nyfiken. Finns ett API där jag enkelt kan få veta det?</p>\n<p dir=\"auto\">Jag har själv enskild firma och var väldigt förvånad när jag upptäckte att mitt personnummer då ska finnas med på alla fakturor, m.m.</p>\n<p dir=\"auto\">Jag begriper inte dubbelheten i att samhället via Datainspektionen vill ha ett särskilt skydd av personnummer, men samtidigt inte klarar av eller inte vill tilldela mig ett arbiträrt organisationsnummer som alla juridiska bolag.</p>\n<p dir=\"auto\">Bolagsverket eller skatteverket skulle kunna fixa detta på en förmiddag tänker jag, hur svårt kan det vara?</p>\n",
+      "pid": 411,
+      "tid": 105,
+      "timestamp": 1620458973495,
+      "toPid": "400",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-08T07:29:33.495Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "etuna",
+        "displayname": "etuna"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 261,
+          "timestamp": 1648839679212,
+          "timestampISO": "2022-04-01T19:01:19.212Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:01:19.212Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 261,
+      "timestamp": 1648839679212,
+      "timestampISO": "2022-04-01T19:01:19.212Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:01:19.212Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "105",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/105.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/105",
+  "bodyClass": "page-topic page-topic-105 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Tvättning av data"
+        },
+        {
+          "name": "description",
+          "content": "Re: Tvättning av data Hej ! Ska viss data vara tvättat från personuppgifter som tex org nr. En enskild firma har ju pers nr som org nr. Eller är det något som görs i Entry scape verktyget ? "
+        },
+        {
+          "property": "og:title",
+          "content": "Tvättning av data"
+        },
+        {
+          "property": "og:description",
+          "content": "Re: Tvättning av data Hej ! Ska viss data vara tvättat från personuppgifter som tex org nr. En enskild firma har ju pers nr som org nr. Eller är det något som görs i Entry scape verktyget ? "
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-05-06T12:24:41.545Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-05-08T07:29:33.495Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/105",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/105/tvättning-av-data",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/105.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/etuna"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

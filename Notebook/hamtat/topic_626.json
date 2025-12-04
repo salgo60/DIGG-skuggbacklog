@@ -1,0 +1,544 @@
+{
+  "cid": 4,
+  "lastposttime": 1669386872732,
+  "mainPid": 3596,
+  "postcount": 1,
+  "slug": "626/dataportalen-förhandsgranskning-och-eller-exempeldata",
+  "tags": [
+    {
+      "value": "öppna data",
+      "valueEscaped": "öppna data",
+      "valueEncoded": "%C3%B6ppna%20data",
+      "class": "öppna-data"
+    },
+    {
+      "value": "öppna apier",
+      "valueEscaped": "öppna apier",
+      "valueEncoded": "%C3%B6ppna%20apier",
+      "class": "öppna-apier"
+    },
+    {
+      "value": "dataportal.se",
+      "valueEscaped": "dataportal.se",
+      "valueEncoded": "dataportal.se",
+      "class": "dataportal.se"
+    }
+  ],
+  "tid": 626,
+  "timestamp": 1669386872732,
+  "title": "Dataportalen: förhandsgranskning och &#x2F; eller exempeldata?",
+  "uid": 744,
+  "viewcount": 271,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Dataportalen: förhandsgranskning och / eller exempeldata?",
+  "timestampISO": "2022-11-25T14:34:32.732Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-25T14:34:32.732Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "teaserPid": null,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> sa i <a href=\"/post/2931\">Digital dialog kring Sveriges insatser och åtaganden för en mer öppen och transparent offentlig sektor</a>:</p>\n<blockquote>\n<p dir=\"auto\">Det bör finnas dokumentation kopplat till API:er så att människor som inte är så tekniska kan läsa mer för att lära sig använda öppna data.</p>\n</blockquote>\n<p dir=\"auto\">Håller med, och vill även slå ett slag för förhandsvisning och/eller exempeldata. Jag tycker ibland en visualisering man kan kolla i utan att ladda ner hela datamängden, även om det bara är lite exempeldata ibland kan överträffa dokumentation för att få en snabb förståelse för användningsområdet.</p>\n<p dir=\"auto\">I Publications Office i EU finns i vissa dataset knappen \"Browse content\" som omvandlas till \"Dataset details\" i bilden nedan.<br />\n<img src=\"/assets/uploads/files/1669386192316-2c54b994-da42-4935-8d4b-d27fed758c0b-image.png\" alt=\"2c54b994-da42-4935-8d4b-d27fed758c0b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Exempel nedan från <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/asset-classification\" rel=\"nofollow ugc\">Asset classification</a>. Publications Office i EU. Man ser även var \"Contribute\"-knappen ligger för att kollektivt kunna underhålla datamängden.<br />\n<img src=\"/assets/uploads/files/1669386135082-bec614ce-c13b-4a09-9931-adbee5098839-image-resized.png\" alt=\"bec614ce-c13b-4a09-9931-adbee5098839-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 3596,
+      "tid": 626,
+      "timestamp": 1669386872732,
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-25T14:34:32.732Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "626",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/626.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/626",
+  "bodyClass": "page-topic page-topic-626 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Dataportalen: förhandsgranskning och / eller exempeldata?"
+        },
+        {
+          "name": "description",
+          "content": "@mattias sa i Digital dialog kring Sveriges insatser och åtaganden för en mer öppen och transparent offentlig sektor:  Det bör finnas dokumentation kopplat till API:er så att människor som inte är så tekniska kan läsa mer för att lära sig använda öppna da..."
+        },
+        {
+          "property": "og:title",
+          "content": "Dataportalen: förhandsgranskning och / eller exempeldata?"
+        },
+        {
+          "property": "og:description",
+          "content": "@mattias sa i Digital dialog kring Sveriges insatser och åtaganden för en mer öppen och transparent offentlig sektor:  Det bör finnas dokumentation kopplat till API:er så att människor som inte är så tekniska kan läsa mer för att lära sig använda öppna da..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-25T14:34:32.732Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-25T14:34:32.732Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669386135082-bec614ce-c13b-4a09-9931-adbee5098839-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669386135082-bec614ce-c13b-4a09-9931-adbee5098839-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2584"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1218"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669386192316-2c54b994-da42-4935-8d4b-d27fed758c0b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669386192316-2c54b994-da42-4935-8d4b-d27fed758c0b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "608"
+        },
+        {
+          "property": "og:image:height",
+          "content": "86"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/626",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/626/dataportalen-förhandsgranskning-och-eller-exempeldata",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/626.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/tove"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

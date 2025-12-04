@@ -1,0 +1,837 @@
+{
+  "cid": 23,
+  "lastposttime": 1655123533835,
+  "mainPid": 1529,
+  "postcount": 5,
+  "slug": "361/risk-för-datadeponi-hur-säkerställer-vi-att-det-byggs-nya-tjänster",
+  "tid": 361,
+  "timestamp": 1652877842899,
+  "title": "Risk för datadeponi - Hur säkerställer vi att det byggs nya tjänster?",
+  "uid": 455,
+  "viewcount": 503,
+  "postercount": 4,
+  "tags": [
+    {
+      "value": "öppna data",
+      "valueEscaped": "öppna data",
+      "valueEncoded": "%C3%B6ppna%20data",
+      "class": "öppna-data"
+    }
+  ],
+  "teaserPid": 1587,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Risk för datadeponi - Hur säkerställer vi att det byggs nya tjänster?",
+  "timestampISO": "2022-05-18T12:44:02.899Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-06-13T12:32:13.835Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej,</p>\n<p dir=\"auto\">Jag är oerhört glad över att se den ökade aktiviteten och intresset för öppna data efter ha följt frågan de senaste 3 åren, framförallt inom utbildning- och arbetsmarknad. Jag börjar dock bli orolig för att modellen många myndigheter nu siktar mot inte nödvändigtvis kommer att leda till stora vinningar för slutkonsumenten. Idén om att myndigheter och andra offentliga aktörer agerar infrastruktur och \"data providers\" medan externa parter bygger tjänsterna som i slutändan gynnar privatpersonen, är i grunden bra. Maximal avkastning på skattepengarna får vi om myndigheter släpper datamonopolet och därmed öppnar upp \"byggstenarna\" för tjänstesektorn att bygga nya lösningar på. Sannolikt blir tjänsterna lite bättre också <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /></p>\n<p dir=\"auto\">Men hur säkerställer vi att det finns externa aktörer (företag) som står redo att bygga något på datamängderna vi producerar? Hela konceptet förutsätter att all data bär kommersiellt värde. Vilket inte är fallet. Många offentligt producerade datamängder kan besitta stor samhällsnytta om paketerat rätt, men behöver inte av den anledningen någonsin bli intressant för en kommersiell verksamhet. Om inte annat kan det ta väldigt lång tid innan någon förstår hur den ska användas eller inkorporeras i en affärsmodell. Framförallt om den ligger paketerad i en knölig CSV-fil, 17 flikar djupt på SCB. Risken blir följaktligen att vi producerar massa nyttig data som sen ingen agerar på. Den hamnar istället på obestämd tid på deponi.</p>\n<p dir=\"auto\">Min känsla är att 2 saker är viktiga i det här avseendet:</p>\n<ol>\n<li>\n<p dir=\"auto\">Fortsätta att utöka ett närmare samarbete med privata företag för att behovsinventera och styra produktionen av öppna data ytterligare mot vad tjänstesektorn efterfrågar av faktiska kommersiella skäl.</p>\n</li>\n<li>\n<p dir=\"auto\">Myndigheterna borde själva ha ett uppdrag om att även paketera och VISUALISERA sin data! För varje API och dataset borde det finns en tillhörande visualisering / gränssnitt / demotjänst. Det skulle dels tillgängliggöra data på ett sånt sätt att vanliga människor kan betrakta, förstå och använda den. Något som gör att data som aldrig kommer brukas av externa parter åtminstone kan få en chans att skapa samhällsnytta direkt för slutanvändaren. Det skulle även agera exempel för tjänsteföretag på vad data kan användas till och därmed inspirera till användning och vidare tillämpning. Som myndighetens white-label produkt byggt på öppen källkod. Lite som ett startkit för att uppmuntra användning.</p>\n</li>\n</ol>\n<p dir=\"auto\">Är det någon som har någon input på hur man resonerar och tänker kring det här? Kanske finns det saker som jag har missat eller initiativ som är på gång?</p>\n<p dir=\"auto\">//Fred</p>\n",
+      "pid": 1529,
+      "tid": 361,
+      "timestamp": 1652877842899,
+      "uid": 455,
+      "edited": 1652878275994,
+      "editor": {
+        "uid": 455,
+        "username": "fredisaksson",
+        "userslug": "fredisaksson",
+        "displayname": "fredisaksson"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-05-19T17:50:53.537Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-05-18T12:44:02.899Z",
+      "editedISO": "2022-05-18T12:51:15.994Z",
+      "index": 0,
+      "user": {
+        "uid": 455,
+        "username": "fredisaksson",
+        "userslug": "fredisaksson",
+        "reputation": 6,
+        "postcount": 4,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1654006662454,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "fredisaksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2022-05-31T14:17:42.454Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Bra input <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/455\">@fredisaksson</a><br />\nJag tycker SCB är ett exempel där man använder data inom den officiella statistiken för att göra den tillgänglig och lättförståelig för den intresserade allmänheten. T.ex <a href=\"https://kommunsiffror.scb.se/\" rel=\"nofollow ugc\">Kommuner i siffror</a> har jag som privatperson använt flera gånger.</p>\n<p dir=\"auto\">Vet att SCB också har ett regeringsuppdrag nu där man utforskar samverkan kring visualiseringar. Någon här från SCB som vill berätta lite hur ni arbetat?</p>\n",
+      "pid": 1535,
+      "tid": 361,
+      "timestamp": 1652982653537,
+      "toPid": "1529",
+      "uid": 7,
+      "edited": 1652982671510,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 455,
+            "username": "fredisaksson",
+            "userslug": "fredisaksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "fredisaksson",
+            "icon:text": "F",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-05-20T06:46:59.140Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-05-19T17:50:53.537Z",
+      "editedISO": "2022-05-19T17:51:11.510Z",
+      "index": 1,
+      "parent": {
+        "username": "fredisaksson",
+        "displayname": "fredisaksson"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@Kristine_</a> Spännande! Jag hade inte sett \"kommuner i siffror\" tidigare. Det är precis den typ av visualisering jag är inne på. Jag har också hört rykten om samverkan kring visualisering på SCB, precis som du säger vore det spännande att få höra om planerna från något insatt.</p>\n",
+      "pid": 1537,
+      "tid": 361,
+      "timestamp": 1653029219140,
+      "toPid": "1535",
+      "uid": 455,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-06-13T12:32:13.835Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-05-20T06:46:59.140Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 455,
+        "username": "fredisaksson",
+        "userslug": "fredisaksson",
+        "reputation": 6,
+        "postcount": 4,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1654006662454,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "fredisaksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2022-05-31T14:17:42.454Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/455\">@fredisaksson</a> Håller helt med i dina slutsatser.</p>\n<p dir=\"auto\">Ja, en god dialog är en förutsättning för att data ska komma till användning. Det finns flera bra exempel på grupperingar som är domänspecifika:</p>\n<p dir=\"auto\"><a href=\"https://closer.lindholmen.se/\" rel=\"nofollow ugc\">https://closer.lindholmen.se/</a> för godstransport</p>\n<p dir=\"auto\"><a href=\"https://www.swedishjobtech.se/\" rel=\"nofollow ugc\">https://www.swedishjobtech.se/</a> för arbetsmarknaden</p>\n<p dir=\"auto\">Vinnovas datalabb...</p>\n<p dir=\"auto\">Hoppas och uppmanar till delning av goda exempel som kan hjälpa enskilda dataproducenter att \"göra rätt\".</p>\n",
+      "pid": 1584,
+      "tid": 361,
+      "timestamp": 1655110861119,
+      "toPid": "1529",
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-06-13T09:01:01.119Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "fredisaksson",
+        "displayname": "fredisaksson"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/455\">@fredisaksson</a> just kommunen i siffror kopplade vi ihop med 290 kommunartiklar på sv:Wikipedia på 2 timmar eftersom just kommunkoden i detta fall fungerar klockrent  med den mallstruktur vi har som bygger på <a href=\"https://en.wikipedia.org/wiki/Don%27t_repeat_yourself\" rel=\"nofollow ugc\">DRY</a> (<a href=\"https://sv.wikipedia.org/wiki/Mall:Faktamall_svensk_kommun_WD\" rel=\"nofollow ugc\">WD kommunmallen</a>)</p>\n<p dir=\"auto\">se task <a href=\"https://phabricator.wikimedia.org/T266863\" rel=\"nofollow ugc\">T266863</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1655122694025-4490260f-c5a8-4008-83a7-1fafdbed6eab-image-resized.png\" alt=\"4490260f-c5a8-4008-83a7-1fafdbed6eab-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Dessa artiklar har <a href=\"https://pageviews.wmcloud.org/massviews/?platform=all-access&amp;agent=user&amp;source=category&amp;range=this-year&amp;subjectpage=0&amp;subcategories=0&amp;sort=views&amp;direction=1&amp;view=list&amp;target=https://sv.wikipedia.org/wiki/Kategori:Sveriges_kommuner\" rel=\"nofollow ugc\">&gt; 2,2 miljoner visningar sista året</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1655123196174-424413cb-bead-48b5-8517-03892eb95ef0-image-resized.png\" alt=\"424413cb-bead-48b5-8517-03892eb95ef0-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Och en kommun artikel som <a href=\"https://pageviews.wmcloud.org/langviews/?project=en.wikipedia.org&amp;platform=all-access&amp;agent=user&amp;range=this-year&amp;sort=views&amp;direction=1&amp;view=list&amp;page=Solna%20Municipality\" rel=\"nofollow ugc\">Solna kommun finns på 54 språk</a> så hade SCB levererat på fler språk hade det varit magiskt....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1655123315669-d33a525a-851e-4a74-ae19-5adb461f8350-image-resized.png\" alt=\"d33a525a-851e-4a74-ae19-5adb461f8350-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li><strong>intressant att fler läser engelska artikeln än svenska</strong>.... hur många myndigheter/kommuner levererar allt innehåll på engelska...</li>\n</ul>\n<p dir=\"auto\">Sedan ville vi ha mer dialog <a href=\"https://phabricator.wikimedia.org/T266870\" rel=\"nofollow ugc\">T266870 SCB Wikidata framtid</a> men fick ingen återkoppling dessa myndigheter <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" />  OT vi letar med ljus och lykta nu att prata mer med kulturinstitutionerna se <a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen#Bra_steg_fram%C3%A5t\" rel=\"nofollow ugc\">Wikipedia Bybrunnen</a></p>\n<p dir=\"auto\"><strong><a href=\"https://twitter.com/hashtag/linkeddataneedslinkedpeople?src=hash\" rel=\"nofollow ugc\">Linked data needs linked people</a></strong></p>\n",
+      "pid": 1587,
+      "tid": 361,
+      "timestamp": 1655123533835,
+      "toPid": "1537",
+      "uid": 24,
+      "edited": 1655124090600,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-06-13T12:32:13.835Z",
+      "editedISO": "2022-06-13T12:41:30.600Z",
+      "index": 4,
+      "parent": {
+        "username": "fredisaksson",
+        "displayname": "fredisaksson"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "361",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/361.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/361",
+  "bodyClass": "page-topic page-topic-361 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Risk för datadeponi - Hur säkerställer vi att det byggs nya tjänster?"
+        },
+        {
+          "name": "description",
+          "content": "Hej, Jag är oerhört glad över att se den ökade aktiviteten och intresset för öppna data efter ha följt frågan de senaste 3 åren, framförallt inom utbildning- och arbetsmarknad. Jag börjar dock bli orolig för att modellen många myndigheter nu siktar mot in..."
+        },
+        {
+          "property": "og:title",
+          "content": "Risk för datadeponi - Hur säkerställer vi att det byggs nya tjänster?"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, Jag är oerhört glad över att se den ökade aktiviteten och intresset för öppna data efter ha följt frågan de senaste 3 åren, framförallt inom utbildning- och arbetsmarknad. Jag börjar dock bli orolig för att modellen många myndigheter nu siktar mot in..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-05-18T12:44:02.899Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-06-13T12:32:13.835Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/361",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/361/risk-för-datadeponi-hur-säkerställer-vi-att-det-byggs-nya-tjänster",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/361.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/fredisaksson"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1347 @@
+{
+  "cid": 23,
+  "lastposttime": 1634238488857,
+  "mainPid": 436,
+  "postcount": 11,
+  "slug": "109/teckenkodning-för-csv-data",
+  "tid": 109,
+  "timestamp": 1620685987802,
+  "title": "Teckenkodning för CSV-data?",
+  "uid": 125,
+  "viewcount": 1376,
+  "postercount": 4,
+  "teaserPid": 872,
+  "downvotes": 0,
+  "upvotes": 2,
+  "oldCid": 1,
+  "tags": [
+    {
+      "value": "leverantörsfaktura",
+      "valueEscaped": "leverantörsfaktura",
+      "valueEncoded": "leverant%C3%B6rsfaktura",
+      "class": "leverantörsfaktura"
+    },
+    {
+      "value": "maskinläsbarhet",
+      "valueEscaped": "maskinläsbarhet",
+      "valueEncoded": "maskinl%C3%A4sbarhet",
+      "class": "maskinläsbarhet"
+    }
+  ],
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Teckenkodning för CSV-data?",
+  "timestampISO": "2021-05-10T22:33:07.802Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-10-14T19:08:08.857Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej, jag tittade på leverantörsfakturor.csv från DIGG.</p>\n<p dir=\"auto\"><a href=\"https://www.dataportal.se/sv/datasets/760_1544/leverantorsfakturor\" rel=\"nofollow ugc\">https://www.dataportal.se/sv/datasets/760_1544/leverantorsfakturor</a></p>\n<p dir=\"auto\">Det verkar som textfilen har en systemspecifik kodning (Windows-1252 eller ISO-8859-1?).</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620685817453-2904798e-d3e0-4cd4-b890-99b84322d4b2-image.png\" alt=\"2904798e-d3e0-4cd4-b890-99b84322d4b2-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">I metadatan står att formatet är text/csv, men jag hittar inte någon information om teckenkodningen.</p>\n<blockquote>\n<p dir=\"auto\">Webbadress för åtkomst<br />\n<a href=\"https://catalog.digg.se/store/1/resource/33\" rel=\"nofollow ugc\">https://catalog.digg.se/store/1/resource/33</a><br />\nFormat<br />\nVanliga mediatyper<br />\nCSV (.csv)</p>\n</blockquote>\n<p dir=\"auto\">Borde inte teckenkodningen vara UTF-8 eller anges uttryckligen i metadatan så att konsumenten kan avkoda innehållet korrekt?</p>\n<p dir=\"auto\">Lade märke till också att frågan om en standardteckenkodning togs upp i utkastet till <a href=\"https://community.dataportal.se/post/274\">specifikation för badplatser</a> som refererades i en annan tråd:</p>\n<blockquote>\n<p dir=\"auto\">6 . CSV-formatet<br />\nDet enklaste formatet att stödja är CSV formatet enligt RFC4180.<br />\n<strong>Utöver det som sägs i RFC4180 krävs alltid att informationen är uttryckt med teckenkodning UTF-8.</strong></p>\n</blockquote>\n",
+      "pid": 436,
+      "tid": 109,
+      "timestamp": 1620685987802,
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-11T06:11:31.085Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "edited": 1620803437316,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-05-10T22:33:07.802Z",
+      "editedISO": "2021-05-12T07:10:37.316Z",
+      "index": 0,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a><br />\nTack för input! Jag tar med mig frågan. Personen ifråga som gör utdragen är ledig i veckan så jag återkommer när denne är åter.</p>\n<p dir=\"auto\">Vänliga hälsningar,<br />\nKristine</p>\n",
+      "pid": 437,
+      "tid": 109,
+      "timestamp": 1620713491085,
+      "toPid": "436",
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-05-11T20:27:08.477Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-11T06:11:31.085Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> Ok, innehållet kanske borde ses över lite i en del andra avseenden också.</p>\n<p dir=\"auto\">En del fakturanummer verkar ha formaterats som talvärden med vetenskaplig notation.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620763171860-611343ac-75bf-4590-8763-0711a3553caa-image.png\" alt=\"611343ac-75bf-4590-8763-0711a3553caa-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Här en icke kredit-faktura med negativt belopp? Jag vet inte om sånt händer, men det var ett udda fall i posterna.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620763980186-022479db-972b-4829-9b71-5251224bde35-image.png\" alt=\"022479db-972b-4829-9b71-5251224bde35-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">I samband med det undrar jag också om talformatet för kolumner finns angivna i metadatan, eller hur vet man vid maskin-inläsning om komma eller punkt används som decimalavgränsare?</p>\n",
+      "pid": 445,
+      "tid": 109,
+      "timestamp": 1620764828477,
+      "toPid": "437",
+      "uid": 125,
+      "edited": 1620765254410,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-11T20:27:08.477Z",
+      "editedISO": "2021-05-11T20:34:14.410Z",
+      "index": 2,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> Hej, hur har det gått med detta dataset?</p>\n<p dir=\"auto\">Om datan ska vara maskinläsbar behöver det finnas metadata för teckenkodning och talformat som används.</p>\n<p dir=\"auto\">Är teckenkodningen Windows-1252, UTF-8, UTF-8 BOM?<br />\nVilken separator används som fältavgränsare?<br />\nVilken decimalseparator och tusentalavgränsare används för fält med talformat?</p>\n<p dir=\"auto\">Har DIGG några rekommendationer angående detta?</p>\n<p dir=\"auto\">Hur gör jag som läsare av det publicerade datasetet för att tolka innehållet korrekt?</p>\n",
+      "pid": 766,
+      "tid": 109,
+      "timestamp": 1633166765298,
+      "toPid": "437",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-12T11:00:32.323Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-02T09:26:05.298Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Hej,<br />\nJag vill be om ursäkt för att det har tagit tid att besvara din fråga. Ser även att jag missade att återkoppla till dig i somras. Jag behöver ta frågan vidare med min kollega och ber om att få återkomma.</p>\n<p dir=\"auto\">Vänliga hälsningar,<br />\nKristine</p>\n",
+      "pid": 831,
+      "tid": 109,
+      "timestamp": 1634036432323,
+      "toPid": "766",
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-12T12:06:48.495Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-12T11:00:32.323Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> WOW! Har kollat på dataset, verkligen föredömligt att öppna upp leverantörsfakturor. Lite förvånad att det inte har fått mer uppmärksamhet, finns en stor potential om svensk statsförvaltning följer i DIGG:s fotspår. <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> antar att UTF-8 är ett rimligt val för encoding.</p>\n",
+      "pid": 834,
+      "tid": 109,
+      "timestamp": 1634040408495,
+      "toPid": "831",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-12T12:38:37.804Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-10-12T12:06:48.495Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> sa i <a href=\"/post/834\">Teckenkodning för CSV-data?</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> antar att UTF-8 är ett rimligt val för encoding.</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Det finns en <a href=\"https://www.dataportal.se/sv/specifications/leverantorsreskontra/latest\" rel=\"nofollow ugc\">specifikation för leverantörsreskontra på Dataportal.se</a>. Flera arbetar med att börja följa den och vissa har ännu inte angett på Dataportal att de följer den.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Du har rätt om att UTF-8 är rimligt val. I specifikationen så rekommenderas just UTF-8: <a href=\"https://lankadedata.se/spec/leverantorsreskontra/#csv\" rel=\"nofollow ugc\">https://lankadedata.se/spec/leverantorsreskontra/#csv</a>.</p>\n",
+      "pid": 835,
+      "tid": 109,
+      "timestamp": 1634042317804,
+      "toPid": "834",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "bookmarks": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "votes": 1,
+      "timestampISO": "2021-10-12T12:38:37.804Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Tack, då kan man förstås fundera över varför DIGG inte verkar ha känt till den specifikationen.</p>\n<p dir=\"auto\">Jag är osäker på om schemalänken fanns på sidan för datasetet förut, men den säger hur som helst ingenting om teckenkodning, separatortecken eller datatyper, det är som synes bara en lista över kolumnnamn.</p>\n<p dir=\"auto\"><a href=\"https://lankadedata.se/spec/leverantorsreskontra/schema.json\" rel=\"nofollow ugc\">https://lankadedata.se/spec/leverantorsreskontra/schema.json</a></p>\n<p dir=\"auto\">Det är bra att det finns en manuell specifikation för leverantörsreskontra som beskriver fältvärden och sådant, men den svarar inte heller inte på de frågor jag ställde angående CSV-formatet. Hur ska jag veta som datakonsument hur jag ska avkoda filen?</p>\n<p dir=\"auto\">I specifikationens punkt 3 om CSV-formatet står det:</p>\n<blockquote>\n<p dir=\"auto\">För den här specifikationen innebär det att <strong>implementatörer rekommenderas även stödja semikolonseparerade filer</strong>.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\"><strong>För att särskilja data som är semikolonseparerade från kommaseparerade måste första raden se ut som</strong>:<br />\nkopare_id;kopare;verifikationsnummer;leverantor;leverantor_id;konto_nr;konto_text;belopp;datum;forvaltning;faktura_nr;grund;avtal;kommun_id,s_kod_nr</p>\n</blockquote>\n<p dir=\"auto\">(Här har det dessutom smugit sig in en felskrivning där sista separatorn är ett kommatecken.)</p>\n<p dir=\"auto\">Jag tycker det verkar märkligt. Är det jag som datakonsument som ska vara \"implementatören\" och stödja andra format än det standardiserade?</p>\n<p dir=\"auto\">Det framgår inte tydligt hur jag ska lösa det från konsumentsidan.</p>\n<p dir=\"auto\">Det står \"för att särskilja data måste första raden se ut som ...\", men ingen hänvisning till hur detta stöds eller implementeras i bibliotek eller programvaror. Ni verkar här uppmuntra dataleverantörer att lägga ut variationer som avviker från standardformatet och lämnar till konsumenten att tolka detta utifrån filinnehållet istället för att deklarera formatet i metadata.</p>\n<p dir=\"auto\">Sedan blir det ju en motsägelse då man bryter mot specifikationen om man lägger ut en svenskspråkig Excel-export med semikolonavskiljare för fält och kommatecken för decimaltal?</p>\n<blockquote>\n<p dir=\"auto\"><strong>Denna specifikation kräver dock att man använder punkt i decimaltal</strong> (se 2.1).</p>\n</blockquote>\n<p dir=\"auto\">Antingen bör ni väl hålla er till standardiserad CSV enligt RFC eller deklarera i metadata all information om avvikelser som behövs för automatisk inläsning?</p>\n<p dir=\"auto\">Så vitt jag kan se beskrivs det faktiskt i dokumentationen ni hänvisar till hur detta ska göras:</p>\n<p dir=\"auto\"><a href=\"https://www.w3.org/TR/tabular-metadata/#dialect-descriptions\" rel=\"nofollow ugc\">https://www.w3.org/TR/tabular-metadata/#dialect-descriptions</a></p>\n<p dir=\"auto\"><a href=\"https://www.w3.org/TR/tabular-data-primer/#dialects\" rel=\"nofollow ugc\">https://www.w3.org/TR/tabular-data-primer/#dialects</a></p>\n<blockquote>\n<p dir=\"auto\">6.5 What about CSV that isn't standard CSV?<br />\n<strong>A lot of what's called \"CSV\" that's published on the web isn't actually CSV. It might use something other than commas</strong> (such as tabs or semi-colons) as separators between values, or might have multiple header lines.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\"><strong>The metadata that's described here can be used with files that contain tabular data but that aren't CSV.</strong> You can provide guidance to processors that are trying to parse those files through the dialect property on a table description.</p>\n</blockquote>\n<p dir=\"auto\">EXAMPLE 126</p>\n<pre><code>{\n  \"@context\": \"http://www.w3.org/ns/csvw\",\n  \"url\": \"http://example.org/data/unemployment.tsv\",\n  \"dialect\": {\n    \"delimiter\": \"\\t\",\n    \"headerRowCount\": 3\n  }\n}\n</code></pre>\n<p dir=\"auto\">I datasetet på dataportalen så talar ni dock bara om att jag ska ignorera blanktecken runt fältvärden:</p>\n<pre><code>  \"dialect\": {\"trim\": true},\n</code></pre>\n",
+      "pid": 843,
+      "tid": 109,
+      "timestamp": 1634068908016,
+      "uid": 125,
+      "edited": 1634068980967,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-10-12T20:16:10.210Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "bookmarks": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-12T20:01:48.016Z",
+      "editedISO": "2021-10-12T20:03:00.967Z",
+      "index": 7,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 844,
+      "tid": 109,
+      "timestamp": 1634069770210,
+      "toPid": "843",
+      "uid": 125,
+      "deleted": 1,
+      "deleterUid": 125,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-12T20:16:10.210Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a></a> sa i <a href=\"/post/843\">Teckenkodning för CSV-data?</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Tack, då kan man förstås fundera över varför DIGG inte verkar ha känt till den specifikationen.</p>\n</blockquote>\n<p dir=\"auto\">Det kan finnas flera olika anledningar men en generell anledning är att specifikationen inte har kommunicerats särskilt mycket externt. Denna spec som vidareutvecklades av NSÖD lyfts t.ex. inte inför workshop kring just <a href=\"https://www.goto10.se/event/vagledning-for-specifikationer-av-oppna-datamangder/\" rel=\"nofollow ugc\">Specifikationer idag 2021-10-14</a>. Istället länkas det till en specifikation om leverantörsreskontra från utlandet som ingen i Sverige använder så vitt jag vet.</p>\n<blockquote>\n<p dir=\"auto\">Hur ska jag veta som datakonsument hur jag ska avkoda filen?<br />\n...</p>\n<pre><code>  \"dialect\": {\"trim\": true},\n</code></pre>\n</blockquote>\n<p dir=\"auto\">Tack <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a></a> jag har lagt upp dina synpunkter på <a href=\"https://gitlab.com/lankadedata/spec/levreskontra/-/issues\" rel=\"nofollow ugc\">Gitlab-projektet</a> så gott jag kan. Du är varmt välkommen att bidra om just denna spec där.</p>\n",
+      "pid": 861,
+      "tid": 109,
+      "timestamp": 1634198719684,
+      "toPid": "843",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-14T19:08:08.857Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-10-14T08:05:19.684Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Ok, tack för uppdateringen.</p>\n",
+      "pid": 872,
+      "tid": 109,
+      "timestamp": 1634238488857,
+      "toPid": "861",
+      "uid": 125,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-14T19:08:08.857Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 1,
+          "type": "move",
+          "uid": 7,
+          "id": 129,
+          "timestamp": 1648475361353,
+          "timestampISO": "2022-03-28T13:49:21.353Z",
+          "user": {
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "uid": 7,
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          "fromCategory": {
+            "name": "Efterfråga data och API:er",
+            "slug": "1/efterfråga-data-och-api-er",
+            "icon": "fa-bullhorn",
+            "color": "#fff",
+            "bgColor": "#d59151"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:49:21.353Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 1,
+      "type": "move",
+      "uid": 7,
+      "id": 129,
+      "timestamp": 1648475361353,
+      "timestampISO": "2022-03-28T13:49:21.353Z",
+      "user": {
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "uid": 7,
+        "displayname": "Kristine_",
+        "icon:text": "K",
+        "icon:bgColor": "#795548"
+      },
+      "fromCategory": {
+        "name": "Efterfråga data och API:er",
+        "slug": "1/efterfråga-data-och-api-er",
+        "icon": "fa-bullhorn",
+        "color": "#fff",
+        "bgColor": "#d59151"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:49:21.353Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "109",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/109.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/109",
+  "bodyClass": "page-topic page-topic-109 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Teckenkodning för CSV-data?"
+        },
+        {
+          "name": "description",
+          "content": "Hej, jag tittade på leverantörsfakturor.csv från DIGG. https://www.dataportal.se/sv/datasets/760_1544/leverantorsfakturor Det verkar som textfilen har en systemspecifik kodning (Windows-1252 eller ISO-8859-1?).  I metadatan står att formatet är text/csv, ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Teckenkodning för CSV-data?"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, jag tittade på leverantörsfakturor.csv från DIGG. https://www.dataportal.se/sv/datasets/760_1544/leverantorsfakturor Det verkar som textfilen har en systemspecifik kodning (Windows-1252 eller ISO-8859-1?).  I metadatan står att formatet är text/csv, ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-05-10T22:33:07.802Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-10-14T19:08:08.857Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1620685817453-2904798e-d3e0-4cd4-b890-99b84322d4b2-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1620685817453-2904798e-d3e0-4cd4-b890-99b84322d4b2-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "488"
+        },
+        {
+          "property": "og:image:height",
+          "content": "79"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/109",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/109/teckenkodning-för-csv-data",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/109.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonor"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

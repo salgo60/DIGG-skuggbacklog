@@ -1,0 +1,1557 @@
+{
+  "cid": 25,
+  "lastposttime": 1724595175545,
+  "mainPid": 4654,
+  "postcount": 14,
+  "slug": "910/wgs84-vs-sweref99",
+  "tid": 910,
+  "timestamp": 1708323686366,
+  "title": "WGS84 vs SWEREF99",
+  "uid": 1727,
+  "viewcount": 1701,
+  "postercount": 6,
+  "tags": [
+    {
+      "value": "wgs84",
+      "valueEscaped": "wgs84",
+      "valueEncoded": "wgs84",
+      "class": "wgs84"
+    },
+    {
+      "value": "sweref99",
+      "valueEscaped": "sweref99",
+      "valueEncoded": "sweref99",
+      "class": "sweref99"
+    },
+    {
+      "value": "geojson",
+      "valueEscaped": "geojson",
+      "valueEncoded": "geojson",
+      "class": "geojson"
+    },
+    {
+      "value": "projektion",
+      "valueEscaped": "projektion",
+      "valueEncoded": "projektion",
+      "class": "projektion"
+    },
+    {
+      "value": "kartprojektion",
+      "valueEscaped": "kartprojektion",
+      "valueEncoded": "kartprojektion",
+      "class": "kartprojektion"
+    }
+  ],
+  "downvotes": 0,
+  "upvotes": 3,
+  "teaserPid": 4797,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "WGS84 vs SWEREF99",
+  "timestampISO": "2024-02-19T06:21:26.366Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-08-25T14:12:55.545Z",
+  "pinExpiryISO": "",
+  "votes": 3,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">I Varberg har vi påbörjat arbetet att publicera öppna geodata.</p>\n<p dir=\"auto\">Internt lagrar vi geodata i SWEREF99 men många öppna data-specifikationer bygger på WGS84. Vi kan enkelt konvertera till WGS84 vid publicering men det gör att vi får ändrad och sämre kvalitet på data och vi är tveksamma till det.<br />\nLite sämre precision spelar inte så stor roll om man ska hitta till en badplats men om man ska göra en ansökan kopplat till bygglov kan det vara svårare. Eftersom vi inte vet vad användarna kommer göra med data blir vi fundersamma på vad som är rätt att göra.<br />\nVår fundering är om specifikationerna ej ännu är helt anpassade för geodata utan främst kopplar data till en punkt (position) då detta är möjligt utan detaljerade hänsyn till geometri, projektion och precision.</p>\n<p dir=\"auto\">Information om SWERF99 vs. WGS84<br />\nNär man konverterar mellan de olika systemen finns ett inbyggt \"fel\" på 7-8 dm och skillnaden ökar med ett par cm per år. Detta beror på att SWEREF99 är fixerat över Sverige medan WGS84 är globalt kopplat till longitud och latitud internationellt. Tack vare kontinentaldriften flyttar Sverige på sig lite varje år och skillnaden blir större och större.</p>\n<p dir=\"auto\">GeoJSON bygger på WGS84 så om vi bara ska förlita oss på SWEREF99 kan vi inte använda GeoJSON. Vi har uppfattat att användare ofta föredrar GeoJSON.</p>\n<p dir=\"auto\">Hur resonerar ni kring denna fråga? Vad har vi missat när vi tänker kring detta? Vad är rätt väg framåt?</p>\n",
+      "pid": 4654,
+      "tid": 910,
+      "timestamp": 1708323686366,
+      "uid": 1727,
+      "edited": 1708323774873,
+      "editor": {
+        "uid": 1727,
+        "username": "maomao",
+        "userslug": "maomao",
+        "displayname": "maomao"
+      },
+      "downvotes": 0,
+      "upvotes": 3,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2024-02-19T06:21:26.366Z",
+      "editedISO": "2024-02-19T06:22:54.873Z",
+      "index": 0,
+      "user": {
+        "uid": 1727,
+        "username": "maomao",
+        "userslug": "maomao",
+        "reputation": 3,
+        "postcount": 1,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1708324829055,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "maomao",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2024-02-19T06:40:29.055Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Om det kan vara till någon ledning så har den Nationella geodataplattformen beslutat att frångå standarden för öppna data i geoJSON och leverera utdata i SWEREF 99 TM (EPSG:3006). Tyvärr betyder det att deras nedladdade geoJSON kommer helt utan uppgift om koordinatsystem. Så vitt jag ser så har ni utnyttjat en crs-sektion för att ange EPSG:3007 vilket ju är bättre. Å andra sidan, geoJSON standarden är rätt tydlig och förutsätter WGS84 av bl a detta skäl:<br />\n<em>In general, GeoJSON  processing software is not expected to have access to coordinate reference system databases or to have network access to coordinate reference system transformation parameters.  However, where all involved parties have a prior arrangement, alternative coordinate reference systems can be used without risk of data being misinterpreted.</em><br />\nOm valet enbart beror på att acceptera ett fel på 7-8 dm eller att följa standarden för GeoJSON så skulle jag välja det senare, i alla fall för de typer av data ni har publicerat hittills.<br />\nMen varför kan man bara hitta era öppna geodata på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a>? Jag letade i första hand på <a href=\"http://varberg.se\" rel=\"nofollow ugc\">varberg.se</a> och det är jag nog inte ensam om.</p>\n",
+      "pid": 4655,
+      "tid": 910,
+      "timestamp": 1708443119275,
+      "uid": 109,
+      "edited": 1708460556900,
+      "editor": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "displayname": "Matself"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-03-07T08:15:57.141Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-02-20T15:31:59.275Z",
+      "editedISO": "2024-02-20T20:22:36.900Z",
+      "index": 1,
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a> Jag hade missat ditt svar här Mats, konstigt. Tackar för input!</p>\n<p dir=\"auto\">När det gäller <a href=\"http://Varberg.se\" rel=\"nofollow ugc\">Varberg.se</a> så jobbar vi på det. Vi ska skaffa en egen metadataportal som kommer underlätta publicering där. Just nu håller de på och uppdaterar hela <a href=\"http://Varberg.se\" rel=\"nofollow ugc\">Varberg.se</a> och de vill ogärna ta in ny info innan de bytt hela webben. Lite av ett mellanläge kan man säga men vi är på bollen.</p>\n",
+      "pid": 4679,
+      "tid": 910,
+      "timestamp": 1709799357141,
+      "toPid": "4655",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-03-07T08:15:57.141Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a></p>\n<p dir=\"auto\">Hej, för framtida specifikationer och publicerade datamängder, skulle det vara till någon hjälp om man som publicist kan ange vilket koordinatsystem och format som man vill ange, och kunna välja vilket som helst, eller borde man enas om att WGS84 ska vara obligatorisk standard  i egna specifikationer och att den som önskar kan lägga till Sweref99TM med koordinatsystem specificerat vid sidan av? Att dataobjektet kan beskrivas med både ett geoJSON-standard-format och ett valfritt annat eget format/koordinatformat vid sidan av?</p>\n",
+      "pid": 4708,
+      "tid": 910,
+      "timestamp": 1712585469929,
+      "toPid": "4655",
+      "uid": 127,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-04-08T19:05:57.706Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-04-08T14:11:09.929Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1727\">@maomao</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a><br />\nJag har förstås några åsikter i frågan <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":-)\" alt=\"🙂\" /></p>\n<ol>\n<li>\n<p dir=\"auto\">Geojson är en standard och därmed gäller wgs84. Själv använder jag <a href=\"https://github.com/bamcis-io/GeoJSON\" rel=\"nofollow ugc\">https://github.com/bamcis-io/GeoJSON</a> för att hantera Geojson och eftersom det är Open Source så har detta paket numera (på min begäran) en möjlighet att användas även om det råkar ligga SWEREF i filerna.</p>\n</li>\n<li>\n<p dir=\"auto\">Geojson är ett smidigt format med stort stöd inom open source världen till skillnad från exempelvis shp.</p>\n</li>\n<li>\n<p dir=\"auto\">Den nogrannhet som får med WGS84 är tillräcklig inom det område jag rör mig dvs friluftsliv.</p>\n</li>\n<li>\n<p dir=\"auto\">Jag har full förståelse för att upplösningen för WGS84 inte är tillräckligt bra för en del ändamål.</p>\n</li>\n<li>\n<p dir=\"auto\">crs är numera bortplockat från standarden. Personligen tycker jag detta är synd.</p>\n</li>\n</ol>\n<p dir=\"auto\">En lösning som jag vet att exempelvis Sundsvalls kommun har är en flagga som när man anropar deras API anger om man vill ha koordinater i WGS84 eller innehåller SWEREF.</p>\n",
+      "pid": 4709,
+      "tid": 910,
+      "timestamp": 1712603157706,
+      "toPid": "4708",
+      "uid": 1679,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-04-18T08:57:50.305Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-04-08T19:05:57.706Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Istället för att försöka krångla in ett nationellt referenssystem i Geojson kanske man ska tänka i två banor: Dels tillhandahållande i Geojson enligt helt enligt standard för dem som gillar det formatet (och accepterar den lägre upplösningen) och dels i något av dagens öppna geodataformat (T ex Geopackage, Geoparquet, Flatgeobuf eller liknande). Här är det fritt att sätta referenssystem, och för en del användare kan det vara lättare att konsumera de formaten. I vilket fall skapar man en valmöjlighet. I en professionell geodata-miljö måste det vara okomplicerat att exportera en datamängd i parallella spår.</p>\n",
+      "pid": 4718,
+      "tid": 910,
+      "timestamp": 1713430670305,
+      "toPid": "4709",
+      "uid": 109,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-04-24T12:43:38.092Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-04-18T08:57:50.305Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a> Jag kan bara instämma. Kommer inte ihåg på rak arm var det var men jag stötte på ett api förra året där man som en query-parameter kunde ange vilket projektion/koordinatsystem som skulle returneras. Fungerade för mig <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":-)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Att data tillhandahålls i ett format behöver inte betyda att det inte kan tillhandahållas i andra format.</p>\n<p dir=\"auto\">Personligen älskar jag dataportaler där:</p>\n<ul>\n<li>det är lätt att hitta vilka datamängder som finns</li>\n<li>det finns flera alternativa metoder att hämta data</li>\n<li>det går att välja dataformat</li>\n<li>man redan vid källan kan filtrera vad man vill ha både i fråga om objekt-typer och fält</li>\n<li>allt är väl beskrivet</li>\n<li>licensformen är tydligt angiven.</li>\n</ul>\n",
+      "pid": 4722,
+      "tid": 910,
+      "timestamp": 1713962618092,
+      "toPid": "4718",
+      "uid": 1679,
+      "edited": 1713962716744,
+      "editor": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "displayname": "ChristerOlsson"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-04-25T17:30:45.027Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-04-24T12:43:38.092Z",
+      "editedISO": "2024-04-24T12:45:16.744Z",
+      "index": 6,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Allt det som NGP <em>inte</em> är.</p>\n",
+      "pid": 4723,
+      "tid": 910,
+      "timestamp": 1714066245027,
+      "toPid": "4722",
+      "uid": 109,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-04-25T17:30:45.027Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> I anrop till geoserver och WFS kan man med en parameter speca vilket referenssystem som ska användas.</p>\n",
+      "pid": 4728,
+      "tid": 910,
+      "timestamp": 1714480502463,
+      "toPid": "4722",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-05-08T14:14:36.331Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-04-30T12:35:02.463Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> Det är rimligt att det är så. Det är dock inte alltid så lätt att lista ut som utomstående hur parametrarna skall se ut. Verkar finnas några varianter.</p>\n",
+      "pid": 4735,
+      "tid": 910,
+      "timestamp": 1715177676331,
+      "toPid": "4728",
+      "uid": 1679,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-05-13T10:14:18.076Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-05-08T14:14:36.331Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Det där är en intressant fråga, som aktualiseras i takt med att all alltmer 'öppen data' enbart tillhandahålls med maskinkommunikation i 'öppna' API:er. Ett brännande exempel är Lantmäteriets lösning för 'öppna' geodata, den nationella geodataplattformen (NGP).<br />\nHur ser metadata ut för ett API? Beskriver det hur anrop ska ske, vilka variabler som finns tillgängliga och hur svaren ska tolkas?<br />\nFinns det någon metadatastandard för API:er?</p>\n",
+      "pid": 4736,
+      "tid": 910,
+      "timestamp": 1715595258076,
+      "toPid": "4735",
+      "uid": 109,
+      "edited": 1715595283522,
+      "editor": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "displayname": "Matself"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-05-15T06:54:10.413Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-05-13T10:14:18.076Z",
+      "editedISO": "2024-05-13T10:14:43.522Z",
+      "index": 10,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Nej en dokumentation är rimligt.</p>\n",
+      "pid": 4737,
+      "tid": 910,
+      "timestamp": 1715755923777,
+      "toPid": "4735",
+      "uid": 9,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-05-15T06:52:03.777Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a> Bra frågor. I DCAT-AP-SE kan man beskriva att man följer en standard men det kommuniceras ju inte via APIet för data.</p>\n",
+      "pid": 4738,
+      "tid": 910,
+      "timestamp": 1715756050413,
+      "toPid": "4736",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-05-15T06:54:10.413Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a> Jag håller helt med. Geopackage stöds nu tex av JOSM som används inom OpenStreetMap så det går lika bra som GeoJSON.</p>\n<p dir=\"auto\">För mig som datakonsument är huvudsaken att val av koordinatsystem tydligt specificeras. Jag vill inte ha GeoJSON som inte följer standard.</p>\n",
+      "pid": 4797,
+      "tid": 910,
+      "timestamp": 1724595175545,
+      "toPid": "4718",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-08-25T14:12:55.545Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#5a6751",
+    "cid": 25,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppna standarder och format",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppna standarder och format</p>\n",
+    "disabled": 0,
+    "icon": "fa-newspaper-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppna standarder och format",
+    "numRecentReplies": 1,
+    "order": 6,
+    "parentCid": 0,
+    "post_count": 252,
+    "slug": "25/öppna-standarder-och-format",
+    "subCategoriesPerPage": 10,
+    "topic_count": 34,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 252,
+    "totalTopicCount": 34
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "910",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/910.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppna standarder och format",
+      "url": "/category/25/öppna-standarder-och-format",
+      "cid": 25
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/910",
+  "bodyClass": "page-topic page-topic-910 template-topic page-topic-category-25 page-topic-category-öppna-standarder-och-format parent-category-25 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "WGS84 vs SWEREF99"
+        },
+        {
+          "name": "description",
+          "content": "I Varberg har vi påbörjat arbetet att publicera öppna geodata. Internt lagrar vi geodata i SWEREF99 men många öppna data-specifikationer bygger på WGS84. Vi kan enkelt konvertera till WGS84 vid publicering men det gör att vi får ändrad och sämre kvalitet ..."
+        },
+        {
+          "property": "og:title",
+          "content": "WGS84 vs SWEREF99"
+        },
+        {
+          "property": "og:description",
+          "content": "I Varberg har vi påbörjat arbetet att publicera öppna geodata. Internt lagrar vi geodata i SWEREF99 men många öppna data-specifikationer bygger på WGS84. Vi kan enkelt konvertera till WGS84 vid publicering men det gör att vi får ändrad och sämre kvalitet ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-02-19T06:21:26.366Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-08-25T14:12:55.545Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppna standarder och format"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/910",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/910/wgs84-vs-sweref99",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/910.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/25/öppna-standarder-och-format"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maomao"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

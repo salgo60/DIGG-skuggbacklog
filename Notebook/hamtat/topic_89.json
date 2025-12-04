@@ -1,0 +1,885 @@
+{
+  "cid": 1,
+  "lastposttime": 1618481524289,
+  "mainPid": 283,
+  "postcount": 4,
+  "slug": "89/federerade-persondata-api-er",
+  "tid": 89,
+  "timestamp": 1618297706339,
+  "title": "Federerade persondata-API:er",
+  "uid": 128,
+  "viewcount": 779,
+  "postercount": 4,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 297,
+  "tags": [
+    {
+      "value": "mydata",
+      "valueEscaped": "mydata",
+      "valueEncoded": "mydata",
+      "class": "mydata"
+    },
+    {
+      "value": "ombud",
+      "valueEscaped": "ombud",
+      "valueEncoded": "ombud",
+      "class": "ombud"
+    },
+    {
+      "value": "persondata",
+      "valueEscaped": "persondata",
+      "valueEncoded": "persondata",
+      "class": "persondata"
+    }
+  ],
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Federerade persondata-API:er",
+  "timestampISO": "2021-04-13T07:08:26.339Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-04-15T10:12:04.289Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag skulle vilja få tillgång inte bara till öppna data, utan också skyddad data men som handlar om mig själv, så jag kan bygga tjänster där medborgarna kan utgå från sin egen data.</p>\n<p dir=\"auto\">Exempelvis skulle jag vilja:</p>\n<ul>\n<li>kunna begära ut vilka personnummer och organisationsnummer jag har rätt att agera ombud åt.</li>\n<li>kunna hämta ut min vab-kalender från FK så att den kan integreras med min kalender</li>\n<li>kunna hämta ut <a href=\"https://www7.skatteverket.se/portal/apier-och-oppna-data/utvecklarportalen/api/Skattekonto/1.0/%C3%96versikt\" rel=\"nofollow ugc\">min skattedata</a></li>\n</ul>\n<p dir=\"auto\">Ett förslag till hur detta skulle kunna fungera är att DIGG hjälper till att samordna ett sätt att där jag som medborgare med hjälp av e-legitimation kan genomgå en oauth-liknande flöde och ge en tjänsteanvändare möjlighet att ge en tjänst tillgång till min och de entiteter jag är ombud för's persondata eller organisationsdata inom det offentliga. Det bör kunna finnas ett enhetligt sätt att göra detta snarare än att varje myndighet ska ta fram detta själva.</p>\n",
+      "pid": 283,
+      "tid": 89,
+      "timestamp": 1618297706339,
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 132,
+            "username": "Sven-Erik",
+            "userslug": "sven-erik",
+            "picture": "/assets/uploads/profile/132-profileavatar-1618468946339.png",
+            "fullname": "Sven-Erik Ceedigh",
+            "displayname": "Sven-Erik",
+            "icon:text": "S",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 148,
+            "username": "Theo Andersson",
+            "userslug": "theo-andersson",
+            "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+            "fullname": "Theodor Andersson",
+            "displayname": "Theo Andersson",
+            "icon:text": "T",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-04-13T16:10:19.402Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-13T07:08:26.339Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> högst relevant fråga. Har du läst <a href=\"https://www.regeringskansliet.se/regeringsuppdrag/2020/09/uppdrag-att-mojliggora-losningar-for-individen-till-kontroll-och-insyn-av-data-om-individen/\" rel=\"nofollow ugc\">https://www.regeringskansliet.se/regeringsuppdrag/2020/09/uppdrag-att-mojliggora-losningar-for-individen-till-kontroll-och-insyn-av-data-om-individen/</a>?</p>\n<p dir=\"auto\">Syftet är just att skapa förutsättningar för att individen ska kunna \"äga sin egen data\".</p>\n",
+      "pid": 288,
+      "tid": 89,
+      "timestamp": 1618330219402,
+      "toPid": "283",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 2,
+      "bookmarks": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "votes": 2,
+      "timestampISO": "2021-04-13T16:10:19.402Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> DIGG jobbar i dagsläget med att etablera de nya grunddatadomänerna för Person (Skatteverket) och Företag (Bolagsverket) med målet att publicera både informationsmodeller och API:er för Person och Företag som grunddatatjänster via dataportalen framöver. API-tjänster som innehåller personuppgifter kommer dock att kräva avtal mellan konsument och producent enligt ramverket för organisationstillit som utvecklas inom det nationella byggblocket för Tillitsramverk, en viktig grund för tillit och säkerhet i den förvaltningsgemensamma digitala infrastrukturen.</p>\n<p dir=\"auto\">När det gäller att agera ombud åt annan fysisk eller juridisk person så hanteras detta främst i det nya byggblocket Mina ombud som Bolagsverket ansvarar för och som just nu är under utveckling. Du hittar mer information på <a href=\"https://minaombud.se/\" rel=\"nofollow ugc\">https://minaombud.se/</a> samt i byggblocksbeskrivningen här:</p>\n<p dir=\"auto\"><a href=\"https://www.digg.se/4902e0/globalassets/dokument/utveckling-av-digital-forvaltning/digital-infrastruktur/informationsutbyte_byggblocksbeskrivning_mina-ombud_20210129.pdf\" rel=\"nofollow ugc\">https://www.digg.se/4902e0/globalassets/dokument/utveckling-av-digital-forvaltning/digital-infrastruktur/informationsutbyte_byggblocksbeskrivning_mina-ombud_20210129.pdf</a></p>\n<p dir=\"auto\">Här finns mer allmän information om den påbörjade etableringen av den digitala infrastrukturen:</p>\n<p dir=\"auto\"><a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/digital-infrastruktur\" rel=\"nofollow ugc\">https://www.digg.se/utveckling-av-digital-forvaltning/digital-infrastruktur</a></p>\n<p dir=\"auto\">Tipset från Jonas om regeringsuppdraget för kontroll och insyn av data om individen är också intressant i sammanhanget och har kopplingar till framtida lösningar både nationellt och på EU-nivå som utgår från \"MyData\"-principer och inriktningar kring SSI (Self-Sovereign Identity). Detta är dock ett större paradigmskifte för offentlig sektor både i Sverige och i EU där man på EU-nivå pratar om en roadmap med sikte mot 2030 för EU-gemensamma lösningar i produktion.</p>\n<p dir=\"auto\">Notera att EU:s nya datastrategi redan nu nämner \"MyData\"-principerna:</p>\n<p dir=\"auto\"><a href=\"https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:52020DC0066&amp;from=EN\" rel=\"nofollow ugc\">https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:52020DC0066&amp;from=EN</a></p>\n<p dir=\"auto\">\"Till följd av detta förespråkar bland annat rörelsen MyData och andra aktörer 31 åtgärder för att ge enskilda personer verktyg och metoder så att de på detaljnivå kan besluta vad som görs med deras data. Detta kommer att ge betydande fördelar för enskilda personer och deras hälsa och välbefinnande, såsom bättre personliga finanser, minskad miljöpåverkan, problemfri tillgång till offentliga och privata tjänster samt ökad tillsyn och insyn när det gäller deras personuppgifter. Dessa verktyg och metoder omfattar bland annat verktyg för hantering av samtycke, appar för hantering av personuppgifter (även helt decentraliserade lösningar som bygger på blockkedjeteknik) och kooperativ eller truster för personuppgifter som fungerar som nya neutrala mellanhänder i ekonomin för personuppgifter 32 . För närvarande är dessa verktyg fortfarande i sin linda, men de har en betydande potential och behöver en stödjande miljö.\"</p>\n",
+      "pid": 296,
+      "tid": 89,
+      "timestamp": 1618478878065,
+      "toPid": "283",
+      "uid": 132,
+      "edited": 1618479026771,
+      "editor": {
+        "uid": 132,
+        "username": "Sven-Erik",
+        "userslug": "sven-erik",
+        "displayname": "Sven-Erik"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-04-15T09:27:58.065Z",
+      "editedISO": "2021-04-15T09:30:26.771Z",
+      "index": 2,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 132,
+        "username": "Sven-Erik",
+        "userslug": "sven-erik",
+        "reputation": 13,
+        "postcount": 7,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/132-profileavatar-1618468946339.png",
+        "signature": "<p dir=\"auto\">Anställd på Digg. Jobbar med samordning av nationell digital arkitektur med fokus på gränsöverskridande användaridentifiering och datadelning.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1715331100046,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Sven-Erik",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-05-10T08:51:40.046Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> Rapporten kommer vara klar i Juni för publicering enligt nuvarande schema. Vill lägga till att Arbetsförmedlingen leder arbetet med att utveckla en POC inom ramen för uppdraget som kan vara av intresse och att även Ehälsomyndigheten och Skatteverket stöttat och jobbat med egna koncepttest utifrån olika scenarion. Vi tar ett första steg som i kombination med fortsatt utveckling av bl.a. byggblock såsom MinaOmbud och MinProfil m.fl. kan accelerera utvecklingen.</p>\n",
+      "pid": 297,
+      "tid": 89,
+      "timestamp": 1618481524289,
+      "toPid": "283",
+      "uid": 148,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-15T11:16:57.696Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-15T10:12:04.289Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 148,
+        "username": "Theo Andersson",
+        "userslug": "theo-andersson",
+        "reputation": 15,
+        "postcount": 9,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739864957685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Theo Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2025-02-18T07:49:17.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 1,
+          "type": "move",
+          "uid": 7,
+          "id": 135,
+          "timestamp": 1648475574718,
+          "timestampISO": "2022-03-28T13:52:54.718Z",
+          "user": {
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "uid": 7,
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          "fromCategory": {
+            "name": "Efterfråga data och API:er",
+            "slug": "1/efterfråga-data-och-api-er",
+            "icon": "fa-bullhorn",
+            "color": "#fff",
+            "bgColor": "#d59151"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:52:54.718Z\"></span>"
+        },
+        {
+          "fromCid": 23,
+          "type": "move",
+          "uid": 62,
+          "id": 315,
+          "timestamp": 1649764180573,
+          "timestampISO": "2022-04-12T11:49:40.573Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Data",
+            "slug": "23/data",
+            "icon": "fa-comments",
+            "color": "#ffffff",
+            "bgColor": "#000000"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T11:49:40.573Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 1,
+      "type": "move",
+      "uid": 7,
+      "id": 135,
+      "timestamp": 1648475574718,
+      "timestampISO": "2022-03-28T13:52:54.718Z",
+      "user": {
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "uid": 7,
+        "displayname": "Kristine_",
+        "icon:text": "K",
+        "icon:bgColor": "#795548"
+      },
+      "fromCategory": {
+        "name": "Efterfråga data och API:er",
+        "slug": "1/efterfråga-data-och-api-er",
+        "icon": "fa-bullhorn",
+        "color": "#fff",
+        "bgColor": "#d59151"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:52:54.718Z\"></span>"
+    },
+    {
+      "fromCid": 23,
+      "type": "move",
+      "uid": 62,
+      "id": 315,
+      "timestamp": 1649764180573,
+      "timestampISO": "2022-04-12T11:49:40.573Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Data",
+        "slug": "23/data",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#000000"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T11:49:40.573Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#d59151",
+    "cid": 1,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Diskutera data och API:er som du skulle vilja använda eller få tillgång till.",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera data och API:er som du skulle vilja använda eller få tillgång till.</p>\n",
+    "disabled": 0,
+    "icon": "fa-bullhorn",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Efterfråga data och API:er",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 23,
+    "post_count": 186,
+    "slug": "1/efterfråga-data-och-api-er",
+    "topic_count": 21,
+    "undefined": "Vad är \"Tag whitelist\"",
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 186,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "89",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/89.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Efterfråga data och API:er",
+      "url": "/category/1/efterfråga-data-och-api-er",
+      "cid": 1
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/89",
+  "bodyClass": "page-topic page-topic-89 template-topic page-topic-category-1 page-topic-category-efterfråga-data-och-api-er parent-category-23 parent-category-1 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Federerade persondata-API:er"
+        },
+        {
+          "name": "description",
+          "content": "Jag skulle vilja få tillgång inte bara till öppna data, utan också skyddad data men som handlar om mig själv, så jag kan bygga tjänster där medborgarna kan utgå från sin egen data. Exempelvis skulle jag vilja:  kunna begära ut vilka personnummer och organ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Federerade persondata-API:er"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag skulle vilja få tillgång inte bara till öppna data, utan också skyddad data men som handlar om mig själv, så jag kan bygga tjänster där medborgarna kan utgå från sin egen data. Exempelvis skulle jag vilja:  kunna begära ut vilka personnummer och organ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-04-13T07:08:26.339Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-15T10:12:04.289Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Efterfråga data och API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/89",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/89/federerade-persondata-api-er",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/89.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/1/efterfråga-data-och-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/stefan-wallin"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

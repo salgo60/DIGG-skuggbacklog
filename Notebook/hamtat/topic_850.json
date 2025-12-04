@@ -1,0 +1,597 @@
+{
+  "cid": 23,
+  "lastposttime": 1695712620118,
+  "mainPid": 4363,
+  "postcount": 2,
+  "slug": "850/status-hösten-2023-på-offentliga-datamängder-för-en-öppen-och-välfungerande-demokrati",
+  "tid": 850,
+  "timestamp": 1695707280103,
+  "title": "Status hösten 2023 på offentliga datamängder för en öppen och välfungerande demokrati",
+  "uid": 25,
+  "viewcount": 227,
+  "postercount": 2,
+  "teaserPid": 4367,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Status hösten 2023 på offentliga datamängder för en öppen och välfungerande demokrati",
+  "timestampISO": "2023-09-26T05:48:00.103Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-09-26T07:17:00.118Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">TL;DR: Läget är inte bra alls. Vi har inte de datamängder vi skulle behöva för att öka transparens, överblick, innovation och delaktighet i vår demokratiska processer på alla nivåer. Vi har inte lagstiftning som är vettig på området och den lagstiftning vi har följs inte och det får än så länge inga som helst konsekvenser heller. Vi har problem med <a href=\"https://www.statskontoret.se/sok/?q=korruption\" rel=\"nofollow ugc\">korruption i offentlig sektor</a> och bristen på data om beslut och vem som tar dem kombinerat med brist på data om riskbedömningar gör att ingen har överblick.</p>\n<p dir=\"auto\">Vi saknar i dagsläget data om följande på riksnivå:</p>\n<ul>\n<li>lagar (våra lagar är inte öppna data, inte strukturerade, inte länkade) Se <a href=\"https://eur-lex.europa.eu/eli-register/about.html\" rel=\"nofollow ugc\">EUs ELI</a> där ambitionen är att länka olika länders lagstiftning ihop. (Sverige ligger efter många andra länder i EU på detta område och har inte ens påbörjat arbetet verkar det som.)</li>\n<li>motioner och information om de avslagits eller bifallits</li>\n<li>propositioner</li>\n<li>remissinstanser</li>\n<li>remissvar</li>\n<li>departementsserien (minister <a href=\"https://handlingar.se/request/oppna_data_om_departementserien_2#incoming-3206\" rel=\"nofollow ugc\">Erik Slottner nekade nyss</a> att dela den data de har redan i sina system om denna serie, vilket är ett brott mot öppna datalagen som relativt nyligen började gälla, men beslutet går tydligen inte att överklaga)</li>\n<li>data om ledamöter (vi har inga öppna länkade data om våra ledamöter)</li>\n<li>alla myndigheter på alla nivåer</li>\n<li>alla myndigheters avdelningar</li>\n<li>alla myndigheters instruktioner</li>\n<li>alla myndigheters budgetar</li>\n<li>regeringens budgetproposition</li>\n<li>alla offentliga företag och stiftelser på alla nivåer</li>\n<li>alla kommunala intresseorganisationer som SKR, kommunförbund, etc.</li>\n<li>alla universitet</li>\n<li>alla avdelningar på universiteten (vi behöver detta för att länka till publicerad forskning på ett vettigt sätt)</li>\n<li>alla beslut som tas i varenda myndighet eller fullmäktige (i realtid). Min vision är att öppna datorn på morronen och se vilka beslut som tas i realtid i takt med att de rapporteras in och vidimeras mha. elektronisk signatur i ett centralt beslutsstödssystem. Från detta system kan protokoll genereras i whatever format som behövs i verksamheterna, tex pdf.</li>\n<li>alla domare som jobbar i svenska domstolar</li>\n<li>alla domar på alla nivåer och vilka lagar de baseras på (länk)</li>\n</ul>\n<p dir=\"auto\">På det hela taget så kan man fråga sig om varför Regeringen (som förvisso har en flummig strategi) inte har en konkret handlingsplan för digitaliseringen med smarta mål för när det här ska digitaliseras på ett vettigt sätt.</p>\n<p dir=\"auto\">Jag undrar vid det här laget om Regeringen (våra statsråd och deras kansli) såväl som Riksdagens styrelse verkligen är mogna och beredda att ens PÅBÖRJA att gå från html+pdf-endast -&gt; strukturerad data först.</p>\n<p dir=\"auto\">Det finns i dagsläget 5000+ anställda på regeringskansliet (ett helt kvarter i Stockholm) men jag ser inga spår efter:</p>\n<ul>\n<li>dataspecialister som har koll på strukturerade och länkade data, tex RDF</li>\n<li>öppna data kunniga</li>\n<li>spår efter att organisationen håller på att ställa om till öppna strukturerade länkade data internt</li>\n</ul>\n<p dir=\"auto\">Samma gäller tyvärr Riksdagsförvaltningen. Det ekar tomt när jag efterfrågar bra data, strategi och handlingsplan för digitalisering. De levererar sen många år en rörig textgegga som <a href=\"https://www.umu.se/nyheter/5-miljoner-till-forskning-om-lankad-parlamentariska-data_11678700/\" rel=\"nofollow ugc\">ett gäng forskare nyligen fått 5 mio. för att försöka begripa sig på</a>, men är så dålig källdata att de brottas med <a href=\"https://en.wikipedia.org/wiki/Garbage_in,_garbage_out\" rel=\"nofollow ugc\">skit in, skit ut</a> (<a href=\"https://github.com/welfare-state-analytics/riksdagen-corpus\" rel=\"nofollow ugc\">kolla själv hur det går för dem</a>). Riksdagens hemsida är html- och pdf-gegga som ingen vill ta i. Det här hindrar t.ex. att folk skapar en app så vi medborgare enkelt kan följa med i voteringarna i frågor som vi är intresserade av. Det hindrar även organisationer som <a href=\"https://www.datastory.org/\" rel=\"nofollow ugc\">datastory</a> från att göra bra visualiseringar av den parlamentariska processen. Riksdagen använder i dagsläget inga vokabulärer som tex EUs <a href=\"https://en.wikipedia.org/wiki/EuroVoc\" rel=\"nofollow ugc\">EuroVoc</a> så jag enkelt kan välja ut det som intresserar mig. Det här är en mycket allvarlig brist för det gör det extremt svårt att filtrera ut precis det som intresserar användaren för de som försöker använda datan.</p>\n<p dir=\"auto\">Vi saknar i dagsläget data om följande på regionnivå:</p>\n<ul>\n<li>alla fullmäktigebeslut (varenda att-sats ska ha <a href=\"https://fairplus.github.io/the-fair-cookbook/content/recipes/infrastructure/gupri.html\" rel=\"nofollow ugc\">GUPRI</a>) och de ska släppas direkt under mötet i takt med att de knappas in i beslutsledningssystem och vidimeras med e-legitimation.</li>\n<li>alla upphandlingar och deras status</li>\n<li>alla inköp</li>\n<li>statistik om anställda inom de olika nämnderna</li>\n<li>statistik om vården så medborgarna ser tex hur många listade det är för varje vårdcentral, hur många kuratorer per listade, tillgängligheten för de olika yrkesroller, m.m.</li>\n<li>detaljer om vilka tjänster som köps via SKR eller egna bolag (för att undvika LOU)</li>\n</ul>\n<p dir=\"auto\">Vi saknar i dagsläget data om följande på kommunnivå:</p>\n<ul>\n<li>alla fullmäktigebeslut (varenda att-sats ska ha GUPRI) och de ska släppas direkt under mötet i takt med att de knappas in i beslutsledningssystem och vidimeras med e-legitimation.</li>\n<li>alla upphandlingar och deras status</li>\n<li>alla inköp</li>\n<li>statistik om anställda inom de olika nämnderna</li>\n<li>statistik om verksamheten inom de olika nämnderna: tex för socialtjänsten: antalet ärenden på familjenheten, antalet insatser som pågår, kostnad per insats, antal beslut om LVU, etc.</li>\n<li>alla data kopplade till turism (platser, leder, sevärdheter, restauranger, camping, hoteller, museer, etc)</li>\n</ul>\n<p dir=\"auto\">Jag önskar mig:</p>\n<ul>\n<li>lagstiftning om OSPO i alla offentliga organisationer[0] som använder IT och har mera än 50 anställda</li>\n<li>lagstiftning om öppen data ansvarig i alla offentliga organisationer[0] som använder IT och har mera än 50 anställda</li>\n<li>lagstiftning om öppna data först överallt i offentlig sektor (ta bort 90% av alla kommunikatörer och webbsidor med textgegga och släppa data istället så får medborgarna själva göra vettiga appar, m.m. så de får den information de behöver, när de behöver den.)</li>\n<li>lagstiftning som likt i USA tvingar varenda offentliga myndighet att upprätta en översikt över de egna värdefulla datamängderna och skapa handlingsplaner för digitaliseringen av dem så att de kan släppas som öppna data om någon begär ut.</li>\n<li>utredning om digitala beslut i hela offentlig sektor och hur det skulle kunna implementeras så vi slipper det föråldrade och hemskt ineffektiva textgegga- och pdfkulturen som finns överallt i dagsläget.</li>\n</ul>\n<p dir=\"auto\">Jag hoppas verkligen att jag missat något och att det pågår en storsatsning på öppna data i det dolda i offentlig sektor (men jag börjar verkligen tveka vid det här laget)</p>\n<p dir=\"auto\">[0] offentliga organisationer: myndigheter, offentligt ägda eller delägda bolag, stiftelser, kommunföreningar och dylikt.</p>\n",
+      "pid": 4363,
+      "tid": 850,
+      "timestamp": 1695707280103,
+      "uid": 25,
+      "edited": 1695709459838,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-09-26T07:17:00.118Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-09-26T05:48:00.103Z",
+      "editedISO": "2023-09-26T06:24:19.838Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/4362",
+          "type": "backlink",
+          "uid": 25,
+          "id": 650,
+          "timestamp": 1695708666091,
+          "timestampISO": "2023-09-26T06:11:06.091Z",
+          "icon": "fa-link",
+          "text": "System <a href=\"/post/4362\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2023-09-26T06:11:06.091Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn Lagar, motioner (inklusive information om de avslagits eller bifallits, de är ofta mer granulära än så, de inkluderar ju nästan alltid mer än ett yrkande som då behandlas separat ibland till och med av olika utskott) och propositioner (inklusive regeringens budgetproposition) finns som öppna data. De har en struktur, även om de inte är länkade.</p>\n<p dir=\"auto\">Det finns även ett myndighetsregister (vilket inkluderar universiteten).</p>\n",
+      "pid": 4367,
+      "tid": 850,
+      "timestamp": 1695712620118,
+      "toPid": "4363",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-09-26T07:17:00.118Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/4362",
+      "type": "backlink",
+      "uid": 25,
+      "id": 650,
+      "timestamp": 1695708666091,
+      "timestampISO": "2023-09-26T06:11:06.091Z",
+      "icon": "fa-link",
+      "text": "System <a href=\"/post/4362\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2023-09-26T06:11:06.091Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "850",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/850.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/850",
+  "bodyClass": "page-topic page-topic-850 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Status hösten 2023 på offentliga datamängder för en öppen och välfungerande demokrati"
+        },
+        {
+          "name": "description",
+          "content": "TL;DR: Läget är inte bra alls. Vi har inte de datamängder vi skulle behöva för att öka transparens, överblick, innovation och delaktighet i vår demokratiska processer på alla nivåer. Vi har inte lagstiftning som är vettig på området och den lagstiftning v..."
+        },
+        {
+          "property": "og:title",
+          "content": "Status hösten 2023 på offentliga datamängder för en öppen och välfungerande demokrati"
+        },
+        {
+          "property": "og:description",
+          "content": "TL;DR: Läget är inte bra alls. Vi har inte de datamängder vi skulle behöva för att öka transparens, överblick, innovation och delaktighet i vår demokratiska processer på alla nivåer. Vi har inte lagstiftning som är vettig på området och den lagstiftning v..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-09-26T05:48:00.103Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-09-26T07:17:00.118Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/850",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/850/status-hösten-2023-på-offentliga-datamängder-för-en-öppen-och-välfungerande-demokrati",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/850.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

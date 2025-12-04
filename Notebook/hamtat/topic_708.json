@@ -1,0 +1,2046 @@
+{
+  "cid": 23,
+  "lastposttime": 1744861750120,
+  "mainPid": 4015,
+  "postcount": 58,
+  "slug": "708/vägledning-för-att-publicera-data-om-grillplatser",
+  "tags": [
+    {
+      "value": "grillplats",
+      "valueEscaped": "grillplats",
+      "valueEncoded": "grillplats",
+      "class": "grillplats"
+    },
+    {
+      "value": "öppnadata",
+      "valueEscaped": "öppnadata",
+      "valueEncoded": "%C3%B6ppnadata",
+      "class": "öppnadata"
+    },
+    {
+      "value": "dataverkstad",
+      "valueEscaped": "dataverkstad",
+      "valueEncoded": "dataverkstad",
+      "class": "dataverkstad"
+    },
+    {
+      "value": "datadrivet",
+      "valueEscaped": "datadrivet",
+      "valueEncoded": "datadrivet",
+      "class": "datadrivet"
+    }
+  ],
+  "tid": 708,
+  "timestamp": 1677866737630,
+  "title": "Vägledning för att publicera data om grillplatser",
+  "uid": 196,
+  "viewcount": 15081,
+  "postercount": 14,
+  "teaserPid": 5114,
+  "downvotes": 0,
+  "upvotes": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Vägledning för att publicera data om grillplatser",
+  "timestampISO": "2023-03-03T18:05:37.630Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-04-17T03:49:10.120Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Nu har vi i dataverkstaden tagit fram en vägledning som övergripande beskriver hur kommuner kan publicera grundläggande information om grillplatser som öppna data.</p>\n<p dir=\"auto\">Grillplatser, deras utformning, egenskaper och placering, hamnar som nummer 48 i undersökningen om särskilt viktiga datamängder inom kommunal och regional sektor. Datamängden tillhör området ”Besöksnäring och rekreation”.</p>\n<p dir=\"auto\">För att underlätta arbetet med att samla in och publicera denna datamängd har vi i dataverkstaden tagit fram en vägledning som övergripande beskriver hur man går tillväga;</p>\n<p dir=\"auto\"><a href=\"https://www.vgregion.se/ov/dataverkstad/datamangder/grillplats/\" rel=\"nofollow ugc\">https://www.vgregion.se/ov/dataverkstad/datamangder/grillplats/</a></p>\n",
+      "pid": 4015,
+      "tid": 708,
+      "timestamp": 1677866737630,
+      "uid": 196,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-03-05T23:37:18.205Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-03-03T18:05:37.630Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a></p>\n<blockquote>\n<p dir=\"auto\">Exempelvis i Mariestads kommun <strong>underhåller man datamängden i en Sharepoint-lista eller ”Microsoft Lists” i Office 365. Det här gör att man ute i fält kan köra Microsoft Lists-appen och enkelt och överskådligt sköta uppdatering av egenskaper</strong> när man befinner sig på platsen.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">I Mariestads kommun som exempel, har vi skapat listor i <strong>Office 365 i appen ”Lists”</strong> som motsvara attributen i datamodellen.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\"><strong>Genom appen ”Lists” som går att ladda ner till mobiltelefon, kan personer ute i fält inventera och uppdatera informationen och attributen</strong> som beskriver platsen direkt. Appen skapar ett enkelt och lättläst ”formulär” av den tabulära datan.<br />\nDet gör att datat blir enklare att underhålla och lätt att uppdatera. <strong>Det krävs ingen särskild utrustning annat än en mobiltelefon och behörighet/licens för Office365.</strong></p>\n</blockquote>\n<p dir=\"auto\">Om alla köper in programvarulicenser för Office 365 så är problemet löst? Eller är det kanske en given förutsättning att all offentlig förvaltning i Sverige redan har gjort det? Kan det tänkas finnas alternativa verktyg för att lösa dessa uppgifter?</p>\n",
+      "pid": 4016,
+      "tid": 708,
+      "timestamp": 1678059438205,
+      "toPid": "4015",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 196,
+            "username": "FredrikEriksson",
+            "userslug": "fredrikeriksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "FredrikEriksson",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-03-31T12:01:10.578Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-03-05T23:37:18.205Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "FredrikEriksson",
+        "displayname": "FredrikEriksson"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a> Var finns innehållet i specifikationen? Jag vet inte om jag läser slarvigt, men ska det inte finnas en länk eller referens någonstans till specifikationen ifråga och de avsnitt som omnämns i texten?</p>\n<blockquote>\n<p dir=\"auto\">För att skapa verkligt värde rekommenderas du att fylla i så många attribut du kan och särskilt viktiga är kontaktvägar till kommunen, på <strong>attribut nummer 8 och 9</strong>.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\"><strong>Kika på sektion 3.2 i specifikationen</strong> för att få till denna länkning som är värdefull om den är med i din publicerade datamängd!</p>\n</blockquote>\n",
+      "pid": 4017,
+      "tid": 708,
+      "timestamp": 1678060992390,
+      "toPid": "4015",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "edited": 1678147607918,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 196,
+            "username": "FredrikEriksson",
+            "userslug": "fredrikeriksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "FredrikEriksson",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-03-31T12:02:32.050Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-03-06T00:03:12.390Z",
+      "editedISO": "2023-03-07T00:06:47.918Z",
+      "index": 2,
+      "parent": {
+        "username": "FredrikEriksson",
+        "displayname": "FredrikEriksson"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> vi visade bara på ett exempel på hur man kan lösa detta. Jag hoppas och tror att det finnas andra liknande lösningar som kan användas för samma ändamål, som exempelvis GIS-plattformar</p>\n",
+      "pid": 4059,
+      "tid": 708,
+      "timestamp": 1680264070578,
+      "toPid": "4016",
+      "uid": 196,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-03-31T12:01:10.578Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> tack, det har vi totalt missat <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f61e.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--disappointed\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":(\" alt=\"😞\" /> det ska jag fixa på momangen! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4060,
+      "tid": 708,
+      "timestamp": 1680264152050,
+      "toPid": "4017",
+      "uid": 196,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-03-31T12:02:32.050Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/4016\">Vägledning för att publicera data om grillplatser</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a></a></p>\n<blockquote>\n<p dir=\"auto\">Exempelvis i Mariestads kommun <strong>underhåller man datamängden i en Sharepoint-lista eller ”Microsoft Lists” i Office 365. Det här gör att man ute i fält kan köra Microsoft Lists-appen och enkelt och överskådligt sköta uppdatering av egenskaper</strong> när man befinner sig på platsen.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">I Mariestads kommun som exempel, har vi skapat listor i <strong>Office 365 i appen ”Lists”</strong> som motsvara attributen i datamodellen.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\"><strong>Genom appen ”Lists” som går att ladda ner till mobiltelefon, kan personer ute i fält inventera och uppdatera informationen och attributen</strong> som beskriver platsen direkt. Appen skapar ett enkelt och lättläst ”formulär” av den tabulära datan.<br />\nDet gör att datat blir enklare att underhålla och lätt att uppdatera. <strong>Det krävs ingen särskild utrustning annat än en mobiltelefon och behörighet/licens för Office365.</strong></p>\n</blockquote>\n<p dir=\"auto\">Om alla köper in programvarulicenser för Office 365 så är problemet löst? Eller är det kanske en given förutsättning att all offentlig förvaltning i Sverige redan har gjort det? Kan det tänkas finnas alternativa verktyg för att lösa dessa uppgifter?</p>\n</blockquote>\n<p dir=\"auto\">Halloj, som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a></a> menar är exemplet med Office365 och \"Lists\" ett sätt att jonglera informationen innan den blir öppen data.</p>\n<p dir=\"auto\">I MTG har vi valt lägga badplatser, grillplatser och lite annat som Sharepoint/Lists för att det är ett verktyg vi har, som finns hos de flesta i vår organisation och som har en (faktiskt rätt så okej) app som stödjer snygg redigering \"i fält\". Man kunde lika gärna använt ett Excelblad, eller en textfil.</p>\n<p dir=\"auto\">Fördelen med en Lists är att den går att sätta lite formatkontroll på (typ latitud måste skrivas med formatet NN.XXXXXX, annars får man ett felmeddelande och kan inte spara) samt att det går att behörighetsstyra enkelt, bygga vyer etc. Lists har även stöd för bilder och andra datatyper som man kan lägga till hur man vill - bara man ser till att man i själva exportögonblicket bara får med det data som specifikationen kräver.</p>\n<p dir=\"auto\">På så vis kan en dataspecifikation för exempelvis Grillplatser innehåller mycket mer data och användas på många fler sätt OCH användas som bas för öppen data. Lägger man till egna attribut som \"vem som tömmer soporna\" eller \"senast tillsyn\" i form av en personväljare i Office eller ett datum, så kan man ju skippa ta med dem i exporten till ÖppnaData-katalogen då specifikationen inte har dessa fält.</p>\n<p dir=\"auto\">Det här gör även att man kan svenska rubriker och namn på saker i Sharepointlistan som man sen översätter i exporten.</p>\n<p dir=\"auto\">Vi testar lite nu men än så länge ser funktionen bra ut och vi kommer säkert börjar smyga in detta på andra datamängder som är relativt statiska och som flera personer behöver underhålla över tid - även sådan datamängder där det idag saknas en specifikation som ex. fontäner, parkbänkar osv.</p>\n<p dir=\"auto\">Lists är inte lämpligt för viss typ av data och därför prövar vi så klart innan vi börjar använda det som verktyg.</p>\n",
+      "pid": 4065,
+      "tid": 708,
+      "timestamp": 1680522129314,
+      "toPid": "4016",
+      "uid": 127,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-15T19:32:34.056Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-04-03T11:42:09.314Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">På Region Gotland har vi lagt till attributen:</p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Kolumnnamn</th>\n<th>Datatyp</th>\n<th>Exempel och förklaring</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>image_url</td>\n<td>URL</td>\n<td>Länk till en bild i formaten .jpg, .png eller .webp. Licens för bild - CC0</td>\n</tr>\n<tr>\n<td>report_phone</td>\n<td>phone</td>\n<td>Telefonnummer för frågor, synpunkter och/eller felanmälan.</td>\n</tr>\n<tr>\n<td>report_url</td>\n<td>URL</td>\n<td>Länk till tjänst för frågor, synpunkter och/eller felanmälan.</td>\n</tr>\n<tr>\n<td>street</td>\n<td>text</td>\n<td>Gatuadress till platsen, exempelvis “Havsvägen”. Ange inte nummer på gata eller fastighet, det anges i attributet “housenumber”. Mappar mot Open Street Maps “addr:street” läs mer på <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr\" rel=\"nofollow ugc\">Key:addr på Open Streetmaps webbplats.</a></td>\n</tr>\n<tr>\n<td>housenumber</td>\n<td>text</td>\n<td>Gatunummer eller husnummer med bokstav. Exempelvis “1” eller “42 E”. Mappar mot Open Street Maps “addr:housenumber” läs mer på: <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr\" rel=\"nofollow ugc\">Key:addr på Open Streetmaps webbplats.</a></td>\n</tr>\n</tbody>\n</table>\n",
+      "pid": 4350,
+      "tid": 708,
+      "timestamp": 1694701386962,
+      "uid": 1645,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-09-14T14:23:06.962Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a></p>\n<p dir=\"auto\">Jag förstår att sharepoint-listor är ett enkelt sätt för de som är ute på fältet och samlar in data. Jag undrar hur ni gör för att publicera innehållet i dessa listor som öppna data?</p>\n",
+      "pid": 4415,
+      "tid": 708,
+      "timestamp": 1697398354056,
+      "toPid": "4065",
+      "uid": 1679,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-15T19:32:34.056Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">På <a href=\"http://dataverkstad.se\" rel=\"nofollow ugc\">dataverkstad.se</a> står det att man inte får lägga till egna fält utöver de i specifikationen (om man ska kunna säga att man följer specifikationen). Jag undrar om det är så viktigt? Kan man inte göra specifikationen utbyggbar? Den som hämtar data får då slå ihop den med samma data från andra kommuner och matcha kollumnnamnen. Redan idag finns det inget som hindrar att kolumner kommer i olika ordning från olika kommuner så det krävs ändå ett jobb att matcha för att kunna samköra data.</p>\n<p dir=\"auto\">En stor anledning till att jag frågar är att vi i Varberg jobbar för att publicera detta automatiskt utifrån att vi har det som geodata och visar den i vår webbkarta. Det är enkelt för oss att skapa osv och json genom en WFS men vi får automatiskt med två fält som inte finns i specen och det är FID (ett internt id) och GEOM (geometri). Vi har nyss upptäckt detta och fortsätter undersöka om vi kan ta bort dem. Vi vet att vi kan ta bort geom men då får vi lite problem med att publicera samma data med mer data än specifikationen pekar på (tar vi bort geom för vi det för alla distributioner).</p>\n<p dir=\"auto\">Någon med mer erfarenhet om Geoserver och dessa fält kanske har tips på hur vi kan gå vidare?</p>\n",
+      "pid": 4423,
+      "tid": 708,
+      "timestamp": 1697608683869,
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1755,
+            "username": "nsmart",
+            "userslug": "nsmart",
+            "picture": "/assets/uploads/profile/1755-profileavatar-1723805089940.jpeg",
+            "fullname": null,
+            "displayname": "nsmart",
+            "icon:text": "N",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-08-28T14:53:14.208Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-10-18T05:58:03.869Z",
+      "editedISO": "",
+      "index": 8,
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">I Varberg har vi inte uppdateringsdatum för data men det är ett obligatoriskt fält. Vi föreslår att det ändras till ett rekommenderat fält. Det är troligtvis fler som inte har den uppgiften och det känns som att värdet av att får ut resten av data enligt specifikationen är viktigare än att uppdateringsdatum alltid finns med?</p>\n<p dir=\"auto\">Vi undersöker samtidigt om vi kan få till ett uppdateringsdatum men då kommer vi skapa information för öppna data vilket strider lite mot andemeningen för öppna data (att man ska publicera den information man har).</p>\n<p dir=\"auto\">Även om vi lyckas få till uppdateringsdatum tycker vi att fältet ska ändras till rekommenderat.</p>\n",
+      "pid": 4424,
+      "tid": 708,
+      "timestamp": 1697608908732,
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-18T06:31:01.111Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-18T06:01:48.732Z",
+      "editedISO": "",
+      "index": 9,
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> sa i <a href=\"/post/4424\">Vägledning för att publicera data om grillplatser</a>:</p>\n<blockquote>\n<p dir=\"auto\">Vi undersöker samtidigt om vi kan få till ett uppdateringsdatum men då kommer vi skapa information för öppna data vilket strider lite mot andemeningen för öppna data (att man ska publicera den information man har).</p>\n</blockquote>\n<p dir=\"auto\">Jag vet inte om jag håller med om att det är det som är andemeningen med öppna data. Det är ju bra om det bara är att publicera den data man har, men om den  data man har inte är lätt att förstå och kontextualisera (t.ex. om metadata som när det senast var uppdaterat saknas) tappar man ju kanske möjligheten att andra kan använda den och det måste väl ändå vara den övergripande andemeningen med öppna data.</p>\n",
+      "pid": 4427,
+      "tid": 708,
+      "timestamp": 1697610661111,
+      "toPid": "4424",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-18T09:03:07.925Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-18T06:31:01.111Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Att göra data användbara är viktigt för att skapa just användning men själva grundprincipen är att dela data man har. Om man ställer för höga krav på att skapa data specifikt för publicering av öppna data leder det också lätt till att verksamheten väljer att inte alls publicera data.</p>\n",
+      "pid": 4429,
+      "tid": 708,
+      "timestamp": 1697619787925,
+      "toPid": "4427",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-18T09:19:57.184Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-18T09:03:07.925Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a><br />\nSom konsument av grillplats-data så kan jag tycka att att uppdateringsdatum är bra men inte nödvändigt. För STORA dataset är det jättebra för då behöver jag inte slösa tid, datorkraft och därmed elenergi på att processa data som inte har förändrats. För mindre dataset kanske inte betydelsen är lika stor.</p>\n<p dir=\"auto\">Nu har jag inte specifikationen i huvudet. Hur gör vi med borttagna grillplatser, försvinner de bara eller markeras de som borttagna?</p>\n<p dir=\"auto\">Vad gäller nya fält så ser jag hellre att det är en snabb och lätt process att lägga till dem i specifikationen än att olika parter lägger till själva och det blir en hel flora av varianter där olika parter har olika fält för samma sak.</p>\n",
+      "pid": 4430,
+      "tid": 708,
+      "timestamp": 1697620043258,
+      "toPid": "4427",
+      "uid": 1679,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 196,
+            "username": "FredrikEriksson",
+            "userslug": "fredrikeriksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "FredrikEriksson",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-18T15:40:14.268Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-18T09:07:23.258Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> sa i <a href=\"/post/4429\">Vägledning för att publicera data om grillplatser</a>:</p>\n<blockquote>\n<p dir=\"auto\">verksamheten väljer att inte alls publicera data</p>\n</blockquote>\n<p dir=\"auto\">Detta är verkligen emot andemeningen med öppna data. Jag har inte sett i någon definition, eller andra dokument, att enbart publicera det man har som något viktigt eller som en grundprincip. Snarare så är väl den erkända <a href=\"https://5stardata.info/en/\" rel=\"nofollow ugc\">femstjärnemodellen</a> från Berners-Lee en inriktning om att man ska göra det data man har bättre innan publicering (förhoppningsvis genom att välja att producera bättre data, men det är modellen agnostisk om).</p>\n",
+      "pid": 4431,
+      "tid": 708,
+      "timestamp": 1697620797184,
+      "toPid": "4429",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-19T05:26:08.961Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-18T09:19:57.184Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> By the way: Har ni något api där det går att hämta grillplats-data nu för tiden?</p>\n",
+      "pid": 4433,
+      "tid": 708,
+      "timestamp": 1697623822975,
+      "toPid": "4424",
+      "uid": 1679,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-19T05:26:51.011Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-18T10:10:22.975Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> Hej, jag svarar alla på en gång. Vi brukar ha en ganska snabb hantering av förslag på justeringar och tillägg på befintliga specifikationer, så om det finns önskemål så är det bäst om dessa förmedlas via GITLAB så ser våra informationsarkitekter det. Vi har möten varje tisdag morgon för att synka arbetet.<br />\n<a href=\"https://gitlab.com/sarskilt-viktiga-datamangder\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder</a></p>\n<p dir=\"auto\">Sen tycker jag precis som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> att man inte ska hitta på egna varianter om det inte är nödvändigt. Kanske kan man bearbeta den data som delas genom att helt enkelt ange ett uppdateringsdatum i utläsningsprogrammet?</p>\n",
+      "pid": 4438,
+      "tid": 708,
+      "timestamp": 1697643614268,
+      "toPid": "4430",
+      "uid": 196,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 49,
+            "username": "Maria Söderlind",
+            "userslug": "maria-söderlind",
+            "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+            "fullname": "Maria Söderlind",
+            "displayname": "Maria Söderlind",
+            "icon:text": "M",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-19T05:35:56.773Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-10-18T15:40:14.268Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Ja jag menade att verksamheten då kan välja att inte följa specifikationen alls. Förhoppningsvis väljer de att publicera data i det format de har den i (utan koppling till specifikation). Det är DIGGs grundrekommendation.</p>\n<p dir=\"auto\">Regeringskansliet har vid ett flertal tillfällen sagt att öppna data från offentlig sektor i grunden handlar om att dela med sig av den information som finns inom offentlig sektor och tidigare när jag pratat om att man kan behöva arbeta lite extra för att göra data användbara så har det varit en del motstånd mot det.</p>\n<p dir=\"auto\">Jag tycker också det är en självklar grund för arbetet med öppna data att man delar den data man faktiskt har inom organisationen. Att gå längre än så är ett rätt stort steg.</p>\n<p dir=\"auto\">5-stjärnemodellen är jättebra. Att nå till 3 stjärnor är ofta enkelt men 4 och 5 kräver ofta en hel del mer jobb och händer i princip aldrig då det nästan alltid kräver att man kompletterar sin data. Om man hade haft sin data som 5-stjärnig data från början hade man också enkelt kunnat publicera den så men att göra jobbet bara för publicering sker inte.</p>\n",
+      "pid": 4439,
+      "tid": 708,
+      "timestamp": 1697693168961,
+      "toPid": "4431",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-19T05:26:08.961Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> På nationell nivå? Jag känner inte till något öppet.</p>\n",
+      "pid": 4440,
+      "tid": 708,
+      "timestamp": 1697693211011,
+      "toPid": "4433",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-19T07:33:08.604Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-19T05:26:51.011Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Specen tar inte upp borttagna grillplatser som jag kommer ihåg det. I Varbergs fall tror jag inte heller att det är data vi håller (men det skulle vi kanske kunna ändra på eventuellt).</p>\n<p dir=\"auto\">Du som konsument, om det skulle komma med fler fält än de du förväntar dig enligt specen, skapar det problem för dig? Om ja, på vilket sätt?</p>\n",
+      "pid": 4441,
+      "tid": 708,
+      "timestamp": 1697693487236,
+      "toPid": "4430",
+      "uid": 9,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-19T05:31:27.236Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a> Grillplatser saknas i listan du länkar till så den kanske ska läggas till. Länken finns i specen. Jag ska lägga in kommentarer där också men diskussonen förs bäst här tycker jag. Det är här användarna finns:)</p>\n<p dir=\"auto\">Som det fungerar i Varberg så hämtar Geodataavdelningen data från geodatasystemet som Hamn- och gata har varje natt. Vid den hämtningen sätter vi nu dagens datum som uppdateringsdatum på alla grillplatser. Det hjälper ju ingen och datumet följer inte det specen säger att fältet ska innehålla:/</p>\n<p dir=\"auto\">Frågan blir kanske till slut om det är viktigare att uppdateringsdatum finns med eller att fler enkelt kan följa spelens obligatoriska fält? Jag tycker det är viktigare att de övriga 5 obligatoriska fälten finns med och det verkar som att Christer som konsument håller med (eftersom det inte är så stora datamängder).</p>\n",
+      "pid": 4442,
+      "tid": 708,
+      "timestamp": 1697693756773,
+      "toPid": "4438",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-19T05:35:56.773Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "FredrikEriksson",
+        "displayname": "FredrikEriksson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "708",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/708.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/708/vägledning-för-att-publicera-data-om-grillplatser?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      },
+      {
+        "page": 3,
+        "active": false,
+        "qs": "page=3"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 3,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 3,
+      "active": false,
+      "qs": "page=3"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/708",
+  "bodyClass": "page-topic page-topic-708 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Vägledning för att publicera data om grillplatser"
+        },
+        {
+          "name": "description",
+          "content": "Nu har vi i dataverkstaden tagit fram en vägledning som övergripande beskriver hur kommuner kan publicera grundläggande information om grillplatser som öppna data. Grillplatser, deras utformning, egenskaper och placering, hamnar som nummer 48 i undersökni..."
+        },
+        {
+          "property": "og:title",
+          "content": "Vägledning för att publicera data om grillplatser"
+        },
+        {
+          "property": "og:description",
+          "content": "Nu har vi i dataverkstaden tagit fram en vägledning som övergripande beskriver hur kommuner kan publicera grundläggande information om grillplatser som öppna data. Grillplatser, deras utformning, egenskaper och placering, hamnar som nummer 48 i undersökni..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-03-03T18:05:37.630Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-04-17T03:49:10.120Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/708",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/708/vägledning-för-att-publicera-data-om-grillplatser",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/708.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/fredrikeriksson"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/708/vägledning-för-att-publicera-data-om-grillplatser?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

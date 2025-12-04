@@ -1,0 +1,980 @@
+{
+  "cid": 25,
+  "lastposttime": 1637251221337,
+  "mainPid": 1025,
+  "postcount": 7,
+  "slug": "233/riksarkivets-fgs-er-eller-dilcis",
+  "tid": 233,
+  "timestamp": 1635779946890,
+  "title": "Riksarkivets FGS:er eller Dilcis?",
+  "uid": 299,
+  "viewcount": 865,
+  "postercount": 5,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 1081,
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Riksarkivets FGS:er eller Dilcis?",
+  "timestampISO": "2021-11-01T15:19:06.890Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-11-18T16:00:21.337Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Re: <a href=\"/topic/162/earkiv-%C3%B6ppen-k%C3%A4llkod\">eArkiv - öppen källkod</a></p>\n<p dir=\"auto\">Tar tacksamt emot era uppfattningar om fördelar och nackdelar med RA:s FGS:er respektive de specar som tagits fram inom E-ARK-projektet (nu Dilicis). Det här gäller LFV, det vill säga en statlig myndighet. Vi är helt nya inom e-arkivering, ska installera ESSArch i början av nästa år och göra en pilotleverans av några enstaka testfiler i samband med det. Har nu ställts inför frågan vilken paketspec vi ska använda och behöver därför göra lite research.</p>\n",
+      "pid": 1025,
+      "tid": 233,
+      "timestamp": 1635779946890,
+      "uid": 299,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 91,
+            "username": "Elin Jonsson",
+            "userslug": "elin-jonsson",
+            "picture": "/assets/uploads/profile/91-profileavatar-1635786663759.png",
+            "fullname": "Elin Jonsson",
+            "displayname": "Elin Jonsson",
+            "icon:text": "E",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-01T17:06:28.869Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-01T15:19:06.890Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 299,
+        "username": "Anna_Bayard",
+        "userslug": "anna_bayard",
+        "reputation": 7,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1707833488179,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Anna_Bayard",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-13T14:11:28.179Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/299\">@anna_bayard</a> Fördelen med E-ARK/Dilcis specifikationerna är att det redan finns framtagna paketerare och validerare. I grunden baseras båda paketstrukturerna på METS. Grundtanken är att europanivån ska kunna byggas ut för specifika nationella eller regionala behov. Vi på Sydarkivera har varit med i projektet E-ARK, så vi är förstås lite partiska här <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" />  En del som ni behöver tänka på är överföringen hos er, från verksamhetssystemen till arkivsystemet.  En annan del är när ni ska överföra till Riksarkivet, då behöver ju överföringspaketen stämma överens med Riksarkivets krav. Så det beror på era behov och förutsättningar vad som är fördelar och nackdelar!</p>\n",
+      "pid": 1026,
+      "tid": 233,
+      "timestamp": 1635786388869,
+      "toPid": "1025",
+      "uid": 91,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 299,
+            "username": "Anna_Bayard",
+            "userslug": "anna_bayard",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Anna_Bayard",
+            "icon:text": "A",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-02T07:14:06.638Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-11-01T17:06:28.869Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Anna_Bayard",
+        "displayname": "Anna_Bayard"
+      },
+      "user": {
+        "uid": 91,
+        "username": "Elin Jonsson",
+        "userslug": "elin-jonsson",
+        "reputation": 2,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/91-profileavatar-1635786663759.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1727685117841,
+        "groupTitle": "[null]",
+        "mutedUntil": 0,
+        "displayname": "Elin Jonsson",
+        "groupTitleArray": [
+          null
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-09-30T08:31:57.841Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/91\">@elin-jonsson</a> Tack för svar Elin! Jo vi kommer ju behöva leverera till Riksarkivet någon gång (lååååångt in i framtiden) och då måste ju paketen överensstämma med deras krav. Men innebär det alltså att de måste vara ordnade efter FGS:erna vid RA-leveranserna? De bygger ju som sagt på samma standard i botten?</p>\n<p dir=\"auto\">Det känns som att man siar lite i de här frågorna och att man behöver ta höjd för olika saker som man inte vet hur de kommer att se ut flera år framöver. RA vill väl såklart att statliga myndigheter använder deras specar, men jag får intryck av att det är långt ifrån alla verk som tänker så. Tacksam för input från något statligt verk också <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /><br />\nSka ta med mig frågan om vilka behov och förutsättningar vi har, vi är i en tidig fas av detta så allt har inte fallit på plats ännu.</p>\n",
+      "pid": 1030,
+      "tid": 233,
+      "timestamp": 1635837246638,
+      "toPid": "1026",
+      "uid": 299,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 91,
+            "username": "Elin Jonsson",
+            "userslug": "elin-jonsson",
+            "picture": "/assets/uploads/profile/91-profileavatar-1635786663759.png",
+            "fullname": "Elin Jonsson",
+            "displayname": "Elin Jonsson",
+            "icon:text": "E",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-11-02T10:06:46.715Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-02T07:14:06.638Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Elin Jonsson",
+        "displayname": "Elin Jonsson"
+      },
+      "user": {
+        "uid": 299,
+        "username": "Anna_Bayard",
+        "userslug": "anna_bayard",
+        "reputation": 7,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1707833488179,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Anna_Bayard",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-13T14:11:28.179Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/299\">@anna_bayard</a> Vi kommer att ha en NOSAD workshop kring  detta tema eArkiv Open Source den 7 december kl 10-12.<br />\nArbetsförmedlingen, Sydarkivera och Tullverket kommer bl.a att presentera sina erfarenheter, utmaningar och möjligheter. Agendan kommer strax men länk till bokning finns:</p>\n<p dir=\"auto\"><a href=\"https://www.goto10.se/event/nosad-natverkande-kring-oppna-data-och-oppen-kallkod/\" rel=\"nofollow ugc\">https://www.goto10.se/event/nosad-natverkande-kring-oppna-data-och-oppen-kallkod/</a></p>\n",
+      "pid": 1032,
+      "tid": 233,
+      "timestamp": 1635847606715,
+      "toPid": "1030",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-11-02T10:06:46.715Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Anna_Bayard",
+        "displayname": "Anna_Bayard"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">EC CEF DILCIS E-ARK och SIARD är det närmaste man idag kan komma europeisk standard för att hantera och långtidslagra arkivhandlingar och databaser. Svenska riksarkivets FGS-specifikationer kommer att behöva anpassas till specarna från EC CEF DILCIS, förr eller senare. I Nordamerika används förstås paketformatet BagIt, men detta format är väldigt outvecklat, så gissningsvis kommer även detta format att gå i riktning mot EC CEF DILCIS. Vid Tullverket använder vi EC CEF DILCIS E-ARK och SIARD sedan 2018.</p>\n<p dir=\"auto\">Notera att det redan finns paketeringsverktyg, valideringsverktyg och kompletta open-source-lösningar för EC CEF DILCIS E-ARK och SIARD, huvudsakligen skrivet i Java och Python.</p>\n",
+      "pid": 1033,
+      "tid": 233,
+      "timestamp": 1635933821256,
+      "uid": 304,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-11-03T10:03:41.256Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 304,
+        "username": "Magnus W",
+        "userslug": "magnus-w",
+        "reputation": 2,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/304-profileavatar-1635932766098.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1647966718356,
+        "groupTitle": "[null]",
+        "mutedUntil": 0,
+        "displayname": "Magnus W",
+        "groupTitleArray": [
+          null
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2022-03-22T16:31:58.356Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/299\">@anna_bayard</a> Det blir ju lite så att importformatet, era SIP:ar från verksamhetssystemen eller annan information där kan ni packa och strukturera som det passar er. När ni sen ska ta ut information till Riksarkivet så behöver Riksarkivet-SIP:arna stöjda de specifikationer och följa de instruktioner som gäller vid leveranstillfället. Man kan ju tänka olika kring detta och om det är så att systemstöd för arkivleverans till Riksarkivet inte byggs förrän behov uppstår.  Har inte koll på hur det funkar inom staten pga jobbar kommunalt. Inom kommunerna är det många informationstyper som slutarkiveras löpande/årligen efter visst tidsintervall.</p>\n",
+      "pid": 1034,
+      "tid": 233,
+      "timestamp": 1635934317232,
+      "toPid": "1030",
+      "uid": 91,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-03T10:11:57.232Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Anna_Bayard",
+        "displayname": "Anna_Bayard"
+      },
+      "user": {
+        "uid": 91,
+        "username": "Elin Jonsson",
+        "userslug": "elin-jonsson",
+        "reputation": 2,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/91-profileavatar-1635786663759.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1727685117841,
+        "groupTitle": "[null]",
+        "mutedUntil": 0,
+        "displayname": "Elin Jonsson",
+        "groupTitleArray": [
+          null
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-09-30T08:31:57.841Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag måste säga att det känns lite konstigt att till exempel ha krav på att följa Riksarkivets FGS:er som de ser ut idag. Om något ska levereras om 10-15 år kan jag nästan garantera att FGS:erna då inte kommer att motsvara de som finns idag. Brottar  nu med FGS ärendehantering som är i version 1.0 men samtidigt \"interimversion\". Har varit det i ett tag nu så jag undrar hur länge något kan vara \"interimversion\". Personligen är jag mer förtjust i Dilcis dokumentation och specifikationer. Känns modernare och mer genomtänkta.  Jag lutar åt att faktiskt använda CITS ERMS och sedan göra ett mappningsdokument till FGS ärendehantering om det behövs. Har också observerat att Schematron äntligen har börjat komma även hos Riksarkivet men då inte för FGS ärende...</p>\n",
+      "pid": 1081,
+      "tid": 233,
+      "timestamp": 1637251221337,
+      "uid": 317,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-18T16:00:21.337Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 317,
+        "username": "Peppe",
+        "userslug": "peppe",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1637252442520,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peppe",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2021-11-18T16:20:42.520Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 192,
+          "timestamp": 1648479441770,
+          "timestampISO": "2022-03-28T14:57:21.770Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:57:21.770Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 192,
+      "timestamp": 1648479441770,
+      "timestampISO": "2022-03-28T14:57:21.770Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:57:21.770Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#5a6751",
+    "cid": 25,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppna standarder och format",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppna standarder och format</p>\n",
+    "disabled": 0,
+    "icon": "fa-newspaper-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppna standarder och format",
+    "numRecentReplies": 1,
+    "order": 6,
+    "parentCid": 0,
+    "post_count": 252,
+    "slug": "25/öppna-standarder-och-format",
+    "subCategoriesPerPage": 10,
+    "topic_count": 34,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 252,
+    "totalTopicCount": 34
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "233",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/233.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppna standarder och format",
+      "url": "/category/25/öppna-standarder-och-format",
+      "cid": 25
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/233",
+  "bodyClass": "page-topic page-topic-233 template-topic page-topic-category-25 page-topic-category-öppna-standarder-och-format parent-category-25 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Riksarkivets FGS:er eller Dilcis?"
+        },
+        {
+          "name": "description",
+          "content": "Re: eArkiv - öppen källkod Tar tacksamt emot era uppfattningar om fördelar och nackdelar med RA:s FGS:er respektive de specar som tagits fram inom E-ARK-projektet (nu Dilicis). Det här gäller LFV, det vill säga en statlig myndighet. Vi är helt nya inom e-..."
+        },
+        {
+          "property": "og:title",
+          "content": "Riksarkivets FGS:er eller Dilcis?"
+        },
+        {
+          "property": "og:description",
+          "content": "Re: eArkiv - öppen källkod Tar tacksamt emot era uppfattningar om fördelar och nackdelar med RA:s FGS:er respektive de specar som tagits fram inom E-ARK-projektet (nu Dilicis). Det här gäller LFV, det vill säga en statlig myndighet. Vi är helt nya inom e-..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-11-01T15:19:06.890Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-11-18T16:00:21.337Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppna standarder och format"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/233",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/233/riksarkivets-fgs-er-eller-dilcis",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/233.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/25/öppna-standarder-och-format"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/anna_bayard"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

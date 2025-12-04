@@ -1,0 +1,2238 @@
+{
+  "cid": 23,
+  "lastposttime": 1621771392644,
+  "mainPid": 352,
+  "postcount": 33,
+  "slug": "102/identifierare-och-relationer",
+  "tid": 102,
+  "timestamp": 1620226432187,
+  "title": "Identifierare och relationer",
+  "uid": 125,
+  "viewcount": 8107,
+  "postercount": 7,
+  "downvotes": 0,
+  "upvotes": 0,
+  "teaserPid": 485,
+  "oldCid": 2,
+  "tags": [
+    {
+      "value": "länkade data",
+      "valueEscaped": "länkade data",
+      "valueEncoded": "l%C3%A4nkade%20data",
+      "class": "länkade-data"
+    },
+    {
+      "value": "dataportal.se",
+      "valueEscaped": "dataportal.se",
+      "valueEncoded": "dataportal.se",
+      "class": "dataportal.se"
+    },
+    {
+      "value": "wikidata",
+      "valueEscaped": "wikidata",
+      "valueEncoded": "wikidata",
+      "class": "wikidata"
+    }
+  ],
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Identifierare och relationer",
+  "timestampISO": "2021-05-05T14:53:52.187Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-05-23T12:03:12.644Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a></p>\n<blockquote>\n<p dir=\"auto\">appropå persistenta identifierare så har vi med det i vägledningen för att tillgängliggöra information.</p>\n</blockquote>\n<p dir=\"auto\">Innebär det att man ska äga ett domännamn för att skapa identifierare, eller hur ser praxis ut? Finns det exempel på hur detta tillämpas och organiseras?</p>\n<p dir=\"auto\"><a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/oppna-och-delade-data/offentliga-aktorer/vagledning-tillgangliggora#forbered_informationsmangden_for_anvandning\" rel=\"nofollow ugc\">https://www.digg.se/utveckling-av-digital-forvaltning/oppna-och-delade-data/offentliga-aktorer/vagledning-tillgangliggora#forbered_informationsmangden_for_anvandning</a></p>\n<blockquote>\n<p dir=\"auto\">Beständiga identifierare bör utformas som URI:er, (Uniform Resource Identifier), enligt formatet:<br />\nhttp(s)://{domän}/{typ}/{koncept}/{referens}<br />\nInom vissa sektorer/områden kan det vara relevant med specifika typer av identifierare.</p>\n</blockquote>\n",
+      "pid": 352,
+      "tid": 102,
+      "timestamp": 1619559464445,
+      "toPid": "322",
+      "uid": 125,
+      "edited": 1620281480455,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-29T19:55:37.490Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-27T21:37:44.445Z",
+      "editedISO": "2021-05-06T06:11:20.455Z",
+      "index": 0,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> I dagsläget har vi tyvärr inga konkreta exempel eller mer information än det som står i vägledningen. På frågan om man ska äga domännamnet så har jag lite svårt att svara på det eftersom jag är lite för dåligt insatt i hur man skapar beständiga identifierare, men det som är viktigt är ju att länken blir hållbar över tid, även om tex organisationen för datamängden ändras eller man väljer att göra ändringar på webbplatsen där datamängden är åtkomlig ifrån. Vi har sett ett behov av att ta fram en tydligare vägledning kring detta och att förankra den hos ett antal centrala aktörer i frågan. Bla Riksarkivet/Riksantikvarieämbetet, MSB och SND (Svensk nationell datatjänst, en portal för forskningsdata) har ju idag lite rekommendationer som inkluderar beständiga identifierare. Och det vore fint om vi kunde få till lite samsyn kring en rekommendation om hur man ska gå tillväga med detta:) Men vi är inte där ännu. Kanske några fler i den här tråden kan hjälpa dig vidare?</p>\n",
+      "pid": 363,
+      "tid": 102,
+      "timestamp": 1619726137490,
+      "toPid": "352",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-04-29T21:54:48.182Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-29T19:55:37.490Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> Ja det låter ju som identifierare bör ligga under något namn avsett för registerföring och mer långsiktig förvaltning, då ligger kanske arkivmyndigheter eller dataförvaltare nära till hands. Jag gissar att det klarnar mer när man börjar använda URI:er och ställa frågor mot dem eller vill koppla ihop dem för egen del. Om DIGG ska stödja och hjälpa organisationer i detta behöver man nog kunna förklara hur det fungerar, gärna inbegripande exempel och fallstudier. Tack för tipsen om rekommendationer.</p>\n<p dir=\"auto\">Apropå trådämnet, har dataportalens API-register URI:er och kopplingar till Wikidata?</p>\n",
+      "pid": 365,
+      "tid": 102,
+      "timestamp": 1619733288182,
+      "toPid": "363",
+      "uid": 125,
+      "edited": 1619733567638,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-05-03T19:58:34.587Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-29T21:54:48.182Z",
+      "editedISO": "2021-04-29T21:59:27.638Z",
+      "index": 2,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> dataportalen har ingen formell koppling till Wikidata, men dom som jobbar där hämtar bl.a. data från dataportalen. Förfrågningar från Wikidata har också varit en anledning till att vi har snabbat upp arbetet med att sätta öppna licenser på information som ligger på <a href=\"http://digg.se\" rel=\"nofollow ugc\">digg.se</a>, tex vägledningar, rapporter mm. Det arbetet är igångsatt ganska nyligen.</p>\n",
+      "pid": 374,
+      "tid": 102,
+      "timestamp": 1620071914587,
+      "toPid": "365",
+      "uid": 118,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-03T19:58:34.587Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/365\">Kategorisera API:er efter datasort</a>:</p>\n<blockquote>\n<p dir=\"auto\">Apropå trådämnet, har dataportalens API-register URI:er och kopplingar till Wikidata?</p>\n</blockquote>\n<p dir=\"auto\">Vad tänker du att de ska koppla mot/länka till? Olika datasorter i Wikidata (exempelvis <a href=\"https://www.wikidata.org/wiki/Q7300787\" rel=\"nofollow ugc\">Q7300787 (realtidsdata)</a> )?</p>\n",
+      "pid": 382,
+      "tid": 102,
+      "timestamp": 1620220375301,
+      "toPid": "365",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-05-05T14:51:16.686Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-05T13:12:55.301Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">[Tar och städar lite genom att bryta ut denna dialog till en egen tråd ]</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@ainali</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a><br />\nMan kan nog diskutera frågan på två nivåer;</p>\n<ol>\n<li>\n<p dir=\"auto\">Dataportalen bygger på metadata i RDF där unika identifierare i sig är centralt både för innehållet i metadatan och för själva processen att automatiskt hämta in och visa upp i sökmotorn.  Det finns riktlinjer och rekommendationer kring hur detta ska genomföras i bland annat i specifikationer för metadatan och skördning.</p>\n</li>\n<li>\n<p dir=\"auto\">Respektive tillhandahållande aktör uppmuntras till att tillhandahålla unik identifierare för deras datamängder och API:er. Vi detekterar inte idag om enskilda datamängder/API:er på Sveriges dataportal har kopplingar till Wikidata. Om man skulle vilja som publicerande aktör peka ut kopplingar mellan datamängden/API:et och till Wikidatas identifierare, skulle man kunna använda fält såsom \"<a href=\"https://docs.dataportal.se/dcat/sv/#dcat_Dataset-adms_identifier\" rel=\"nofollow ugc\">Identifier</a>\", dvs att peka på att datamängden har en sekundär identifierare. Dataportalens begreppstjänst (beta) kan också användas för att terminologier och kodlistor ska erhållas maskinläsbara och refererbara. Det i sin tur möjliggör en sammanlänkning och relationer med entiteter i Wikidata, men även såklart för fler sammanhang.</p>\n</li>\n</ol>\n<p dir=\"auto\">Klicka här för mer information om  <a href=\"https://docs.dataportal.se/\" rel=\"nofollow ugc\">dataportalens tjänster</a> , samt om <a href=\"https://docs.dataportal.se/dcat/docs/harvesting/\" rel=\"nofollow ugc\">skördning av metadata</a> till Sveriges dataportal</p>\n",
+      "pid": 383,
+      "tid": 102,
+      "timestamp": 1620226276686,
+      "toPid": "382",
+      "uid": 7,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-05-05T14:51:16.686Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@ainali</a> sa i <a href=\"/post/382\">Identifierare och relationer</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/365\">Kategorisera API:er efter datasort</a>:</p>\n<blockquote>\n<p dir=\"auto\">Apropå trådämnet, har dataportalens API-register URI:er och kopplingar till Wikidata?</p>\n</blockquote>\n<p dir=\"auto\">Vad tänker du att de ska koppla mot/länka till? Olika datasorter i Wikidata (exempelvis <a href=\"https://www.wikidata.org/wiki/Q7300787\" rel=\"nofollow ugc\">Q7300787 (realtidsdata)</a> )?</p>\n</blockquote>\n<p dir=\"auto\">Det låter en av värdemängdena inom \"<a href=\"https://docs.dataportal.se/dcat/sv/#dcat_Dataset-dcterms_accrualPeriodicity\" rel=\"nofollow ugc\">Uppdateringsfrekvens</a>\"</p>\n",
+      "pid": 384,
+      "tid": 102,
+      "timestamp": 1620226825677,
+      "toPid": "382",
+      "uid": 7,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-05T15:00:25.677Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> kolla på Havs- och vattenmyndigheten dom gör rätt och har EU unika identifierare. Det jag ser mer och mer är att det finns en tydlighet i fördningar <a href=\"https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2001100-om-den-officiella_sfs-2001-100\" rel=\"nofollow ugc\">2001:100</a>  vem som äger den officiella statistiken och de är de som bör skapa tydliga identifierare...</p>\n<p dir=\"auto\">Kollar vi på Badplatser där dataset skapats av flera kommuner men det blir bara rörigt och  SILOS</p>\n<ul>\n<li><a href=\"https://opendata.uppsala.se/datasets/aadc5420e8884d32b2efe0d10fbfdfe5_0/geoservice?geometry=15.925%2C59.642%2C19.874%2C60.125\" rel=\"nofollow ugc\">Uppsala kommun</a>\n<ul>\n<li>hittar på egna ID:n och länkar inte Havs- och vattenmyndigheten som är dom som har persistenta identifierare för EU bad</li>\n<li>resultat <strong>data SILO</strong></li>\n</ul>\n</li>\n<li><a href=\"https://www.sodertalje.se/kommun-och-politik/for-medborgare/oppna-data/oppen-data/#esc_entry=500&amp;esc_context=1\" rel=\"nofollow ugc\">Södertälje kommun</a>\n<ul>\n<li>hittar på egen identifierare, har koordinater i RT90</li>\n<li>resultat <strong>data SILO</strong></li>\n</ul>\n</li>\n<li><a href=\"https://service.karlskrona.se/FileStorageArea/Documents/bad/swimAreas.geojson\" rel=\"nofollow ugc\">Karlskrona kommun</a>\n<ul>\n<li>hittar på ett eget idArea dvs. använder inte EU varianten <a href=\"https://en.wikipedia.org/wiki/Nomenclature_of_Territorial_Units_for_Statistics\" rel=\"nofollow ugc\">NUTS</a> dvs. dom refererar inte Havs- och vattenmyndighete</li>\n<li>resultat <strong>data SILO</strong></li>\n</ul>\n</li>\n<li>....</li>\n</ul>\n<p dir=\"auto\"><strong>Mer om detta kaos med badvatten:</strong> min <a href=\"https://github.com/salgo60/Svenskabadplatser\" rel=\"nofollow ugc\">GITHUB Svenskabadplatser</a> där jag nu importerat Havs- och vattenmyndigheten badplatser och håller på att koppla dessa... vi har egna identifierare men pekar på NUTS som finns hos Havs- och vattenmyndigheten</p>\n<p dir=\"auto\"><strong>Min tro varför det blir detta kaos</strong> organisationerna förstår inte vilka myndigheter som är ansvariga för badvatten och troligen har identifierare</p>\n<ul>\n<li>Löses med\n<ul>\n<li>bättre myndighetskunskap</li>\n<li>bättre plattformar att kommunicera med dom som är anvariga ex. Havs- och vattenmyndigheten. Idag svarade dom på email efter en vecka men saknar ex. yta på GITHUB</li>\n<li>känns som det är ofta externa konsulter som gör lösningarna dom måste styras upp eller skaffa kompetens inhouse</li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 386,
+      "tid": 102,
+      "timestamp": 1620232270511,
+      "toPid": "363",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-05T16:31:10.511Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@ainali</a> sa i <a href=\"/post/382\">Identifierare och relationer</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/365\">Kategorisera API:er efter datasort</a>:</p>\n<blockquote>\n<p dir=\"auto\">Apropå trådämnet, har dataportalens API-register URI:er och kopplingar till Wikidata?</p>\n</blockquote>\n<p dir=\"auto\">Vad tänker du att de ska koppla mot/länka till? Olika datasorter i Wikidata (exempelvis <a href=\"https://www.wikidata.org/wiki/Q7300787\" rel=\"nofollow ugc\">Q7300787 (realtidsdata)</a> )?</p>\n</blockquote>\n<p dir=\"auto\">Jag tänker mig t.ex. att det kan gå att hitta datamängder jag är intresserad av via Wikidata. Jag provade att söka efter kommunernas dataportaler och fick upp en lista där bl.a. Stockholms dataportal dök upp. Där kunde jag sedan leta vidare efter data.</p>\n<p dir=\"auto\"><a href=\"https://w.wiki/3HTp\" rel=\"nofollow ugc\">https://w.wiki/3HTp</a></p>\n<p dir=\"auto\">Sedan vore det intressant att veta om jag kan inkludera den nuvarande nationella dataportalen i sökningen också.</p>\n<p dir=\"auto\">Dock ser ämnesmärkningen i de nationella portalerna ganska sporadisk och ojämn ut så långt jag sett. Jag föreställer mig att det kunde finnas möjligheter till friare kategorisering och koppling, och mer kraftfulla och enhetliga sökverktyg, om informationen finns representerad på Wikidata.</p>\n<p dir=\"auto\">Jag tänker också på fallet där jag skulle vilja hitta datamängder av samma typ från Sverige och andra länder som jag skulle vilja göra jämförelser mot.</p>\n<p dir=\"auto\">Jag vet inte hur informationen om kommunernas dataportaler hamnat i Wikidata, om det är av ideella krafter eller offentligt sanktionerat, men jag tycker det verkar värdefullt att den kan göras åtkomlig där för meta-sökning över spridda informationskällor.</p>\n<p dir=\"auto\">Frågan om realtidsuppdateringar är väl också intressant. Samlas data in löpande till Wikidata från public service och andra som publicerar nyhetsartiklar och media t.ex.?</p>\n",
+      "pid": 389,
+      "tid": 102,
+      "timestamp": 1620241814775,
+      "toPid": "382",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-06T10:23:44.988Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-05T19:10:14.775Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Jag skulle säga att följande riktlinje från DIGGs andra vägledning är relevant i detta sammanhang. Det är att betrakta som en e-tjänst även om den kanske inte har ett webbgränssnitt:<br />\n<a href=\"https://webbriktlinjer.se/riktlinjer/6-tillhandahall-e-tjanster-pa-en-webbadress-som-tillhor-myndigheten/\" rel=\"nofollow ugc\">https://webbriktlinjer.se/riktlinjer/6-tillhandahall-e-tjanster-pa-en-webbadress-som-tillhor-myndigheten/</a></p>\n",
+      "pid": 395,
+      "tid": 102,
+      "timestamp": 1620295889130,
+      "toPid": "352",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-06T10:11:29.130Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Wikidata <strong>Egenskapen Open Data portal</strong> jag <a href=\"https://www.wikidata.org/wiki/Wikidata:Property_proposal/Open_Data_portal\" rel=\"nofollow ugc\">begärde en egenskap på Wikidata 24 jun 2020</a></p>\n<ul>\n<li>den skapades 4 jul 2020</li>\n<li>sedan matade jag in så många jag hitta se <a href=\"https://w.wiki/Wnw\" rel=\"nofollow ugc\">karta</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620242208051-7173e739-982f-4fb0-8f39-7d4d831c15b6-image-resized.png\" alt=\"7173e739-982f-4fb0-8f39-7d4d831c15b6-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Property_talk:P8402#Why_this_property?\" rel=\"nofollow ugc\">min vision var</a>\n<ul>\n<li>steg ett var att enklare börja hitta dataportalen och att Google hittar den se hur snabbt Google läser Wikidata <a href=\"https://twitter.com/salgo60/status/1162883309979852800?s=20\" rel=\"nofollow ugc\">tweet</a>\n<ul>\n<li>att om det blir bra så skulle alla Wikipedia artiklar om ex. en kommun kunna ha en länk till deras öppna dataportal var min tanke... tanken möttes med försiktig positiva kommentarer (att inför förändring på Wikipedia är oftast halvt omöjligt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> )</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>steg 2 var att beskriva enskilda dataset. Jag slog ihop en POC med <a href=\"https://wikiba.se/\" rel=\"nofollow ugc\">Wikibase</a> se <a href=\"https://sweopendata.wiki.opencura.com/wiki/Main_Page\" rel=\"nofollow ugc\">sweopendata.wiki.opencura.com</a>\n<ul>\n<li>samtidigt med detta då jag fortfarande trodde på Öppen data så var tanken att hämta från alla kommuner exempelvis deras vindskyddsdata se <a href=\"http://minancestry.blogspot.com/2020/06/vindskydd-i-sverige.html\" rel=\"nofollow ugc\">blog</a> , lesson learned ofta visste en kommun inte vad Öppen data är....</li>\n</ul>\n</li>\n<li>försökte även få in <a href=\"https://community.entryscape.com/t/european-data-portal-publicerar-den-sjatte-arliga-rapporten-om-open-data-maturity/521/8?u=magnus_salgo\" rel=\"nofollow ugc\">metasolution och dataportalen</a> eller så är det någon annan man skall prata med (tror tyvärr att metasolution ser Wikidata som ett hot än en möjlighet men vi har väl alla olika agendor <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></li>\n</ul>\n<p dir=\"auto\">Jag har nog backat 10 år på mina visioner....</p>\n<ul>\n<li>skall saker hända så måste det till saker som JobTech och <a href=\"https://community.dataportal.se/topic/76/fastighetsdatalabb-lunchseminarie-datastory-10-%C3%A5r-med-%C3%B6ppna-data-och-datavisualisering/11\">Fastighetslab</a> .... röran med badplatser pekar på att vi efter minst 6 års jobbande med Öppen data kanske mer ser brister än framsteg....</li>\n</ul>\n<pre><code>Frågan om realtidsuppdateringar är väl också intressant. Samlas data in löpande till Wikidata från public service och andra som publicerar nyhetsartiklar och media t.ex.?\n</code></pre>\n<p dir=\"auto\">Som med alla frivilliga communities så är Wikidata spretigt man gör det man tycker är kul</p>\n<p dir=\"auto\">Börjar Öppen data levereras mer proffsigt så kan nog någon synkronisera det nedan vad några försökt göra men som det är även i denna diskussionsgrupp är att dom som sitter på dataset är svåra att hitta/kommunicera med</p>\n<ul>\n<li>Riksdagens ledamöter kollar en engelsman <a href=\"https://twitter.com/tmtm/status/1315625171248730114?s=20\" rel=\"nofollow ugc\">tweet</a><br />\n/ <a href=\"https://github.com/tmtmtmtm/sweden-riksdag-api-current\" rel=\"nofollow ugc\">GITHUB</a>\n<ul>\n<li>tror även motioner etc. uppdateras av Robin etc... se \"<a href=\"https://wikimedia.se/2020/10/26/analysera-rikspolitiken-med-hjalp-av-wikidata/\" rel=\"nofollow ugc\">Analysera rikspolitiken med hjälp av Wikidata</a>\" / video om <a href=\"https://www.youtube.com/watch?t=5083&amp;v=yMtP64yFKn0&amp;feature=youtu.be\" rel=\"nofollow ugc\">HD beslut</a></li>\n</ul>\n</li>\n<li>Nobelpriset har jag en <a href=\"https://github.com/salgo60/open-data-examples/blob/master/Nobel%20API.ipynb\" rel=\"nofollow ugc\">Jupyter notebook</a></li>\n<li>Svenskt Kvinnobiografiskt lexikon har jag uppdaterat med <a href=\"https://github.com/salgo60/open-data-examples/blob/master/Svenskt%20Kvinnobiografiskt%20lexikon%20part%203.ipynb\" rel=\"nofollow ugc\">Jupyter notebook</a> - men har sagt till dom att jag inte gör det längre men att dom enkelt kan göra det själva</li>\n<li>Litteraturbanken samma där <a href=\"https://github.com/salgo60/open-data-examples/blob/master/Litteraturbanken%20Author.ipynb\" rel=\"nofollow ugc\">Notebook</a> - men har slutat uppdatera</li>\n<li>Riksarkivet SBL har inget API men jag gjorde webskrabing med en <a href=\"https://github.com/salgo60/open-data-examples/blob/master/SBL.ipynb\" rel=\"nofollow ugc\">Notebook</a>\n<ul>\n<li>lite \"intressant\" att Riksarkivet var ansvariga för Öppen data 2016 men har inte ens API till sitt eget data...</li>\n</ul>\n</li>\n<li>osv....</li>\n</ul>\n",
+      "pid": 397,
+      "tid": 102,
+      "timestamp": 1620296624988,
+      "toPid": "389",
+      "uid": 24,
+      "edited": 1620296767431,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-08T08:55:34.047Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-06T10:23:44.988Z",
+      "editedISO": "2021-05-06T10:26:07.431Z",
+      "index": 10,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Tack för bakgrunden, kul att veta hur det gjordes och bra insats med att registrera dataportalerna. Ja det går förstås att se historiken för när och hur en egenskap infördes och populerades på Wikidata, att den möjligheten finns är man ju inte riktigt van vid.</p>\n<p dir=\"auto\">Jag såg också att det tidigare fanns en egenskap för \"external data available at\", men att den endast var definierad som ett textvärde snarare än en entitet som kan ha egenskaper i sig.</p>\n",
+      "pid": 415,
+      "tid": 102,
+      "timestamp": 1620464134047,
+      "toPid": "397",
+      "uid": 125,
+      "edited": 1620464406187,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-08T12:40:12.689Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-08T08:55:34.047Z",
+      "editedISO": "2021-05-08T09:00:06.187Z",
+      "index": 11,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> det var ett infall jag hade.... jag hade kollat på  <a href=\"https://data.europa.eu/data/datasets?locale=en&amp;minScoring=0\" rel=\"nofollow ugc\">data.europa.eu</a> (EDP)  se min <a href=\"https://github.com/salgo60/open-data-examples/blob/master/European%20data%20portal%20-%20quality%20of%20Metadata.ipynb\" rel=\"nofollow ugc\">Jupyter Notebook</a> och dit skickar svenska dataportalen text strängar med språkkod vilket är helt fel 2021</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620476444584-e5e58b2d-472b-4b90-b199-ab8899b20ae9-image.png\" alt=\"e5e58b2d-472b-4b90-b199-ab8899b20ae9-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Fick inget svar av dom varför dom gör så fel.... ställde senare en fråga på en workshop se video om att <a href=\"https://www.youtube.com/watch?v=W-9HMaAi78g&amp;t=1325s\" rel=\"nofollow ugc\">Google Dataset Search Engine har kunskapsgraf</a> min <a href=\"https://youtu.be/W-9HMaAi78g?t=3250\" rel=\"nofollow ugc\">fråga vid 54 min</a> om att EDP springer åt fel håll som <strong>skickar textsträngar</strong>. Särskilt när det är Europiska dataset med massor med olika språk.... gissar att ordet kommuner inte är självklart i hela Europea utan bättre kommunicera med en <a href=\"https://w.wiki/3JG7\" rel=\"nofollow ugc\">graf</a></p>\n<p dir=\"auto\">Jag har försökt lyfta detta på GITHUB <a href=\"https://github.com/DIGGSweden/DCAT-AP-SE/issues/84\" rel=\"nofollow ugc\">DIGGSweden/DCAT-AP-SE/issues/84</a> men får en sur bismak att den specen drivs för att passa Metasolutions produkt plus att DIGG känns för svaga på kunskapsgrafer och  att förstå länkade data så dom kan inte driva detta mot EDP.... känns som Open Data har svårt att lämna startblocken....</p>\n<p dir=\"auto\">/med hopp att jag har fel</p>\n",
+      "pid": 416,
+      "tid": 102,
+      "timestamp": 1620477612689,
+      "toPid": "415",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-05-09T16:45:04.696Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-08T12:40:12.689Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Ja jag provkörde OpenRefine lite i dagarna, och det framstår som att en uttalad målsättning vid publicering av data borde vara att förebygga och undvika rekonsiliering/manuellt arbete med sammanställningar.</p>\n<p dir=\"auto\">Alla instanser som arbetar med arkiv och register borde väl också vara fullt medvetna om nyttan med och användningen av referensnummer och standardiserade egenskaper, det måste ju tillhöra den grundläggande praktiken i den världen.</p>\n<p dir=\"auto\">När det gäller ekonomidata är det kanske sämre med standardisering och identifiering av betydelser av olika fält, men det beror väl på ev. bakomliggande redovisningskrav också.</p>\n<p dir=\"auto\">Med en referens för fältegenskapen skulle den ju enkelt kunna översättas till önskat språk.</p>\n<p dir=\"auto\">Jag vet inte i vilken mån detta återspeglas i styrningen av offentlig datapublicering i dagsläget. Det borde kanske finnas någon form av beställarroll som checkar av att detta fungerar och tillgodoses i publicerade datamängder så man undviker onödigt arbete vid nyttjande.</p>\n<p dir=\"auto\">Ex. på rekonsiliering i Refine:<br />\n<a href=\"https://youtu.be/5tsyz3ibYzk?t=205\" rel=\"nofollow ugc\">https://youtu.be/5tsyz3ibYzk?t=205</a></p>\n",
+      "pid": 421,
+      "tid": 102,
+      "timestamp": 1620578704696,
+      "toPid": "416",
+      "uid": 125,
+      "edited": 1620579001367,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-09T18:45:09.815Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-09T16:45:04.696Z",
+      "editedISO": "2021-05-09T16:50:01.367Z",
+      "index": 13,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> coolt... för mig tog det 2-3 veckor innan jag blev kompis med Open Refine.... min gamla trötta hjärna fick kortslutning <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\">Japp det är så självklart för den som använder datat att data skall vara länkat....</p>\n<ul>\n<li>I FB gruppen <a href=\"https://www.facebook.com/groups/opengov\" rel=\"nofollow ugc\">OpenGov</a> publicerades en länk till en DN artikel \"<a href=\"https://www.dn.se/debatt/till-stora-kostnader-samlas-data-in-som-aldrig-anvands/?fbclid=IwAR2c70RDkPhlMm19i3wREPqoq5NcMgfl_P1dDyqZgVHpbCR0LuzwAfnLOzs\" rel=\"nofollow ugc\">Till stora kostnader samlas data in som aldrig används</a>”\" där vi kanske har förklaringen som är så enkel att ingen använder dagens data.... <a href=\"https://riksarkivet.se/psi-oppna-data\" rel=\"nofollow ugc\">5 års jobb</a> och ingen använder data <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /><br />\n<em>\"\"Intresset för att samla in och bearbeta data inom offentlig sektor åtföljs ofta av ointresse att använda sig av dessa data.\"\"</em></li>\n</ul>\n<p dir=\"auto\">studie som verkar peka på att Öppen data inte används och i såfall spelar det ju inte så stor roll <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620581374254-af1fc740-7609-438f-a10f-7de6f23a25ca-image.png\" alt=\"af1fc740-7609-438f-a10f-7de6f23a25ca-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Jag är lite rädd att en organisation som DIGG inte lyckas anställa folk som är \"<a href=\"https://www.mastersindatascience.org/careers/data-scientist/\" rel=\"nofollow ugc\">data scientist</a>\" och vill jobba med data och skapa ett svenskt ekosystem.... utan fokus blir mer att leverera en pdf och inte göra skitgörat som det är att styra upp och tvätta data  och ha en prioriterad backlog. Att DIGG på 2 år skapat <a href=\"https://www.dataportal.se/sv/datasets/?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher%7C%7Chttps%3A%2F%2Fcatalog.digg.se%2Fstore%2F1%2Fresource%2F1%7C%7Cfalse%7C%7Curi%7C%7COrganisationer%7C%7CMyndigheten%20f%C3%B6r%20digital%20f%C3%B6rvaltning&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService\" rel=\"nofollow ugc\">ett dataset</a> kanske visar denna Digitala brist på vision..... kollar man vad som ramlat in enligt datahamstern var det <strong>2164 uppdaterade dataset nu senast</strong> gissa om detta 100000 dubblas om vi får fart på kommuner och myndigheter och att sitta med fritextsökning funkar inte.... <a href=\"https://en.wikipedia.org/wiki/Wikidata#:~:text=Wikidata%20was%20launched%20on%2029,the%20Wikimedia%20Foundation%20since%202006.&amp;text=Wikipedia%20language%20editions%20were%20still,end%20of%20the%20articles'%20pages.\" rel=\"nofollow ugc\">Wikipedia insåg detta 2012</a>, <a href=\"https://en.wikipedia.org/wiki/Google_Knowledge_Graph#History\" rel=\"nofollow ugc\">Google 2012</a> ....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620580229945-4388df3f-eca0-4c3e-8777-c427e73646c3-image.png\" alt=\"4388df3f-eca0-4c3e-8777-c427e73646c3-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Snyggt exempel på Kunskapsgrafer vs. text strängar idag skickas datat vidare till Europeiska dataportal där svenska kommuner är en text sträng med en språklabel om <a href=\"https://github.com/salgo60/open-data-examples/blob/master/European%20data%20portal%20-%20quality%20of%20Metadata.ipynb\" rel=\"nofollow ugc\">jag förstått det rätt</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620581094590-cfd3336a-5f9a-4089-b420-12c0db8954c3-image.png\" alt=\"cfd3336a-5f9a-4089-b420-12c0db8954c3-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">I WIkidata som är långt från perfekt utan enligt mig mer ett socialt experiment kan vi fråga efter</p>\n<ul>\n<li>alla administrativa enheter på nivå 2 = Svenska kommuner</li>\n<li><a href=\"https://www.wikidata.org/wiki/Q13220204?uselang=sv\" rel=\"nofollow ugc\">Q13220204</a> är WD objektet för nivå 2\n<ul>\n<li>1692 av dessa objektet har <a href=\"https://www.wikidata.org/wiki/Property:P3896\" rel=\"nofollow ugc\">P3896</a> som är ytan --&gt;  vi kan visa <a href=\"https://w.wiki/3JYz\" rel=\"nofollow ugc\">en karta över objektets utbredning</a> (saknas mycket i Sverige) dvs. skulle vi kunna få bra data så har vi en infrastruktur som är enormt spännande och skalar snyggt till hela världen....</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620585672927-37be8619-7c81-4758-9c71-a39fb66a674b-image-resized.png\" alt=\"37be8619-7c81-4758-9c71-a39fb66a674b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">lite intressant att vi lyckats få bättre data från Malawi <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620586152470-d125bd35-b704-4ac7-a06f-71c12514166e-image.png\" alt=\"d125bd35-b704-4ac7-a06f-71c12514166e-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">OT Exempel på verktyg Wikidata har för att kolla kvaliten på exempelvis Svenska Badplatser <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser/Coverage\" rel=\"nofollow ugc\">länk</a> känns också saker DIGG borde ha i sin portfölj för att styra upp Öppen Data och kunna se var det behövs bättre data kvalitet, nu verkar man lyssna på EDP som räkna antal uppladdade dataset...</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620582089369-47cea264-769b-4b07-a58c-0c07fb48791c-image-resized.png\" alt=\"47cea264-769b-4b07-a58c-0c07fb48791c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser\" rel=\"nofollow ugc\">länk</a></li>\n</ul>\n",
+      "pid": 422,
+      "tid": 102,
+      "timestamp": 1620585909815,
+      "toPid": "421",
+      "uid": 24,
+      "edited": 1620586158779,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-09T20:07:21.579Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-09T18:45:09.815Z",
+      "editedISO": "2021-05-09T18:49:18.779Z",
+      "index": 14,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Jag känner också att det kan behövas några veckor för att komma in i Refine, även om introduktionsvideorna var ganska bra. En del saker är svåra att komma på hur man ska göra även om man har en idé om vad man vill konceptuellt. Det verkar vara lite av en hybrid av UI och ett expression language API för mer avancerade operationer.</p>\n<p dir=\"auto\">Jag får 2 träffar på dataset från DIGG på länken, Status och Leverantörsfakturor, men de kanske har ramlat in med två års mellanrum.  Det kan ju vara en övning att försöka hitta historiken i metadatan för dataseten.</p>\n<p dir=\"auto\">Hade hört talas om den artikeln på DN och tänkte försöka läsa den, det låter intressant. Hörde också om en annan debatt-artikel som tar upp att Sveriges som det verkar lite speciella decentraliserade administration har lett till en inofficiell centralisering.</p>\n<p dir=\"auto\"><a href=\"https://www.dn.se/debatt/man-och-invandrare-borde-ha-prioriterats-i-vaccineringen/\" rel=\"nofollow ugc\">https://www.dn.se/debatt/man-och-invandrare-borde-ha-prioriterats-i-vaccineringen/</a></p>\n<blockquote>\n<p dir=\"auto\">DN DEBATT 24/4. Bo Rothstein<br />\n...<br />\nSom Riksrevisionens rapport gör klart leder denna ”uppgörelsestyrning” till minskad offentlig insyn och, som det nu med fatala konsekvenser visat sig, ”otydlig ansvarsfördelning”.<br />\n...<br />\nRiksrevisionens rapport slår fast följande: ”Många gånger har regeringens insatser syftat till att höja ambitionsnivån, men Riksrevisionen bedömer att dessa inte har inneburit nya åtaganden för kommuner och landsting.”</p>\n</blockquote>\n<p dir=\"auto\">Intressant med sidan med täckningsgrad för egenskaperna, jag hade själv börjat tänka i de banorna hur man kunde få en översikt över hur komplett information är inom ett område.</p>\n",
+      "pid": 423,
+      "tid": 102,
+      "timestamp": 1620590841579,
+      "toPid": "422",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-05-09T20:22:09.974Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-09T20:07:21.579Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> ring om du har problem med Open Refine 0705937579 jag finns även på Telegram salgo60 Har nog ett <a href=\"https://www.youtube.com/results?search_query=Open+refine+Magnus+S%C3%A4lg%C3%B6\" rel=\"nofollow ugc\">antal video som svar på email till andra</a> du har även bra support på <a href=\"https://gitter.im/OpenRefine/OpenRefine\" rel=\"nofollow ugc\">Gitter</a> och <a href=\"https://github.com/OpenRefine/OpenRefine\" rel=\"nofollow ugc\">GITHUB</a></p>\n<ul>\n<li>finns även bra på <a href=\"https://programminghistorian.org/en/lessons/?topic=data-manipulation\" rel=\"nofollow ugc\">programminghistorian.org</a> exempel \"<a href=\"https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine\" rel=\"nofollow ugc\">Fetching and Parsing Data from the Web with OpenRefine</a>\" där man webscrapar och hämtar från API</li>\n</ul>\n",
+      "pid": 424,
+      "tid": 102,
+      "timestamp": 1620591729974,
+      "toPid": "423",
+      "uid": 24,
+      "edited": 1620591983386,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-09T20:22:09.974Z",
+      "editedISO": "2021-05-09T20:26:23.386Z",
+      "index": 16,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/423\">Identifierare och relationer</a>:</p>\n<blockquote>\n<p dir=\"auto\">Det kan ju vara en övning att försöka hitta historiken i metadatan för dataseten.</p>\n</blockquote>\n<p dir=\"auto\">Utgivningsdatum för ett dataset skulle isf. heta \"issued\" enligt DCAT?<br />\nJag kan inte hitta det i metadatan från DIGG:s dataset.</p>\n<p dir=\"auto\"><a href=\"https://docs.dataportal.se/dcat/sv/#dcat_Dataset-dcterms_issued\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/sv/#dcat_Dataset-dcterms_issued</a></p>\n<blockquote>\n<p dir=\"auto\">Egenskap\t<a href=\"http://purl.org/dc/terms/issued\" rel=\"nofollow ugc\">http://purl.org/dc/terms/issued</a><br />\nKravnivå\tRekommenderad</p>\n</blockquote>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/760/metadata/1536?recursive=dcat\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/760/metadata/1536?recursive=dcat</a><br />\n<a href=\"https://admin.dataportal.se/store/760/metadata/1544?recursive=dcat\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/760/metadata/1544?recursive=dcat</a></p>\n",
+      "pid": 425,
+      "tid": 102,
+      "timestamp": 1620592146277,
+      "toPid": "423",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-09T21:16:13.290Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-09T20:29:06.277Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> jag är inte alls kopis med <a href=\"http://docs.dataportal.se/dcat\" rel=\"nofollow ugc\">docs.dataportal.se/dcat</a> tycker inte jag hittar mycket som är intressant. Jag skulle vilja koppla ihop organisationer i Wikidata med deras organisations identifierare i <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> så kan du hitta denna koppling så kan vi begära att skapa en Wikidata egensak</p>\n",
+      "pid": 426,
+      "tid": 102,
+      "timestamp": 1620594973290,
+      "toPid": "425",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-10T05:49:17.368Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-09T21:16:13.290Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Det låter som en bra idé, tyvärr verkar dataportalen sådana här adresser till organisationer:<br />\n<a href=\"https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher%7C%7Chttp%3A%2F%2Fid.kb.se%2Forganisations%2FSE2021000837%7C%7Cfalse%7C%7Curi%7C%7COrganisationer%7C%7CStatistikmyndigheten%20SCB%20-%20Statistiska%20centralbyr%C3%A5n&amp;rt=dataset%24esterms_IndependentData\" rel=\"nofollow ugc\">https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher||http%3A%2F%2Fid.kb.se%2Forganisations%2FSE2021000837||false||uri||Organisationer||Statistikmyndigheten SCB - Statistiska centralbyrån&amp;rt=dataset%24esterms_IndependentData</a></p>\n<p dir=\"auto\">där identifieraren är<br />\nhttp%3A%2F%<a href=\"http://2Fid.kb.se\" rel=\"nofollow ugc\">2Fid.kb.se</a>%2Forganisations%2FSE2021000837%7C%7Cfalse%7C%7Curi%7C%7COrganisationer%7C%7CStatistikmyndigheten%20SCB%20-%20Statistiska%20centralbyr%C3%A5n&amp;rt=dataset%24esterms_IndependentData</p>\n<p dir=\"auto\">lycka till att göra en regex på den <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f605.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--sweat_smile\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":sweat_smile:\" alt=\"😅\" /></p>\n<p dir=\"auto\">här finns en till<br />\n<a href=\"https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher%7C%7Chttps%3A%2F%2Fpensionsmyndigheten.se%2Fpublisher1%7C%7Cfalse%7C%7Curi%7C%7COrganisationer%7C%7CPensionsmyndigheten&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService\" rel=\"nofollow ugc\">https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher||https%3A%2F%2Fpensionsmyndigheten.se%2Fpublisher1||false||uri||Organisationer||Pensionsmyndigheten&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService</a></p>\n",
+      "pid": 427,
+      "tid": 102,
+      "timestamp": 1620625757368,
+      "toPid": "426",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-10T07:35:38.486Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-10T05:49:17.368Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/1314",
+      "type": "backlink",
+      "uid": 125,
+      "id": 121,
+      "timestamp": 1645870841798,
+      "timestampISO": "2022-02-26T10:20:41.798Z",
+      "user": {
+        "picture": null,
+        "username": "jonor",
+        "userslug": "jonor",
+        "uid": 125,
+        "displayname": "jonor",
+        "icon:text": "J",
+        "icon:bgColor": "#009688"
+      },
+      "icon": "fa-link",
+      "text": "<span alt=\"jonor\" title=\"jonor\" data-uid=\"125\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #009688;\">J</span> <a href=\"/user/jonor\">jonor</a> <a href=\"/post/1314\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-02-26T10:20:41.798Z\"></span>"
+    },
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 267,
+      "timestamp": 1648840053741,
+      "timestampISO": "2022-04-01T19:07:33.741Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:07:33.741Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "102",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/102.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/102/identifierare-och-relationer?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/102",
+  "bodyClass": "page-topic page-topic-102 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Identifierare och relationer"
+        },
+        {
+          "name": "description",
+          "content": "@josefinlassi  appropå persistenta identifierare så har vi med det i vägledningen för att tillgängliggöra information.  Innebär det att man ska äga ett domännamn för att skapa identifierare, eller hur ser praxis ut? Finns det exempel på hur detta tillämpa..."
+        },
+        {
+          "property": "og:title",
+          "content": "Identifierare och relationer"
+        },
+        {
+          "property": "og:description",
+          "content": "@josefinlassi  appropå persistenta identifierare så har vi med det i vägledningen för att tillgängliggöra information.  Innebär det att man ska äga ett domännamn för att skapa identifierare, eller hur ser praxis ut? Finns det exempel på hur detta tillämpa..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-05-05T14:53:52.187Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-05-23T12:03:12.644Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/102",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/102/identifierare-och-relationer",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/102.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonor"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/102/identifierare-och-relationer?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

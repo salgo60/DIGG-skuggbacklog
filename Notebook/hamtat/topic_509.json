@@ -1,0 +1,626 @@
+{
+  "cid": 23,
+  "lastposttime": 1665673378116,
+  "mainPid": 2804,
+  "postcount": 1,
+  "slug": "509/flerspåkiga-temkataloger",
+  "tid": 509,
+  "timestamp": 1665673378062,
+  "title": "Flerspåkiga temkataloger",
+  "uid": 24,
+  "viewcount": 202,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 1,
+  "oldCid": 31,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Flerspåkiga temkataloger",
+  "timestampISO": "2022-10-13T15:02:58.062Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-13T15:02:58.116Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/508\">@Fredrik-Ferm</a> bara detta att ha en termkatalog som är flerspråkig och som delas av flera tror jag är ett enormt lyft se <a href=\"https://community.dataportal.se/topic/120/eionet-data-dictionary?_=1665165081193\">blogpost</a></p>\n<p dir=\"auto\">Min lekmanna tro är att det NOSAD jobbar med <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> / <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> där en del är Öppen programvara så bör en av grundstenarna vara att man skapar språkoberoende specar etc..... --&gt; <strong>så att flera kan ta till sig specar/dokumentation etc...</strong> engelska duger långt men <a href=\"https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_v%C3%A4rldens_st%C3%B6rsta_spr%C3%A5k_efter_antal_talare\" rel=\"nofollow ugc\">det finns mycket utanför detta språkområde</a> och varför skall inte Sverige stödja dessa länder genom att ta fram bra mjukvara dom enklare kan använda</p>\n<ul>\n<li>en annan grundsten är <strong><a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata/issues/12\" rel=\"nofollow ugc\">persistenta identifierare</a></strong>... idag vandrade jag runt i Täby och <strong>fotade persistenta identifierare på dessa runstenar</strong> se GITHUB issue <a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata/issues/12#issuecomment-1271321763\" rel=\"nofollow ugc\">12#issuecomment-1271321763</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1665165512259-10e4caac-8e07-45de-b9c1-1049ab98a13b-image.png\" alt=\"10e4caac-8e07-45de-b9c1-1049ab98a13b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>\n<p dir=\"auto\">I Sverige hade <strong>Runstenarna persistenta identifierare 1750</strong> se <a href=\"https://meta.wikimedia.org/wiki/Structured_data_for_GLAM-Wiki/Roundtripping/KMB\" rel=\"nofollow ugc\">längre artikel jag skrev om det</a></p>\n</li>\n<li>\n<p dir=\"auto\">Exempel hur snyggt det blir med <strong><a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata/issues/13#issuecomment-1270474448\" rel=\"nofollow ugc\">Nobelprize.org och dagens fredspris.</a></strong>.. där hade vi extrem länkröta (jmf <a href=\"https://community.dataportal.se/topic/391/diggs-r%C3%A5dgivande-organ-l%C3%A4nkr%C3%B6ta?_=1665165645605\">samma problem som DIGG/Statskontoret har idag)</a> men genom att deras CTO/CIO tog tag i detta har idag alla prisvinnarna ett unikt id --&gt; och vi har en bra länkmodell se Task <a href=\"https://phabricator.wikimedia.org/T251055\" rel=\"nofollow ugc\">T251055</a></p>\n</li>\n</ul>\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata/issues/13#issuecomment-1270474448\" rel=\"nofollow ugc\"><img src=\"/assets/uploads/files/1665165610787-4ec82bdc-65b2-4461-8e29-5edb31593a74-image.png\" alt=\"4ec82bdc-65b2-4461-8e29-5edb31593a74-image.png\" class=\" img-fluid img-markdown\" /></a></p>\n<p dir=\"auto\"><a href=\"https://phabricator.wikimedia.org/T251055\" rel=\"nofollow ugc\"><img src=\"/assets/uploads/files/1665165781456-52b67e4f-3b41-4118-a5d0-2e6d389ec7e3-image.png\" alt=\"52b67e4f-3b41-4118-a5d0-2e6d389ec7e3-image.png\" class=\" img-fluid img-markdown\" /></a></p>\n<p dir=\"auto\">@Dennis_Priskorn har säkert tankar om hur WIkidata implementerats men jag tycker att <a href=\"https://youtu.be/VdAc0JReVSw?t=2450\" rel=\"nofollow ugc\">han som skapade WIkidata har lyckats med en enormt bra design</a> och mycket \"får man gratis\" eftersom det är självklart att &gt; 300 språk skall stödjas.... tittar vi på <a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata/issues/14\" rel=\"nofollow ugc\">LIBRISXL = Kungliga Bibliotekets system</a> tycker jag dom snurrat in sig i RDF och konstig design och har massa textsträngar ex. <a href=\"https://libris.kb.se/tr574vdc33gk2cc/data.jsonld\" rel=\"nofollow ugc\">Strindberg</a> så pekar dom på en bok med text istället för en publik identifierare fast boken finns i deras system....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1665166405157-8e4d1936-0ded-4b1a-888a-aa0564dd5305-image.png\" alt=\"8e4d1936-0ded-4b1a-888a-aa0564dd5305-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 2804,
+      "tid": 509,
+      "timestamp": 1665166766650,
+      "toPid": "2803",
+      "uid": 24,
+      "edited": 1665166833891,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-10-07T18:19:26.650Z",
+      "editedISO": "2022-10-07T18:20:33.891Z",
+      "index": 0,
+      "parent": {
+        "username": "Fredrik Ferm",
+        "displayname": "Fredrik Ferm"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 31,
+          "type": "move",
+          "uid": 62,
+          "id": 510,
+          "timestamp": 1665673420758,
+          "timestampISO": "2022-10-13T15:03:40.758Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Mina ärenden",
+            "slug": "31/mina-ärenden",
+            "icon": "fa-comments",
+            "color": "#ffffff",
+            "bgColor": "#A16946"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Mina ärenden on <span class=\"timeago timeline-text\" title=\"2022-10-13T15:03:40.758Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 31,
+      "type": "move",
+      "uid": 62,
+      "id": 510,
+      "timestamp": 1665673420758,
+      "timestampISO": "2022-10-13T15:03:40.758Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Mina ärenden",
+        "slug": "31/mina-ärenden",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#A16946"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Mina ärenden on <span class=\"timeago timeline-text\" title=\"2022-10-13T15:03:40.758Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "509",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/509.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/509",
+  "bodyClass": "page-topic page-topic-509 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Flerspåkiga temkataloger"
+        },
+        {
+          "name": "description",
+          "content": "@Fredrik-Ferm bara detta att ha en termkatalog som är flerspråkig och som delas av flera tror jag är ett enormt lyft se blogpost Min lekmanna tro är att det NOSAD jobbar med @Maria_Dalhage / @jonass där en del är Öppen programvara så bör en av grundstenar..."
+        },
+        {
+          "property": "og:title",
+          "content": "Flerspåkiga temkataloger"
+        },
+        {
+          "property": "og:description",
+          "content": "@Fredrik-Ferm bara detta att ha en termkatalog som är flerspråkig och som delas av flera tror jag är ett enormt lyft se blogpost Min lekmanna tro är att det NOSAD jobbar med @Maria_Dalhage / @jonass där en del är Öppen programvara så bör en av grundstenar..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-10-13T15:02:58.062Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-13T15:02:58.116Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665166405157-8e4d1936-0ded-4b1a-888a-aa0564dd5305-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665166405157-8e4d1936-0ded-4b1a-888a-aa0564dd5305-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1920"
+        },
+        {
+          "property": "og:image:height",
+          "content": "956"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665165781456-52b67e4f-3b41-4118-a5d0-2e6d389ec7e3-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665165781456-52b67e4f-3b41-4118-a5d0-2e6d389ec7e3-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1920"
+        },
+        {
+          "property": "og:image:height",
+          "content": "956"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665165610787-4ec82bdc-65b2-4461-8e29-5edb31593a74-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665165610787-4ec82bdc-65b2-4461-8e29-5edb31593a74-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1470"
+        },
+        {
+          "property": "og:image:height",
+          "content": "868"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665165512259-10e4caac-8e07-45de-b9c1-1049ab98a13b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1665165512259-10e4caac-8e07-45de-b9c1-1049ab98a13b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1614"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1148"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/509",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/509/flerspåkiga-temkataloger",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/509.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

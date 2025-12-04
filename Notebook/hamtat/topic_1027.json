@@ -1,0 +1,766 @@
+{
+  "cid": 24,
+  "lastposttime": 1743659520430,
+  "mainPid": 5041,
+  "postcount": 5,
+  "slug": "1027/eu-lanserar-en-open-source-katalog",
+  "tid": 1027,
+  "timestamp": 1743420795526,
+  "title": "EU lanserar en open source-katalog",
+  "uid": 62,
+  "viewcount": 380,
+  "postercount": 3,
+  "teaserPid": 5060,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "EU lanserar en open source-katalog",
+  "timestampISO": "2025-03-31T11:33:15.526Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-04-03T05:52:00.430Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Den 31 mars 2025 lanserade EU-kommissionen en första version av sin Open Source Soultions Catalogue. <a href=\"https://interoperable-europe.ec.europa.eu/interoperable-europe/news/eu-open-source-solutions-catalogue-now-live\" rel=\"nofollow ugc\">Läs nyhet.</a></p>\n<p dir=\"auto\">För att synas i denna katalog behöver svenska offentliga organisationer ha metadatastandarden PublicCode.yml samt finnas listade på <a href=\"https://offentligkod.se\" rel=\"nofollow ugc\">https://offentligkod.se</a>.<br />\nFör dig som vill onboarda läs mer på <a href=\"https://nosad.se/EU_OSS_catalogue\" rel=\"nofollow ugc\">https://nosad.se/EU_OSS_catalogue</a>.</p>\n",
+      "pid": 5041,
+      "tid": 1027,
+      "timestamp": 1743420795526,
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-04-02T11:56:04.848Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-03-31T11:33:15.526Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Finns det svenska myndigheter som följer publiccode.yml idag? När jag kikar på EU-katalogen så kommer inte katalogen från <a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a> upp som källa till resultat.</p>\n",
+      "pid": 5054,
+      "tid": 1027,
+      "timestamp": 1743594964848,
+      "toPid": "5041",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-04-02T11:56:04.848Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Det finns några. EU-kommissionen har valt en första version som har ett begränsat antal länders programvaror och har träffat oss i Sverige för att kunna fånga våra programvaror också. De kommer kontinuerligt ta in programvaror från fler länder. Jag har idag ingen tidplan, men ska försöka få tag på en sådan och dela.</p>\n",
+      "pid": 5058,
+      "tid": 1027,
+      "timestamp": 1743619702476,
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-04-02T18:48:22.476Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h5>\"Svenska offentliga organisationer\"</h5>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> här är samma problem som vi pratade om igår och som jag pekar på med <a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata/issues/17\" rel=\"nofollow ugc\">2022 oct 12 #17</a> hur identifierar ni dessa organisationer?</p>\n<p dir=\"auto\">Ni måste skapa dataset med unika persistenta identifierare och inte som offentlig kod sitta och uppfinna hjulet varje gång och vara osäker på om <a href=\"https://sv.wikipedia.org/wiki/Region_Gotland\" rel=\"nofollow ugc\">Region Gotland</a> är samma sak som <a href=\"https://sv.wikipedia.org/w/index.php?title=Gotlands_kommun&amp;redirect=no\" rel=\"nofollow ugc\">Gotlands kommun</a> även hantera namnbyten ex. <a href=\"https://www.wikidata.org/wiki/Q374794?uselang=sv#P1448\" rel=\"nofollow ugc\">Q374794#P1448</a> och <a href=\"https://www.govdirectory.org/topics/\" rel=\"nofollow ugc\">klassificering</a></p>\n<p dir=\"auto\">Se och lär av <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> och hans <a href=\"https://www.govdirectory.org/sweden/Q374794\" rel=\"nofollow ugc\">www.govdirectory.org</a> och skala det till hela Europa...</p>\n",
+      "pid": 5059,
+      "tid": 1027,
+      "timestamp": 1743654718440,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-04-03T04:31:58.440Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">OT verkar som Region Gotland fått länkröta på mötesprotokollet som beslutade om namnbyte så jag <a href=\"https://handlingar.se/request/motesprotokoll_kommunfullmaktige\" rel=\"nofollow ugc\">begär ut det dokumentet</a></p>\n<ul>\n<li>\n<p dir=\"auto\">en annan sak vi flaggat för är all länkröta som vi ser med myndigheters aktivitet på web:en</p>\n<ul>\n<li>Kommunfullmäktige Protokoll 18 oktober 2010 fanns tidigare på <a href=\"https://www.gotland.se/53567#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C845%5D\" rel=\"nofollow ugc\">länk</a> nu ser vi det endast i <a href=\"https://web.archive.org/web/20211020110009/https://www.gotland.se/53567#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C845%5D\" rel=\"nofollow ugc\">Internet Archive</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\">dom <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues?q=is%3Aissue%20l%C3%A4nkr%C3%B6ta\" rel=\"nofollow ugc\">otaliga gånger länkröta har diskuterats</a></p>\n</li>\n</ul>\n",
+      "pid": 5060,
+      "tid": 1027,
+      "timestamp": 1743659520430,
+      "uid": 1802,
+      "edited": 1743659554821,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-04-03T05:52:00.430Z",
+      "editedISO": "2025-04-03T05:52:34.821Z",
+      "index": 4,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1027",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1027.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1027",
+  "bodyClass": "page-topic page-topic-1027 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "EU lanserar en open source-katalog"
+        },
+        {
+          "name": "description",
+          "content": "Den 31 mars 2025 lanserade EU-kommissionen en första version av sin Open Source Soultions Catalogue. Läs nyhet. För att synas i denna katalog behöver svenska offentliga organisationer ha metadatastandarden PublicCode.yml samt finnas listade på https://off..."
+        },
+        {
+          "property": "og:title",
+          "content": "EU lanserar en open source-katalog"
+        },
+        {
+          "property": "og:description",
+          "content": "Den 31 mars 2025 lanserade EU-kommissionen en första version av sin Open Source Soultions Catalogue. Läs nyhet. För att synas i denna katalog behöver svenska offentliga organisationer ha metadatastandarden PublicCode.yml samt finnas listade på https://off..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-03-31T11:33:15.526Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-04-03T05:52:00.430Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1027",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1027/eu-lanserar-en-open-source-katalog",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1027.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "cid": 34,
+  "lastposttime": 1717063312000,
+  "mainPid": 4745,
+  "postcount": 2,
+  "slug": "941/some-open-source-products-esv-s-datalab-uses-to-innovate-with-ai",
+  "tid": 941,
+  "timestamp": 1716273915701,
+  "title": "Some open source products ESV&#x27;s datalab uses to innovate with AI",
+  "uid": 666,
+  "viewcount": 1077,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 4751,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Some open source products ESV's datalab uses to innovate with AI",
+  "timestampISO": "2024-05-21T06:45:15.701Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-05-30T10:01:52.000Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hi everyone,</p>\n<p dir=\"auto\">At ESV's datalab, we work a lot with AI and we try to be as open as possible about the outcome of our projects. A lot of them are web applications which are made available to everyone on our website: <a href=\"https://datalabb.esv.se\" rel=\"nofollow ugc\">datalabb.esv.se</a>. In some cases, we publish the results and lessons learnt as reports. I'm also hopeful we'll be able to publish more and more of our code in the future.</p>\n<p dir=\"auto\">In the meantime, I thought I'd publish a short post on this forum to talk about some of the open source tech we use in our projects. My hope is that you find something interesting and if you already are using one of these tools, don't hesitate to contribute to the discussion below. I also added the tools to the amazing list at <a href=\"https://offentligkod.se/\" rel=\"nofollow ugc\">offentligkod.se</a>. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2764.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--heart\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":heart:\" alt=\"❤\" /></p>\n<h1>LLM</h1>\n<p dir=\"auto\">More and more of our projects revolve around the use of large language models (LLM) so I'll start with that. Our first real project last year was called Fråga GPT (<a href=\"https://www.esv.se/press-och-publicerat/publikationer/2023/fraga-gpt/\" rel=\"nofollow ugc\">report</a>) and based on OpenAI's models GPT-3.5 and GPT-4.</p>\n<p dir=\"auto\">Since then, the competition has increased and even though we still use GPT-4 a lot, we routinely use Claude, Mistral, Llama2/3 and many others.</p>\n<h2>Langchain</h2>\n<p dir=\"auto\">In order to make it easier to switch, we've been using <a href=\"https://www.langchain.com/\" rel=\"nofollow ugc\">Langchain</a>, a Python framework that lets you call a large number of APIs with reusable components. You can in theory write a single pipeline and switch the underlying model.</p>\n<pre><code class=\"language-python\">from langchain_openai import ChatOpenAI\nfrom langchain_community.chat_models import ChatOllama\n\nprompt = \"Find the information in this document: {{ document }}.\"\n\ncloud_llm = ChatOpenAI(model=\"gpt-4\")\ncloud_answer = cloud_llm.invoke(prompt)\n\nlocal_llm = ChatOllama(model=\"llama3\")\nlocal_answer = local_llm.invoke(prompt)\n</code></pre>\n<p dir=\"auto\">In practice, this can prove harder as LLM products don't have the same function set (some have a JSON mode, function calling, others don't) and specific instructions are often required to optimise for each model.</p>\n<p dir=\"auto\">Still, a toolbox that abstracts the complexity of connecting to various providers if very useful! We've also been testing tools such as <a href=\"https://github.com/jxnl/instructor\" rel=\"nofollow ugc\">instructor</a>, <a href=\"https://github.com/guidance-ai/guidance\" rel=\"nofollow ugc\">guidance</a> or <a href=\"https://github.com/eth-sri/lmql\" rel=\"nofollow ugc\">lmql</a> in order to get more control on the output text but we are not using them yet in our projects.</p>\n<h2>LlamaIndex</h2>\n<p dir=\"auto\">We mainly use <a href=\"https://www.llamaindex.ai/\" rel=\"nofollow ugc\">LlamaIndex</a> to build RAG pipelines. RAG (<em>retrieval augmented generation</em>) is the process of providing relevant context to a large language model so it can answer a question better. We are for instance building an assistant able to browse legislation and a large number of work documents to answer questions about them.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1715096143002-2adb05a1-9ea1-4e54-8731-410bed50e300-image.png\" alt=\"RAG\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">LlamaIndex is helpful and abstracts a lot of the underlying logic but it can also be hard to understand how things work. In order to improve performance, we translated the built-in prompts to Swedish. Just like many other tools in this field, the edges are still a bit rough.</p>\n<h1>Local models</h1>\n<h2>Ollama</h2>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1715096275726-60ab035c-edd0-4991-b02b-d386e8ee11c4-image-resized.png\" alt=\"60ab035c-edd0-4991-b02b-d386e8ee11c4-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">In order to run local models, we use <a href=\"https://ollama.com/\" rel=\"nofollow ugc\">Ollama</a>. It's very simple to deploy new models and Ollama's API can be plugged into most systems, including the two mentioned above. When Llama3 came out a few weeks ago, we were running it on our local workstation half an hour later.</p>\n<p dir=\"auto\">There are alternatives such as <a href=\"https://github.com/vllm-project/vllm\" rel=\"nofollow ugc\">vLLM</a>, <a href=\"https://github.com/BerriAI/litellm\" rel=\"nofollow ugc\">LiteLLM</a> and <a href=\"https://github.com/mudler/LocalAI\" rel=\"nofollow ugc\">LocalAI</a> and we might switch to one of them for production (or even bare transformers or llama.cpp for inference) but Ollama is hard to beat for simplicity and quick testing.</p>\n<h1>UI</h1>\n<p dir=\"auto\">For several projects (including FrågaGPT and our current RAG project), we developed our own simple UIs. Mostly because there were still few products available when we started and we wanted to build in robust feedback features to let users evaluate the results. We are currently trying open source UIs that are ready to deploy and that we can plug our various models onto. In the future, we will probably either integrate AI features in our work tools or use ready-made UIs such as the ones we're testing now. But there are new solutions popping up every week so it's hard to keep track of which ones are best. Here's some of the ones we tried:</p>\n<h2>Open WebUI</h2>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1715095507963-d916da6c-2a83-4899-9171-90fb39a3709b-image.png\" alt=\"d916da6c-2a83-4899-9171-90fb39a3709b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://openwebui.com/\" rel=\"nofollow ugc\">Open WebUI</a> is a typical clone of ChatGPT and we plug it on top of Ollama so we can test local models: Llama 2/3, Mistral, Mixtral, Phi... In addition to basic features, it is possible to save assistants with a custom instruction (much like OpenAI's GPTs), to upload documents that assistants use in their answers and to have several models answer the same question simultaneously (for easy comparison). Some other basic features that are useful for us is an admin panel with user management and evaluation features for each answer. The conversations and feedback can be exported as JSON for analysis.</p>\n<h2>AnythingLLM</h2>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1715095585793-9fbe9896-39de-43ea-9c21-907cf66dd1c7-image.png\" alt=\"9fbe9896-39de-43ea-9c21-907cf66dd1c7-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://useanything.com\" rel=\"nofollow ugc\">AnythingLLM</a> is very similar. It also has good user rights management. It can be plugged to our local models on Ollama as well as all major cloud LLM providers (OpenAI, Anthropic, Mistral...). The UI looks promising for its RAG capabilities as it makes it easy to import a large number of documents and to create \"workspaces\" accessing them. But it's unclear whether the quality of the retrieval is good enough and whether it's possible to tweak the RAG pipeline to optimise it.</p>\n<h2>Flowise</h2>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1716485557159-f2cc6fc4-e7c0-4747-b0dc-31f8b679a44c-image.png\" alt=\"Flowise UI\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://flowiseai.com/\" rel=\"nofollow ugc\">Flowise</a> is more advanced than the others and doesn't work out of the box. It's more of an orchestration tool where you assemble blocks to connect data sources, prompt templates, output parsers and LLM APIs, all in a drag-and-drop interface. It's a promising complement to LlamaIndex in that it theoretically could let collaborators at ESV build and test their own pipelines without coding a single line. If the results are interesting, we could then build a more elaborate system with robust quality control. We know of at least one of example of Flowise use in the Swedish public sector: one of the winning teams at last eSam's hackathon <a href=\"https://www.youtube.com/live/GNxE4mV3aCY?feature=shared&amp;t=1690\" rel=\"nofollow ugc\">used it to build its prototype</a>.</p>\n<p dir=\"auto\">Flowise has some competitors that we didn't test: <a href=\"https://dify.ai/\" rel=\"nofollow ugc\">dify</a> and <a href=\"https://www.langflow.org/\" rel=\"nofollow ugc\">Langflow</a>.</p>\n<p dir=\"auto\">We're very curious to hear what other Swedish government agencies are using. I recently saw that Skolverket was preparing to roll out an assistant to its coworkers that builds on <a href=\"https://www.librechat.ai/\" rel=\"nofollow ugc\">LibreChat</a>.</p>\n<h1>Programming</h1>\n<h2>Continue</h2>\n<p dir=\"auto\"><img src=\"https://docs.continue.dev/assets/images/classes-e69fbbbec265f3b8f0a1037743f64345.gif\" alt=\"Continue GIF demo\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">As a side track, we've also been testing alternatives to Github Copilot to assist in coding. We first tried <a href=\"https://tabby.tabbyml.com/\" rel=\"nofollow ugc\">Tabby</a> that could auto-complete or suggest whole blocks but the results weren't good enough to make us adopt it. Since April, we are testing Continue and I am much more impressed by its potential.</p>\n<p dir=\"auto\">Functionally, <a href=\"https://continue.dev/\" rel=\"nofollow ugc\">Continue</a> integrates in your IDE (VSCode or JetBrains) and is available as an assistant that has indexed your project's code. You can have a conversation with the assistant and quickly point to some parts of the code in order to debug or improve them. It can then suggest new code that can be reviewed before being integrated. It can also auto-complete whole blocks like Tabby.</p>\n<p dir=\"auto\">Continue integrates with Ollama so we have 5-6 models there that we have been trying. For autocomplete, a small one like starcoder2:3b provides new code almost instantly. For conversation, codellama:7b and deepseek-llm:7b work great and we can hope that the next CodeLlama based on Llama3 will be even more convincing.</p>\n<p dir=\"auto\">Unfortunately, Continue isn't available for Visual Studio 2022, which a majority of our agency's developers use. But I'm hopeful the same sort of tools will come and we recently managed to connect <a href=\"https://marketplace.visualstudio.com/items?itemName=jefferson-pires.VisualChatGPTStudio\" rel=\"nofollow ugc\">this extension</a> to our local models on Ollama.</p>\n<h1>Conclusion</h1>\n<p dir=\"auto\">This list could be a lot longer, we use open source software in almost all we do. I hope this little text can be interesting and that we can start a conversation on what tools we use to build (generative) AI in the Swedish public sector.</p>\n<p dir=\"auto\">What do you use at your agency or municipality? Don't hesitate to reply in this thread and to get in touch with us! We'd love to collaborate! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" /></p>\n",
+      "pid": 4745,
+      "tid": 941,
+      "timestamp": 1716273915701,
+      "uid": 666,
+      "edited": 1726377498795,
+      "editor": {
+        "uid": 666,
+        "username": "PierreMesure",
+        "userslug": "pierremesure",
+        "displayname": "PierreMesure"
+      },
+      "downvotes": 0,
+      "upvotes": 4,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2024-05-21T06:45:15.701Z",
+      "editedISO": "2024-09-15T05:18:18.795Z",
+      "index": 0,
+      "user": {
+        "uid": 666,
+        "username": "PierreMesure",
+        "userslug": "pierremesure",
+        "reputation": 18,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764432799455,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PierreMesure",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-11-29T16:13:19.455Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Intressant Pierre! Jag ska skicka den här tråden till mina AI-kollegor som pratar en hel del om generativ AI:)</p>\n",
+      "pid": 4751,
+      "tid": 941,
+      "timestamp": 1717063312000,
+      "uid": 118,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-05-30T10:01:52.000Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#BA8BAF",
+    "cid": 34,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Offentlig AI",
+    "numRecentReplies": 1,
+    "order": 2,
+    "parentCid": 0,
+    "post_count": 66,
+    "slug": "34/offentlig-ai",
+    "subCategoriesPerPage": 10,
+    "topic_count": 16,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 66,
+    "totalTopicCount": 16
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "941",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/941.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Offentlig AI",
+      "url": "/category/34/offentlig-ai",
+      "cid": 34
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/941",
+  "bodyClass": "page-topic page-topic-941 template-topic page-topic-category-34 page-topic-category-offentlig-ai parent-category-34 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Some open source products ESV&#x27;s datalab uses to innovate with AI"
+        },
+        {
+          "name": "description",
+          "content": "Hi everyone, At ESV&#x27;s datalab, we work a lot with AI and we try to be as open as possible about the outcome of our projects. A lot of them are web applications which are made available to everyone on our website: datalabb.esv.se. In some cases, we publish..."
+        },
+        {
+          "property": "og:title",
+          "content": "Some open source products ESV&#x27;s datalab uses to innovate with AI"
+        },
+        {
+          "property": "og:description",
+          "content": "Hi everyone, At ESV&#x27;s datalab, we work a lot with AI and we try to be as open as possible about the outcome of our projects. A lot of them are web applications which are made available to everyone on our website: datalabb.esv.se. In some cases, we publish..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-05-21T06:45:15.701Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-09-15T05:18:18.795Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Offentlig AI"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715095585793-9fbe9896-39de-43ea-9c21-907cf66dd1c7-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715095585793-9fbe9896-39de-43ea-9c21-907cf66dd1c7-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1485"
+        },
+        {
+          "property": "og:image:height",
+          "content": "877"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715095507963-d916da6c-2a83-4899-9171-90fb39a3709b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715095507963-d916da6c-2a83-4899-9171-90fb39a3709b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1400"
+        },
+        {
+          "property": "og:image:height",
+          "content": "788"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715096275726-60ab035c-edd0-4991-b02b-d386e8ee11c4-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715096275726-60ab035c-edd0-4991-b02b-d386e8ee11c4-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2000"
+        },
+        {
+          "property": "og:image:height",
+          "content": "740"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715096143002-2adb05a1-9ea1-4e54-8731-410bed50e300-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1715096143002-2adb05a1-9ea1-4e54-8731-410bed50e300-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1745"
+        },
+        {
+          "property": "og:image:height",
+          "content": "861"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1716485557159-f2cc6fc4-e7c0-4747-b0dc-31f8b679a44c-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1716485557159-f2cc6fc4-e7c0-4747-b0dc-31f8b679a44c-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1916"
+        },
+        {
+          "property": "og:image:height",
+          "content": "978"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/941",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/941/some-open-source-products-esv-s-datalab-uses-to-innovate-with-ai",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/941.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/34/offentlig-ai"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/pierremesure"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

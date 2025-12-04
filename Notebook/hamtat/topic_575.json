@@ -1,0 +1,2062 @@
+{
+  "cid": 24,
+  "lastposttime": 1673617435480,
+  "mainPid": 3177,
+  "postcount": 21,
+  "slug": "575/eus-open-source-projekt",
+  "tid": 575,
+  "timestamp": 1668587758589,
+  "title": "EUs open source-projekt",
+  "uid": 62,
+  "viewcount": 4166,
+  "postercount": 7,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 3864,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "EUs open source-projekt",
+  "timestampISO": "2022-11-16T08:35:58.589Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-01-13T13:43:55.480Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">EU-länderna samarbetar kring öppen källkod och har en plattform för detta.</p>\n<p dir=\"auto\"><a href=\"https://code.europa.eu/info/about/-/blob/master/README.md\" rel=\"nofollow ugc\">https://code.europa.eu/info/about/-/blob/master/README.md</a></p>\n",
+      "pid": 3177,
+      "tid": 575,
+      "timestamp": 1668587758589,
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-23T15:35:41.351Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-16T08:35:58.589Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Imponerande, finns det någon svensk myndighet som har en öppen självhostad Git-instans idag? Ser inte det på <a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a>.</p>\n",
+      "pid": 3437,
+      "tid": 575,
+      "timestamp": 1669217741351,
+      "toPid": "3177",
+      "uid": 30,
+      "edited": 1669217760338,
+      "editor": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "displayname": "mattias"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-11-23T16:20:34.863Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-23T15:35:41.351Z",
+      "editedISO": "2022-11-23T15:36:00.338Z",
+      "index": 1,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> sa i <a href=\"/post/3437\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\">Ser inte det på <a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a>.</p>\n</blockquote>\n<p dir=\"auto\">Offentligkod är fortfarande en testsida så <a href=\"https://nosad.se/katalog\" rel=\"nofollow ugc\">https://nosad.se/katalog</a> är den uppdaterade. Där finns Github och Gitlab (vet inte om de är självhostade) bl.a. för Dataportalen och JobTech som är ett initiativ från Arbetsförmedlingen.</p>\n<p dir=\"auto\">Vissa kommuner har även vet jag.</p>\n",
+      "pid": 3442,
+      "tid": 575,
+      "timestamp": 1669220434863,
+      "toPid": "3437",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-23T16:20:34.863Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> inte vad jag känner till.</p>\n<p dir=\"auto\"><a href=\"http://Github.com\" rel=\"nofollow ugc\">Github.com</a> och <a href=\"http://Gitlab.com\" rel=\"nofollow ugc\">Gitlab.com</a> är mest använda.</p>\n<p dir=\"auto\"><a href=\"http://Codeberg.org\" rel=\"nofollow ugc\">Codeberg.org</a> är ett europeiskt öppet alternativ som jag tycker verkar väldigt trevligt. Det ligger inom EU (Tyskland), är GDPR-vänlig och är kostnadsfri. Ger total frihet för samskapande. NOSAD har tittat lite på det, eftersom vi idagsläget använder <a href=\"http://Gitlab.com\" rel=\"nofollow ugc\">Gitlab.com</a> <a href=\"https://codeberg.org/NOSAD/migrering/wiki\" rel=\"nofollow ugc\">https://codeberg.org/NOSAD/migrering/wiki</a></p>\n",
+      "pid": 3443,
+      "tid": 575,
+      "timestamp": 1669221798290,
+      "toPid": "3437",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-23T21:42:22.449Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-23T16:43:18.290Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> sa i <a href=\"/post/3437\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\">öppen självhostad Git-instans</p>\n</blockquote>\n<p dir=\"auto\">Sorry jag missförstod dig! Tolkade som självhostad server, men öppen.</p>\n",
+      "pid": 3448,
+      "tid": 575,
+      "timestamp": 1669238337839,
+      "toPid": "3437",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-23T21:50:49.491Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-23T21:18:57.839Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> OK.</p>\n<p dir=\"auto\">Delar uppfattningen.</p>\n<p dir=\"auto\">Codeberg är inte kostnadsfri egentligen, det lever på donationer och medlemskap - medlemskap är väl inte främmande för en myndighet om det lever upp till krav och lagar? Men något som är intressant med just Gitea som de använder är att det fått finansiering från NLNet för att möjliggöra federerade identiteter. D.v.s. du kan \"bo\" på en Gitea-instans men även agera på en annan. <a href=\"https://forum.forgefriends.org/t/nlnet-grant-application-for-federation-in-gitea-deadline-august-1st-2022/823/30\" rel=\"nofollow ugc\">https://forum.forgefriends.org/t/nlnet-grant-application-for-federation-in-gitea-deadline-august-1st-2022/823/30</a></p>\n",
+      "pid": 3450,
+      "tid": 575,
+      "timestamp": 1669239742449,
+      "toPid": "3443",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 172,
+            "username": "Peter_Bengtsson",
+            "userslug": "peter_bengtsson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Peter_Bengtsson",
+            "icon:text": "P",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-23T22:02:06.474Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-23T21:42:22.449Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> det skulle kunna vara så att en myndighet har en publik gitlab-instans, men de följer också med en kostnad.  Just DIGG är en myndighet som skulle ha skäl till att hålla just en sådan instans kopplat till DIGGS uppdrag. Det skulle kunna ses som en vidareutveckling av den digitala arenan. Samtidigt finns som sagt <a href=\"http://Codeberg.org\" rel=\"nofollow ugc\">Codeberg.org</a>. En europeisk <a href=\"http://github.com\" rel=\"nofollow ugc\">github.com</a>. Det vore intressant att utvärdera denna samarbetsplattform för öppen källkod.</p>\n",
+      "pid": 3451,
+      "tid": 575,
+      "timestamp": 1669240249491,
+      "toPid": "3448",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 3,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-11-23T21:50:49.491Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> on premlösningar i sig kostar pengar. Drift, säkerhet, underhåll. Små organisationer, små myndigheter och kommuner har inte resurser för att hantera detta. Då är kostnadsfria molnetlösningar ett mer realistiskt alternativ.  Alternativ att en myndighet som erbjuder lagring för andra myndigheters  open source repon.</p>\n",
+      "pid": 3452,
+      "tid": 575,
+      "timestamp": 1669240926474,
+      "toPid": "3450",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-01-12T01:12:20.327Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-23T22:02:06.474Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a></p>\n<p dir=\"auto\">Nej, Codeberg är ju inte kostnadsfri att driva - men tjänsten är explicit kostnadsfri att använda ( <a href=\"https://codeberg.org/about\" rel=\"nofollow ugc\">https://codeberg.org/about</a> ).</p>\n<p dir=\"auto\">Sedan kan det vara värt att notera att användarvillkoren ställer kravet att projekt skall ha licenser godkända av FSF eller OSI - så på det sättet finns det ett visst krav på motprestation.</p>\n",
+      "pid": 3453,
+      "tid": 575,
+      "timestamp": 1669246416481,
+      "toPid": "3450",
+      "uid": 172,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T08:11:43.140Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-23T23:33:36.481Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 172,
+        "username": "Peter_Bengtsson",
+        "userslug": "peter_bengtsson",
+        "reputation": 14,
+        "postcount": 8,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670452670788,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peter_Bengtsson",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-12-07T22:37:50.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@Peter_Bengtsson</a> sa i <a href=\"/post/3453\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a><br />\nNej, Codeberg är ju inte kostnadsfri att driva - men tjänsten är explicit kostnadsfri att använda ( <a href=\"https://codeberg.org/about\" rel=\"nofollow ugc\">https://codeberg.org/about</a> ).</p>\n</blockquote>\n<p dir=\"auto\">Korrekt! Jag menar bara, kopplat till NOSAD evenemang om open source finansieringsmodeller, att även Sveriges allra minsta myndigheter lokalt/regionalt/nationellt kan ha några riksdaler över att donera till Codeberg för drift.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@Peter_Bengtsson</a> sa i <a href=\"/post/3453\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a><br />\nSedan kan det vara värt att notera att användarvillkoren ställer kravet att projekt skall ha licenser godkända av FSF eller OSI - så på det sättet finns det ett visst krav på motprestation.</p>\n</blockquote>\n<p dir=\"auto\">Bra påpekat och bra med motprestationer som bidrar till deras uppdrag. Det är enligt min mening ett helt rimligt krav på offentligägda organisationer för en sådan tjänst. <a href=\"https://www.dfri.se/projekt/public-code-eu-offentliga-pengar-offentlig-kod/\" rel=\"nofollow ugc\">https://www.dfri.se/projekt/public-code-eu-offentliga-pengar-offentlig-kod/</a></p>\n",
+      "pid": 3472,
+      "tid": 575,
+      "timestamp": 1669277503140,
+      "toPid": "3453",
+      "uid": 30,
+      "edited": 1669277809646,
+      "editor": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "displayname": "mattias"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T16:15:02.508Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-24T08:11:43.140Z",
+      "editedISO": "2022-11-24T08:16:49.646Z",
+      "index": 9,
+      "parent": {
+        "username": "Peter_Bengtsson",
+        "displayname": "Peter_Bengtsson"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/171\">@Peter-Bengtsson</a> Ett krav på licens som inte kräver motprestation (ex CC0) är alltså en motprestation? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /></p>\n",
+      "pid": 3521,
+      "tid": 575,
+      "timestamp": 1669306502508,
+      "toPid": "3472",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-24T16:52:38.692Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T16:15:02.508Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Kanske inte egentligen då. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3528,
+      "tid": 575,
+      "timestamp": 1669308758692,
+      "toPid": "3521",
+      "uid": 30,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T16:52:38.692Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/3452\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\">on premlösningar i sig kostar pengar. Drift, säkerhet, underhåll. Små organisationer, små myndigheter och kommuner har inte resurser för att hantera detta. Då är kostnadsfria molnetlösningar ett mer realistiskt alternativ.</p>\n</blockquote>\n<p dir=\"auto\">Jag förstår inte riktigt det här resonemanget. Myndigheter lägger ut hundratals miljoner på programvara och IT-drift. Varför skulle just open source-förvaltning vara helt kostnadsfri?</p>\n<p dir=\"auto\">Hur ser en normal budget för IT-lösningar för en myndighet eller kommun ut storleksmässigt?</p>\n",
+      "pid": 3846,
+      "tid": 575,
+      "timestamp": 1673485940327,
+      "toPid": "3452",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-01-12T07:51:13.269Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-01-12T01:12:20.327Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Jag ställer inte proprietära lösningar mot FOSS, utan resonemanget handlar om att sänka trösklar för att kunna främja delning av öppen källkod.</p>\n<p dir=\"auto\">Naturligtvis ska även lösningar baserade på öppen källkod få kosta pengar, de primära vinsterna med open source är ju flexibilitet, möjlighet till samarbete och interoperabilitet - även om de i flera fall går att påvisa lägre kostnader ur ett livscykelperspektiv.</p>\n<p dir=\"auto\">Jag hoppas att vi är fler som tycker att offentlig sektors  förvaltningskostnader är ofantliga.  Jag vill jobba smartare och mer kostnadseffektivt och uppmuntrar till diskussioner kring vad får kosta pengar och när slösar vi?</p>\n<p dir=\"auto\">Hoppas det är tydligt att jag är för ökad användning av öppna källkodsprodukter inom offentlig sektor och att det inte är villkorat till pris <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3847,
+      "tid": 575,
+      "timestamp": 1673509873269,
+      "toPid": "3846",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-01-12T09:29:52.941Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-01-12T07:51:13.269Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Jag tror inte det är ovanligt att det uppstår en bra kodsnutt någonstans i offentliga sektorn som utvecklarna så gärna vill dela med sig av, men att den aldrig hamnar ute i communityt eftersom det krävs en policy för öppen källkod och att organisationen har valt ett verktyg typ GitHub för att de ska kunna dela den och det mäktar inte organisationen med.<br />\nDe här trösklarna skulle jag verkligen vilja sänka. Annars tappar utvecklarna på de mindre organisationerna motivationen och det tycker jag är väldigt synd.<br />\nJag har sett folk som har slutat där det här har varit en bidragande orsak.</p>\n<p dir=\"auto\">EDIT: Det här memet har jag sett upplagt av folk som varit i den här situationen:<br />\n<a href=\"https://www.reddit.com/r/ProgrammerHumor/comments/l6wnvt/interview_vs_job/\" rel=\"nofollow ugc\">https://www.reddit.com/r/ProgrammerHumor/comments/l6wnvt/interview_vs_job/</a></p>\n",
+      "pid": 3848,
+      "tid": 575,
+      "timestamp": 1673515792941,
+      "toPid": "3847",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-01-12T09:52:11.431Z"
+      },
+      "edited": 1673525617458,
+      "editor": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-01-12T09:29:52.941Z",
+      "editedISO": "2023-01-12T12:13:37.458Z",
+      "index": 14,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a></a> Ja, det är många som vittnar om det du beskriver <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a></a>.</p>\n<p dir=\"auto\">Utmaningarnas topp tre är:</p>\n<ol>\n<li>Brist på styrning /beslut/strategi</li>\n<li>Kompetens och kunskap</li>\n<li>Gemensam samarbetsyta, det är få organisationer som vill ha externa inne i sina miljöer.  Molnetlösningar som <a href=\"http://Github.com\" rel=\"nofollow ugc\">Github.com</a>, <a href=\"http://Gitlab.com\" rel=\"nofollow ugc\">Gitlab.com</a> och <a href=\"http://Codeberg.org\" rel=\"nofollow ugc\">Codeberg.org</a> är bra samarbetsplattformar.</li>\n</ol>\n",
+      "pid": 3849,
+      "tid": 575,
+      "timestamp": 1673517131431,
+      "toPid": "3848",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-01-12T11:39:32.461Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-01-12T09:52:11.431Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> I vilken ordning uppstår utmaningarna kronologiskt? Jag gissar på 2-1-3. Om det stämmer så kan man sänka tröskeln 1-&gt;3 för små/omogna organisationer medan 1 pågår, genom att någon centralt tar ansvar för att lägga upp en yta där man kan lagra öppen källkod från små organisationer i väntan på att man hunnit få upp en egen codeberg/github/gitlab/ngt annat.<br />\nDet kräver i och för sig att vi blir klara med vår egen 1 centralt och det kanske är där vi står och stampar.</p>\n",
+      "pid": 3850,
+      "tid": 575,
+      "timestamp": 1673523572461,
+      "toPid": "3849",
+      "uid": 216,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-01-13T09:26:16.920Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-01-12T11:39:32.461Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/3847\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\">resonemanget handlar om att sänka trösklar för att kunna främja delning av öppen källkod.</p>\n</blockquote>\n<p dir=\"auto\">Ja, och då är frågan om det är till någon hjälp om molnplattformar är kostnadsfria? Det verkar handla mer om vanor, kultur och kunskaper.</p>\n<blockquote>\n<p dir=\"auto\">Jag vill jobba smartare och mer kostnadseffektivt och uppmuntrar till diskussioner kring vad får kosta pengar och när slösar vi?</p>\n</blockquote>\n<p dir=\"auto\">Problemet verkar snarast ligga i att budgetera för utveckling av öppen källkod och kompetens inom detta, och producera något kvalitetsmässigt meningsfullt och användbart. Jag är inte säker på vad hindren består i, kanske att det saknas idéer eller visioner om hur det ska gå till, eller om det är många som konkurrerar om kakan och vill styra medel till annat.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> sa i <a href=\"/post/3848\">EUs open source-projekt</a>:</p>\n<blockquote>\n<p dir=\"auto\">eftersom det krävs en policy för öppen källkod och att organisationen har valt ett verktyg typ GitHub för att de ska kunna dela den och det mäktar inte organisationen med.</p>\n</blockquote>\n<p dir=\"auto\">Vad är det man inte mäktar med? Att använda GitHub borde åtminstone inte vara mer komplicerat än interna verktyg för kodförvaltning. Till att börja med kunde man anlita en leverantör med rätt kompetenser för att förbättra en redan öppen produkt som man använder sig av i verksamheten?</p>\n",
+      "pid": 3858,
+      "tid": 575,
+      "timestamp": 1673552316072,
+      "toPid": "3847",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-01-13T09:08:15.238Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-01-12T19:38:36.072Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a>. Precis som du säger så handlar det i första hand om vanor, kultur och kunskap.  Kostnadsfria molntjänster finns ju redan men ändå delas och återanvänds inte mkt av offentlig sektors öppna källkod.</p>\n<p dir=\"auto\">Att strategiskt arbeta med öppen källkod som många andra länder gör,  gör vi ännu inte i Sverige på nationell och formell nivå och detta i sin tur leder till att enskilda kommuner och myndigheter saknar argument för att prioritera arbete med exempelvis delning och återanvändning av öppen källkod.</p>\n<p dir=\"auto\">Vi hade en NOSAD workshop i oktober 2021 <a href=\"https://nosad.se/workshops#introduktion-till-%C3%B6ppen-programvara\" rel=\"nofollow ugc\">Introduktion till öppen programvara.</a> Där diskuterades bl.a. de utmaningar som finns i organisationer. <a href=\"https://forum.jobtechdev.se/t/vad-for-utmaningar-moter-du-i-din-organisation-gallande-oppen-kallkod/154?u=mariad\" rel=\"nofollow ugc\">https://forum.jobtechdev.se/t/vad-for-utmaningar-moter-du-i-din-organisation-gallande-oppen-kallkod/154?u=mariad</a></p>\n<p dir=\"auto\">Men en reflektion jag gör och som jag tror att du far efter är att vi inom offentlig sektor behöver ställa om vårt arbetssätt. Att tillgängliggöra data och öppen källkod ska kunna göras inom ramen för befintliga processer och som en \"biprodukt\" av våra uppdrag och inte kräva en ökad overhead. Att medverka i forum som detta för att fånga behov, omvärldsbevaka ska inte ses som ytterligare en arbetsuppgift som organisationen inte har resurser för att driva, utan att forum som detta istället skapar förutsättningar för att hitta samarbeten och kalibrera mot en omvärld.</p>\n",
+      "pid": 3860,
+      "tid": 575,
+      "timestamp": 1673600895238,
+      "toPid": "3858",
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-01-13T09:08:15.238Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> Alternativ 1 och alt 2 blir ju som hönan eller ägget; är det kompetens som saknas som gör att vi inte har styrningar eller är det brist på styrningar som gör att vi saknar incitament att bygga kompetens?</p>\n<p dir=\"auto\">Oavsett så ser vi ju nu att det går åt rätt håll. Som <a href=\"https://community.dataportal.se/topic/663/nosad-nyhetsbrev-januari-2023\">denna tråd</a> redovisar. Flera länder i Europa inklusive EU-kommissionen hanterar strategi-nivån. Då skapas incitament för att lärande och prioritering.  EU-kommissionens förslag på <a href=\"https://commission.europa.eu/publications/interoperable-europe-act-proposal_en\" rel=\"nofollow ugc\">Interoperable Europe Act</a> tydliggör vikten av öppna standarder och öppen källkod.</p>\n<p dir=\"auto\">Det är ju heller inte så att vi i Sverige saknar styrningar. Även om andra länder kommit längre. Denna bild visar att vi har tydliga incitament att faktiskt vara proaktiva i vårt arbete med våra digitala resurser.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1673601602759-f54ab682-3e01-4332-b274-59399e601411-dagar-om-lagar-20221108.jpg\" alt=\"f54ab682-3e01-4332-b274-59399e601411-Dagar om Lagar 20221108.jpg\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 3862,
+      "tid": 575,
+      "timestamp": 1673601976920,
+      "toPid": "3850",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "bookmarks": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "votes": 1,
+      "timestampISO": "2023-01-13T09:26:16.920Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "575",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/575.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/575/eus-open-source-projekt?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/575",
+  "bodyClass": "page-topic page-topic-575 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "EUs open source-projekt"
+        },
+        {
+          "name": "description",
+          "content": "EU-länderna samarbetar kring öppen källkod och har en plattform för detta. https://code.europa.eu/info/about/-/blob/master/README.md "
+        },
+        {
+          "property": "og:title",
+          "content": "EUs open source-projekt"
+        },
+        {
+          "property": "og:description",
+          "content": "EU-länderna samarbetar kring öppen källkod och har en plattform för detta. https://code.europa.eu/info/about/-/blob/master/README.md "
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-16T08:35:58.589Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-01-13T13:43:55.480Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/575",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/575/eus-open-source-projekt",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/575.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/575/eus-open-source-projekt?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

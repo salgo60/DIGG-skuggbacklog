@@ -1,0 +1,695 @@
+{
+  "cid": 4,
+  "lastposttime": 1700848887951,
+  "mainPid": 4506,
+  "postcount": 4,
+  "slug": "872/api-användning-hämta-alla-dataset-kopplade-till-en-specifik-organisation",
+  "tid": 872,
+  "timestamp": 1700471023602,
+  "title": "API-användning: Hämta alla dataset kopplade till en specifik organisation",
+  "uid": 1694,
+  "viewcount": 519,
+  "postercount": 3,
+  "teaserPid": 4523,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "API-användning: Hämta alla dataset kopplade till en specifik organisation",
+  "timestampISO": "2023-11-20T09:03:43.602Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-11-24T18:01:27.951Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej, jag har haft lite svårigheter med att förstå hur man använder API:et på dataportalen. Jag har läst igenom <a href=\"https://docs.dataportal.se/registry/api/\" rel=\"nofollow ugc\">dokumentationen</a> och granskat <a href=\"https://entrystore.org/api/\" rel=\"nofollow ugc\">swagger för EntryStore</a>, men jag skulle uppskatta om det fanns fler praktiska exempel. Speciellt är jag intresserad av hur man kan utföra funktioner som filtrering efter specifika organisationer eller ämnen, likt det som är möjligt via <a href=\"https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;f=\" rel=\"nofollow ugc\">dataportalens hemsida</a>.</p>\n<p dir=\"auto\">Till exempel, hur går man tillväga för att få fram alla dataset för en given organisation? När jag ser på svaret från ett anrop till: <a href=\"https://admin.dataportal.se/charts/orgData.json\" rel=\"nofollow ugc\">https://admin.dataportal.se/charts/orgData.json</a>, så verkar URI för SCB vara: <a href=\"http://id.kb.se/organisations/SE2021000837\" rel=\"nofollow ugc\">http://id.kb.se/organisations/SE2021000837</a>. Men när jag använder denna URI enligt instruktionerna i dokumentationen:</p>\n<pre><code>Om man har koll på vilken identitet en datamängd har, dvs dess URI, kan man göra följande anrop för att nå dess metadata:\n\nhttps://admin.dataportal.se/store/search?type=solr&amp;query=public:true+AND+(resource:URI)\n\nDär du ersätter URI med datamängdens adress (eller någon annan entitet som en utgivare, kontakt, distribution osv.), kom ihåg att först escapa ':' och sedan urlenkoda.\n</code></pre>\n<p dir=\"auto\">vilket resulterar i: <a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=public:true+AND+(resource:http%253A%2F%2Fdataportal.se%2Forganisation%2FSE2220000315)\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=public:true+AND+(resource:http%253A%2F%2Fdataportal.se%2Forganisation%2FSE2220000315)</a>, får jag inga träffar.</p>\n<p dir=\"auto\">Är idén kanske att man ska använda en sökning liknande denna och lägga till ett filter för specifika organisationer?<br />\n<a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=rdfType:http%5C%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset+AND+public:true&amp;limit=10&amp;offset=0&amp;sort=modified+desc\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=rdfType:http\\%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset+AND+public:true&amp;limit=10&amp;offset=0&amp;sort=modified+desc</a></p>\n<p dir=\"auto\">Tacksam för alla svar och hjälp!<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/263a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--relaxed\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":relaxed:\" alt=\"☺\" /></p>\n",
+      "pid": 4506,
+      "tid": 872,
+      "timestamp": 1700471023602,
+      "uid": 1694,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-20T09:03:43.602Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1694,
+        "username": "rubenselander",
+        "userslug": "rubenselander",
+        "reputation": 1,
+        "postcount": 2,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1708297682710,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "rubenselander",
+        "groupTitleArray": [],
+        "icon:text": "R",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2024-02-18T23:08:02.710Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><em>\"vilket resulterar i: <a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=public:true+AND+(resource:http%253A%2F%2Fdataportal.se%2Forganisation%2FSE2220000315)\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=public:true+AND+(resource:http%253A%2F%2Fdataportal.se%2Forganisation%2FSE2220000315)</a>, får jag inga träffar.\"</em></p>\n<p dir=\"auto\">Här verkar du ha använt ett annat organisationsnummer. Används SCB organisationsnummer får du metadata om organisationen:</p>\n<pre><code>https://admin.dataportal.se/store/search?type=solr&amp;query=public:true+AND+(resource:http%5C%3A%2F%2Fid.kb.se%2Forganisations%2FSE2021000837)\n</code></pre>\n<p dir=\"auto\"><em>\"Är idén kanske att man ska använda en sökning liknande denna och lägga till ett filter för specifika organisationer?<br />\n<a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=rdfType:http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset+AND+public:true&amp;limit=10&amp;offset=0&amp;sort=modified+desc\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=rdfType:http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset+AND+public:true&amp;limit=10&amp;offset=0&amp;sort=modified+desc</a>\"</em></p>\n<p dir=\"auto\">Det funkar, men då skulle du behöva paginera igenom alla 17368 datamänder för att filtrera ut de datamängder som har SCB som utgivare. Det går istället att begränsa sökningen direkt för att enbart få dessa datamängder genom:</p>\n<pre><code>https://admin.dataportal.se/store/search?type=solr&amp;query=(rdfType:http%5C%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset)+AND+public:true+AND+(metadata.predicate.uri.9259d4c1:http%5C%3A%2F%2Fid.kb.se%2Forganisations%2FSE2021000837)&amp;offset=0\n</code></pre>\n<p dir=\"auto\">Observera att du fortfarande behöver paginera för att få alla 4650 datamängderna, då endast 50 st returneras per default. Du paginerar via offset parametern.</p>\n<p dir=\"auto\">Jag lade till facetten metadata.predicate.uri.&lt;md5&gt; för att söka datamängdens utgivare. I det här fallet är predikatet '<a href=\"http://purl.org/dc/terms/publisher\" rel=\"nofollow ugc\">http://purl.org/dc/terms/publisher</a>', men en behöver skapa MD5 hash (och trunkera till 8 chars pga begränsningar i Solr). '<a href=\"http://purl.org/dc/terms/publisher\" rel=\"nofollow ugc\">http://purl.org/dc/terms/publisher</a>' blir då 9259d4c1. För mer info om indexeringen som sker via Solr, se: <a href=\"https://entrystore.org/kb/search/\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/</a> . Där finns också mer info om alla möjliga sätt att söka mot lagringslösningen för <a href=\"http://admin.dataportal.se\" rel=\"nofollow ugc\">admin.dataportal.se</a></p>\n",
+      "pid": 4514,
+      "tid": 872,
+      "timestamp": 1700656508891,
+      "uid": 1698,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 1694,
+            "username": "rubenselander",
+            "userslug": "rubenselander",
+            "picture": null,
+            "fullname": null,
+            "displayname": "rubenselander",
+            "icon:text": "R",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-11-22T23:32:43.537Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-22T12:35:08.891Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 1698,
+        "username": "august",
+        "userslug": "august",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1710150266082,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "august",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2024-03-11T09:44:26.082Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1698\">@august</a> Finns exempel för SPARQL-frågor mot dataportal?</p>\n<p dir=\"auto\"><a href=\"https://entrystore.org/kb/sparql/\" rel=\"nofollow ugc\">https://entrystore.org/kb/sparql/</a></p>\n",
+      "pid": 4515,
+      "tid": 872,
+      "timestamp": 1700695963537,
+      "toPid": "4514",
+      "uid": 125,
+      "bookmarks": 1,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "votes": 0,
+      "timestampISO": "2023-11-22T23:32:43.537Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "august",
+        "displayname": "august"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1698\">@august</a> Tusen tack! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /></p>\n",
+      "pid": 4523,
+      "tid": 872,
+      "timestamp": 1700848887951,
+      "toPid": "4514",
+      "uid": 1694,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-24T18:01:27.951Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "august",
+        "displayname": "august"
+      },
+      "user": {
+        "uid": 1694,
+        "username": "rubenselander",
+        "userslug": "rubenselander",
+        "reputation": 1,
+        "postcount": 2,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1708297682710,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "rubenselander",
+        "groupTitleArray": [],
+        "icon:text": "R",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2024-02-18T23:08:02.710Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "872",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/872.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/872",
+  "bodyClass": "page-topic page-topic-872 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "API-användning: Hämta alla dataset kopplade till en specifik organisation"
+        },
+        {
+          "name": "description",
+          "content": "Hej, jag har haft lite svårigheter med att förstå hur man använder API:et på dataportalen. Jag har läst igenom dokumentationen och granskat swagger för EntryStore, men jag skulle uppskatta om det fanns fler praktiska exempel. Speciellt är jag intresserad ..."
+        },
+        {
+          "property": "og:title",
+          "content": "API-användning: Hämta alla dataset kopplade till en specifik organisation"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, jag har haft lite svårigheter med att förstå hur man använder API:et på dataportalen. Jag har läst igenom dokumentationen och granskat swagger för EntryStore, men jag skulle uppskatta om det fanns fler praktiska exempel. Speciellt är jag intresserad ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-11-20T09:03:43.602Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-11-24T18:01:27.951Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/872",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/872/api-användning-hämta-alla-dataset-kopplade-till-en-specifik-organisation",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/872.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/rubenselander"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

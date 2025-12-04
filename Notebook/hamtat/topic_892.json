@@ -1,0 +1,2082 @@
+{
+  "cid": 4,
+  "lastposttime": 1707916134666,
+  "mainPid": 4593,
+  "postcount": 21,
+  "slug": "892/vad-betyder-egentligen-public",
+  "tid": 892,
+  "timestamp": 1703016366739,
+  "title": "Vad betyder egentligen &quot;Public&quot; ?",
+  "uid": 1679,
+  "viewcount": 4644,
+  "postercount": 8,
+  "teaserPid": 4648,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Vad betyder egentligen \"Public\" ?",
+  "timestampISO": "2023-12-19T20:06:06.739Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-02-14T13:08:54.666Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Eftersom jag är konsument av data som jag hittar via <a href=\"http://dataportalen.se\" rel=\"nofollow ugc\">dataportalen.se</a> så funderar jag på de olika licensformerna.</p>\n<p dir=\"auto\"><strong>CC Zero</strong> liksom <strong>CC By</strong> är etablerade och lätta att förstå. Det finns dock andra frågetecken.</p>\n<p dir=\"auto\">På väldigt många datakällor anges <strong>Public</strong> och då undrar jag förstås vad detta betyder egentligen. Någon som vet? Finns det någon definition som jag inte har hittat?</p>\n<p dir=\"auto\">På andra datakällor finns ingen licens angiven alls. Men det kan stå någonstans \"öppna data\". Hur tänker vi där?</p>\n",
+      "pid": 4593,
+      "tid": 892,
+      "timestamp": 1703016366739,
+      "uid": 1679,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 49,
+            "username": "Maria Söderlind",
+            "userslug": "maria-söderlind",
+            "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+            "fullname": "Maria Söderlind",
+            "displayname": "Maria Söderlind",
+            "icon:text": "M",
+            "icon:bgColor": "#1b5e20"
+          },
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2023-12-20T06:53:44.902Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-12-19T20:06:06.739Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a>  det finns ngt som heter \"public domain mark\" antar att det är den man menar?<br />\nMen det borde finnas en länk som det inte blir en gissningslek och plötsligt har man gjort ngt man inte fick<br />\n<a href=\"https://creativecommons.org/public-domain/\" rel=\"nofollow ugc\">https://creativecommons.org/public-domain/</a><br />\nMen jag hade för mig att man måste ange en länk till licensen enligt dcat-ap-se</p>\n",
+      "pid": 4594,
+      "tid": 892,
+      "timestamp": 1703055224902,
+      "toPid": "4593",
+      "uid": 49,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-12-20T19:41:05.479Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-12-20T06:53:44.902Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 49,
+        "username": "Maria Söderlind",
+        "userslug": "maria-söderlind",
+        "reputation": 116,
+        "postcount": 83,
+        "topiccount": 7,
+        "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1762977287884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria Söderlind",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2025-11-12T19:54:47.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/49\">@Maria-Söderlind</a></p>\n<p dir=\"auto\">Tack,</p>\n<p dir=\"auto\">ja det skulle kunna vara den som menas. Kanske inte den roligaste licensen i världen men men. Tooltipen ger<br />\n<em>Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</em></p>\n<p dir=\"auto\">Någon annan kanske har insikt hur man tänkte när denna licens-variant lades in i Dataportalen?</p>\n",
+      "pid": 4595,
+      "tid": 892,
+      "timestamp": 1703101265479,
+      "toPid": "4594",
+      "uid": 1679,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-12-20T19:41:05.479Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Maria Söderlind",
+        "displayname": "Maria Söderlind"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Vänligen se DCAT-AP-SE - det handlar om åtkomsträttigheter: <a href=\"https://docs.dataportal.se/dcat/sv/#5.5\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/sv/#5.5</a></p>\n<p dir=\"auto\">Med det sagt - alltid bra om publicister tydliggör licens. Som skattebetalare och datakonsument skulle jag dock anta CC0 om inget annat anges.</p>\n",
+      "pid": 4598,
+      "tid": 892,
+      "timestamp": 1703256491334,
+      "toPid": "4593",
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-12-29T20:25:59.897Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-12-22T14:48:11.334Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> Tack förlänken! Den förklarar en hel del. Intressant att man särskiljer åtkomst och licens. Uppenbarligen måste man inte ange en länk till någon licens då det finns tämligen nya källor som inte har det inlagt vilket är synd.</p>\n",
+      "pid": 4599,
+      "tid": 892,
+      "timestamp": 1703881559897,
+      "toPid": "4598",
+      "uid": 1679,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-01-22T13:59:03.725Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-12-29T20:25:59.897Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Mattias svar är rätt som du förstått. Att det saknas licens är ett stort problem för användning. Som användare behöver man ju veta förutsättningarna innan man lägger för mycket tid på användning. I kommersiella produkter blir det extra viktigt så man måste veta att affärsmodellen är hållbar.</p>\n<p dir=\"auto\">Frågan är hur man får fler att ange en lämplig licens? Verktyg som hanterar metadata kan t.ex. varna tydligare om licens saknas och komma med förlag. Det är svårt för dataportalen att hantera detta tror jag utan det behöver komma från källan.</p>\n",
+      "pid": 4611,
+      "tid": 892,
+      "timestamp": 1705921164413,
+      "toPid": "4593",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-01-22T16:00:26.738Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-01-22T10:59:24.413Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Om publicister använder metadatakataloger som följer DCAT-AP på rätt sätt bör licenslänken pekas till korrekt i metadata, exempelvis Creative Commons Zero korrekt i Essungas publicering. Det syns genom att CC0-logotypen finns i visningen på nationella Dataportalen men finns också länk i RDF/XML metadata till CreativeCommons hemsida: <a href=\"https://www.dataportal.se/sv/datasets/428_3588/grillplatser-i-essunga-kommun#ref=?p=1&amp;q=grillplatser&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Flicense%7C%7Chttp%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fzero%2F1.0%2F%7C%7Cfalse%7C%7Curi%7C%7CLicens%7C%7CCC0&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService&amp;c=false\" rel=\"nofollow ugc\">https://www.dataportal.se/sv/datasets/428_3588/grillplatser-i-essunga-kommun#ref=?p=1&amp;q=grillplatser&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Flicense||http%3A%2F%2Fcreativecommons.org%2Fpublicdomain%2Fzero%2F1.0%2F||false||uri||Licens||CC0&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService&amp;c=false</a></p>\n<p dir=\"auto\">Det är väl åtskilt eftersom att även nationellt skyddsvärd information som inte får ges ut av säkerhetsskäl ofta är skattefinansierad och då kan betraktas som att vara allmän egendom och då ha CC0-licens.</p>\n",
+      "pid": 4612,
+      "tid": 892,
+      "timestamp": 1705931943725,
+      "toPid": "4599",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-01-22T13:59:03.725Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> sa i <a href=\"/post/4611\">Vad betyder egentligen \"Public\" ?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Mattias svar är rätt som du förstått. Att det saknas licens är ett stort problem för användning. Som användare behöver man ju veta förutsättningarna innan man lägger för mycket tid på användning. I kommersiella produkter blir det extra viktigt så man måste veta att affärsmodellen är hållbar.</p>\n</blockquote>\n<p dir=\"auto\">Jag skulle nog säga att det behövs bättre stödfunktioner för att peka på licenser med mera, både i verktyg, dokumentation, arbetsrutiner och portaler.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> sa i <a href=\"/post/4611\">Vad betyder egentligen \"Public\" ?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Frågan är hur man får fler att ange en lämplig licens? Verktyg som hanterar metadata kan t.ex. varna tydligare om licens saknas och komma med förlag. Det är svårt för dataportalen att hantera detta tror jag utan det behöver komma från källan.</p>\n</blockquote>\n<ul>\n<li>Utbildning! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> En av många sätt att lösa det på.</li>\n<li>Och ja, verktygen borde verkligen hjälpa till mer. Och den här aspekten att beskriva med metadata på många rekommenderade och frivilliga fält - ja det blir praktiskt taget väldigt svårt för en organisation som bara publicerar med hjälp av en RDF/XML-fil i form av kod. Större risk för missar av denna sort och brist på uppdateringar i förvaltningsarbete.</li>\n<li>Det finns \"varningar\" och tips för publicister att se genom att kolla på statistiksidan för sin organisation på dataportalens admin-vy t.ex. här: <a href=\"https://admin.dataportal.se/organization/428/statistics\" rel=\"nofollow ugc\">https://admin.dataportal.se/organization/428/statistics</a></li>\n</ul>\n",
+      "pid": 4613,
+      "tid": 892,
+      "timestamp": 1705939226738,
+      "toPid": "4611",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-01T09:38:24.509Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-01-22T16:00:26.738Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a> Ursäkta sent svar.</p>\n<p dir=\"auto\">En annan aspekt när väl en licens är angiven. När jag filtrerar på CC BY-SA som licens får jag fyra träffar. Varav två egentligen är CC0! Jag tror det är ett fel <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f61e.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--disappointed\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":-(\" alt=\"😞\" /> i filter-funktionen på dataportalen. Hur anmäler man buggar?</p>\n<p dir=\"auto\">En annan sak är att CC BY-SA kommer i olika smaker. Tio varianter för att vara mer exakt varav åtminstone några torde vara applicerbara i vår del av världen. Jag hade gärna sett att man hade med SPDX identifieraren för den licens som man använder. Se gärna. <a href=\"https://spdx.org/licenses/\" rel=\"nofollow ugc\">https://spdx.org/licenses/</a> . Hur kommer man med förbättringsförslag?</p>\n",
+      "pid": 4624,
+      "tid": 892,
+      "timestamp": 1706780304509,
+      "toPid": "4613",
+      "uid": 1679,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-01T09:58:44.962Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-02-01T09:38:24.509Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> sa i <a href=\"/post/4624\">Vad betyder egentligen \"Public\" ?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Hur anmäler man buggar?</p>\n</blockquote>\n<p dir=\"auto\">I teorin, här: <a href=\"https://github.com/diggsweden/dataportal-web\" rel=\"nofollow ugc\">https://github.com/diggsweden/dataportal-web</a></p>\n",
+      "pid": 4625,
+      "tid": 892,
+      "timestamp": 1706781524962,
+      "toPid": "4624",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-01T10:38:18.439Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-02-01T09:58:44.962Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Och i praktiken?</p>\n",
+      "pid": 4626,
+      "tid": 892,
+      "timestamp": 1706783898439,
+      "toPid": "4625",
+      "uid": 1679,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-02-01T11:51:23.931Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-02-01T10:38:18.439Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> sa i <a href=\"/post/4626\">Vad betyder egentligen \"Public\" ?</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Och i praktiken?</p>\n</blockquote>\n<p dir=\"auto\">Det vet jag inte. Det borde vara samma ställe, men med tanke på att det senaste officella <a href=\"https://github.com/diggsweden/dataportal-web/issues/7#issuecomment-1265309332\" rel=\"nofollow ugc\">svaret</a> är från 2022 och fem issues från augusti fortfarande är obesvarade så är det oklart.</p>\n",
+      "pid": 4627,
+      "tid": 892,
+      "timestamp": 1706788283931,
+      "toPid": "4626",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-01T12:49:23.351Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-02-01T11:51:23.931Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Värt ett försök. Men visst arbetas det på en ny platform? Eller har jag drömt?</p>\n",
+      "pid": 4628,
+      "tid": 892,
+      "timestamp": 1706791763351,
+      "toPid": "4627",
+      "uid": 1679,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 1622,
+            "username": "mikkeschiren",
+            "userslug": "mikkeschiren",
+            "picture": null,
+            "fullname": null,
+            "displayname": "mikkeschiren",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2024-02-02T12:46:55.905Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-02-01T12:49:23.351Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> tror att följande personer kan svara på din fråga: <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1622\">@mikkeschiren</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/700\">@Fabian-von-Tiedemann</a></p>\n",
+      "pid": 4629,
+      "tid": 892,
+      "timestamp": 1706878015905,
+      "toPid": "4628",
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-02-02T12:46:55.905Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> I denna kanal på community borde man komma rätt kan man tycka.</p>\n",
+      "pid": 4630,
+      "tid": 892,
+      "timestamp": 1707224749895,
+      "toPid": "4626",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-02-06T13:05:49.895Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> En ny version av Dataportalen lanseras snart, den finns som beta på: <a href=\"https://beta.dataportal.se/\" rel=\"nofollow ugc\">https://beta.dataportal.se/</a></p>\n",
+      "pid": 4631,
+      "tid": 892,
+      "timestamp": 1707405305140,
+      "toPid": "4628",
+      "uid": 1622,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-08T15:20:40.603Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-02-08T15:15:05.140Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 1622,
+        "username": "mikkeschiren",
+        "userslug": "mikkeschiren",
+        "reputation": 11,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1745822482618,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "mikkeschiren",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-04-28T06:41:22.618Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1622\">@mikkeschiren</a> Vet du var repot för den finns?</p>\n",
+      "pid": 4632,
+      "tid": 892,
+      "timestamp": 1707405640603,
+      "toPid": "4631",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1622,
+            "username": "mikkeschiren",
+            "userslug": "mikkeschiren",
+            "picture": null,
+            "fullname": null,
+            "displayname": "mikkeschiren",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-09T10:00:52.217Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-02-08T15:20:40.603Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "mikkeschiren",
+        "displayname": "mikkeschiren"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Det är samma repon som tidigare - men det jobbas i brancher, beta-arbete finns dels i <a href=\"https://github.com/diggsweden/dataportal-web/tree/beta\" rel=\"nofollow ugc\">https://github.com/diggsweden/dataportal-web/tree/beta</a>, dels i <a href=\"https://github.com/diggsweden/dataportal-web/tree/beta-2.0\" rel=\"nofollow ugc\">https://github.com/diggsweden/dataportal-web/tree/beta-2.0</a>. Där 2.0 är senaste.</p>\n<p dir=\"auto\">Gällande backend så jobbas det för att även den ska bli publik, precis som frontenden.</p>\n",
+      "pid": 4633,
+      "tid": 892,
+      "timestamp": 1707472852217,
+      "toPid": "4632",
+      "uid": 1622,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-02-09T10:00:52.217Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 1622,
+        "username": "mikkeschiren",
+        "userslug": "mikkeschiren",
+        "reputation": 11,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1745822482618,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "mikkeschiren",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-04-28T06:41:22.618Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> Du har inte drömt:) Vi jobbar med en ny version av dataportalen med utgångspunkt från <a href=\"http://beta.dataportal.se\" rel=\"nofollow ugc\">beta.dataportal.se</a>. Så vi kommer att smygsläppa en icke fullständig version av den nya designen i betan väldigt snart.</p>\n<p dir=\"auto\">Men till din fråga... vi är medvetna om utmaningarna med licenser. Och det här har aktualiserats i och med den nya Dataförvaltningsförordningen (DGA) som pekar ut dataportalen som \"gemensam informationspunkt\" även för delning av mer känslig data. Detta kommer såklart att kräva ett mkt större fokus på att just licenserna är väldigt tydliga. Och även att det som är öppna data blir enklare att hitta när det blir mer data som inte är öppna. Så det är väl inte otippat att säga att vi nog kommer att se över kraven och stödet för att sätta licenser.</p>\n<p dir=\"auto\">Och du har helt rätt i att vi inte har varit så bra på att hantera förslagen i Github<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f615.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--confused\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":confused:\" alt=\"😕\" /> , men vi har nyss fått lite förstärkning hos oss så jag hoppas att vi kan bli bättre. Men om du lägger ett förslag där och/eller sen postar det även här och pingar in mig så går det nog snabbare:)</p>\n",
+      "pid": 4642,
+      "tid": 892,
+      "timestamp": 1707838445742,
+      "toPid": "4628",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-13T16:02:37.743Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-02-13T15:34:05.742Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> Det kan vara rimligt att erbjuda någon sorts filtrering på \"Öppna data\" som filtrerar på alla öppna licenser om dataportalen blir bredare än idag.</p>\n",
+      "pid": 4643,
+      "tid": 892,
+      "timestamp": 1707840157743,
+      "toPid": "4642",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-02-14T13:08:54.666Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-02-13T16:02:37.743Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "892",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/892.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/892/vad-betyder-egentligen-public?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/892",
+  "bodyClass": "page-topic page-topic-892 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Vad betyder egentligen &quot;Public&quot; ?"
+        },
+        {
+          "name": "description",
+          "content": "Eftersom jag är konsument av data som jag hittar via dataportalen.se så funderar jag på de olika licensformerna. CC Zero liksom CC By är etablerade och lätta att förstå. Det finns dock andra frågetecken. På väldigt många datakällor anges Public och då und..."
+        },
+        {
+          "property": "og:title",
+          "content": "Vad betyder egentligen &quot;Public&quot; ?"
+        },
+        {
+          "property": "og:description",
+          "content": "Eftersom jag är konsument av data som jag hittar via dataportalen.se så funderar jag på de olika licensformerna. CC Zero liksom CC By är etablerade och lätta att förstå. Det finns dock andra frågetecken. På väldigt många datakällor anges Public och då und..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-12-19T20:06:06.739Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-02-14T13:08:54.666Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/892",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/892/vad-betyder-egentligen-public",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/892.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/christerolsson"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/892/vad-betyder-egentligen-public?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

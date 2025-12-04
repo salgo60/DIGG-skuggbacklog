@@ -1,0 +1,1520 @@
+{
+  "cid": 37,
+  "lastposttime": 1719419388178,
+  "mainPid": 4758,
+  "postcount": 14,
+  "slug": "950/dataportal-och-ngp",
+  "tid": 950,
+  "timestamp": 1718053151957,
+  "title": "Dataportal och NGP",
+  "uid": 28,
+  "viewcount": 1308,
+  "postercount": 6,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 4779,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Dataportal och NGP",
+  "timestampISO": "2024-06-10T20:59:11.957Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-06-26T16:29:48.178Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Har inte riktigt begripit varför Nationella Geodataplattformen (NGP) ska lagra data som kommunerna ska skicka in i stället för att NGP skulle vara som <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a>. Alltså en tjänst när man kan söka och hitta geodata som man sedan hämtar från respektive kommun?</p>\n<p dir=\"auto\">Känns som om det kommer ta lite administrativ tid för kommunerna att hela tiden ha två versioner av sin geodata. Den som man har på kommunen och den man har på NGP. Och uppdaterar man nåt på kommunen så måste man inte glömma av att skicka in den till NGP.</p>\n<p dir=\"auto\">Men det kanske är nån här som har full koll och kan förklara.</p>\n<p dir=\"auto\">Bra dock att Lantmäteriet satsar eller ska satsa hårt på att skapa specifikationer!</p>\n",
+      "pid": 4758,
+      "tid": 950,
+      "timestamp": 1718053151957,
+      "uid": 28,
+      "edited": 1718053209687,
+      "editor": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-11T15:04:12.091Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-06-10T20:59:11.957Z",
+      "editedISO": "2024-06-10T21:00:09.687Z",
+      "index": 0,
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a><br />\nSe nationella geodataplattformen (NGP) som en infrastruktur för tillhandahållande av strukturerad information åtkomlig genom ett standardiserat API.<br />\nKommunen, som i ditt exempel, nyttjar NGP för ett tillhandahållande av sin detaljplaneinformation och gör den åtkomlig och läsbar för ett maskin till maskin-gränssnitt. Dessutom kan man även utifrån givna referensdata göra nationella utsökningar på enskilda attribut i alla kommuners data.</p>\n<p dir=\"auto\">Ett tillgängliggörande till NGP sker vanligtvis genom ett knapptryck i verksamhetssystemet. En digital kopia arkiveras hos kommunen eftersom NGP inte är ett arkiv. Och i den bästa av världar läser övriga system i kommunen och i samhället från NGP. Således bör risken vara låg att olika versioner finns.</p>\n<p dir=\"auto\">Kolla gärna in Lantmäteriets nya webbutbildning om NGP:<br />\n<a href=\"https://www.lantmateriet.se/sv/nationella-geodataplattformen/om-plattformen/nyheter/webbutbildning-nationella-geodataplattformen---sprangbradan-till-digitalisering/\" rel=\"nofollow ugc\">Nationella geodataplattformen – språngbrädan till digitalisering.</a></p>\n<p dir=\"auto\"><strong>Daniel Regemar<br />\nLantmäteriet</strong></p>\n",
+      "pid": 4759,
+      "tid": 950,
+      "timestamp": 1718118252091,
+      "toPid": "4758",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-12T08:33:01.492Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-06-11T15:04:12.091Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Så <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> är inte \"en infrastruktur för tillhandahållande av strukturerad information åtkomlig genom ett standardiserat API\"?</p>\n",
+      "pid": 4761,
+      "tid": 950,
+      "timestamp": 1718181181492,
+      "toPid": "4759",
+      "uid": 28,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-12T08:51:35.941Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-12T08:33:01.492Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a><br />\nJag vill påstå att <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> är en infrastruktur för tillhandahållande av metadata och inte ett tillhandahållande av data i sig.</p>\n<p dir=\"auto\">Genom <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> skulle varje enskild kommun kunna lägga upp en post om var deras detaljplaneinformation finns tillgänglig. Utan NGP skulle varje kommun förmodligen ha ett individuellt API och för det API:et en viss typ av frågor som är möjliga att ställa. Som konsument skulle det vara komplicerat att ställa API-frågor på nationell nivå.</p>\n<p dir=\"auto\">Genom NGP så finns ett API för att nyttja för detaljplaneinformation och inte 290 olika API:er som skulle kunna vara fallet utan NGP.</p>\n",
+      "pid": 4762,
+      "tid": 950,
+      "timestamp": 1718182295941,
+      "toPid": "4761",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-12T12:17:21.564Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-06-12T08:51:35.941Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Aha, då faller en stor del av grejen med <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> vad gäller kommundata överlag. Trodde tanken med <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> var att det skulle vara lätt att aggregera data från massa kommuner. Men enligt ditt resonemang så är det bättre om man har ett centralt ställe i Sverige där man lagrar datamängder om tanken med dessa är att de ska ge nytta på aggregerad nivå.</p>\n",
+      "pid": 4763,
+      "tid": 950,
+      "timestamp": 1718194641564,
+      "toPid": "4762",
+      "uid": 28,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-12T12:26:16.328Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-12T12:17:21.564Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a><br />\n<a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a> fyller en jättestor funktion för att <strong>hitta data</strong> genom dess <strong>metadata</strong>.<br />\nDär tycker jag skillnaden är mellan <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> och NGP.</p>\n",
+      "pid": 4764,
+      "tid": 950,
+      "timestamp": 1718195176328,
+      "toPid": "4763",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-12T18:30:14.199Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-12T12:26:16.328Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Håller med. Vi måste hitta ett ställe att lagra all kommundata på centralt. <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a> är inte lösningen.</p>\n",
+      "pid": 4765,
+      "tid": 950,
+      "timestamp": 1718217014199,
+      "toPid": "4764",
+      "uid": 28,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-13T12:38:18.483Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-12T18:30:14.199Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a><br />\nDet där lät hårt!<br />\n<a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a> är en av många viktiga pusselbitar för att skapa en helhet.</p>\n",
+      "pid": 4766,
+      "tid": 950,
+      "timestamp": 1718282298483,
+      "toPid": "4765",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-13T12:38:18.483Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Det här kan jag tycka är en konstig debatt och ganska specifik till Sverige. I många andra länder gör den nationella dataportalen båda saker, dvs. man kan ladda upp filer upp till en viss storlek eller låta portalen skörda från sin egen katalog.</p>\n<p dir=\"auto\">Att det inte går att göra så i Sverige är ett märkligt val från början. Det kanske ökar marknaden för kataloger på kort sikt men det sätter också en orimlig tröskel för små organisationer (90% av kommunerna och myndigheterna) som då aldrig kommer igång med öppna data. I Frankrike kan vem som helst ladda upp en datamängd, inklusive alternativa dataformat eller återanvändningar för en befintlig datamängd. Även småföreningar och privatpersoner publicerar intressanta datamängder. Det har inte minskat behovet för kataloger i större myndigheter och kommuner. Tvärtom, det är sannolikt EU-landet som har flest kataloger per capita...</p>\n<p dir=\"auto\">Så inget problem att kombinera de två strategierna enligt mig, tvärtom.</p>\n",
+      "pid": 4767,
+      "tid": 950,
+      "timestamp": 1718288902548,
+      "uid": 666,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-17T09:28:54.862Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-06-13T14:28:22.548Z",
+      "editedISO": "",
+      "index": 8,
+      "user": {
+        "uid": 666,
+        "username": "PierreMesure",
+        "userslug": "pierremesure",
+        "reputation": 18,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764432799455,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PierreMesure",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-11-29T16:13:19.455Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/666\">@PierreMesure</a> Faktum kvarstår att kommunerna behöver, enligt tråden, hitta en kommungemensam plats att lagra data enligt LMs sätt, för att kunna göra det enkelt att hämta aggregerade data.</p>\n",
+      "pid": 4772,
+      "tid": 950,
+      "timestamp": 1718616534862,
+      "toPid": "4767",
+      "uid": 28,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-06-17T09:28:54.862Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "PierreMesure",
+        "displayname": "PierreMesure"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Dataportalens synsätt är att man uppmuntrar aktörer att berätta om vilka data de har och gärna refererar till överenskommna standarder / specifikationer.</p>\n<p dir=\"auto\">Sen är det fritt fram för andra aktörer att aggregera datat genom att:</p>\n<ol>\n<li>Identifiera alla datamängder som följer samma standard</li>\n<li>Regelbundet ladda ner dessa datamängder (i lämpligt format)</li>\n<li>Erbjuda ett aggregerat API / dump för att förenkla för andra att komma åt datan<br />\n(Obs, aktörer kan också för den delen aggregera datan enbart för egen konsumption.)</li>\n</ol>\n<p dir=\"auto\">Dataportalen gör själv inte detta arbete då processen för att sammanföra många datamängdeer till ett API / dump (trots att de följer samma standard / specifikation) varierar.</p>\n<p dir=\"auto\">I vissa fall, som till exempel för CSV filer, skulle en enhetlig behandling fungera, men det ligger inte i Diggs nuvarande uppdrag.<br />\nDessutom kan det vara lämpligt att lämna öppet för andra aktörer att skapa innovativa lösningar.</p>\n<p dir=\"auto\">Däremot, för att förenkla att peka ut överenskommna standarder/specifikationer på ett enhetligt sätt erbjuder dataportalen ett sätt att registrera standarder / specifikationer centralt. Detta medför bland annat att standarder / specifikationer får webbadresser (URI:er) som är stabila att referera till från datamängder via dcterms:conformsTo egenskapen.</p>\n<p dir=\"auto\">Lantmäteriet har valt ett alternativt angreppsätt med NGP som innefattar att man förvaltar data åt andra centralt.</p>\n<p dir=\"auto\">Observera att ett sådant angreppsätt inte alltid är möjligt. Särskilt inte när det saknas en central aktör som kan ta ansvaret, har de ekonomiska musklerna, har ett tydligt uppdrag och den naturliga positionen / auktoriteten att skapa en sådan lösning. Dataportalen försöker alltså erbjuda de pusselbitar som behövs för att möjliggöra olika angreppsätt, i detta fall både färdigt aggregerad datamängd (som NGP) och tillåta andra aktörer att aggregera i efterhand (och lämpligen också publicera resultatet som en färdigaggregerad datamängd till dataportalen).</p>\n",
+      "pid": 4774,
+      "tid": 950,
+      "timestamp": 1718803978293,
+      "uid": 1762,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-06-21T10:51:46.461Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2024-06-19T13:32:58.293Z",
+      "editedISO": "",
+      "index": 10,
+      "user": {
+        "uid": 1762,
+        "username": "matthias",
+        "userslug": "matthias",
+        "reputation": 3,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1718874072458,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "matthias",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2024-06-20T09:01:12.458Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1762\">@matthias</a> intressant. Så det kanske skulle vara värt att starta ett företag eller förening mellan kommunerna eller privat som aggregerar och tillgängliggör ett stabilt API för varje typ av datamängd som kommunerna själva eller andra är intresserade av.</p>\n<p dir=\"auto\">Om kommunerne själva skulle göra det tex via SKR skulle de kanske ha mera motivation att faktiskt följa de standarder som finns?</p>\n<p dir=\"auto\">Med tanke på våra överlag ganska dataomogna och api-omogna kommuner så är det nog troligast att en privat aktör kliver fram.</p>\n<p dir=\"auto\">Om jag skulle ge mig in på det skulle jag först göra en marknadsundersökning. Den skulle troligen visa att bortom SCBs data finns de väldigt lite på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> som medborgare eller kommuner vill ha och det lilla som finns håller väldigt låg kvalitet. Hoppas jag tar fel men det kan ju vara svaret på varför ingen aktör gett sig in på området än.</p>\n<p dir=\"auto\">Det finns flera privata företag som idag aggregerar rättsinformation dvs begär ut alla domar digitalt och gör dem sökbara för journalister.</p>\n",
+      "pid": 4775,
+      "tid": 950,
+      "timestamp": 1718967106461,
+      "toPid": "4774",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 109,
+            "username": "Matself",
+            "userslug": "matself",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Matself",
+            "icon:text": "M",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-06-25T20:18:20.821Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-06-21T10:51:46.461Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "matthias",
+        "displayname": "matthias"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn you're on to something. Men det är två sätt att lösa sakerna på. LM:s way eller Dataportals. Tror inte riktigt att kombon med dessa två tillsammans är den långsiktiga lösningen. Troligare att det är en konkurrerande situation som uppstått.</p>\n<p dir=\"auto\">Kanske man ska snegla på andra länder som vanligt och se hur dom gör.</p>\n",
+      "pid": 4778,
+      "tid": 950,
+      "timestamp": 1719346700821,
+      "toPid": "4775",
+      "uid": 28,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-25T20:18:20.821Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn Bevare oss för privata aktörer. Däremot skulle ett bättre gränssnitt för näringslivet, civilsamhället och medborgarna vara mycket välkommet.</p>\n",
+      "pid": 4779,
+      "tid": 950,
+      "timestamp": 1719419388178,
+      "toPid": "4775",
+      "uid": 109,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-06-26T16:29:48.178Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#8681b1",
+    "cid": 37,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Under denna kategori samlar vi frågor, behov och nyheter som rör användning, hantering och tillgängliggörande av geografiska data, Geodataportalen och den nationella geodataplattformen (NGP).",
+    "descriptionParsed": "<p dir=\"auto\">Under denna kategori samlar vi frågor, behov och nyheter som rör användning, hantering och tillgängliggörande av geografiska data, Geodataportalen och den nationella geodataplattformen (NGP).</p>\n",
+    "disabled": 0,
+    "icon": "fa-globe",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Geografiska data",
+    "numRecentReplies": 1,
+    "order": -1,
+    "parentCid": 23,
+    "post_count": 122,
+    "slug": "37/geografiska-data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 12,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 122,
+    "totalTopicCount": 12
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "950",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/950.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Geografiska data",
+      "url": "/category/37/geografiska-data",
+      "cid": 37
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/950",
+  "bodyClass": "page-topic page-topic-950 template-topic page-topic-category-37 page-topic-category-geografiska-data parent-category-23 parent-category-37 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Dataportal och NGP"
+        },
+        {
+          "name": "description",
+          "content": "Har inte riktigt begripit varför Nationella Geodataplattformen (NGP) ska lagra data som kommunerna ska skicka in i stället för att NGP skulle vara som dataportal.se. Alltså en tjänst när man kan söka och hitta geodata som man sedan hämtar från respektive ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Dataportal och NGP"
+        },
+        {
+          "property": "og:description",
+          "content": "Har inte riktigt begripit varför Nationella Geodataplattformen (NGP) ska lagra data som kommunerna ska skicka in i stället för att NGP skulle vara som dataportal.se. Alltså en tjänst när man kan söka och hitta geodata som man sedan hämtar från respektive ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-06-10T20:59:11.957Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-06-26T16:29:48.178Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Geografiska data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/950",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/950/dataportal-och-ngp",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/950.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/37/geografiska-data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonas-nordqvist"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

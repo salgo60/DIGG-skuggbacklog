@@ -1,0 +1,801 @@
+{
+  "cid": 23,
+  "lastposttime": 1620295923359,
+  "mainPid": 385,
+  "postcount": 4,
+  "slug": "103/api-licenser-eller-användarvillkor-för-api-användning",
+  "tid": 103,
+  "timestamp": 1620229654418,
+  "title": "API-licenser eller användarvillkor för API-användning?",
+  "uid": 62,
+  "viewcount": 731,
+  "postercount": 3,
+  "teaserPid": 396,
+  "tags": [
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "licens",
+      "valueEscaped": "licens",
+      "valueEncoded": "licens",
+      "class": "licens"
+    },
+    {
+      "value": "nyckelhantering",
+      "valueEscaped": "nyckelhantering",
+      "valueEncoded": "nyckelhantering",
+      "class": "nyckelhantering"
+    }
+  ],
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "API-licenser eller användarvillkor för API-användning?",
+  "timestampISO": "2021-05-05T15:47:34.418Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-05-06T10:12:03.359Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag har en fundering kopplat till ”API-licenser” som jag vill dryfta:</p>\n<p dir=\"auto\">Öppna data har vi lärt oss att licensiera enligt Creative Commons, Exempelvis CC0. I ett<br />\nKällkod licensierar vi enligt källkodslicenser: (EUPL, Appache 2.0, GPL m.fl)</p>\n<p dir=\"auto\">Men det finns fall då man vill reglera själva API-användningen, d.v.s. anrop mot gränssnittet. (Varken källkoden eller datan) hur hanterar vi detta?</p>\n<p dir=\"auto\">Fall 1: Det kan röra sig om att begränsa antalet anrop. 20 om dagen kanske är ok, men inte 1000 per sekund.  Datan är forfarande öppen enligt CC0 och källkoden är fortfarande öppen. Dock ligger begränsningen på API:et.<br />\nFall 2: Datan är inte öppen, utan det kan röra sig om individdata, men man får i tjänsten bara åtkomst till den data men har rätt att se. Det rör sig alltså om ett öppet API men innehållet är inte öppna data?<br />\nFall 3: (jmf Stockholm Stads skolplattform). Att anropa gränssnittet går att göra, men ägaren i detta fall en myndighet vill inte få anrop till sitt gränsnitt (API). Dock går det. Praxis är att går det så är det öppet. Annars får man hantera tillgång med nycklar och  användaravtal. I fallet Stockholmstad är det ju inte aktuellt med användaravtal eftersom de inte vill se externa användare på API:et.</p>\n<p dir=\"auto\">Så till min huvudfråga: Hur reglerar man användningen av själva API:et? Själva tjänsten/ gränsnittet (API) och inte innehållet (data) eller koden?</p>\n",
+      "pid": 385,
+      "tid": 103,
+      "timestamp": 1620229654418,
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-05T18:06:42.796Z"
+      },
+      "edited": 1620281409979,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-05T15:47:34.418Z",
+      "editedISO": "2021-05-06T06:10:09.979Z",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@maria_dalhage</a> jag pingade <a href=\"https://twitter.com/oppnaskolplatt\" rel=\"nofollow ugc\">Öppna Skolplattformen</a> och dom svara se <a href=\"https://twitter.com/salgo60/status/1389973739752857603?s=20\" rel=\"nofollow ugc\">tweet</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620237975554-d946c4c6-8b71-4968-944a-d5c2719565ce-image.png\" alt=\"d946c4c6-8b71-4968-944a-d5c2719565ce-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1620237999838-db751647-632a-43db-abb0-c192cb0e4476-image.png\" alt=\"db751647-632a-43db-abb0-c192cb0e4476-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 387,
+      "tid": 103,
+      "timestamp": 1620238002796,
+      "toPid": "385",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-05T18:06:42.796Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Att reglera själva användningen av ett API är en bra fråga hur man skall göra. Ett API är ju i grund och botten en beskrivning över hur man använder en tjänst och inte någon artefakt - i motsats till exempelvis ett system som implementerar ett API. Så om licenser överhuvudtaget är applicerbara på API:er är vad jag kan se något otydligt.</p>\n<p dir=\"auto\">Den uppenbara lösningen är kringgå problemen genom att koppla (eventuellt anonyma) nycklar till API:et, antingen för att exempelvis tekniskt begränsa antalet anrop per sekund eller för att kräva godkännande av användningsvillkor innan nyckeln lämnas ut (då har man en teknisk mekanism som man kan knyta till användarvillkoren).</p>\n<p dir=\"auto\"><strong>Fall 1</strong>: Att använda nycklar och att ha ett öppet API är vad jag kan se inte nödvändigtvis ömsesidigt uteslutande så länge man inte principiellt begränsar åtkomst till något i API:et.</p>\n<p dir=\"auto\"><strong>Fall 2</strong>: Detta är okomplicerat - åtkomst till innehåll och åtkomst till API:et är ortogonala problem och påverkar inte varandra.</p>\n<p dir=\"auto\"><strong>Fall 3</strong>: Fallet med skolplattformen är intressant eftersom Stockholm stad vad jag förstått verkar försöka undvika den uppenbara lösningen - nämligen att använda API-nycklar och koppla användarvillkor till utcheckningen av dessa. Att inte ha en mekanism att koppla till användningsvillkoren blir rätt underligt, för att hitta på en liknelse:</p>\n<p dir=\"auto\">Om vi tänker oss tillbaka till tiden när Televerket hade telefonkiosker med telefonkataloger runtom i landet. Tänk om en person med en nymodig mobiltelefon hade</p>\n<ul>\n<li>Gått in i en telefonkiosk</li>\n<li>Letat upp ett nummer i telefonkatalogen och sedan</li>\n<li>Ringt detta nummer på sin mobiltelefon.</li>\n</ul>\n<p dir=\"auto\">Om Televerket då hade sagt att detta inte var tillåtet och att telefonkatalogen inte fick användas om man inte ringde med telefonen i telefonkiosken - då hade vi haft en situation som liknar den med skolplattformen.</p>\n<p dir=\"auto\">Min gissning är att den här krumbukten grundar sig i att man blandar ihop olika koncept. Dessutom är det ju om jag förstått problemet rätt samma användare som använder samma API - men med ett annat verktyg.</p>\n",
+      "pid": 392,
+      "tid": 103,
+      "timestamp": 1620249336348,
+      "uid": 172,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-06T10:12:03.359Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-05T21:15:36.348Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 172,
+        "username": "Peter_Bengtsson",
+        "userslug": "peter_bengtsson",
+        "reputation": 14,
+        "postcount": 8,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670452670788,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peter_Bengtsson",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-12-07T22:37:50.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@peter_bengtsson</a> sa i <a href=\"/post/392\">API-licenser eller användarvillkor för API-användning?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Den uppenbara lösningen är kringgå problemen genom att koppla (eventuellt anonyma) nycklar till API:et, antingen för att exempelvis tekniskt begränsa antalet anrop per sekund eller för att kräva godkännande av användningsvillkor innan nyckeln lämnas ut (då har man en teknisk mekanism som man kan knyta till användarvillkoren).</p>\n</blockquote>\n<p dir=\"auto\">Gillar din liknelse med telefonkiosken Peter!</p>\n<p dir=\"auto\">Ditt och även Öppnaskolplattformens förslag med att koppla användarvillkor till nyckelhantering är ju hur det till stor del regleras idag, men hur ska man formulera sig om man inte vill ha nycklar på öppna API:er?</p>\n<p dir=\"auto\">Vi har tidigare på forumet diskuterat om det alltid behövs nycklar till ett öppet API och om nyckelhantering leder till begränsningar.</p>\n<p dir=\"auto\">I fallet öppet API, med öppna data har vi inte alltid behov av begränsa anrop eller hur innehållet används. Vi vill också i större utsträckning länka till varandras data, och då kan nycklar eventuellt försvåra som jag tolkat det.<br />\nSå hur kan vi myndigheter signalera till en presumtiv användare att API:et är öppet och fritt tillgängligt?<br />\nNaturligtvis i dokumentationen, men kan vi komma till en standardforumlering, eller liknande som är begripligt på många språk? Det som har varit bra med vägledningen från DIGG och PRV gällande öppna data licenser är att det rekommenderas att sätta CCO för att tydliggöra fritt användande av data även i de fall då upphovsrätt inte är tillämpligt. Bättre en tydlig signal som säger varsågod än att det blir superkorrekt ur alla avseenden.</p>\n",
+      "pid": 396,
+      "tid": 103,
+      "timestamp": 1620295923359,
+      "toPid": "392",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-06T10:12:03.359Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Peter_Bengtsson",
+        "displayname": "Peter_Bengtsson"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 271,
+          "timestamp": 1648840377640,
+          "timestampISO": "2022-04-01T19:12:57.640Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:12:57.640Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 271,
+      "timestamp": 1648840377640,
+      "timestampISO": "2022-04-01T19:12:57.640Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:12:57.640Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "103",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/103.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/103",
+  "bodyClass": "page-topic page-topic-103 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "API-licenser eller användarvillkor för API-användning?"
+        },
+        {
+          "name": "description",
+          "content": "Jag har en fundering kopplat till ”API-licenser” som jag vill dryfta: Öppna data har vi lärt oss att licensiera enligt Creative Commons, Exempelvis CC0. I ett Källkod licensierar vi enligt källkodslicenser: (EUPL, Appache 2.0, GPL m.fl) Men det finns fall..."
+        },
+        {
+          "property": "og:title",
+          "content": "API-licenser eller användarvillkor för API-användning?"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag har en fundering kopplat till ”API-licenser” som jag vill dryfta: Öppna data har vi lärt oss att licensiera enligt Creative Commons, Exempelvis CC0. I ett Källkod licensierar vi enligt källkodslicenser: (EUPL, Appache 2.0, GPL m.fl) Men det finns fall..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-05-05T15:47:34.418Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-05-06T10:12:03.359Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/103",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/103/api-licenser-eller-användarvillkor-för-api-användning",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/103.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

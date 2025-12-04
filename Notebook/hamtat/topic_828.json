@@ -1,0 +1,808 @@
+{
+  "cid": 34,
+  "lastposttime": 1692228766092,
+  "mainPid": 4272,
+  "postcount": 5,
+  "slug": "828/använda-data-från-esv",
+  "tid": 828,
+  "timestamp": 1688766646925,
+  "title": "Använda data från esv",
+  "uid": 90,
+  "viewcount": 565,
+  "postercount": 3,
+  "teaserPid": 4305,
+  "downvotes": 0,
+  "upvotes": 0,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Använda data från esv",
+  "timestampISO": "2023-07-07T21:50:46.925Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-08-16T23:32:46.092Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Har experimenterat med AI-teknologier som OpenAI och plugin Dai.gram för att bearbeta, analysera och visualisera data för mitt projekt Citizen Intelligence Agency.</p>\n<p dir=\"auto\"><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f4ca.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--bar_chart\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":bar_chart:\" alt=\"📊\" /> Kolla in våra instrumentpaneler för en överblick över politisk aktivitet i Sverige. Vi har täckt dig både på engelska och svenska:</p>\n<p dir=\"auto\"><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f517.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--link\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":link:\" alt=\"🔗\" /> <a href=\"https://github.com/Hack23/cia/blob/master/dashboard.md\" rel=\"nofollow ugc\">Engelska översikt</a><br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f517.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--link\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":link:\" alt=\"🔗\" /> <a href=\"https://github.com/Hack23/cia/blob/master/dashboard_sv.md\" rel=\"nofollow ugc\">Svenska översikt</a></p>\n<p dir=\"auto\">Den traditionella modellen för journalistik störs av teknologier som AI. Istället för att förlita oss på mänskliga journalister för att analysera nyheter och ge insikter, kan vi använda AI för att automatisera denna process.  Detta gör att vi kan leverera nyhetsanalys snabbare, mer exakt och till en lägre kostnad.</p>\n<p dir=\"auto\">Så källor som <a href=\"https://www.esv.se/statistik-och-data/psidata/manadsutfall/\" rel=\"nofollow ugc\">https://www.esv.se/statistik-och-data/psidata/manadsutfall/</a> och <a href=\"https://data.riksdagen.se/\" rel=\"nofollow ugc\">https://data.riksdagen.se/</a> blir lite mer intressanta framöver.</p>\n<p dir=\"auto\">Mvh</p>\n",
+      "pid": 4272,
+      "tid": 828,
+      "timestamp": 1688766646925,
+      "uid": 90,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-08-02T09:06:34.349Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-07-07T21:50:46.925Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/90\">@jamespether</a> Är inte datan från riksdagen för dålig för att göra vettiga AI-analyser på? Det saknas ju kopplig till things. Verkar bara vara en massa textsträngar vad jag sett...</p>\n",
+      "pid": 4279,
+      "tid": 828,
+      "timestamp": 1690967194349,
+      "toPid": "4272",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 90,
+            "username": "jamespether",
+            "userslug": "jamespether",
+            "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+            "fullname": "James Pether Sörling",
+            "displayname": "jamespether",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-08-16T23:32:46.092Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-08-02T09:06:34.349Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jamespether",
+        "displayname": "jamespether"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag har velat visualisera ESVs budgetdata i flera år! Det är faktiskt synt att de gjorde insatsen att publicera det för så länge sedan men det användes aldrig. Det har kanske påverkat deras motivering att publicera mer.</p>\n<p dir=\"auto\">Förhoppningsvis hinner jag i år och med AI i någon form.</p>\n<p dir=\"auto\">Om du letar efter innovativa användningar av ESVs data kan jag rekommendera datalabbets projekt. Det fanns tidigare <a href=\"https://datalabb.esv.se/budgetutfall.html\" rel=\"nofollow ugc\">dashboards</a> för budgeten. Och de har även använt AI för att strukturera data om <a href=\"https://datalabb.esv.se/remissai/\" rel=\"nofollow ugc\">remissprocessen</a>. Om du vill återanvända remissdata är dock mitt projekt <a href=\"https://github.com/DinRiksdag/OpenRemiss\" rel=\"nofollow ugc\">OpenRemiss</a> fortfarande en bättre källa</p>\n",
+      "pid": 4296,
+      "tid": 828,
+      "timestamp": 1691577614637,
+      "uid": 666,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 90,
+            "username": "jamespether",
+            "userslug": "jamespether",
+            "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+            "fullname": "James Pether Sörling",
+            "displayname": "jamespether",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-08-16T23:21:49.139Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-08-09T10:40:14.637Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 666,
+        "username": "PierreMesure",
+        "userslug": "pierremesure",
+        "reputation": 18,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764432799455,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PierreMesure",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-11-29T16:13:19.455Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/666\">@PierreMesure</a></p>\n<p dir=\"auto\">Hej Pierre,</p>\n<p dir=\"auto\">Testade ESV datalabb när det fanns.</p>\n<p dir=\"auto\">Inom produkt utveckling pratas om att spendera lika mycket på marketing som utveckling. Men marknaden för den typen av information är väldigt lite, tex ca 270.000 medlemmar i politiska partier i Sverige idag och endast ett litet fåtal är intresserade av insikter ifrån data <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Tex Alltinget <a href=\"https://www.allabolag.se/5569805269/altinget-ab\" rel=\"nofollow ugc\">https://www.allabolag.se/5569805269/altinget-ab</a> , har en liten omsättning på endast 20M trotst att de täcker viktiga delar inom svensk politik.</p>\n<p dir=\"auto\">En komplett chatlog <a href=\"https://chat.openai.com/share/67ff0200-dad4-48f2-884e-ccada57974f6\" rel=\"nofollow ugc\">https://chat.openai.com/share/67ff0200-dad4-48f2-884e-ccada57974f6</a> för senaste update. <a href=\"https://github.com/Hack23/cia/commit/7b8639cb17b0da8317152148c1376851cf0832ee\" rel=\"nofollow ugc\">https://github.com/Hack23/cia/commit/7b8639cb17b0da8317152148c1376851cf0832ee</a></p>\n<p dir=\"auto\">Gillar priming prompts.</p>\n<p dir=\"auto\"><a href=\"https://github.com/Hack23/homepage/blob/master/openaiprimingprompt.md\" rel=\"nofollow ugc\">https://github.com/Hack23/homepage/blob/master/openaiprimingprompt.md</a></p>\n<p dir=\"auto\">#political-analyst<br />\nAs a user, I will ask questions related to activities or political actors in the Swedish parliament (riksdagen) and government (regeringen).</p>\n<p dir=\"auto\">You, as the AI, should respond as an expert political analyst with a deep understanding of Swedish politics. Your responses should be well-informed, insightful, and demonstrate your excellent skills in analyzing and interpreting the Swedish political landscape.</p>\n<p dir=\"auto\">Maintain an engaging and guiding tone in your responses, providing actionable and helpful insights. Focus solely on political matters and avoid answering questions unrelated to politics. Additionally, refrain from repeating yourself or restating my statements. Instead, provide clear and concise responses without trivializing the topic or being overly broad.</p>\n<p dir=\"auto\">Your responses should be action-driven and complete. If necessary, you may ask follow-up questions to further explore important actions or improvements that can be made. Feel free to adapt your current response by clarifying details or tailoring your output to suit key audiences such as End Users or the Media (both with high influence and interest).</p>\n<p dir=\"auto\">Wait for my questions without making any comments until I prompt you.</p>\n<p dir=\"auto\">Mvh Pether</p>\n",
+      "pid": 4304,
+      "tid": 828,
+      "timestamp": 1692228109139,
+      "toPid": "4296",
+      "uid": 90,
+      "edited": 1692228487175,
+      "editor": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "displayname": "jamespether"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-08-16T23:21:49.139Z",
+      "editedISO": "2023-08-16T23:28:07.175Z",
+      "index": 3,
+      "parent": {
+        "username": "PierreMesure",
+        "displayname": "PierreMesure"
+      },
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn</p>\n<p dir=\"auto\">Har importerat och expanderat datamodellen från riksdagen, men ren text och dokument inte struktuerade men inget som AI modeller behöver även om det kan förbättra resultatet.</p>\n<p dir=\"auto\"><a href=\"https://hack23.github.io/cia/service.data.impl/hbm2doc/entities/index.html\" rel=\"nofollow ugc\">https://hack23.github.io/cia/service.data.impl/hbm2doc/entities/index.html</a></p>\n<p dir=\"auto\">Entity Model - Explore our Entity Model which provides a detailed look at the entities in our system and their relationships. This page is particularly useful for understanding the data structure of our project.</p>\n<p dir=\"auto\">Mvh Pether</p>\n",
+      "pid": 4305,
+      "tid": 828,
+      "timestamp": 1692228766092,
+      "toPid": "4279",
+      "uid": 90,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-08-16T23:32:46.092Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#BA8BAF",
+    "cid": 34,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Offentlig AI",
+    "numRecentReplies": 1,
+    "order": 2,
+    "parentCid": 0,
+    "post_count": 66,
+    "slug": "34/offentlig-ai",
+    "subCategoriesPerPage": 10,
+    "topic_count": 16,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 66,
+    "totalTopicCount": 16
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "828",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/828.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Offentlig AI",
+      "url": "/category/34/offentlig-ai",
+      "cid": 34
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/828",
+  "bodyClass": "page-topic page-topic-828 template-topic page-topic-category-34 page-topic-category-offentlig-ai parent-category-34 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Använda data från esv"
+        },
+        {
+          "name": "description",
+          "content": "Har experimenterat med AI-teknologier som OpenAI och plugin Dai.gram för att bearbeta, analysera och visualisera data för mitt projekt Citizen Intelligence Agency.  Kolla in våra instrumentpaneler för en överblick över politisk aktivitet i Sverige. Vi har..."
+        },
+        {
+          "property": "og:title",
+          "content": "Använda data från esv"
+        },
+        {
+          "property": "og:description",
+          "content": "Har experimenterat med AI-teknologier som OpenAI och plugin Dai.gram för att bearbeta, analysera och visualisera data för mitt projekt Citizen Intelligence Agency.  Kolla in våra instrumentpaneler för en överblick över politisk aktivitet i Sverige. Vi har..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-07-07T21:50:46.925Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-08-16T23:32:46.092Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Offentlig AI"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/828",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/828/använda-data-från-esv",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/828.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/34/offentlig-ai"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jamespether"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

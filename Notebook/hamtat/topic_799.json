@@ -1,0 +1,484 @@
+{
+  "cid": 23,
+  "lastposttime": 1684227041818,
+  "mainPid": 4203,
+  "postcount": 1,
+  "slug": "799/sevärdheter-bidra-till-specifikation",
+  "tid": 799,
+  "timestamp": 1684227041818,
+  "title": "Sevärdheter - bidra till specifikation",
+  "uid": 1441,
+  "viewcount": 481,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Sevärdheter - bidra till specifikation",
+  "timestampISO": "2023-05-16T08:50:41.818Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-05-16T08:50:41.818Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<h1>Bakgrund och syfte  <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f937.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--shrug\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":shrug:\" alt=\"🤷\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f914.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--thinking_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":thinking_face:\" alt=\"🤔\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/27a1.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--arrow_right\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":arrow_right:\" alt=\"➡\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f3af.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--dart\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":dart:\" alt=\"🎯\" /></h1>\n<p dir=\"auto\">Inom projektet Nationell Dataverkstad har det tagits fram en topplista över datamängder att standardisera för publicering och datadelning. En sådan datamängd är Sevärdheter. Datamängden kategoriseras inom området Besöksnäring &amp; Rekreation och avser grundläggande information om sevärdheter som är relevant för besökare.. Således har den haft ett väldigt stort intresse inte minst från verksamma inom besöksnäringen som vill underlätta för besökare att hitta till och få rätt, uppdaterad information om sevärdheterna.</p>\n<p dir=\"auto\">Genom att standardisera denna data och dela den öppet så ser vi möjligheten att berika de karttjänster som idag används av besökare och för den delen medborgare som befinner sig i rörelse; Naturkartan, Google Maps, Open Street Map, Vandramedkoll m.fl. Det kommer underlätta för allmänheten att hitta sevärdheter, kunna stärka platser attraktivitet och bidra till en positiv utveckling av den lokala besöksnäringen.</p>\n<h1>Skillnaden mellan sevärdheter och Points of Interest</h1>\n<p dir=\"auto\">Det är två begrepp som är lika varandra vid första åtanke, men det finns en skillnad mellan begreppen vilket gjort att Nationella Dataverkstaden ser behovet av två specifikationer.</p>\n<p dir=\"auto\"><em>En point-of-interest anses vara behövlig till besökare som redan befinner sig på en plats, såsom bankomat, toalett eller apotek.</em></p>\n<p dir=\"auto\"><em>En sevärdhet anses vara en plats som besökare tar sig till av ett intresse för platsen i sig självt.</em></p>\n<h1>Datamodell för Sevärdheter</h1>\n<p dir=\"auto\">Det finns nu ett utkast till dataspecifikationen för sevärdheter och bör vara intressant för alla som vill uttrycka en plats som särskilt intressant. Vi vill väcka tankar, intresse och hitta sätt att förankra detta som en standard för delande kommuner och konsumenter och användare. Vi som jobbar med projektet Nationell Dataverkstad söker nu dig som t.ex. jobbar i kommun och vill publicera data, dig som är konsument t.ex. samverkande myndighet, leverantör eller annan intressegrupp t.ex. inom besöksnäringen som bryr sig om att göra det enklare att hitta till svenska sevärdheter.</p>\n<p dir=\"auto\">Datamodellen är tabulär. Det innebär att varje rad motsvarar exakt en sevärdhet och varje kolumn motsvarar en egenskap för den sevärdheten. 13 attribut är definierade, där de första 6 är obligatoriska. Vi har valt att använda beskrivande men korta kolumnnamn som uttrycks med gemener, utan mellanslag (understreck för att separera ord) och på engelska. Genom engelska attributnamn blir modellen enklare att hantera i programvaror och tjänster utvecklade utanför Sverige. Modellen bygger på <a href=\"http://schema.org\" rel=\"nofollow ugc\">schema.org</a></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Namn</th>\n<th style=\"text-align:center\">Kardinalitet</th>\n<th style=\"text-align:center\">Datatyp</th>\n<th>Beskrivning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"#name\"><strong>name</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">text</td>\n<td><strong>Obligatoriskt</strong> - Anger sevärdhetens namn.</td>\n</tr>\n<tr>\n<td><a href=\"#description\"><strong>description</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">text</td>\n<td><strong>Obligatoriskt</strong> - Anger en kortare beskrivning av sevärdheten.</td>\n</tr>\n<tr>\n<td><a href=\"#id\"><strong>id</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">heltal</td>\n<td><strong>Obligatoriskt</strong> - Anger en identifierare för sevärdheten.</td>\n</tr>\n<tr>\n<td><a href=\"#type\"><strong>type</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\"><a href=\"#type\">begrepp</a></td>\n<td><strong>Obligatoriskt</strong> - Anger typen av sevärdhet.</td>\n</tr>\n<tr>\n<td><a href=\"#latitude\"><strong>latitude</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\"><a href=\"#decimal\">decimal</a></td>\n<td><strong>Obligatoriskt</strong> - Latitude anges per format enligt WGS84.</td>\n</tr>\n<tr>\n<td><a href=\"#longitude\"><strong>longitude</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\"><a href=\"#decimal\">decimal</a></td>\n<td><strong>Obligatoriskt</strong> - Longitude anges per format enligt WGS84.</td>\n</tr>\n<tr>\n<td><a href=\"#street\">street</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange gatuadress.</td>\n</tr>\n<tr>\n<td><a href=\"#postalcode\">postalcode</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#heltal\">heltal</a></td>\n<td>Ange postnummer.</td>\n</tr>\n<tr>\n<td><a href=\"#city\">city</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange postort.</td>\n</tr>\n<tr>\n<td><a href=\"#phone\">phone</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange telefonnumret med inledande landskod, exempelvis +46</td>\n</tr>\n<tr>\n<td><a href=\"#email\">email</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>E-postadress för vidare kontakt, anges med gemener och med @ som avdelare.</td>\n</tr>\n<tr>\n<td><a href=\"#image\">image</a></td>\n<td style=\"text-align:center\">0..*</td>\n<td style=\"text-align:center\"><a href=\"#url\">URL</a></td>\n<td>Ange en länk eller flera länkar till bilder på sevärdheten.</td>\n</tr>\n<tr>\n<td><a href=\"#url\">URL</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#url\">URL</a></td>\n<td>Ingångssida för mer information om sevärdheten.</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\">Vi arbetar öppet med datamodellen på Gitlab - anslut gärna där! Vill du inte skapa ett konto går det också bra att mejla in förslag.</p>\n<p dir=\"auto\"><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/27a1.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--arrow_right\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":arrow_right:\" alt=\"➡\" /> <a href=\"mailto:contact-project+sarskilt-viktiga-datamangder-sevaerdheter-40754028-issue-@incoming.gitlab.com\" rel=\"nofollow ugc\">contact-project+sarskilt-viktiga-datamangder-sevaerdheter-40754028-issue-@incoming.gitlab.com</a></p>\n<p dir=\"auto\">Välkommen att vara med att medskapa detta i tr och hjälp gärna till att sprida ordet! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f4e3.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--mega\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":mega:\" alt=\"📣\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f917.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--hugging_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":hugging_face:\" alt=\"🤗\" /></p>\n",
+      "pid": 4203,
+      "tid": 799,
+      "timestamp": 1684227041818,
+      "uid": 1441,
+      "edited": 1684229720698,
+      "editor": {
+        "uid": 1441,
+        "username": "FilipDijak",
+        "userslug": "filipdijak",
+        "displayname": "FilipDijak"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-05-16T08:50:41.818Z",
+      "editedISO": "2023-05-16T09:35:20.698Z",
+      "index": 0,
+      "user": {
+        "uid": 1441,
+        "username": "FilipDijak",
+        "userslug": "filipdijak",
+        "reputation": 15,
+        "postcount": 15,
+        "topiccount": 4,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699012741170,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "FilipDijak",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "F",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2023-11-03T11:59:01.170Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "799",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/799.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/799",
+  "bodyClass": "page-topic page-topic-799 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Sevärdheter - bidra till specifikation"
+        },
+        {
+          "name": "description",
+          "content": "Bakgrund och syfte      Inom projektet Nationell Dataverkstad har det tagits fram en topplista över datamängder att standardisera för publicering och datadelning. En sådan datamängd är Sevärdheter. Datamängden kategoriseras inom området Besöksnäring &amp; Rek..."
+        },
+        {
+          "property": "og:title",
+          "content": "Sevärdheter - bidra till specifikation"
+        },
+        {
+          "property": "og:description",
+          "content": "Bakgrund och syfte      Inom projektet Nationell Dataverkstad har det tagits fram en topplista över datamängder att standardisera för publicering och datadelning. En sådan datamängd är Sevärdheter. Datamängden kategoriseras inom området Besöksnäring &amp; Rek..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-05-16T08:50:41.818Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-05-16T09:35:20.698Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/799",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/799/sevärdheter-bidra-till-specifikation",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/799.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/filipdijak"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

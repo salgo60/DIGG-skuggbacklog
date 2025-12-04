@@ -1,0 +1,1074 @@
+{
+  "cid": 23,
+  "lastposttime": 1736367088320,
+  "mainPid": 4894,
+  "postcount": 8,
+  "slug": "984/analys-datakvalitet",
+  "tid": 984,
+  "timestamp": 1731314153635,
+  "title": "Analys Datakvalitet",
+  "uid": 1716,
+  "viewcount": 665,
+  "postercount": 5,
+  "downvotes": 0,
+  "upvotes": 3,
+  "teaserPid": 4915,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Analys Datakvalitet",
+  "timestampISO": "2024-11-11T08:35:53.635Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-01-08T20:11:28.320Z",
+  "pinExpiryISO": "",
+  "votes": 3,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!</p>\n<p dir=\"auto\">På senare tid har det uppkommit bättre förutsättningar för att nyttja Öppna Data:</p>\n<ul>\n<li>Dataportal - för att hitta data</li>\n<li>Specifikationer - för att ensa datamodellerna som beskriver samma sak</li>\n<li>APIer - för maskininläsning av data</li>\n</ul>\n<p dir=\"auto\">Av den anledningen var jag intresserad av att titta på hur upplevelsen för en datakonsument ser ut idag. Det vill säga, hur enkelt är det för en part att integrera och konsumera datat; vilka eventuella hinder och svårigheter möter den utvecklare som avser att bygga en samhällsnyttig tjänst baserat på Öppna Data?</p>\n<p dir=\"auto\">Studien är inte akademisk på något sätt utan enbart en enklare analys.</p>\n<p dir=\"auto\">För studien behövdes ett lämpligt användningsfall och valet föll på datamängden Badplatser då:</p>\n<ul>\n<li>Den har en öppen specifikation</li>\n<li>Ett flertal dataproducenter har valt att publicera data enligt specifikationen</li>\n<li>Ett relativt stort antal olika publiceringar finns att finna via <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a></li>\n<li>Många av datakällorna är APIer som publicerar datat enligt JSON</li>\n</ul>\n<p dir=\"auto\">I och med detta finns alltså förutsättningar för att hitta och samla in enhetligt data.</p>\n<p dir=\"auto\">I Dataportalen hittade jag 20 publiceringar av Badplatser som kan hämtas via API på JSON-format och som enligt metadatat uppfyller specifikationen <a href=\"https://www.dataportal.se/specifications/badplatser/1.0\" rel=\"nofollow ugc\">https://www.dataportal.se/specifications/badplatser/1.0</a></p>\n<p dir=\"auto\">Nedan presenteras resultatet av integration mot dessa ovan nämnda resurser.</p>\n<p dir=\"auto\">Den initiala upplevelsen var minst sagt nedslående då ingen av resurserna tillhandahöll data enligt utlovad specifikation.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1731313360315-e928c8f2-dd16-402a-a9b2-a4b455089864-image.png\" alt=\"e928c8f2-dd16-402a-a9b2-a4b455089864-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Majoriteten av API-resurserna är baserade på något som benämns RowStore och verkar vara en del av produkten EntryScape från företaget MetaSolutions AB. All JSON-data från dessa resurser returneras som helt otypat data i konflikt med specifikationen.</p>\n<p dir=\"auto\">Förklaring:<br />\n<em>I specifikationen har varje datafält en typ definierad; t.ex. att ett namn är en sträng, en koordinat är ett decimaltal, ett tillstånd som är sant eller falskt är en boolean (true|false) o.s.v.</em></p>\n<pre><code class=\"language-text\">{\n    \"place_id\":  \"1477-Hattarevik\", //sträng\n    \"latitude\":  58.787, //decimaltal\n    \"toilet\":  true //boolean\n}\n</code></pre>\n<p dir=\"auto\"><em>Med otypat data så returneras samtliga datafält som godtyckliga strängar, ex:</em></p>\n<pre><code class=\"language-text\">{\n    \"place_id\":  \"1477-Hattarevik\", //sträng  \n    \"latitude\":  \"58.787\", //sträng  \n    \"toilet\":  \"true\", //sträng  \n}\n</code></pre>\n<p dir=\"auto\"><em>Det är fortfarande läsbart för en människa men JSON-formaterat data är avsett för maskin och nu är datat fullkomligt oanvändbart eftersom samtliga datafält bara innehåller fritexter.</em></p>\n<p dir=\"auto\">Det vore ju dock tråkigt att avbryta denna analys så här tidigt på grund av APIernas begränsningar. Därför bearbetade jag allt data och konverterade typerna för alla datafält enligt definitionerna i specifikationen för att komma vidare. Härmed kan vi nu titta på datakvaliteten för varje enskild datapost.</p>\n<p dir=\"auto\">Av 156 insamlade och typkonverterade dataposter (badplatser) så visade det sig nu att endast 31 stycken av dessa innehöll korrekt data.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1731313889483-fd0aa63d-3858-49d9-8d0e-396eaf4fd2fd-image.png\" alt=\"fd0aa63d-3858-49d9-8d0e-396eaf4fd2fd-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Med andra ord så är det 125 av 156 dataposter vars data inte kan tolkas, det kan t.ex. vara:</p>\n<ul>\n<li>Icke kompletta dataposter som förmodligen inte ens avser att beskriva en faktisk badplats, det är bara skräp.</li>\n<li>Datafält innehåller text-värden som inte går att typkonvertera till aktuell typ.</li>\n<li>Dataposter innehåller datafält med felaktiga namn, d.v.s. som inte matchar specifikationens obligatoriska datafält.</li>\n<li>O.s.v.</li>\n</ul>\n<p dir=\"auto\">Även detta resultat är nedslående, att merparten av allt data har så dålig kvalitet att det inte alls är användbart.</p>\n<p dir=\"auto\">För att sammanfatta denna analys och svara på dess frågeställning:</p>\n<ul>\n<li>Att hitta alla datakällor var relativt enkelt tack vare <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a>. Det hade dock varit önskvärt om det gick att filtrera dataset på metadatafältet “Uppfyller” (ConformsTo) (om det redan går så hittade jag i alla fall inget stöd för det i sökfunktionen och inte heller någon dokumentation om hur det eventuellt kan göras).</li>\n<li>Att integrera mot ett stort antal olika datakällor är förstås något krångligt och tidsödande, men görbart.</li>\n<li>Att datakällorna inte returnerar korrekt formaterat data är katastrofalt ur ett integrationsperspektiv och förtar hela syftet med ett API.</li>\n<li>Att dataposterna har så extremt dålig datakvalitet gör att användningen av detta Öppna Data är omöjlig.</li>\n</ul>\n<p dir=\"auto\">Upplevelsen för mig som integratör mot dessa resurser var onekligen mycket dålig. Hindren var många och ofta oöverstigliga. Möjligheterna att samla in enhetligt data för vidare förädling och eventuell utveckling av nya tjänster är dessvärre obefintliga.</p>\n<p dir=\"auto\">Metadatakatalog och specifikationer i alla ära, men med undermåliga gränssnitt och ingen kontroll på datakvalitet så innebär dessa publiceringar av Öppna Data tyvärr enbart kostnader och tillför inget som helst, eller högst begränsat, faktiskt värde.</p>\n<p dir=\"auto\">Med vänlig hälsning, Magnus</p>\n",
+      "pid": 4894,
+      "tid": 984,
+      "timestamp": 1731314153635,
+      "uid": 1716,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-11-26T12:29:32.317Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2024-11-11T08:35:53.635Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1716,
+        "username": "Magnus",
+        "userslug": "magnus",
+        "reputation": 6,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1758305938249,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-09-19T18:18:58.249Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1716\">@Magnus</a> tack för din analys. 🤩</p>\n<p dir=\"auto\">Jag har under flera år försökt konsumera diverse datamängder från ett antal myndigheter.<br />\nTyvärr är min bild samstämmande med din på tvären av all öppen data från offentliga organisationer med få undantag.<br />\nTex SCB där det av någon anledning är mycket bra ordning på allt.</p>\n<p dir=\"auto\">Jag har funderat nyligen på att göra en egen portal och låta en AI och individer recensera öppna datamängder för att få ett bättre överblick. Det skulle då också gå att söka utifrån utgivare och teman så man enkelt hittar det man söker.</p>\n<p dir=\"auto\">Dataportalen som digg driver har många brister och är nästintill värdelös eftersom den likt bolagsverkets årsrapporter inte har någon som helst granskning av kvalitet, möjlighet att flagga värdelösa poster för granskning/borttagning eller möjlighet för konsumenten att recensera en post.</p>\n<p dir=\"auto\">Resultatet är en massa brus.</p>\n<p dir=\"auto\">Den undermåliga sökfunktionen gör portalen nästintill värdelös när det gäller findability så det samlede resultatet är att datakonsumenter nog ger upp och söker sin data på annat håll tex genom att kontakta berörd myndighet direkt istället.</p>\n<p dir=\"auto\">Om du vill bygga en app med badplatser så är mitt förslag att titta på Wikidata och Openstreetmap och kombinera det med Lantmäteriet topo50.<br />\nDå får du täckning på gissningsvis 80-90% av landets badplatser.<br />\nSen kan du konsumera datan om badvatten kvalitet från HaV också.</p>\n<p dir=\"auto\">Utmaningen är att matcha ihop alla dessa och presentera det hela på ett vettigt sätt för användaren så de enkelt hittar och får en bra badupplevelse.</p>\n<p dir=\"auto\">Integration med Google maps är kanske också möjligt men om deras recensioner går att läsa från en api vet jag ej.</p>\n<p dir=\"auto\">Lycka till!</p>\n",
+      "pid": 4902,
+      "tid": 984,
+      "timestamp": 1732624172317,
+      "toPid": "4894",
+      "uid": 25,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-12-05T07:36:39.557Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-11-26T12:29:32.317Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Magnus",
+        "displayname": "Magnus"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Nizo_Priskorn <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1716\">@Magnus</a></p>\n<p dir=\"auto\">Intressant och beklagligt. Jag hoppas att de som ansvarar för dataspecifikationen för badplatser och för dataportalens funktioner för att hitta data, kontaktar er för att höra mer om problemen och behoven i syfte att hitta lösningar för dessa.</p>\n",
+      "pid": 4906,
+      "tid": 984,
+      "timestamp": 1733384199557,
+      "toPid": "4902",
+      "uid": 28,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1716,
+            "username": "Magnus",
+            "userslug": "magnus",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Magnus",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-01-08T19:59:18.451Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-12-05T07:36:39.557Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1716\">@Magnus</a> sa i <a href=\"/post/4894\">Analys Datakvalitet</a>:</p>\n<blockquote>\n<p dir=\"auto\">merparten av allt data har så dålig kvalitet att det inte alls är användbart</p>\n</blockquote>\n<p dir=\"auto\">Mycket bra analys, den sätter fingret på en problematik i hur digitaliseringen drivs tycker jag.</p>\n<p dir=\"auto\">Problemen med datakvaliteten har också påtalats här på forumet tidigare av andra användare, tyvärr vad jag har erfarit utan respons eller åtgärder från DIGG eller styrande myndigheter/regeringskansli.</p>\n<p dir=\"auto\">Det stora problemet i dagsläget är att det saknas ansvarstagande för datakvalitet och struktur för vidarenyttjande, och vad det verkar också insikt eller engagemang i hur väsentligt detta är.</p>\n<p dir=\"auto\">Fokus verkar nästan uteslutande ligga på att uppfylla EU-direktiv på en administrativ och juridisk nivå, samtidigt som det saknas en praktisk erfarenhet av och förståelse för vad som behövs för att uppnå den faktiska nyttan och effektiviteten när man delar, konsumerar och integrerar data.</p>\n<p dir=\"auto\">Följden är ett enormt slöseri med tid och energi både för den konsument som vill nyttja datan, och vad gäller insamlande och publicering av data som visar sig ha föga användbarhet i praktiken.</p>\n<p dir=\"auto\">Jag hoppas att någon på en nivå där man har möjlighet att påverka myndigheternas styrning och organisation kan ta tag i detta inom en snar framtid.</p>\n",
+      "pid": 4908,
+      "tid": 984,
+      "timestamp": 1733446015869,
+      "toPid": "4894",
+      "uid": 125,
+      "edited": 1733446174770,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1716,
+            "username": "Magnus",
+            "userslug": "magnus",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Magnus",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-01-08T20:02:02.987Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-12-06T00:46:55.869Z",
+      "editedISO": "2024-12-06T00:49:34.770Z",
+      "index": 3,
+      "parent": {
+        "username": "Magnus",
+        "displayname": "Magnus"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej Magnus! Som du säger så är det stora problem med datakvaliteten och interoperabla data, och att det dessutom finns för lite data såklart. Ett av dom stora utmaningarna är, som du säkert vet, att det är svårt att få nationella aktörer att ta ansvar för en specifikation så att tex alla kommuner vet hur dom ska dela datamängden. Just specifikationen för badplatser är framtagen av projektet Nationell dataverkstad (som drivs av Västra Götalandsregionen), som har prioriterat att ta fram ett antal specifikationer, bara för att få igång arbetet. Men en spec kan ju inte ägas av ett tidsbegränsat projekt i det långa loppet. Anledningarna till bristen på specifikationer med ett hållbart \"ägande\" är att många myndigheter säger sig inte ha ett uppdrag att ansvara för detta, eller tidsbrist, eller att man inte ser behovet. Det ser lite olika ut. Vi gör vårt bästa för att pusha för frågan, men det är ett stort arbete och lite svårjobbat. Vi har inga mandat på Digg för att kräva att man ska ta ansvar för en spec.</p>\n<p dir=\"auto\">API-frågorna kan jag inte svara på... men däremot på frågorna/feedbacken på dataportalen. Just nu så utvecklar vi sökfunktionen så att man ska kunna söka ut datamängder som följer en specifikation (conforms to). Plus att vi också håller på och utvecklar organisationssidor på Sveriges dataportal (det blir en helt ny sökfunktion) där man kommer att få en översikt över organisationens delade data, t.ex. hur många som har ett API, följer en spec, är värdefulla datamängder, och delar öppna data eller skyddade data med villkor/begränsningar. På organisationssidan kommer vi även att visa upp vilka specifikationer som organisationen delar, samt terminologier med begrepp. Vi kommer att börja rulla ut det här innan jul, och fortsätta arbetet efter årsskiftet. Vi hoppas att det här ska öka medvetenheten om vikten av ordentliga specifikationer som ägs och förvaltas med en långsiktig plan. Förhoppningsvis kommer även den nya interoperabilitetsförordningen och den kommande (nya) digitaliseringsstrategin (som beräknas komma nästa år) göra att det blir mer fokus på dom här frågorna. Då kanske även frågan om fördelen med att publicera nationella datamängder, snarare än att vi ska få 290 datamängder från alla kommuner, kommer upp på bordet.</p>\n<p dir=\"auto\">Det var en väldigt intressant analys som jag tror många skulle behöva läsa.</p>\n",
+      "pid": 4909,
+      "tid": 984,
+      "timestamp": 1733489744006,
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1716,
+            "username": "Magnus",
+            "userslug": "magnus",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Magnus",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-01-08T20:11:28.320Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-12-06T12:55:44.006Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a><br />\nDet är inget fel på dataspecifikationen för badplatser, problemet är den usla datakvalitén. Därför ligger det nära till hands att lägga skulden på den tekniska plattformen RowStore, som trots en tydlig teknisk specifikation, ändå tillåter både inmatning och publicering av vilket skräpdata som helst. Eller kanske snarare på de som valt, eller rekommenderat, att publicera datat i den kanalen.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> har kommenterat portalens funktionalitet i denna tråd och bättre sökfunktionalitet verkar vara på gång, toppen!</p>\n",
+      "pid": 4913,
+      "tid": 984,
+      "timestamp": 1736366358451,
+      "toPid": "4906",
+      "uid": 1716,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-01-08T19:59:18.451Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 1716,
+        "username": "Magnus",
+        "userslug": "magnus",
+        "reputation": 6,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1758305938249,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-09-19T18:18:58.249Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Jag instämmer, tyvärr.</p>\n",
+      "pid": 4914,
+      "tid": 984,
+      "timestamp": 1736366522987,
+      "toPid": "4908",
+      "uid": 1716,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-01-08T20:02:02.987Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 1716,
+        "username": "Magnus",
+        "userslug": "magnus",
+        "reputation": 6,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1758305938249,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-09-19T18:18:58.249Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> !</p>\n<p dir=\"auto\"><em>Ett av dom stora utmaningarna är att det är svårt att få nationella aktörer att ta ansvar för en specifikation. Anledningarna till bristen på specifikationer med ett hållbart \"ägande\" är att många myndigheter säger sig inte ha ett uppdrag att ansvara för detta, eller tidsbrist, eller att man inte ser behovet.</em></p>\n<p dir=\"auto\">Här vore det ju passande om det är myndigheten Digg som är den nationella aktören som tar uppdraget att ansvara för specifikationerna.</p>\n<p dir=\"auto\"><em>API-frågorna kan jag inte svara på...</em></p>\n<p dir=\"auto\">Nej det ligger ju inte på Digg i detta fall, problemet vid denna analys var den usla datakvalitén som publicerades av det API som typ samtliga publikationer använde sig av.</p>\n<p dir=\"auto\"><em>Just nu så utvecklar vi sökfunktionen ...</em></p>\n<p dir=\"auto\">Det låter toppen!</p>\n",
+      "pid": 4915,
+      "tid": 984,
+      "timestamp": 1736367088320,
+      "toPid": "4909",
+      "uid": 1716,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-01-08T20:11:28.320Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 1716,
+        "username": "Magnus",
+        "userslug": "magnus",
+        "reputation": 6,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1758305938249,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-09-19T18:18:58.249Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "984",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/984.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/984",
+  "bodyClass": "page-topic page-topic-984 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Analys Datakvalitet"
+        },
+        {
+          "name": "description",
+          "content": "Hej! På senare tid har det uppkommit bättre förutsättningar för att nyttja Öppna Data:  Dataportal - för att hitta data Specifikationer - för att ensa datamodellerna som beskriver samma sak APIer - för maskininläsning av data  Av den anledningen var jag i..."
+        },
+        {
+          "property": "og:title",
+          "content": "Analys Datakvalitet"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! På senare tid har det uppkommit bättre förutsättningar för att nyttja Öppna Data:  Dataportal - för att hitta data Specifikationer - för att ensa datamodellerna som beskriver samma sak APIer - för maskininläsning av data  Av den anledningen var jag i..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-11-11T08:35:53.635Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-01-08T20:11:28.320Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1731313889483-fd0aa63d-3858-49d9-8d0e-396eaf4fd2fd-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1731313889483-fd0aa63d-3858-49d9-8d0e-396eaf4fd2fd-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "770"
+        },
+        {
+          "property": "og:image:height",
+          "content": "354"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1731313360315-e928c8f2-dd16-402a-a9b2-a4b455089864-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1731313360315-e928c8f2-dd16-402a-a9b2-a4b455089864-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "426"
+        },
+        {
+          "property": "og:image:height",
+          "content": "300"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/984",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/984/analys-datakvalitet",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/984.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/magnus"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

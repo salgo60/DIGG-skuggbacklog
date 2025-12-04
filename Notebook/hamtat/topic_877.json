@@ -1,0 +1,1135 @@
+{
+  "cid": 4,
+  "lastposttime": 1725325735949,
+  "mainPid": 4525,
+  "postcount": 8,
+  "slug": "877/sparql-frågor-på-dataportal-se",
+  "tags": [
+    {
+      "value": "sökning",
+      "valueEscaped": "sökning",
+      "valueEncoded": "s%C3%B6kning",
+      "class": "sökning"
+    },
+    {
+      "value": "metadata",
+      "valueEscaped": "metadata",
+      "valueEncoded": "metadata",
+      "class": "metadata"
+    },
+    {
+      "value": "sparql",
+      "valueEscaped": "sparql",
+      "valueEncoded": "sparql",
+      "class": "sparql"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "dataportal.se",
+      "valueEscaped": "dataportal.se",
+      "valueEncoded": "dataportal.se",
+      "class": "dataportal.se"
+    }
+  ],
+  "tid": 877,
+  "timestamp": 1700924383768,
+  "title": "SPARQL-frågor på dataportal.se",
+  "uid": 125,
+  "viewcount": 832,
+  "postercount": 4,
+  "teaserPid": 4838,
+  "downvotes": 0,
+  "upvotes": 0,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "SPARQL-frågor på dataportal.se",
+  "timestampISO": "2023-11-25T14:59:43.768Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-09-03T01:08:55.949Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Varför stöds inte SPARQL-frågor på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a>?</p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/sparql\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/sparql</a></p>\n<blockquote>\n<p dir=\"auto\">501 Not Implemented</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/531\">@DIGG_admin</a></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/4515\">API-användning: Hämta alla dataset kopplade till en specifik organisation</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1698\">@august</a> Finns exempel för SPARQL-frågor mot dataportal?</p>\n<p dir=\"auto\"><a href=\"https://entrystore.org/kb/sparql/\" rel=\"nofollow ugc\">https://entrystore.org/kb/sparql/</a></p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">SPARQL support is activated and configured through the public repository which is maintained in parallel to the main repository. SPARQL queries can be made either against the whole repository or a single context.</p>\n<p dir=\"auto\">entrystore.repository.public=on|off (default: off)<br />\nentrystore.repository.public.type=memory|native<br />\nentrystore.repository.public.path=file:///srv/../../public<br />\nentrystore.repository.public.indexes=cspo,spoc,posc<br />\nentrystore.repository.public.rebuild-on-startup=on|off (default: off)</p>\n</blockquote>\n",
+      "pid": 4525,
+      "tid": 877,
+      "timestamp": 1700924383768,
+      "uid": 125,
+      "bookmarks": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-08-24T21:34:14.975Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-25T14:59:43.768Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Apropå att <a href=\"http://data.europa.eu\" rel=\"nofollow ugc\">data.europa.eu</a> refereras när det gäller metoder för uppföljning av metadatakvalitet i den nya dataportalwebben.<br />\nHur ser man på stöd för SPARQL gällande den svenska dataportalen?</p>\n<p dir=\"auto\"><a href=\"https://data.europa.eu/data/sparql?locale=en\" rel=\"nofollow ugc\">https://data.europa.eu/data/sparql?locale=en</a></p>\n<blockquote>\n<p dir=\"auto\">All metadata of <a href=\"http://data.europa.eu\" rel=\"nofollow ugc\">data.europa.eu</a> is stored as RDF triples (RDF) and can be queried using SPARQL query language at this endpoint. Queries can be executed via the query editor (below) or via the machine-readable endpoint (<a href=\"https://data.europa.eu/sparql\" rel=\"nofollow ugc\">https://data.europa.eu/sparql</a>).</p>\n</blockquote>\n<p dir=\"auto\"><a href=\"https://www.dataportal.se/metadatakvalitet\" rel=\"nofollow ugc\">https://www.dataportal.se/metadatakvalitet</a></p>\n<blockquote>\n<p dir=\"auto\">Metadatakvaliteten bedöms enligt den metod som den europeiska data portalen, <a href=\"http://data.europa.eu\" rel=\"nofollow ugc\">data.europa.eu</a>, har tagit fram.</p>\n</blockquote>\n",
+      "pid": 4795,
+      "tid": 877,
+      "timestamp": 1724535254975,
+      "toPid": "4525",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-08-24T21:34:14.975Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Europeiska dataportalen som innehåller data från Sveriges dataportal har en SPARQL-endpoint. <a href=\"https://data.europa.eu/sv/about/sparql\" rel=\"nofollow ugc\">https://data.europa.eu/sv/about/sparql</a><br />\nDigg har inte satt upp någon SPARQL-endpoint för Sveriges dataportal men vet att det efterfrågas och ser över om det kan finansieras och realiseras i något sammanhang.</p>\n",
+      "pid": 4829,
+      "tid": 877,
+      "timestamp": 1725268850202,
+      "uid": 349,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 1763,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-09-02T09:48:45.040Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-09-02T09:20:50.202Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 349,
+        "username": "UlrikaDM",
+        "userslug": "ulrikadm",
+        "reputation": 3,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/349-profileavatar-1638973787761.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1725268850557,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "UlrikaDM",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "U",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2024-09-02T09:20:50.557Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/349\">@UlrikaDM</a> bra kan vi få ett issue nummer så vi kan följa hur och att ni jobbar med detta....</p>\n<ol>\n<li>vi skulle även vilja se exempel på SPARQL federation så att vi kan koppla ihop flera olika siter i samma sökfråga se exempel hur jag söker i <a href=\"https://tora.entryscape.net/snorql/?query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0D%0APREFIX+wdt%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0D%0ASELECT+DISTINCT+%3Finstance+%3FTORA_label+%3FTORA_province_name+%3FwdLabel+%3FwdAdminLabel++%3FTORA_parishcode+%3FTORA_wd+%3FTORA_wd+%3FWD+%3FWDsame+%3Fitem+%3FWiki%0D%0AWHERE+%7B+%3Finstance+a+%3Chttps%3A%2F%2Fdata.riksarkivet.se%2Ftora%2Fschema%2FModernParish%3E.%0D%0A%3Finstance+skos%3AaltLabel+%3FTORA_label+.%0D%0AOPTIONAL+%7B%3Finstance+tora%3Aprovince_name+%3FTORA_province_name%7D%0D%0A%3Finstance+tora%3Aparishcode+%3FTORA_parishcode+.%0D%0A%3Finstance++rdfs%3AseeAlso+%3FTORA_wduri+.%0D%0ABIND+%28REPLACE%28str%28%3FTORA_wduri%29%2C%22https%3A%2F%2Fwww.wikidata.org%2Fwiki%2F%22%2C%22%22%29+AS+%3FTORA_wd%29.%0D%0ABIND+%28REPLACE%28str%28%3Fitem%29%2C%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%2C%22%22%29+AS+%3FWD%29.%0D%0A++BIND%28%0D%0A+++IF%28%3FWD+%3D+%3FTORA_wd%2C+%22Y%22%2C++%22N%22%29%0D%0A++++AS+%3FWDsame%29.%0D%0ASERVICE+%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E+%7B+%0D%0A++++%3Fitem+wdt%3AP31+wd%3AQ1523821%3B+wdt%3AP777+%3FTORA_parishcode+.+%0D%0A%09OPTIONAL+%7B%0D%0A%09%09%3Fitem+rdfs%3Alabel+%3FwdLabel.%0D%0A%09%09FILTER%28LANG%28%3FwdLabel%29+%3D+%22sv%22%29.%0D%0A%09%7D%0D%0A+++++++OPTIONAL+%7B+%0D%0A+++++++++++++++%3Fitem+wdt%3AP131+%3FWDAdmin.%0D%0A+++++++++++++++%3FWDAdmin+wdt%3AP31+wd%3AQ193556.%0D%0A%09%09%3FWDAdmin+rdfs%3Alabel+%3FwdAdminLabel.%0D%0A%09%09FILTER%28LANG%28%3FwdAdminLabel%29+%3D+%22sv%22%29.%0D%0A%09%7D%0D%0A%7D%0D%0AFILTER+%28%28+STRSTARTS%28str%28%3FTORA_wduri%29%2C+%22https%3A%2F%2Fwww.wikidata.org%2Fwiki%2F%22%29%29+%26%26+%3FWDsame+%3D+%22N%22+%29%0D%0A%7D+order+by++%3FTORA_label\" rel=\"nofollow ugc\">Riksarkivet och Wikidata</a> -  <a href=\"https://phabricator.wikimedia.org/T233275\" rel=\"nofollow ugc\">T233275</a> - tveksam om den fungerar idag 2024 Riksarkivets <a href=\"https://riksarkivet.se/tora\" rel=\"nofollow ugc\">projekt Tora verkar väldigt trött</a></li>\n</ol>\n<h3>EDP SPARQL</h3>\n<p dir=\"auto\">Exempel på hur SPARQL fungerar mot EDP kan ni se på <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/864#issuecomment-2244658105\" rel=\"nofollow ugc\">Issue #864</a> det är idag enormt geggigt med massa textsträngar bara på lokala språk för dcat:key</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1725270118067-eb119eb3-ddf8-492c-9fa6-c4601fd5a37a-image.png\" alt=\"eb119eb3-ddf8-492c-9fa6-c4601fd5a37a-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Exempel så finns \"císařské povinné otisky\" som ämnes ord 56833 i EDPs öppna data då jag kollade senast</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1725270208538-17716829-4739-4c00-901f-6427caf4bef0-image-resized.png\" alt=\"17716829-4739-4c00-901f-6427caf4bef0-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1725270162877-5f9334f2-57c8-4f82-80c6-fc121d3d009c-image-resized.png\" alt=\"5f9334f2-57c8-4f82-80c6-fc121d3d009c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<h3>Relaterade issues</h3>\n<ul>\n<li><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/86\" rel=\"nofollow ugc\">#86 En strategi för hur Öppna data kan knytas ihop med ex. SPARQL skall tas fram</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1725270577666-8e782902-b162-445a-84f6-b70fb04dd977-image-resized.png\" alt=\"8e782902-b162-445a-84f6-b70fb04dd977-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 4830,
+      "tid": 877,
+      "timestamp": 1725270525040,
+      "toPid": "4829",
+      "uid": 1763,
+      "edited": 1725270580023,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 1763,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-09-02T13:47:01.877Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-09-02T09:48:45.040Z",
+      "editedISO": "2024-09-02T09:49:40.023Z",
+      "index": 3,
+      "parent": {
+        "username": "UlrikaDM",
+        "displayname": "UlrikaDM"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 1763,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@VarförFungerarInteDetta Eftersom vi inte har någon finansiering till detta än, eller något beslut på att det ska genomföras så har vi inte heller någon issue ni kan följa. Och vi kan inte ha öppna Jiratavlor som du redan vet.</p>\n",
+      "pid": 4832,
+      "tid": 877,
+      "timestamp": 1725284821877,
+      "toPid": "4830",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 1763,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-09-02T14:24:50.619Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-09-02T13:47:01.877Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 4833,
+      "tid": 877,
+      "timestamp": 1725287090619,
+      "toPid": "4832",
+      "uid": 1763,
+      "flagId": 535,
+      "deleted": 1,
+      "deleterUid": 531,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-09-02T14:24:50.619Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 1763,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/349\">@UlrikaDM</a> Hej, är det finansiering som är den primära frågan i sammanhanget, eller finns det även andra frågor som utgör hinder?</p>\n<p dir=\"auto\">Vilka kostnader och åtgärder är förknippade med att aktivera SPARQL-sökningar i Dataportalen?</p>\n<p dir=\"auto\">Som jag skrev i början på tråden så finns funktionaliteten i programvaran och kan aktiveras med några inställningar. Såvitt jag förstår ska programvaran vara öppen källkod. Dataportalen ligger redan i drift, så tillkommer det då någon form av kostnad för drift eller annat underhåll?</p>\n<blockquote>\n<p dir=\"auto\">ser över om det kan finansieras och realiseras i något sammanhang</p>\n</blockquote>\n<p dir=\"auto\">Vad har ni för beslutsprocess kring detta?</p>\n",
+      "pid": 4835,
+      "tid": 877,
+      "timestamp": 1725298943009,
+      "toPid": "4829",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 1763,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-09-03T01:08:55.949Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-09-02T17:42:23.009Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "UlrikaDM",
+        "displayname": "UlrikaDM"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> jag tror Riksarkivets Tora projekt här samma motor och där var SPARQL stödet dåligt och när jag kollade igår så funkade det inte alls…. men som jag skrev på annat ställe <a href=\"https://riksarkivet.se/tora\" rel=\"nofollow ugc\">är det inte mycket fart på det projektet</a></p>\n<p dir=\"auto\">Jag gjorde där <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/864#issuecomment-2324665360\" rel=\"nofollow ugc\">SPARQL federation med Wikidata</a> för att kolla att all deras data om församlingar som också pekade på Wikidata var riktiga</p>\n<p dir=\"auto\"><img src=\"https://user-images.githubusercontent.com/14206509/202203750-217a76bf-65e3-4fcb-884d-97003ab9b83c.png\" alt=\"alt text\" class=\" img-fluid img-markdown\" /></p>\n<pre><code>\nPREFIX wd: &lt;http://www.wikidata.org/entity/&gt;\nPREFIX wdt: &lt;http://www.wikidata.org/prop/direct/&gt;\nSELECT DISTINCT ?instance ?TORA_label ?TORA_province_name ?wdLabel ?wdAdminLabel  ?WDAdmin ?TORA_parishcode ?TORA_wd ?TORA_wd ?WD ?WDsame ?item ?Wiki\nWHERE { ?instance a &lt;https://data.riksarkivet.se/tora/schema/ModernParish&gt;.\n?instance skos:prefLabel ?TORA_label .\nOPTIONAL {?instance tora:province_name ?TORA_province_name}\n?instance tora:parishcode ?TORA_parishcode .\n?instance  rdfs:seeAlso ?TORA_wduri .\nBIND (REPLACE(str(?TORA_wduri),\"https://www.wikidata.org/wiki/\",\"\") AS ?TORA_wd).\nBIND (REPLACE(str(?item),\"http://www.wikidata.org/entity/\",\"\") AS ?WD).\n  BIND(\n   IF(?WD = ?TORA_wd, \"Y\",  \"N\")\n    AS ?WDsame).\nSERVICE &lt;https://query.wikidata.org/sparql&gt; { \n    ?item wdt:P31 wd:Q1523821; wdt:P777 ?TORA_parishcode . \n\tOPTIONAL {\n\t\t?item rdfs:label ?wdLabel.\n\t\tFILTER(LANG(?wdLabel) = \"sv\").\n\t}\n       OPTIONAL { \n               ?item wdt:P131 ?WDAdmin.\n               ?WDAdmin wdt:P31 wd:Q193556.\n\t\t?WDAdmin rdfs:label ?wdAdminLabel.\n\t\tFILTER(LANG(?wdAdminLabel) = \"sv\").\n\t}\n}\nFILTER (( STRSTARTS(str(?TORA_wduri), \"https://www.wikidata.org/wiki/\")) )\n} order by  ?TORA_label \n\n</code></pre>\n",
+      "pid": 4838,
+      "tid": 877,
+      "timestamp": 1725325735949,
+      "toPid": "4835",
+      "uid": 1763,
+      "edited": 1725325861303,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 1763,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-09-03T01:08:55.949Z",
+      "editedISO": "2024-09-03T01:11:01.303Z",
+      "index": 7,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 1763,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/4844",
+          "type": "backlink",
+          "uid": 1763,
+          "id": 665,
+          "timestamp": 1725551048584,
+          "timestampISO": "2024-09-05T15:44:08.584Z",
+          "icon": "fa-link",
+          "text": "System <a href=\"/post/4844\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2024-09-05T15:44:08.584Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/4844",
+      "type": "backlink",
+      "uid": 1763,
+      "id": 665,
+      "timestamp": 1725551048584,
+      "timestampISO": "2024-09-05T15:44:08.584Z",
+      "icon": "fa-link",
+      "text": "System <a href=\"/post/4844\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2024-09-05T15:44:08.584Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "877",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/877.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/877",
+  "bodyClass": "page-topic page-topic-877 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "SPARQL-frågor på dataportal.se"
+        },
+        {
+          "name": "description",
+          "content": "Varför stöds inte SPARQL-frågor på dataportal.se? https://admin.dataportal.se/store/sparql  501 Not Implemented  @DIGG_admin @jonor sa i API-användning: Hämta alla dataset kopplade till en specifik organisation:  @august Finns exempel för SPARQL-frågor mo..."
+        },
+        {
+          "property": "og:title",
+          "content": "SPARQL-frågor på dataportal.se"
+        },
+        {
+          "property": "og:description",
+          "content": "Varför stöds inte SPARQL-frågor på dataportal.se? https://admin.dataportal.se/store/sparql  501 Not Implemented  @DIGG_admin @jonor sa i API-användning: Hämta alla dataset kopplade till en specifik organisation:  @august Finns exempel för SPARQL-frågor mo..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-11-25T14:59:43.768Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-09-03T01:08:55.949Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/877",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/877/sparql-frågor-på-dataportal-se",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/877.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonor"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

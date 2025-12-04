@@ -1,0 +1,1109 @@
+{
+  "cid": 4,
+  "lastposttime": 1669707222373,
+  "mainPid": 3571,
+  "postcount": 8,
+  "slug": "622/har-olika-grupper-av-moderator-för-olika-kategorier-övervägts",
+  "tags": [
+    {
+      "value": "foruminställningar",
+      "valueEscaped": "foruminställningar",
+      "valueEncoded": "foruminst%C3%A4llningar",
+      "class": "foruminställningar"
+    }
+  ],
+  "tid": 622,
+  "timestamp": 1669364490060,
+  "title": "Har olika grupper av moderator för olika kategorier övervägts?",
+  "uid": 744,
+  "viewcount": 568,
+  "postercount": 3,
+  "teaserPid": 3644,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Har olika grupper av moderator för olika kategorier övervägts?",
+  "timestampISO": "2022-11-25T08:21:30.060Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-29T07:33:42.373Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!<br />\nHar ju nu varit i detta forum vill säga lite drygt två veckor (och profilen höll med 17 dagar and counting). Jag ser vilket grymt jobb ni gör och att driva detta utifrån det regelverk en myndighet står på är beundransvärt. Så jag har all förståelse för att detta kanske inte är möjligt, men för att avlasta modereringen.</p>\n<ul>\n<li>Har det övervägts att ha <strong>olika modereringsgrupper för olika kategorier?</strong> (ni kan ge behörighet för moderering enbart till viss grupp för viss kategori (<a href=\"https://answers.nodebb.org/topic/8/category-privileges\" rel=\"nofollow ugc\">länk</a>), så ni kan ha kvar global moderator)\n<ul>\n<li>Så nedan skulle vi kunna ha en grupp \"Moderators, Skatteverkets API:er\" (tar den kategorin som exempel nu bara.) Under \"Detaljer för gruppen\" skrivs <em>vilka kategorier</em> gruppen modererar och det syns ju vilka som ingår.<br />\n<img src=\"/assets/uploads/files/1669363743902-a66aff31-7475-4d38-b6f4-1db012ad9f5b-image.png\" alt=\"a66aff31-7475-4d38-b6f4-1db012ad9f5b-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n</li>\n<li>Förslag på struktur: I kategorin sedan så skriver man i pinnat inlägg (precis som nu) vad syftet med kategorin är men även vilken grupp som modererar (och admin ska även kunna välja att den gruppen får anmälningar från den kategorin).\n<ul>\n<li>Om man vill ha extrem tydlighet och transparens så skulle jag i den pinnade tråden som är låst, låsa upp varje gång en moderator tillkommer till en kategori eller användarvillkoren ändras så den får \"skriver under på\" att de modererar utifrån XX villkor och läst senaste.<br />\n<img src=\"/assets/uploads/files/1669363663089-f21d38a4-7d53-46a9-a306-8eca3e2cb0f3-image.png\" alt=\"f21d38a4-7d53-46a9-a306-8eca3e2cb0f3-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Det blir väl en fråga om vilka individer som ska ha möjlighet att moderera men jag tänker att åtminstone anställda på andra myndigheter. Men även de privata aktörer som är medlemmar i privata sammanslutningar som myndigheter är del av exempelvis NOSAD borde vara okej.</p>\n<p dir=\"auto\">Jag ser att det kanske blir lite rörigt i omställningen men tror det skulle frigöra tid för moderatorer och i längden skapa ett bättre klimat i forumet för att fler kan hjälpas åt.</p>\n<p dir=\"auto\">Någon som vet om det övervägts? Ser några problem jag inte tänkt på?</p>\n",
+      "pid": 3571,
+      "tid": 622,
+      "timestamp": 1669364490060,
+      "uid": 744,
+      "edited": 1669364903997,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-25T10:14:43.946Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T08:21:30.060Z",
+      "editedISO": "2022-11-25T08:28:23.997Z",
+      "index": 0,
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> bra fråga.</p>\n<p dir=\"auto\">Att vara moderator ger möjlighet att plocka bort inlägg och därmed skapa en otrygghet för DIGG kopplat till arkivlagen. DIGG är ytterst skyldiga att säkerställa att forumet uppfyller dessa krav. Därför är det bara DIGG-anställda och då endast ett fåtal som har Modereringsrätt. (Ur det tekniska perspektivet av  begreppet moderering). Åtminstone som steg 1.</p>\n<p dir=\"auto\">När det kommer till Skatteverkets API:er så är Skatteverket tekniskt en <strong>användare</strong> men driver dialogen under sin kategori.</p>\n<p dir=\"auto\">Vi vill se mer av sådana initiativ där olika organisationer väljer att ha sina nätverk representerade här och vi erbjuder dem som har behov av en egen kategori att få detta.</p>\n<p dir=\"auto\">Exempelvis har vi Ena-byggblocken som delkategorier under Digital Infrastruktur, eftersom de kommer att generera sina egna Communities.</p>\n",
+      "pid": 3578,
+      "tid": 622,
+      "timestamp": 1669371283946,
+      "toPid": "3571",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T10:58:58.406Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T10:14:43.946Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> Vi har jobbat en hel del med den här frågan under året. Vi kom fram till att för att få en bättre struktur och tydlighet är det i dagsläget bra med färre moderatorer, precis som Maria skriver.</p>\n<p dir=\"auto\">Två resultat av arbetet är att vi förde in användaren DIGG_Admin och att vi plockade bort min användare från moderatorrollen.<br />\nIdag är jag produktägare men jag är inte moderator, jag har en vanlig användarroll.</p>\n<p dir=\"auto\">Jag är naturligtvis medveten om att det jag säger på forumet ses genom filtret av min produktägarroll. Men jag kan alltså t ex inte se information om andra användare eller plocka bort inlägg.</p>\n",
+      "pid": 3581,
+      "tid": 622,
+      "timestamp": 1669373366002,
+      "toPid": "3571",
+      "uid": 216,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T11:06:49.975Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T10:49:26.002Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> men om moderator plockar bort inlägg/\"raderar\" från tråden för oss som användare pga att det strider mot villkor (antingen enskilt inlägg eller kopplat till att en person blir avstängd). Är det ju <strong>inte</strong> en permanent radering utan <a href=\"https://github.com/NodeBB/NodeBB/issues/7182\" rel=\"nofollow ugc\">kan återskapas</a> av administratör i inläggshistoriken dvs det finns arkiverat, bara inte tillgängligt för användarna.</p>\n<p dir=\"auto\">I länken diskuteras om det delete av avstängda användares posts och tycker den beskriver bra skillnaderna bl.a:</p>\n<ul>\n<li>Permanent radering av inlägg sker enbart om kontot raderas. Eventuellt om användaren eller administratörsinloggade konton raderar inlägg (men jag låter det va osagt).</li>\n</ul>\n<p dir=\"auto\">Så om en moderator utanför DIGG skulle göra något som DIGG anser varit felaktigt kan det återställas och då tänker jag arkivlagen inte borde bli tillämplig?</p>\n<p dir=\"auto\"><em>(har inte läst igenom arkivlagen på typ 5 år så ursäktar om jag baserar det på utdaterade eller felaktiga antaganden)</em></p>\n<p dir=\"auto\">Bild nedan från edit history för moderator taget från NodeBB Github bara för visualisering.<br />\n<img src=\"/assets/uploads/files/1669373495006-0374086b-f121-41f0-86a4-935c6eb5c17b-image.png\" alt=\"0374086b-f121-41f0-86a4-935c6eb5c17b-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 3582,
+      "tid": 622,
+      "timestamp": 1669373938406,
+      "toPid": "3578",
+      "uid": 744,
+      "edited": 1669373959106,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-26T08:27:05.463Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-25T10:58:58.406Z",
+      "editedISO": "2022-11-25T10:59:19.106Z",
+      "index": 3,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> oj, såg inte ditt meddelande innan jag postade ovan och sidan laddade... Jag förstår bakgrunden och tycker det är en bra avvägning från dig som produktägare. Jag brukade själv alltid säga att jag aldrig ville ha edit-rättigheter även om view rights ofta kunde hjälpa mig att förstå behov från utvecklare, administratörer och editors om inte väldigt välfyllda testmiljöer fanns.</p>\n<p dir=\"auto\">Nu tänkte jag mer på arbetsbördan jag förstår det måste lägga på få moderatorer. Att se hur man kan sprida det arbetet på ett säkert sätt såklart.</p>\n<p dir=\"auto\">För det det som skapat bättre struktur och tydlighet med få kanske skapar raka motsatsen när forumet växer. Se gärna kommentaren ovan om radering/arkivering om jag missförstått kraven/behovet.</p>\n",
+      "pid": 3584,
+      "tid": 622,
+      "timestamp": 1669374409975,
+      "toPid": "3581",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T14:36:21.232Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-25T11:06:49.975Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> Vi har jobbat en del med användarvillkoren och handledning för moderatorer, vi har gjort en rättslig utredning på det. Vi har också varit noga med att ta fram en hantering för inlägg vi tar bort, så de blir diarieförda på ett korrekt sätt.</p>\n<p dir=\"auto\">Jag tror vi behöver komma lite längre med det här innan vi är mogna för att släppa på fler moderatorer. Det kommer upp ett nytt case nästan varje vecka som vi behöver reda ut och ta ställning till hur vi kan hantera.</p>\n<p dir=\"auto\">Vi ser själva användarreglerna som en viktig leverans, på samma sätt som policy och riktlinjer för öppen källkod. Om vi ser till att arbeta igenom det här ordentligt vad gäller juridik, säkerhet, registratur, arkiveringsregler, gallring och allt sådant så kanske andra kan återanvända det vi gjort.</p>\n",
+      "pid": 3597,
+      "tid": 622,
+      "timestamp": 1669386981232,
+      "toPid": "3584",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T14:36:21.232Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> ja, och det är precis så vi arbetar. Men den som har denna adminrättighet KAN av misstag radera alla inlägg så att dessa inte finns kvar. Vi vill minimera handhavadefel helt enkelt.</p>\n",
+      "pid": 3607,
+      "tid": 622,
+      "timestamp": 1669451225463,
+      "toPid": "3582",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-29T07:33:42.373Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-26T08:27:05.463Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> okej, jag förstod det som att moderator- och adminrättigheter var två olika. Och att moderator inte kunde permanent radera inlägg. Men då kan jag missförstått.</p>\n",
+      "pid": 3644,
+      "tid": 622,
+      "timestamp": 1669707222373,
+      "toPid": "3607",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-29T07:33:42.373Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "622",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/622.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/622",
+  "bodyClass": "page-topic page-topic-622 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Har olika grupper av moderator för olika kategorier övervägts?"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Har ju nu varit i detta forum vill säga lite drygt två veckor (och profilen höll med 17 dagar and counting). Jag ser vilket grymt jobb ni gör och att driva detta utifrån det regelverk en myndighet står på är beundransvärt. Så jag har all förståelse f..."
+        },
+        {
+          "property": "og:title",
+          "content": "Har olika grupper av moderator för olika kategorier övervägts?"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Har ju nu varit i detta forum vill säga lite drygt två veckor (och profilen höll med 17 dagar and counting). Jag ser vilket grymt jobb ni gör och att driva detta utifrån det regelverk en myndighet står på är beundransvärt. Så jag har all förståelse f..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-25T08:21:30.060Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-29T07:33:42.373Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669363663089-f21d38a4-7d53-46a9-a306-8eca3e2cb0f3-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669363663089-f21d38a4-7d53-46a9-a306-8eca3e2cb0f3-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "498"
+        },
+        {
+          "property": "og:image:height",
+          "content": "73"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669363743902-a66aff31-7475-4d38-b6f4-1db012ad9f5b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1669363743902-a66aff31-7475-4d38-b6f4-1db012ad9f5b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1430"
+        },
+        {
+          "property": "og:image:height",
+          "content": "446"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/622",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/622/har-olika-grupper-av-moderator-för-olika-kategorier-övervägts",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/622.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/tove"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

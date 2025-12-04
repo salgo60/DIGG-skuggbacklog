@@ -1,0 +1,1132 @@
+{
+  "cid": 24,
+  "lastposttime": 1714555408093,
+  "mainPid": 4681,
+  "postcount": 9,
+  "slug": "919/följer-nextcloud-tillgänglighetsdirektivet",
+  "tid": 919,
+  "timestamp": 1709898656228,
+  "title": "Följer NextCloud Tillgänglighetsdirektivet?",
+  "uid": 1735,
+  "viewcount": 883,
+  "postercount": 5,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 4731,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Följer NextCloud Tillgänglighetsdirektivet?",
+  "timestampISO": "2024-03-08T11:50:56.228Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-05-01T09:23:28.093Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!</p>\n<p dir=\"auto\">Vi på PTS tittar på <a href=\"https://nextcloud.com/\" rel=\"nofollow ugc\">NextCloud</a> som en möjlig lösning för att tillhandahålla en funktion i en av våra tjänster.</p>\n<p dir=\"auto\">NextCloud är en \"open source content collaboration platform\" som ser ut att vara anpassad för att fungera för så många som möjligt (<a href=\"https://docs.nextcloud.com/server/latest/user_manual/en/universal_access.html\" rel=\"nofollow ugc\">https://docs.nextcloud.com/server/latest/user_manual/en/universal_access.html</a>).</p>\n<p dir=\"auto\">Har någon gjort någon form av granskning eller test av hur bra tillgängligheten i NextCloud egentligen är och om det uppfyller kraven i Tillgänglighetsdirektivet?</p>\n<p dir=\"auto\">Jag har varit i kontakt med DIGG och de har inte gjort någon granskning.</p>\n<p dir=\"auto\">Tack för att du tog dig tid att läsa detta!</p>\n<p dir=\"auto\">Erik<br />\nEnheten för digital inkludering, UX1<br />\nPost- och telestyrelsen</p>\n",
+      "pid": 4681,
+      "tid": 919,
+      "timestamp": 1709898656228,
+      "uid": 1735,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1622,
+            "username": "mikkeschiren",
+            "userslug": "mikkeschiren",
+            "picture": null,
+            "fullname": null,
+            "displayname": "mikkeschiren",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2024-03-11T20:27:36.984Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-03-08T11:50:56.228Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1735,
+        "username": "erik",
+        "userslug": "erik",
+        "reputation": 6,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1712647596598,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "erik",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2024-04-09T07:26:36.598Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1735\">@erik</a> Jag skulle vilja påstå att Nextcloud i alla fall är ganska bra när det gäller tillgängliglighet, men eftersom det är en produkt som man kan bygga ut med diverse integrationer, så beror det givetvis på hur tillgängliga dessa integrationer är.</p>\n",
+      "pid": 4683,
+      "tid": 919,
+      "timestamp": 1710188856984,
+      "toPid": "4681",
+      "uid": 1622,
+      "edited": 1710188888790,
+      "editor": {
+        "uid": 1622,
+        "username": "mikkeschiren",
+        "userslug": "mikkeschiren",
+        "displayname": "mikkeschiren"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-03-12T07:42:15.328Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-03-11T20:27:36.984Z",
+      "editedISO": "2024-03-11T20:28:08.790Z",
+      "index": 1,
+      "parent": {
+        "username": "erik",
+        "displayname": "erik"
+      },
+      "user": {
+        "uid": 1622,
+        "username": "mikkeschiren",
+        "userslug": "mikkeschiren",
+        "reputation": 11,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1745822482618,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "mikkeschiren",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-04-28T06:41:22.618Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1622\">@mikkeschiren</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1735\">@erik</a> Är det här kanske relaterat om att de uppnår WCAG 2.0 AAA? <a href=\"https://nextcloud.com/blog/nextcloud-14-the-most-accessible-nextcloud-ever/\" rel=\"nofollow ugc\">https://nextcloud.com/blog/nextcloud-14-the-most-accessible-nextcloud-ever/</a></p>\n",
+      "pid": 4684,
+      "tid": 919,
+      "timestamp": 1710229335328,
+      "toPid": "4683",
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1735,
+            "username": "erik",
+            "userslug": "erik",
+            "picture": "/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+            "fullname": "Erik Zetterström",
+            "displayname": "erik",
+            "icon:text": "E",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-03-12T12:00:13.080Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-03-12T07:42:15.328Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "mikkeschiren",
+        "displayname": "mikkeschiren"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> WCAG har uppdaterats en del sedan de skrev att de var AAA kompatibla. Nu är det version 2.2 som är aktuell (<a href=\"https://www.w3.org/TR/WCAG22/\" rel=\"nofollow ugc\">https://www.w3.org/TR/WCAG22/</a>).</p>\n<p dir=\"auto\">De nämner i artikeln att de rekommenderar olika testverktyg för att hitta brister och det är en bra början, men min erfarenhet är att tester med människor alltid hittar problem som dessa testverktyg missar. Det är därför jag efterlyser om några sådana genomförts och om en granskning gjorts av någon som inte är involverad i utvecklingen av NextCloud. Eftersom att det i all granskning och testning är lätt att bli hemmablind.</p>\n",
+      "pid": 4685,
+      "tid": 919,
+      "timestamp": 1710244813080,
+      "toPid": "4684",
+      "uid": 1735,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-03-19T08:54:07.309Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-03-12T12:00:13.080Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 1735,
+        "username": "erik",
+        "userslug": "erik",
+        "reputation": 6,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1712647596598,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "erik",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2024-04-09T07:26:36.598Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1735\">@erik</a> sa i <a href=\"/post/4685\">Följer NextCloud Tillgänglighetsdirektivet?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Nu är det version 2.2 som är aktuell (<a href=\"https://www.w3.org/TR/WCAG22/\" rel=\"nofollow ugc\">https://www.w3.org/TR/WCAG22/</a>).</p>\n</blockquote>\n<p dir=\"auto\">Är tillgänglighetsdirektivet skrivet så att man ständigt måste vara i fas med senaste versionen av WCAG? (2.2 är ju bara ett par månader gammalt.)</p>\n",
+      "pid": 4690,
+      "tid": 919,
+      "timestamp": 1710838447309,
+      "toPid": "4685",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1735,
+            "username": "erik",
+            "userslug": "erik",
+            "picture": "/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+            "fullname": "Erik Zetterström",
+            "displayname": "erik",
+            "icon:text": "E",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-04-02T08:50:36.697Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-03-19T08:54:07.309Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "erik",
+        "displayname": "erik"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Tillgänglighetsdirektivet blir lag 28 juni 2025, då kommer WCAG 2.2 att vara det som gäller. Tillgänglighetsdirektivet pekar på   ETSI EN 301 549 som i sin tur innehåller WCAG. Just nu håller ETSI EN 301 549 på att uppdateras för att innefatta WCAG 2.2.</p>\n<p dir=\"auto\">När WCAG 3.0 blir klar kommer den troligen att vara annorlunda utformad på ett nytt sätt vilket kan kräva ändringar i tillgänglighetsdirektivet.</p>\n<p dir=\"auto\">Jag kan rekommendera <a href=\"https://digin.nu/krav-och-regler/tillganglighetsdirektivet/\" rel=\"nofollow ugc\">https://digin.nu/krav-och-regler/tillganglighetsdirektivet/</a> för mer info om tillgänglighetsdirektivet.</p>\n",
+      "pid": 4699,
+      "tid": 919,
+      "timestamp": 1712047836697,
+      "toPid": "4690",
+      "uid": 1735,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-04-03T06:53:14.887Z"
+      },
+      "downvotes": 0,
+      "upvotes": 4,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2024-04-02T08:50:36.697Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 1735,
+        "username": "erik",
+        "userslug": "erik",
+        "reputation": 6,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1712647596598,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "erik",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2024-04-09T07:26:36.598Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1735\">@erik</a> Tack för länken till Digin! Jag kände inte till det, men vilket bra initiativ!</p>\n",
+      "pid": 4702,
+      "tid": 919,
+      "timestamp": 1712127194887,
+      "toPid": "4699",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2024-04-03T06:53:14.887Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "erik",
+        "displayname": "erik"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1735\">@erik</a> NextCloud har precis kommit med en ny release, denna är certifierad enligt <a href=\"https://www.openable.it/en/legal-requirements/%F0%9F%87%A9%F0%9F%87%AA-bitv/\" rel=\"nofollow ugc\">BitBV 2.0</a></p>\n",
+      "pid": 4727,
+      "tid": 919,
+      "timestamp": 1714473063823,
+      "toPid": "4681",
+      "uid": 1622,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-04-30T10:31:03.823Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "erik",
+        "displayname": "erik"
+      },
+      "user": {
+        "uid": 1622,
+        "username": "mikkeschiren",
+        "userslug": "mikkeschiren",
+        "reputation": 11,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1745822482618,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "mikkeschiren",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-04-28T06:41:22.618Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Det står i deras <a href=\"https://docs.nextcloud.com/server/latest/user_manual/en/universal_access.html\" rel=\"nofollow ugc\">dokumentation</a>. Just nu är det 2.1 som gäller och eftersom det är ett tyskt företag som används mycket i europeisk offentlig sektor kan man anta att de kommer uppdatera produkten för att uppfylla kraven för 2.2 när det blir obligatoriskt.</p>\n<p dir=\"auto\">Det är ändå en relevant fråga och viktigt att svenska myndigheter bidrar till verktygets tillgänglighetsarbete om vi börjar använda Nextcloud i större utsträckning.</p>\n",
+      "pid": 4731,
+      "tid": 919,
+      "timestamp": 1714555408093,
+      "uid": 666,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-05-01T09:23:28.093Z",
+      "editedISO": "",
+      "index": 8,
+      "user": {
+        "uid": 666,
+        "username": "PierreMesure",
+        "userslug": "pierremesure",
+        "reputation": 18,
+        "postcount": 8,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/666-profileavatar-1714418416575.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764432799455,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PierreMesure",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-11-29T16:13:19.455Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "919",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/919.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/919",
+  "bodyClass": "page-topic page-topic-919 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Följer NextCloud Tillgänglighetsdirektivet?"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Vi på PTS tittar på NextCloud som en möjlig lösning för att tillhandahålla en funktion i en av våra tjänster. NextCloud är en &quot;open source content collaboration platform&quot; som ser ut att vara anpassad för att fungera för så många som möjligt (https://..."
+        },
+        {
+          "property": "og:title",
+          "content": "Följer NextCloud Tillgänglighetsdirektivet?"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Vi på PTS tittar på NextCloud som en möjlig lösning för att tillhandahålla en funktion i en av våra tjänster. NextCloud är en &quot;open source content collaboration platform&quot; som ser ut att vara anpassad för att fungera för så många som möjligt (https://..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-03-08T11:50:56.228Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-05-01T09:23:28.093Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1735-profileavatar-1710149391593.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/919",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/919/följer-nextcloud-tillgänglighetsdirektivet",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/919.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/erik"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

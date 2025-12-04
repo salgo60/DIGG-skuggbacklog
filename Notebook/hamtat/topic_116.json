@@ -1,0 +1,991 @@
+{
+  "cid": 24,
+  "lastposttime": 1741079520649,
+  "mainPid": 494,
+  "postcount": 7,
+  "slug": "116/open-source-system-för-dokumenthantering",
+  "tid": 116,
+  "timestamp": 1622192390791,
+  "title": "Open Source-system för dokumenthantering",
+  "uid": 193,
+  "viewcount": 1205,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 4984,
+  "oldCid": 3,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Open Source-system för dokumenthantering",
+  "timestampISO": "2021-05-28T08:59:50.791Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-03-04T09:12:00.649Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><strong>Open Source-system för dokumenthantering</strong></p>\n<p dir=\"auto\">Docufindings är ett komplett dokument- och ärendesystem som kan användas i sin helhet eller för de processer och dokument i verksamheten som kräver extra hög säkerhet. Systemet är baserat på GNU/Linux/Debian och är fritt att använda utan några licenskostnader. Programmet, systeminstruktionerna och användarhandledningen är utvecklade för att installation, förvaltning och support ska bli så enkel som möjligt samt för att den egna organisationen eller någon annan än docufindings personal ska kunna sköta dessa frågor. Jag har använt ett av de vanligaste programspråken i Linux vilket underlättar om andra vill förvalta eller ändra programkoden. Systemets licensiering följer GNU General Public License v. 3+. Systemet följer Riksarkivets nya principer för processorienterad dokument-/arkivplan.</p>\n<p dir=\"auto\">Vill du veta mer finns en översiktligt beskrivning på youtube -&gt;<br />\n<a href=\"https://www.youtube.com/watch?v=8suZtWS46Eo\" rel=\"nofollow ugc\">docufindings dokumenthanteringssystem</a></p>\n<p dir=\"auto\"><em>Övrig sammanfattande information</em><br />\nPerspektiv säker dokumenthantering -&gt; <a href=\"https://docufindings.com/news/221_01015_nb.html\" rel=\"nofollow ugc\">https://docufindings.com/news/221_01015_nb.html</a><br />\nPerspektiv diarium -&gt; <a href=\"https://docufindings.com/news/221_01129_dia.html\" rel=\"nofollow ugc\">https://docufindings.com/news/221_01129_dia.html</a></p>\n<p dir=\"auto\">Ställ gärna frågor!<br />\nThomas Dahlén<br />\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .<br />\n+46 70 423 23 88<br />\n<a href=\"mailto:thomas@docufindings.com\" rel=\"nofollow ugc\">thomas@docufindings.com</a><br />\n<a href=\"http://www.docufindings.com\" rel=\"nofollow ugc\">www.docufindings.com</a></p>\n",
+      "pid": 494,
+      "tid": 116,
+      "timestamp": 1622192390791,
+      "uid": 193,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-28T18:24:40.693Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-05-28T08:59:50.791Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 193,
+        "username": "Thomas",
+        "userslug": "thomas",
+        "reputation": 5,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1748980568376,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "Thomas",
+        "groupTitleArray": [],
+        "icon:text": "T",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-06-03T19:56:08.376Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/193\">@thomas</a> Jag hittade inte koden på din webbplats.<br />\nVilket programspråk har du valt?<br />\nHur många linjer har du skrivit?<br />\nAntar att det är med avsigt att du inte publicerat koden. Lycka till med att sälja in dina tjänster hos myndigheter och företag och utveckla systemet.</p>\n",
+      "pid": 496,
+      "tid": 116,
+      "timestamp": 1622226280693,
+      "toPid": "494",
+      "uid": 25,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 193,
+            "username": "Thomas",
+            "userslug": "thomas",
+            "picture": null,
+            "fullname": "Thomas Dahlén",
+            "displayname": "Thomas",
+            "icon:text": "T",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-29T09:09:40.815Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-05-28T18:24:40.693Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Thomas",
+        "displayname": "Thomas"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn</p>\n<p dir=\"auto\">Hej Dennis!<br />\nTack för att du engagerar dig och ställer frågor!</p>\n<p dir=\"auto\">Systemet består av server- (39 delprogram) och klientprogram ( 141 delprogram) och är mycket väl dokumenterat med installationsinstruktioner och användarmanual. Koden är helt läsbar och det går att aktivera visning var i koden man befinner sig när man använder systemet, för att underlätta programförändringar.<br />\nJag har använt bash, html5, css samt ett antal programpaket från Debian (cirka 60 st ).  Programmet var färdigutvecklat för 2 år sen (utv. tid ca 7 år) och har cirka 110.000 programrader skrivna i bash.<br />\nAtt installera en användarklient är mycket enkelt men att konfigurera hela systemet med server (raid, brandväggar osv), scanner med mera, kräver förkunskaper och en dialog med mig underlättar processen. Det är bakgrunden till att jag valt att inte lägga koden för nerladdning på min hemsida.<br />\nJag erbjuder mina konsulttjänster och vill i första hand medverka vid införandeprocessen (stöd vid  installation, kort utbildning i handhavande till nyckelpersoner) och få organisationen att förstå docufindings-konceptet samt GNU/Linux/Debian. Därefter är det min förhoppning att myndigheten eller företaget klarar sig själva. Jag har försökt göra systemet så driftsäkert som möjligt och enkelt att använda både för användarna och den serveransvarige.<br />\nHoppas det är svar på dina frågor och uppstår fler svarar jag mer än gärna på dem.<br />\n//Thomas</p>\n",
+      "pid": 497,
+      "tid": 116,
+      "timestamp": 1622279380815,
+      "toPid": "496",
+      "uid": 193,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-31T07:21:52.959Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-29T09:09:40.815Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 193,
+        "username": "Thomas",
+        "userslug": "thomas",
+        "reputation": 5,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1748980568376,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "Thomas",
+        "groupTitleArray": [],
+        "icon:text": "T",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-06-03T19:56:08.376Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/193\">@thomas</a> sa i <a href=\"/post/497\">Open Source-system för dokumenthantering</a>:</p>\n<blockquote>\n<p dir=\"auto\">@dennis_priskorn</p>\n<p dir=\"auto\">Hej Dennis!<br />\nTack för att du engagerar dig och ställer frågor!</p>\n<p dir=\"auto\">Systemet består av server- (39 delprogram) och klientprogram ( 141 delprogram) och är mycket väl dokumenterat med installationsinstruktioner och användarmanual. Koden är helt läsbar och det går att aktivera visning var i koden man befinner sig när man använder systemet, för att underlätta programförändringar.<br />\nJag har använt bash, html5, css samt ett antal programpaket från Debian (cirka 60 st ).  Programmet var färdigutvecklat för 2 år sen (utv. tid ca 7 år) och har cirka 110.000 programrader skrivna i bash.</p>\n</blockquote>\n<p dir=\"auto\">A ha. Jag undrar hur det kommer sig att du valt Bash? Jag brukar bara använda det för kortare skripts eftersom det inte stödjer OOP eller klasser eller annat som man vanligen brukar vilja ha för att enklare kunna skriva mindre kod och att den även går att abstrahera och återanvändas tex genom att man drar ut en del och publicerar som ett bibliotek, vilket är väldigt enkelt i tex. Python.</p>\n<blockquote>\n<p dir=\"auto\">Att installera en användarklient är mycket enkelt men att konfigurera hela systemet med server (raid, brandväggar osv), scanner med mera, kräver förkunskaper och en dialog med mig underlättar processen. Det är bakgrunden till att jag valt att inte lägga koden för nerladdning på min hemsida.</p>\n</blockquote>\n<p dir=\"auto\">Hm. Jag tror inte riktigt på detta tillvägagångssätt. Jag vill kunna titta i koden om jag skulle överväga att upphandla. Har du tittat på NextCloud hur de gör? Odoo? Dolibarr?</p>\n<blockquote>\n<p dir=\"auto\">Jag erbjuder mina konsulttjänster och vill i första hand medverka vid införandeprocessen (stöd vid  installation, kort utbildning i handhavande till nyckelpersoner) och få organisationen att förstå docufindings-konceptet samt GNU/Linux/Debian. Därefter är det min förhoppning att myndigheten eller företaget klarar sig själva. Jag har försökt göra systemet så driftsäkert som möjligt och enkelt att använda både för användarna och den serveransvarige.<br />\nHoppas det är svar på dina frågor och uppstår fler svarar jag mer än gärna på dem.</p>\n</blockquote>\n<p dir=\"auto\">Jag undrar om du själv gjort allt? Har du haft nån till att ge kritik/code review?<br />\nFLOSS brukar bli bäst när många deltar och aktivt medskapar koden. Dolibarr har en benevolent diktator, men de flesta FLOSS-projekt brukar ha en hyfsat öppen ledning och möjlighet för vem som helst att enkelt engagera sig och börja bidra. I detta fall omöjliggörs det av att du hållit koden för dig själv.</p>\n<p dir=\"auto\">Om jag får vara lite krass skulle jag säga att allt som inte är tillgängligt det är inte värt min tid eller energi. Lycka till med ditt projekt.</p>\n",
+      "pid": 499,
+      "tid": 116,
+      "timestamp": 1622445712959,
+      "toPid": "497",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 193,
+            "username": "Thomas",
+            "userslug": "thomas",
+            "picture": null,
+            "fullname": "Thomas Dahlén",
+            "displayname": "Thomas",
+            "icon:text": "T",
+            "icon:bgColor": "#3f51b5"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-05-31T21:28:59.253Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-31T07:21:52.959Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Thomas",
+        "displayname": "Thomas"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn sa i <a href=\"/post/499\">Open Source-system för dokumenthantering</a>:</p>\n<blockquote>\n<p dir=\"auto\">@dennis_priskorn<br />\nHej Dennis!<br />\nTack för att du engagerar dig och ställer frågor!<br />\nSystemet består av server- (39 delprogram) och klientprogram ( 141 delprogram) och är mycket väl dokumenterat med installationsinstruktioner och användarmanual. Koden är helt läsbar och det går att aktivera visning var i koden man befinner sig när man använder systemet, för att underlätta programförändringar.<br />\nJag har använt bash, html5, css samt ett antal programpaket från Debian (cirka 60 st ).  Programmet var färdigutvecklat för 2 år sen (utv. tid ca 7 år) och har cirka 110.000 programrader skrivna i bash.</p>\n</blockquote>\n<blockquote>\n<blockquote>\n<p dir=\"auto\">A ha. Jag undrar hur det kommer sig att du valt Bash? Jag brukar bara använda det för kortare skripts eftersom det inte stödjer OOP eller klasser eller annat som man vanligen brukar vilja ha för att enklare kunna skriva mindre kod och att den även går att abstrahera och återanvändas tex genom att man drar ut en del och publicerar som ett bibliotek, vilket är väldigt enkelt i tex. Python.</p>\n</blockquote>\n</blockquote>\n<p dir=\"auto\">Efter att ha fastställt systemets kravspecifikation ägnade jag mycket tid åt att bestämma vilket programspråk jag skulle använda (där ibland Python). Jag bestämde mig först för att skriva systemet i C men innan jag satte igång utvecklingsarbetet vände jag mig till en av de främsta c-programmerarna i Sverige (tillika en av de främsta inom Linux i Sverige) som efter att jag förklarat mitt mål rådde mig till att använda Bash, något jag inte på något sätt ångrar eller skulle ändra på idag. Det finns så många kraftfulla funktioner i bash såsom att man kan återanvända kod med funktioner eller att man kallar in ett annat script någonstans i koden vilket gör programmeringen effektiv. Hur som helst fungerar programmet enligt min kravspecifikation och för mig är det viktiga att användarna får den funktionalitet de önskar. Valet av bash gör dessutom att det finns många programmerare som klarar av att förstå och ändra i koden.</p>\n<blockquote>\n<p dir=\"auto\">Att installera en användarklient är mycket enkelt men att konfigurera hela systemet med server (raid, brandväggar osv), scanner med mera, kräver förkunskaper och en dialog med mig underlättar processen. Det är bakgrunden till att jag valt att inte lägga koden för nerladdning på min hemsida.</p>\n<blockquote>\n<p dir=\"auto\">Hm. Jag tror inte riktigt på detta tillvägagångssätt. Jag vill kunna titta i koden om jag skulle överväga att upphandla. Har du tittat på NextCloud hur de gör? Odoo? Dolibarr?</p>\n</blockquote>\n</blockquote>\n<p dir=\"auto\">Det finns många olika system tillgängliga på marknaden och var och en väljer det som passar bäst för behovet. Jag har upplevt att det har saknats ett system som följer processorienterad dokumentstyrning med en annan nivå av säkerhet, baserat på en stabil plattform, som är fritt att använda (inga licenskostnader), med öppen ändringsbar kod med mera. Jag har medverkat i utveckling och införande av flertalet dokument- och ärendehanteringssystem, en erfarenhet som hjälpt mig i mitt utvecklingsarbete.</p>\n<p dir=\"auto\">Om du med tillvägagångssätt menar att koden inte är nerladdningsbar från webbplats så beror det på komplexiteten att konfigurera systemet. Vill man köra en egen server (lokalt eller via i-net) krävs att servern konfigureras, något som kräver tekniskt kunnande och olika tekniska beslut. Om man kör enligt standardkonfigurationen är det i första hand brandväggar som behöver specialkonfigureras. Ska man använda någon extern molntjänst är det bara klienten som behöver konfigureras vilket är enkelt men fortfarande bör man förstå systemets grundprincip.</p>\n<p dir=\"auto\">Nej, jag har inte tittat på något annat system. Jag har dock använt min erfarenhet av att ha medverkat i utvecklingen av andra dokumenthanteringssystem samt att jag själv arbetat i många andra system.</p>\n<blockquote>\n<p dir=\"auto\">Jag erbjuder mina konsulttjänster och vill i första hand medverka vid införandeprocessen (stöd vid  installation, kort utbildning i handhavande till nyckelpersoner) och få organisationen att förstå docufindings-konceptet samt GNU/Linux/Debian. Därefter är det min förhoppning att myndigheten eller företaget klarar sig själva. Jag har försökt göra systemet så driftsäkert som möjligt och enkelt att använda både för användarna och den serveransvarige.<br />\nHoppas det är svar på dina frågor och uppstår fler svarar jag mer än gärna på dem.</p>\n<blockquote>\n<p dir=\"auto\">Jag undrar om du själv gjort allt? Har du haft nån till att ge kritik/code review?<br />\nFLOSS brukar bli bäst när många deltar och aktivt medskapar koden. Dolibarr har en benevolent diktator, men de flesta FLOSS-projekt brukar ha en hyfsat öppen ledning och möjlighet för vem som helst att enkelt engagera sig och börja bidra. I detta fall omöjliggörs det av att du hållit koden för dig själv.</p>\n</blockquote>\n</blockquote>\n<p dir=\"auto\">Jag har utvecklat programmet helt på egen hand men självfallet har programmet genomgått användartester där synpunkter har påverkat utformningen.</p>\n<blockquote>\n<blockquote>\n<p dir=\"auto\">Om jag får vara lite krass skulle jag säga att allt som inte är tillgängligt det är inte värt min tid eller energi. Lycka till med ditt projekt.</p>\n</blockquote>\n</blockquote>\n<p dir=\"auto\">Jag är inte säker på om jag förstår vad du menar men ska försöka besvara det ändå. Det är i allra högsta grad tillgängligt dock inte genom nerladdning på en webbplats vilket,  som jag skrev tidigare, beror på komplexiteten med att konfigurera server, brandväggar med mera. Det vore oansvarigt av mig att inte först gå igenom systemets grunder med den som ska använda systemet. Även om systemets grundprincip är mycket logisk och systemet mycket enkelt att använda så krävs både förståelse för processorienterad dokumenthantering, kunskaper i GNU/Linux/Debian och docufindings. Det här är ett helt nytt koncept som varken liknar eller fungerar som andra system och en av drivkrafterna är att motverka olika typer av säkerhetsproblem.</p>\n<p dir=\"auto\">Överväger du att använda systemet förklarar jag gärna grundprinciperna och går igenom programkoden med dig.</p>\n<p dir=\"auto\">Hoppas du har fått svar på dina frågor.</p>\n<p dir=\"auto\">//Thomas</p>\n",
+      "pid": 502,
+      "tid": 116,
+      "timestamp": 1622496539253,
+      "toPid": "499",
+      "uid": 193,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-05-31T21:28:59.253Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 193,
+        "username": "Thomas",
+        "userslug": "thomas",
+        "reputation": 5,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1748980568376,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "Thomas",
+        "groupTitleArray": [],
+        "icon:text": "T",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-06-03T19:56:08.376Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 3,
+          "type": "move",
+          "uid": 62,
+          "id": 246,
+          "timestamp": 1648838146744,
+          "timestampISO": "2022-04-01T18:35:46.744Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Goda exempel och inspiration",
+            "slug": "3/goda-exempel-och-inspiration",
+            "icon": "fa-newspaper-o",
+            "color": "#fff",
+            "bgColor": "#5a6751"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-04-01T18:35:46.744Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Nu finns en ny video på YouTube som förklarar docufindings grundläggande delar:<br />\ndokumenthanteringsplanen, uppdelning i enheter, dokument-id, metadata, ärendehantering, distansarbete, säkerhetslösningar med krypterad överföring och kryptering av dokument.<br />\nVideon förklarar även arkitekturen, hur allt lagras som filer och vad som sker i filsystemet.</p>\n",
+      "pid": 4983,
+      "tid": 116,
+      "timestamp": 1741079467208,
+      "uid": 193,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-03-04T09:11:07.208Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 193,
+        "username": "Thomas",
+        "userslug": "thomas",
+        "reputation": 5,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1748980568376,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "Thomas",
+        "groupTitleArray": [],
+        "icon:text": "T",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-06-03T19:56:08.376Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Direktlänk till videon ==&gt; <a href=\"https://youtu.be/OqhTE9mq1Ko\" rel=\"nofollow ugc\">https://youtu.be/OqhTE9mq1Ko</a></p>\n",
+      "pid": 4984,
+      "tid": 116,
+      "timestamp": 1741079520649,
+      "uid": 193,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-03-04T09:12:00.649Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 193,
+        "username": "Thomas",
+        "userslug": "thomas",
+        "reputation": 5,
+        "postcount": 6,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1748980568376,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "Thomas",
+        "groupTitleArray": [],
+        "icon:text": "T",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-06-03T19:56:08.376Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 3,
+      "type": "move",
+      "uid": 62,
+      "id": 246,
+      "timestamp": 1648838146744,
+      "timestampISO": "2022-04-01T18:35:46.744Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Goda exempel och inspiration",
+        "slug": "3/goda-exempel-och-inspiration",
+        "icon": "fa-newspaper-o",
+        "color": "#fff",
+        "bgColor": "#5a6751"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-04-01T18:35:46.744Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "116",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/116.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/116",
+  "bodyClass": "page-topic page-topic-116 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Open Source-system för dokumenthantering"
+        },
+        {
+          "name": "description",
+          "content": "Open Source-system för dokumenthantering Docufindings är ett komplett dokument- och ärendesystem som kan användas i sin helhet eller för de processer och dokument i verksamheten som kräver extra hög säkerhet. Systemet är baserat på GNU/Linux/Debian och är..."
+        },
+        {
+          "property": "og:title",
+          "content": "Open Source-system för dokumenthantering"
+        },
+        {
+          "property": "og:description",
+          "content": "Open Source-system för dokumenthantering Docufindings är ett komplett dokument- och ärendesystem som kan användas i sin helhet eller för de processer och dokument i verksamheten som kräver extra hög säkerhet. Systemet är baserat på GNU/Linux/Debian och är..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-05-28T08:59:50.791Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-03-04T09:12:00.649Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/116",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/116/open-source-system-för-dokumenthantering",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/116.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/thomas"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

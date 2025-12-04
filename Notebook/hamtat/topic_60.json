@@ -1,0 +1,2107 @@
+{
+  "cid": 23,
+  "lastposttime": 1617265806009,
+  "mainPid": 165,
+  "postcount": 19,
+  "slug": "60/beskrivning-öppna-data-från-digg",
+  "tid": 60,
+  "timestamp": 1615732069563,
+  "title": "Beskrivning: Öppna data från DIGG",
+  "uid": 24,
+  "viewcount": 1853,
+  "postercount": 4,
+  "teaserPid": 235,
+  "oldCid": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Beskrivning: Öppna data från DIGG",
+  "timestampISO": "2021-03-14T14:27:49.563Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-04-01T08:30:06.009Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Kan någon förklara vad detta dataset gör <a href=\"https://www.dataportal.se/sv/datasets/760_1517/\" rel=\"nofollow ugc\">datasets/760_1517</a> och hur det används och vem är målgrupp?</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1615731587842-4b803cd3-3c74-40ee-9e22-481f1619c825-image-resized.png\" alt=\"4b803cd3-3c74-40ee-9e22-481f1619c825-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>Exempel hur den skall användas tror jag underlättar</li>\n</ul>\n",
+      "pid": 165,
+      "tid": 60,
+      "timestamp": 1615732069563,
+      "uid": 24,
+      "edited": 1615732333232,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-15T10:02:35.768Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-14T14:27:49.563Z",
+      "editedISO": "2021-03-14T14:32:13.232Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60<br />\nHej,<br />\nAPI:et visar status för offentliga organisationer huruvida de tillhandahåller en metadatakatalog till Sveriges dataportal, samt om de har en sida <a href=\"http://ex.org.se/psidata\" rel=\"nofollow ugc\">ex.org.se/psidata</a></p>\n<p dir=\"auto\">API:et används av oss själva för admin-verktyget för att identifiera vilka offentliga organisationer som tillhandahåller en katalog till dataportalen.<br />\n<a href=\"https://admin.dataportal.se/status/public\" rel=\"nofollow ugc\">https://admin.dataportal.se/status/public</a> ,<br />\n<a href=\"https://admin.dataportal.se/status/overview\" rel=\"nofollow ugc\">https://admin.dataportal.se/status/overview</a></p>\n<p dir=\"auto\"><em>(Flyttar tråd till kategori Efterfråga data och API:er)</em></p>\n",
+      "pid": 166,
+      "tid": 60,
+      "timestamp": 1615802555768,
+      "toPid": "165",
+      "uid": 7,
+      "edited": 1615805750599,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-15T12:24:06.783Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-15T10:02:35.768Z",
+      "editedISO": "2021-03-15T10:55:50.599Z",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a>  tackar <a href=\"https://youtu.be/n5MBAfx7-QQ\" rel=\"nofollow ugc\">video</a></p>\n<ul>\n<li>finns det exempel hur jag kan använda det?</li>\n<li>interna odokumenterade dataset känns inte som dom borde ligga på <a href=\"http://dataportalen.se\" rel=\"nofollow ugc\">dataportalen.se</a></li>\n<li>min tro är att fler personer hittar till Wikipedia än till dataportalen så kan vi koppla ihop Wikipedia/Wikidata med motsvarande organisation på Dataportalen så skulle det öppna för att flera hittar detta dataset se <a href=\"https://youtu.be/n5MBAfx7-QQ\" rel=\"nofollow ugc\">video</a> hur er organisation 80 gissar jag är samma som Wikidata <a href=\"https://www.wikidata.org/wiki/Q836916\" rel=\"nofollow ugc\">Q836916</a> där vi kan visa detta på <a href=\"https://www.wikidata.org/wiki/Q836916?uselang=en\" rel=\"nofollow ugc\">en</a>, <a href=\"https://www.wikidata.org/wiki/Q836916?uselang=ar\" rel=\"nofollow ugc\">ar</a>, <a href=\"https://www.wikidata.org/wiki/Q836916?uselang=zh\" rel=\"nofollow ugc\">zh</a>, <a href=\"https://www.wikidata.org/wiki/Q836916?uselang=sv\" rel=\"nofollow ugc\">sv</a>..... men även att det finns ibland artiklar ex <a href=\"https://uk.wikipedia.org/wiki/%D0%A8%D0%B2%D0%B5%D0%B4%D1%81%D1%8C%D0%BA%D0%B5_%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B5_%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE\" rel=\"nofollow ugc\">Wiki Ukraina</a> om Svenska Skatteverket --&gt; förhoppningsvis lite enklare för icke svensk kunniga at ta del av Öppen data....</li>\n</ul>\n",
+      "pid": 168,
+      "tid": 60,
+      "timestamp": 1615811046783,
+      "toPid": "166",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-17T12:45:33.167Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-15T12:24:06.783Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 nu verkar datasetet borttaget <a href=\"https://www.dataportal.se/sv/datasets/760_1517/\" rel=\"nofollow ugc\">länk</a> lite mer transparens vore bra hur DIGG tänker och även att plattformen har spårbarhet...</p>\n<p dir=\"auto\">Jämför spårbarheten hos Wikipedia när något tas bort så kan man se det med ev. kommentar</p>\n<ul>\n<li>Borttagen sida <a href=\"https://sv.wikipedia.org/wiki/Rio_Sayuba\" rel=\"nofollow ugc\">sv.wikipedia Rio_Sayuba</a> som togs bort för 3 minuter sedan</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1615985123025-955424fb-6fbe-4e03-8fc9-b42b3f6ec8eb-image-resized.png\" alt=\"955424fb-6fbe-4e03-8fc9-b42b3f6ec8eb-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 179,
+      "tid": 60,
+      "timestamp": 1615985133167,
+      "toPid": "168",
+      "uid": 24,
+      "edited": 1615985201698,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-17T17:04:46.790Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-17T12:45:33.167Z",
+      "editedISO": "2021-03-17T12:46:41.698Z",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Hej,<br />\nApi:et är inte borttaget men däremot håller vi på med en uppdatering av vår metadatakatalog som dataportalen skördar. Därför är inte datamängden synlig via dataportalen. Metadatakatalogen ska snart vara uppe igen dock, då kommer den åter vara sökbar på dataportalen.</p>\n<p dir=\"auto\">/Kristine</p>\n",
+      "pid": 180,
+      "tid": 60,
+      "timestamp": 1616000686790,
+      "toPid": "179",
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-17T18:42:37.488Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-17T17:04:46.790Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> och dokumenterad? av det jag såg känns det inte som den skall finnas på dataportalen bland andra dataset....</p>\n",
+      "pid": 181,
+      "tid": 60,
+      "timestamp": 1616006557488,
+      "toPid": "180",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-03-19T08:41:43.869Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-17T18:42:37.488Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Här håller jag inte med dig. Allt behöver inte vara perfekt innan man publicerar sin data. Det är viktigare att man kommer igång och arbetar med ständiga förbättringar. Annars kommer man arbeta rätt länge innan man når några effekter och risken är att mycket data aldrig öppnas upp och då får man heller inte in synpunkter på vad som behöver förbättras.</p>\n",
+      "pid": 196,
+      "tid": 60,
+      "timestamp": 1616143303869,
+      "toPid": "181",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-22T18:10:15.104Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-19T08:41:43.869Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@björn-hagström</a> sa i <a href=\"/post/196\">Beskrivning: Öppna data från DIGG</a>:</p>\n<blockquote>\n<p dir=\"auto\">Annars kommer man arbeta rätt länge innan man når några effekter och risken är att mycket data aldrig öppnas upp och då får man heller inte in synpunkter på vad som behöver förbättras.</p>\n</blockquote>\n<p dir=\"auto\">Nix felkompetens gör att du aldrig kommer i mål.... nu är vi &gt; 200 miljoner in i DIGGs resa och ser <a href=\"https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher%7C%7Chttps%3A%2F%2Fcatalog.digg.se%2Fstore%2F1%2Fresource%2F1%7C%7Cfalse%7C%7Curi%7C%7COrganisationer%7C%7CMyndigheten%20f%C3%B6r%20digital%20f%C3%B6rvaltning&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService\" rel=\"nofollow ugc\">2 dataset</a> man lyckats skapa....</p>\n<p dir=\"auto\">Vi har <a href=\"https://www.digisam.se/vi-foersoeker-sortera/\" rel=\"nofollow ugc\">DIGISAM</a> som starta 2012 med kulturdata och <a href=\"https://web.archive.org/web/20121118181057/http://www.niso.org/apps/group_public/download.php/9407/IP_Isaac-etal_Europeana_isqv24no2-3.pdf\" rel=\"nofollow ugc\">Europeana samma år 2012</a> som skulle skapa länkade data och samla ihop museernas material i Europea och bli en referens och följer man upp detta så har vi bevis att <strong>inkompetens löser inga problem</strong></p>\n<ul>\n<li>2021<br />\n** museerna i Sverige klarar inte att skicka sitt material till Europeana utan <a href=\"http://minancestry.blogspot.com/2020/03/carl-larsson-who-is-that-sadly.html\" rel=\"nofollow ugc\">alla personer som heter Carl Larsson blandas ihop</a><br />\n** ingen av dom 5 museerna jag kontaktade om detta fel vet hur man felrapporterar till Europeana<br />\n** Europeanas <a href=\"https://pro.europeana.eu/person/antoine-isaac\" rel=\"nofollow ugc\">R&amp;D manager Antoine Isaac</a> har jag försökt att ha en dialog med om vi kan göra change management på Wikidata Entities se <a href=\"https://phabricator.wikimedia.org/T251225\" rel=\"nofollow ugc\">T251225</a> men jag gissar att dom inte vågar köra igång något för dom har lärt sig att museerna inte har digital kompetens och nu har man tyvärr börjat surra om att AI skall fixa dessa metadata brister... ingen seriös tror att man med dålig metadata kan göra bra AI....<br />\n** ett annat anti-pattern jag ser är att <a href=\"https://www.europeana.eu/en\" rel=\"nofollow ugc\">Europeana</a> delar ut massa pengar så inga vill kritisera dom för att man är rädd att inte få del av kakan....<br />\n*** intressant är att se reaktionen från engelska WIkipedia som direkt reagera på dålig kvalitet och stoppade alla länkar till Europeana pga av för dålig kvalitet <a href=\"https://phabricator.wikimedia.org/T243764\" rel=\"nofollow ugc\">T243764</a></li>\n</ul>\n<h3>Det är viktigare att man kommer igång</h3>\n<ul>\n<li>jag plockade ned DIGGs leverantörsfakturor <a href=\"https://community.dataportal.se/topic/70/fakturor-b%C3%B6rjar-dyka-upp-som-%C3%B6ppen-data\">länk</a>  och ser dom som lever gott på Öppen data trots dagens fel och brister är fakturerande konsulter --&gt; kommer vi få se samma okritiska synpunkter som jag ser av &gt; 100 miljoners projektet Europeana....??</li>\n<li>DIGG har till dags dato betalat konsulter och andra 200 miljoner och av detta har <a href=\"https://www.dataportal.se/sv/datasets?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fpublisher%7C%7Chttps%3A%2F%2Fcatalog.digg.se%2Fstore%2F1%2Fresource%2F1%7C%7Cfalse%7C%7Curi%7C%7COrganisationer%7C%7CMyndigheten%20f%C3%B6r%20digital%20f%C3%B6rvaltning&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService\" rel=\"nofollow ugc\">2 dataset</a> dykt upp där det ena har tvivelaktig kvalitet</li>\n<li>men denna \"allt behöver inte vara perfekt\" logiken så känns det som man skulle bejaka iden att ge körskolelärare 100 miljarder för att skapa självkörande bilar och sedan skulle vi komma till dom med synpunkter när inte bilen går dit vi vill.. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> det är bara när man leker med andras pengar man resonerar så....</li>\n</ul>\n<p dir=\"auto\"><strong>Skall Sverige bli bäst i världen på öppen data ...</strong><br />\nDå måste vi ha kompetens där</p>\n<ul>\n<li>det Agila sitter i ryggraden</li>\n<li>man måste förstå grundläggande saker som versionshantering och change management</li>\n<li>en organisation som DIGG måste peka med rakhand när det svamlas om öppen data skall vara på svenska eller engelska utan förklara att 2021 så gör vi språkoberoende lösningar som skall fungera att mata internationella AI lösningar</li>\n<li>när Google i veckan pratade om sin <a href=\"https://youtu.be/W-9HMaAi78g?t=2329\" rel=\"nofollow ugc\">Dataset search och vikten av DOI</a> då är man snabb och för dessa tankar till Sverige och förklarar hur detta skall göras...</li>\n<li>när man frågar varför EDP inte har en kunskapsgraf <a href=\"https://youtu.be/W-9HMaAi78g?t=3270\" rel=\"nofollow ugc\">länk</a> men Google har svarar man att man vagt varför inte.... varför tar inte Sverige tag i detta och visar ledarskap vi som skall bli bäst i världen....</li>\n<li>Google, Tesla, Amazon som tar ledarskap gör det genom att ha intern kompetens... jag är rädd för de stora konsult inköpen hos DIGG pekar på interna brister och blir inte mindre orolig när denna \"allt behöver inte vara perfekt\" ide påhejas...</li>\n</ul>\n<p dir=\"auto\">Med hopp om att jag har fel</p>\n",
+      "pid": 204,
+      "tid": 60,
+      "timestamp": 1616436615104,
+      "toPid": "196",
+      "uid": 24,
+      "edited": 1616436931068,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-26T10:36:04.270Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-22T18:10:15.104Z",
+      "editedISO": "2021-03-22T18:15:31.068Z",
+      "index": 7,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60<br />\nHej,<br />\nDIGG ansvarar för flera verksamheter däribland digitala tjänster och infrastruktur såsom inom digital post, e-id, e.handel, digital tillgänglighet m.m. Dessutom samordnar och analyserar vi utvecklingen av digitalisering av den offentliga förvaltningen och bistår regeringen på olika sätt i detta arbete. Dessa verksamheter bekostas av våra anslag och särskilda regeringsuppdrag. Det är naturligt att vi både jobbar med egen personal och tillsammans med leverantörer för att genomföra våra uppdrag. DIGG:s information om fakturor som vi nyligen tillgängliggjort som öppna data relaterar till vår hela verksamhet. Välkommen att gå in på <a href=\"https://www.digg.se/\" rel=\"nofollow ugc\">digg.se</a> för att läsa mer om DIGG:s verksamhet.</p>\n<p dir=\"auto\">Jag vill påminna om forumet uppmuntrar till en konstruktiv diskussion. Tyck gärna till om våra och andras tjänster, data och API:er, men håll en god ton. Vi kommer att ta bort inlägg som är kränkande eller nedlåtande mot moderator, andra forumanvändare samt övriga som inte använder tjänsten.</p>\n",
+      "pid": 206,
+      "tid": 60,
+      "timestamp": 1616490608505,
+      "uid": 7,
+      "downvotes": 0,
+      "upvotes": 2,
+      "edited": 1616490672122,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-03-23T09:10:08.505Z",
+      "editedISO": "2021-03-23T09:11:12.122Z",
+      "index": 8,
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 220,
+      "tid": 60,
+      "timestamp": 1616747047574,
+      "toPid": "181",
+      "uid": 7,
+      "deleted": 1,
+      "deleterUid": 7,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-26T08:24:07.574Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 sa i <a href=\"/post/181\">Beskrivning: Öppna data från DIGG</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> och dokumenterad? av det jag såg känns det inte som den skall finnas på dataportalen bland andra dataset....</p>\n</blockquote>\n<p dir=\"auto\">@salgo60<br />\nJag har undersökt frågan nu och den dokumentation om API:et som finns är i två delar:<br />\n<a href=\"https://entrystore.org/kb/search/\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/</a><br />\noch ett formell uttryck via OpenAPI (Swagger) här:<br />\n<a href=\"https://entrystore.org/api/\" rel=\"nofollow ugc\">https://entrystore.org/api/</a></p>\n<p dir=\"auto\">Ska uppdatera informationen så det framkommer om datamängden på dataportalen också.</p>\n<p dir=\"auto\">Men samtidigt inser vi att den dokumentationen är för generell och skulle kräva mycket av folk. Vi ska titta vidare om vi kan ta fram en lite mer specifik beskrivning/guide som förklarar hur man söker ut just information om datamängder, distributioner, utgivare etc. ur detta generella API.</p>\n",
+      "pid": 221,
+      "tid": 60,
+      "timestamp": 1616747085420,
+      "toPid": "181",
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-26T09:53:54.907Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-26T08:24:45.420Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> ok det jag funderade på var mer om bättre dokumentation av enskilt dataset eller att saker som tas bort blir spårbara....</p>\n<ul>\n<li>om jag fatta rätt togs <a href=\"https://www.dataportal.se/sv/datasets/760_1517/\" rel=\"nofollow ugc\">datasets/760_1517/</a> bort men</li>\n<li>i söndags dök <a href=\"https://www.dataportal.se/sv/datasets/760_1536/status-sveriges-dataportal\" rel=\"nofollow ugc\">datasets/760_1536</a> upp.... verkar som något batch jobb körs som la dit det igen... med annat id....</li>\n</ul>\n<p dir=\"auto\">Rent generellt tycker jag att saker som</p>\n<ul>\n<li>finns det en relation mellan dataseten ovan?!?!? så skall det synas i metadata...</li>\n<li>versionshantering dvs. det skall vara spårbarhet mellan nya version</li>\n<li>tydlighet när saker läggs till... det känns som inte det finns i metadata</li>\n<li>konstiga termer som \"utgivningsdatum\" känns fel term... för något automatgenererat...</li>\n<li>osv....</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616752276156-4cdae834-ba08-4d7c-b79c-48b9e5def0e6-image-resized.png\" alt=\"4cdae834-ba08-4d7c-b79c-48b9e5def0e6-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">RDF:en accrualPeriodicity säger DAILY men inte mer  <a href=\"https://admin.dataportal.se/store/760/metadata/1536\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/760/metadata/1536</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616752323525-77de4aad-55c6-4287-b2f6-e49c698f9259-image-resized.png\" alt=\"77de4aad-55c6-4287-b2f6-e49c698f9259-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Detta är ingen prio för mig men det tar emot att dyka ned i <a href=\"http://dataportalen.se\" rel=\"nofollow ugc\">dataportalen.se</a> när den känns så virrig... men det kan lika gärna vara skit bakom mina spakar.... mer dialog med användare behövs... eller fler användare är min tro...</p>\n",
+      "pid": 222,
+      "tid": 60,
+      "timestamp": 1616752434907,
+      "toPid": "221",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-26T09:53:54.907Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Jag vet inte riktigt var jag ska börja svara på detta men du är verkligen ute och vinglar från dike till dike här. Öppna data är en väldigt liten del av DIGGs verksamhet som Kristine också påpekar och den stora delen av DIGGs insatser för öppna data handlar inte om att själva publicera data utan att skapa strukturer så att andra ska kunna arbeta med det på ett bra sätt.</p>\n<p dir=\"auto\">När det gäller alla de brister du pekar på så ser jag inte att något av detta hade blivit bättre av att man väntat på att data var perfekt innan man publicerade den. Det enda som hade skett var att det inte hade publicerats någon öppna data alls och då hade vi inte kommit någonstans med öppna data i Sverige. Du hade inte haft något att kritisera och vi hade inte kunnat ha en diskussion kring hur man kommer vidare och gör saker bättre.</p>\n",
+      "pid": 224,
+      "tid": 60,
+      "timestamp": 1616754964270,
+      "toPid": "204",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-26T11:15:31.734Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-26T10:36:04.270Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@björn-hagström</a> 1 dataset efter 2 år...   det är väl inte så mycket att diskutera utan mer att börja leverera.... ingen säger att DIGG skall vänta jag är mer förvånad att inte mer gjorts...</p>\n<p dir=\"auto\">Det känns inte som det tänks data...  att skapa ett dataset för ett diarium tar en timme....</p>\n<p dir=\"auto\">och även om det är en liten del så skrivs det rapport på hur bra det går för Sverige.... skall man vara datadriven så publiceras saker som dataset och även de olika rapportrarna som idag dyker upp i PDF innehåller data som borde bli enskilda dataset  jmf forskarvärlden...</p>\n<ul>\n<li>dataset som jag från utsidan ser borde finnas för en myndighet (och särskilt DIGG som bör vara the leading star...)\n<ul>\n<li>\n<p dir=\"auto\">publicerade rapporter - idag <a href=\"https://www.digg.se/publicerat\" rel=\"nofollow ugc\">ligger dom lite här och där</a></p>\n<ul>\n<li>nu finns det i många rapporter ett diarienummer/ unikt id  passar perfekt att ha som ett dataset istället för här och där på en web... gärna även vad som komma skall, kontakt person, diskussions yta....</li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\">kan <a href=\"https://datalabb.esv.se/esv-datalabb.html\" rel=\"nofollow ugc\">ESV datalabs nya portal</a> ha data om DIGG som budget etc. så borde myndigheten själv beskriva sig med instruktion, ansvariga,  även lyfta it de mål som finns i ett dataset... även fast <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:6777136249841979392?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6777136249841979392%2C6777539573967843329%29&amp;replyUrn=urn%3Ali%3Acomment%3A%28activity%3A6777136249841979392%2C6777540887804170240%29\" rel=\"nofollow ugc\">Svenne Junker</a> tycker det verkar svårt så känns det inte svårare att ha egna objekt med start/slut<br />\n<img src=\"/assets/uploads/files/1616755488080-fb729ef6-c32b-4ef0-bc1c-11ccca83a0a9-image-resized.png\" alt=\"fb729ef6-c32b-4ef0-bc1c-11ccca83a0a9-image.png\" class=\" img-fluid img-markdown\" /><br />\n<img src=\"/assets/uploads/files/1616755794929-96e8926f-4e94-4b2b-a3cc-97e40f7771df-image.png\" alt=\"96e8926f-4e94-4b2b-a3cc-97e40f7771df-image.png\" class=\" img-fluid img-markdown\" /></p>\n</li>\n<li>\n<p dir=\"auto\">lär av forskarvärden publicera dataset MED rapporten dvs. pdf rapport som Dnr: 2019-139 \"<a href=\"https://www.digg.se/49042c/globalassets/dokument/publicerat/publikationer/slutrapport_oppna_data_datadriven_innovation_och_ai_20210129.pdf\" rel=\"nofollow ugc\">Uppdrag att öka den offentliga förvaltningens förmåga att tillgängliggöra öppna data, bedriva öppen och datadriven innovation samt använda artificiell intelligens</a>\"  blir väldigt flummig och kollar man på slutsatsen som är att räkna dataset så blir det skevt när DIGG har 2 dataset och 50% av dessa verkar omöjliga att förstå vad det är dvs, man mäter inte kvalitet<br />\n<img src=\"/assets/uploads/files/1616756598044-5d597714-cbcf-4195-af8f-b26f8b895ab7-image.png\" alt=\"5d597714-cbcf-4195-af8f-b26f8b895ab7-image.png\" class=\" img-fluid img-markdown\" /></p>\n</li>\n</ul>\n</li>\n<li>diariet var hittar vi det?!?! ett dataset? kolla på <a href=\"https://www.linkoping.se/kommun-och-politik/arenden-handlingar-och-diarium/\" rel=\"nofollow ugc\">Linköpings kommun</a></li>\n<li>finns tydliga mål i Regleringsbrevet så borde det brytas ned till mål som DIGG driver och publiceras i ett dataset... att räkna framgång som \"<a href=\"https://www.digg.se/49042c/globalassets/dokument/publicerat/publikationer/slutrapport_oppna_data_datadriven_innovation_och_ai_20210129.pdf\" rel=\"nofollow ugc\">genom att antalet datamängder på Sveriges dataportal har mer än tredubblats</a>\" känns lite galet då SCB har 4534 av 7121 dataset<br />\n<img src=\"/assets/uploads/files/1616756872141-cb4da6ba-6898-4921-88e4-a1d4abb54729-image.png\" alt=\"cb4da6ba-6898-4921-88e4-a1d4abb54729-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n<p dir=\"auto\">Finns säkert massor att göra och saker tar tid men nu är vi <a href=\"https://community.dataportal.se/topic/70/fakturor-b%C3%B6rjar-dyka-upp-som-%C3%B6ppen-data\">200 miljoner</a> in i denna resa så saker borde dyka upp och har det iunte kommit ännu är det stor risk att vi kommer att ha <a href=\"https://www.scruminc.com/yesterdays-weather/#:~:text=Yesterday's%20Weather%20is%20a%20Scrum,complete%20in%20the%20upcoming%20Sprint.&amp;text=In%20most%20cases%2C%20the%20number,completed%20in%20the%20next%20Sprint.\" rel=\"nofollow ugc\">yesterdays weather</a> om 2 år</p>\n<p dir=\"auto\">Tim Berners Lee säger internets grundare säger detta att vara datadriven för en myndighet på ett bra sätt att man inte skall gömma data i massa snygga websiter utan publicera rå data som data <a href=\"https://youtu.be/OM6XIICm_qo?t=619\" rel=\"nofollow ugc\">link \"making the world better\"</a></p>\n",
+      "pid": 225,
+      "tid": 60,
+      "timestamp": 1616757331734,
+      "toPid": "224",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-31T14:12:13.234Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-26T11:15:31.734Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Det finns en hel del data DIGG kan och borde publicera och jag tror mer är på gång men det som ser enkelt ut för en utomstående är inte alltid det för den som ska göra jobbet. Till exempel räcker det inte att skapa datamängden. Man måste också ha koll på personuppgifter, sekretess, hur det ska publiceras, hur informationen ska exponeras, hur man eventuellt anpassar den till en standard, övertyga ägaren internt att publicera den, få resurser till att göra arbetet när alla resurser är upptagna och ett antal andra saker som att skapa dokumentation så att du inte skäller på dem. Det är inte så bara.</p>\n<p dir=\"auto\">Sedan trodde jag vi kommit förbi stadiet med de 200 miljonerna. De har bland annat gått till väldigt många andra saker än att publicera öppna data. Det är en rätt oärlig diskussion av dig här.</p>\n",
+      "pid": 229,
+      "tid": 60,
+      "timestamp": 1617199933234,
+      "toPid": "225",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-31T14:58:42.421Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-31T14:12:13.234Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@björn-hagström</a> ingen har sagt att detta skall vara enkelt.... jag tror snarare vi inte förstår hur mycket med kompetenser som saknas som detta som jag tjatar om med kunskapsgrafer eller AI/ML och ha dataset som är fungerande... sedan det <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> frågor om <a href=\"https://community.dataportal.se/topic/59/hur-arbetar-ni-med-%C3%B6ppna-standarder/2?_=1617202385797\">interoperabilitet</a> så kan man ju fråga sig finns det en tanke hur t.ex. data publicerat av <a href=\"https://datalabb.esv.se/esv-datalabb.html\" rel=\"nofollow ugc\">ESV datalab</a> borde inte det ha en koppling till <a href=\"https://community.dataportal.se/topic/70/fakturor-b%C3%B6rjar-dyka-upp-som-%C3%B6ppen-data\">DIGGS fakturor</a> och hur dom skall \"jobba ihop\"? om inte vem för man denna dialog med? hur följer man dom tankar som finns...</p>\n<p dir=\"auto\">om DIGG som är en ny myndighet har problem med att publicera som Öppen data vem skall då göra Sverige bäst i <a href=\"https://www.youtube.com/watch?v=GvPdI4jaxTw&amp;t=682s\" rel=\"nofollow ugc\">världen på digitalisering och att alla lyfter sig</a>, och hur skall old schools myndigheter kunna ta klivet? nån verkar ha lovat något som blev en tummetott... intressant är att samme herre tycker att vi skall även analysera vad vi är <a href=\"https://youtu.be/GvPdI4jaxTw?t=702\" rel=\"nofollow ugc\">dåliga på vid 11:40</a> var är denna \"Root cause analysis\" (RCA)... snyggt vore att hoppa i säng med Jobtech och definera upp dom skills som en Digital myndighet skall ha som sedan kunde användas av andra som en checklista .....</p>\n<p dir=\"auto\">Förr mig skall inte detta ta 2 år.... börja publicera dataset och ange vad det är för brister i data ( <a href=\"https://www.effekten.se/oppen-data/?utm_source=ReviveOldPost&amp;utm_medium=social&amp;utm_campaign=ReviveOldPost\" rel=\"nofollow ugc\">rekommendation vid 18 min i denna pod</a> med tillägg \"eat your own dog food\")</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1617202089409-0a080772-bdc9-43bf-b5b0-72520da6390a-image.png\" alt=\"0a080772-bdc9-43bf-b5b0-72520da6390a-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 230,
+      "tid": 60,
+      "timestamp": 1617202722421,
+      "toPid": "229",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-31T15:12:48.206Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-31T14:58:42.421Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Det var när du skrev:<br />\n\"att skapa ett dataset för ett diarium tar en timme\"<br />\nsom jag tolkade dig som att det inte var så svårt att publicera öppna data. Samtidigt klagar du på brister när den inte är perfekt. Det är inte lätt att göra dig nöjd:)</p>\n",
+      "pid": 231,
+      "tid": 60,
+      "timestamp": 1617203568206,
+      "toPid": "230",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-01T06:14:12.426Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-31T15:12:48.206Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@björn-hagström</a> @salgo60<br />\nHärlig tråd! Hetta är bra! Vi kan väl bara konstatera att det tar tid för oss myndigheter att tillgängliggöra våra öppna data. Och trots att vi sedan 10 år tillbaka haft en PSI-lagstiftning så går det långsamt. Ur mitt perspektiv, och kopplat till länkad data så uteblir effekterna eftersom mycket av den data vi vill länka till inte är öppen idag, och kommer sannolikt inte bli öppen på två år.  (Den tid myndigheterna har på sig att anpassa sina särskilt värdefulla datamängder till ny lag.) En uppenbar anledning till att vi inte kan släppa data som öppen är att den är  \"inlåst\" i olika system. Vi behöver titta på hur vi kravställer IT-system. Vi behöver ta höjd för att data går att dela mellan olika system och att data går att få ut även när vi ersätter ett system. Krav på öppna standarder som går att implementera i öppna källkodssystem är en förutsättning för att kunna få ut mer öppna data.</p>\n",
+      "pid": 232,
+      "tid": 60,
+      "timestamp": 1617257652426,
+      "toPid": "231",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-01T08:30:06.009Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-01T06:14:12.426Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@maria_dalhage</a> ja men konstruktiv hetta vill jag se <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" />  se exempel nedan hur om man gör rätt med persistenta identifierare så kan forskning 1750 kopplas ihop med länkade data 2021</p>\n<p dir=\"auto\">Jag gjorde i veckan en övning att koppla ihop Litteraturbanken &lt;-&gt; bilder som har semantisk interoperabilitet med WIkidata &lt;-&gt; forskning på Runstenar av Uppsala Universitet och Riksantikvarieämbetet dvs. många SILOS och många kockar och vi delar kanske inte helt samma världsbild plus att med all rätt finns ett <strong>Trust issue</strong> mellan domän specialister och hobby runeologer</p>\n<p dir=\"auto\">se min artikel <a href=\"https://meta.wikimedia.org/wiki/Structured_data_for_GLAM-Wiki/Roundtripping/KMB\" rel=\"nofollow ugc\">Structured_data_for_GLAM-Wiki/Roundtripping/KMB</a></p>\n<p dir=\"auto\">Det intressanta här är att allt detta går rel. enkelt för att</p>\n<ul>\n<li><strong>runforskarna redan 1750 skapade persistenta identifierare till de olika runstenarna</strong></li>\n<li>när nya runforskare hittade på nya nummer serier så refererade man till dom äldre</li>\n<li>nu i #Wikidata gödslar vi med ca <a href=\"https://w.wiki/DYQ\" rel=\"nofollow ugc\">5000 identifierare</a> vi kopplar ihop  så denna forskning blir inte inlåst och vi kan koppla ihop allt</li>\n<li>som jag visar i artikeln så genom att dessa forskare redan 1750 flrstod vikten av persistenta unika identifierare och att vi idag 2021 sätter upp skyltar bredvid runstenar i naturen så kan även vi hobby runeloger ta bilder och förklara vad vi ser.....</li>\n</ul>\n<p dir=\"auto\"><strong>Inlåsnings effekten = 0</strong> även fast det är en bok <a href=\"https://digital.ub.umu.se/node/249114?fulltext-query=\" rel=\"nofollow ugc\">Bautil från 1750</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1617265450830-1139px-bautil_936.jpg\" alt=\"1139px-Bautil_936.jpg\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1617265460557-1280px-book_swedish_runicinscription.jpg\" alt=\"1280px-Book_Swedish_Runicinscription.jpg\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">det är detta tänk jag skulle vilja se är att vi har diskussioner om.... kultur Sverige startade 2012 med att diskutera detta och har enligt mig gjort massa misstag</p>\n<ul>\n<li>fel kompetens i organisationerna</li>\n<li>avsaknad av tydlig vision</li>\n<li>jobbar inte med moderna plattformar som GITHUB och change management</li>\n<li>väldigt svårt att ta åt sig tänket med persistenta identifierare se hur flera 100 miljoner plöjs in i ett <a href=\"https://minancestry.blogspot.com/2020/03/carl-larsson-who-is-that-sadly.html\" rel=\"nofollow ugc\">EU projekt Europeana som inte levererar</a></li>\n</ul>\n",
+      "pid": 235,
+      "tid": 60,
+      "timestamp": 1617265806009,
+      "toPid": "232",
+      "uid": 24,
+      "edited": 1617265956802,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "flagId": 102,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-01T08:30:06.009Z",
+      "editedISO": "2021-04-01T08:32:36.802Z",
+      "index": 18,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 1,
+          "type": "move",
+          "uid": 7,
+          "id": 140,
+          "timestamp": 1648475714202,
+          "timestampISO": "2022-03-28T13:55:14.202Z",
+          "user": {
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "uid": 7,
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          "fromCategory": {
+            "name": "Efterfråga data och API:er",
+            "slug": "1/efterfråga-data-och-api-er",
+            "icon": "fa-bullhorn",
+            "color": "#fff",
+            "bgColor": "#d59151"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:55:14.202Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 1,
+      "type": "move",
+      "uid": 7,
+      "id": 140,
+      "timestamp": 1648475714202,
+      "timestampISO": "2022-03-28T13:55:14.202Z",
+      "user": {
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "uid": 7,
+        "displayname": "Kristine_",
+        "icon:text": "K",
+        "icon:bgColor": "#795548"
+      },
+      "fromCategory": {
+        "name": "Efterfråga data och API:er",
+        "slug": "1/efterfråga-data-och-api-er",
+        "icon": "fa-bullhorn",
+        "color": "#fff",
+        "bgColor": "#d59151"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Efterfråga data och API:er on <span class=\"timeago timeline-text\" title=\"2022-03-28T13:55:14.202Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "60",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/60.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/60",
+  "bodyClass": "page-topic page-topic-60 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Beskrivning: Öppna data från DIGG"
+        },
+        {
+          "name": "description",
+          "content": "Kan någon förklara vad detta dataset gör datasets/760_1517 och hur det används och vem är målgrupp?   Exempel hur den skall användas tror jag underlättar  "
+        },
+        {
+          "property": "og:title",
+          "content": "Beskrivning: Öppna data från DIGG"
+        },
+        {
+          "property": "og:description",
+          "content": "Kan någon förklara vad detta dataset gör datasets/760_1517 och hur det används och vem är målgrupp?   Exempel hur den skall användas tror jag underlättar  "
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-03-14T14:27:49.563Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-01T08:30:06.009Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1615731587842-4b803cd3-3c74-40ee-9e22-481f1619c825-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1615731587842-4b803cd3-3c74-40ee-9e22-481f1619c825-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2472"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1390"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/60",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/60/beskrivning-öppna-data-från-digg",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/60.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

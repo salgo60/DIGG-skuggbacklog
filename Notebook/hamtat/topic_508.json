@@ -1,0 +1,823 @@
+{
+  "cid": 23,
+  "lastposttime": 1666077827188,
+  "mainPid": 846,
+  "postcount": 4,
+  "slug": "508/utegym-och-kunskapsgrafer",
+  "tid": 508,
+  "timestamp": 1665655718668,
+  "title": "Utegym och kunskapsgrafer",
+  "uid": 24,
+  "viewcount": 366,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 2925,
+  "oldCid": 25,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Utegym och kunskapsgrafer",
+  "timestampISO": "2022-10-13T10:08:38.668Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-18T07:23:47.188Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Roade mig med att återanvända definierade egenskaper i Wikidata och skapade ett enkelt utegym schema skrivet i <a href=\"http://shex.io/shex-semantics/#shexc\" rel=\"nofollow ugc\">ShEx</a> <strong>tog 10 minuter</strong> lade sedan till <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Outdoor_Gyms#Sweden\" rel=\"nofollow ugc\">1200 svenska utegym</a> / <a href=\"https://w.wiki/3wJS\" rel=\"nofollow ugc\">karta svenska</a> / <a href=\"https://w.wiki/4DAg\" rel=\"nofollow ugc\">engelska</a>  jmf ovanstående specande i flera månader inget data....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634106966682-996d7a3b-43ed-4ef8-90e7-78d4a4d4281e-image-resized.png\" alt=\"996d7a3b-43ed-4ef8-90e7-78d4a4d4281e-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://www.wikidata.org/wiki/EntitySchema:E280?uselang=sv\" rel=\"nofollow ugc\">EntitySchema:E280</a> (<a href=\"https://www.wikidata.org/wiki/EntitySchema:E280?uselang=en\" rel=\"nofollow ugc\">en</a>) -  Utegym</p>\n<ul>\n<li>schemat har unikt namn <strong><a href=\"https://www.wikidata.org/wiki/EntitySchema:E280?uselang=sv\" rel=\"nofollow ugc\">E280</a></strong> men kan ha label på olika språk</li>\n<li><a href=\"https://www.wikidata.org/wiki/Property:P625\" rel=\"nofollow ugc\">wdt:P625</a> pekar då på egenskapen för koordinat som är tidigare definierat <em>en gång</em> och används <strong>för \"alla Wikidatas\" platsers koordinater</strong> osv...</li>\n<li>ovanstående schema i  <a href=\"http://shex.io/shex-semantics/#shexc\" rel=\"nofollow ugc\">ShEx</a> kan du validera dataset med ....\n<ul>\n<li>nog så viktigt om du skall hämta in dataset från <a href=\"https://w.wiki/4DAG\" rel=\"nofollow ugc\">hela världen</a> (jmf <a href=\"https://www.wikidata.org/wiki/Wikidata:WP_OGyms/Query_examples#SPARQL_OSM_sophox\" rel=\"nofollow ugc\">Open Street Map</a> dom har &gt; <a href=\"https://sophox.org/embed.html#%23%20leisure%20swimming_area%20in%20OSM%20with%20no%20Wikidata%20tag%0A%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fosm%20%3Fcoordinates%20%20%3Flayer%20%20WHERE%20%7B%0A%20%20%23%20Prevent%20optimizer%20from%20querying%20for%20everything%20tagged%20with%20wikidata%3D*%20before%20querying%20the%20service.%0A%20%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22%20.%0A%20%20%0A%20%20%23%20Query%20OpenStreetMap%20for%20leisure%20swimming_area%0A%20%20%3Fosm%20osmt%3Aleisure%20%22fitness_station%22.%0A%20%20OPTIONAL%20%7B%3Fosm%20(osmt%3Awikidata)%20%3FWD%7D%0A%20%20%20BIND(%0A%20%20%20IF(BOUND(%3FWD)%2C%20%22WIkidata%22%2C%22miss%20Wikidata%22)%20%20%20AS%20%3Flayer).%0A%0A%20%20%23%20Get%20coordinates%20to%20display%20on%20a%20map%0A%20%20%3Fosm%20osmm%3Aloc%20%3Fcoordinates.%0A%7D%0AORDER%20BY%20ASC(%3FmakeLabel)\" rel=\"nofollow ugc\">15 000 utegym</a> deras <a href=\"https://wiki.openstreetmap.org/wiki/Tag:leisure%3Dfitness_station\" rel=\"nofollow ugc\">beskrivning Tag:leisure=fitness_station</a>)</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Antal objekt i Wikidata som <a href=\"https://www.wikidata.org/wiki/Property_talk:P625\" rel=\"nofollow ugc\">använder P625</a></p>\n<ul>\n<li><em>geocoordinates of the subject. For Earth, please note that only WGS84 coordinating system is supported at the moment</em></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634108099320-f5575dd0-e9ca-4a48-9e4a-3f43e3a4e2ed-image.png\" alt=\"f5575dd0-e9ca-4a48-9e4a-3f43e3a4e2ed-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 846,
+      "tid": 508,
+      "timestamp": 1634108928288,
+      "toPid": "845",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-10-13T07:08:48.288Z",
+      "editedISO": "",
+      "index": 0,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Spännande du borde fråga om dom har <strong>öppna data</strong> om detta eller en kunskapsgraf....</p>\n<p dir=\"auto\">Jag har samlat <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Outdoor_Gyms\" rel=\"nofollow ugc\">in om utegym från &gt; 245 kommuner</a>. Försöker logga <a href=\"https://github.com/salgo60/ProjectOutdoorGyms/issues?q=is%3Aissue+\" rel=\"nofollow ugc\">dessa frågor på GITHUB</a> så andra kommuner ser vad andra svarar..... känner jag att det finns potential brukar jag ta med att det är bra om dom <a href=\"https://github.com/salgo60/ProjectOutdoorGyms/issues?q=is%3Aissue+label%3A%22%C3%B6ppna+data%22\" rel=\"nofollow ugc\">levererar öppna data</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1627135920567-8744d88b-e005-45b2-a184-3c20cbcc67d0-image.png\" alt=\"8744d88b-e005-45b2-a184-3c20cbcc67d0-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Tyvärr <a href=\"https://www.wikidata.org/wiki/Wikidata:WP_OGyms/Items#Sweden\" rel=\"nofollow ugc\">verkar inte mycket hända</a> gissar att det är fel laguppställning på alla platser i det Digitala laget ;-). Lite som Öppna Skolplattformen 2.0, <strong>Öppna data satsningar</strong> känns lite som att starta ett Taxibolag och anställa folk som inte har körkort....</p>\n<p dir=\"auto\">/med hopp om att jag har fel</p>\n",
+      "pid": 605,
+      "tid": 508,
+      "timestamp": 1627297501708,
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-07-26T14:54:50.680Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-07-26T11:05:01.708Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> kolla mina Wikidata ytor där har jag skurit per land och för Sverige kommun och vilka egenskaper vi har för detta</p>\n<p dir=\"auto\"><strong>Allt är enormt mycket enklare då vi har en kunskapsgraf i botten och har samma som</strong></p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Outdoor_Gyms\" rel=\"nofollow ugc\">Wikidata:WikiProject_Outdoor_Gyms</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663573740130-31690ff5-0488-47c3-8666-2878a83b7a79-image-resized.png\" alt=\"31690ff5-0488-47c3-8666-2878a83b7a79-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663573769485-aa10c848-9af1-4e50-be2d-ed7b3f6efa98-image-resized.png\" alt=\"aa10c848-9af1-4e50-be2d-ed7b3f6efa98-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>\n<p dir=\"auto\"><a href=\"https://w.wiki/3jjF\" rel=\"nofollow ugc\">Top 20 Swedish municipals regarding nr outdoor gyms per capita</a></p>\n</li>\n<li>\n<p dir=\"auto\"><a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_European_Bathing_Waters\" rel=\"nofollow ugc\">Wikidata:WikiProject European Bathing Waters</a></p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663573969089-4b380d1c-fe97-49b2-a6cb-0442e379eb01-image-resized.png\" alt=\"4b380d1c-fe97-49b2-a6cb-0442e379eb01-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>\n<p dir=\"auto\"><a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Svenska_badplatser\" rel=\"nofollow ugc\">Wikidata:WikiProject_Sweden/Svenska_badplatser</a></p>\n</li>\n<li>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> har satt upp för <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Swedish_Riksdag_documents\" rel=\"nofollow ugc\">Riksdagsdokument</a>  och <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_every_politician/Sweden\" rel=\"nofollow ugc\">Riksdagsledamöter</a> hade vi data skulle vi kunna göra det för kommuner. Det Jan gör (och många flera bl.a. Datastory) är en del i att samla in alla världens politiker se <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_every_politician\" rel=\"nofollow ugc\">Wikidata:WikiProject_every_politician</a></p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663574536798-edb3f4a8-888e-43c4-9414-ddbee09f02b4-image.png\" alt=\"edb3f4a8-888e-43c4-9414-ddbee09f02b4-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663574314962-c716d89f-cf28-4139-8882-8d7b5275e8b3-image.png\" alt=\"c716d89f-cf28-4139-8882-8d7b5275e8b3-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663574352507-c9a3b49b-f1e6-42eb-a748-8b47c7dae51c-image.png\" alt=\"c9a3b49b-f1e6-42eb-a748-8b47c7dae51c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>\n<p dir=\"auto\"><strong>den stora fördelen jag ser med en kunskapsgraf är att det går enkelt att skala</strong></p>\n</li>\n<li>\n<p dir=\"auto\">Exempelvis samlas alla administrativa indelningar på länder in se <a href=\"https://www.wikidata.org/wiki/Wikidata:WikiProject_Country_subdivision/Items\" rel=\"nofollow ugc\">Wikidata:WikiProject_Country_subdivision/Items</a></p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663574731775-11161251-9f6f-4dba-85b3-da7a40cb3fda-image.png\" alt=\"11161251-9f6f-4dba-85b3-da7a40cb3fda-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 2470,
+      "tid": 508,
+      "timestamp": 1663574739789,
+      "toPid": "2468",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-18T07:23:47.188Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-19T08:05:39.789Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><strong>Fråga</strong> Borde det inte kunna gå att se antal läsare på alla kommuners utegym sidor?</p>\n<p dir=\"auto\">Jag lägger nu in nya utegymen på Google Map och om vi får från <a href=\"https://w.wiki/5q44\" rel=\"nofollow ugc\">Google Map en identifierare så läggs den in i Wikidata SPARQL</a></p>\n<p dir=\"auto\">Från Google map får jag tillbaka antal visningar (ej per utegym utan i klump på dom jag skapat)</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1666077592636-daa9e536-a68c-4d20-9230-934f2c8ba071-image.png\" alt=\"daa9e536-a68c-4d20-9230-934f2c8ba071-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>Lägger in detta på <a href=\"https://github.com/salgo60/DiggUptime/issues/47\" rel=\"nofollow ugc\">DIGGs \"skugg backlog\"</a> som topic/508</li>\n</ul>\n",
+      "pid": 2925,
+      "tid": 508,
+      "timestamp": 1666077827188,
+      "toPid": "2470",
+      "uid": 24,
+      "edited": 1666077947842,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-18T07:23:47.188Z",
+      "editedISO": "2022-10-18T07:25:47.842Z",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 25,
+          "type": "move",
+          "uid": 62,
+          "id": 553,
+          "timestamp": 1666103242620,
+          "timestampISO": "2022-10-18T14:27:22.620Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Öppna standarder och format",
+            "slug": "25/öppna-standarder-och-format",
+            "icon": "fa-newspaper-o",
+            "color": "#fff",
+            "bgColor": "#5a6751"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Öppna standarder och format on <span class=\"timeago timeline-text\" title=\"2022-10-18T14:27:22.620Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 25,
+      "type": "move",
+      "uid": 62,
+      "id": 553,
+      "timestamp": 1666103242620,
+      "timestampISO": "2022-10-18T14:27:22.620Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Öppna standarder och format",
+        "slug": "25/öppna-standarder-och-format",
+        "icon": "fa-newspaper-o",
+        "color": "#fff",
+        "bgColor": "#5a6751"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Öppna standarder och format on <span class=\"timeago timeline-text\" title=\"2022-10-18T14:27:22.620Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "508",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/508.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/508",
+  "bodyClass": "page-topic page-topic-508 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Utegym och kunskapsgrafer"
+        },
+        {
+          "name": "description",
+          "content": "Roade mig med att återanvända definierade egenskaper i Wikidata och skapade ett enkelt utegym schema skrivet i ShEx tog 10 minuter lade sedan till 1200 svenska utegym / karta svenska / engelska  jmf ovanstående specande i flera månader inget data....  Ent..."
+        },
+        {
+          "property": "og:title",
+          "content": "Utegym och kunskapsgrafer"
+        },
+        {
+          "property": "og:description",
+          "content": "Roade mig med att återanvända definierade egenskaper i Wikidata och skapade ett enkelt utegym schema skrivet i ShEx tog 10 minuter lade sedan till 1200 svenska utegym / karta svenska / engelska  jmf ovanstående specande i flera månader inget data....  Ent..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-10-13T10:08:38.668Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-18T07:23:47.188Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1634106966682-996d7a3b-43ed-4ef8-90e7-78d4a4d4281e-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1634106966682-996d7a3b-43ed-4ef8-90e7-78d4a4d4281e-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2090"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1696"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1634108099320-f5575dd0-e9ca-4a48-9e4a-3f43e3a4e2ed-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1634108099320-f5575dd0-e9ca-4a48-9e4a-3f43e3a4e2ed-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "926"
+        },
+        {
+          "property": "og:image:height",
+          "content": "240"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/508",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/508/utegym-och-kunskapsgrafer",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/508.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

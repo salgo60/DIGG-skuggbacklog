@@ -1,0 +1,1767 @@
+{
+  "cid": 4,
+  "lastposttime": 1619545837750,
+  "mainPid": 282,
+  "postcount": 16,
+  "slug": "88/kategorisera-api-er-efter-datasort",
+  "tid": 88,
+  "timestamp": 1618295827935,
+  "title": "Kategorisera API:er efter datasort",
+  "uid": 128,
+  "viewcount": 1556,
+  "postercount": 6,
+  "downvotes": 0,
+  "upvotes": 0,
+  "teaserPid": 349,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Kategorisera API:er efter datasort",
+  "timestampISO": "2021-04-13T06:37:07.935Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-04-27T17:50:37.750Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Det finns flera sorters data i öppna APIer men varje API tenderar att hålla sig inom samma sort. Exempel på datasorter:</p>\n<ul>\n<li>Statistik</li>\n<li>Definitionsdata</li>\n<li>Mätdata (realtid eller inte)</li>\n<li>Relationsdata mellan olika grunddata</li>\n<li>\"Min data\". Det vill säga data jag kan enligt GDPR begära ut om mig själv.</li>\n</ul>\n<p dir=\"auto\">Det finns säkert någon slags datasort jag missat, men jag är ofta helt ointresserad av statistik som jag uppfattar upptar majoriteten av dataseten. Jag skulle önska en möjlighet att filtrera ut vissa av dessa kategorier när jag bläddrar igenom den oöverskådliga mängden av 7000+ API:er. Jag har exempelvis varit deltagare och organisatör på flertalet hackathons och problemet är att det är ofta helt oöverstigligt att sortera igenom denna enorma mängd av API:er för att hitta något intressant att basera en affärsidé eller verktygsidé på.</p>\n",
+      "pid": 282,
+      "tid": 88,
+      "timestamp": 1618295827935,
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-13T17:00:49.641Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-13T06:37:07.935Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> Det  här var ett perspektiv som jag inte tänkt på tidigare, bra att du lyfter det! Jag tycker att just användbarheten, inkl sökbarheten, är otroligt viktigt, annars är det svårt att hitta och använda data. Just den filtrering som du nämner har vi inte snappat upp, men jag känner att den platsar bra att titta på det i det fortsatta utvecklingsarbetet.</p>\n<p dir=\"auto\">En annan relaterad funktion som vi kommer att utreda inom ramen för ett \"avancerat sök\" är möjligheten att välja bort (inte bara lägga till ett filter), som att man ska kunna välja bort tex vissa organisationer (som SCB) som vet inte har den data man söker efter.  Vet inte om du använt forskningsdatabasen Scopus nånting, men dom har en väldigt effektivt sökfunktion där man bl.a. kan välja att \"include\" eller \"exclude\" delar inom olika filter.  Skulle en sån funktion förenkla för dina behov tror du?</p>\n",
+      "pid": 289,
+      "tid": 88,
+      "timestamp": 1618333249641,
+      "toPid": "282",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-14T08:26:46.527Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-13T17:00:49.641Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 290,
+      "tid": 88,
+      "timestamp": 1618388806527,
+      "toPid": "289",
+      "uid": 24,
+      "edited": 1618388922542,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 1,
+      "deleterUid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-14T08:26:46.527Z",
+      "editedISO": "2021-04-14T08:28:42.542Z",
+      "index": 2,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> Hej, mycket bra poäng. Säkerligen finns det både högt-och lågt hängande frukter att hämta här som tål att utforskas. Vi tar med oss frågan i det fortsatta arbetet med filtrering/sök.</p>\n<p dir=\"auto\">Spontant i min mening den lägsta frukten, att se över möjligheten att skapa ett filter utifrån <a href=\"https://docs.dataportal.se/dcat/sv/#5.4\" rel=\"nofollow ugc\">uppdateringsfrekvens</a>.</p>\n<p dir=\"auto\">Just att filtrera på de olika \"datasorterna\" är en klurigare nöt att knäcka men en idé är att i ett första steg undersöka om det finns en stabil vokabulär, som har en klassificering som mappar mot detta behov. <strong>Någon som har vetskap om en sådan vokabulär?</strong></p>\n",
+      "pid": 291,
+      "tid": 88,
+      "timestamp": 1618409049660,
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 162,
+            "username": "copen90",
+            "userslug": "copen90",
+            "picture": null,
+            "fullname": null,
+            "displayname": "copen90",
+            "icon:text": "C",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-27T17:50:37.750Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-14T14:04:09.660Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag tror att med en exclude-include-lösning som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> pratar om för de existerande parametrarna kan vi säkerligen komma riktigt långt med. Det är svårt för mig att resonera fram om det räcker eftersom mängden jag vill filtrera bland för att hitta en okänd guldnål i en höstack är så stor och jag inte vet om guldnålen finns där. Det är mer en explorativ sökning.</p>\n<p dir=\"auto\">Angående @salgo60's lösning så känns den ganska överingenjörad och det är svårt att fylla caset \"Jag vill hitta en datamängd jag kan vinna ett hackathon eller bygga en unik affärsidé på\" är särdeles enkel att lösa med hjälp av ML just eftersom jag vill åt de datamängderna som inte är populärast eller nödvändigtvis har högst uppdateringsfrekvens. Det är ju inte ens så att vi optimerar för en återkommande besökare nödvändigtvis i detta fall utan bara göra datamängden mer utforskningsbar.</p>\n<p dir=\"auto\">@salgo60 det skulle lämpa sig om du bröt ut ditt inlägg om DCAT-AP-SE till en egen tråd tror jag, det har inte riktigt med detta ämne att göra.</p>\n",
+      "pid": 292,
+      "tid": 88,
+      "timestamp": 1618409933282,
+      "uid": 128,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-14T16:35:42.002Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-14T14:18:53.282Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> hur löser du user caset \"Jag vill hitta liknande datamängd som jag har hämta hos <a href=\"http://dataportalen.se\" rel=\"nofollow ugc\">dataportalen.se</a> hos alla andra Europeiska dataportaler\"</p>\n<p dir=\"auto\">där måste man tänka lite större och se till att alla datamängder knyts ihop. Idag görs det 8 ggr av 10 med en kunskaps graf jmf <a href=\"https://www.youtube.com/watch?v=mmQl6VGvX-c\" rel=\"nofollow ugc\">Google</a>, designar man bara för \"svenska\" lösningar så måste man snart tillbaka till ritbordet...</p>\n",
+      "pid": 293,
+      "tid": 88,
+      "timestamp": 1618418142002,
+      "toPid": "292",
+      "uid": 24,
+      "edited": 1618418167104,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-14T17:10:07.314Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-14T16:35:42.002Z",
+      "editedISO": "2021-04-14T16:36:07.104Z",
+      "index": 5,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Återanvänd gärna arbetsförmedlingens lösning för Platsbanken (eller vår kompetens runt sök/filtrering). Dagligen hanteras ca 60 000 annonser och görs sökbara ur en mängd olika perspektiv. Ni hittar lösningen på github <a href=\"https://github.com/JobtechSwe/sokannonser-api\" rel=\"nofollow ugc\">https://github.com/JobtechSwe/sokannonser-api</a> och det är enkelt att komma igång med sökmotorer såsom elastic. (Lämpar sig väl för sök/filtrering)</p>\n",
+      "pid": 294,
+      "tid": 88,
+      "timestamp": 1618420207314,
+      "toPid": "293",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-04-14T17:10:07.314Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Det är en separat tråd i mina ögon. Starta gärna en tråd om det. Superviktigt ämne, men det har inget att göra med \"hitta ett intressant dataset i en okänd mängd av dataset\". Ur ett systemförvaltarperspektiv är det såklart intressant men det ser jag inte som samma use case och det är heller inte syftet med min fråga. Att dataset är ihopkopplade över världen löser ju nämligen inte heller mitt problem.</p>\n",
+      "pid": 295,
+      "tid": 88,
+      "timestamp": 1618475013489,
+      "toPid": "293",
+      "uid": 128,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-15T10:38:07.979Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-15T08:23:33.489Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> jag tar bort det om det stör. Är inte säker att du ser det problem jag ser</p>\n<ul>\n<li>DCAT-AP-SE diskuteras här <a href=\"https://github.com/DIGGSweden/DCAT-AP-SE/issues/84\" rel=\"nofollow ugc\">Issues/84</a></li>\n</ul>\n",
+      "pid": 298,
+      "tid": 88,
+      "timestamp": 1618483087979,
+      "toPid": "295",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-15T10:38:07.979Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> Tack för feedbacken, vi jobbar vidare med en ”exclude” funktionalitet och hoppas att det blir bra:) En annan sak som dykt upp i tester och som också kanske skulle bidra till enklare utforskning av data är dels om datamängder går att beskriva i ”antal datapunkter” för att man enklare ska kunna avgöra storleken och om det är nåt data som går att använda för AI eller maskininlärning. Ett stöd för samma syfte är att göra det tydligt vilka datamängder som bygger på samma specifikation (typ... en ”Tips! Dom här datamängder använder samma specifikation.) Vi har ingen aning om hur svårt eller om det ens går att realisera detta eller inte i dagsläget, men det vore intressant med din synpunkt även här.</p>\n",
+      "pid": 301,
+      "tid": 88,
+      "timestamp": 1618485725113,
+      "toPid": "292",
+      "uid": 118,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-15T11:22:05.113Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> lite synd att ni känner att ni måste jobba vidare med en exclude-funktionalitet. I en korrekt vald arkitektur så skulle, som @salgo60 redan påtalat, det redan fungera.</p>\n<p dir=\"auto\">T.ex. om ni skulle ha en wikibase-installation som bas så är det bara ytterligare ett attribut som ni kan lägga på och det måste inte finnas på alla API:er. Då skulle vi kunna låta våra pengar gå till exempelvis att bygga wikigames som hjälper administratörer och frivilliga att fylla i uppgifterna i schyssta gui och låta API-nyttjare filtrera med sparql-frågor, eller till och med bygga schysta sparql-filtrerings-gui:n</p>\n<p dir=\"auto\">\"antal datapunkter\" är på sätt och vis ett konstigt attribut eftersom det oftast ändrar sig över tid. <em>Även antalet kommuner har ju ändrats över tid (1952 var det över 2000 kommuner i Sverige).</em>  Det är ju även så att inte bara storleken utan även hastigheten är intressant för att uppfatta eventuella skalningsproblem eller om datan är omfattande nog.</p>\n<p dir=\"auto\">För \"dessa datamängder bygger på samma specifikation\" så är du ju inne på det som @salgo60 pratar om när det gäller persistenta identifierare av specifikationen och en referens till den identifieraren bör finnas med i filtreringsurvalet och data-mängden.</p>\n",
+      "pid": 314,
+      "tid": 88,
+      "timestamp": 1618957487384,
+      "uid": 128,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-22T07:55:51.870Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-20T22:24:47.384Z",
+      "editedISO": "",
+      "index": 10,
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> Om jag ibland använder konstiga uttryck så är det för att jag inte är en programmerare. Mitt uppdrag är att främja en bred användning av data, alltså även för dom som inte har en lika hög teknisk kompetens som ni har:) So, \"bare with me\":) Begreppet 'antal datapunkter' har jag dock inte hittat på själv, det kommer från ett användartest med en person som driver ett företag inom machine learning. Och vår målsättning är att göra dataportalens datamängder enklare att använda även i detta sammanhang... och då lyftes detta upp som en väldigt viktig parameter (bland flera).  Och missförstod jag dig här ovan när du skrev att en \"exclude funktionalitet\", som del av en mer avancerad sök, ändå skulle göra det enklare att filtrera fram intressanta datamängder?</p>\n",
+      "pid": 321,
+      "tid": 88,
+      "timestamp": 1619078151870,
+      "toPid": "314",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-22T11:16:52.289Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-22T07:55:51.870Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> appropå persistenta identifierare så har vi med det i <a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/oppna-och-delade-data/offentliga-aktorer/vagledning-tillgangliggora\" rel=\"nofollow ugc\">vägledningen</a> för att tillgängliggöra information. Men det behöver absolut utvecklas så det står redan med på vår \"to do\" lista.</p>\n",
+      "pid": 322,
+      "tid": 88,
+      "timestamp": 1619078968159,
+      "toPid": "314",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-27T21:37:44.445Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-22T08:09:28.159Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> sa i <a href=\"/post/321\">Kategorisera API:er efter datasort</a>:</p>\n<blockquote>\n<p dir=\"auto\">Och missförstod jag dig här ovan när du skrev att en \"exclude funktionalitet\", som del av en mer avancerad sök, ändå skulle göra det enklare att filtrera fram intressanta datamängder?</p>\n</blockquote>\n<p dir=\"auto\">Jag tycker det är bra att ha, men är inne på samma linje som @salgo60 att bygga varje sätt att filtrera en i taget är lite synd att ni ska behöva lägga tid på. Snarare är det bättre att ha eller skapa ett generellt sätt att ställa valfri filtrering av valfri metadata-punkt om api:erna.</p>\n<p dir=\"auto\">Jämför gärna med wikidata query eller med prisjakt som har väldigt många olika flexibla sätt att filtrera en stor databas på baserat på just metadata.</p>\n",
+      "pid": 328,
+      "tid": 88,
+      "timestamp": 1619090212289,
+      "toPid": "321",
+      "uid": 128,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-23T09:34:28.858Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-22T11:16:52.289Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> Håller med dig om att det inte alltid blir bra om man \"duttar\"... Just tankarna på den här specifika \"exclude\" funktionen ingår i ett större arbete kring ett avancerat sök där jag hoppas att vi försöker nå det du pratar om. Jag provtryckte bara en del mot dig, går fortare än att förklara ett helt koncept som inte är klart:)</p>\n<p dir=\"auto\">Och där tänker vi benchmarka lite, så vi kan absolut plocka in prisjakt och wikidata query också som exempel. Något jag personligen tycker är väldigt bra är också Scopus forskningsdatabas där man med enkla medel (bl.a. \"limit to\"/\"exclude\", OCH/ELLER funktionalitet , ett flertal filter/kategorier, frisök mm) ganska snabbt kan hitta ungefär det man söker efter i en databas med flera tusentals artiklar. Men jag tar med mig dina tips!</p>\n",
+      "pid": 332,
+      "tid": 88,
+      "timestamp": 1619170468858,
+      "toPid": "328",
+      "uid": 118,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-23T16:20:59.834Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-23T09:34:28.858Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a><br />\nJag håller med om att filter på uppdateringsfrekvens vore lämpligt att implementera.<br />\nDet hade underlättat väldigt mycket.<br />\nÄr det något som är planerat?</p>\n",
+      "pid": 349,
+      "tid": 88,
+      "timestamp": 1619545837750,
+      "toPid": "291",
+      "uid": 162,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-27T17:50:37.750Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 162,
+        "username": "copen90",
+        "userslug": "copen90",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1619548636271,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "copen90",
+        "groupTitleArray": [],
+        "icon:text": "C",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2021-04-27T18:37:16.271Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "88",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/88.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/88",
+  "bodyClass": "page-topic page-topic-88 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Kategorisera API:er efter datasort"
+        },
+        {
+          "name": "description",
+          "content": "Det finns flera sorters data i öppna APIer men varje API tenderar att hålla sig inom samma sort. Exempel på datasorter:  Statistik Definitionsdata Mätdata (realtid eller inte) Relationsdata mellan olika grunddata &quot;Min data&quot;. Det vill säga data jag kan enl..."
+        },
+        {
+          "property": "og:title",
+          "content": "Kategorisera API:er efter datasort"
+        },
+        {
+          "property": "og:description",
+          "content": "Det finns flera sorters data i öppna APIer men varje API tenderar att hålla sig inom samma sort. Exempel på datasorter:  Statistik Definitionsdata Mätdata (realtid eller inte) Relationsdata mellan olika grunddata &quot;Min data&quot;. Det vill säga data jag kan enl..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-04-13T06:37:07.935Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-27T17:50:37.750Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/88",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/88/kategorisera-api-er-efter-datasort",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/88.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/stefan-wallin"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

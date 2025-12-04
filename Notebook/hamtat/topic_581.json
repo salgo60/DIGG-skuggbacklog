@@ -1,0 +1,957 @@
+{
+  "cid": 23,
+  "lastposttime": 1669118946808,
+  "mainPid": 3267,
+  "postcount": 7,
+  "slug": "581/förändring-av-dataportal-se",
+  "tid": 581,
+  "timestamp": 1668772288255,
+  "title": "Förändring av Dataportal.se",
+  "uid": 117,
+  "viewcount": 504,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 3386,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Förändring av Dataportal.se",
+  "timestampISO": "2022-11-18T11:51:28.255Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-22T12:09:06.808Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">DIGG vill informera om att Utvecklarportalen (<a href=\"http://dev.dataportal.se\" rel=\"nofollow ugc\">dev.dataportal.se</a>) och Offentlig AI (<a href=\"http://offentligai.se\" rel=\"nofollow ugc\">offentligai.se</a>) flyttar över till den nya dataportalen i och med de förändringar som kommer att ske med <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a>, <a href=\"https://www.dataportal.se/sv/nyheter/19/se-den-nya-dataportalen-vaxa-fram\" rel=\"nofollow ugc\">Se den nya dataportalen växa fram - dataportal.se.</a> När förändringen väl har gjorts kommer du att hänvisas från de gamla webbplatserna till det nya.</p>\n<p dir=\"auto\">De förändringar som kommer att ske nu under hösten är att <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a> kommer att få ett nytt utseende, nytt innehåll och flera nya funktioner. Tanken är att dataportalen framöver ska användas som en samverkansyta inom områdena data, API, AI och öppen källkod. De funktioner som idag finns på dataportalen och Communityt som finns kopplat till portalen kommer finnas kvar.</p>\n<p dir=\"auto\">Observera att du som dataproducent inte kommer att märka några skillnader i ert arbetet med att synliggöra era datamängder på <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a>.</p>\n",
+      "pid": 3267,
+      "tid": 581,
+      "timestamp": 1668772288255,
+      "uid": 117,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-18T23:12:33.714Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-11-18T11:51:28.255Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/117\">@jenniferskoglund</a></p>\n<blockquote>\n<p dir=\"auto\">I det första steget får de ett nytt utseende.</p>\n</blockquote>\n<p dir=\"auto\">Ok, ny webbdesign.</p>\n<blockquote>\n<p dir=\"auto\">Därefter är det dags att lansera nya funktioner och nytt innehåll.</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">Tanken är att dataportalen framöver ska användas som en samverkansyta inom områdena data, API, AI och öppen källkod.</p>\n</blockquote>\n<p dir=\"auto\">Vad innebär detta? Finns det mer information om funktionaliteten och bakomliggande teknologi någonstans?</p>\n",
+      "pid": 3282,
+      "tid": 581,
+      "timestamp": 1668813153714,
+      "toPid": "3267",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-21T10:19:35.289Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-18T23:12:33.714Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jenniferskoglund",
+        "displayname": "jenniferskoglund"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> När vi vet mer exakt kommer vi att kommunicera detta. Det kommer att finnas information om hur den är byggd när den lanseras.</p>\n",
+      "pid": 3330,
+      "tid": 581,
+      "timestamp": 1669025975289,
+      "toPid": "3282",
+      "uid": 117,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-21T10:19:35.289Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Du kan redan nu gå in på <a href=\"https://offentligkod.se/\" rel=\"nofollow ugc\">https://offentligkod.se/</a> och söka på DIGG, så ser du vilka öppna programvaror vi använder.<br />\nVi kommer ha en mer detaljerad lista på vilken öppen programvara vi använder i vår teknikstack när vi går live, där kan du läsa på detaljnivån CKEditor, GraphQL etc.</p>\n<p dir=\"auto\">Vi har inte förändrat tekniken i så stor utsträckning sedan vi migrerade från EPI till Strapi i våras, det var då vi gjorde tekniklyftet. Det var framför allt content som vi behövde komplettera den här gången.</p>\n",
+      "pid": 3334,
+      "tid": 581,
+      "timestamp": 1669028181702,
+      "toPid": "3282",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-21T20:32:30.014Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-21T10:56:21.702Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> Alltid något. Ni kunde kanske säga något också om vilken funktionalitet ni arbetar med innan lansering. Det är svårt att förstå hur planeringen går till och för vem och vilka behov ni skapar de nya funktionerna.</p>\n<p dir=\"auto\">EPI är kanske intern jargong, men jag gissar att det handlar om ett proprietärt CMS. Har ni delat några erfarenheter av denna övergång?</p>\n",
+      "pid": 3349,
+      "tid": 581,
+      "timestamp": 1669062750014,
+      "toPid": "3334",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-22T08:59:49.395Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-21T20:32:30.014Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Jag har skrivit en del i forumet om att vi har gått över från EPIserver till Strapi nu under våren och att det har inneburit en migrering. Vi har fortfarande kvar EntryScape Blocks för metadata och React-klienten för användargränssnittet, som förut.<br />\nVi har inte fört in särskilt mycket ny funktionalitet.<br />\nDe uppdrag vi främst jobbar mot är Byggblock API-hantering, Datauppdraget och AI-uppdraget. Datauppdraget har jag lagt upp länken till, jag kan göra det igen om du vill, och även till de andra två. Roadmap för funktionalitet kring Byggblock API-hantering kan man läsa om i den specen.<br />\nAI-uppdraget behöver en del ny funktionalitet, men den är ganska enkel. Dels återinför vi embedded film, dels lägger vi in en enkel funktionalitet för ett frågeformulär. Detta kommer senare under vintern. Ni kommer kunna läsa om det på dataportalen om ni klickar på Välkommen.<br />\nDet är framför allt content vi har jobbat med under hösten.</p>\n",
+      "pid": 3366,
+      "tid": 581,
+      "timestamp": 1669107589395,
+      "toPid": "3349",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-22T08:59:49.395Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Uppdragen:<br />\nAnledningen till det nya utseendet och det nya innehållet kommer från att vi levererar datauppdraget och AI-uppdraget på samma portal, eftersom frågorna ligger så nära varandra. Vi har också tagit med öppen källkod, dels eftersom vi tycker det hör hemma på en digital arena och dels eftersom vi bygger dataportalen med öppen programvara och öppen källkod och därför vill vara transparenta med det.</p>\n<p dir=\"auto\">Datauppdraget hittar du här:<br />\n<a href=\"https://www.regeringen.se/regeringsuppdrag/2021/06/uppdrag-att-framja-delning-och-nyttiggorande-av-data/\" rel=\"nofollow ugc\">https://www.regeringen.se/regeringsuppdrag/2021/06/uppdrag-att-framja-delning-och-nyttiggorande-av-data/</a></p>\n<p dir=\"auto\">AI-uppdraget hittar du här:<br />\n<a href=\"https://regeringen.se/regeringsuppdrag/2021/06/uppdrag-att-framja-offentlig-forvaltnings-formaga-att-anvanda-artificiell-intelligens/\" rel=\"nofollow ugc\">https://regeringen.se/regeringsuppdrag/2021/06/uppdrag-att-framja-offentlig-forvaltnings-formaga-att-anvanda-artificiell-intelligens/</a></p>\n<p dir=\"auto\">Specen för Enas Byggblock API-hantering finns längst ner på den här sidan, där står mycket av vår roadmap. Det är t ex på väg en innehållssök, den är identifierad i den här specen.<br />\n<a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/byggblock\" rel=\"nofollow ugc\">https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/byggblock</a></p>\n",
+      "pid": 3386,
+      "tid": 581,
+      "timestamp": 1669118946808,
+      "toPid": "3349",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-22T12:09:06.808Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "581",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/581.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/581",
+  "bodyClass": "page-topic page-topic-581 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Förändring av Dataportal.se"
+        },
+        {
+          "name": "description",
+          "content": "DIGG vill informera om att Utvecklarportalen (dev.dataportal.se) och Offentlig AI (offentligai.se) flyttar över till den nya dataportalen i och med de förändringar som kommer att ske med Dataportal.se, Se den nya dataportalen växa fram - dataportal.se. Nä..."
+        },
+        {
+          "property": "og:title",
+          "content": "Förändring av Dataportal.se"
+        },
+        {
+          "property": "og:description",
+          "content": "DIGG vill informera om att Utvecklarportalen (dev.dataportal.se) och Offentlig AI (offentligai.se) flyttar över till den nya dataportalen i och med de förändringar som kommer att ske med Dataportal.se, Se den nya dataportalen växa fram - dataportal.se. Nä..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-18T11:51:28.255Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-22T12:09:06.808Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/581",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/581/förändring-av-dataportal-se",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/581.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jenniferskoglund"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

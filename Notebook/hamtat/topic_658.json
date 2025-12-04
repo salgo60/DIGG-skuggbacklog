@@ -1,0 +1,615 @@
+{
+  "cid": 31,
+  "lastposttime": 1671633469924,
+  "mainPid": 3823,
+  "postcount": 1,
+  "slug": "658/prototyp-kundhändelsetypskatalog",
+  "tags": [
+    {
+      "value": "mina ärenden",
+      "valueEscaped": "mina ärenden",
+      "valueEncoded": "mina%20%C3%A4renden",
+      "class": "mina-ärenden"
+    },
+    {
+      "value": "byggblock",
+      "valueEscaped": "byggblock",
+      "valueEncoded": "byggblock",
+      "class": "byggblock"
+    },
+    {
+      "value": "kundhändelse",
+      "valueEscaped": "kundhändelse",
+      "valueEncoded": "kundh%C3%A4ndelse",
+      "class": "kundhändelse"
+    }
+  ],
+  "tid": 658,
+  "timestamp": 1671633469924,
+  "title": "Prototyp Kundhändelsetypskatalog",
+  "uid": 454,
+  "viewcount": 346,
+  "postercount": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Prototyp Kundhändelsetypskatalog",
+  "timestampISO": "2022-12-21T14:37:49.924Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-12-21T14:37:49.924Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "teaserPid": null,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Mina ärenden har lagt ut en första enkel prototyp på en s.k. kundhändelsetypskatalog på dataportalen. Kundhändelsetypskatalogen tror vi är är förutsättningsskapande för att t.ex.</p>\n<ul>\n<li>ärendeåterkoppling producenter emellan ska bli mer likartad då producenter får insyn i hur andra utformat sin ärendeåterkoppling, detta bör på sikt leda till att upplevelsen av s.k. \"mydighetska\" minskar,</li>\n<li>det ska bli överskådligt för en konsument vilken ärendeåterkoppling som finns tillgänglig och ha förutsättningar för att kunna ta beslut huruvida relevant information finns för att realisera vissa tjänster</li>\n<li>få förståelse för vilken typ av ärendeåterkoppling som finns, men också saknas, för att tillgodose behov av ärendeåterkoppling inom t.ex. en viss livssituation</li>\n<li>för en konsument att förstå hur kundhändelsetyper förhåller sig till varandra i ett prpducentärende och hur ärendeåterkopplingen är utformad</li>\n</ul>\n<p dir=\"auto\">Realiserandet av katalogen som en teknisk komponent är inget som ligger i planerna i närtid.  Men vi har valt att ta fram en enkel prototyp för att kunna ha något mer konkret att diskutera utifrån för att bättre förstå behov och krav på en ev. framtida lösning.</p>\n<p dir=\"auto\">Prototypen finns tillgänglig via Mina ärenden på dataportal eller via denna <a href=\"https://master.d3o9nxu4589wjd.amplifyapp.com/\" rel=\"nofollow ugc\">länk.</a></p>\n<p dir=\"auto\">Vi tar gärna emot  synpunkter, tankar och ideér i tråden nedan.</p>\n<p dir=\"auto\">För den som vill veta mer så beskrivs tankarna bakom kundhändelsetypskatalogen närmare nedan.</p>\n<hr />\n<h1>Varför en kundhändelsetypskatalog?</h1>\n<p dir=\"auto\">En konsument-tjänst kommer med hjälp av standardiserade tjänster inom Mina ärenden kunna hämta kundhändelser ifrån en eller flera producenter.  Det finns vissa urvalsmöjligheter i dessa hämtningar, men i slutändan kommer konsument-tjänsten ändå att ha en lista med kundhändelser av olika typer.</p>\n<p dir=\"auto\">Om konsument-tjänsten erbjuder en mer sofistikerad vy över kundhändelserna än bara en kronologisk lista så behöver kundhändelserna grupperas och sorteras in i de producentärenden som de tillhör.  Dessutom kan det vara så att vissa kundhändelser 'saknas', dvs konsument-tjänsten hade förväntat sig att få dem, men de dök inte upp i listan av kundhändelser som hämtades.  Hur vet konsument-tjänsten att vissa kundhändelser 'saknas'?</p>\n<p dir=\"auto\">Låt oss ta ett enkelt exempel, återigen med Pias Tacotruck och vår fiktiva företagstjänst.</p>\n<p dir=\"auto\">Företagstjänsten har tidigare kommit fram till att Pia behöver genomgå fyra producentärenden (exakt hur det har gått till och hur den informationen är lagrad har inte med kundhändelsetypskatalogen att göra utan beskrivs på andra ställen):</p>\n<ul>\n<li>Anmäla verklig huvudman hos Bolagsverket</li>\n<li>Registrera sig som arbetsgivare hos Skatteverket</li>\n<li>Registrera varumärke hos Patent och registreringsverket</li>\n<li>Anmäla fettavskiljare hos Stockholms stad.</li>\n</ul>\n<p dir=\"auto\">Företagstjänsten har nu hämtat följande lista med kundhändelser ifrån några producenter (och sedan lagt ihop svaren ifrån respektive konsument till en och samma lista).  Notera att alla dessa värden är påhittade för exemplets skull. I verkligheten kan kundhändelser av dessa typer ha andra id:n, andra kundhändelsetyper och andra rubriker.</p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Id</th>\n<th>Tidpunkt</th>\n<th>Producent</th>\n<th>Kundhändelsetyp</th>\n<th>Rubrik</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>2022-06-20 15:12:32</td>\n<td>Skatteverket</td>\n<td>SKV.ARBETSGIVARE.ANSOKAN</td>\n<td>Ansökan mottagen för arbetsgivarregistrering</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2022-06-21 09:32:12</td>\n<td>Patent och registreringsverket</td>\n<td>PRV.VARUMARKE.ANSOKAN</td>\n<td>Ansökan mottagen för varumärkesregistering</td>\n</tr>\n<tr>\n<td>3</td>\n<td>2022-06-21 14:12:49</td>\n<td>Stockholms stad</td>\n<td>KOMMUN.FETTAVSKILJARE.ANSOKAN</td>\n<td>Ansökan mottagen för fettavskiljare</td>\n</tr>\n<tr>\n<td>4</td>\n<td>2022-07-01 09:03:05</td>\n<td>Skatteverket</td>\n<td>SKV.ARBETSGIVARE.HANDLAGGNING</td>\n<td>Handläggning påbörjad för arbetsgivarreigstrering</td>\n</tr>\n<tr>\n<td>5</td>\n<td>2022-07-04 11:32:54</td>\n<td>Stockholms stad</td>\n<td>KOMMUN.FETTAVSKILJARE.HANDLAGGNING</td>\n<td>Handläggning påbörjad för fettavskiljare</td>\n</tr>\n<tr>\n<td>6</td>\n<td>2022-07-04 13:21:15</td>\n<td>Skatteverket</td>\n<td>SKV.ARBETSGIVARE.BESLUT</td>\n<td>Beslut fattat för arbetsgivarregistrering</td>\n</tr>\n<tr>\n<td>7</td>\n<td>2022-07-04 14:12:35</td>\n<td>Patent och registreringsverket</td>\n<td>PRV.VARUMARKE.KOMPLETTERING</td>\n<td>Komplettera din ansökan för varumärke</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\">Om detta var all information som företagstjänsten kände till så hade den iofs kunnat placera in dessa kundhändelser i respektive producentärende, men den hade inte kunnat förstå om producentärendena är klara eller om det är kundhändelser som borde ha hänt men ännu inte gjort det.</p>\n<p dir=\"auto\">För att få en fullödig bild av hur det går för Pia med sina producentärenden behöver företagstjänsten också förstå hur respektive producentärende borde gå till och vilka kundhändelser som borde komma.  Alltså behöver den förstå för respektive typ av producentärende, vilka typer av  kundhändelser som kommer då och i vilken ordning.  Dessutom behöver den förstå vilken kundhändelsetyp som indikerar att respektive producentärende är klart (åtminstone såsom producenten ser det).</p>\n<h1>Vilken information finns i katalogen?</h1>\n<p dir=\"auto\">Kundhändelsetypskatalogen innehåller information om följande entiteter:</p>\n<ul>\n<li>Kundhändelsetyper</li>\n<li>Producentärendetyper.</li>\n</ul>\n<p dir=\"auto\">För varje producentärendetyp (<em>Arbetsgivarregistrering, varumärkesregistrering, fettavskiljare, verklig huvudman</em> i exemplet ovan) innehåller kundhändelsetypskatalogen information om:</p>\n<ul>\n<li>Namn på producentärendetypen</li>\n<li>Producentärendetypens identifierare (den text som står i mitten-fältet av kundhändelsetypsnamnet i tabellen ovan, alltså <em>ARBETSGIVARE, VARUMARKE</em> etc)</li>\n<li>Flödet av kundhändelsetyper som skapas när en kund genomgår en instans av producentärendet.  I flödesbeskrivningen ingår:\n<ul>\n<li>Startpunkt</li>\n<li>Vilka kundhändelsetyper en kund kan passera och i vilken ordning</li>\n<li>Vilken/vilka kundhändelsetyp som indikerar att producenten anser att flödet är klart och producentärendet därmed är avslutat<br />\n(kundhändelser av dessa kundhändelsetyper har värdet true på attributet producentarendetKlart)</li>\n<li>Vilka kundhändelsetyper som indikerar att kunden behöver göra någonting för att flödet skall fortskrida<br />\n(kundhändelser av dessa kundhändelsetyper har värdet true på attributet producentarendetKraverKundatgard)</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Flödet kan illustreras i ett flödesschema som skulle kunna se ut så här:</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1671631767391-fl%C3%B6desschema.png\" alt=\"flödesschema.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Exemplet ovan visar hur producentärendetypen för momsdeklaration skulle kunna se ut hos Skatteverket.  Observera att det är endast ett exempel.  Den riktiga processen kan absolut se annorlunda ut med andra kundhändelsetyper och ett annat flöde.</p>\n<p dir=\"auto\">Producentärenden av denna typ börjar i pricken längst upp i diagrammet.  Varje ruta beskriver kundhändelser som skickas när producentärendet fortlöper.  Pilarna representerar möjliga ordningar mellan kundhändelsetyperna.  Pricken med ram längst ned visar att när sista kundhändelsetypen kommit (i detta exempel Moms betalad) så anser producenten (i exemplet Skatteverket) att producentärendet är avslutat.  Kunden kan mycket väl ha en annan uppfattning och vilja fortsätta handläggningen via ett överklagande eller liknande.  Överklagandet kan tänkas ingå i samma producentärende och i så fall bör flödet illustrera det.  I detta exempel hanteras istället ett eventuellt överklagande i en annan producentärendetyp.</p>\n<p dir=\"auto\">För varje kundhändelsetyp som finns i kundhändelsetypskatalogen SKALL följande information finnas lagrad:</p>\n<ul>\n<li>Namn</li>\n<li>Identifierare (kundhändelsetyp med de 3 fälten för Aktör, Producentärendetyp och Steg)</li>\n<li>Relationer till övriga kundhändelsetyper via flödesdiagrammen för respektive producentärendetyp.</li>\n<li>Vilken behörighet som krävs för att få ta del av kundhändelser av denna typ</li>\n<li>URL/Pekare till producentens API där man kan hämta kundhändelser av denna typ</li>\n</ul>\n<p dir=\"auto\">Dessutom KAN följande information finnas lagrad</p>\n<ul>\n<li>Rubrik</li>\n<li>Beskrivning</li>\n<li>URL/Pekare till producentens dokumentation över kundhändelser av denna typ</li>\n</ul>\n<h1>Skapa förståelse för information och flöden i kundhändeltypskatalogen</h1>\n<p dir=\"auto\">Med hjälp av informationen som finns i kundhändelsetypskatalogen kan en konsumenttjänst skapa förståelse för listan av kundhändelser som den har fått ifrån producenterna.  Tabellen ovan med kundhändelser kan placeras in i respektive producentärende och konsumenttjänsten kan också förstå vilka kundhändelser som ännu inte kommit för respektive producentärende.  På så sätt kan konsumenttjänsten avgöra status i respektive producentärende, se vilka som är färdiga och vilka som ännu ej påbörjats.</p>\n<p dir=\"auto\">Med informationen om kundhändelser som faktiskt inträffat (instanserna i tabellen ovan) och vilka som borde komma i respektive producentärende (kundhändelsetyper i respektive producentärendetyp i från kundhändelsetypskatalogen) kan en konsumenttjänst skapa användargränssnitt som liknar vårt exempel i företagstjänsten:</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1671631915314-image2022-7-7_13-55-59.png\" alt=\"image2022-7-7_13-55-59.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">I exemplet ser vi 4 instanser av producentärenden som kunden (Pia) behöver genomgå.  Detta är de 4 producentärenden som beskrevs längst upp i detta dokument:</p>\n<ul>\n<li><strong>Anmäl verklig huvudman (BV)</strong><br />\nEftersom listan av kundhändelser som hämtats inte innehåller någon kundhändelse ifrån denna producentärendetyp vet konsumenttjänsten att detta producentärende ännu ej är påbörjat.</li>\n<li><strong>Registrera dig som arbetsgivare (SKV)</strong><br />\nIfrån kundhändelsetypskatalogen förstår konsumenttjänsten att denna producentärendetyp har tre steg med tre kundhändelser.  Alla dessa finns det instanser ifrån i listan av kundhändelser och därmed kan alla visas som genomförda</li>\n<li><strong>Registrera varumärke (PRV)</strong><br />\nIfrån kundhändelsetypskatalogen kan konsumenttjänsten förstå att det finns ett alternativflöde där komplettering krävs (liknande moms-exemplet ovan).  Det finns en kundhändelse av rätt typ för komplettering och denna har en kundhändelsekategori som indikerar att bollen ligger hos kunden.  Konsumenttjänsten kan därför välja att visa alternativflödet och dessutom med en ikon indikera att bollen ligger hos kunden.</li>\n<li><strong>Anmäl fettavskiljare (Sthlm stad)</strong><br />\nI kundhändelsetypskatalogen ser konsumenttjänsten att det finns tre kundhändelser som skall komma för att producentärendet skall anses vara klart.  Dock finns bara två av dessa representerade i listan av kundhändelser som faktiskt kommit och därför kan konsumenttjänsten visa att de två första är genomförda, men inte den sista</li>\n</ul>\n<h1>Flera producenter med samma typer (kommuner eller regioner)</h1>\n<p dir=\"auto\">Kundhändelser som kommer ifrån myndigheter är (i det här sammanhanget) enkla eftersom myndigheten har 'monopol' på sitt verksamhetsområde och därför finns det endast en producent (myndigheten) som producerar kundhändelser i de producentärendetyper som myndigheten ansvarar för.</p>\n<p dir=\"auto\">Men i fallet kommuner och regioner blir det lite mer komplicerat.  Här finns flera producenter som har ansvar för samma verksamhetsområde.  Det är till exempel flera kommuner som hanterar samhällsbyggnadsprocessen och därför skapar kundhändelser för till exempel hantering av bygglov.  Dessutom finns ett självstyre som gör att kommunerna eller regionerna har rätt att organisera sin verksamhet såsom de själva finner bäst.  Förutsättningarna för att bygga IT-stöd varierar också kraftigt mellan olika kommuner och regioner.  Detta kan leda till att samma producentärendetyp (t ex hantera bygglov) har olika grad av digitalisering hos olika producenter.</p>\n<p dir=\"auto\">Det är därför inte sannolikt att dessa producentärendetyper kommer att han en och samma bild över vilka kundhändelser som uppstår i dem hos olika producenter (samma producentärendetyp hos olika kommuner eller olika regioner).  Kundhändelsetypskatalogen behöver alltså kunna hantera denna situation.</p>\n<p dir=\"auto\">Vi tror dock att det finns ett värde för kommuner och regioner att samordna sig så att åtminstone vissa delar av deras producentärendetyper har samma kundhändelser. Vissa delar kommer att sammanfalla, medans vissa kommer att se olika ut.  Arbetet att standardisera och samordna kommer att leda till en harmonisering mellan kommuner eller mellan regioner i hur definitionerna av kundhändelser ser ut, även om det inte kommer att vara en 100-procentig överensstämmelse.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1671632093300-fl%C3%B6desschema-n%C3%A4r-det-%C3%A4r-flera-producenter-av-samma-sort.png\" alt=\"flödesschema när det är flera producenter av samma sort.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Bilden ovan illustrerar situationen för en specifik producentärendetyp.  Vi tänker oss ett hypotetiskt exempel där det finns två producenter (t ex två kommuner) som hanterar samma prducentärendetyp.  Flödesschemat i mitten av bilden och till höger i bilden visar de två kommunernas definition.  Vi kan här se att båda kommunerna har samma kundhändelsetyper för typ 1 och 3, medan 2, 4 och 5 skiljer sig åt.</p>\n<p dir=\"auto\">Kundhändelsetypskatalogen behöver hålla reda på denna information och förstå hur producentärendetypen är implementerad hos de två producenterna.  Kundhändelsetypskatalogen kommer att innehålla en sammanlagd bild (den vänstra i bilden) ur vilken den kan göra urval eller utsnitt för respektive producent.</p>\n<h1>Implementation</h1>\n<p dir=\"auto\">Kundhändelsetypkatalogen kommer att implementeras på central nivå, men informationen i den kommer att ägas av respektive producent.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1671632148164-implementationsskiss.png\" alt=\"implementationsskiss.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Bilden ovan visar en skiss över vilka funktioner/komponenter som behövs i en kundhändelsetypskatalog.  Vi skall gå igenom dem var för sig.</p>\n<p dir=\"auto\"><strong>API</strong><br />\nDen centrala delen av kundhändelsetypskatalogen är ett API som kan svara på frågor om informationen som är lagrad i kundhändelsetypskatalogen.  API:et behöver innehålla endpoints för (åtminstone) följande frågor</p>\n<ul>\n<li>Lista vilka producentärendetyper som en specifik producent stödjer</li>\n<li>Beskriva flödet av kundhändelsetyper i en specifik producentärendetyp, både hur den ser ut generellt (över flera producenter) men även specifikt för en producent</li>\n<li>Beskriva detaljer av en eller flera specifika kundhändelsetyper</li>\n</ul>\n<p dir=\"auto\">API:et kommer att vara ett REST-baserat API som levererar information i JSON-format.  Informationen i kundhändelsetypskatalogen är på typnivå och inte instansnivå, vilket borde betyda att informationen är öppen.  Därför behövs inte alltför hårda säkerhetskontroller för att komma åt informationen.  Exakta detaljer får vi återkomma till.</p>\n<p dir=\"auto\"><strong>Lagring</strong><br />\nInformationen i kundhändelsetypskatalogen lagras i systemet, förmodligen i en databas av något slag.  Viss information (se nedan i diskussionen om synkning med producenter) kommer också att finnas hos producenterna själva.</p>\n<p dir=\"auto\"><strong>GUI för att uppdatera data</strong><br />\nNär producenter ansluter nya producentärendetyper eller när de ändrar i befintliga kommer informationen i kundhändelsetypskatalogen behöva ändras.  I sin enklaste form kan detta göras via ett GUI där representanter ifrån producenterna kan editera informationen som finns lagrad i kundhändelsetypskatalogen.  Det är dock viktigt att man i detta fall kommer ihåg att ändra även här (utöver att ändra i sin lokala verksamhet) och detta riskerar att glömmas bort.</p>\n<p dir=\"auto\">Det finns dessutom ett antal andra liknande initiativ där producenter behöver hålla information om sina processer uppdaterade så det vore önskvärt med någon sorts samordning så att producenterna inte behöver hålla flera informationsmängder uppdaterade.  Ett sådant exempel som identifierats är <a href=\"http://uppgiftskrav.se\" rel=\"nofollow ugc\">uppgiftskrav.se</a>.  Det finns mycket att vinna på att samordna uppdateringar av <a href=\"http://uppgiftskrav.se\" rel=\"nofollow ugc\">uppgiftskrav.se</a> och kundhändelsetypskatalogen.</p>\n<p dir=\"auto\">Åtkomst till detta GUI kräver en specifik behörighet per producent.  Vem som helst skall inte få ändra på informationen och man skall inte heller få ändra informationen för någon annan producent än den man representerar.</p>\n<p dir=\"auto\"><strong>GUI för att titta på data</strong><br />\nInformationen som finns lagrad i kundhändelsetypskatalogen är inte bara intressant för system att ta del av.  Även människor är intresserade av att förstå hur olika producenter har definierat sin verksamhet och vilka kundhändelser som uppstår vid vilka tillfällen.  Därför behövs ett GUI som exponerar denna information.</p>\n<p dir=\"auto\">Åtkomst till detta GUI bör vara relativt öppen.  Informationen är inte känslig eftersom den endast är på typnivå.</p>\n<p dir=\"auto\"><strong>Synkning med producenter</strong><br />\nVissa producenter kommer att vilja ha en egen lokal variant på en kundhändelsetypskatalog, dvs ett tekniskt system som håller reda på metadata om sina kundhändelsetyper och producentärendetyper.  De behöver detta för sina egna behov.  Detta gäller till exempel Skatteverket och Värmdö kommun.  I dessa fall behöver inte informationen i den centrala kundhändelsetypskatalogen uppdateras manuellt utan istället kan man bygga en synkningslogik som hämtar data ifrån de lokala katalogerna via något API hos dem och sedan synkar den informationen med datat som finns lagrad centralt.  En sådan synkning kan sedan köras regelbundet, t ex varje natt.</p>\n<p dir=\"auto\">Man skulle kunna tänka sig en lösning där kundhändelsetypskatalogen inte lagrar den lokala information utan hämtar den vid behov ifrån aktuella producenter.  Bedömningen är dock att detta blir komplicerat då man skulle behöva hålla reda på vilken del av informationen som finns lokalt i kundhändelsetypskatalogen och vilken som finns ute hos någon producent och i så fall vilken producent.  Det blir enklare att se en helhet av informationen om allting finns på samma ställe, i kundhändelsetypskatalogen.  Nackdelen med att göra så här är att vi behöver en mer komplex synkningslogik, men komplexiteten i detta fall är samlad endast hos synkningslogiken och sprider sig inte över hela kundhändelsetypskatalogen.</p>\n",
+      "pid": 3823,
+      "tid": 658,
+      "timestamp": 1671633469924,
+      "uid": 454,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-12-21T14:37:49.924Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/3825",
+          "type": "backlink",
+          "uid": 454,
+          "id": 588,
+          "timestamp": 1671637505793,
+          "timestampISO": "2022-12-21T15:45:05.793Z",
+          "user": {
+            "picture": null,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "uid": 454,
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          },
+          "icon": "fa-link",
+          "text": "<span alt=\"johantjader\" title=\"johantjader\" data-uid=\"454\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #f44336;\">J</span> <a href=\"/user/johantjader\">johantjader</a> <a href=\"/post/3825\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-12-21T15:45:05.793Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/3825",
+      "type": "backlink",
+      "uid": 454,
+      "id": 588,
+      "timestamp": 1671637505793,
+      "timestampISO": "2022-12-21T15:45:05.793Z",
+      "user": {
+        "picture": null,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "uid": 454,
+        "displayname": "johantjader",
+        "icon:text": "J",
+        "icon:bgColor": "#f44336"
+      },
+      "icon": "fa-link",
+      "text": "<span alt=\"johantjader\" title=\"johantjader\" data-uid=\"454\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #f44336;\">J</span> <a href=\"/user/johantjader\">johantjader</a> <a href=\"/post/3825\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-12-21T15:45:05.793Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#A16946",
+    "cid": 31,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Mina ärenden",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 30,
+    "post_count": 72,
+    "slug": "31/mina-ärenden",
+    "subCategoriesPerPage": 10,
+    "topic_count": 18,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 72,
+    "totalTopicCount": 18
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "658",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/658.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    },
+    {
+      "text": "Mina ärenden",
+      "url": "/category/31/mina-ärenden",
+      "cid": 31
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/658",
+  "bodyClass": "page-topic page-topic-658 template-topic page-topic-category-31 page-topic-category-mina-ärenden parent-category-30 parent-category-31 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Prototyp Kundhändelsetypskatalog"
+        },
+        {
+          "name": "description",
+          "content": "Mina ärenden har lagt ut en första enkel prototyp på en s.k. kundhändelsetypskatalog på dataportalen. Kundhändelsetypskatalogen tror vi är är förutsättningsskapande för att t.ex.  ärendeåterkoppling producenter emellan ska bli mer likartad då producenter ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Prototyp Kundhändelsetypskatalog"
+        },
+        {
+          "property": "og:description",
+          "content": "Mina ärenden har lagt ut en första enkel prototyp på en s.k. kundhändelsetypskatalog på dataportalen. Kundhändelsetypskatalogen tror vi är är förutsättningsskapande för att t.ex.  ärendeåterkoppling producenter emellan ska bli mer likartad då producenter ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-12-21T14:37:49.924Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-12-21T14:37:49.924Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Mina ärenden"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671632148164-implementationsskiss.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671632148164-implementationsskiss.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "902"
+        },
+        {
+          "property": "og:image:height",
+          "content": "501"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671632093300-flödesschema-när-det-är-flera-producenter-av-samma-sort.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671632093300-flödesschema-när-det-är-flera-producenter-av-samma-sort.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1085"
+        },
+        {
+          "property": "og:image:height",
+          "content": "520"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671631915314-image2022-7-7_13-55-59.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671631915314-image2022-7-7_13-55-59.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "325"
+        },
+        {
+          "property": "og:image:height",
+          "content": "613"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671631767391-flödesschema.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1671631767391-flödesschema.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "910"
+        },
+        {
+          "property": "og:image:height",
+          "content": "920"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/658",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/658/prototyp-kundhändelsetypskatalog",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/658.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/31/mina-ärenden"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/johantjader"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

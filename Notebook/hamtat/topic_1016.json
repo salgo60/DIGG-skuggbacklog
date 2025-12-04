@@ -1,0 +1,937 @@
+{
+  "cid": 32,
+  "lastposttime": 1743082792804,
+  "mainPid": 4998,
+  "postcount": 8,
+  "slug": "1016/http-responskod-för-bulk-operationer-med-delvis-lyckat-resultat",
+  "tags": [
+    {
+      "value": "api-hantering",
+      "valueEscaped": "api-hantering",
+      "valueEncoded": "api-hantering",
+      "class": "api-hantering"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    }
+  ],
+  "tid": 1016,
+  "timestamp": 1742306189834,
+  "title": "HTTP-responskod för bulk-operationer med delvis lyckat resultat",
+  "uid": 1805,
+  "viewcount": 496,
+  "postercount": 3,
+  "teaserPid": 5015,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "HTTP-responskod för bulk-operationer med delvis lyckat resultat",
+  "timestampISO": "2025-03-18T13:56:29.834Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-03-27T13:39:52.804Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej! Hoppas jag ställer frågan på rätt ställe (ny forummedlem här <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44b.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wave\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":wave:\" alt=\"👋\" />). Jag undrar om DIGG har någon rekommendation/best practice på HTTP-responskod om man vid en bulk-operation får ett <em>delvis</em> lyckat resultat.</p>\n<p dir=\"auto\">Till exempel om man gör en PUT för att uppdatera 10 sinsemellan oberoende objekt, nio av dessa operationer gick bra, men den tionde misslyckades. Standarden täcker imho inte riktigt detta case, vilket blir en vanligare och vanligare förfrågan från våra API-konsumenter. Idag returnerar vi 207 med en response-body som beskriver <em>vilken eller vilka</em> identifierade objekt som misslyckas, med information om varför dessa misslyckats.</p>\n<p dir=\"auto\">Att skicka 200 eller 204 känns inte rätt då det inte är en fullständigt lyckad operation, men 4XX sänder också fel signal då vi faktiskt har uppdaterat de flersta objekt i requesten. Jag tänker att vi gärna vill implementera detta på ett så tydligt och bra (läs: förväntat) sätt som möjligt, men söker alltså feedback och input. Hoppas frågan var tydlig och att den riktades till rätt ställe. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" /></p>\n",
+      "pid": 4998,
+      "tid": 1016,
+      "timestamp": 1742306189834,
+      "uid": 1805,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-18T13:56:29.834Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1805,
+        "username": "peter-stranne",
+        "userslug": "peter-stranne",
+        "reputation": 5,
+        "postcount": 5,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1743082795064,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "peter-stranne",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-03-27T13:39:55.064Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Försökte redigera inlägget ovan med en referens till rätt del i specen, men det hade visst gått för lång tid, så jag lägger det i en egen kommentar här nedan istället: <a href=\"https://www.dataportal.se/rest-api-profil/api-response\" rel=\"nofollow ugc\">https://www.dataportal.se/rest-api-profil/api-response</a></p>\n",
+      "pid": 4999,
+      "tid": 1016,
+      "timestamp": 1742309428559,
+      "uid": 1805,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-18T14:50:28.559Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 1805,
+        "username": "peter-stranne",
+        "userslug": "peter-stranne",
+        "reputation": 5,
+        "postcount": 5,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1743082795064,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "peter-stranne",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-03-27T13:39:55.064Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Tyvärr vet jag inte om DIGG har någon visdom i frågan. Problemet - som du själv skriver - är ju att REST inte handskas med bulk-operationer och att delvis lyckade bulk-operationer bryter rakt av mot RESTs idempotensegenskap. Vill ni hålla det strikt REST så hade ni kanske behövt göra något i stil med att skapa en <code>batch-job</code> endpoint, som svarar 202 med URI till ett jobb som användaren kan GET:a för att komma åt resultatet av batch-jobbet. Annars får man nog helt enkelt vara pragmatisk. 207 är ju icke-standard och mer tänkt för WebDav, men kanske trots allt den bästa kompromissen i just ert fall?</p>\n<p dir=\"auto\">Ett alternativ är att frångå REST för just dessa delar av era API:er och snegla mer mot RPC - då blir allt konceptuellt ett funktionsanrop över POST.</p>\n",
+      "pid": 5007,
+      "tid": 1016,
+      "timestamp": 1742831135020,
+      "uid": 1752,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-03-24T15:45:35.020Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 1752,
+        "username": "Jacob",
+        "userslug": "jacob",
+        "reputation": 1,
+        "postcount": 4,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764323491605,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jacob",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-11-28T09:51:31.605Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Liten rättning, klart att bulk-operationer kan vara idempotenta.</p>\n",
+      "pid": 5008,
+      "tid": 1016,
+      "timestamp": 1742888586160,
+      "uid": 1752,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-03-25T07:43:06.160Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 1752,
+        "username": "Jacob",
+        "userslug": "jacob",
+        "reputation": 1,
+        "postcount": 4,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764323491605,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jacob",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-11-28T09:51:31.605Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Tack för genomtänkt input!</p>\n<p dir=\"auto\">I detta fall är operationerna idempotenta, samma request hade genererat samma resultat även om de skickas igen, så det är imho inte det som är det \"största\" problemet i just detta scenario. Det är dessutom i detta scenario x antal dataposter som ska läggas till, men de har ingen relation sinsemellan, utan det är för att slippa göra flera hundra i stort sett identiska anrop, vilket hade ökat lasten både för dem och för oss.</p>\n<p dir=\"auto\">Vi är medvetna om att 207 inte är en REST-responskod, men i avsaknad av tydlig best practice här (inte bara från DIGG, utan även på andra sajter så går rekommendationerna isär) så har vi valt denna väg. Givetvis informerar och dokumenterar  vi att 207 kan returneras från denna endpoint. Det känns som en renare och enklare lösning istället att behöva loopa \"x\" antal gånger med full Request + Response-cykel för att göra något som enkelt kan utföras genom att skicka in en array av objekt. Ofta skickas data till oss efter det att datalager eller motsvarande har uppdaterats med någon nattlig körning och då blir det såhär våra kunder vill integrera med oss.</p>\n<p dir=\"auto\">Anledningen till frågan här hos DIGG är att vi gärna vill följa myndighetens rekommendationer i möjligaste mån, men att vi här saknar tydlig vägledning.</p>\n<p dir=\"auto\">Alternativet med 202 Accepted och då skicka med batch-id eller motsv. är helt klart en möjlig väg framåt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" />, och då även mer korrekt enligt RESTful-principerna. Men även den har sina nackdelar imho då den kräver en extra request+responscykel, samt att det är oklart för API-konsumenten <em>när</em> de ska köra sin förfrågan för att kolla resultatet.</p>\n<p dir=\"auto\">Tack igen för input, och andra får såklart också gärna komma med goda tankar och funderingar, vi lär ju inte vara de enda som stött på denna situation tänker jag. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" /></p>\n",
+      "pid": 5010,
+      "tid": 1016,
+      "timestamp": 1742907011492,
+      "uid": 1805,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-25T12:50:11.492Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 1805,
+        "username": "peter-stranne",
+        "userslug": "peter-stranne",
+        "reputation": 5,
+        "postcount": 5,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1743082795064,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "peter-stranne",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-03-27T13:39:55.064Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag förstår verkligen kruxet <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Hoppas på flera intressanta inflikningar!</p>\n",
+      "pid": 5011,
+      "tid": 1016,
+      "timestamp": 1742914066890,
+      "uid": 1752,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-03-25T14:47:46.890Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 1752,
+        "username": "Jacob",
+        "userslug": "jacob",
+        "reputation": 1,
+        "postcount": 4,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764323491605,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jacob",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-11-28T09:51:31.605Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1805\">@peter-stranne</a> Det sätt ni hanterar scenariot idag får anses som korrekt, dvs att returnera 207 med information om vilka objekt som lyckas och inte lyckas.</p>\n<p dir=\"auto\">Det som man kan ha i åtanke är att vissa klienter som använder vissa API-verktyg, API-gateways och middleware-produkter kan ha problem med att tolka denna statuskod. I detta case skulle man kunna argumentera för att man skulle ha statuskod 200 som response tillsammans med en detaljerad body. Dock behöver detta kikas på utifrån ett behovsperspektiv kopplat till de klienter som använder deras API.</p>\n",
+      "pid": 5014,
+      "tid": 1016,
+      "timestamp": 1743061781624,
+      "uid": 531,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-27T07:49:41.624Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 531,
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "reputation": 37,
+        "postcount": 54,
+        "topiccount": 24,
+        "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+        "signature": "<p dir=\"auto\">Administratör av forumet, Myndigheten för digital förvaltning - Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761730215316,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "DIGG_admin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-29T09:30:15.316Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Tack för återkoppling <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/531\">@DIGG_admin</a> . Skönt att vi inte var helt ute och cyklade. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f601.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--grin\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":grin:\" alt=\"😁\" /> Vi är införstådda med baksidorna här, men det kändes för oss som den naturliga lösningen på ett scenario vi ofta stöter på \"ute i verkligheten\".</p>\n",
+      "pid": 5015,
+      "tid": 1016,
+      "timestamp": 1743082792804,
+      "uid": 1805,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-27T13:39:52.804Z",
+      "editedISO": "",
+      "index": 7,
+      "user": {
+        "uid": 1805,
+        "username": "peter-stranne",
+        "userslug": "peter-stranne",
+        "reputation": 5,
+        "postcount": 5,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1743082795064,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "peter-stranne",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-03-27T13:39:55.064Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#DC9656",
+    "cid": 32,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Byggblock API",
+    "descriptionParsed": "<p dir=\"auto\">Byggblock API</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "API-profilen",
+    "numRecentReplies": 1,
+    "order": 0,
+    "parentCid": 30,
+    "post_count": 80,
+    "slug": "32/api-profilen",
+    "subCategoriesPerPage": 10,
+    "topic_count": 6,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 80,
+    "totalTopicCount": 6
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1016",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1016.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    },
+    {
+      "text": "API-profilen",
+      "url": "/category/32/api-profilen",
+      "cid": 32
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1016",
+  "bodyClass": "page-topic page-topic-1016 template-topic page-topic-category-32 page-topic-category-api-profilen parent-category-30 parent-category-32 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "HTTP-responskod för bulk-operationer med delvis lyckat resultat"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Hoppas jag ställer frågan på rätt ställe (ny forummedlem här ). Jag undrar om DIGG har någon rekommendation/best practice på HTTP-responskod om man vid en bulk-operation får ett delvis lyckat resultat. Till exempel om man gör en PUT för att uppdatera..."
+        },
+        {
+          "property": "og:title",
+          "content": "HTTP-responskod för bulk-operationer med delvis lyckat resultat"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Hoppas jag ställer frågan på rätt ställe (ny forummedlem här ). Jag undrar om DIGG har någon rekommendation/best practice på HTTP-responskod om man vid en bulk-operation får ett delvis lyckat resultat. Till exempel om man gör en PUT för att uppdatera..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-03-18T13:56:29.834Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-03-27T13:39:52.804Z"
+        },
+        {
+          "property": "article:section",
+          "content": "API-profilen"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1016",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1016/http-responskod-för-bulk-operationer-med-delvis-lyckat-resultat",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1016.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/32/api-profilen"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/peter-stranne"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

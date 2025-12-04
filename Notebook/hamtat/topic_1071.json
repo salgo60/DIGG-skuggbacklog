@@ -1,0 +1,1792 @@
+{
+  "cid": 27,
+  "lastposttime": 1764840860333,
+  "mainPid": 5410,
+  "postcount": 19,
+  "slug": "1071/framtida-samverkan-och-dialog",
+  "tid": 1071,
+  "timestamp": 1764339496784,
+  "title": "Framtida samverkan och dialog",
+  "uid": 1715,
+  "viewcount": 156,
+  "postercount": 4,
+  "teaserPid": 5442,
+  "downvotes": 0,
+  "upvotes": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Framtida samverkan och dialog",
+  "timestampISO": "2025-11-28T14:18:16.784Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-12-04T09:34:20.333Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Startar en tråd med anledning av att communityt stängs till årsskiftet.</p>\n<p dir=\"auto\"><a href=\"https://community.dataportal.se/post/5405\">https://community.dataportal.se/post/5405</a></p>\n<p dir=\"auto\">Hur samverkar vi och för dialog bäst framöver? Är det genom Dela Digitalt eller genom sociala media, exempelvis LinkedIn? Eller finns det något forum som gått mig förbi?</p>\n<p dir=\"auto\">På med idéstruten! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f4a1.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--bulb\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":bulb:\" alt=\"💡\" /></p>\n",
+      "pid": 5410,
+      "tid": 1071,
+      "timestamp": 1764339496784,
+      "uid": 1715,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-11-28T14:18:16.784Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Skapa ytor på GITHUB ex. <a href=\"https://github.com/salgo60/Wikidata_riksdagen-corpus/blob/main/skuggbacklog.md\" rel=\"nofollow ugc\">skuggbackloggar</a> jag skapat i väntan på att myndigheter har egna backloggar</p>\n<ul>\n<li>bäst fungerade det med ett <a href=\"https://www.umu.se/nyheter/5-miljoner-till-forskning-om-lankad-parlamentariska-data_11678700\" rel=\"nofollow ugc\">forsknings projekt</a> Riksdagens Corpus (<a href=\"https://github.com/welfare-state-analytics/riksdagen-corpus/issues?q=is%3Aissue\" rel=\"nofollow ugc\">issues</a>) där det var med ML proffs och vi jobbade ihop om att skapa publika identifierare för Sveriges alla Riksdagsmän sedan 1885\n<ul>\n<li>dom införde actions i GITHUB så när dom checkade in data (<a href=\"https://github.com/welfare-state-analytics/riksdagen-corpus/pulls?q=is%3Apr+\" rel=\"nofollow ugc\">PR</a>) så gjorde dom <a href=\"https://github.com/welfare-state-analytics/riksdagen-corpus/tree/main/scripts\" rel=\"nofollow ugc\">massa kontroller</a> mot externa datakällor att saker var konsekventa</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764341241097-2fb00c90-8e6f-4bbe-8b8a-eb696063661a-image-resized.png\" alt=\"2fb00c90-8e6f-4bbe-8b8a-eb696063661a-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5411,
+      "tid": 1071,
+      "timestamp": 1764341600807,
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-11-28T15:14:19.650Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-11-28T14:53:20.807Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a>, tack för ditt förslag!</p>\n",
+      "pid": 5412,
+      "tid": 1071,
+      "timestamp": 1764342859650,
+      "toPid": "5411",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-11-28T15:14:19.650Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Jag tror inte att verktygen är huvudproblemet, utan snarare hur dialogen fungerar.</p>\n<p dir=\"auto\">Min erfarenhet är att det finns en viss ovilja att ha öppen återkoppling, till exempel kring publika backlogs. Då riskerar forumet att uppfattas mer som en belastning än som en möjlighet. Tycker mig se <em>antipattern</em> att detta tar vi på ett möte som aldrig kommer...</p>\n<ul>\n<li>även att de flesta här är konsulter... många tystar dock efter att projekt pengarna är förbrukade med ingen eller liten effekt... <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f622.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--cry\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":cry:\" alt=\"😢\" /></li>\n</ul>\n<p dir=\"auto\">Så länge det är svårt att föra en trygg och öppen dialog om exempelvis <a href=\"https://community.dataportal.se/topic/1008/fr%C3%A5gor-om-metadatakvalitet-och-ev-bugg\">metadatakvalitet</a> – även när det gäller den egna plattformen – blir det också svårt att få verklig utveckling.... frågan om metadata kvalitet har inte besvarats på ett år...</p>\n<p dir=\"auto\"><strong>Kämpa på Daniel</strong> tycker mig se att det är typ <a href=\"https://community.dataportal.se/users?section=online\">samma 5 personer som besöker DIGGs forum</a> så</p>\n<ul>\n<li><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues?q=is%3Aissue%20state%3Aopen%20label%3ADIGGbacklog\" rel=\"nofollow ugc\">2022 försökte jag hålla reda på forumets öppna frågor till DIGG</a> gissar att dom för alltid kommer att vara obesvarade....</li>\n</ul>\n<p dir=\"auto\"><strong>Positivt</strong> <a href=\"https://www.wikidata.org/wiki/Property_talk:P5324#c-LinneaKarlberg-20251128133100-Suggestions_to_improve_this_property\" rel=\"nofollow ugc\">Riksarkivet tog kontakt med oss idag</a> om bättre integration idag problemet är att jag leker mer med med AI än Wikidata <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> dom är 7 år sena.... då kändes Länkade data spännande....</p>\n<ul>\n<li>det återstår att observera hur etablerade organisationer anpassar sig till utvecklingen inom artificiell intelligens, särskilt inom verksamheter med begränsad konkurrensutsättning, i linje med de organisationslogiker som sedan <a href=\"https://www.youtube.com/watch?v=a0Gg_8k77UM\" rel=\"nofollow ugc\">Max Weber har präglat byråkratisk förvaltning</a>.</li>\n</ul>\n",
+      "pid": 5413,
+      "tid": 1071,
+      "timestamp": 1764349553884,
+      "uid": 1802,
+      "edited": 1764349668846,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-11-28T17:05:53.884Z",
+      "editedISO": "2025-11-28T17:07:48.846Z",
+      "index": 3,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> , vi diskuterar såklart också vart och hur dialoger bäst kan ske, och Dela Digitalt har kommit upp som en kanal. Men det är en svår fråga... för bra dialoger beror ju mkt på tajming (alltså att man just då har ett intresse av/möjlighet/tid att diskutera en viss fråga) och på att folk faktiskt har praktisk möjlighet att delta i diskussionen, att rätt personer hittar till samma ställe osv osv. Inte helt enkelt. Jag har benchmarkat andra dataportaler i EU, och det finns andra länder som har andra lösningar. Frankrike har tex diskussionstrådar kopplade till datamängder och reuse-case, men det verkar vara så att det är dataproducenten/case-ansvarig som aktiverar diskussionstråden, och gissningsvis också ansvarar för att svara på frågor, kanske också modereringen. Dom diskussionerna blir väldigt specifika. Frankrike har också ett vanligt community för bredare frågor, men deras personalstyrka är ganska mkt större än våran. Sist jag träffade dom hade dom typ 2 heltider som bara modererade inlägg. Men för oss, eftersom 2026 mestadels kommer att handla om ihopslagningen med PTS, så tror jag att det kommer att dröja innan vi ens kan börja diskutera andra lösningar. Jag gillade den där FB-gruppen som fanns förut, Open Gov (den kanske finns kvar), men det är som alltid, nån måste lägga tid på att driva frågor och moderera.</p>\n",
+      "pid": 5418,
+      "tid": 1071,
+      "timestamp": 1764580495839,
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-12-01T11:45:36.366Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-12-01T09:14:55.839Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> tack för utförligt svar och reflektioner.</p>\n<p dir=\"auto\">Jag vill tydliggöra att mitt huvudproblem inte är valet av forum eller kanal, utan <strong>avsaknaden av ett ingenjörsmässigt arbetssätt och ansvarstagande processer</strong>. Utan detta spelar kanalval väldigt liten roll.</p>\n<p dir=\"auto\">Några centrala punkter:<br />\n<strong>1. Publika backloggar är viktigare än forum</strong><br />\nForum och diskussionstrådar kan vara ett komplement, men:</p>\n<ul>\n<li><strong>Publika backloggar</strong> (issues, roadmap, beslutsspår) är avgörande för trovärdighet.</li>\n<li>De gör det möjligt att:\n<ul>\n<li>se vad som är rapporterat</li>\n<li>följa vad som är accepterat / avvisat</li>\n<li>förstå prioriteringar och beslut</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Det jag rapporterade igår – att <a href=\"https://community.dataportal.se/topic/1073/tombstone-pages-www-dataportal-se\">DIGG inte följer sina egna rekommendationer</a> – <strong>försvinner annars i dialogbrus utan spårbarhet</strong> samma med att ni bygger era <a href=\"https://community.dataportal.se/topic/1068/lagar-som-bromsar-framtiden-sfs-2007-755-kr%C3%A4ver-faxnummer\">myndighetsidentifierare på en lag från 2007 som pratar om att Fax är obligatoriskt SFS 2007:755</a></p>\n<p dir=\"auto\">Utan detta upplever jag dialogen mer som ”synpunktsinsamling” än faktisk samverkan och att DIGG är en del av belöningen är lösningen.... lyssna gärna på Notebook LMs analys av Statskontorets rapport \"<a href=\"https://soundcloud.com/magnus-saelgoe/darfor-hackar-diggs-digitaliseringsmotor-statskontoret-avslojar?si=8a829e4f4da44c73a4c2ba2893cd17bf&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing\" rel=\"nofollow ugc\">Därför hackar Diggs digitaliseringsmotor Statskontoret</a>\" -  tror DIGG kostat oss skattebetalare närmare 2 miljader Skr... och fortfarande famlar vi i att diskussionsforum med 10 inlägg i veckan är jobbiga att moderera...</p>\n<p dir=\"auto\"><strong>2. Problemet är människor och process – inte verktyg</strong></p>\n<p dir=\"auto\">Att peka på timing, deltagande eller modereringsbörda riskerar att bli en teknisk förklaring på ett organisatoriskt problem.</p>\n<p dir=\"auto\">Ingenjörsmässigt arbete innebär:</p>\n<ul>\n<li>tydliga ägarskap</li>\n<li>tydlig hantering av felrapporter</li>\n<li>tydliga kriterier för ”klart”</li>\n<li>spårbarhet från problem → åtgärd → leverans</li>\n</ul>\n<p dir=\"auto\">Om dessa saknas hjälper varken:</p>\n<ul>\n<li>Facebookgrupper</li>\n<li>community-forum</li>\n<li>kommentarsfält på dataportaler</li>\n</ul>\n<p dir=\"auto\"><strong>3. Bra data kräver linked data – konsekvent</strong><br />\nOm målet är högkvalitativ, återanvändbar offentlig data, då gäller:</p>\n<ul>\n<li><strong>linked data som princip</strong>, inte som ambition</li>\n<li>persistenta identifierare som:\n<ul>\n<li>inte är dokumentberoende</li>\n<li>inte bryts av organisations- eller lagändringar</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Att t.ex. bygga identifierare för myndigheter utan att jobba <a href=\"https://en.wikipedia.org/wiki/Single_source_of_truth\" rel=\"nofollow ugc\">SSOT</a> och uppdatera SFS  är enligt min mening ett <strong>anti-mönster</strong> för långsiktig datastabilitet.</p>\n<p dir=\"auto\">Här är det positivt att t.ex. <a href=\"https://github.com/salgo60/Svenskaforsamlingar/issues/67\" rel=\"nofollow ugc\">Riksarkivet/SBL nu börjar ta persistenta identifierare</a> på större allvar – det visar att detta går att förändra när man vill.</p>\n<p dir=\"auto\"><strong>4. Dialog utan påverkan = minskad trovärdighet</strong></p>\n<p dir=\"auto\">När externa aktörer:</p>\n<ul>\n<li>lägger tid på att rapportera konkreta problem</li>\n<li>hänvisar till DIGG:s egna rekommendationer</li>\n<li>men inte ser någon strukturerad uppföljning</li>\n</ul>\n<p dir=\"auto\">… då minskar förtroendet, oavsett hur välmenande dialogen är.</p>\n<p dir=\"auto\"><strong>Summering</strong></p>\n<p dir=\"auto\">För mig handlar detta alltså inte om:<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/274c.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--x\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":x:\" alt=\"❌\" /> vilket forum som används<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/274c.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--x\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":x:\" alt=\"❌\" /> hur många som modererar<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/274c.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--x\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":x:\" alt=\"❌\" /> om dialogen är bred eller smal</p>\n<p dir=\"auto\">Utan om:<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2705.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--white_check_mark\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":white_check_mark:\" alt=\"✅\" /> publika backloggar<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2705.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--white_check_mark\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":white_check_mark:\" alt=\"✅\" /> ingenjörsmässigt arbetssätt<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2705.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--white_check_mark\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":white_check_mark:\" alt=\"✅\" /> konsekvent linked data-tänk<br />\n<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2705.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--white_check_mark\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":white_check_mark:\" alt=\"✅\" /> att leva som man lär</p>\n<p dir=\"auto\"><strong>Om dessa finns på plats blir kanalfrågan sekundär.</strong></p>\n<p dir=\"auto\">Ps. hade idag ett bra snack med Riksarkivet och en ny medarbetare där som brinner för att ha FAIRDATA F1 dvs. persistenta identifierare se min issue på <a href=\"https://github.com/salgo60/Svenskaforsamlingar/issues/67\" rel=\"nofollow ugc\">GITHUB</a></p>\n",
+      "pid": 5419,
+      "tid": 1071,
+      "timestamp": 1764584906703,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T10:28:26.703Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">ChatGPT grupp chat <a href=\"https://chatgpt.com/gg/v/692d6f282e1c819a9a5658f779c7dfd8?token=IVFet049RKvsgV7awg3kxA\" rel=\"nofollow ugc\">https://chatgpt.com/gg/v/692d6f282e1c819a9a5658f779c7dfd8?token=IVFet049RKvsgV7awg3kxA</a> kanske är vägen framåt</p>\n<p dir=\"auto\">ChatGPT kan vara vägen framåt...</p>\n<p dir=\"auto\">**Tips från coachen <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> **</p>\n<p dir=\"auto\"><strong>1. Var tydlig med vad experimentet är (och inte är)</strong></p>\n<p dir=\"auto\">Jag föreslår att vi testar detta som ett avgränsat dialog-experiment.<br />\nInte som ersättning för forum, inte som beslutskanal, utan för att se om vi:</p>\n<p dir=\"auto\">faktiskt har samma mål</p>\n<ol>\n<li>kan formulera problem på ett gemensamt språk</li>\n<li>kan ta fram något som är handlingsbart, inte bara resonemang</li>\n<li>Om vi inte når dit är det också ett giltigt resultat.</li>\n</ol>\n<p dir=\"auto\"><strong>2. Sätt ett gemensamt “kontrakt” för dialogen</strong></p>\n<p dir=\"auto\"><strong>Dialogkontrakt</strong></p>\n<ol>\n<li>Vi skiljer på mål, roller och begränsningar</li>\n<li>Oenighet är data – inte friktion</li>\n<li>Påståenden bör, där det går, kunna operationaliseras</li>\n<li>Inget krav på konsensus – klarhet räcker</li>\n</ol>\n<p dir=\"auto\">Detta skyddar både dig och myndighetssidan.</p>\n<p dir=\"auto\"><strong>3. Börja inte med lösningar – börja med mål-probing</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764585478036-5c7940d3-e8ac-4ba1-b38c-08df9eeafd8a-image.png\" alt=\"5c7940d3-e8ac-4ba1-b38c-08df9eeafd8a-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Be varje part svara i 3–5 punkter.<br />\nOm svaren inte överlappar → det är insikten.</p>\n<p dir=\"auto\"><strong>5. Använd ChatGPT som facilitator, inte svarsmaskin</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764585527314-54d7f586-b889-460d-9186-0323afe2b680-image.png\" alt=\"54d7f586-b889-460d-9186-0323afe2b680-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>6. Definiera ett minimalt ”output-mål”</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764585551769-8c8926b2-4d18-4728-8f93-00ee9302575d-image.png\" alt=\"8c8926b2-4d18-4728-8f93-00ee9302575d-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>7. Acceptera att bästa utfallet kan vara ett tydligt “nej”</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764585570964-12e641b3-64d8-4aa9-abda-20751f7567e3-image.png\" alt=\"12e641b3-64d8-4aa9-abda-20751f7567e3-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>Sammanfattning</strong><br />\n<img src=\"/assets/uploads/files/1764585597894-df285dac-4014-4816-9b71-9a1c7fec1e85-image.png\" alt=\"df285dac-4014-4816-9b71-9a1c7fec1e85-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5420,
+      "tid": 1071,
+      "timestamp": 1764585603834,
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-12-01T11:54:18.060Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T10:40:03.834Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a>, intressant exempel med Frankrike. Vet du något om hur vara nordiska grannländer har organiserat det? Det känns ju lite dumt om varje aktör inom sin domän ska driva ett eget community.</p>\n",
+      "pid": 5421,
+      "tid": 1071,
+      "timestamp": 1764589536366,
+      "toPid": "5418",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-12-01T15:48:12.792Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-12-01T11:45:36.366Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a>, hur tror du att din gruppchat blir med +20 deltagare som börjar diskutera flera parallella ämnen inom öppna data? Jag hoppade in för att se. Men jag tror att ett enda flöde av frågor och svar från bot och deltagare kommer att bli rörigt.</p>\n",
+      "pid": 5422,
+      "tid": 1071,
+      "timestamp": 1764590058060,
+      "toPid": "5420",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T11:54:18.060Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> det är bara att <strong>skapa nya gruppchattar</strong> - känns som man skall ha ett ämne i varje.... det intressanta med den jag skapade här är att lyfter vikten av att ha <strong>samma målbild</strong>... vilket <strong>jag tror är grundproblemet</strong></p>\n<p dir=\"auto\">Testar flera Grupp chattar</p>\n<ul>\n<li><a href=\"https://chatgpt.com/gg/v/692d8adb921881a0b93b0bf56d9c135c?token=o5fu4R1qAVmBlHh6UFTXOw\" rel=\"nofollow ugc\">persistenta Identifierare för myndigheter</a></li>\n<li><a href=\"https://chatgpt.com/gg/v/692d8b7e78fc819987224a178ba766a2?token=WJK70aPIk4XG9jiawRwJTg\" rel=\"nofollow ugc\">Thumbstone sidor</a></li>\n<li><a href=\"https://chatgpt.com/gg/v/692d8c7ee5a0819f97288e3cc2b3995d?token=Az8KoMoYjC9x3ebPJ9GQ4A\" rel=\"nofollow ugc\">SSOT för myndighetsdata</a></li>\n<li><a href=\"https://chatgpt.com/gg/v/692d8de4c6f8819fa8a420432a8bc92e?token=s7ptKs-Xkcufg35yFo1o-Q\" rel=\"nofollow ugc\">ORCID för författare i staten</a></li>\n</ul>\n<p dir=\"auto\">Jag är med i 2 chatgpt grupp chattar där den ena handlar om att bygga solceller på sopptippar ... enormt coolt där jag får ping på klockan när saker händer....</p>\n<ul>\n<li>Open AI <a href=\"https://openai.com/index/group-chats-in-chatgpt/\" rel=\"nofollow ugc\">group-chats-in-chatgpt</a> November 20, 2025</li>\n</ul>\n<blockquote>\n<p dir=\"auto\">We’ve also taught ChatGPT new social behaviors for group chats. It follows the flow of the conversation and decides when to respond and when to stay quiet based on the context of the group conversation.</p>\n</blockquote>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764591784212-9fbad697-1530-4b65-b501-d768bdaa7ae7-image.png\" alt=\"9fbad697-1530-4b65-b501-d768bdaa7ae7-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">dvs. dom känner också av hur saker fungerar...  lesson learned är att dom rör sig lite snabbare än Google och kanske DIGG</p>\n",
+      "pid": 5423,
+      "tid": 1071,
+      "timestamp": 1764593154599,
+      "uid": 1802,
+      "edited": 1764593228988,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-12-01T15:48:01.260Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-12-01T12:45:54.599Z",
+      "editedISO": "2025-12-01T12:47:08.988Z",
+      "index": 9,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h3>Vilken lösning väljer ni</h3>\n<p dir=\"auto\"><a href=\"https://chatgpt.com/gg/692d6f27702c819c84850200dff3bb86\" rel=\"nofollow ugc\">ChatGPT</a> ser följande olika målbilder för öppna data</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764595051983-9a0bb832-c2c4-44bd-b296-9b7f2d90dbd6-image.png\" alt=\"9a0bb832-c2c4-44bd-b296-9b7f2d90dbd6-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Idag har DIGG \"valt\" den vänstra.... eller?</p>\n",
+      "pid": 5424,
+      "tid": 1071,
+      "timestamp": 1764595141117,
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2025-12-01T14:43:17.491Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T13:19:01.117Z",
+      "editedISO": "",
+      "index": 10,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a>, förvånande att chatgpt använder uttrycket publika backlogs. Undra hur hen har blivit påverkad? 🫣</p>\n",
+      "pid": 5425,
+      "tid": 1071,
+      "timestamp": 1764600197491,
+      "toPid": "5424",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T14:43:17.491Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a>, sedan ogillar jag att du kapar den här tråden med chatgpt-material som inte håller sig till ämnet. Du har många liknande trådar du kan posta sådan i istället.</p>\n",
+      "pid": 5426,
+      "tid": 1071,
+      "timestamp": 1764600261280,
+      "toPid": "5424",
+      "uid": 1715,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-12-01T14:44:21.280Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> sorry men tror chatGPT är 100 ggr bättre en detta forum... jag tror problemet är som chatGPT säger ni har inte samma målbild du och <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> plus att jag tror vi alla är besvikna på DIGG</p>\n<p dir=\"auto\">Se det som du bara behöver stå ut med detta forum i 2 veckor till... men är jag verkligen problemet... känner att du är besviken men rikta den besvikelsen åt rätt håll....</p>\n<p dir=\"auto\">Tycker vi ser</p>\n<ul>\n<li>0 aktivitet i detta forum</li>\n<li><strong>DIGG har den senaste tiden informerat om</strong><br />\n** <a href=\"https://community.dataportal.se/post/5405\">Communityt stängs vid årsskiftet</a><br />\n** <a href=\"https://community.dataportal.se/post/5287\">Nu är det semesterstängt på communityt!</a><br />\n** <a href=\"https://community.dataportal.se/post/5285\">Nyttan med öppet data - hur blev det?</a><br />\n** <a href=\"https://community.dataportal.se/post/5284\">Professor: Offentliga sektorn okunnig – köper in fel it</a><br />\n** <a href=\"https://community.dataportal.se/post/5277\">Snart går vi på Digg på semester</a></li>\n</ul>\n",
+      "pid": 5427,
+      "tid": 1071,
+      "timestamp": 1764602571466,
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-12-01T15:25:55.023Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T15:22:51.466Z",
+      "editedISO": "",
+      "index": 13,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a>, men det här forumet är väl ändå inte en kanal för att kanalisera saker till DIGG? Målet har väl varit att etablera en plats för dialog mellan alla möjliga aktörer?</p>\n",
+      "pid": 5428,
+      "tid": 1071,
+      "timestamp": 1764602755023,
+      "toPid": "5427",
+      "uid": 1715,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-12-01T15:25:55.023Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5423\">Framtida samverkan och dialog</a>:</p>\n<blockquote>\n<p dir=\"auto\">det är bara att skapa nya gruppchattar - känns som man skall ha ett ämne i varje</p>\n</blockquote>\n<p dir=\"auto\">Bra tänkt med flera parallella chattar. Var ska dessa finnas samlade och vem eller vilka ska administrera och visa upp vilka aktiva chattar som finns?</p>\n<p dir=\"auto\">Fortsätt tänk! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /></p>\n",
+      "pid": 5429,
+      "tid": 1071,
+      "timestamp": 1764604081260,
+      "toPid": "5423",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-01T15:48:01.260Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Jag har inte gjort någon djupare analys av hur man i norden har organiserat sig kring diskussionsmöjligheter, men om man tittar på EUs medlemsländer i stort så verkar dom flesta ha lite olika upplägg. Många länder har inga diskussionsmöjligheter alls. Det verkar dock som att några länder, Frankrike, Portugal och Luxenburg har nån form av likartad plattform, och skulle vi få medel framöver till att börja titta på detta igen så skulle jag vilja börja med att titta på hur dom har gjort, och om det finns nåt man kan bygga vidare på. Men en plattform är bara en plattform, den måste fyllas med både folk och dialoger. Och det är det som kräver långsiktiga resurser och kanske ett tydligare \"åtagande\" för vissa centrala aktörer.</p>\n",
+      "pid": 5430,
+      "tid": 1071,
+      "timestamp": 1764604092792,
+      "toPid": "5421",
+      "uid": 118,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-12-01T15:48:12.792Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Som vi har sagt tidigare så kan inte Digg ha publika backloggar, och det är det inte vi på dataportalen som har bestämt, så det spelar ingen roll hur många gånger du upprepar det här i communityt. Det blir lite som att skrika ut i tomma rymden faktiskt. Om du vill ha ett annat beslut i den frågan så är det inte här du ska debattera det utan troligen med den nya myndigheten. Just nu ligger man lågt med såna där strategiska frågor som slår brett. Och som Daniel skrev, communityt är främst till för att främja dialog mellan olika personer kring datadelning och dataanvändning, och då kan massor av AI-genererat material bli lite väl svårtsmält. Det blir liksom inte riktigt en dialog.</p>\n",
+      "pid": 5431,
+      "tid": 1071,
+      "timestamp": 1764604725894,
+      "uid": 118,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-12-01T15:58:45.894Z",
+      "editedISO": "",
+      "index": 17,
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Många intressanta tankar och idéer. Dela Digitalt (SKR) har bara myndigheter tillgång till om jag förstår det. Dessutom så är SKR en separat medlemsorganisation med egenintressen. Att gå utanför dessa med ett brett forum känns inte som deras grej.</p>\n<p dir=\"auto\">Det finns nog communities med överlappande intressen med nuvarande DiGG. T.ex.</p>\n<ul>\n<li>OpenStreetMap Community Sverige (<a href=\"https://community.openstreetmap.org/c/communities/se/49\" rel=\"nofollow ugc\">https://community.openstreetmap.org/c/communities/se/49</a>)</li>\n<li>Datajournalistik FB grupp (<a href=\"https://www.facebook.com/groups/324569050948253\" rel=\"nofollow ugc\">https://www.facebook.com/groups/324569050948253</a> - har dött ut lite på senaste)</li>\n<li>Ännu fler?</li>\n</ul>\n<p dir=\"auto\">Kanske finns det något intresse och utrymme att skapa något gemensamt, eller iaf ta input från flera håll för att se till att det blir ett levande community som används av många?</p>\n<p dir=\"auto\">Många gånger finns det möjligheter för synergi mellan olika statliga nivåer, ideella organisationer och privata företag. Iaf när det kommer till öppen data och hur vi driver den bollen framåt på ett bra sätt tillsammans.</p>\n",
+      "pid": 5442,
+      "tid": 1071,
+      "timestamp": 1764840860333,
+      "uid": 1795,
+      "edited": 1764840999659,
+      "editor": {
+        "uid": 1795,
+        "username": "magnusp",
+        "userslug": "magnusp",
+        "displayname": "magnusp"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-04T09:34:20.333Z",
+      "editedISO": "2025-12-04T09:36:39.659Z",
+      "index": 18,
+      "user": {
+        "uid": 1795,
+        "username": "magnusp",
+        "userslug": "magnusp",
+        "reputation": 5,
+        "postcount": 5,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764840864635,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "magnusp",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2025-12-04T09:34:24.635Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#c9b42c",
+    "cid": 27,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-heartbeat",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Arbetssätt och organisation",
+    "numRecentReplies": 1,
+    "order": 7,
+    "parentCid": 0,
+    "post_count": 471,
+    "slug": "27/arbetssätt-och-organisation",
+    "subCategoriesPerPage": 10,
+    "topic_count": 78,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 471,
+    "totalTopicCount": 78
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1071",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1071.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Arbetssätt och organisation",
+      "url": "/category/27/arbetssätt-och-organisation",
+      "cid": 27
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1071",
+  "bodyClass": "page-topic page-topic-1071 template-topic page-topic-category-27 page-topic-category-arbetssätt-och-organisation parent-category-27 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Framtida samverkan och dialog"
+        },
+        {
+          "name": "description",
+          "content": "Startar en tråd med anledning av att communityt stängs till årsskiftet. https://community.dataportal.se/post/5405 Hur samverkar vi och för dialog bäst framöver? Är det genom Dela Digitalt eller genom sociala media, exempelvis LinkedIn? Eller finns det någ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Framtida samverkan och dialog"
+        },
+        {
+          "property": "og:description",
+          "content": "Startar en tråd med anledning av att communityt stängs till årsskiftet. https://community.dataportal.se/post/5405 Hur samverkar vi och för dialog bäst framöver? Är det genom Dela Digitalt eller genom sociala media, exempelvis LinkedIn? Eller finns det någ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-11-28T14:18:16.784Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-12-04T09:34:20.333Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Arbetssätt och organisation"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1071",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1071/framtida-samverkan-och-dialog",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1071.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/27/arbetssätt-och-organisation"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/lmdaniel"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

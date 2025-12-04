@@ -1,0 +1,2261 @@
+{
+  "cid": 1,
+  "lastposttime": 1656836754900,
+  "mainPid": 274,
+  "postcount": 77,
+  "slug": "87/hjälp-folk-att-bada-i-sommar-med-öppna-data-tips-och-hjälp-behövs",
+  "tid": 87,
+  "timestamp": 1618229542824,
+  "title": "Hjälp folk att bada i sommar med Öppna Data! (Tips och hjälp behövs)",
+  "uid": 127,
+  "viewcount": 27665,
+  "postercount": 10,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 1707,
+  "tags": [
+    {
+      "value": "specifikation",
+      "valueEscaped": "specifikation",
+      "valueEncoded": "specifikation",
+      "class": "specifikation"
+    },
+    {
+      "value": "schema",
+      "valueEscaped": "schema",
+      "valueEncoded": "schema",
+      "class": "schema"
+    },
+    {
+      "value": "datamodell",
+      "valueEscaped": "datamodell",
+      "valueEncoded": "datamodell",
+      "class": "datamodell"
+    },
+    {
+      "value": "dataportalväst",
+      "valueEscaped": "dataportalväst",
+      "valueEncoded": "dataportalv%C3%A4st",
+      "class": "dataportalväst"
+    },
+    {
+      "value": "vgr",
+      "valueEscaped": "vgr",
+      "valueEncoded": "vgr",
+      "class": "vgr"
+    }
+  ],
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Hjälp folk att bada i sommar med Öppna Data! (Tips och hjälp behövs)",
+  "timestampISO": "2021-04-12T12:12:22.824Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-07-03T08:25:54.900Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!<br />\nInom samverkansprojektet i VGRegion \"Dataportal Väst\" har vi börjat ta fram specifikationer och mer konkret hjälp till deltagarorganisationerna att dela data.</p>\n<p dir=\"auto\">En idé vi har är att skapa en datamängd lagom till sommarsäsongen för Badplatser. Det finns en bra datamängd hos Havs- och vattenmyndigheten, och vi tänker oss att vår kompletterar den, genom att till exempel kunna ha med badplatser som inte har vattenkontroller.</p>\n<p dir=\"auto\">Vi har ett alldeles första utkast skrivet, och jag önskar nu er feedback - gärna genom kommentarer direkt i dokumentet, eller via mail, eller här som svar.</p>\n<p dir=\"auto\">Tanken med datamängden är att det ska vara lätt att sätta samman och publicera den, så vi har valt ett kolumnbaserat format som gör sig bra i ex. ett kalkylblad. Det här gör det kanske lite mer svårläst och lite \"fulare\" rent tekniskt, men vi har diskuterat andra väger och ändå beslutat att det här känns enklast för våra dataproducenter som troligen kommer att bestå av personal inom turist- och besöksfunktioner i kommunerna.</p>\n<p dir=\"auto\">Vi har kikat på befintliga modeller, lånat lite av Californiens datamängd om sina stränder, Fiware och Havs- och vattenmyndighetens upplägg samt knyckt lite allmänt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Några kommentarer och iakttagelser har redan gjorts i dokumentet, bland annat kring beständiga identifierare. Hjälp mig gärna att klura på det och jag tar även gärna emot tips om verktyg för att utan att behöva stansa i en text-editor, som hjälper mig att visuellt skapa scheman för json osv. Kanske finns en bra allmän verktygslåda jag kan ha nytta av? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Kika gärna in på DelaDigitalt där jag har publicerat ungefär samma fråga, eller direkt i dokumentet. Jag har en Google-docs-länk där du ska kunna skriva kommentar, eller en PDF där du kan ladda ned.</p>\n<p dir=\"auto\">Hjälp oss bli klara och vara smarta, innan det är +21 (hoppas hoppas) i vattnet i sommar!</p>\n<p dir=\"auto\">Mvh<br />\nTomas Monsén, IT-utvecklare, Töreboda Kommun (samt Kim Lantto Göteborgs stad och Fredrik Eriksson, regionens samordnare öppna data).</p>\n<p dir=\"auto\">Länk till Google Docs -dokument/referenskopia i sin allra första Alpha-version:<br />\n<a href=\"https://docs.google.com/document/d/1GxNucD_E_eoHnlyJAL3tjCel-BdWvwF5TB_lYl7bs94/edit?usp=sharing\" rel=\"nofollow ugc\">https://docs.google.com/document/d/1GxNucD_E_eoHnlyJAL3tjCel-BdWvwF5TB_lYl7bs94/edit?usp=sharing</a></p>\n",
+      "pid": 274,
+      "tid": 87,
+      "timestamp": 1618229542824,
+      "uid": 127,
+      "edited": 1618229860544,
+      "editor": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "userslug": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-04-12T12:48:40.855Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-04-12T12:12:22.824Z",
+      "editedISO": "2021-04-12T12:17:40.544Z",
+      "index": 0,
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a> bra ide....</p>\n<p dir=\"auto\">Mina funderingar</p>\n<ol>\n<li>alltid bra att ha egna unika persistenta identifierare.... ta även höjd för att bad försvinner , byter namn, eller externa idn byts ut....</li>\n<li>jag kollade kort <a href=\"https://badplatsen.havochvatten.se/badplatsen/api/feature/\" rel=\"nofollow ugc\">på hav och vatten API:et</a> och känner att det vore bra att även ha med en identifierare hos Open Street Map --&gt; då kan du se storleken på badet och enklare hålla OSM kartan uppdaterad med erat värde....</li>\n<li>Open Street Map kopplar WIkidata och <a href=\"https://www.wikidata.org/wiki/Wikidata:OpenStreetMap\" rel=\"nofollow ugc\">Wikidata håller reda på Open Street Map</a>\n<ol>\n<li>@Dennis_Priskorn har säkert bättre koll på detta men en bra sak är att skall ni ange ex. wheelchair så \"smygkolla\" hur OSM gör och se till att det ni anger kan vara kompatibelt med deras... så kan någon frivllig uppdatera deras data... du har en aktiv svensk OSM grupp på FB \"<a href=\"https://www.facebook.com/groups/osmsweden\" rel=\"nofollow ugc\">OpenStreetMap Sverige</a>\"\n<ol>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Key:wheelchair\" rel=\"nofollow ugc\">wiki.openstreetmap.org Key:wheelchair</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/w/index.php?title=Key:ramp&amp;uselang=sv\" rel=\"nofollow ugc\">ramp wheelchair</a></li>\n<li><a href=\"https://wiki.openstreetmap.org/wiki/Key:toilets:wheelchair?uselang=sv\" rel=\"nofollow ugc\">Key:toilets:wheelchair</a></li>\n</ol>\n</li>\n</ol>\n</li>\n<li>samma <strong>public_transit</strong> kolla hur detta identifieras i <a href=\"https://www.trafficdata.se/dataset/publictransport\" rel=\"nofollow ugc\">Trafiklabs API</a> och ange detta id eller vad dom har så blir det enklare för dom som programmerar appar</li>\n<li>som Wikidata nerd så skulle jag gärna se att Wikidata ID:et och/eller Wikipedia artikeln finns --&gt; att man med lite pyssel även hittar bilder på badet... Jag skapade förra året\n<ol>\n<li>Wikipedia <a href=\"https://sv.wikipedia.org/wiki/J%C3%A4rvabadet\" rel=\"nofollow ugc\">Järvabadet</a></li>\n<li>samma  som Wikidata <a href=\"https://www.wikidata.org/wiki/Q96252109?uselang=sv\" rel=\"nofollow ugc\">Q96252109</a></li>\n<li>samma som OSM  <a href=\"https://www.openstreetmap.org/relation/11224474\" rel=\"nofollow ugc\">relation/11224474</a> som pekar på Wikidata <strong>Q96252109</strong></li>\n<li>bilder i WIkicommoins finns då att hämta som alla som har motiv <strong>Q96252109</strong> --&gt; <a href=\"https://commons.wikimedia.org/w/index.php?search=haswbstatement%3AP180%3DQ96252109&amp;title=Special%3ASearch&amp;profile=advanced&amp;fulltext=1&amp;advancedSearch-current=%7B%7D&amp;ns0=1&amp;ns6=1&amp;ns12=1&amp;ns14=1&amp;ns100=1&amp;ns106=1\" rel=\"nofollow ugc\">haswbstatement:P180=Q96252109</a></li>\n</ol>\n</li>\n</ol>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1618231410683-bddf581c-fc2d-4477-97d1-f7d15a37d030-image-resized.png\" alt=\"bddf581c-fc2d-4477-97d1-f7d15a37d030-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Exempel bilder som avbildar badet <strong><a href=\"https://commons.wikimedia.org/w/index.php?search=haswbstatement%3AP180%3DQ96252109&amp;title=Special%3ASearch&amp;profile=advanced&amp;fulltext=1&amp;advancedSearch-current=%7B%7D&amp;ns0=1&amp;ns6=1&amp;ns12=1&amp;ns14=1&amp;ns100=1&amp;ns106=1\" rel=\"nofollow ugc\">Q96252109</a></strong> <img src=\"/assets/uploads/files/1618231983255-d6105d47-6a6d-4546-98dd-8b9ec144e049-image.png\" alt=\"d6105d47-6a6d-4546-98dd-8b9ec144e049-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 275,
+      "tid": 87,
+      "timestamp": 1618231720855,
+      "toPid": "274",
+      "uid": 24,
+      "edited": 1618231987241,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-04-12T12:48:40.855Z",
+      "editedISO": "2021-04-12T12:53:07.241Z",
+      "index": 1,
+      "parent": {
+        "username": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Väldigt roligt att ni gör det här tänker jag som gillar att bada, sommar och nu också i år, på vintern:) Som sagt, man ångrar aldrig ett dopp! Eftersom jag inte kan programmera kommer här kanske några riktiga amatörfrågor:)</p>\n<ol>\n<li>\n<p dir=\"auto\">Hur säkerställer man att inte samma badplats \"mappas\" mer än en gång? Alltså, att kanske en kommun och nån organisation lägger upp samma badplats med t.ex. lite olika koordinater eller namn...</p>\n</li>\n<li>\n<p dir=\"auto\">Skulle det vara intressant att lägga in parametern \"kallbad\"? Alltså att skriva in om det är möjligt att bada på vintersäsongen.</p>\n</li>\n<li>\n<p dir=\"auto\">Hur funkar det om andra aktörer än den som först angav datat för en viss badplats vill lägga in mer info eller ändra på nåt? Jag tänker att den som först la in infon kanske inte alltid har koll på förändringar som görs senare på badplatsen, t.ex. att en kanotförening sätter ut bojar för rodd i vattnet.</p>\n</li>\n</ol>\n",
+      "pid": 279,
+      "tid": 87,
+      "timestamp": 1618240996002,
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-12T16:54:23.335Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-12T15:23:16.002Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a></p>\n<ol>\n<li>Hur säkerställer man att inte samma badplats \"mappas\" mer än en gång?</li>\n</ol>\n<p dir=\"auto\">Är det ett problem <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> enklast är väl att bara lägga ut det på en karta och se var fler punkter dyker upp... men annars så är det att använda externa persistenta egenskaper och se att man inte har dubletter.... jag skrev en längre artikel om svenska runstenar och hur våra runstenar sedan 1750 har haft unika id:n <a href=\"https://meta.wikimedia.org/wiki/Structured_data_for_GLAM-Wiki/Roundtripping/KMB\" rel=\"nofollow ugc\">länk</a> även dessa kloka gubbar från 1750 lyckades skapa dubbletter och då får man peka på dom 2 ggr eller om dubletterna uppstår i ex. Wikidata så finns det ett menyval för att koppla ihop 2 poster (<a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@Kristine_</a> ställde den frågan under en jobtech session)</p>\n<p dir=\"auto\">Exempel hur det ser ut i Wikidata du anger ett annat Qnummer sedan  kopplas dom ihop... och skulle någon gå till det id som \"inte finns längre\" så har en redirect skapats<br />\n<img src=\"/assets/uploads/files/1618244072807-a8dbc5cc-17ea-40c8-921b-f08f40582da1-image-resized.png\" alt=\"a8dbc5cc-17ea-40c8-921b-f08f40582da1-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>Tips är att du testar</strong> att jobba praktiskt med data och koppla ihop datamängder jag brukar använda ett verktyg från Google som heter <a href=\"https://openrefine.org/\" rel=\"nofollow ugc\">Open Refine</a> där man ofta tar sitt data och gör \"<a href=\"https://www.youtube.com/watch?v=0tQPmfb6IFk\" rel=\"nofollow ugc\">reconciliation</a>\" mot externa källor så att man får samma som. Tips är som sagt att jobba praktiskt så inser man vad som är viktigt....</p>\n<ol start=\"2\">\n<li><strong>kallbad</strong> den utmaning man får ofta när man jobbar med data är att som i detta fall definiera vad som är <strong>kallbad</strong> en variant är att peka på <a href=\"https://sv.wikipedia.org/wiki/Badhus#Kallbadhus\" rel=\"nofollow ugc\">Wikipedia Badhus#Kallbadhus</a>  (gissar att Kallbadhus  inte är det du tänker på) i detta fall finns inte ett eget Wikidata objekt plus att definitionen av det du skriver inte är lika. En variant är då att skapa ett Wikidata objekt som är den typ av \"kallbad\" du syftar på... läser man på engelsk WIkipedia \"samma artikel\" <a href=\"https://en.wikipedia.org/wiki/Public_bathing\" rel=\"nofollow ugc\">Public_bathing</a>   så inser man att dom beskriver mycket mer i sin artikel... dvs. vi har ett problem och måste bena upp semantiken....</li>\n</ol>\n<p dir=\"auto\"><a href=\"https://sv.wikipedia.org/wiki/Fil:Kallbad_G%C3%B6teborg.jpg\" rel=\"nofollow ugc\">Kallbad 1914</a><br />\n<img src=\"/assets/uploads/files/1618244687475-dc9fe709-9908-41df-8308-0d1a12dcaad8-image.png\" alt=\"dc9fe709-9908-41df-8308-0d1a12dcaad8-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Tingsryd kommun verkar ha den typ av <a href=\"https://tingsryd.se/kultur-fritid/badplatser-och-badanlaggningar/kallbad/\" rel=\"nofollow ugc\">kallbad</a> du syftar på...  kollar vi på Open Street Map så saknas den info se <a href=\"https://www.openstreetmap.org/relation/10701080\" rel=\"nofollow ugc\">relation/10701080</a></p>\n<p dir=\"auto\">Som Wikipedia och andra communities fungerar så saknar man ett sätt att beskriva en sak så får man gå in och beskriva vad man vill ha så får man sedan se hur resten av dom som skapar saker reagerar på det. Kollar du på <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dpublic_bath\" rel=\"nofollow ugc\">Tag:amenity public_bath</a> så finns många kombinationer av bad.... där folk har kommit överens att det skall beskrivas....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1618245436097-351ffecb-43d7-4052-ac44-7233430379c5-image-resized.png\" alt=\"351ffecb-43d7-4052-ac44-7233430379c5-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>Data är dynamisk och mycket dialog behövs</strong><br />\nMin oro med projektet <a href=\"https://www.digg.se/4905d9/globalassets/dokument/publicerat/publikationer/delredovisning_etablera_nationellt_ramverk_for_grunddata_20210129.pdf\" rel=\"nofollow ugc\">nationellt ramverk för grunddata inom den offentliga förvaltningen</a> är att man sitter för sig själva i 2 år och inte har denna dialog så det man skapar är inte det folk vill ha... när jag jobbade på <a href=\"https://computersweden.idg.se/2.2683/1.449767/sebs-flopp-kostar-miljarder\" rel=\"nofollow ugc\">SEB slängde man bort miljarder på projekt</a> som definierats men inte tagit höjd för att alla kommer ha mobilapplikationer --&gt; resultat projekten lades ned och miljarder förlorades..... efter det försökte SEB börja jobba <a href=\"https://www.youtube.com/watch?v=502ILHjX9EE\" rel=\"nofollow ugc\">agilt</a> och ha mer dialog med produktägarna...</p>\n<p dir=\"auto\">3a). \"<em>Hur funkar det om andra aktörer</em>\" det är där man bör ha  verktyg som GITHUB där man enkelt kan hantera olika versioner.... enklast kan vara att kommuner har basdata och dit rapporterar man rena felaktigheter. Vill man lägga till massa olika saker så fungerar nog det bäst på öppna plattformar som Wikidata Open Street map...</p>\n<p dir=\"auto\">3b). \"<em>Hur funkar det om andra aktörer</em>\" en tanke är att datat om bojar för rodd hanteras av roddföreningen men att dom refererar till kommunens data (då är det bra med unika identifierare i kommunens data så man kan säga att bojarna finns på badplats med id xxx hos kommunen....</p>\n<p dir=\"auto\">tanken med länkad data är att du väljer vems data du litar på .....</p>\n",
+      "pid": 280,
+      "tid": 87,
+      "timestamp": 1618246463335,
+      "toPid": "279",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-13T10:44:20.514Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-12T16:54:23.335Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 använde frågespråket Overpass och frågade Open Street Map hur många <a href=\"http://overpass-turbo.eu/s/163q\" rel=\"nofollow ugc\">\"amenity\"=\"public_bath\"</a> dom har</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1618309626769-870c64f3-6097-4ccb-9d8b-faebf7a939f6-image.png\" alt=\"870c64f3-6097-4ccb-9d8b-faebf7a939f6-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">dvs. det saknas en hel del. Eftersom <a href=\"https://welcome.openstreetmap.org/about-osm-community/consumers/\" rel=\"nofollow ugc\">Open Street Map används mer och mer</a> så är det bra om ni laddar upp ert data där och/eller levererar ert data så det är enkelt att använda på OSM....</p>\n<p dir=\"auto\"><strong>Annan sak vi önskar av kommuner är Vindskydd</strong></p>\n<ul>\n<li>finns en Facebook grupp som samlat in &gt; 1000 vindskydd men vore bra att få från kommunerna var dessa finns, hur man anmäler fel, vad som finns etc....</li>\n<li>Facebook grupp \"<a href=\"https://www.facebook.com/groups/vindskyddinorden\" rel=\"nofollow ugc\">Vindskydd i Norden</a>\"\n<ul>\n<li>deras <a href=\"https://www.google.com/maps/d/viewer?fbclid=IwAR3cuIrE24dFS2MglIabyng_oZvdUoIL-XqlJeHKykT7XxbYo3WUpl0qrlU&amp;mid=1doLXXvokOtiMzthVz0SLFjEPmD4&amp;ll=63.4103055477356%2C15.615789630029902&amp;z=4\" rel=\"nofollow ugc\">Google karta</a></li>\n</ul>\n</li>\n<li>när jag var ny och naiv med \"Öppen Data\" skrev jag ihop vad jag förväntade mig att alla kommuner skulle ha om vindskydd <a href=\"http://minancestry.blogspot.com/2020/06/vindskydd-i-sverige.html\" rel=\"nofollow ugc\">länk blogpost</a></li>\n<li>Open Street map fråga <a href=\"http://overpass-turbo.eu/s/163r\" rel=\"nofollow ugc\">amenity=shelter</a><br />\n<img src=\"/assets/uploads/files/1618310401363-97139384-f1e7-400e-b84e-9d5a63d28a03-image.png\" alt=\"97139384-f1e7-400e-b84e-9d5a63d28a03-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n",
+      "pid": 285,
+      "tid": 87,
+      "timestamp": 1618310660514,
+      "toPid": "280",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-16T14:29:43.232Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-13T10:44:20.514Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 sa i <a href=\"/post/285\">Hjälp folk att bada i sommar med Öppna Data! (Tips och hjälp behövs)</a>:</p>\n<blockquote>\n<p dir=\"auto\">dvs. det saknas en hel del. Eftersom <a href=\"https://welcome.openstreetmap.org/about-osm-community/consumers/\" rel=\"nofollow ugc\">Open Street Map används mer och mer</a> så är det bra om ni laddar upp ert data där och/eller levererar ert data så det är enkelt att använda på OSM....</p>\n</blockquote>\n<p dir=\"auto\">-&gt; Dvs CC0 licens och i maskinläsbart format <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 305,
+      "tid": 87,
+      "timestamp": 1618583383232,
+      "toPid": "285",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-16T14:29:43.232Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 sa i <a href=\"/post/280\">Hjälp folk att bada i sommar med Öppna Data! (Tips och hjälp behövs)</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a href=\"https://sv.wikipedia.org/wiki/Fil:Kallbad_G%C3%B6teborg.jpg\" rel=\"nofollow ugc\">Kallbad 1914</a><br />\n<img src=\"/assets/uploads/files/1618244687475-dc9fe709-9908-41df-8308-0d1a12dcaad8-image.png\" alt=\"dc9fe709-9908-41df-8308-0d1a12dcaad8-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Tingsryd kommun verkar ha den typ av <a href=\"https://tingsryd.se/kultur-fritid/badplatser-och-badanlaggningar/kallbad/\" rel=\"nofollow ugc\">kallbad</a> du syftar på...  kollar vi på Open Street Map så saknas den info se <a href=\"https://www.openstreetmap.org/relation/10701080\" rel=\"nofollow ugc\">relation/10701080</a></p>\n<p dir=\"auto\">Som Wikipedia och andra communities fungerar så saknar man ett sätt att beskriva en sak så får man gå in och beskriva vad man vill ha så får man sedan se hur resten av dom som skapar saker reagerar på det. Kollar du på <a href=\"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dpublic_bath\" rel=\"nofollow ugc\">Tag:amenity public_bath</a> så finns många kombinationer av bad.... där folk har kommit överens att det skall beskrivas....</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> Du är hjärtligt välkommen att skapa ett OSM-konto och lägga till i Wikin om du kommer på nått bra sätt att etikettera den här typen av bad. Sen är det bara att ändra relationen ifråga <a href=\"https://www.openstreetmap.org/relation/10701080\" rel=\"nofollow ugc\">https://www.openstreetmap.org/relation/10701080</a> -&gt; logga in -&gt; lägg till din nya etikett. Efter några minuter går den att söka på via Overpass för alla.</p>\n<p dir=\"auto\">Inget av detta kräver programmeringskunskap. Dock kan det kräva lite att lära sig att redigera i en wiki om det är första gången och likaså med redigeraren på <a href=\"http://osm.org\" rel=\"nofollow ugc\">osm.org</a> som f.ö. har en bra nybörjarguide som starter automatiskt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 306,
+      "tid": 87,
+      "timestamp": 1618583652120,
+      "toPid": "280",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-19T20:47:18.995Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-16T14:34:12.120Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn Jag ska fundera på om jag kommer på någon bra beskrivning och om jag isf hinner försöka lägga in det. Tror att det kan bli lite knöligt, för dom \"kallbad\" som jag tänker på kan liksom vara ett ställe längs en älv (där isen aldrig fryser), eller nåt ställe där någon brukar såga upp en vak... så det är kanske inte någon vidare struktur eller långsiktighet för dom badställena:)</p>\n",
+      "pid": 309,
+      "tid": 87,
+      "timestamp": 1618865238995,
+      "toPid": "306",
+      "uid": 118,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-20T06:50:53.966Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-19T20:47:18.995Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> testa gärna med andra saker om detta är för för svårt.... det är denna dialog vi måste ha mellan konsumenter av data och leverantörer.... det viktiga är att vi hittar ett agilt arbetssätt med dialog (<a href=\"https://www.youtube.com/watch?v=K0l4fv5uUvg&amp;t=1580s\" rel=\"nofollow ugc\">hör min reflektion i Bonn 2018</a> på konferansen Semantic Web in Libraries)</p>\n<p dir=\"auto\">Min erfarenhet är att man måste göra detta genom dialog. WIkidata startade 2012 och ingen skulle kunnat räkna upp vilka egenskaper vi skulle ha 2012. Idag 2021 har vi &gt; 9000 egenskaper och 1000 ggr mer dialog än jag ser med öppen data i Sverige</p>\n<ul>\n<li>senaste skapade <a href=\"https://w.wiki/DYQ\" rel=\"nofollow ugc\">externa egenskaper</a></li>\n<li>senaste övriga  <a href=\"https://w.wiki/3CyA\" rel=\"nofollow ugc\">https://w.wiki/3CyA</a></li>\n</ul>\n<p dir=\"auto\">Dennis som är en doer av guds nåde <a href=\"https://pangose.github.io/sheltermap/\" rel=\"nofollow ugc\">skapade nu en karta med data från Open Street Map</a> med vindskydd och grillplatser <a href=\"https://github.com/pangoSE/sheltermap\" rel=\"nofollow ugc\">GITHUB</a> där DIGG kan ha sin nästa kickoff kring Sundsvall <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1618900454403-64272cdc-3fdb-410e-856d-44cb62e7bfe1-image.png\" alt=\"64272cdc-3fdb-410e-856d-44cb62e7bfe1-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>jag som kommer från gnällbältet undrade direkt varför har vi inte allt data om <strong>handikappanpassade bad på en karta</strong> från OSM och lika snyggt som Öppen data</li>\n<li>varför har vi inte <strong>handikappanpassade bad med arabisk beskrivning</strong> se <a href=\"https://community.dataportal.se/topic/92/how-multilingual-knowledge-management-improves-organisational-excellence\">MKG (Multilingual Knowledge Management)</a></li>\n<li>när ett vindskydd som drivs av kommunen ser ut som man <a href=\"https://www.facebook.com/groups/vindskyddinorden/permalink/1393261847689381/\" rel=\"nofollow ugc\">rapporterar i FB</a> borde det inte finnas öppen data som gör att man vet var man kan rapportera in detta och att status finns om vindkyddet repareras eller annars tas direkt bort från kartorna/öppen data..... kan Facebook visa vilken frukost alla käkar borde vi kunna hantera vindskydd/bad/bajamajor/toaletter/utegym....</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1618900655062-df0d3aba-df2f-4376-b2ee-a7602a4ab198-image.png\" alt=\"df0d3aba-df2f-4376-b2ee-a7602a4ab198-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 310,
+      "tid": 87,
+      "timestamp": 1618901453966,
+      "toPid": "309",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-20T12:03:25.772Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-20T06:50:53.966Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Kul att du gillar den. Jag vill bara inflikade att det är fullt möjligt att göra en arabisk/svensk/romani version av kartan. All text i popuppen kan anpassas. I dagsläget är det bara på engelska för att det är arbetsspråket i OSM, men det skulle säkert gå att dynamiskt översätta allt via Wikidata  leksemer eller openstreetmaps strukturerade data i wikin.</p>\n",
+      "pid": 312,
+      "tid": 87,
+      "timestamp": 1618920205772,
+      "toPid": "310",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-22T03:30:07.179Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-20T12:03:25.772Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">verkar som detta diuskuteras även på <a href=\"https://community.entryscape.com/t/hjalp-oss-att-forbattra-ett-forslag-till-specifikation-for-badplatser/542/6\" rel=\"nofollow ugc\">\"community.entryscape.com\"</a>, det galna i denna kråksång är att en spec skapats på \"<a href=\"https://deladigitalt.se/delameddig?visakort=1568\" rel=\"nofollow ugc\">Dela digitalt https://deladigitalt.se/delameddig?visakort=1568</a>\" som är en sluten website dit inte alla kan registrera sig....</p>\n",
+      "pid": 319,
+      "tid": 87,
+      "timestamp": 1619062207179,
+      "toPid": "312",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-23T13:48:34.498Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-22T03:30:07.179Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 jag skulle gärna testa, men dagarna fylls upp väldigt snabbt, så det finns knappt tid att \"producera\" dom saker som jag måste göra, så det blir redan en hel del kvällsarbete redan. Jag skulle gärna ha en klon:)</p>\n",
+      "pid": 324,
+      "tid": 87,
+      "timestamp": 1619079262144,
+      "toPid": "310",
+      "uid": 118,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-22T08:14:22.144Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60</p>\n<p dir=\"auto\">Ursäkta om det blivit rörigt och otydligt från min sida, det var verkligen inte meningen - jag sökte helt enkelt bred träffyta och publicerade på tre olika platser.</p>\n<p dir=\"auto\">Specifikationen är inte skapad på Dela Digitalt, det är ett delat inlägg där, som beskriver ungefär det jag skriver i mitt första inlägg på det här forat.<br />\nDet är samma dokument, alltså GoogleDocs-dokumentet som utgör specifikationen.</p>\n<p dir=\"auto\">På Dela Digitalt står det bara \"Jag behöver hjälp, läs det här dokumentet och kommentera\".</p>\n",
+      "pid": 334,
+      "tid": 87,
+      "timestamp": 1619185714498,
+      "toPid": "319",
+      "uid": 127,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-23T16:04:30.911Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-23T13:48:34.498Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">ok <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /> men dela gärna och jag ger dig samma tips att testa att lägga till saker på Open Street Map för att lära dig hur dom jobbar.... min magkänsla är att även fast det är en öppen och spretig  community som de flesta öppna grupper är så har dom &gt; <a href=\"https://wiki.openstreetmap.org/wiki/History_of_OpenStreetMap\" rel=\"nofollow ugc\">18 års erfarenhet</a> att snacka ihop sig och lyckats styra \"skutan\" så att även <a href=\"https://welcome.openstreetmap.org/about-osm-community/consumers/#:~:text=OpenStreetMap%20is%20used%20by%20people,%2C%20governments%2C%20organizations%20and%20more.\" rel=\"nofollow ugc\">jättar som Apple</a> använder deras data mer och mer....</p>\n<p dir=\"auto\">Min magkänsla är idag fungerar ingenting med svensl Öppen data. När jag läser \"<a href=\"https://community.dataportal.se/topic/93/specifikation-f%C3%B6r-leverant%C3%B6rsreskontra-klar\">Specifikation för leverantörsreskontra klar</a> \" så är det 15 fält som finns definierade och första utkast skapades 2019-09-05 dvs. det har tagit &gt; 19 månader att definiera 15 rel. självklara fält... jmf vi det med Wikidata som har &gt; 9000 egenskaper  så skulle detta ta &gt; 9000 man månader... <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\">Det behövs nog att alla ser sig omkring och lär sig mer och att någon ser till att saker inte dyker upp efter 19 månader.....</p>\n",
+      "pid": 335,
+      "tid": 87,
+      "timestamp": 1619193870911,
+      "toPid": "334",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-25T16:37:03.843Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-04-23T16:04:30.911Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 fick tips om <a href=\"https://www.t-d.se/sv/search\" rel=\"nofollow ugc\">Tillgänglighetsdatabasen</a> dvs. data som publiceras om badplatser bör anpassas så  <a href=\"https://www.t-d.se/sv/search\" rel=\"nofollow ugc\">Tillgänglighetsdatabasen</a> kan använda det... söker jag bad fås 98 svar vilket känns som detta är en grupp i samhället som kommuner etc borde göra det enklare för.... där bra öppen data är en variant</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1619368424188-fb4ee9c0-18fc-4e65-9d0c-29a5806233b6-image-resized.png\" alt=\"fb4ee9c0-18fc-4e65-9d0c-29a5806233b6-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Det borde även skapas</p>\n<ul>\n<li>checklistor att då man publicerar nya datamängder inte missar\n<ul>\n<li><a href=\"https://www.t-d.se/sv/search\" rel=\"nofollow ugc\">Tillgänglighetsdatabasen</a></li>\n<li>att data fungerar med <a href=\"https://wiki.openstreetmap.org/wiki/Map_features\" rel=\"nofollow ugc\">Open Street Map</a></li>\n<li>?!?!?!</li>\n</ul>\n</li>\n</ul>\n",
+      "pid": 342,
+      "tid": 87,
+      "timestamp": 1619368623843,
+      "toPid": "335",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-26T04:55:14.368Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-25T16:37:03.843Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 den observante kan ovan se i sökningen  varför man skall ha kunskapsgrafer som även hjälper dig vid sökning att hitta rätt....</p>\n<ul>\n<li>\n<p dir=\"auto\">söker jag <strong>bad</strong> så fås träff \"Återvinningsstation  .... vid Askimbadet\" dvs. den posten handlar om Återvinningsstationen och är inte det jag letar efter och skall inte dyka upp....</p>\n</li>\n<li>\n<p dir=\"auto\">bra enkel <a href=\"https://vimeo.com/36752317\" rel=\"nofollow ugc\">video på  5 min om Linked data</a> med exempel att söka på <strong>\"Venus\"</strong></p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1619412865435-0e30ae6b-682f-4eac-a45f-1e3e7f1bd704-image.png\" alt=\"0e30ae6b-682f-4eac-a45f-1e3e7f1bd704-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1619412897542-527dc698-44ac-4a8d-8cb9-a11bc509fac5-image.png\" alt=\"527dc698-44ac-4a8d-8cb9-a11bc509fac5-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 343,
+      "tid": 87,
+      "timestamp": 1619412914368,
+      "toPid": "342",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-27T16:47:03.645Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-26T04:55:14.368Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60<br />\nTack för input, mycket matnyttigt men det snurrar lätt med all feedback som jag fått. Om vi förenklar enormt - kan det räcka med om jag har med fält i datamängden som refererar till OSM - räcker det med ett fält som pekar på just det objektet som utgör badplatsen? (exempelvis /way/688795404 för Hattarevikens badplats?)</p>\n<p dir=\"auto\">Detsamma för Wikidata - kan det räcka med ett fält som pekar på en Q-kod på Wikidata eller måste båda dessa referenser beskrivas som arrayer som kan hålla flera arrayer?</p>\n<p dir=\"auto\">Funderar på om någon av er @salgo60 <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> @Dennis_Priskorn har någon idé om hur jag kan skapa upp unika identifierare för varje rad i datamängden, genom ett system som kan delas av alla dataproducenter och säkrar att de blir unika - jag har funderat över ett datumbaserat system, kombinerat med kod för kommun eller motsv?</p>\n<p dir=\"auto\">Kommunkod + år + månad + dag + eget löpnummer eller nåt sånt? Eller ska man återanvända något kring NUTS-kod från Eurostat eller nåt sånt för att få koppling till geografi? Det är viktigt att ha en unik identifierare per rad känner jag som dels är beständig och som säkrar att det inte uppstår dubletter eller att de återanvänds om en plats tas bort.</p>\n",
+      "pid": 348,
+      "tid": 87,
+      "timestamp": 1619542023645,
+      "toPid": "343",
+      "uid": 127,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 163,
+            "username": "istyf",
+            "userslug": "istyf",
+            "picture": null,
+            "fullname": "Isak Styf",
+            "displayname": "istyf",
+            "icon:text": "I",
+            "icon:bgColor": "#607d8b"
+          },
+          {
+            "uid": 118,
+            "username": "josefinlassi",
+            "userslug": "josefinlassi",
+            "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+            "fullname": "Josefin Lassinantti",
+            "displayname": "josefinlassi",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-27T20:44:57.588Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-27T16:47:03.645Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a> Jag är lite sen till partyt här, men har följt er diskussion ett tag. När det gäller stabila identifierare så tänker jag personligen att det finns något bakomliggande system där informationen om badplatsen bor. Detta system blir då det som skapar/äger identiteten och den bör därför utformas så att den kan användas för att hitta tillbaka till just den \"registerposten\" i källsystemet. En metod för namngivningen kan till exempel vara någon form av namespace som se.toreboda.anlaggningar.badstrand.217. Att däremot blanda in datum och tid i namnet känns inte helt naturligt för mig.</p>\n",
+      "pid": 350,
+      "tid": 87,
+      "timestamp": 1619556297588,
+      "toPid": "348",
+      "uid": 163,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-04-27T21:26:17.204Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-27T20:44:57.588Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "user": {
+        "uid": 163,
+        "username": "istyf",
+        "userslug": "istyf",
+        "reputation": 2,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1657038467519,
+        "groupTitle": "[]",
+        "mutedUntil": 0,
+        "displayname": "istyf",
+        "groupTitleArray": [],
+        "icon:text": "I",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2022-07-05T16:27:47.519Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag är inne på lite liknande frågor som dem <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a> ställer.<br />\nOm man skapar egna utsagor om något, ska man då också skapa unika resurs-identifierare för utsagorna.<br />\nFinns det någon offentlig vägledning kring sådant med konkreta exempel?<br />\nÄr det administrativt betungande inbegripande registrering av domännamn, eller kan man lättvindigt generera universellt unika ID:n som andra kan referera till?</p>\n",
+      "pid": 351,
+      "tid": 87,
+      "timestamp": 1619558777204,
+      "toPid": "350",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-28T04:39:46.797Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-27T21:26:17.204Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "istyf",
+        "displayname": "istyf"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">jag skickade frågan vidare om Havs- och vattenmyndighetens har unika ID:n för badplatser så vi inte uppfinner hjulet igen se <a href=\"https://twitter.com/salgo60/status/1387262963187322880?s=20\" rel=\"nofollow ugc\">tweet</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1619584706134-d6d457f7-568d-4fb9-a04c-8b463fccef77-image.png\" alt=\"d6d457f7-568d-4fb9-a04c-8b463fccef77-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">dom har ju snygg info om provtagning etc.....<br />\n<img src=\"/assets/uploads/files/1619584774101-4b995c6b-d631-46a1-9da6-b3153ece03cc-image.png\" alt=\"4b995c6b-d631-46a1-9da6-b3153ece03cc-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 353,
+      "tid": 87,
+      "timestamp": 1619584786797,
+      "toPid": "351",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-29T15:21:29.383Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-28T04:39:46.797Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#d59151",
+    "cid": 1,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Diskutera data och API:er som du skulle vilja använda eller få tillgång till.",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera data och API:er som du skulle vilja använda eller få tillgång till.</p>\n",
+    "disabled": 0,
+    "icon": "fa-bullhorn",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Efterfråga data och API:er",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 23,
+    "post_count": 186,
+    "slug": "1/efterfråga-data-och-api-er",
+    "topic_count": 21,
+    "undefined": "Vad är \"Tag whitelist\"",
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 186,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "87",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/87.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Efterfråga data och API:er",
+      "url": "/category/1/efterfråga-data-och-api-er",
+      "cid": 1
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/87/hjälp-folk-att-bada-i-sommar-med-öppna-data-tips-och-hjälp-behövs?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      },
+      {
+        "page": 3,
+        "active": false,
+        "qs": "page=3"
+      },
+      {
+        "page": 4,
+        "active": false,
+        "qs": "page=4"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 4,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 4,
+      "active": false,
+      "qs": "page=4"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/87",
+  "bodyClass": "page-topic page-topic-87 template-topic page-topic-category-1 page-topic-category-efterfråga-data-och-api-er parent-category-23 parent-category-1 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Hjälp folk att bada i sommar med Öppna Data! (Tips och hjälp behövs)"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Inom samverkansprojektet i VGRegion &quot;Dataportal Väst&quot; har vi börjat ta fram specifikationer och mer konkret hjälp till deltagarorganisationerna att dela data. En idé vi har är att skapa en datamängd lagom till sommarsäsongen för Badplatser. Det finns..."
+        },
+        {
+          "property": "og:title",
+          "content": "Hjälp folk att bada i sommar med Öppna Data! (Tips och hjälp behövs)"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Inom samverkansprojektet i VGRegion &quot;Dataportal Väst&quot; har vi börjat ta fram specifikationer och mer konkret hjälp till deltagarorganisationerna att dela data. En idé vi har är att skapa en datamängd lagom till sommarsäsongen för Badplatser. Det finns..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-04-12T12:12:22.824Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-07-03T08:25:54.900Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Efterfråga data och API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/87",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/87/hjälp-folk-att-bada-i-sommar-med-öppna-data-tips-och-hjälp-behövs",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/87.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/1/efterfråga-data-och-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/tomasmonsen"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/87/hjälp-folk-att-bada-i-sommar-med-öppna-data-tips-och-hjälp-behövs?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

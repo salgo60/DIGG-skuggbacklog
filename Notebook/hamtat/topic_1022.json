@@ -1,0 +1,704 @@
+{
+  "cid": 37,
+  "lastposttime": 1743414897408,
+  "mainPid": 5019,
+  "postcount": 4,
+  "slug": "1022/enkel-php-för-att-hämta-kulturhistoriska-lämningar-från-nationella-geodataplattformen",
+  "tid": 1022,
+  "timestamp": 1743157825743,
+  "title": "Enkel PHP för att hämta kulturhistoriska lämningar från Nationella geodataplattformen",
+  "uid": 1715,
+  "viewcount": 276,
+  "postercount": 2,
+  "teaserPid": 5038,
+  "downvotes": 0,
+  "upvotes": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Enkel PHP för att hämta kulturhistoriska lämningar från Nationella geodataplattformen",
+  "timestampISO": "2025-03-28T10:30:25.743Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-03-31T09:54:57.408Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Nedan visas en enkel PHP för att hämta kulturhistoriska lämningar i form av referensobjekt från Nationella geodataplattformen. Det sker inget urval utifrån attribut annat än typ. Limit-parametern begränsar hur många objekt som hämtas. Det går att maximalt hämta 10000 objekt åt gången.</p>\n<p dir=\"auto\">PHP-koden hämtar en OAuth2-token från Lantmäteriets API genom att skicka en POST-förfrågan med dina konsumentnycklar. När token har hämtats, används den för att autentisera en annan POST-förfrågan till Lantmäteriets API för att hämta data om kulturhistoriska lämningar. Slutligen skrivs den hämtade datan ut i JSON-format.</p>\n<pre><code class=\"language-plaintext\">header('Content-Type: application/json');\nfunction getToken() {\n    return json_decode(file_get_contents('https://apimanager.lantmateriet.se/oauth2/token', false, stream_context_create([\n        'http' =&gt; [\n            'header' =&gt; [\n                'Authorization: Basic ' . base64_encode('consumerKey:consumerSecret'),\n                'Content-Type: application/x-www-form-urlencoded'\n            ],\n            'method' =&gt; 'POST',\n            'content' =&gt; 'grant_type=client_credentials'\n        ]\n    ])), true)['access_token'] ?? exit('Error fetching token');\n}\nfunction searchData($token) {\n    return file_get_contents('https://api.lantmateriet.se/distribution/geodatakatalog/sokning/v1/kulturhistorisklamning/v1/search', false, stream_context_create([\n        'http' =&gt; [\n            'header' =&gt; [\n                'Authorization: Bearer ' . $token,\n                'Content-Type: application/json'\n            ],\n            'method' =&gt; 'POST',\n            'content' =&gt; json_encode([\n                'query' =&gt; ['feature.typ' =&gt; ['eq' =&gt; 'kulturhistorisk lämning'&rsqb;&rsqb;,\n                'limit' =&gt; 10\n            ])\n        ]\n    ])) ?? exit('Error fetching data');\n}\necho searchData(getToken());\n</code></pre>\n",
+      "pid": 5019,
+      "tid": 1022,
+      "timestamp": 1743157825743,
+      "uid": 1715,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-03-28T10:30:25.743Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Snyggt. Fråga för denna tråd och liknande trådar från dig som har kodsnuttar: Kommer koden läggas upp på någon lämplig plattform för kodhantering t.ex. har Lantmäteriet en instans av Git-plattform som kan dela extern kod?</p>\n<p dir=\"auto\">Eller kan LM kanske ordna en organisation med kodförråd på EU-ägda Git-plattformen <a href=\"https://codeberg.org/\" rel=\"nofollow ugc\">Codeberg</a>?</p>\n",
+      "pid": 5020,
+      "tid": 1022,
+      "timestamp": 1743158264850,
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-03-28T12:54:06.716Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-28T10:37:44.850Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a><br />\nJag ska vara transparent och säga att jag försöker driva på just den här frågan internt inom Lantmäteriet om hur myndigheten bättre skulle kunna bidra med kod-exempel på någon Git-plattform eller egen plattform. Vi vet att det är något som efterfrågas. Kanske kan det hända något framöver.</p>\n<p dir=\"auto\">I väntan på något ställningstagande provar jag att bidra här! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f4a1.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--bulb\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":bulb:\" alt=\"💡\" /></p>\n",
+      "pid": 5021,
+      "tid": 1022,
+      "timestamp": 1743166446716,
+      "toPid": "5020",
+      "uid": 1715,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-03-28T12:54:06.716Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> Superbra! Kul att höra. Kan verkligen föreställa mig att det efterfrågas, och kan vara bra att göra även om det inte är lagkrav på det för att proaktivt minska admin och kundtjänst kring användning av API:er &amp; data. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" /></p>\n",
+      "pid": 5038,
+      "tid": 1022,
+      "timestamp": 1743414897408,
+      "uid": 30,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-03-31T09:54:57.408Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#8681b1",
+    "cid": 37,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Under denna kategori samlar vi frågor, behov och nyheter som rör användning, hantering och tillgängliggörande av geografiska data, Geodataportalen och den nationella geodataplattformen (NGP).",
+    "descriptionParsed": "<p dir=\"auto\">Under denna kategori samlar vi frågor, behov och nyheter som rör användning, hantering och tillgängliggörande av geografiska data, Geodataportalen och den nationella geodataplattformen (NGP).</p>\n",
+    "disabled": 0,
+    "icon": "fa-globe",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Geografiska data",
+    "numRecentReplies": 1,
+    "order": -1,
+    "parentCid": 23,
+    "post_count": 122,
+    "slug": "37/geografiska-data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 12,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 122,
+    "totalTopicCount": 12
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1022",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1022.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Geografiska data",
+      "url": "/category/37/geografiska-data",
+      "cid": 37
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1022",
+  "bodyClass": "page-topic page-topic-1022 template-topic page-topic-category-37 page-topic-category-geografiska-data parent-category-23 parent-category-37 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Enkel PHP för att hämta kulturhistoriska lämningar från Nationella geodataplattformen"
+        },
+        {
+          "name": "description",
+          "content": "Nedan visas en enkel PHP för att hämta kulturhistoriska lämningar i form av referensobjekt från Nationella geodataplattformen. Det sker inget urval utifrån attribut annat än typ. Limit-parametern begränsar hur många objekt som hämtas. Det går att maximalt..."
+        },
+        {
+          "property": "og:title",
+          "content": "Enkel PHP för att hämta kulturhistoriska lämningar från Nationella geodataplattformen"
+        },
+        {
+          "property": "og:description",
+          "content": "Nedan visas en enkel PHP för att hämta kulturhistoriska lämningar i form av referensobjekt från Nationella geodataplattformen. Det sker inget urval utifrån attribut annat än typ. Limit-parametern begränsar hur många objekt som hämtas. Det går att maximalt..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-03-28T10:30:25.743Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-03-31T09:54:57.408Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Geografiska data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1022",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1022/enkel-php-för-att-hämta-kulturhistoriska-lämningar-från-nationella-geodataplattformen",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1022.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/37/geografiska-data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/lmdaniel"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

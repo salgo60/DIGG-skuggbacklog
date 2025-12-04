@@ -1,0 +1,1316 @@
+{
+  "cid": 23,
+  "lastposttime": 1616160316868,
+  "mainPid": 158,
+  "postcount": 10,
+  "slug": "58/android-app-to-keep-track-of-the-swedish-parliament",
+  "tid": 58,
+  "timestamp": 1615328336900,
+  "title": "Android app to keep track of the Swedish parliament.",
+  "uid": 90,
+  "viewcount": 1342,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 198,
+  "tags": [
+    {
+      "value": "riksdagen",
+      "valueEscaped": "riksdagen",
+      "valueEncoded": "riksdagen",
+      "class": "riksdagen"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "öppna data",
+      "valueEscaped": "öppna data",
+      "valueEncoded": "%C3%B6ppna%20data",
+      "class": "öppna-data"
+    }
+  ],
+  "oldCid": 3,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Android app to keep track of the Swedish parliament.",
+  "timestampISO": "2021-03-09T22:18:56.900Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-03-19T13:25:16.868Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej,</p>\n<p dir=\"auto\">Snyggt exempel på användning av riksdagens api:er</p>\n<p dir=\"auto\">--<br />\n<a href=\"https://github.com/OAndell/Riksdagskollen\" rel=\"nofollow ugc\">https://github.com/OAndell/Riksdagskollen</a></p>\n<p dir=\"auto\">Features:<br />\nView new decisions made by the parlament.<br />\nView the results of votes.<br />\nSort by party.<br />\nRead new questions, motions and other documents put forward by the parties.</p>\n<p dir=\"auto\">--</p>\n<p dir=\"auto\">Finns även en hel del andra projekt på  github i olika stadier <a href=\"https://github.com/search?o=desc&amp;q=riksdagen&amp;s=updated&amp;type=Repositories\" rel=\"nofollow ugc\">https://github.com/search?o=desc&amp;q=riksdagen&amp;s=updated&amp;type=Repositories</a> / <a href=\"https://github.com/search?o=desc&amp;q=riksdag&amp;s=updated&amp;type=Repositories\" rel=\"nofollow ugc\">https://github.com/search?o=desc&amp;q=riksdag&amp;s=updated&amp;type=Repositories</a> som använder riksdagens api.</p>\n",
+      "pid": 158,
+      "tid": 58,
+      "timestamp": 1615328336900,
+      "uid": 90,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-09T23:01:07.945Z"
+      },
+      "edited": 1615364187770,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-09T22:18:56.900Z",
+      "editedISO": "2021-03-10T08:16:27.770Z",
+      "index": 0,
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/90\">@jamespether</a> Riksdagen har bra <a href=\"https://data.riksdagen.se/\" rel=\"nofollow ugc\">öppen data</a> med</p>\n<ul>\n<li>unika id:n på alla dokument</li>\n<li>unika id:n på alla personer i Riksdagen<br />\ndet som saknas är någon typ av klassificering av dokument så man enkelt kan se vad som har med Corona att göra etc... och att man kan koppla detta till HD domar, EU beslut, <a href=\"https://www.globalamalen.se/\" rel=\"nofollow ugc\">FNs mål för 2030</a> ....</li>\n</ul>\n<p dir=\"auto\">Vi borde kunna kräva att alla <a href=\"https://w.wiki/V4o\" rel=\"nofollow ugc\">landets 290 kommuner</a> levererar Öppen data på samma sätt med beslut och vem som tar besluten, dokument klassificerade på vad de handlar om.....</p>\n",
+      "pid": 159,
+      "tid": 58,
+      "timestamp": 1615330867945,
+      "toPid": "158",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-09T23:01:07.945Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jamespether",
+        "displayname": "jamespether"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Går det att enkelt kunna filtrera ut närvaro respektive frånvaro? Apropå detta: <a href=\"https://sverigesradio.se/artikel/riksdagsskolkare-ska-kunna-straffas-med-indraget-arvode\" rel=\"nofollow ugc\">https://sverigesradio.se/artikel/riksdagsskolkare-ska-kunna-straffas-med-indraget-arvode</a></p>\n",
+      "pid": 187,
+      "tid": 58,
+      "timestamp": 1616060038686,
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 90,
+            "username": "jamespether",
+            "userslug": "jamespether",
+            "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+            "fullname": "James Pether Sörling",
+            "displayname": "jamespether",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-03-18T10:44:45.795Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-18T09:33:58.686Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> närvaro respektive frånvaro?:</p>\n<p dir=\"auto\">inte vad jag vet men skicka en fråga till <a href=\"mailto:riksdagsinformation@riksdagen.se\" rel=\"nofollow ugc\">riksdagsinformation@riksdagen.se</a> dom brukar svara tyvärr finns dom inte på GITHUB eller har liknande plattform så kommunikationen brukar vara väldigt långsam.... 2019 frågade jag om att träffa deras IT gubbar och det var inget problem <a href=\"https://phabricator.wikimedia.org/T235527\" rel=\"nofollow ugc\">länk</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616064092302-875e7b6a-485f-4ade-b0f0-9a5d86b51453-image-resized.png\" alt=\"875e7b6a-485f-4ade-b0f0-9a5d86b51453-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 190,
+      "tid": 58,
+      "timestamp": 1616064285795,
+      "toPid": "187",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-18T15:22:54.194Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-18T10:44:45.795Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Jag tror det är i väljarens och allmänhetens intresse att se hur ofta deras respektive framröstad representant i Riksdagen är där och röstar. I ett exempel på skärmdump från appen syns det att 294 ledamöter är frånvarande från omröstning. Exempel syns <a href=\"https://github.com/OAndell/Riksdagskollen/blob/master/fastlane/metadata/android/sv-SE/images/phoneScreenshots/vote.png\" rel=\"nofollow ugc\">här</a>.</p>\n",
+      "pid": 191,
+      "tid": 58,
+      "timestamp": 1616080974194,
+      "toPid": "190",
+      "uid": 30,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-18T16:12:14.180Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-18T15:22:54.194Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> jag köper det helt.... men har inte lekt med Riksdagens voterings data.....  kan även gissa att det är lite bökigt iom med pandemin vilka som dyker upp till omröstning etc... fråga Riksdagen och se även <a href=\"https://www.riksdagen.se/sv/riksdagens-arbete-med-anledning-av-coronaviruset/\" rel=\"nofollow ugc\">Riksdagens arbete med anledning av coronaviruset</a></p>\n<pre><code>\"Gruppledarna har kommit överens om att bara 55 ledamöter ska vara på plats vid omröstning i kammaren,  men alla de 349 ledamöterna är fortsatt i tjänst.\"\n</code></pre>\n<p dir=\"auto\">dvs. det är nog annan data du skall ha för att bedöma om dom deltar i Riksdagsarbetet....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616083635870-abbd853b-640a-4a97-b242-366ac7fcab85-image.png\" alt=\"abbd853b-640a-4a97-b242-366ac7fcab85-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 192,
+      "tid": 58,
+      "timestamp": 1616083934180,
+      "toPid": "191",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-03-18T18:37:18.939Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-18T16:12:14.180Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Varför inte ta kontakt med dom som jobbar med detta och säg till att dom börjar leva som dom lär dvs. beskriv även hur underlag för deras närvaro skall vara tillgängligt som <strong>Öppen Data</strong></p>\n<p dir=\"auto\">Det verkar dock som detta är bara ett förslag se dok <a href=\"https://www.riksdagen.se/sv/dokument-lagar/dokument/utredning-fran-riksdagsforvaltningen/2019-ars-riksdagsoversyn_H8A5URF1/html\" rel=\"nofollow ugc\">H8A5URF1</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616086887950-96edf6fd-12f4-4eb5-bbdd-dd9fda35e328-image.png\" alt=\"96edf6fd-12f4-4eb5-bbdd-dd9fda35e328-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">DIGG kräver inte Öppenhet men rekommenderar <a href=\"https://www.digg.se/om-oss/nyheter/2020/oppenhet-som-standard--ny-rekommendation-fran-digg-till-regeringen\" rel=\"nofollow ugc\">Öppenhet som standard</a> så skall något hända borde Riksdagen i ett förslag som ovan även trycka på att detta underlag finns tillgängligt som maskinläsbar öppen data och som kanske en dashboard.... dvs. <a href=\"https://en.wikipedia.org/wiki/Eating_your_own_dog_food\" rel=\"nofollow ugc\">Eat your own dog food</a> och hela tiden peka på Öppen Data</p>\n<p dir=\"auto\">Dokumentet <a href=\"https://www.riksdagen.se/sv/dokument-lagar/dokument/utredning-fran-riksdagsforvaltningen/2019-ars-riksdagsoversyn_H8A5URF1\" rel=\"nofollow ugc\">H8A5URF1</a> verkar sakna bra metadata om vilka som var med i utredningen se <a href=\"http://data.riksdagen.se/dokumentlista/?sok=H8A5URF1&amp;doktyp=&amp;rm=&amp;from=&amp;tom=&amp;ts=&amp;bet=&amp;tempbet=&amp;nr=&amp;org=&amp;iid=&amp;avd=&amp;webbtv=&amp;talare=&amp;exakt=&amp;planering=&amp;facets=&amp;sort=rel&amp;sortorder=desc&amp;rapport=&amp;utformat=json&amp;a=s#soktraff\" rel=\"nofollow ugc\">JSON</a> men i texten sägs det</p>\n<ul>\n<li>\n<p dir=\"auto\">Erik Ezelius (S), Laila Naraghi (S), Fredrik Olovsson (S), Elisabeth Svantesson (M), Jessika Roswall (M), Charlotte Quensel (SD), Mikael Strandman (SD), Peter Helander (C), Mia Sydow Mölleby (V), Larry Söder (KD), Lina Nordquist (L) och Janine Alm Ericson (MP).</p>\n</li>\n<li>\n<p dir=\"auto\">Översätter jag dessa textsträngar till Wikidata Qnummer ==&gt; att mer metadata kan hämtas om personerna och hur vi kan kontakta dom</p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616090114876-2708e499-7487-4c7b-aa51-48518fad7e1c-image.png\" alt=\"2708e499-7487-4c7b-aa51-48518fad7e1c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">-&gt; att vi kan se vad WD vet - deras twitterkonto, telefonnr, email, deras Riksdagssida</p>\n<ul>\n<li><a href=\"https://w.wiki/36$Z\" rel=\"nofollow ugc\">SPARQL fråga WD</a> som hämtar twitter email riksdagssida\n<ul>\n<li><a href=\"https://w.wiki/36$d\" rel=\"nofollow ugc\">samma men med dom WD har bild på</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616091367203-783712db-d614-4ae6-9a0e-7a7d836b6ddb-image.png\" alt=\"783712db-d614-4ae6-9a0e-7a7d836b6ddb-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>Många motioner finns i Wikidata och via ett gränssnitt Scholia så kan vi då lista dessa riksdagsledamöter och vilka tidigare motioner etc. dom skrivit och ihop med vilka<br />\n** <a href=\"https://w.wiki/36$m\" rel=\"nofollow ugc\">SPARQL fråga WD</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616092190161-240c0237-d2f0-4109-bf3c-53b58c865a35-image-resized.png\" alt=\"240c0237-d2f0-4109-bf3c-53b58c865a35-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">och se grafer som denna för Elisabet Svantesson <a href=\"https://w.wiki/36$n\" rel=\"nofollow ugc\">länk</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616092259913-1d7c483c-6a1c-4277-ada6-caee25955bd6-image.png\" alt=\"1d7c483c-6a1c-4277-ada6-caee25955bd6-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">allt bara för att vi översatte textsträngar i Riksdagens metadata till Wikidata id (Qnummer) och sedan har kopplat ihop motioner, SOU:er etc. med respektive Riksdagsledamot i Wikidata</p>\n<p dir=\"auto\"><a href=\"https://www.ted.com/talks/tim_berners_lee_the_next_web/transcript?language=en\" rel=\"nofollow ugc\">#LinkedDataNow</a></p>\n",
+      "pid": 193,
+      "tid": 58,
+      "timestamp": 1616092638939,
+      "toPid": "192",
+      "uid": 24,
+      "edited": 1616092771239,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-03-19T07:25:47.539Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-03-18T18:37:18.939Z",
+      "editedISO": "2021-03-18T18:39:31.239Z",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 195,
+      "tid": 58,
+      "timestamp": 1616138747539,
+      "toPid": "193",
+      "uid": 24,
+      "deleted": 1,
+      "deleterUid": 24,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-19T07:25:47.539Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 la en blänkare i FB gruppen datajournalistik om dom har några tips att få fart på att Riksdagen att snabbare levererar <strong><a href=\"https://youtu.be/OM6XIICm_qo?t=660\" rel=\"nofollow ugc\">data som data</a></strong> för ett fall som detta med Riksdagsledamöters närvaro <a href=\"https://www.facebook.com/groups/datajournalistik/permalink/5187560054649104/\" rel=\"nofollow ugc\">länk</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1616152828591-ad3afd32-e9ca-4758-998d-945e3e680f1c-image.png\" alt=\"ad3afd32-e9ca-4758-998d-945e3e680f1c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li><a href=\"https://youtu.be/OM6XIICm_qo?t=660\" rel=\"nofollow ugc\">Raw data now</a></li>\n</ul>\n",
+      "pid": 197,
+      "tid": 58,
+      "timestamp": 1616152883011,
+      "toPid": "193",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-19T11:21:23.011Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> kolla på <a href=\"https://www.hack23.com/cia/#!parliamentranking/RULES/RULE_VIOLATIONS\" rel=\"nofollow ugc\">https://www.hack23.com/cia/#!parliamentranking/RULES/RULE_VIOLATIONS</a> , går att filtera på RuleName PoliticanLazy <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Finns annars trender på närvaro på politiker och parti nivå.</p>\n<p dir=\"auto\">Mvh</p>\n",
+      "pid": 198,
+      "tid": 58,
+      "timestamp": 1616160316868,
+      "toPid": "187",
+      "uid": 90,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-03-19T13:25:16.868Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 90,
+        "username": "jamespether",
+        "userslug": "jamespether",
+        "reputation": 13,
+        "postcount": 27,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+        "signature": "<p dir=\"auto\"><a href=\"https://www.linkedin.com/in/jamessorling/\" rel=\"nofollow ugc\">https://www.linkedin.com/in/jamessorling/</a> ,  info <a href=\"https://www.hack23.com/\" rel=\"nofollow ugc\">https://www.hack23.com/</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1693167753331,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jamespether",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-08-27T20:22:33.331Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 3,
+          "type": "move",
+          "uid": 62,
+          "id": 252,
+          "timestamp": 1648839003471,
+          "timestampISO": "2022-04-01T18:50:03.471Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Goda exempel och inspiration",
+            "slug": "3/goda-exempel-och-inspiration",
+            "icon": "fa-newspaper-o",
+            "color": "#fff",
+            "bgColor": "#5a6751"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-04-01T18:50:03.471Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 3,
+      "type": "move",
+      "uid": 62,
+      "id": 252,
+      "timestamp": 1648839003471,
+      "timestampISO": "2022-04-01T18:50:03.471Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Goda exempel och inspiration",
+        "slug": "3/goda-exempel-och-inspiration",
+        "icon": "fa-newspaper-o",
+        "color": "#fff",
+        "bgColor": "#5a6751"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-04-01T18:50:03.471Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "58",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/58.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/58",
+  "bodyClass": "page-topic page-topic-58 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Android app to keep track of the Swedish parliament."
+        },
+        {
+          "name": "description",
+          "content": "Hej, Snyggt exempel på användning av riksdagens api:er -- https://github.com/OAndell/Riksdagskollen Features: View new decisions made by the parlament. View the results of votes. Sort by party. Read new questions, motions and other documents put forward b..."
+        },
+        {
+          "property": "og:title",
+          "content": "Android app to keep track of the Swedish parliament."
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, Snyggt exempel på användning av riksdagens api:er -- https://github.com/OAndell/Riksdagskollen Features: View new decisions made by the parlament. View the results of votes. Sort by party. Read new questions, motions and other documents put forward b..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-03-09T22:18:56.900Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-03-19T13:25:16.868Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/90-profileavatar-1613637930039.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/58",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/58/android-app-to-keep-track-of-the-swedish-parliament",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/58.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jamespether"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

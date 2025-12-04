@@ -1,0 +1,1770 @@
+{
+  "cid": 25,
+  "lastposttime": 1634727796613,
+  "mainPid": 876,
+  "postcount": 15,
+  "slug": "208/namnstandard-vad-specar-heter-och-hur-de-refereras-backlog",
+  "tid": 208,
+  "timestamp": 1634288966550,
+  "title": "Namnstandard vad specar heter och hur de refereras, backlog",
+  "uid": 24,
+  "viewcount": 1429,
+  "postercount": 4,
+  "tags": [
+    {
+      "value": "diggbacklog",
+      "valueEscaped": "diggbacklog",
+      "valueEncoded": "diggbacklog",
+      "class": "diggbacklog"
+    }
+  ],
+  "teaserPid": 924,
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Namnstandard vad specar heter och hur de refereras, backlog",
+  "timestampISO": "2021-10-15T09:09:26.550Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-10-20T11:03:16.613Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<ul>\n<li><a href=\"https://www.dataportal.se/sv/specifications/utegym/1.0#ref=?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=&amp;rt=spec_standard%24spec_profile&amp;c=false\" rel=\"nofollow ugc\">Träningsplatser utomhus (utomhusgym, utegym)</a>\n<ul>\n<li>länkar till <a href=\"https://lankadedata.se/spec/utegym/\" rel=\"nofollow ugc\">Specifikation för utegym Information om utegym, särskilt anordnade</a></li>\n</ul>\n</li>\n</ul>\n<ol>\n<li>\n<p dir=\"auto\"><strong>Input DIGG backlog</strong> borde vi inte ha <a href=\"https://www.umu.se/enheten-for-demografi-och-aldrandeforskning/doi/\" rel=\"nofollow ugc\">DOI nummer</a> för specar så man kan  referera dom tydligare. I exemplet så är inte ens specifikationens namn i  dataportal och i refererad spec lika... versions nummer finns i URL:en inte i dokumentet tydligt ?!?!?! Som sagt snyggare att ha databas driven lösning se change history <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema:E280&amp;action=history\" rel=\"nofollow ugc\">EntitySchema:E280</a>  med diff <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">mellan versioner</a> och stöd för språk <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;uselang=sv&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">sv</a>, <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;uselang=en&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">en</a>, <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;uselang=de&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">de</a></p>\n</li>\n<li>\n<p dir=\"auto\"><strong>Input DIGG backlog</strong>  i metadata på <a href=\"https://www.dataportal.se/sv/specifications/utegym/1\" rel=\"nofollow ugc\">dataportal.se</a> borde <strong>länk backlog finnas</strong> för specar.  I detta fall verkar det i dokumentet finnas en länk till gitlab <a href=\"https://gitlab.com/lankadedata/spec/utegym/-/issues\" rel=\"nofollow ugc\">lankadedata spec/utegym/-/issues</a></p>\n</li>\n</ol>\n",
+      "pid": 876,
+      "tid": 208,
+      "timestamp": 1634288966550,
+      "uid": 24,
+      "edited": 1634289301540,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-10-16T06:17:58.301Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-15T09:09:26.550Z",
+      "editedISO": "2021-10-15T09:15:01.540Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv DOI var ett riktigt intressant förslag. Jag/AF har mest tänkt UUID för identifierare. Tror du det finns något bra exempel på ett API som använder DOI?</p>\n",
+      "pid": 879,
+      "tid": 208,
+      "timestamp": 1634365078301,
+      "toPid": "876",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-16T06:17:58.301Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Med öppen backlog menar du typ såhär?<a href=\"https://gitlab.com/groups/arbetsformedlingen/taxonomy-dev/-/issues\" rel=\"nofollow ugc\">https://gitlab.com/groups/arbetsformedlingen/taxonomy-dev/-/issues</a></p>\n",
+      "pid": 880,
+      "tid": 208,
+      "timestamp": 1634365246159,
+      "toPid": "876",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-16T10:55:56.164Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-16T06:20:46.159Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Forskarvärlden använder DOI för publikationer och ORCID för personer  (det var det jag <a href=\"https://community.dataportal.se/topic/181/leverant%C3%B6rsreskontra-som-%C3%B6ppna-data-en-nyttoanalys/2?_=1634375853523\">gnällde på här</a> att man inte förstod det) men det finns även för dataset. Wikidata har  <a href=\"https://scholia.toolforge.org/\" rel=\"nofollow ugc\">Scholia</a> som byggs som ett lager över Wikidata... för att koppla ihop personer ämnen, författar grafer etc allt bygger på att datat har <strong>\"samma som\"</strong></p>\n<p dir=\"auto\">OT @Dennis_Priskorn som är snabb och lite galen har om jag nu fattat rätt satt upp Kubernetes instanser på Wikimedias servrar som kör hans nya verktyg  <a href=\"https://github.com/dpriskorn/ItemSubjector\" rel=\"nofollow ugc\">dpriskorn/ItemSubjector</a> och lägger på ämnen från Wikidatas kunskapsgraf på 1 miljon forskningsrapporter per vecka.... tror <a href=\"https://wikidata.wikiscan.org/hours/12/users\" rel=\"nofollow ugc\">på denna lista</a>  är det <a href=\"https://wikidata.wikiscan.org/utilisateur/Jsamwrites\" rel=\"nofollow ugc\">Jsamwrites</a> och <a href=\"https://wikidata.wikiscan.org/utilisateur/So9q\" rel=\"nofollow ugc\">So9q</a> som ofta ligger högst och trycker in ändringar <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></p>\n<p dir=\"auto\">Nedan hur antal artiklar med ämnesord <strong>morfin</strong> blir fler.... bäst vore tror jag att datat kurerades vid källan men nu har vi inte en perfekt värld så då behövs krigare som herr Dennis</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634381072229-c8700f5b-3ce8-4789-af68-6c2d23da1f1a-image.png\" alt=\"c8700f5b-3ce8-4789-af68-6c2d23da1f1a-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Kolla på <a href=\"https://www.kaggle.com/product-feedback/108594\" rel=\"nofollow ugc\">Kaggle så sätter dom DOI</a> numera på om du laddar upp ett dataset.</p>\n<p dir=\"auto\">Harvard Dataverse kör det för sina dataset</p>\n<ul>\n<li><a href=\"https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QE7MTG\" rel=\"nofollow ugc\">https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QE7MTG</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634376001520-7df97f99-6b2c-4c04-b36b-49865654a2be-image.png\" alt=\"7df97f99-6b2c-4c04-b36b-49865654a2be-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>GITHUB pushar det \"<a href=\"https://guides.github.com/activities/citable-code/\" rel=\"nofollow ugc\">Making Your Code Citable</a>\"</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634376860417-64c159ab-7d2f-42f6-b745-2617eb38671b-image-resized.png\" alt=\"64c159ab-7d2f-42f6-b745-2617eb38671b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a href=\"https://w.wiki/rGr\" rel=\"nofollow ugc\">DIGG Anna</a> pratade förut om att Öppna data är en lagsport. Att vi nu ligger enl. OECD fortfarande typ sist och har folk som inte ens ser brister hur vi jobbar med data och specar proffsigt eller varför man skall ha kunskapsgrafer tror jag är en early warning flag.... <strong>att vi har fel kompetenser</strong>...</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634377927934-aba2b955-aced-494c-8cb4-c8d6ceb0f988-image.png\" alt=\"aba2b955-aced-494c-8cb4-c8d6ceb0f988-image.png\" class=\" img-fluid img-markdown\" /><br />\nFör att <a href=\"https://youtu.be/RtlwWMJILBA?t=155\" rel=\"nofollow ugc\">parafrasera Louis Armstrong</a> <strong>\"Om man måste fråga varför man skall ha kunskapsgrafer och persistenta identifierare så kommer du aldrig att förstå svaret \"</strong>   dvs. jag tycker mig se nu är att varför inget händer är att vi har fel folk i laget som inte  har rätt bakgrund och att vi inte har lärande organisationer ....</p>\n<p dir=\"auto\">Med hopp om att jag har fel</p>\n",
+      "pid": 883,
+      "tid": 208,
+      "timestamp": 1634381145955,
+      "uid": 24,
+      "edited": 1634381397256,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-18T07:05:38.261Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-16T10:45:45.955Z",
+      "editedISO": "2021-10-16T10:49:57.256Z",
+      "index": 3,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> japp jag tror ni skall visa upp er mer och även dela hur tufft jag gissar det är att skapa datadrivna matchningstjänster (vilket jag tror ni gör).</p>\n<p dir=\"auto\">Gissar att en organisation som LinkedIn aldrig behöver förklara vad <a href=\"https://forum.jobtechdev.se/t/utfragning-kring-oppna-data-utredningen/159/21\" rel=\"nofollow ugc\">datadriven arbetsmarknad</a> är utan där tänker man hur påverkar detta <a href=\"https://engineering.linkedin.com/blog/topic/knowledge_graph\" rel=\"nofollow ugc\">kunskapsgrafen</a> eller dom <a href=\"https://engineering.linkedin.com/blog/topic/machine-learning\" rel=\"nofollow ugc\">ML modeller vi har</a>....</p>\n",
+      "pid": 884,
+      "tid": 208,
+      "timestamp": 1634381756164,
+      "toPid": "880",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-17T12:20:04.676Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-10-16T10:55:56.164Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv tack för info, mycket intressant. Tror vi/af behöver hitta smarta sätt att nyckla/översätta kompetenser/yrken mot fler domäner än de vi traditionellt arbetar emot SSYK/ISCO/etc. Säg till om du har tid för möte någon dag, för att diskutera mappningar mot wikidata.</p>\n",
+      "pid": 886,
+      "tid": 208,
+      "timestamp": 1634473204676,
+      "toPid": "884",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-10-17T12:26:48.849Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-17T12:20:04.676Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> jag har alltid tid men inser mer och mer min inkompetens på yrken skills det är bara att ringa. Kanske vi kan få med @Dennis_Priskorn det är en yngre hjärna med bredare bandbredd än min....</p>\n<p dir=\"auto\">annan variant är att hänga på Wikidata snack vi har just nu Söndagar 14:00 <a href=\"https://meet.jit.si/Wikidata-SV\" rel=\"nofollow ugc\">https://meet.jit.si/Wikidata-SV</a></p>\n",
+      "pid": 888,
+      "tid": 208,
+      "timestamp": 1634473608849,
+      "toPid": "886",
+      "uid": 24,
+      "edited": 1634473814093,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-17T12:26:48.849Z",
+      "editedISO": "2021-10-17T12:30:14.093Z",
+      "index": 6,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> finns även på Telegram <a href=\"https://t.me/salgo60\" rel=\"nofollow ugc\">salgo60</a> det är där stor del av Wikidata dialogen förs numera i gruppen Wikidata eller i privata grupper</p>\n",
+      "pid": 889,
+      "tid": 208,
+      "timestamp": 1634483043622,
+      "toPid": "886",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-17T15:04:03.622Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Hej, det här tycker jag var ett intressant inlägg.<br />\nEftersom jag råkar vara jazzpianist tycker jag såklart att det är kul att se en bild på Louis Armstrong. Jag funderar också lite på kopplingen till morfin och tar omvägen över Charlie Parker och muskotnöt i apelsinjuice. Sedan talas det om både krigare och lagsport i positiva termer, vilket jag har svårt att få ihop. Jag funderar på vem som krigar och mot vem. Sedan kommer en del om kunskapsgrafer och akademiska referenser, vilket jag också är intresserad av.<br />\nJag ser att det finns massor för mig att lära mig i det här inlägget, men jag har svårt att få fatt i andemeningen av det. Det är långt, det innehåller väldigt mycket text om många vitt skilda ämnen.<br />\nSkulle du kunna förklara lite kortare och i lite enklare termer vad det vill säga om just öppna data, öppna APIer och innovation kopplat till det? Så det är lättare att ta till sig för den som kanske är ny och behöver lära sig?</p>\n",
+      "pid": 891,
+      "tid": 208,
+      "timestamp": 1634540738261,
+      "toPid": "883",
+      "uid": 216,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-18T09:23:34.306Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-18T07:05:38.261Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@nina_  vi kan dela skärms så får du höra min bild eller skicka frågor tankar på <a href=\"https://t.me/salgo60\" rel=\"nofollow ugc\">Telegram salgo60</a> av kunskapsgrafer.... jag vet inte var du befinner dig på spektrat att se data drivna möjligheter och jag säger inte att jag har rätt men jag tror att företag som Linked in, Google ser möjligheter vi andra döda inte inser -&gt; <a href=\"https://www.youtube.com/watch?v=-LgjXbcKX00\" rel=\"nofollow ugc\">video svar</a> på det jag tror du fråga om</p>\n<ul>\n<li>morfin --&gt; är hur @Dennis_Priskorn klassificerar vetenskapliga publikationer i Wikidata men även Riksdagens dokument se <a href=\"https://youtu.be/-LgjXbcKX00?t=402\" rel=\"nofollow ugc\">video</a>\n<ul>\n<li>I Wikidata finns <a href=\"https://scholia.toolforge.org/statistics\" rel=\"nofollow ugc\">27 miljoner med objekt som har DOI</a> ofta är det forskningsrapporter och har man gjort rätt så citerar man en forskningsrapport och använder DOI - se \"<a href=\"https://ec.europa.eu/info/publications/persistent-identifier-pid-policy-european-open-science-cloud_en\" rel=\"nofollow ugc\">A Persistent Identifier (PID) policy for the European Open Science Cloud</a>\"</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634548568531-51fd829f-ce43-49fa-bc19-c0dd55df861b-image.png\" alt=\"51fd829f-ce43-49fa-bc19-c0dd55df861b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>\n<p dir=\"auto\">krigare = Dennis hade det varit en lagsport så hade vi lagt en \"todo\" i Riksdagens Öppna datas inkorg och dom hade  kopplat vilka motioner som har med FN:s klimatmål, partiprogram etc....<br />\n** idag har Riksdagen ingen publik backlog utan det skall skickas email.....<br />\n** jag träffade <a href=\"https://phabricator.wikimedia.org/T235527#5615454\" rel=\"nofollow ugc\">Riksdagen 2019</a> och trodde dom att dom kunde kategorisera sina motioner med EUs kategorierna men det verkar ha dött ut<br />\n** att krigaren sätter ämnesord som Morfin kan vara bra men skadar inte att den som skriver motionen även gör det jobbet, plus kopplar det till klimatmål, partiprogram etc,.....<br />\n*** se \"<a href=\"https://sustainabledevelopment.un.org/LinkedSDGs/about\" rel=\"nofollow ugc\">LinkedSDGs is an innovative platform designed to support the 2030 Agenda implementation</a>\" där man använder länkade data - vet ej status på detta initiativ</p>\n</li>\n<li>\n<p dir=\"auto\">DOI - vetenskapliga publikationer publiceras på massa ställen som Öppna data för att förstå att vi pratar om samma rapport har man DOI dvs. som personnummer.... sedan skrivs en artikel av en person som identifieras med ORCID --&gt; vi kan skapa grafer vilka skriver artiklar inom området <strong>Morfin</strong>, vem är mest citerad av dessa publikationer..... Wikidata är långt från fulltäckande men exempel vilka publikationer som skrivits av <a href=\"https://scholia.toolforge.org/award/Q38104\" rel=\"nofollow ugc\">Nobelpristagare i fysik</a>, hur årets pristagare = <a href=\"https://scholia.toolforge.org/author/Q1235614\" rel=\"nofollow ugc\">Q1235614</a> = <a href=\"https://orcid.org/0000-0001-6500-5222\" rel=\"nofollow ugc\">orcid.org/0000-0001-6500-5222</a> = Giorgio Parisi har publicerat rapporter vi kunnat kopplat ihop med hans medförfattare <a href=\"https://w.wiki/4EYi\" rel=\"nofollow ugc\">Graf</a></p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634541829646-aa8f0c38-5c23-4050-a40e-cb585763e55f-image-resized.png\" alt=\"aa8f0c38-5c23-4050-a40e-cb585763e55f-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> styrde upp så att Riksdagens dokument trycktes in WIkidata  exempel vad <a href=\"https://scholia.toolforge.org/author/Q208591\" rel=\"nofollow ugc\">Anna Lind motionerat om</a> se även <a href=\"https://youtu.be/-LgjXbcKX00?t=402\" rel=\"nofollow ugc\">video</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634548639950-d2e3ef71-4d13-45ca-b672-b7e16e72b164-image-resized.png\" alt=\"d2e3ef71-4d13-45ca-b672-b7e16e72b164-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 892,
+      "tid": 208,
+      "timestamp": 1634549014306,
+      "toPid": "891",
+      "uid": 24,
+      "edited": 1634549141886,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-10-18T09:38:35.442Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-10-18T09:23:34.306Z",
+      "editedISO": "2021-10-18T09:25:41.886Z",
+      "index": 9,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Tack! Vi är ett tvärfunktionellt team och det är inte jag som är bäst på öppna data. Jag är med för det jag kan om agila och lättviktiga arbetssätt och för att jag har jobbat mycket med livscykelhantering, bl a. Vi lär oss av varandra. Jag tror att andra personer i teamet just nu tittar på en del av dina frågor.</p>\n",
+      "pid": 893,
+      "tid": 208,
+      "timestamp": 1634549915442,
+      "toPid": "892",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-18T10:25:22.985Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-18T09:38:35.442Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@nina_ det är galna utmaningar känner jag.... när ett projekt som NSÖD inte hittar rätt med koordinater efter 2 år hur skall då en kommun göra rätt... med <a href=\"https://w.wiki/3xE8\" rel=\"nofollow ugc\">158 kommuner som inte ens har en /PSI sida</a></p>\n<ul>\n<li>det kan vara så illa att det <a href=\"https://community.dataportal.se/topic/200/knowledge-graph-team-ikea\">IKEA gör</a> är det enda rätta  att lyfta in nya kompetenser är ett måste.... om <a href=\"https://www.ri.se/sv/vad-vi-gor/projekt/nationell-skalning-oppna-data\" rel=\"nofollow ugc\">en budget på 16 miljoner med projektledning från ri.se och Vinnova</a> blir ett magplask borde en haverirapport skapas och återkopplas</li>\n<li>varför reagerar inga \"experter\" på 2 år och var finns DIGG?? Vet att personer från DIGG suttit med vid NSÖD specandet...</li>\n<li>min erfarenhet skall man skapa kunskapsgrafer så är det 1000 ggr mer komplext än koordinater och skall man göra det ihop med andra så kan man inte ha dagens SILOS utan backlogs...</li>\n</ul>\n<p dir=\"auto\">Finns tyvärr många liknande misslyckanden....  Kungliga Biblioteket startade 2012 med LIBRIS XL och <a href=\"http://library.ifla.org/id/eprint/2745/1/s15-2019-wennerlund-en.pdf\" rel=\"nofollow ugc\">inser själva att det inte blir bra</a>, dom har stängt ned sitt diskussionsforum men där var folk enormt upprörda och det skrivs artiklar att <a href=\"https://universitetslararen.se/2019/03/21/kb-langt-ifran-klart-med-uppdraget-att-digitalisera/\" rel=\"nofollow ugc\">uppdraget missköts</a>.....</p>\n",
+      "pid": 894,
+      "tid": 208,
+      "timestamp": 1634552722985,
+      "toPid": "893",
+      "uid": 24,
+      "edited": 1634552870538,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-18T10:25:22.985Z",
+      "editedISO": "2021-10-18T10:27:50.538Z",
+      "index": 11,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv sa i <a href=\"/post/876\">Namnstandard vad specar heter och hur de refereras, backlog</a>:</p>\n<blockquote>\n<ul>\n<li><a href=\"https://www.dataportal.se/sv/specifications/utegym/1.0#ref=?p=1&amp;q=&amp;s=2&amp;t=20&amp;f=&amp;rt=spec_standard%24spec_profile&amp;c=false\" rel=\"nofollow ugc\">Träningsplatser utomhus (utomhusgym, utegym)</a>\n<ul>\n<li>länkar till <a href=\"https://lankadedata.se/spec/utegym/\" rel=\"nofollow ugc\">Specifikation för utegym Information om utegym, särskilt anordnade</a></li>\n</ul>\n</li>\n</ul>\n<ol>\n<li>\n<p dir=\"auto\"><strong>Input DIGG backlog</strong> borde vi inte ha <a href=\"https://www.umu.se/enheten-for-demografi-och-aldrandeforskning/doi/\" rel=\"nofollow ugc\">DOI nummer</a> för specar så man kan  referera dom tydligare. I exemplet så är inte ens specifikationens namn i  dataportal och i refererad spec lika... versions nummer finns i URL:en inte i dokumentet tydligt ?!?!?! Som sagt snyggare att ha databas driven lösning se change history <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema:E280&amp;action=history\" rel=\"nofollow ugc\">EntitySchema:E280</a>  med diff <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">mellan versioner</a> och stöd för språk <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;uselang=sv&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">sv</a>, <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;uselang=en&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">en</a>, <a href=\"https://www.wikidata.org/w/index.php?title=EntitySchema%3AE280&amp;uselang=de&amp;type=revision&amp;diff=1468268367&amp;oldid=1452407793\" rel=\"nofollow ugc\">de</a></p>\n</li>\n<li>\n<p dir=\"auto\"><strong>Input DIGG backlog</strong>  i metadata på <a href=\"https://www.dataportal.se/sv/specifications/utegym/1\" rel=\"nofollow ugc\">dataportal.se</a> borde <strong>länk backlog finnas</strong> för specar.  I detta fall verkar det i dokumentet finnas en länk till gitlab <a href=\"https://gitlab.com/lankadedata/spec/utegym/-/issues\" rel=\"nofollow ugc\">lankadedata spec/utegym/-/issues</a></p>\n</li>\n</ol>\n</blockquote>\n<p dir=\"auto\">Finns det nått som hindrar DIGG att börja göra specar direkt i <a href=\"https://sweopendata.wiki.opencura.com/wiki/Main_Page\" rel=\"nofollow ugc\">https://sweopendata.wiki.opencura.com/wiki/Main_Page</a>? Det verkar ligga till högerfoten att bara sätta igång. @salgo60-ej-aktiv om DIGG vill ta över förvaltningen av den Wikibase vill du lämna ifrån den då?</p>\n",
+      "pid": 922,
+      "tid": 208,
+      "timestamp": 1634716297237,
+      "toPid": "876",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-20T07:51:37.237Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv sa i <a href=\"/post/892\">Namnstandard vad specar heter och hur de refereras, backlog</a>:</p>\n<blockquote>\n<p dir=\"auto\">morfin</p>\n</blockquote>\n<p dir=\"auto\">Här kommer länken <a href=\"https://scholia.toolforge.org/chemical/Q81225\" rel=\"nofollow ugc\">https://scholia.toolforge.org/chemical/Q81225</a><br />\nInnan jag gjorde matchningen fanns bara några hundra artiklar kopplade. Nu finns över 16.000 artiklar att hitta som använder \"morphine\" i engelska titeln.<br />\nKopplingen tog ca. 1 min i människotid att sätta igång och några timmars datortid att utföra. Verktyget jag använder har jag skrivit själv, <a href=\"https://github.com/dpriskorn/ItemSubjector/\" rel=\"nofollow ugc\">se koden</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634716836478-99a7bdd8-dabf-4542-b946-39dcfa5f8cf4-bild.png\" alt=\"99a7bdd8-dabf-4542-b946-39dcfa5f8cf4-bild.png\" class=\" img-fluid img-markdown\" /><br />\nDet syns tydligt i bilden nedan att intresset för morfin i forskningen har toppat 1997 och sedan svalnat av ganska kraftigt. Detta kan bero på att vi tyvärr saknar många nyare artiklar i Wikidata, eller på att morfin redan är välutforskat och forskningen kanske numera fokuserar på andra ämnen vi känner mindre väl.</p>\n<p dir=\"auto\">Jag har försökt åtgärda bristen på artiklar i WD med andra självskrivna verktyg, men pga. av infrastrukturproblem har jag nekats att importera flera artiklar med bot i dagsläget.</p>\n",
+      "pid": 923,
+      "tid": 208,
+      "timestamp": 1634716672765,
+      "toPid": "892",
+      "uid": 25,
+      "edited": 1634717021896,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-20T11:03:16.613Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-20T07:57:52.765Z",
+      "editedISO": "2021-10-20T08:03:41.896Z",
+      "index": 13,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn tänk om vi strukturerade öppna data med koppling till en kunskapsgraf.... och kunde navigera lika snyggt..</p>\n<p dir=\"auto\">Verkar som ett företag Google hunnit före enl. Google AI blog: <a href=\"https://ai.googleblog.com/2018/09/building-google-dataset-search-and.html\" rel=\"nofollow ugc\">Building Google Dataset Search and Fostering an Open Data Ecosystem</a> / <a href=\"https://youtu.be/W-9HMaAi78g?t=1319\" rel=\"nofollow ugc\">video</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1634727599047-aaa9ecea-a70c-4a5a-b365-2cb4b0b999f0-image-resized.png\" alt=\"aaa9ecea-a70c-4a5a-b365-2cb4b0b999f0-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 924,
+      "tid": 208,
+      "timestamp": 1634727796613,
+      "toPid": "923",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-20T11:03:16.613Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 77,
+          "timestamp": 1637160660449,
+          "timestampISO": "2021-11-17T14:51:00.449Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2021-11-17T14:51:00.449Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 77,
+      "timestamp": 1637160660449,
+      "timestampISO": "2021-11-17T14:51:00.449Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2021-11-17T14:51:00.449Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#5a6751",
+    "cid": 25,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppna standarder och format",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppna standarder och format</p>\n",
+    "disabled": 0,
+    "icon": "fa-newspaper-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppna standarder och format",
+    "numRecentReplies": 1,
+    "order": 6,
+    "parentCid": 0,
+    "post_count": 252,
+    "slug": "25/öppna-standarder-och-format",
+    "subCategoriesPerPage": 10,
+    "topic_count": 34,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 252,
+    "totalTopicCount": 34
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "208",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/208.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppna standarder och format",
+      "url": "/category/25/öppna-standarder-och-format",
+      "cid": 25
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/208",
+  "bodyClass": "page-topic page-topic-208 template-topic page-topic-category-25 page-topic-category-öppna-standarder-och-format parent-category-25 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Namnstandard vad specar heter och hur de refereras, backlog"
+        },
+        {
+          "name": "description",
+          "content": " Träningsplatser utomhus (utomhusgym, utegym)  länkar till Specifikation för utegym Information om utegym, särskilt anordnade      Input DIGG backlog borde vi inte ha DOI nummer för specar så man kan  referera dom tydligare. I exemplet så är inte ens spec..."
+        },
+        {
+          "property": "og:title",
+          "content": "Namnstandard vad specar heter och hur de refereras, backlog"
+        },
+        {
+          "property": "og:description",
+          "content": " Träningsplatser utomhus (utomhusgym, utegym)  länkar till Specifikation för utegym Information om utegym, särskilt anordnade      Input DIGG backlog borde vi inte ha DOI nummer för specar så man kan  referera dom tydligare. I exemplet så är inte ens spec..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-10-15T09:09:26.550Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-10-20T11:03:16.613Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppna standarder och format"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/208",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/208/namnstandard-vad-specar-heter-och-hur-de-refereras-backlog",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/208.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/25/öppna-standarder-och-format"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "cid": 4,
+  "lastposttime": 1700995799732,
+  "mainPid": 4526,
+  "postcount": 2,
+  "slug": "878/söka-efter-egenskaper-i-metadata-på-dataportal-se",
+  "tags": [
+    {
+      "value": "sökning",
+      "valueEscaped": "sökning",
+      "valueEncoded": "s%C3%B6kning",
+      "class": "sökning"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "solr",
+      "valueEscaped": "solr",
+      "valueEncoded": "solr",
+      "class": "solr"
+    },
+    {
+      "value": "metadata",
+      "valueEscaped": "metadata",
+      "valueEncoded": "metadata",
+      "class": "metadata"
+    },
+    {
+      "value": "dataportal.se",
+      "valueEscaped": "dataportal.se",
+      "valueEncoded": "dataportal.se",
+      "class": "dataportal.se"
+    }
+  ],
+  "tid": 878,
+  "timestamp": 1700932218428,
+  "title": "Söka efter egenskaper i metadata på dataportal.se",
+  "uid": 125,
+  "viewcount": 321,
+  "postercount": 1,
+  "teaserPid": 4527,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Söka efter egenskaper i metadata på dataportal.se",
+  "timestampISO": "2023-11-25T17:10:18.428Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-11-26T10:49:59.732Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag undrar hur man gör för att söka på attribut-värden i metadata på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> (eller mer allmänt matchningar för tripletter i RDF-data)?</p>\n<p dir=\"auto\">Apropå <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/4524\">Nya specifikationer och vägledningar för lediga tomter, matsvinn och snöröjning</a>:</p>\n<blockquote>\n<p dir=\"auto\">Det står i metadatan för Umeås matsvinn att de publicerat enligt specen, under egenskapen conformsTo. Det borde väl DIGG kunna tala om hur man söker efter värden för en viss egenskap i metadata, är det verkligen något som behöver byggas till?</p>\n</blockquote>\n<p dir=\"auto\">I dokumentationen nämns dessa konstruktioner:</p>\n<p dir=\"auto\"><a href=\"https://entrystore.org/kb/search/#indexed-information\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/#indexed-information</a></p>\n<blockquote>\n<p dir=\"auto\">metadata.predicate.literal.&lt;md5&gt;, metadata.predicate.uri.&lt;md5&gt;<br />\n: Used to carry out queries for exact predicate-object combinations.</p>\n</blockquote>\n<p dir=\"auto\">Jag är lite förvirrad över att ovanstående nämner \"predicate-object combinations\", utan att det framgår var objekt-delen kommer in, men gissar att man kombinerar uttrycket med ett motsvarande för object som nämns längre fram.</p>\n<blockquote>\n<p dir=\"auto\">metadata.object.uri<br />\n: All object URIs.</p>\n</blockquote>\n<p dir=\"auto\">Av det jag förstår har jag har provat att skapa en fråga med kodade värden för predikat och objekt.</p>\n<p dir=\"auto\"><a href=\"http://purl.org/dc/terms/conformsTo\" rel=\"nofollow ugc\">http://purl.org/dc/terms/conformsTo</a><br />\nmd5sum =&gt; 957f77a73041387bf0397bf451b24f8a</p>\n<p dir=\"auto\"><a href=\"https://www.dataportal.se/specifications/matsvinn/1.0\" rel=\"nofollow ugc\">https://www.dataportal.se/specifications/matsvinn/1.0</a><br />\nmd5sum =&gt; 803c33eb344e3edb4053074963a48ef6</p>\n<p dir=\"auto\">Sökuttryck:</p>\n<p dir=\"auto\">metadata.predicate.uri.957f77a7 AND metadata.object.uri.803c33eb</p>\n<p dir=\"auto\">Jag provar att skapa en frågemall på Swagger-sidan och lägger in bas-adressen:</p>\n<p dir=\"auto\"><a href=\"https://entrystore.org/api/#/search/search\" rel=\"nofollow ugc\">https://entrystore.org/api/#/search/search</a></p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=metadata.predicate.uri.957f77a7%20AND%20metadata.object.uri.803c33eb&amp;sort=score%2Bdesc%2Cmodified%2Bdesc&amp;limit=50&amp;offset=0\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=metadata.predicate.uri.957f77a7 AND metadata.object.uri.803c33eb&amp;sort=score%2Bdesc%2Cmodified%2Bdesc&amp;limit=50&amp;offset=0</a></p>\n<blockquote>\n<p dir=\"auto\">\"results\": 1171,</p>\n</blockquote>\n<p dir=\"auto\">Sökningen ger ett tusental träffar (jag hade nog förväntat mig 0 eller ett fåtal), och jag kan inte se att resultatet  innehåller det jag är ute efter.</p>\n<p dir=\"auto\">Är det något fel i kodning, syntax eller den metod jag använder för att formulera frågan? Varför ger frågan ett stort antal resultat?</p>\n<p dir=\"auto\">Man kan väl också undra om Solr är den mest lämpliga applikationen för att söka i metadata om den inte accepterar parametervärden normalt förekommande i RDF-grafer och metadata? Det förefaller krångligt att behöva koda sökvärden manuellt, och det blir svårare att förstå, felsöka och justera frågor.</p>\n<p dir=\"auto\"><a href=\"https://entrystore.org/kb/search/#indexed-information\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/#indexed-information</a></p>\n<blockquote>\n<p dir=\"auto\">Due to <strong>restrictions in Solr it was necessary to shorten the predicate URI</strong>, which was done using an MD5 hash (hex) of the predicate URI truncated after 8 characters. Collisions are unlikely and in case of occurence non-fatal. The field value is the string value of the object.</p>\n</blockquote>\n",
+      "pid": 4526,
+      "tid": 878,
+      "timestamp": 1700932218428,
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-26T10:49:59.732Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-25T17:10:18.428Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Ser av ett annat inlägg att jag missat en del aspekter av syntaxen, att kolon-tecknet i dokumentationen ingår i uttrycket, att det generella formatet är egenskap:värde, att det enbart är predikatet som behöver kortas av genom kodning, och att kolon-tecken behöver kodas i övriga delar av uttryck som t.ex. URI:er.</p>\n<p dir=\"auto\"><strong>Kommentar gällande dokumentationen</strong></p>\n<p dir=\"auto\">Det skulle vara lättare att förstå om dokumentationen beskriver ett komplett sökuttryck med platshållare för värdet, och med exempel på tillämpning. Inget av fåtalet exempel långt ned på sidan innehåller heller en URI som värde vad jag kan se.</p>\n<p dir=\"auto\"><a href=\"https://entrystore.org/kb/search/#indexed-information\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/#indexed-information</a></p>\n<blockquote>\n<p dir=\"auto\"><code>metadata.predicate.literal.&lt;md5&gt;, metadata.predicate.uri.&lt;md5&gt;</code> : Used to carry out queries for exact predicate-object combinations ...</p>\n</blockquote>\n<p dir=\"auto\">Exempel på förtydligande:</p>\n<p dir=\"auto\"><code>metadata.predicate.literal.&lt;md5&gt;:&lt;value&gt;, metadata.predicate.uri.&lt;md5&gt;:&lt;value&gt;</code></p>\n<p dir=\"auto\"><code>metadata.predicate.uri.a2b4c6d8:https\\://example.com/identifier</code></p>\n<p dir=\"auto\"><strong>Frågeställning</strong></p>\n<p dir=\"auto\">För att återgå till det aktuella problemet; frågeparametern skulle då bli, med kodning för predikat och objektvärde:</p>\n<p dir=\"auto\"><code>metadata.predicate.uri.957f77a7:https\\://www.dataportal.se/specifications/matsvinn/1.0</code></p>\n<p dir=\"auto\">URL, med ytterligare URI-kodning av parametervärden:</p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=metadata.predicate.uri.957f77a7%3Ahttps%5C%3A%2F%2Fwww.dataportal.se%2Fspecifications%2Fmatsvinn%2F1.0&amp;sort=score%2Bdesc%2Cmodified%2Bdesc&amp;limit=50&amp;offset=0&amp;rdfFormat=application/ld+json\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=metadata.predicate.uri.957f77a7%3Ahttps\\%3A%2F%2Fwww.dataportal.se%2Fspecifications%2Fmatsvinn%2F1.0&amp;sort=score%2Bdesc%2Cmodified%2Bdesc&amp;limit=50&amp;offset=0&amp;rdfFormat=application/ld+json</a></p>\n<p dir=\"auto\">Resultatet ger en träff, en datamängd från <a href=\"http://opendata.umea.se\" rel=\"nofollow ugc\">opendata.umea.se</a> som refererar till specifikationen för matsvinn, vilket verkar rimligt:</p>\n<blockquote>\n<p dir=\"auto\">\"dcat:landingPage\": {\"@id\": \"<a href=\"https://opendata.umea.se/explore/dataset/matsvinn/\" rel=\"nofollow ugc\">https://opendata.umea.se/explore/dataset/matsvinn/</a>\"}</p>\n</blockquote>\n<p dir=\"auto\"><strong>Enklare API</strong></p>\n<p dir=\"auto\">Jag tycker dock att det verkar väl krångligt att konstruera dessa sökningar med kodningar i flera steg. Visserligen går det att automatisera i programkod och skapa ett gränssnitt (vilket då borde ha gjorts från början), men det vore att föredra om det fanns ett API där man kan skicka in frågor mer direkt och använda standard-klienter. Därför tycker jag också det vore lämpligt att koppla på SPARQL-API:et för sökningar i metadata, något som uppenbarligen ingår i den produkt som används för tjänsten.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1698\">@august</a> sa i <a href=\"/post/4514\">API-användning: Hämta alla dataset kopplade till en specifik organisation</a>:</p>\n<blockquote>\n<p dir=\"auto\">Det går istället att begränsa sökningen direkt för att enbart få dessa datamängder genom:</p>\n<pre><code>https://admin.dataportal.se/store/search?type=solr&amp;query=(rdfType:http%5C%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset)+AND+public:true+AND+(metadata.predicate.uri.9259d4c1:http%5C%3A%2F%2Fid.kb.se%2Forganisations%2FSE2021000837)&amp;offset=0\n</code></pre>\n<p dir=\"auto\">Jag lade till facetten metadata.predicate.uri.&lt;md5&gt; för att söka datamängdens utgivare. I det här fallet är predikatet '<a href=\"http://purl.org/dc/terms/publisher\" rel=\"nofollow ugc\">http://purl.org/dc/terms/publisher</a>', men en behöver skapa MD5 hash (och trunkera till 8 chars pga begränsningar i Solr). '<a href=\"http://purl.org/dc/terms/publisher\" rel=\"nofollow ugc\">http://purl.org/dc/terms/publisher</a>' blir då 9259d4c1. För mer info om indexeringen som sker via Solr, se: <a href=\"https://entrystore.org/kb/search/\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/</a> . Där finns också mer info om alla möjliga sätt att söka mot lagringslösningen för <a href=\"http://admin.dataportal.se\" rel=\"nofollow ugc\">admin.dataportal.se</a></p>\n</blockquote>\n",
+      "pid": 4527,
+      "tid": 878,
+      "timestamp": 1700995799732,
+      "toPid": "4526",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-26T10:49:59.732Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "878",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/878.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/878",
+  "bodyClass": "page-topic page-topic-878 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Söka efter egenskaper i metadata på dataportal.se"
+        },
+        {
+          "name": "description",
+          "content": "Jag undrar hur man gör för att söka på attribut-värden i metadata på dataportal.se (eller mer allmänt matchningar för tripletter i RDF-data)? Apropå @jonor sa i Nya specifikationer och vägledningar för lediga tomter, matsvinn och snöröjning:  Det står i m..."
+        },
+        {
+          "property": "og:title",
+          "content": "Söka efter egenskaper i metadata på dataportal.se"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag undrar hur man gör för att söka på attribut-värden i metadata på dataportal.se (eller mer allmänt matchningar för tripletter i RDF-data)? Apropå @jonor sa i Nya specifikationer och vägledningar för lediga tomter, matsvinn och snöröjning:  Det står i m..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-11-25T17:10:18.428Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-11-26T10:49:59.732Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/878",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/878/söka-efter-egenskaper-i-metadata-på-dataportal-se",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/878.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonor"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

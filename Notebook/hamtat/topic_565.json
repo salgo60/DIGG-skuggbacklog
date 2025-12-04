@@ -1,0 +1,653 @@
+{
+  "cid": 24,
+  "lastposttime": 1667935755924,
+  "mainPid": 3106,
+  "postcount": 3,
+  "slug": "565/reflektioner-efter-affärsmodeller-och-leverantörsaspekter-kopplat-till-open-source-seminarium",
+  "tid": 565,
+  "timestamp": 1667910941846,
+  "title": "Reflektioner efter &quot;Affärsmodeller och leverantörsaspekter kopplat till open source&quot; (seminarium)",
+  "uid": 591,
+  "viewcount": 278,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 6,
+  "teaserPid": 3113,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Reflektioner efter \"Affärsmodeller och leverantörsaspekter kopplat till open source\" (seminarium)",
+  "timestampISO": "2022-11-08T12:35:41.846Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-08T19:29:15.924Z",
+  "pinExpiryISO": "",
+  "votes": 6,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Bra <a href=\"https://community.dataportal.se/topic/510/aff%C3%A4rsmodeller-och-leverant%C3%B6rsaspekter-kopplat-till-open-source/1\">seminarium</a> om \"Affärsmodeller och leverantörsaspekter kopplat till open source\" idag. Och bra diskussioner. Tack för det!</p>\n<p dir=\"auto\">Jag tror att inspelningen kommer landa bra hos flera hos oss.</p>\n<p dir=\"auto\">Jag tänker - helt allmänt - att en stor orsak till lågt nyttjande av OSS är okunskap och att man som upphandlare förväntas vara den med koll på läget. Och den förväntan gör det bara svårare att säga att man inte vet eller hade koll på alternativa lösningar/angreppssätt.</p>\n<p dir=\"auto\">Vi intalar oss att våra egna behov är helt unika och att vi behöver en unik lösning (vilket resulterar i anbud från den leverantör som bäst säljer in att de kan lösa dessa unika behov - vilket de självklart kommer att säga så övertygande som de bara kan).<br />\nDet vi behöver hjälp med är att se att våra behov ofta är ganska allmänna och att det finns generiska OSS-projekt som kan lösa dem. Och som konstaterades under seminariet så är några av de mest långlivade och framgångsrika OSS-projekten just de som löser mer generiska behov (OS, CMS, wiki, programmeringsspråk, containerplattform etc).</p>\n<p dir=\"auto\">Men det är sällan <em>ett</em> enskilt OSS-projekt som löser behovet helt och fullt. Här behövs stödet från leverantörer och communityt att se möjliga integrationer mellan olika OSS-projekt (säg, en lösning för åtkomstkontroll - som sällan inkluderas out of the box).</p>\n<p dir=\"auto\"><a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a> (som jag tidigare sett men inte riktigt tagit fasta på) är en superbra del i detta. Väldigt användbar för oss som redan är bekväma i termerna och OSS-communityt, tänker jag.</p>\n<p dir=\"auto\">Vad jag letar efter är nog olika modeller för öppen, prestigelös, säljfri dialog om de lokala behoven och hjälp att se beröringspunkter med mer generiska behov i andra organisationer. Först därefter kan man vara redo att ta till sig tips om vilka OSS-projekt som utvecklats för att tillfredsställa dem behoven.<br />\nDet kan ju som bekant vara läskigt att ställa \"dumma frågor\" så här öppet på nätet och t.o.m. i en chatt under ett onlineseminarium. Allt på nätet är ju för evigt! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Så... jag vet inte om jag frågar efter ett anonymt <a href=\"http://reddit.com\" rel=\"nofollow ugc\">reddit.com</a> för offentlig sektor, men det kanske är just det jag gör...</p>\n",
+      "pid": 3106,
+      "tid": 565,
+      "timestamp": 1667910941846,
+      "uid": 591,
+      "downvotes": 0,
+      "upvotes": 6,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-08T15:44:34.934Z"
+      },
+      "bookmarks": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "votes": 6,
+      "timestampISO": "2022-11-08T12:35:41.846Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> Tack för att du deltog. Och bra att du delar dina reflektioner.</p>\n<p dir=\"auto\">Du skriver:<br />\n<em>Det kan ju som bekant vara läskigt att ställa \"dumma frågor\" så här öppet på nätet och t.o.m. i en chatt under ett onlineseminarium. Allt på nätet är ju för evigt!</em></p>\n<p dir=\"auto\">Jag tänker att precis som idag så kan en del vara inspelad och en del oinspelad. Det skapar möjlighet att flera kan ta del av resultatet i efterhand samtidigt som det finns möjlighet att diskutera. Idag körde vi en timme inspelning och 30 min oinspelad dialog. Kanske kan det för vissa ämnen vara tvärtom, 30 min inspelning och 1 timme oinspelat.  Men jag tror att vi behöver komma över tröskeln att vi ställer \"dumma frågor\". Jag tror på fler dumma frågor. Kanske är lösningen att anonymt ställa frågor som vi sedan tillsammans betar av med tydliga svar?</p>\n<p dir=\"auto\">Jag tror inte på stängda forum, Dessa finns redan. Det som händer är att färre besöker dem, och därmed får vi inte in den kunskap vi efterfrågar och behöver.</p>\n<p dir=\"auto\">Här är länken till inspelningen. <a href=\"https://nosad.se/workshops#aff%C3%A4rsmodeller-och-leverant%C3%B6rsaspekter-av-open-source\" rel=\"nofollow ugc\">https://nosad.se/workshops#affärsmodeller-och-leverantörsaspekter-av-open-source</a></p>\n",
+      "pid": 3109,
+      "tid": 565,
+      "timestamp": 1667922274934,
+      "toPid": "3106",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-08T19:29:15.924Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-08T15:44:34.934Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Tror ni tänker helt rätt med öppna forum och med oinspelad tid under seminarier. Jag försöker själv förstå bättre varför frågor som känns självklara för mig inte ställs i god tid. Varför öppen källkod öht inte ens tas med som byggkloss.</p>\n<p dir=\"auto\">Att fånga in frågor innan seminarier/workshops tror jag på. Ett sätt att fånga upp en och besvara allmänna frågor.</p>\n<p dir=\"auto\">Jag har sett att vissa molnleverantörer börjar prata om kurerad open source (testad, kvalitetssäkrad, uppdaterad) och de har numera app stores som kan köras on prem (eller i molnet givetvis). Hur bra det funkar i praktiken kan jag inte svara på men jag tror att den här modellen kommer att bli populär. Snabbt och enkelt att direktupphandla och testa.</p>\n<p dir=\"auto\">Och i den andra änden det här behovet av att lyfta blicken och få utifrånperspektivet, att få hjälp att se vilka utmaningar som vi delar med många andra org.</p>\n",
+      "pid": 3113,
+      "tid": 565,
+      "timestamp": 1667935755924,
+      "toPid": "3109",
+      "uid": 591,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-08T19:29:15.924Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "565",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/565.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/565",
+  "bodyClass": "page-topic page-topic-565 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Reflektioner efter &quot;Affärsmodeller och leverantörsaspekter kopplat till open source&quot; (seminarium)"
+        },
+        {
+          "name": "description",
+          "content": "Bra seminarium om &quot;Affärsmodeller och leverantörsaspekter kopplat till open source&quot; idag. Och bra diskussioner. Tack för det! Jag tror att inspelningen kommer landa bra hos flera hos oss. Jag tänker - helt allmänt - att en stor orsak till lågt nyttjande a..."
+        },
+        {
+          "property": "og:title",
+          "content": "Reflektioner efter &quot;Affärsmodeller och leverantörsaspekter kopplat till open source&quot; (seminarium)"
+        },
+        {
+          "property": "og:description",
+          "content": "Bra seminarium om &quot;Affärsmodeller och leverantörsaspekter kopplat till open source&quot; idag. Och bra diskussioner. Tack för det! Jag tror att inspelningen kommer landa bra hos flera hos oss. Jag tänker - helt allmänt - att en stor orsak till lågt nyttjande a..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-08T12:35:41.846Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-08T19:29:15.924Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/565",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/565/reflektioner-efter-affärsmodeller-och-leverantörsaspekter-kopplat-till-open-source-seminarium",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/565.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/davidlars"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

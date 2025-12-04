@@ -1,0 +1,490 @@
+{
+  "cid": 6,
+  "lastposttime": 1715176032401,
+  "mainPid": 4734,
+  "postcount": 1,
+  "slug": "938/roda-earkiv-frågor-och-svar",
+  "tid": 938,
+  "timestamp": 1715176032401,
+  "title": "Roda eArkiv - Frågor och svar",
+  "uid": 62,
+  "viewcount": 677,
+  "postercount": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Roda eArkiv - Frågor och svar",
+  "timestampISO": "2024-05-08T13:47:12.401Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-05-08T13:47:12.401Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Tisdagen 7 maj genomfördes en digital workshop, <a href=\"https://www.goto10.se/event/roda-natverket/\" rel=\"nofollow ugc\">Roda-nätverket.</a></p>\n<p dir=\"auto\"><a href=\"https://data.arbetsformedlingen.se/videos/240507-roda-natverk.mp4\" rel=\"nofollow ugc\">Se inspelning i efterhand.</a></p>\n<p dir=\"auto\">Presentationen fokuserade på RODA som e-arkivlösning där frågor kring tillämpningar, införande och konfiguration berördes samt hur svenska myndigheter och kommuner gått samman i ett nätverk för att stötta varandra. (Presentationer finns på <a href=\"https://nosad.se/workshops\" rel=\"nofollow ugc\">https://nosad.se/workshops</a>).</p>\n<p dir=\"auto\">Under workshopen ställdes en del frågor. Dessa finns nu besvarade nedan:</p>\n<p dir=\"auto\"><strong>Fråga 1: Delar Tullverket era tillägg (pre-ingest) som öppen källkod</strong>?<br />\nTullverket: Nej, inte än, men det är ambitionen. Förhoppningsvis kan vi göra det via NOSAD.</p>\n<p dir=\"auto\"><strong>Fråga 2: Kan serienummer, diarienummer och andra unika nummer skapas lokalt utan att en central programvara ska krävas.</strong><br />\nTullverket: Missförstår kanske frågan, men olika sorters informationsidentiteter skapas inte i RODA, utan i de verksamhetssystem som arkiveras. Vissa identiteter kan behöva skapas vid pre-ingest i vissa fall, när sådana saknas i datakällan.</p>\n<p dir=\"auto\">Försäkringskassan: Diarienummer genereras oftast i det ursprungliga diariesystemet i samband med att ett ärende skapas. När det kommer till UUID som ofta används på olika sätt vid arkivering skapas de på olika sätt, ofta lokalt i samband med förberedelse av en leverans.</p>\n<p dir=\"auto\"><strong>Fråga 3: Finns det inbyggd vektordatabas i RODA? Dvs kan man göra semantiska sökningar i arkivet?</strong><br />\nTullverket: RODA bygger på Apache Solr indexering. RODA har ingen funktionalitet för att skapa eller lagra vektorer. Men en amatörgissning kan vara att det är möjligt att integrera ML-lösningar via befintliga API.</p>\n<p dir=\"auto\">Försäkringskassan: Det finns en indexeringsmotor i Roda. Den heter Solr vilket möjliggör sökningar på indexerad metadata. Vad vi vet finns ingen vektordatabas integrerad i systemlösningen idag.</p>\n<p dir=\"auto\"><strong>Fråga 4: Hur lagras informationen i Roda? Ligger paketen \"as is\" eller packas de upp och skickas till olika ställen.</strong><br />\nTullverket: Paketen lagras as is.</p>\n<p dir=\"auto\">Försäkringskassan: De inskickade SIP:arna packas om till AIP:ar. Däremot är de i community versionen inte 100% i enlighet med E-ARK specifikationen för AIP:ar då de saknar en uppdaterad mets-fil för innehållet efter ingest-processen.  I ingest-processen skapas flera filer i enlighet med premis upp och lagras i respektive AIP för att dokumentera vad som hänt med informationen vid arkivering.</p>\n<p dir=\"auto\"><strong>Fråga 5: Har ni tittat på <a href=\"https://gotenberg.dev/\" rel=\"nofollow ugc\">https://gotenberg.dev/</a> för konvertering av olika format till pdf?</strong><br />\nTullverket: En fråga för våra utvecklare, men när jag läser på hemsidan ser det ut att bygga på Docker. Vi har inte implementerat Docker, men någon sorts containerteknik kommer vi säkert att tillämpa framöver.<br />\nFörsäkringskassan: Nej inte än men det låter intressant att titta på och ev testa.</p>\n<p dir=\"auto\"><strong>Fråga 6: Har RODA översatts till svenska?</strong><br />\nTullverket:  Ja svenska är valbart i gränssnittet. Tyvärr är delar av översättningen inte toppen än, men det funkar.</p>\n<p dir=\"auto\"><strong>Fråga 7: Hur går beslutet till? Vilka frågor fastnar ni på? Säkerhet, kostnad, organisation osv?</strong><br />\nTullverket: Om frågan gäller val av e-arkivlösning så har vi gjort en bred analys av många perspektiv, med utgångspunkt från vad som är möjligt och lämpligt i vår organisation.</p>\n<p dir=\"auto\">Försäkringskassan: Beslutet att välja öppen källkod och Roda baserades dels på omvärldsbevakning men även på att vi genomförde en PoC (Proof of concept) för att säkerställa att vi kunde applicera vårt säkerhetsramverk och att systemlösningen fungerade inom myndighetens it-miljöer. \t<br />\nArkitektbeslut av myndighetens it-arkitekter att kunna använda öppen källkod med en prioritering av olika systemlösningar att testa igenom. Därefter kunde styrgruppen för projektet besluta om projektet kunde fortsätta eller inte.</p>\n<p dir=\"auto\"><strong>Fråga 8: Finns det en öppen vektordatabas, t ex ChromaDB hade varit bra för att möjliggöra AI vid senare tillfälle.</strong><br />\nTullverket: se svar fråga 3.<br />\nFörsäkringskassan: Det är inget vi stött på eller testat ännu. Vi har ju annan datahantering inom myndigheten när det kommer till underlag för AI/Maskininlärning.</p>\n<p dir=\"auto\"><strong>Fråga 9: Hur hanterar ni tillgängliggörandet av arkiverade webbplatser?</strong><br />\nFörsäkringskassan: Detta är inte helt färdigt ännu, men vi ska ta fram en guide för externa om hur de kan öppna och se våra avläsningar i html och warc.  Guiden kommer innehålla beskrivning på vilka/vilket verktyg som kan behövas för uppvisningen. Då våra html-avläsningar innehåller relativa länkar så krävs ”enbart” verktyg i form av en webbläsare, och i fallet med warc-filer kan man använda <a href=\"https://replayweb.page/\" rel=\"nofollow ugc\">https://replayweb.page/</a></p>\n<p dir=\"auto\"><strong>Fråga 10: Ni som har utvärderat och valt RODA - hur tycker ni det har blivit i praktiken? Är ni nöjda med RODA överlag, prestanda, support (KEEPS?), kanske inte användargränssnittet? Lite som input för de som skulle fundera på att gå samma väg.</strong><br />\nTullverket: Överlag är vi mycket nöjda. Med det sagt så har alla lösningar sina specifika problem. Det som är överlägset med RODA är att det är en avancerad och flexibel lösning som är både open source och gratis. Och att det dessutom finns möjligheter att betala för funktioner och tjänsters om man inte kan eller vill hantera själv. ”Problemen” med RODA ligger nog i hög grad i vilka ambitioner och vilket arbetssätt man själv har, inte så mycket i lösningen i sig. Man behöver helt enkelt göra en noggrann behovsanalys själv och se om RODA passar kraven.</p>\n<p dir=\"auto\">Försäkringskassan:  Roda är en systemlösning som möjliggör olika arbetssätt. Det finns en stor frihet som innebär att varje organisation måste gå igenom vad den vill använda och hur.  Utifrån Försäkringskassans behov är vi nöjda med funktionaliteten och vi har tagit fram en hel del arbetssätt och metoder för hur vi vill och kan använda Roda. Det är ju detta arbete som kan kännas stort och lite svårnavigerat för de som precis börjar använda Roda. Där är nätverket för Roda en bra källa till stöd, och även om man är en privat organisation är det ju möjligt att skicka in frågor till nätverket. Alla deltagare i nätverket är offentliga verksamheter som har service skyldighet <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60a.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--blush\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":blush:\" alt=\"😊\" /><br />\nI de fall där vi varit lite missnöjda t.ex. användarvänligheten/tillgänglighet av gränssnittet har vi själva lyckats ta fram en lösning (sökgränssnittet). Detta är ju baserat på att vi har en användargrupp som arbetar med sökningar som måste kunna göra sitt jobb på ett så smidigt och effektivt sätt som möjligt.  Sen har ju Keep meddelat att version 6 av Roda ska vara tillgänglighetsanpassat.<br />\nEn positiv aspekt med nuvarande utveckling kring Roda är ju att det idag finns fler leverantörer av support till Roda, vilket vi hoppas ska kunna öka mer så vi kan få en ännu stabilare kompetensförsörjning.</p>\n",
+      "pid": 4734,
+      "tid": 938,
+      "timestamp": 1715176032401,
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-05-08T13:47:12.401Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#695f59",
+    "cid": 6,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Diskutera och tipsa om möten, evenemang och tävlingar ",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera och tipsa om möten, evenemang och tävlingar</p>\n",
+    "disabled": 0,
+    "icon": "fa-ticket",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Meetups och evenemang",
+    "numRecentReplies": 1,
+    "order": 9,
+    "parentCid": 0,
+    "post_count": 462,
+    "slug": "6/meetups-och-evenemang",
+    "topic_count": 135,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 462,
+    "totalTopicCount": 135
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "938",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/938.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Meetups och evenemang",
+      "url": "/category/6/meetups-och-evenemang",
+      "cid": 6
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/938",
+  "bodyClass": "page-topic page-topic-938 template-topic page-topic-category-6 page-topic-category-meetups-och-evenemang parent-category-6 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Roda eArkiv - Frågor och svar"
+        },
+        {
+          "name": "description",
+          "content": "Tisdagen 7 maj genomfördes en digital workshop, Roda-nätverket. Se inspelning i efterhand. Presentationen fokuserade på RODA som e-arkivlösning där frågor kring tillämpningar, införande och konfiguration berördes samt hur svenska myndigheter och kommuner ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Roda eArkiv - Frågor och svar"
+        },
+        {
+          "property": "og:description",
+          "content": "Tisdagen 7 maj genomfördes en digital workshop, Roda-nätverket. Se inspelning i efterhand. Presentationen fokuserade på RODA som e-arkivlösning där frågor kring tillämpningar, införande och konfiguration berördes samt hur svenska myndigheter och kommuner ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-05-08T13:47:12.401Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-05-08T13:47:12.401Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Meetups och evenemang"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/938",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/938/roda-earkiv-frågor-och-svar",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/938.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/6/meetups-och-evenemang"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

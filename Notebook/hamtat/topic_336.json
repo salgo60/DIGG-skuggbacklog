@@ -1,0 +1,496 @@
+{
+  "cid": 1,
+  "lastposttime": 1649765161872,
+  "mainPid": 1442,
+  "postcount": 1,
+  "slug": "336/geodata-och-geodatatorget",
+  "tid": 336,
+  "timestamp": 1649765161872,
+  "title": "Geodata och geodatatorget",
+  "uid": 62,
+  "viewcount": 261,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 0,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Geodata och geodatatorget",
+  "timestampISO": "2022-04-12T12:06:01.872Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-04-12T12:06:01.872Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">I ett tidigare inlägg skriver <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a> följande. Jag väljer att kopiera och också lägga i tråden efterfrågade data eftersom jag vet att denna tjänst kommer att underlätta för många.</p>\n<p dir=\"auto\">Matself 11 maj 2021 11:05<br />\nGeodata är samhällsbyggnadens DNA. Men för att fylla sin roll behöver geodata vara öppna, tillgängliga, användbara och möjliga att använda i alla sammanhang och applikationer. Det är grundsatserna i den Nationella geodatastrategin som nu är inne på sin andra femårsperiod.<br />\nTyvärr är de mest värdefulla geodatamängderna ännu inte öppna. Lantmäteriet har inte lyckats öppna fastighetskartan, eller fastighets- och adressregistret.<br />\nTillgången på Öppna geodata är trots allt rätt god. Flera dataproducenter erbjuder data för nedladdning eller som karttjänster. Som exempel kan nämnas Trafikverkets vägdatabas, meteorologiska data från SMHI eller fornminnen från RAÄ. Det kan dock vara svårt att hitta data.<br />\nDärför har jag skapat tjänsten <a href=\"http://geodatatorget.se\" rel=\"nofollow ugc\">geodatatorget.se</a>. Den sammanställer metadata från ett flertal öppna kataloger och datakällor, till en sammanhållen katalogtjänst. Gränssnittet är inte fancy, men funktionellt. Fokus är på en kraftfull sökfunktion.<br />\nKom gärna in och titta.<br />\nFunna datamängder kan i de flesta fall betraktas på Torgets karta. I metadata finns för det mesta förekommande länkar till nedladdning eller alternativa tjänster.<br />\nTjänsten bygger på Geonetwork, en metadatakatalog i Öppen källkod. Den samlar regelbundet in metadata till Torget från ett antal öppna datakällor.<br />\nDu som kanske driver en karttjänst eller en metadatakatalog som du skulle vilja se på Geodatatorget, skicka en länk och lite info så kan jag se om den passar in. E-post finns på landningssidan.<br />\nAtt arbeta med geodata kräver särskilda verktyg och viss kunskap. Alla datamängder som redovisas på Torget kan användas i QGIS som är ett fritt, professionellt geodataverktyg i Öppen källkod.</p>\n<p dir=\"auto\"><a href=\"http://geodatatorget.se\" rel=\"nofollow ugc\">http://geodatatorget.se</a></p>\n<p dir=\"auto\">Epost <a href=\"mailto:mats.elfstrom@giskraft.se\" rel=\"nofollow ugc\">mats.elfstrom@giskraft.se</a></p>\n",
+      "pid": 1442,
+      "tid": 336,
+      "timestamp": 1649765161872,
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-04-12T12:06:01.872Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#d59151",
+    "cid": 1,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Diskutera data och API:er som du skulle vilja använda eller få tillgång till.",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera data och API:er som du skulle vilja använda eller få tillgång till.</p>\n",
+    "disabled": 0,
+    "icon": "fa-bullhorn",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Efterfråga data och API:er",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 23,
+    "post_count": 186,
+    "slug": "1/efterfråga-data-och-api-er",
+    "topic_count": 21,
+    "undefined": "Vad är \"Tag whitelist\"",
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 186,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "336",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/336.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Efterfråga data och API:er",
+      "url": "/category/1/efterfråga-data-och-api-er",
+      "cid": 1
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/336",
+  "bodyClass": "page-topic page-topic-336 template-topic page-topic-category-1 page-topic-category-efterfråga-data-och-api-er parent-category-23 parent-category-1 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Geodata och geodatatorget"
+        },
+        {
+          "name": "description",
+          "content": "I ett tidigare inlägg skriver @Matself följande. Jag väljer att kopiera och också lägga i tråden efterfrågade data eftersom jag vet att denna tjänst kommer att underlätta för många. Matself 11 maj 2021 11:05 Geodata är samhällsbyggnadens DNA. Men för att ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Geodata och geodatatorget"
+        },
+        {
+          "property": "og:description",
+          "content": "I ett tidigare inlägg skriver @Matself följande. Jag väljer att kopiera och också lägga i tråden efterfrågade data eftersom jag vet att denna tjänst kommer att underlätta för många. Matself 11 maj 2021 11:05 Geodata är samhällsbyggnadens DNA. Men för att ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-04-12T12:06:01.872Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-04-12T12:06:01.872Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Efterfråga data och API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/336",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/336/geodata-och-geodatatorget",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/336.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/1/efterfråga-data-och-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

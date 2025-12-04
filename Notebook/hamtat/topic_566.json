@@ -1,0 +1,2106 @@
+{
+  "cid": 24,
+  "lastposttime": 1669630784961,
+  "mainPid": 3115,
+  "postcount": 25,
+  "slug": "566/api-fiera-kravkatalog-för-upphandling-erfarenheter",
+  "tid": 566,
+  "timestamp": 1667979990159,
+  "title": "API:fiera kravkatalog för upphandling. Erfarenheter?",
+  "uid": 591,
+  "viewcount": 4806,
+  "postercount": 7,
+  "tags": [],
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 3617,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "API:fiera kravkatalog för upphandling. Erfarenheter?",
+  "timestampISO": "2022-11-09T07:46:30.159Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-28T10:19:44.961Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Vi sitter idag med ett växande Excel-dokument för de krav som används vid upphandling. Vi har under en tid pratat om att API:fiera den. Jag handledde även ett projekt med en LIA-student för att bygga en prototyp med C#/dotnet core API. Vår kära student gjorde ett fantastiskt jobb men vi var inte riktigt framme i våra egna tankar i tid till LIA-perioden.</p>\n<p dir=\"auto\">Nu är det hög tid att inspireras av er som gjort en liknande resa. Jag har ju svårt att tro att vi har jättemånga krav i vår egen lista som är helt unika för oss. Kanske någon enstaka punkt.</p>\n<p dir=\"auto\">Jag har sett Umeås öppna dataportal. Och har sett någon diskussion om wikidata här på forumet men hade lite svårt att relatera det till vårt behov.</p>\n<p dir=\"auto\">Var börjar vi? Utveckla ett eget REST API, nyttja något populärt ändamålsenligt projekt, nyttja en färdig produkt (SaaS, egen drift)?</p>\n",
+      "pid": 3115,
+      "tid": 566,
+      "timestamp": 1667979990159,
+      "uid": 591,
+      "edited": 1667980049817,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 49,
+            "username": "Maria Söderlind",
+            "userslug": "maria-söderlind",
+            "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+            "fullname": "Maria Söderlind",
+            "displayname": "Maria Söderlind",
+            "icon:text": "M",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 4]]",
+        "count": 4,
+        "timestampISO": "2022-11-09T13:58:21.173Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-09T07:46:30.159Z",
+      "editedISO": "2022-11-09T07:47:29.817Z",
+      "index": 0,
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> Mycket bra idé. Kanske går att börja enkelt. Exempelvis <a href=\"https://nosad.se/tips\" rel=\"nofollow ugc\">https://nosad.se/tips</a> autogenereras från <a href=\"https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Lista-med-delat-material\" rel=\"nofollow ugc\">https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Lista-med-delat-material</a>.</p>\n",
+      "pid": 3119,
+      "tid": 566,
+      "timestamp": 1668002301173,
+      "toPid": "3115",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-09T15:11:22.252Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-09T13:58:21.173Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> superbra idé!</p>\n<p dir=\"auto\">Jag tror på att samla in exempelkrav. Det kan vara organisationer som delar hela, eller endast meningar av kravunderlag. Ett sätt att göra detta på är ju att använda forumet, denna tråd för att fylla på med exempelkrav. Ett annat sätt för mer anonymitet (om det behövs) är det som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> skriver; att skapa en sida på NOSAD som heter Exempelkrav.</p>\n",
+      "pid": 3120,
+      "tid": 566,
+      "timestamp": 1668006682252,
+      "toPid": "3119",
+      "uid": 62,
+      "edited": 1668006778611,
+      "editor": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-10T09:29:41.813Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-09T15:11:22.252Z",
+      "editedISO": "2022-11-09T15:12:58.611Z",
+      "index": 2,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Hmm, <a href=\"http://nosad.se/tips\" rel=\"nofollow ugc\">nosad.se/tips</a> parsar markdown från en wikisida på Gitlab? Ursäkta om jag är helt ute och cyklar...</p>\n",
+      "pid": 3123,
+      "tid": 566,
+      "timestamp": 1668019856295,
+      "toPid": "3119",
+      "uid": 591,
+      "edited": 1668019873177,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-09T18:58:57.756Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-09T18:50:56.295Z",
+      "editedISO": "2022-11-09T18:51:13.177Z",
+      "index": 3,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Gillar förresten hur<br />\n<a href=\"https://government.github.com/community/\" rel=\"nofollow ugc\">https://government.github.com/community/</a><br />\ngenereras från xml i detta repo:<br />\n<a href=\"https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml\" rel=\"nofollow ugc\">https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml</a></p>\n<p dir=\"auto\">Men ok versionshanterad källdata på Gitlab/GitHub och någon client side JS app för att passa och presentera?</p>\n<p dir=\"auto\">Och så smackar man på något JS-bibliotek för sök och filtrering?<br />\nDet låter ju lättförvaltat och med hyfsat human UX. Med reservation för att jag kan ha missförstått helt och hållet.. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /></p>\n",
+      "pid": 3124,
+      "tid": 566,
+      "timestamp": 1668020337756,
+      "toPid": "3123",
+      "uid": 591,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-09T18:58:57.756Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a></p>\n<pre><code>skapa en sida på NOSAD som heter Exempelkrav.\n</code></pre>\n<p dir=\"auto\">Nu hänger jag inte med, har sett att man kan begära behörighet att editera vissa sidor där men skapa egna sidor, hur och var? Har du något exempel?</p>\n",
+      "pid": 3128,
+      "tid": 566,
+      "timestamp": 1668072581813,
+      "toPid": "3120",
+      "uid": 591,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 531,
+            "username": "DIGG_admin",
+            "userslug": "digg_admin",
+            "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+            "fullname": "Myndigheten för digital förvaltning",
+            "displayname": "DIGG_admin",
+            "icon:text": "D",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-11-10T11:41:26.306Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-10T09:29:41.813Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> processen är halvmanuell fortfarande. Men NOSAD har en wiki2html funktion. ”skapa en wikisida och få den uppvisad som HTML.” NSÖD har gjort en sådan sida och även DIGG (jag). Vi kallar det för communiydriven publicering. <a href=\"https://nosad.se/Projekt\" rel=\"nofollow ugc\">https://nosad.se/Projekt</a></p>\n",
+      "pid": 3130,
+      "tid": 566,
+      "timestamp": 1668083675038,
+      "toPid": "3128",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-11T08:46:35.487Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-10T12:34:35.038Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> Hur ser du att ett API skulle hjälpa kravställare och upphandlare att ställa bättre/rätt krav? Jag har svårt att göra det.</p>\n<p dir=\"auto\">Jag ska hålla ett seminarie om öppen inköpskedja imorgon genom Nosad/Goto10 så om jag missat något här vore det bra att få koll på:)</p>\n<p dir=\"auto\">PS Vilken organisation kommer du ifrån?</p>\n",
+      "pid": 3134,
+      "tid": 566,
+      "timestamp": 1668119346112,
+      "toPid": "3115",
+      "uid": 9,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T10:42:44.601Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-10T22:29:06.112Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a></a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Jättebra om du gör en sådan här sida, <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a></a>! Det är precis åt det här hållet vi är på väg nu när dataportalen växlar upp till att bli digitala arenan. Jag hoppas vi kan börja visa sådant här innehåll där också, även om vi kommer ha en väg att gå för att reda ut frågorna kring juridik och tillgänglighet, t ex.</p>\n",
+      "pid": 3135,
+      "tid": 566,
+      "timestamp": 1668151929429,
+      "toPid": "3128",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-11T07:32:09.429Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a>, <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> Ska försöka uttrycka mig tydligare. Ser att vi alla lätt pratar förbi varandra.  Att ta fram ett API med sammanställda, kurerade krav är en bra idé, frågan är hur detta enklast görs.</p>\n<p dir=\"auto\">Utmaningen är att få in bidrag och det var detta som jag och <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> svarade på. För att få in bidrag behöver alla veta var man ska vända sig. Därför började jag med att skriva i detta forum, men det har sina begränsningar när det kommer till att ladda upp filer. <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> föreslog därför <a href=\"http://nosad.se\" rel=\"nofollow ugc\">nosad.se</a> som redan används idag för att dela filer.  I bägge fallen krävs det att någon senare om behovet föreligger bygger ett API av de bidrag; exempel meningar som tas fram.</p>\n<p dir=\"auto\">Här handlar det om angreppssätt. Jag tror störst nytta kommer av att organisationer på enklaste sätt bara börjar dela sina kravexempel.  På <a href=\"http://nosad.se\" rel=\"nofollow ugc\">nosad.se</a> kan man dela filer som excelark.  Får vi in flera kan vi se hur vi kurerar och slår ihop.  Jag tror att initialt ligger styrkan i att flera delar. Om det finns dem som endast vill dela enstaka meningar så kan vi kurera även sådant.</p>\n<p dir=\"auto\">Den lösning som jag pekar på blir ju initialt inte ett  API, men utmaningen är att få igång ”dela”-rörelsen.  Flera spännande frågor dyker upp; hur förvaltas detta på sikt? Men som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a> skriver; det är bl.a. denna typ av frågor som vi gemensamt behöver lösa.</p>\n",
+      "pid": 3136,
+      "tid": 566,
+      "timestamp": 1668156395487,
+      "toPid": "3130",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-11T12:03:09.372Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-11T08:46:35.487Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Håller med <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> jag tänker att det är mycket vunnet om <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> börjar sammanställa det innehåll som han vill dela, och delar det med hjälp av NOSAD. Så får vi se vart det tar vägen och var och hur vi bäst jobbar med det. Content is king. <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a></p>\n",
+      "pid": 3139,
+      "tid": 566,
+      "timestamp": 1668168189372,
+      "toPid": "3136",
+      "uid": 216,
+      "edited": 1668168204788,
+      "editor": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-11T15:03:03.223Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-11T12:03:09.372Z",
+      "editedISO": "2022-11-11T12:03:24.788Z",
+      "index": 10,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Vilken bra diskussion!<br />\nAPI är ju mer någon slags (del)målbild och som det påpekats sekundärt just nu. Från excel -&gt; strukturerad plain text (enl någon smart XML-struktur) i Gitlab av det som vi är bekväma att dela känns som ett bra första steg härifrån. Jag börjar på den interna Gitlab-instansen och återkommer med delbart material och förmodligen följdfrågor innan dess.</p>\n",
+      "pid": 3147,
+      "tid": 566,
+      "timestamp": 1668178983223,
+      "toPid": "3139",
+      "uid": 591,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-11T15:03:03.223Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@Björn-Hagström</a><br />\nNja, ett API hjälper inte det syftet direkt. Första steget behöver ju vara att dela datan och ta innehållet vidare gemensamt. Sträva åt någon slags gemensam masterdata kanske. Jag är på Örebro kommun.<br />\nSer fram emot att kika på seminariet vid tillfälle! Hoppas att du är nöjd med hur det blev.</p>\n",
+      "pid": 3181,
+      "tid": 566,
+      "timestamp": 1668595364601,
+      "toPid": "3134",
+      "uid": 591,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T10:42:44.601Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/216\">@Nina_Berlin</a><br />\nJag har en del jobb innan det kan bli dags för publicering men jag tänkte ändå flagga för att en trasig länk på <img src=\"https://docs.dataportal.se/dcat/docs/harvesting/\" alt=\"https://docs.dataportal.se/dcat/docs/harvesting/\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Den här länken:<br />\n\"I Sverige har vi valt att förregistrera alla offentliga aktörer, man kan enkelt kolla om man är<br />\n<a href=\"https://registrera.oppnadata.se/status/public\" rel=\"nofollow ugc\">förregistrerad på registrera</a>\"</p>\n",
+      "pid": 3182,
+      "tid": 566,
+      "timestamp": 1668595506602,
+      "toPid": "3139",
+      "uid": 591,
+      "edited": 1668595580154,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T11:38:34.510Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T10:45:06.602Z",
+      "editedISO": "2022-11-16T10:46:20.154Z",
+      "index": 13,
+      "parent": {
+        "username": "Nina_Berlin",
+        "displayname": "Nina_Berlin"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Tänkte se om jag kan få lite handledning i att sätta en RDF-struktur enl DCAT-AP-SE för ett exempelkrav från våran kravkatalog.</p>\n<p dir=\"auto\">Ett exempelkrav, enl &lt;Fält&gt;: &lt;Data&gt;<br />\nID: 012<br />\nKravgrupp: Loggning<br />\nRubrik: Loggning av åtkomst<br />\nKravformulering: Loggning ska ske av åtkomst till lösningen<br />\nPrioritet: Ska<br />\nBevis: Genom att svara Ja i anbudssvaret</p>\n<p dir=\"auto\">OBS: detta är ett exempel och är inte det kompletta kravet som vi har formulerat det.</p>\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n&lt;rdf:RDF\n\txmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n\txmlns:dcterms=\"http://purl.org/dc/terms/\"\n\txmlns:vcard=\"http://www.w3.org/2006/vcard/ns#\"\n\txmlns:dcat=\"http://www.w3.org/ns/dcat#\"\n\txmlns:foaf=\"http://xmlns.com/foaf/0.1/\"&gt;\n&lt;dcat:Catalog rdf:about=\"https://example.com/catalog1\"&gt;\n\t&lt;dcterms:title xml:lang=\"sv\"&gt;Kravkatalog&lt;/dcterms:title&gt;\n\t&lt;dcterms:description xml:lang=\"sv\"&gt;Kravkatalog för IT-upphandlingar&lt;/dcterms:description&gt;\n\t&lt;dcterms:publisher rdf:resource=\"https://example.com/publisher1\"/&gt;\n\t&lt;dcat:dataset rdf:resource=\"https://example.com/dataset1\"/&gt;\n\t&lt;dcterms:license rdf:resource=\"http://creativecommons.org/publicdomain/zero/1.0/\"/&gt;\n&lt;/dcat:Catalog&gt;\n&lt;foaf:Agent rdf:about=\"https://example.com/publisher1\"&gt;\n\t&lt;foaf:name&gt;Exempelkatalog&lt;/foaf:name&gt;\n&lt;/foaf:Agent&gt;\n&lt;dcat:Dataset rdf:about=\"https://example.com/dataset1\"&gt;\n\t&lt;dcterms:id xml:lang=\"sv\"&gt;0012&lt;/dcterms:group&gt;\n\t&lt;dcterms:group xml:lang=\"sv\"&gt;Loggning&lt;/dcterms:group&gt;\n\t&lt;dcterms:title xml:lang=\"sv\"&gt;Loggning av åtkomst&lt;/dcterms:title&gt;\n\t&lt;dcterms:description xml:lang=\"sv\"&gt;Loggning ska ske av åtkomst till lösningen&lt;/dcterms:description&gt;\n\t&lt;dcterms:priority xml:lang=\"sv\"&gt;Ska&lt;/dcterms:priority&gt;\n\t&lt;dcterms:proof xml:lang=\"sv\"&gt;Genom att svara Ja i anbudssvaret&lt;/dcterms:proof&gt;\n\t&lt;dcterms:publisher rdf:resource=\"https://example.com/publisher1\"/&gt;\n\t&lt;dcat:distribution rdf:resource=\"https://example.com/distribution1\"/&gt;\n\t&lt;dcat:contactPoint rdf:resource=\"https://example.com/contactpoint1\"/&gt;\n&lt;/dcat:Dataset&gt;\n&lt;dcat:Distribution rdf:about=\"https://example.com/distribution1\"&gt;\n\t&lt;dcat:accessURL rdf:resource=\"http://example.com/api\"/&gt;\n\t&lt;dcat:accessService rdf:resource=\"https://example.com/dataservice1\"/&gt;\n&lt;/dcat:Distribution&gt;\n&lt;vcard:Organization rdf:about=\"https://example.com/contactpoint1\"&gt;\n\t&lt;vcard:fn&gt;Exempelorganisation&lt;/vcard:fn&gt;\n\t&lt;vcard:hasEmail rdf:resource=\"mailto:oppnadata@example.com\"/&gt;\n&lt;/vcard:Organization&gt;\n&lt;dcat:DataService rdf:about=\"https://example.com/dataservice1\"&gt;\n        &lt;dcterms:title xml:lang=\"sv\"&gt;Exempel API&lt;/dcterms:title&gt;\n        &lt;dcat:endpointURL rdf:resource=\"http://example.com/api\"/&gt;\n&lt;/dcat:DataService&gt;\n&lt;/rdf:RDF&gt;\n</code></pre>\n<p dir=\"auto\">Hur ser det ut för nästa krav? Hur nestar jag in kravlistan?</p>\n<p dir=\"auto\">Jag vet ju hur jag skulle gjort med JSON eller YAML. Kan se hur det kontinuerliga arbetet med katalogen kan hämmas av det \"omständiga\"/pratiga formatet, även om jag förstår syftet.</p>\n",
+      "pid": 3185,
+      "tid": 566,
+      "timestamp": 1668598714510,
+      "toPid": "3182",
+      "uid": 591,
+      "downvotes": 0,
+      "upvotes": 1,
+      "edited": 1668603766912,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T13:17:56.891Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-16T11:38:34.510Z",
+      "editedISO": "2022-11-16T13:02:46.912Z",
+      "index": 14,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">&lt;kravkatalog.yaml&gt;<br />\n...</p>\n<pre><code>catalog: \"https://example.com/catalog1\"\n  - title: \"kravkatalog\"\n    description: \"Kravkatalog för IT-upphandlingar\"\n    publisher: \"https://example.com/publisher1\"\nosv...\ndataset:\n  - id: \"0012\"\n    group: \"Loggning\"\n    title: \"Loggning av åtkomst\"\n    description: \"Loggning ska ske av åtkomst till lösningen\"\n    priority: \"Ska\"\n    osv: ...\n  - id: \"0013\"\n    group: \"...\"\n    title: \"...\"\n    description: \"...\"\n    priority: \"...\"\n    osv: ...\n  - id: \"0014\"\n    group: \"...\"\n    title: \"...\"\n    description: \"...\"\n    priority: \"...\"\n    osv: ...\n</code></pre>\n",
+      "pid": 3191,
+      "tid": 566,
+      "timestamp": 1668604676891,
+      "toPid": "3185",
+      "uid": 591,
+      "edited": 1668604710601,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-16T13:25:00.562Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T13:17:56.891Z",
+      "editedISO": "2022-11-16T13:18:30.601Z",
+      "index": 15,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">...Om det inte var tydligt redan så gillar jag att ställa korkade frågor på internet. Nu läste jag vägledningen igen och jag missförstod uppenbarligen första genomläsningen.<br />\nMetadata: RDF-format<br />\nData: JSON eller liknande</p>\n<p dir=\"auto\">Korrekt?</p>\n<p dir=\"auto\">Och eftersom att YAML är ett subset av JSON så skulle vi kunna köra något i stil med mitt YAML-exempel.<br />\nHm.. eller JSON-LD, JSON för länkad data.</p>\n",
+      "pid": 3193,
+      "tid": 566,
+      "timestamp": 1668605100562,
+      "toPid": "3191",
+      "uid": 591,
+      "edited": 1668605305092,
+      "editor": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "displayname": "davidlars"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-16T13:25:00.562Z",
+      "editedISO": "2022-11-16T13:28:25.092Z",
+      "index": 16,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/591\">@davidlars</a> ser att du säger att du sett Umeås dataportal, men har du sett vår datamängd med upphandlingskrav? Tänker att det kanske är den infon du efterfrågar från oss. Här får du i vilket fall länk till där du kan ladda ner dem: [<a href=\"https://opendata.umea.se/explore/dataset/icke-funktionella-exempelkrav0/export/?sort=krav_id\" rel=\"nofollow ugc\">https://opendata.umea.se/explore/dataset/icke-funktionella-exempelkrav0/export/?sort=krav_id</a>](link url)<br />\nOch här finns ett API om du föredrar det: [<a href=\"https://opendata.umea.se/explore/dataset/icke-funktionella-exempelkrav0/api/?sort=krav_id\" rel=\"nofollow ugc\">https://opendata.umea.se/explore/dataset/icke-funktionella-exempelkrav0/api/?sort=krav_id</a>](link url)<br />\nDiskussionen om Wikidata hade inget att göra med den datamängden så du har helt rätt i att den inte bidrar ngt kring just detta <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3205,
+      "tid": 566,
+      "timestamp": 1668610251810,
+      "toPid": "3115",
+      "uid": 49,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 591,
+            "username": "davidlars",
+            "userslug": "davidlars",
+            "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+            "fullname": "David Berglund",
+            "displayname": "davidlars",
+            "icon:text": "D",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-11-17T06:06:34.503Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-11-16T14:50:51.810Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "davidlars",
+        "displayname": "davidlars"
+      },
+      "user": {
+        "uid": 49,
+        "username": "Maria Söderlind",
+        "userslug": "maria-söderlind",
+        "reputation": 116,
+        "postcount": 83,
+        "topiccount": 7,
+        "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1762977287884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria Söderlind",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2025-11-12T19:54:47.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/49\">@Maria-Söderlind</a><br />\nTack, precis vad jag borde ha letat efter men av någon anledning inte letade efter! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3218,
+      "tid": 566,
+      "timestamp": 1668665194503,
+      "toPid": "3205",
+      "uid": 591,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-17T06:06:34.503Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "Maria Söderlind",
+        "displayname": "Maria Söderlind"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/49\">@Maria-Söderlind</a><br />\nVar bor er masterdata någonstans? Hur ser gränsnittet ut för de som matar in nya krav eller ändrar i kraven? Excel?</p>\n",
+      "pid": 3219,
+      "tid": 566,
+      "timestamp": 1668666892295,
+      "toPid": "3205",
+      "uid": 591,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 49,
+            "username": "Maria Söderlind",
+            "userslug": "maria-söderlind",
+            "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+            "fullname": "Maria Söderlind",
+            "displayname": "Maria Söderlind",
+            "icon:text": "M",
+            "icon:bgColor": "#1b5e20"
+          },
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-17T06:47:11.681Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-17T06:34:52.295Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "Maria Söderlind",
+        "displayname": "Maria Söderlind"
+      },
+      "user": {
+        "uid": 591,
+        "username": "davidlars",
+        "userslug": "davidlars",
+        "reputation": 30,
+        "postcount": 33,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1681364405773,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidlars",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2023-04-13T05:40:05.773Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "566",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/566.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/566/api-fiera-kravkatalog-för-upphandling-erfarenheter?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/566",
+  "bodyClass": "page-topic page-topic-566 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "API:fiera kravkatalog för upphandling. Erfarenheter?"
+        },
+        {
+          "name": "description",
+          "content": "Vi sitter idag med ett växande Excel-dokument för de krav som används vid upphandling. Vi har under en tid pratat om att API:fiera den. Jag handledde även ett projekt med en LIA-student för att bygga en prototyp med C#/dotnet core API. Vår kära student gj..."
+        },
+        {
+          "property": "og:title",
+          "content": "API:fiera kravkatalog för upphandling. Erfarenheter?"
+        },
+        {
+          "property": "og:description",
+          "content": "Vi sitter idag med ett växande Excel-dokument för de krav som används vid upphandling. Vi har under en tid pratat om att API:fiera den. Jag handledde även ett projekt med en LIA-student för att bygga en prototyp med C#/dotnet core API. Vår kära student gj..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-09T07:46:30.159Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-28T10:19:44.961Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/591-profileavatar-1667984443509.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/566",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/566/api-fiera-kravkatalog-för-upphandling-erfarenheter",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/566.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/davidlars"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/566/api-fiera-kravkatalog-för-upphandling-erfarenheter?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "cid": 31,
+  "lastposttime": 1666857115257,
+  "mainPid": 2967,
+  "postcount": 4,
+  "slug": "539/uppdaterad-dokumentation-20221020",
+  "tid": 539,
+  "timestamp": 1666335829929,
+  "title": "Uppdaterad dokumentation 20221020",
+  "uid": 454,
+  "viewcount": 487,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 3031,
+  "tags": [],
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Uppdaterad dokumentation 20221020",
+  "timestampISO": "2022-10-21T07:03:49.929Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-27T07:51:55.257Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Mina ärenden har den 20 oktober 2022 uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att dokumentationen uppdateras/förändras.</p>\n<p dir=\"auto\">Om du som läser detta har några frågor så är du välkommen att skriva de i denna tråd.</p>\n<h2>Förändringar</h2>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>ID</th>\n<th>Vart</th>\n<th>Beskrivning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2022-10-18-<strong>01</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Lagt till möjlighet att fråga på ärende utöver kund efter önskemål från Bolagsverket.</td>\n</tr>\n<tr>\n<td>2022-10-18-<strong>02</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Ensat attributnamn <code>kundhandelseRequest</code> och <code>kundhandelseResponse</code>. Bytt bokstaven ä mot a i kundhändelse-attribut i svar.</td>\n</tr>\n<tr>\n<td>2022-10-18-<strong>03</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Attributet <code>kundhandelsekategori</code> ersatt med <code>producentarendetKraverKundatgard</code> och <code>producentarendetKlart</code>. Tidigare lösning med kundhandelsekategori har vållat en del osäkerhet hos producenter mot vilket värde man ska mappa en kundhändelsetyp mot. Eftersom det ursprungliga behovet är att det ska vara tydligt \"vem som har bollen\", eller snarare \"behöver jag som kund agera\" så bedöms det bli enklare och renare med dessa två booleans.</td>\n</tr>\n<tr>\n<td>2022-10-18-<strong>04</strong></td>\n<td>Verksamhetsguide</td>\n<td>Uppdaterat kap.2 <em>\"Att utforma en kundhändelse\"</em> och kap. 2 <em>\"Att skriva en kundhändelse\"</em> med anledning av att attributet kundhandelsekategori ersatts.</td>\n</tr>\n<tr>\n<td>2022-10-18-<strong>05</strong></td>\n<td>Verksamhetsguide</td>\n<td>Nytt avsnitt <em>\"Notifiering av kundhändelser\"</em> i kap. 2. Beskriver behovet av att avisera kundhändelser och kort om relationen kundhändelse - meddelande.</td>\n</tr>\n<tr>\n<td>2022-10-26-<strong>06</strong>*</td>\n<td>Tjänstebeskrivning</td>\n<td>Lagt till information om vilken URL skall användas.</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\">Eftersom ändringen innebär ett attrbut utgår (kundhandelsekategori) i den tekniska standarden så har vi valt att skapa en ny plats för tidigare versioner -&gt; <a href=\"https://www.dataportal.se/sv/datasets/6_72041/mina-arenden-tidigare-versioner\" rel=\"nofollow ugc\">Mina ärenden - tidigare versioner</a>.</p>\n<p dir=\"auto\"><a href=\"https://www.dataportal.se/sv/datasets/6_71657/mina-arenden\" rel=\"nofollow ugc\">Befintlig plats</a> på dataportalen kommer istället alltid innehålla den aktuella versionen.</p>\n<hr />\n<p dir=\"auto\">*<em>Tillagd efter urspungligt inlägg postades</em></p>\n",
+      "pid": 2967,
+      "tid": 539,
+      "timestamp": 1666335829929,
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-25T10:32:18.842Z"
+      },
+      "edited": 1666856897925,
+      "editor": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "displayname": "johantjader"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-10-21T07:03:49.929Z",
+      "editedISO": "2022-10-27T07:48:17.925Z",
+      "index": 0,
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> Finns det tankar att föreslå en konvention för hur URI-strukturen för kundhändelser bör implementeras av konsumenter?</p>\n<p dir=\"auto\">Snabbt exempel bara för att förtydliga frågan:<br />\nmyndighet_x.se/arenden/{id}/handelser<br />\nmyndighet_x.se/arenden/{id}/handelser/{handelse_id}/detaljer</p>\n<p dir=\"auto\">Poängen är att försöka skapa en förutsägbarhet som möjliggör att en myndighet kan länka till en annan myndighet på ett robust sätt.</p>\n<p dir=\"auto\">I ert exempel med \"Pias Tacotruck\" som ser händelsen \"komplettering krävs\" från Bolagsverket är frågan hur klienten räknar ut vilken URL som användaren ska trycka på för att kunna slutföra arbetsuppgiften. I de fall det går att definiera i kundhändelsen är det såklart väldigt bra. Min åsikt (opinionated) är att det inte alltid går att definiera på förhand exakt vad nästa steg är men användaren behöver säkert få tips om hur hen \"kan ta sig vidare i processen\" ändå.</p>\n",
+      "pid": 2994,
+      "tid": 539,
+      "timestamp": 1666693938842,
+      "toPid": "2967",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-26T13:22:37.957Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-10-25T10:32:18.842Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a></p>\n<p dir=\"auto\">Bra fråga, delar upp svaret i två delar:</p>\n<p dir=\"auto\"><strong>URL:er för kundhändelse-API:</strong><br />\nDet finns absolut ett värde att ensa URL:en för de kundhändelse-API:er som tas fram. Dock blir det svårt att standardisera annat än sista delen av URL:em eftersom respektive producenter redan har etablerade lösningar för hur deras URL:er ska se ut. Vi tar dock med oss detta och lägger till i Mina ärendens tjänstebeskrivning att sista delen av URL:en ska heta \"/kundhandelser\". Vi slänger upp en ny version pronto som borde synas på dataportal inom kort.</p>\n<p dir=\"auto\">Med \"sista delen av URL:en\" menar vi:<br />\n<a href=\"http://Skv.se/%E2%80%A6/%E2%80%A6./%E2%80%A6./kundhandelser\" rel=\"nofollow ugc\">Skv.se/…/…./…./kundhandelser</a></p>\n<p dir=\"auto\"><strong>Mönster för tvåvägskommunikation</strong><br />\nDu lyfter även behovet för en användare att kunna agera på informationen den får till sig i en kundhändelse. Vi har för det behovet valt att prata om behovet av \"mönster för tvåvägskommunikation\". Vi tror att det kommer finnas behov av olika lösningar beroende på vad man som producent har att erbjuda kunden för lösningar samt i vilket sammanhang användaren tar del av en kundhändelse.</p>\n<p dir=\"auto\"><strong>Exempel:</strong><br />\n<strong>Scenario 1</strong> - en användare (privatperson) tar del av en kundhändelse \"du behöver komplettera ditt bygglovsärende\" på Mina sidor hos en kommun. I denna kontext kanske behovet är att kunna hänvisa användaren till en e-tjänst där användaren kan komplettera med efterfrågat underlag.<br />\n<strong>Scenario 2</strong> - en användare (företagare) tar del av en kundhändelse \"du ska lämna in momsdeklaration senast 12 september\" i användarens affärssystem. Skatteverket som producerat kundhändelsen skulle då kunna erbjuda möjligheten att lämna momsdeklaration direkt från affärssystemet via ett API istället för att hänvisa till t.ex. en e-tjänst.</p>\n<p dir=\"auto\">D.v.s. lösningarna för att möta behovet kan variera beroende på situation och kontext varför det blir mer naturligt att prata om mönster för tvåvägskommunikation.</p>\n<p dir=\"auto\">Vi har på inget sätt en färdig lösning utan har för avsikt att börja titta närmare på det här, helst tillsammans med de som först går ut och börjar ta utforska området (deltagare i Verksamt, Värmdö och potentiella konsumenter att SKV:s KH-API). Området adresseras kort i <a href=\"https://www.dataportal.se/sv/datasets/6_71657/mina-arenden\" rel=\"nofollow ugc\">Verksamhetsguiden</a> i sista avsnittet i kap 3 - \"Länkar och mönster för tvåvägskommunikation\"</p>\n",
+      "pid": 3011,
+      "tid": 539,
+      "timestamp": 1666790557957,
+      "toPid": "2994",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-27T07:51:55.257Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-10-26T13:22:37.957Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> Tack för bra svar. Uppfriskande att ni har ett avsnitt om mönster!</p>\n",
+      "pid": 3031,
+      "tid": 539,
+      "timestamp": 1666857115257,
+      "toPid": "3011",
+      "uid": 78,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-27T07:51:55.257Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#A16946",
+    "cid": 31,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Mina ärenden",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 30,
+    "post_count": 72,
+    "slug": "31/mina-ärenden",
+    "subCategoriesPerPage": 10,
+    "topic_count": 18,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 72,
+    "totalTopicCount": 18
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "539",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/539.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    },
+    {
+      "text": "Mina ärenden",
+      "url": "/category/31/mina-ärenden",
+      "cid": 31
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/539",
+  "bodyClass": "page-topic page-topic-539 template-topic page-topic-category-31 page-topic-category-mina-ärenden parent-category-30 parent-category-31 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Uppdaterad dokumentation 20221020"
+        },
+        {
+          "name": "description",
+          "content": "Mina ärenden har den 20 oktober 2022 uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samba..."
+        },
+        {
+          "property": "og:title",
+          "content": "Uppdaterad dokumentation 20221020"
+        },
+        {
+          "property": "og:description",
+          "content": "Mina ärenden har den 20 oktober 2022 uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samba..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-10-21T07:03:49.929Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-27T07:51:55.257Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Mina ärenden"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/539",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/539/uppdaterad-dokumentation-20221020",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/539.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/31/mina-ärenden"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/johantjader"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

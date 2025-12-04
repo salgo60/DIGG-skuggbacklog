@@ -1,0 +1,1091 @@
+{
+  "cid": 1,
+  "lastposttime": 1637706372260,
+  "mainPid": 1093,
+  "postcount": 6,
+  "slug": "248/läns-kommunindelning-som-länkade-data",
+  "tid": 248,
+  "timestamp": 1637587855694,
+  "title": "Läns-&#x2F;kommunindelning som länkade data",
+  "uid": 289,
+  "viewcount": 815,
+  "postercount": 2,
+  "teaserPid": 1106,
+  "downvotes": 0,
+  "upvotes": 0,
+  "tags": [
+    {
+      "value": "länkade data",
+      "valueEscaped": "länkade data",
+      "valueEncoded": "l%C3%A4nkade%20data",
+      "class": "länkade-data"
+    },
+    {
+      "value": "scb",
+      "valueEscaped": "scb",
+      "valueEncoded": "scb",
+      "class": "scb"
+    },
+    {
+      "value": "kommuner",
+      "valueEscaped": "kommuner",
+      "valueEncoded": "kommuner",
+      "class": "kommuner"
+    },
+    {
+      "value": "regioner",
+      "valueEscaped": "regioner",
+      "valueEncoded": "regioner",
+      "class": "regioner"
+    }
+  ],
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Läns-/kommunindelning som länkade data",
+  "timestampISO": "2021-11-22T13:30:55.694Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-11-23T22:26:12.260Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">SCB ansvarar för data om läns- och kommunindelning. <a href=\"https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/lan-och-kommuner/lan-och-kommuner-i-kodnummerordning/\" rel=\"nofollow ugc\">Här finns nedladdningsbara data, PDF och XLSX (!)</a>, men jag har inte lyckats hitta några länkade data (RDF) för detta. Har SCB detta så att det bara är jag som inte lyckats leta tillräckligt bra?</p>\n",
+      "pid": 1093,
+      "tid": 248,
+      "timestamp": 1637587855694,
+      "uid": 289,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-22T14:31:19.567Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "edited": 1637849709037,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-22T13:30:55.694Z",
+      "editedISO": "2021-11-25T14:15:09.037Z",
+      "index": 0,
+      "user": {
+        "uid": 289,
+        "username": "nilsw-ra",
+        "fullname": "Nils Weinander",
+        "userslug": "nilsw-ra",
+        "reputation": 5,
+        "postcount": 17,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660723814270,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "nilsw-ra",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-08-17T08:10:14.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/289\">@nilsw-ra</a> du har en hel del i Wikidata. Berätta vad du vill ha tror du hittar det mesta i andra trådar i detta forum...</p>\n<ul>\n<li>kommunkoder är inte persistenta över tid som <a href=\"https://community.dataportal.se/topic/184/kommunid-och-best%C3%A4ndiga-identifierare/13?_=1637591234446\">påpekades i denna tråd</a>, verkar dock inte vara någon som tog tag i det. Vore trevligt att höra hur DIGG eller NSÖD projektet funderar över detta .....</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637591354892-73e1f16f-d764-47c6-8c4a-5bb9be53af3a-image-resized.png\" alt=\"73e1f16f-d764-47c6-8c4a-5bb9be53af3a-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">SCB har ingen publik backlog eller diskussionsforum och svarar oftast inte på email....  mina försök <a href=\"https://phabricator.wikimedia.org/T266870\" rel=\"nofollow ugc\">T266870</a></p>\n",
+      "pid": 1094,
+      "tid": 248,
+      "timestamp": 1637591479567,
+      "toPid": "1093",
+      "uid": 24,
+      "edited": 1637591827248,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 289,
+            "username": "nilsw-ra",
+            "userslug": "nilsw-ra",
+            "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+            "fullname": "Nils Weinander",
+            "displayname": "nilsw-ra",
+            "icon:text": "N",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-22T14:36:47.649Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-22T14:31:19.567Z",
+      "editedISO": "2021-11-22T14:37:07.248Z",
+      "index": 1,
+      "parent": {
+        "username": "nilsw-ra",
+        "displayname": "nilsw-ra"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Varken län eller kommuner är persistenta över tid... Wikidata har det mesta, inklusive svensk administrativ indelning. Riksantikvarieämbetet har auktoriteter för län, kommun , landskap och socken som länkade data. Men, det vore intressant att veta om ansvarig myndighet har det också.</p>\n",
+      "pid": 1095,
+      "tid": 248,
+      "timestamp": 1637591807649,
+      "toPid": "1094",
+      "uid": 289,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-22T14:46:45.621Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-22T14:36:47.649Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 289,
+        "username": "nilsw-ra",
+        "fullname": "Nils Weinander",
+        "userslug": "nilsw-ra",
+        "reputation": 5,
+        "postcount": 17,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660723814270,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "nilsw-ra",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-08-17T08:10:14.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/289\">@nilsw-ra</a> problemet jag pekar på här är att kommunkod ändras om kommunen byter län vilket gör den mindre bra att använda om man vill följa upp saker över tid per kommun...</p>\n<p dir=\"auto\">I WD har vi valt att ha persistenta identifierare precis som Tora projektet</p>\n<ul>\n<li>Bollnäs kommun\n<ul>\n<li>Tora <a href=\"https://tora.entryscape.net/snorql/?describe=https%3A%2F%2Fdata.riksarkivet.se%2Ftora%2Fmodernmunicipality/218300000\" rel=\"nofollow ugc\">modernmunicipality/218300000</a></li>\n<li>Wikidata <a href=\"https://www.wikidata.org/wiki/Q62469?uselang=sv\" rel=\"nofollow ugc\">Q62469</a> som <a href=\"https://w.wiki/4SBm\" rel=\"nofollow ugc\">graf</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Berätta gärna om du hittar någon som kan förtydliga hur man skall resonera om kommunkodens användande och framtid....</p>\n",
+      "pid": 1096,
+      "tid": 248,
+      "timestamp": 1637592405621,
+      "toPid": "1095",
+      "uid": 24,
+      "edited": 1637592510139,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 289,
+            "username": "nilsw-ra",
+            "userslug": "nilsw-ra",
+            "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+            "fullname": "Nils Weinander",
+            "displayname": "nilsw-ra",
+            "icon:text": "N",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-23T12:23:23.254Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-22T14:46:45.621Z",
+      "editedISO": "2021-11-22T14:48:30.139Z",
+      "index": 3,
+      "parent": {
+        "username": "nilsw-ra",
+        "displayname": "nilsw-ra"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Det ligger i sakens natur att län och kommuner förändras över tid, län har slagits samman, kommuner bytt län och kommuner slagits samman och brutits loss.</p>\n<p dir=\"auto\">Vad jag frågade efter är officiella länkade data för <strong>aktuell</strong> läns- och kommunindelning. Sedan vore naturligtvis idealet om sådana data kunde omfatta resurser för historiska län/kommuner också, med properties för vilken tidsperiod de gällde.</p>\n<p dir=\"auto\">Läns- och kommunkoder är som konstaterats inte beständiga, så de bör inte ingå i resursernas URIer utan vara ordinära properties i resurserna.</p>\n",
+      "pid": 1102,
+      "tid": 248,
+      "timestamp": 1637670203254,
+      "toPid": "1096",
+      "uid": 289,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-23T22:26:12.260Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-23T12:23:23.254Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 289,
+        "username": "nilsw-ra",
+        "fullname": "Nils Weinander",
+        "userslug": "nilsw-ra",
+        "reputation": 5,
+        "postcount": 17,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660723814270,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "nilsw-ra",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-08-17T08:10:14.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/289\">@nilsw-ra</a> jag köper det men är tyvärr lika villrådig som du vem som borde göra vad. Saker jag ser</p>\n<ul>\n<li>Riksarkivet <a href=\"https://riksarkivet.se/tora\" rel=\"nofollow ugc\">Tora projektet</a> - historiska bebyggelseenheter (byar och motsvarande enheter)</li>\n<li>det jag <a href=\"https://phabricator.wikimedia.org/T214288#6058193\" rel=\"nofollow ugc\">skrev ned efter att ha pratat med Karswall 2020</a>  (kan vara fel)<br />\n<img src=\"/assets/uploads/files/1637705850381-eb593cff-b147-424a-bc7f-84b7a15158e2-image-resized.png\" alt=\"eb593cff-b147-424a-bc7f-84b7a15158e2-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n<p dir=\"auto\">Se även <a href=\"https://community.dataportal.se/topic/43/ang-scbs-val-av-licens/11?_=1637705872506\">SCB diskussion</a> på annat ställe hoppas dom skapar en öppen backlog där data kan diskuteras....</p>\n<p dir=\"auto\">Känns som DIGG borde ha ett register vilka olika entiteter olika myndigheter ansvarar för, känns som det är dit vi vill med The Once Only Principle (<a href=\"https://www.toop.eu/node/424\" rel=\"nofollow ugc\">TOOP</a>) och <a href=\"https://github.com/salgo60/Svenskabadplatser/discussions/113\" rel=\"nofollow ugc\">Single Source of Truth (SSOT)</a> har dock inte sett hur detta skall realiseras eller vem som gör vad eller när vi får detta men <a href=\"https://www.linkedin.com/posts/patrikhson_bra-diskussion-ig%C3%A5r-med-bla-elin-ahld%C3%A9n-activity-6802841802450776064-FjO2/\" rel=\"nofollow ugc\">många med mig</a> tror det är lösningen på dagens röra ...</p>\n<p dir=\"auto\"><strong>Läns- och kommunkoder</strong> mm kanske slaktfärdiga <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> blir lite system som får byggas om gissar jag....</p>\n",
+      "pid": 1106,
+      "tid": 248,
+      "timestamp": 1637706372260,
+      "toPid": "1102",
+      "uid": 24,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-23T22:26:12.260Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "nilsw-ra",
+        "displayname": "nilsw-ra"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 183,
+          "timestamp": 1648478748997,
+          "timestampISO": "2022-03-28T14:45:48.997Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:45:48.997Z\"></span>"
+        },
+        {
+          "fromCid": 23,
+          "type": "move",
+          "uid": 62,
+          "id": 304,
+          "timestamp": 1649762314550,
+          "timestampISO": "2022-04-12T11:18:34.550Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Data",
+            "slug": "23/data",
+            "icon": "fa-comments",
+            "color": "#ffffff",
+            "bgColor": "#000000"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T11:18:34.550Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 183,
+      "timestamp": 1648478748997,
+      "timestampISO": "2022-03-28T14:45:48.997Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:45:48.997Z\"></span>"
+    },
+    {
+      "fromCid": 23,
+      "type": "move",
+      "uid": 62,
+      "id": 304,
+      "timestamp": 1649762314550,
+      "timestampISO": "2022-04-12T11:18:34.550Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Data",
+        "slug": "23/data",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#000000"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-04-12T11:18:34.550Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#d59151",
+    "cid": 1,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Diskutera data och API:er som du skulle vilja använda eller få tillgång till.",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera data och API:er som du skulle vilja använda eller få tillgång till.</p>\n",
+    "disabled": 0,
+    "icon": "fa-bullhorn",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Efterfråga data och API:er",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 23,
+    "post_count": 186,
+    "slug": "1/efterfråga-data-och-api-er",
+    "topic_count": 21,
+    "undefined": "Vad är \"Tag whitelist\"",
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 186,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "248",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/248.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Efterfråga data och API:er",
+      "url": "/category/1/efterfråga-data-och-api-er",
+      "cid": 1
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/248",
+  "bodyClass": "page-topic page-topic-248 template-topic page-topic-category-1 page-topic-category-efterfråga-data-och-api-er parent-category-23 parent-category-1 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Läns-/kommunindelning som länkade data"
+        },
+        {
+          "name": "description",
+          "content": "SCB ansvarar för data om läns- och kommunindelning. Här finns nedladdningsbara data, PDF och XLSX (!), men jag har inte lyckats hitta några länkade data (RDF) för detta. Har SCB detta så att det bara är jag som inte lyckats leta tillräckligt bra? "
+        },
+        {
+          "property": "og:title",
+          "content": "Läns-/kommunindelning som länkade data"
+        },
+        {
+          "property": "og:description",
+          "content": "SCB ansvarar för data om läns- och kommunindelning. Här finns nedladdningsbara data, PDF och XLSX (!), men jag har inte lyckats hitta några länkade data (RDF) för detta. Har SCB detta så att det bara är jag som inte lyckats leta tillräckligt bra? "
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-11-22T13:30:55.694Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-11-25T14:15:09.037Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Efterfråga data och API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/248",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/248/läns-kommunindelning-som-länkade-data",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/248.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/1/efterfråga-data-och-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/nilsw-ra"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

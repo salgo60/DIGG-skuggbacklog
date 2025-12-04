@@ -1,0 +1,1619 @@
+{
+  "cid": 4,
+  "lastposttime": 1652946539621,
+  "mainPid": 1333,
+  "postcount": 15,
+  "slug": "311/identifierare-för-utgivare-på-dataportalen",
+  "tid": 311,
+  "timestamp": 1646730193525,
+  "title": "Identifierare för utgivare på Dataportalen",
+  "uid": 125,
+  "viewcount": 1439,
+  "postercount": 5,
+  "tags": [
+    {
+      "value": "metadata",
+      "valueEscaped": "metadata",
+      "valueEncoded": "metadata",
+      "class": "metadata"
+    },
+    {
+      "value": "identiferare",
+      "valueEscaped": "identiferare",
+      "valueEncoded": "identiferare",
+      "class": "identiferare"
+    },
+    {
+      "value": "länkade data",
+      "valueEscaped": "länkade data",
+      "valueEncoded": "l%C3%A4nkade%20data",
+      "class": "länkade-data"
+    },
+    {
+      "value": "publicera data",
+      "valueEscaped": "publicera data",
+      "valueEncoded": "publicera%20data",
+      "class": "publicera-data"
+    },
+    {
+      "value": "dataportal.se",
+      "valueEscaped": "dataportal.se",
+      "valueEncoded": "dataportal.se",
+      "class": "dataportal.se"
+    }
+  ],
+  "oldCid": 6,
+  "teaserPid": 1532,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Identifierare för utgivare på Dataportalen",
+  "timestampISO": "2022-03-08T09:03:13.525Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-05-19T07:48:59.621Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> sa i <a href=\"/post/1330\">Webinar om identifierare för data eller API</a>:</p>\n<blockquote>\n<p dir=\"auto\">Hej <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> !</p>\n<p dir=\"auto\">Idag finns det lite olika typer av rekommendationer och dokumentation kring identifierare.</p>\n<p dir=\"auto\">Kopplat till din fråga har vi lagt till en allmän och mer teknisk beskrivning om hur dataportalen fungerar idag kopplat till identifierare för datamängder. Du finner den här i metadata-skördningsspecifikationen under <a href=\"https://docs.dataportal.se/dcat/docs/harvesting/#hantering-av-identifierare\" rel=\"nofollow ugc\">skördningsmekanism-hantering av identifierare</a>).</p>\n<p dir=\"auto\">I <a href=\"https://docs.dataportal.se/dcat/docs/harvesting/\" rel=\"nofollow ugc\">skördningsspecifiktionen</a> som helhet ligger sedan tidigare ett antal rekommendationer kring till exempel val av identifierare och rekommendationer för identifierare av organisationer.</p>\n<p dir=\"auto\">Vi ser att det finns ett behov av information och rekommendationer kring identifierare, inte minst för att förenkla praktisk tillämpning. Ett aktuellt arbete på temat är att vi just nu utarbetar en rekommendation kring REST API:er - URI format och namngivning. Rekommendationen, som dock fortfarande är under remittering, finner du här: <a href=\"https://dev.dataportal.se/sv/rest-api--profil/\" rel=\"nofollow ugc\">https://dev.dataportal.se/sv/rest-api--profil/</a></p>\n<p dir=\"auto\">Vänliga hälsningar,<br />\nKristine</p>\n</blockquote>\n<p dir=\"auto\">Ok, det ser ut som det diskuterats och formulerats en del saker för några år sedan.<br />\nHur ska då URI:er för utgivare i dataportalen se ut, och hur är de länkade till annan data på nätet?</p>\n<p dir=\"auto\">Vem har uppdrag och ansvar för att upprätthålla datakvaliteten för katalogen över dataset, är det någon som lägger tid på detta? Hur stor andel av innehållet följer rekommendationen?</p>\n",
+      "pid": 1333,
+      "tid": 311,
+      "timestamp": 1646730193525,
+      "uid": 125,
+      "edited": 1646730480962,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-03-17T11:48:05.442Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-08T09:03:13.525Z",
+      "editedISO": "2022-03-08T09:08:00.962Z",
+      "index": 0,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 6,
+          "type": "move",
+          "uid": 7,
+          "id": 122,
+          "timestamp": 1646738402498,
+          "timestampISO": "2022-03-08T11:20:02.498Z",
+          "user": {
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "uid": 7,
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          "fromCategory": {
+            "name": "Meetups och evenemang",
+            "slug": "6/meetups-och-evenemang",
+            "icon": "fa-ticket",
+            "color": "#ffffff",
+            "bgColor": "#695f59"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Meetups och evenemang on <span class=\"timeago timeline-text\" title=\"2022-03-08T11:20:02.498Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a></p>\n<p dir=\"auto\">Det är DIGG som ansvarar för den sammanställda katalogen, dvs Sveriges dataportal.<br />\nRespektive organisation som är dataproducent (eller mer specifikt organisation som erhåller en datakatalog) är ansvarig för den och att man följer de tekniska krav som finns kopplat till metadata och skördning.</p>\n<p dir=\"auto\">Vi ser att det idag finns en generell utmaning att ett allt för stort ansvar läggs på enskilda aktörer när det gäller att publicera data med tillhörande maskinläsbar (länkade) metadata, så det är något som vi arbetar med.<br />\nOm vi upptäcker felaktigheter i metadatan jobbar vi utifrån en process där DIGG tar kontakt med den organisation det gäller. För dataportalens perspektiv och från att ha jobbat med det här nåt år nu kan jag konstatera att det är en balansgång mellan att hålla en skördning som är strikt compliant till rekommendationerna – samtidigt som att vi vill sänka trösklarna att dela data.</p>\n",
+      "pid": 1376,
+      "tid": 311,
+      "timestamp": 1647517685442,
+      "toPid": "1333",
+      "uid": 7,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-03-17T11:48:05.442Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> Ja det verkar inte riktigt fungera med mindre än att någon ser till att riktlinjerna följs. Det som saknas i ekvationen verkar vara den part som ska konsumera datan. Om det är problematiskt att tolka en datakatalog maskinellt så är väl inte uppdraget fullföljt.</p>\n<p dir=\"auto\">Jag tittade exempelvis efter information om livsmedelsdata, och identiteten för SLV (publisher) i katalogen är <a href=\"http://www7.slv.se/datasets/resource/1/\" rel=\"nofollow ugc\">http://www7.slv.se/datasets/resource/1/</a><br />\nSamtidigt är organisation (vcard) angiven i metadatan som <a href=\"http://www7.slv.se/datasets/resource/3\" rel=\"nofollow ugc\">http://www7.slv.se/datasets/resource/3</a><br />\nMetadata för datasetet är angiven som <a href=\"http://www7.slv.se/datasets/resource/5\" rel=\"nofollow ugc\">http://www7.slv.se/datasets/resource/5</a></p>\n<p dir=\"auto\">Jag kan inte se att någon av dessa uppgifter möjliggör läsning av vare sig vidare information om utgivaren eller själva datamängden?</p>\n<p dir=\"auto\">I sådana fall är väl katalogposten helt enkelt undermålig för konsumtion för det syfte katalogen publiceras, och vem ska då avhjälpa detta?</p>\n<p dir=\"auto\">Om det är så att jag har missat något i tillvägagångssättet för att läsa in datamängden och länka till information om utgivaren utifrån katalogen, förklara gärna hur jag ska gå tillväga.</p>\n",
+      "pid": 1382,
+      "tid": 311,
+      "timestamp": 1647558262177,
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-03-18T06:01:33.224Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-03-17T23:04:22.177Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Vi (Arbetsförmedlingen) har nog fokuserat mer på innehållet/datasetet än metadata om oss som utgivare. Gissar att det kanske krävs en konvention och ett bra exempel på hur data om utgivaren kan/bör se ut för att vara meningsfull för användaren. Granska gärna arbetsförmedlingen när du ändå är i farten! Kan inte släppa tanken på att Bolagsverket borde vara master för organisationer, borde alla ha en bakåtreferens (URI) till de också, typ <a href=\"https://bolagsverket.se/bolag/orgnummer\" rel=\"nofollow ugc\">https://bolagsverket.se/bolag/orgnummer</a> eller dylikt?</p>\n",
+      "pid": 1383,
+      "tid": 311,
+      "timestamp": 1647583293224,
+      "toPid": "1382",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-03-20T22:05:17.355Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-03-18T06:01:33.224Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Ja \"meningsfull för användaren\" borde ju vara en viktig formulering i sammanhanget. Nu ser metadatan ut att peka på sig själv på ett vis som jag upplever som ganska förvirrande, och om den ändå är tekniskt korrekt är detta kanske inte nog. Vad som vore meningsfullt är något som kan leda till en maskinläsbar beskrivning för konsumtion av vidare tillgängliga data och tjänster. En referens från Bolagsverket för en utgivare skulle ju kunna utgöra en standardiserad identitet som verkligen är betydelsebärande.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> sa i <a href=\"/post/1376\">Identifierare för utgivare på Dataportalen</a>:</p>\n<blockquote>\n<p dir=\"auto\">Om vi upptäcker felaktigheter i metadatan jobbar vi utifrån en process där DIGG tar kontakt med den organisation det gäller. För dataportalens perspektiv och från att ha jobbat med det här nåt år nu kan jag konstatera att det är en balansgång mellan att hålla en skördning som är strikt compliant till rekommendationerna – samtidigt som att vi vill sänka trösklarna att dela data.</p>\n</blockquote>\n<p dir=\"auto\">Har DIGG kontaktat SLV angående deras katalogpost, eller anses den uppfylla de tekniska kraven?  Vilka tekniska krav är det som utgör de största svårigheterna för leverantörerna i nuläget, och har dessa betydelse för den praktiska konsumtionen av datamängden?</p>\n<p dir=\"auto\">Jag tror inte det fungerar med mindre än att leverantören eller DIGG tvingas publicera ett praktiskt exempel på hur man tar sig från läsning av en katalogpost till användning av datamängden och vidare information. Om jag nu förstått rätt att detta är syftet med datakatalogen. Finns det kanske rentav sådana exempel redan?</p>\n",
+      "pid": 1385,
+      "tid": 311,
+      "timestamp": 1647813917355,
+      "toPid": "1383",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-03-21T14:18:18.309Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-20T22:05:17.355Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Kanske ska tillägga att jag pratar om katalogposten från SLV i föregeående inlägg, jag har inte hunnit titta på data från Arbetsförmedlingen, eller hur posterna ser ut överlag.</p>\n",
+      "pid": 1386,
+      "tid": 311,
+      "timestamp": 1647872298309,
+      "toPid": "1385",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-03-22T09:28:15.671Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-21T14:18:18.309Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a>  Vi har tagit oss en titt på den post du refererar till. Det finns inga rena tekniska fel i posten, den syns här: <a href=\"https://www.dataportal.se/sv/datasets/236_6268\" rel=\"nofollow ugc\">https://www.dataportal.se/sv/datasets/236_6268</a></p>\n<p dir=\"auto\">Både kontakt och utgivare är beskrivna enligt specifikationen och kan tolkas, vilket betyder att informationen är maskinläsbar. Utgivaren skulle förstås kunna fylla på med mer metadata på både utgivare, kontakt och datamängd men de obligatoriska fälten är tillhandahållna och de flesta rekommenderade också.</p>\n<p dir=\"auto\">Kanske refererar du framför allt till att länkning vidare till entiteter i andra system, t.ex. organisationsbeskrivningar hos Bolagsverket. Det är absolut en viktig utvecklingsfråga, men tyvärr inget som finns på plats idag.</p>\n",
+      "pid": 1387,
+      "tid": 311,
+      "timestamp": 1647941295671,
+      "toPid": "1386",
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-03-22T21:40:05.235Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-22T09:28:15.671Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> Om posten är tekniskt korrekt har vi ett problem, nämligen att katalogen innehåller meningslös/lågkvalitativ information från leverantören och att DIGG inte har reagerat på eller ställer några krav angående detta.</p>\n<p dir=\"auto\">Jag tänker på länkning vidare till entiteter i andra system, som t.ex. själva datamängden.<br />\nDet finns ingen väg från katalogposten till någon existerande data.</p>\n<p dir=\"auto\">Är det tillräckligt med en e-postadress dit jag kan skicka en fråga till SLV om adressen till deras data?</p>\n<p dir=\"auto\">Tråkigt att höra att detta är något som inte finns på plats idag.<br />\nJag får ju inte intryck av att det är något som DIGG betraktar som särskilt viktigt eller har några konkreta planer för.</p>\n<p dir=\"auto\">Som sagt får ni gärna rätta mig i förhoppning om att jag har missat något.</p>\n",
+      "pid": 1388,
+      "tid": 311,
+      "timestamp": 1647985205235,
+      "toPid": "1387",
+      "uid": 125,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-22T21:40:05.235Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Jag provade att titta på en datapost från Arbetsförmedlingen, den första i listan.</p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/180/metadata/3903?recursive=dcat\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/180/metadata/3903?recursive=dcat</a></p>\n<ul>\n<li>Det finns en direkt länk till själva datan via access URL/download URL</li>\n<li>Publisher ser väl i viss mån begriplig ut, men jag vet inte hur det är tänkt att användas som en referens för Arbetsförmedlingen som organisation?\n<ul>\n<li><a href=\"https://arbetsformedlingen.se/result.rdf#publisher\" rel=\"nofollow ugc\">https://arbetsformedlingen.se/result.rdf#publisher</a></li>\n</ul>\n</li>\n<li>En del id-fält ser lite märkliga ut:\n<ul>\n<li>Dataset: <a href=\"https://www.example.se/#datasetYrkesomr%C3%A5den_med_relationer_till_SSYK_niv%C3%A5_fyra_och_Yrkesomr%C3%A5den_med_relationer_till_SSYK_niv%C3%A5_fyra_och_yrkesben%C3%A4mningar\" rel=\"nofollow ugc\">https://www.example.se/#datasetYrkesområden_med_relationer_till_SSYK_nivå_fyra_och_Yrkesområden_med_relationer_till_SSYK_nivå_fyra_och_yrkesbenämningar</a></li>\n<li>Organization: <a href=\"https://www.example.se/#contactYrkesomr%C3%A5den_med_relationer_till_SSYK_niv%C3%A5_fyra_och_yrkesben%C3%A4mningar\" rel=\"nofollow ugc\">https://www.example.se/#contactYrkesområden_med_relationer_till_SSYK_nivå_fyra_och_yrkesbenämningar</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Gott och väl är ju att det går att nå datan.</p>\n<hr />\n<p dir=\"auto\">Vid jämförelse med en post från SCB (47622) finns ju där något som i högre grad ser ut att kunna användas som en officiell referens för organisationen.</p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/91/metadata/47622?recursive=dcat\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/91/metadata/47622?recursive=dcat</a></p>\n<ul>\n<li>Publisher/Organization: <a href=\"http://id.kb.se/organisations/SE2021000837\" rel=\"nofollow ugc\">http://id.kb.se/organisations/SE2021000837</a></li>\n</ul>\n<hr />\n<p dir=\"auto\">Posten för livsmedelsdatabas från SLV.</p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/236/metadata/6268?recursive=dcat\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/236/metadata/6268?recursive=dcat</a></p>\n<ul>\n<li>Access URL leder till en HTML-sida där det inte ens finns någon adress till den aktuella datamängden.\n<ul>\n<li><a href=\"https://www.livsmedelsverket.se/om-oss/psidata/livsmedelsdatabasen\" rel=\"nofollow ugc\">https://www.livsmedelsverket.se/om-oss/psidata/livsmedelsdatabasen</a></li>\n</ul>\n</li>\n<li>När man väl lyckats hitta till deras \"API\" består det av en nedladdningslänk till en XML-fil på 39 MB, som motsvarar samma innehåll som deras ursprungliga datakälla, ett Excel-dokument på 0,5 MB.</li>\n<li>Organisationens identitet är adressen till en katalogpost med namn på svenska och e-postadress:\n<ul>\n<li><a href=\"http://www7.slv.se/datasets/resource/3\" rel=\"nofollow ugc\">http://www7.slv.se/datasets/resource/3</a></li>\n</ul>\n</li>\n<li>Publisher är adressen till en annan katalogpost med namn på engelska och svenska\n<ul>\n<li><a href=\"http://www7.slv.se/datasets/resource/1\" rel=\"nofollow ugc\">http://www7.slv.se/datasets/resource/1</a></li>\n</ul>\n</li>\n</ul>\n<hr />\n<p dir=\"auto\">Det borde ju finnas en intention med att informationen läggs ut på det här viset, inte bara att den ska uppfylla något visst format, utan att den också är användbar.</p>\n",
+      "pid": 1389,
+      "tid": 311,
+      "timestamp": 1647989535177,
+      "toPid": "1383",
+      "uid": 125,
+      "edited": 1647989620075,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-04-04T08:18:25.807Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-22T22:52:15.177Z",
+      "editedISO": "2022-03-22T22:53:40.075Z",
+      "index": 8,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/1388\">Identifierare för utgivare på Dataportalen</a>:</p>\n<blockquote>\n<p dir=\"auto\">Är det tillräckligt med en e-postadress dit jag kan skicka en fråga till SLV om adressen till deras data?</p>\n</blockquote>\n<p dir=\"auto\">I stort sett är det vad som är obligatoriskt, annat är rekommenderat. Här kan du se vilken information som är obligatoriska, rekommenderade och valfria: <a href=\"https://docs.dataportal.se/dcat/sv/#dcat%3ADataset\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/sv/#dcat%3ADataset</a><br />\nKontaktuppgifter för enskilda datamängder framgår här: <a href=\"https://docs.dataportal.se/dcat/sv/#vcard%3AOrganization\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/sv/#vcard%3AOrganization</a></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/1389\">Identifierare för utgivare på Dataportalen</a>:</p>\n<blockquote>\n<p dir=\"auto\">Det borde ju finnas en intention med att informationen läggs ut på det här viset, inte bara att den ska uppfylla något visst format, utan att den också är användbar.</p>\n</blockquote>\n<p dir=\"auto\">Absolut! Informationen ska vara användbar och det är också därför vi i samverkan tar fram olika typer av vägledningar och rekommendationer, t.ex övergripande principer för <a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/oppna-och-delade-data/offentliga-aktorer/nationella-principer\" rel=\"nofollow ugc\">tillgängliggörande av information</a>, om <a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/oppna-och-delade-data/offentliga-aktorer/oppna-licenser-och-immaterialratt\" rel=\"nofollow ugc\">öppna licenser</a>, <a href=\"https://dev.dataportal.se/\" rel=\"nofollow ugc\">API-rekommendationer</a> m.m. Men vi ska titta lite närmare på detta exempel och se över vilka förbättringsförslag som kan vara aktuella i just detta fall.</p>\n",
+      "pid": 1394,
+      "tid": 311,
+      "timestamp": 1648628460931,
+      "uid": 7,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-03-30T08:21:00.931Z",
+      "editedISO": "",
+      "index": 9,
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> En e-postadress är ju alltid något. Tack för länkarna.</p>\n<blockquote>\n<p dir=\"auto\">Det är absolut en viktig utvecklingsfråga, men tyvärr inget som finns på plats idag.</p>\n</blockquote>\n<p dir=\"auto\">Jag är lite fundersam över att ni verkar betrakta frågan om länkad data med en axelryckning.<br />\nVägledningar är ju bra, men bedrivs det något tekniskt arbete i enlighet med vägledningarna och i riktning mot att utveckla datakatalogen? Finns det några konkreta steg beskrivna och en tidplan?</p>\n<p dir=\"auto\"><a href=\"https://community.dataportal.se/post/346\">https://community.dataportal.se/post/346</a></p>\n<blockquote>\n<p dir=\"auto\">Gällande helpdesk id:n så är det inget som vi på Sveriges dataportal har möjlighet att införa idag.<br />\nEn tydligare, sammanhållen och mer öppen roadmap och prioriteringar håller jag helt med om och det är något som vi arbetar för att kunna åstadkomma!</p>\n</blockquote>\n<p dir=\"auto\"><a href=\"https://community.dataportal.se/post/1003\">https://community.dataportal.se/post/1003</a></p>\n<blockquote>\n<p dir=\"auto\">Vi håller med om att det är bra om vi blir mer transparenta. Som vi tidigare nämnt undersöker vi just nu hur vi kan dela med oss av vår roadmap på ett bra sätt.<br />\nVi undersöker vilken kanal som är bäst att använda, vilken detaljeringsgrad som är lämplig och vilken planeringshorisont vi vill hålla. Vi återkommer med det här.</p>\n</blockquote>\n",
+      "pid": 1395,
+      "tid": 311,
+      "timestamp": 1648793382602,
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-04-01T06:09:42.602Z",
+      "editedISO": "",
+      "index": 10,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> En av de större utmaningarna för dataportalen är absolut bristande kvalitet på metadata. De som äger data förstår inte metadata och hur den kan användas. De är nöjda med att data är publicerad och är öppen, de har inte riktigt insett att det inte är målet. Målet är att data ska användas och då krävs det en hel del mer. Inom NSÖD har vi rekommenderat att man, i samband med att man tar fram en spec för hur data ska publiceras också tar fram ett exempel på hur DCAT-AP-SE-metadata ska se ut för de fält som är gemensamma (ger bättre metadata och skapar goda exempel viket kan öka kvaliteten på annan metadata också) och rekommendationer om hur man bör utforma organisationsspecifika fält om det är lämpligt.</p>\n<p dir=\"auto\">Sedan saknas det också beständiga identifierare att hänvisa till i väldigt många fall vilket är tråkigt.</p>\n",
+      "pid": 1400,
+      "tid": 311,
+      "timestamp": 1649060305807,
+      "toPid": "1389",
+      "uid": 9,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-04-04T08:18:25.807Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@björn-hagström</a> Jag har ställt en del frågor om hur DIGG stöder inmatning av strukturerad metadata, men det verkar vara svårt att få återkoppling.</p>\n<p dir=\"auto\"><a href=\"https://community.dataportal.se/post/542\">https://community.dataportal.se/post/542</a></p>\n<blockquote>\n<p dir=\"auto\">Hej, Hur fungerar inmatningen av publisher? Görs det någon form av kvalitetssäkring? Vad refererar t.ex. Storsthlm till i detta fall?</p>\n</blockquote>\n<p dir=\"auto\"><a href=\"https://community.dataportal.se/post/464\">https://community.dataportal.se/post/464</a></p>\n<blockquote>\n<p dir=\"auto\">Jag stötte på ett formulärbibliotek med namnet RDForms som verkar relaterat till EntryScape. Om det är så att RDForms används för att registrera datamängder på dataportalen enligt DCAT-formatet, så kanske det kan finnas ledtrådar i konfigurationen av dessa formulär att metadatan ser ut som den gör. Åtminstone i det exempel jag stötte på nedan ser det inte ut att finnas någon stödfunktion för att ange referenser.<br />\n<a href=\"https://rdforms.com/editors/dcat/\" rel=\"nofollow ugc\">https://rdforms.com/editors/dcat/</a><br />\nFinns det några tankar kring vidareutveckling av interoperabilitet för metadatan och samordning av detta?</p>\n</blockquote>\n<p dir=\"auto\">Sedan undrar jag om det är så svårt egentligen, t.ex. verkar ju en praxis vara att använda webbadressen och lägga till en fragment-identifierare.</p>\n<p dir=\"auto\">Arbetsförmedlingen har väl gjort ett försök i den vägen genom att ange  <a href=\"https://arbetsformedlingen.se/result.rdf#publisher\" rel=\"nofollow ugc\">https://arbetsformedlingen.se/result.rdf#publisher</a>, men jag hade kanske förväntat mig isf. <a href=\"http://arbetsformedlingen.se/#organization\" rel=\"nofollow ugc\">arbetsformedlingen.se/#organization</a> som identifierare. Vet inte varför det ska stå result.rdf i URI:en, det framstår som lite ad hoc?</p>\n<p dir=\"auto\">Finns det inte något exempel på myndighetsorganisation i Sverige som har kommit underfund med hur man hanterar och tillämpar URI:er?</p>\n",
+      "pid": 1502,
+      "tid": 311,
+      "timestamp": 1651391301333,
+      "uid": 125,
+      "edited": 1651391359213,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 9,
+            "username": "Björn Hagström",
+            "userslug": "björn-hagström",
+            "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+            "fullname": "Björn Hagström",
+            "displayname": "Björn Hagström",
+            "icon:text": "B",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-05-03T10:25:00.751Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-05-01T07:48:21.333Z",
+      "editedISO": "2022-05-01T07:49:19.213Z",
+      "index": 12,
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> När det gäller hur metadata kommer till DIGG så måste varje verksamhet publicera information om sin data i en fil enligt DCAT-AP-SE och det är upp till verksamheten att bestämma hur man gör det. Det är också möjligt för privata aktörer att publicera data så det är inte bara knutet till offentlig sektor.</p>\n<p dir=\"auto\">Många använder Entryscape, en del använder CKAN och några använder OpenDataSoft. Några enstaka stackare redigerar och skapar sin fil manuellt, det funkar sällan bra i längden.</p>\n<p dir=\"auto\">Vad en verksamhet väljer att skriva i sin metadata är ju svårt för DIGG att styra men man kan arbeta med med uppföljning, kontroll och tips till verksamheterna som jag ser det.</p>\n",
+      "pid": 1513,
+      "tid": 311,
+      "timestamp": 1651573500751,
+      "toPid": "1502",
+      "uid": 9,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-05-19T07:48:59.621Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-05-03T10:25:00.751Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 9,
+        "username": "Björn Hagström",
+        "userslug": "björn-hagström",
+        "reputation": 81,
+        "postcount": 157,
+        "topiccount": 34,
+        "picture": "/assets/uploads/profile/9-profileavatar-1612182845930.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1732282510515,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Björn Hagström",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "B",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-11-22T13:35:10.515Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/9\">@björn-hagström</a> Bra sammanfattat!  Som jag uppfattar pågående arbete så är det en mognadstrappa som vi befinner oss på. Steg ett är att överhuvudtaget möjliggöra att data kan göras sökbar på ett och samma ställe. Steg två är att säkerställa att det som läggs upp håller rätt kvalitet.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a>: Dina synpunkter är relevanta och jag funderar på hur vi kan smala ihop dina olika exempel så att det blir lätt att återfinna. (Så att vi senare kan gå tillbaka och se om vi blir bättre). Om du har möjlighet att lägga lite mer tid på detta hör gärna av dig till mig på <a href=\"mailto:maria.dalhage@digg.se\" rel=\"nofollow ugc\">maria.dalhage@digg.se</a> så kan vi ha en kort avstämning.</p>\n",
+      "pid": 1532,
+      "tid": 311,
+      "timestamp": 1652946539621,
+      "toPid": "1513",
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-05-19T07:48:59.621Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Björn Hagström",
+        "displayname": "Björn Hagström"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 6,
+      "type": "move",
+      "uid": 7,
+      "id": 122,
+      "timestamp": 1646738402498,
+      "timestampISO": "2022-03-08T11:20:02.498Z",
+      "user": {
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "uid": 7,
+        "displayname": "Kristine_",
+        "icon:text": "K",
+        "icon:bgColor": "#795548"
+      },
+      "fromCategory": {
+        "name": "Meetups och evenemang",
+        "slug": "6/meetups-och-evenemang",
+        "icon": "fa-ticket",
+        "color": "#ffffff",
+        "bgColor": "#695f59"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/7-profileavatar-1612266529992.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Kristine_\" title=\"Kristine_\" data-uid=\"7\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #795548;\">K</span> <a href=\"/user/kristine_\">Kristine_</a> moved this topic from Meetups och evenemang on <span class=\"timeago timeline-text\" title=\"2022-03-08T11:20:02.498Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "311",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/311.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/311",
+  "bodyClass": "page-topic page-topic-311 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Identifierare för utgivare på Dataportalen"
+        },
+        {
+          "name": "description",
+          "content": "@kristine_ sa i Webinar om identifierare för data eller API:  Hej @jonor ! Idag finns det lite olika typer av rekommendationer och dokumentation kring identifierare. Kopplat till din fråga har vi lagt till en allmän och mer teknisk beskrivning om hur data..."
+        },
+        {
+          "property": "og:title",
+          "content": "Identifierare för utgivare på Dataportalen"
+        },
+        {
+          "property": "og:description",
+          "content": "@kristine_ sa i Webinar om identifierare för data eller API:  Hej @jonor ! Idag finns det lite olika typer av rekommendationer och dokumentation kring identifierare. Kopplat till din fråga har vi lagt till en allmän och mer teknisk beskrivning om hur data..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-03-08T09:03:13.525Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-05-19T07:48:59.621Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/311",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/311/identifierare-för-utgivare-på-dataportalen",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/311.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/jonor"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

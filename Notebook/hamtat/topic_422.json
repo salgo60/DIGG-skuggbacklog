@@ -1,0 +1,2109 @@
+{
+  "cid": 24,
+  "lastposttime": 1666615110340,
+  "mainPid": 2012,
+  "postcount": 27,
+  "slug": "422/licenser-för-öppen-källkod",
+  "tags": [
+    {
+      "value": "licens",
+      "valueEscaped": "licens",
+      "valueEncoded": "licens",
+      "class": "licens"
+    },
+    {
+      "value": "öppen källkod",
+      "valueEscaped": "öppen källkod",
+      "valueEncoded": "%C3%B6ppen%20k%C3%A4llkod",
+      "class": "öppen-källkod"
+    },
+    {
+      "value": "open source",
+      "valueEscaped": "open source",
+      "valueEncoded": "open%20source",
+      "class": "open-source"
+    },
+    {
+      "value": "immaterialrätt",
+      "valueEscaped": "immaterialrätt",
+      "valueEncoded": "immaterialr%C3%A4tt",
+      "class": "immaterialrätt"
+    }
+  ],
+  "tid": 422,
+  "timestamp": 1661865746371,
+  "title": "Licenser för öppen källkod",
+  "uid": 515,
+  "viewcount": 6140,
+  "postercount": 10,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 2977,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Licenser för öppen källkod",
+  "timestampISO": "2022-08-30T13:22:26.371Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-24T12:38:30.340Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!</p>\n<p dir=\"auto\">Jag är ny i det här forumet och arbetar som IT-arkitekt i Malmö stad till vardags. Just nu har vi en fråga kring licenser för öppen källkod, och jag undrar om någon har en bra överblick över vilka som är de vanligaste licenserna för öppen källkod som \"produceras\" av offentlig sektor (och, om man vet, varför just den licensformen användes)? Jag har inte sett någon rekommendation hos Digg för just källkod.</p>\n<p dir=\"auto\">Alla tips på vad som har använts, någon som har varit genom frågan osv tas tacksamt emot!</p>\n",
+      "pid": 2012,
+      "tid": 422,
+      "timestamp": 1661865746371,
+      "uid": 515,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-30T14:15:30.581Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-08-30T13:22:26.371Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 515,
+        "username": "Björn Robért",
+        "userslug": "björn-robért",
+        "reputation": 6,
+        "postcount": 2,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1664392959303,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Björn Robért",
+        "groupTitleArray": [],
+        "icon:text": "B",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-09-28T19:22:39.303Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/515\">@Björn-Robért</a>  Toppen att du frågar. DIGG har ett pågående arbete med just open source-licenser och den 13 september kommer vi ha en NOSAD workshop som handlar om detta:</p>\n<p dir=\"auto\"><strong>Licensval för öppen programvara av offentlig sektor</strong><br />\nUnder detta digitala möte diskuteras licensiering av offentlig sektors öppna programvara.<br />\nDetta är en strategiskt viktig fråga som sträcker sig bortom juridiken och som främst kopplar till vilka effekter man vill uppnå, ex. genom hur samverkan och spridning av den öppna programvaran främjas och möjliggörs.<br />\nVilka licenser är då lämpliga för offentlig sektor, och finns det licenser som är direkt olämpliga? Hur och när? I en paneldiskussion kommer vi bl.a. att diskutera:</p>\n<p dir=\"auto\">•\tVilka olika vägval och scenarion som finns?<br />\n•\tVinsten med rekommenderade öppna programvarulicenser?<br />\n•\tHur tänker privata aktörer kring licensval?</p>\n<p dir=\"auto\">Det går att anmäla sig via följande länk men texten på GOTO10 är inte uppdataterad ännu. Notera att tiden är kl 10-11 med just nu planerade 30 minuters efterdiskussion. (Dessa sista 30 min spelas inte in) <a href=\"https://www.goto10.se/event/nosad-2/\" rel=\"nofollow ugc\">https://www.goto10.se/event/nosad-2/</a></p>\n<p dir=\"auto\"><strong>För att snabbt svara på din fråga och också för att skapa möjlighet för andra åsikter att komma fram kommer här lite resonemang som vi fört i olika grupperingar:</strong></p>\n<ol>\n<li>\n<p dir=\"auto\">I de fall då en myndighet eller en organisation bidrar till eller använder sig av ett befintligt projekt ska myndigheten/organisationen acceptera redan beslutade licensval. Vi förutsätter att man redan licensierat med en licens som finns på <a href=\"http://opensource.org\" rel=\"nofollow ugc\">opensource.org</a>.</p>\n</li>\n<li>\n<p dir=\"auto\">Programvara som kan anses utgöra en del av en större sammanhängande plattform samt infrastruktur, ska i första hand publiceras under licensen GPL-3.0  (alternativt AGPL-3.0 ) som stimulerar att vidareutveckling och vidaredistribution av myndigheters investeringar i öppen programvara förblir öppen programvara.</p>\n</li>\n<li>\n<p dir=\"auto\">För alternativ där myndighet/organisation vill tillåta att myndighetens/organisationens investeringar i öppen programvara kan vidareutvecklas och vidaredistribueras som såväl öppen som sluten programvara rekommenderas en tillåtande licens såsom MIT och Apache Licence 2.0 .</p>\n</li>\n</ol>\n<p dir=\"auto\">Ytterligare två tips:</p>\n<ol>\n<li>\n<p dir=\"auto\">Tänk patent: MIT-licensen har ingen explicit skrivning om patent. Det har däremot Appache 2.0.</p>\n</li>\n<li>\n<p dir=\"auto\">Välj nyare licenser före äldre.</p>\n</li>\n</ol>\n",
+      "pid": 2014,
+      "tid": 422,
+      "timestamp": 1661868930581,
+      "toPid": "2012",
+      "uid": 62,
+      "edited": 1664528535409,
+      "editor": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 515,
+            "username": "Björn Robért",
+            "userslug": "björn-robért",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Björn Robért",
+            "icon:text": "B",
+            "icon:bgColor": "#f44336"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-31T10:27:06.395Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-08-30T14:15:30.581Z",
+      "editedISO": "2022-09-30T09:02:15.409Z",
+      "index": 1,
+      "parent": {
+        "username": "Björn Robért",
+        "displayname": "Björn Robért"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/515\">@Björn-Robért</a> Välkommen hit!<br />\nVi har planer på att komplettera dataportalen med rekommendationer för öppen källkod. Vi har arbetat under året med att uppdatera DIGG:s policy för öppen källkod och att ta fram riktlinjer för hur vi jobbar med öppen källkod. <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> har drivit det arbetet. Fler har varit involverade, även infosäk, juridik, forskare och experter inom öppen källkod från andra organisationer.</p>\n",
+      "pid": 2016,
+      "tid": 422,
+      "timestamp": 1661870268378,
+      "toPid": "2012",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-08-30T14:37:48.378Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Björn Robért",
+        "displayname": "Björn Robért"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Det är ju toppen! Tack för informationen. Jag anmäler mig till paneldiskussionen.</p>\n<p dir=\"auto\">Jag har varit inne på samma principer som du skriver under dina punkter, och jag tror att för vår del kommer frågan om att \"tvinga\" öppenhet att variera från fall till fall. Kommer in att resonera något kring huruvida offentliga aktörer KAN tvinga öppenhet eller tillåta att offentligt skapade verk stängs ned (genom t ex en MIT-licens)?</p>\n",
+      "pid": 2042,
+      "tid": 422,
+      "timestamp": 1661941626395,
+      "toPid": "2014",
+      "uid": 515,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-08-31T10:49:16.253Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-08-31T10:27:06.395Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 515,
+        "username": "Björn Robért",
+        "userslug": "björn-robért",
+        "reputation": 6,
+        "postcount": 2,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1664392959303,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Björn Robért",
+        "groupTitleArray": [],
+        "icon:text": "B",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-09-28T19:22:39.303Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/515\">@Björn-Robért</a> Ja, den centrala frågan är hur vi inom offentlig sektor värderar skattefinansierat resultat;  Vill vi säkerställa att det som skattebetalarna finansierat ska förbli öppet i flera utvecklingsled eller resonerar vi som så att det viktigaste är att sprida resultatet.</p>\n<p dir=\"auto\">Ett vanligt argument som jag stött på för att motivera tillåtande licenser (MIT, Appache 2.0 som exempel) är att om man licensierar med copy-left så skrämmer man bort privat sektor.</p>\n<p dir=\"auto\">Jag undrar om det verkligen stämmer. Hoppas att flera aktörer från privata näringslivet dyker upp den 13:e september, och ger klarhet i denna fråga.</p>\n",
+      "pid": 2043,
+      "tid": 422,
+      "timestamp": 1661942956253,
+      "toPid": "2042",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-31T11:42:34.879Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-08-31T10:49:16.253Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Björn Robért",
+        "displayname": "Björn Robért"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Det kan ju vara värt att nämna en relativt ny licens som specifikt tagits fram med användning av offentlig sektor i åtanke, <a href=\"https://joinup.ec.europa.eu/collection/eupl/introduction-eupl-licence\" rel=\"nofollow ugc\">European Public License (EUPL)</a>. En av fördelarna med den, förutom att den förordas av EU och ska vara kompatibel med alla medlemsstaters lagstiftning, är att den finns (i juridiskt bindande version) på svenska.</p>\n",
+      "pid": 2047,
+      "tid": 422,
+      "timestamp": 1661946154879,
+      "toPid": "2043",
+      "uid": 41,
+      "edited": 1661946167770,
+      "editor": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "displayname": "Ainali"
+      },
+      "downvotes": 0,
+      "upvotes": 4,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-08-31T11:42:34.879Z",
+      "editedISO": "2022-08-31T11:42:47.770Z",
+      "index": 5,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Jag tycker att skrivningen du hade om ihophängande plattform är bra, men jag vill tillägga att all kod som är att betrakta som bibliotekskod som genomför grundläggande datariktigthetsvalidering eller löser komplexa problem. Alltså kod som skulle kunna och kanske borde publiceras som fristående bibliotek använder en licens som tillåter vidareanvändning även i stängda plattformar som ex.vis MIT-licensen.</p>\n<p dir=\"auto\">En rekommendation skulle kunna vara att dubbellicensiera sammanhängande applikationer så att all kod i lib-kataloger licensieras med ex.vis MIT medans övriga delar av plattformen licensieras med ex.vis AGPL/EUPL.</p>\n<p dir=\"auto\">För att exemplifiera så kan man ta ett bibliotek som validerar personnummer, bankgiro, konverterar SWEREF eller liknande logik bör licensieras som (ex.vis) MIT just för att inte hämma innovation eller tvinga till att uppfinna hjulet på nytt. Dessa saker är ju dessutom algoritmer som borde vara oönskat att licensiera stängt eftersom det är en algoritm som ska delas mellan en mängd aktörer för att vara nyttosam.</p>\n",
+      "pid": 2053,
+      "tid": 422,
+      "timestamp": 1662020611776,
+      "toPid": "2043",
+      "uid": 128,
+      "edited": 1662020726049,
+      "editor": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-09-01T14:33:23.231Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-01T08:23:31.776Z",
+      "editedISO": "2022-09-01T08:25:26.049Z",
+      "index": 6,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> Bra kommentar om att det faktisk går att dubbellicensiera.</p>\n<p dir=\"auto\">Men jag undrar över påståendet att använda tillåtande licenser för att inte hämma innovation, eller tvinga till att uppfinna hjulet på nytt. Tanken med copy-left är ju att säkerställa att programvaran fortsatt kommer hållas öppen just för att maximera möjlighet till vidareutveckling. Särskilt algoritmer borde väl vara copy-left med skälet att undvika inlåsningar och säkerställa att e kan delas?  Du  representerar ju privat sektor och utvecklingsföretag. Ser du hinder i att medverka till projekt som har copyleft-licenser? Finns det någon av dessa  som du upplever \"skonsammare\"?</p>\n",
+      "pid": 2058,
+      "tid": 422,
+      "timestamp": 1662042803231,
+      "toPid": "2053",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-01T22:29:57.908Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-01T14:33:23.231Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> Arbetsförmedlingens öppna projekt (<a href=\"https://gitlab.com/arbetsformedlingen/\" rel=\"nofollow ugc\">https://gitlab.com/arbetsformedlingen/</a>) använder mestadels Apache 2.0. Vi har resonerat utifrån att den licensen verkligen underlättar att källkoden kommer i användning. En uppenbar risk är såklart att det inte går att garantera fortsatt öppenhet. Finns även de som tycker LGPL är bra för bibliotek.</p>\n",
+      "pid": 2059,
+      "tid": 422,
+      "timestamp": 1662042894502,
+      "toPid": "2053",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-01T14:34:54.502Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/2058\">Licenser för öppen källkod</a>:</p>\n<blockquote>\n<p dir=\"auto\">jag undrar över påståendet att använda tillåtande licenser för att inte hämma innovation, eller tvinga till att uppfinna hjulet på nytt. Tanken med copy-left är ju att säkerställa att programvaran fortsatt kommer hållas öppen just för att maximera möjlighet till vidareutveckling. Särskilt algoritmer borde väl vara copy-left med skälet att undvika inlåsningar och säkerställa att e kan delas?  Du  representerar ju privat sektor och utvecklingsföretag.</p>\n</blockquote>\n<p dir=\"auto\">Jag är ingen jurst, men som jag förstår det så är det problematiskt för privat sektor i de fall det skapas företag med affärsmodeller som bygger på att källkoden för det privata företagets system fortsätter vara icke-öppen.</p>\n<p dir=\"auto\">Låt säga att off. sektor skapar en specifikation för data som ska utbytas mellan system och även gör en referensimplementation. T.ex. en specifikation och implementation för budget-utbyte, reskontra, eller SWEREF-&gt;WGS84. Om implementationen är licensierad med GPL är det då bara fullständigt öppna system(som jag förstår det) som kan använda själva implementationen. Vill man följa samma standard så måste man då skriva en annan implementation istället för att om den var MIT(ex.vis)-licensierad så hade företaget kunna plocka in implementationen i sin helhet och potentiellt sparat mycket utvecklingstid.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> sa i <a href=\"/post/2058\">Licenser för öppen källkod</a>:</p>\n<blockquote>\n<p dir=\"auto\">Ser du hinder i att medverka till projekt som har copyleft-licenser? Finns det någon av dessa  som du upplever \"skonsammare\"?</p>\n</blockquote>\n<p dir=\"auto\">Att medverka i projekten av egen god vilja ser jag inga problem med.</p>\n",
+      "pid": 2074,
+      "tid": 422,
+      "timestamp": 1662071397908,
+      "toPid": "2058",
+      "uid": 128,
+      "edited": 1662071544891,
+      "editor": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-01T23:17:41.485Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-01T22:29:57.908Z",
+      "editedISO": "2022-09-01T22:32:24.891Z",
+      "index": 9,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Instämmer med att EUPL löser en del ständigt återkommande frågor, som du nämner (Europeisk lagstiftning, finns officiellt på svenska och flera andra språk, explicit lista med kompatibilitet), till skillnad mot AGPL kompatibel med GPLv3 osv.  Man har också varit tydlig med vad som gäller vid länkning vid \"derivat\" (där om man använder t.ex. GPL så kan det var lite luddigare). EUPL gör det och annat väldigt klart. Dess största nackdel är väl? helt enkelt att de inte är lika känd och inarbetad som de övriga.  Annars har den väldigt mycket fördelar IMHO. Känner du till några nackdelar kring den förutom det man borde känna till.</p>\n",
+      "pid": 2075,
+      "tid": 422,
+      "timestamp": 1662074261485,
+      "toPid": "2074",
+      "uid": 521,
+      "downvotes": 0,
+      "upvotes": 3,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-09-01T23:17:41.485Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> sa i <a href=\"/post/2074\">Licenser för öppen källkod</a>:</p>\n<blockquote>\n<p dir=\"auto\">Jag är ingen jurst, men som jag förstår det så är det problematiskt för privat sektor i de fall det skapas företag med affärsmodeller som bygger på att källkoden för det privata företagets system fortsätter vara icke-öppen.</p>\n</blockquote>\n<p dir=\"auto\">Jag undrar ibland om inte copyleft från GPL fått lite oförtjänt dålig rykte när det gäller dess användning i privat sektor för kommersiella behov. Nog för att det finns en del att tänka på vid användning av copyleft i dessa sammanhang, och att den inte passar alla tänkta affärsmodeller som du nämner, men att det också finns väldigt lyckade exempel där företag bygger kring denna modell. Tipsar om den här presentationen \"Why GPL is great for Business\" <a href=\"https://archive.fosdem.org/2020/schedule/event/gpl_and_business/\" rel=\"nofollow ugc\">https://archive.fosdem.org/2020/schedule/event/gpl_and_business/</a> för en intressant vinkel där man tar upp flera exempel ur startup-perspektiv.</p>\n",
+      "pid": 2078,
+      "tid": 422,
+      "timestamp": 1662097950367,
+      "toPid": "2074",
+      "uid": 521,
+      "edited": 1662098225539,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-09-02T05:52:30.367Z",
+      "editedISO": "2022-09-02T05:57:05.539Z",
+      "index": 11,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a></p>\n<p dir=\"auto\">Kodbibliotek kan med fördel licensieras under LGPL eller motsvarande licens istället för MIT/Apache. Detta ger fördelarna med en GPL/AGPL/EUPL licens men ger ändå möjligheten att använda dem i proprietär programvara.</p>\n<p dir=\"auto\">MIT/Apache ser jag snarare som primärt lämpligt för saker som:</p>\n<ul>\n<li>Exempelkod (vilken kan inkorporeras i andra kodbaser)</li>\n<li>Mallar</li>\n<li>Övriga fall där kod är avsedd att direkt införlivas (e.g. inline-funktioner i C/C++)</li>\n</ul>\n<p dir=\"auto\">Det finns sannolikt fler fall om man letar lite.</p>\n<p dir=\"auto\">De långsiktiga vinsterna för myndigheter ligger sannolikt med copyleft-licenserna - EUPL, AGPL m.fl. Dessa ger som Maria skriver en garanti för att utvecklingen förblir tillgänglig och därmed att maximal nytta potentiellt kan uppnås.</p>\n<p dir=\"auto\">Maximal nytta i det här fallet handlar såklart inte bara om vidareutvecklingen i sig, utan även tillgänglighet - exempelvis om en annan myndighet (eller företag) har ett liknande behov.</p>\n<p dir=\"auto\">Så ur ett brett perspektiv skulle jag föreslå</p>\n<ul>\n<li>EUPL/AGPL i första hand</li>\n<li>LGPL för bibliotek (alt. EUPL här också)</li>\n<li>MIT/Apache 2.0 om det finns en anledning</li>\n</ul>\n",
+      "pid": 2081,
+      "tid": 422,
+      "timestamp": 1662105618888,
+      "uid": 172,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-02T08:18:16.098Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-09-02T08:00:18.888Z",
+      "editedISO": "",
+      "index": 12,
+      "user": {
+        "uid": 172,
+        "username": "Peter_Bengtsson",
+        "userslug": "peter_bengtsson",
+        "reputation": 14,
+        "postcount": 8,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670452670788,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peter_Bengtsson",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-12-07T22:37:50.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@Peter_Bengtsson</a> Gillar ditt resonemang. Mitt intryck är av offentlig sektor inte använder LGPL i särskilt stor omfattning. Vilka är utmaningarna med LGPL?</p>\n",
+      "pid": 2082,
+      "tid": 422,
+      "timestamp": 1662106696098,
+      "toPid": "2081",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 172,
+            "username": "Peter_Bengtsson",
+            "userslug": "peter_bengtsson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Peter_Bengtsson",
+            "icon:text": "P",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-02T10:41:15.774Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-02T08:18:16.098Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Peter_Bengtsson",
+        "displayname": "Peter_Bengtsson"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@Peter_Bengtsson</a> &amp; <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> :</p>\n<p dir=\"auto\">Här är en bra genomgång av licenserna.<br />\n<a href=\"https://github.com/readme/guides/open-source-licensing\" rel=\"nofollow ugc\">https://github.com/readme/guides/open-source-licensing</a></p>\n<p dir=\"auto\">Det jag pratar om är den egenskapen som kallas ”viral” i genomgången ovan. Alltså att den smittar ned hela systemet att också måste använda en viral licens. Vill man vara näringslivsvänlig så har jag förstått att man bör undvika den typen av licenser.</p>\n",
+      "pid": 2090,
+      "tid": 422,
+      "timestamp": 1662115275774,
+      "toPid": "2082",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-02T10:41:15.774Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a></p>\n<p dir=\"auto\">Utmaningen med LGPL är väl snarast att den är mindre vanlig - oftast väljs GPL/AGPL istället och därför är LGPL mindre känd. Syftet är däremot relativt enkelt, nämligen att tillåta användning av ett bibliotek i proprietära system utan att ställa krav mer än på bibliotekets kodbas och distribution.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a></p>\n<p dir=\"auto\">Sedan är det till stor del en fråga om vad man vill signalera - licenser är inte \"virala\" i EU enligt flera analyser.</p>\n<ul>\n<li><a href=\"https://joinup.ec.europa.eu/collection/eupl/news/why-viral-licensing-ghost\" rel=\"nofollow ugc\">https://joinup.ec.europa.eu/collection/eupl/news/why-viral-licensing-ghost</a></li>\n<li><a href=\"https://joinup.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l\" rel=\"nofollow ugc\">https://joinup.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l</a></li>\n</ul>\n<p dir=\"auto\">Detta är rätt gamla texter, men verkar fortfarande relevanta. Nu verkar det visserligen finnas fall där GPL har upprätthållits, men det påverkar sannolikt inte användningen av EUPL eller LGPL som båda uttrycker att proprietära system får <em>använda</em> mjukvaran utan vidare licenskrav.</p>\n<p dir=\"auto\">Jag kan också konstatera att näringslivet i stort redan idag använder mycket programvara licensierad under s.k. starka copyleft licenser. Så jag ser inte det som ett stort problem i dagsläget.</p>\n",
+      "pid": 2108,
+      "tid": 422,
+      "timestamp": 1662155277560,
+      "toPid": "2082",
+      "uid": 172,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-04T10:32:57.875Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-09-02T21:47:57.560Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 172,
+        "username": "Peter_Bengtsson",
+        "userslug": "peter_bengtsson",
+        "reputation": 14,
+        "postcount": 8,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670452670788,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peter_Bengtsson",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-12-07T22:37:50.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@Peter_Bengtsson</a> sa i <a href=\"/post/2108\">Licenser för öppen källkod</a>:</p>\n<blockquote>\n<p dir=\"auto\">...<br />\n<a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a></p>\n<p dir=\"auto\">Sedan är det till stor del en fråga om vad man vill signalera - licenser är inte \"virala\" i EU enligt flera analyser.</p>\n<ul>\n<li><a href=\"https://joinup.ec.europa.eu/collection/eupl/news/why-viral-licensing-ghost\" rel=\"nofollow ugc\">https://joinup.ec.europa.eu/collection/eupl/news/why-viral-licensing-ghost</a></li>\n<li><a href=\"https://joinup.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l\" rel=\"nofollow ugc\">https://joinup.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l</a></li>\n</ul>\n<p dir=\"auto\">Detta är rätt gamla texter, men verkar fortfarande relevanta. Nu verkar det visserligen finnas fall där GPL har upprätthållits, men det påverkar sannolikt inte användningen av EUPL eller LGPL som båda uttrycker att proprietära system får <em>använda</em> mjukvaran utan vidare licenskrav.<br />\n...</p>\n</blockquote>\n<p dir=\"auto\">Tack för bra länkar och information. En lär sig så länge en lever! Jag har härmed ingen stark åsikt i frågan om licenser!</p>\n",
+      "pid": 2114,
+      "tid": 422,
+      "timestamp": 1662287577875,
+      "toPid": "2108",
+      "uid": 128,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-04T10:32:57.875Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Peter_Bengtsson",
+        "displayname": "Peter_Bengtsson"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@Stefan-Wallin</a> Jag gillar idén med dubbellicensiering <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Det är inte effektivt eller roligt att behöva uppfinna hjulet igen och igen i en digitaliserad ekonomi. Välskrivna små byggstenar/bibliotek underlättar enormt.</p>\n",
+      "pid": 2120,
+      "tid": 422,
+      "timestamp": 1662299041880,
+      "toPid": "2053",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-04T13:44:01.880Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@Peter_Bengtsson</a> sa i <a href=\"/post/2108\">Licenser för öppen källkod</a>:<br />\n...</p>\n<blockquote>\n<ul>\n<li><a href=\"https://joinup.ec.europa.eu/collection/eupl/news/why-viral-licensing-ghost\" rel=\"nofollow ugc\">https://joinup.ec.europa.eu/collection/eupl/news/why-viral-licensing-ghost</a></li>\n<li><a href=\"https://joinup.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l\" rel=\"nofollow ugc\">https://joinup.ec.europa.eu/collection/eupl/news/why-eupl-not-viral-l</a></li>\n</ul>\n<p dir=\"auto\">Detta är rätt gamla texter, men verkar fortfarande relevanta. Nu verkar det visserligen finnas fall där GPL har upprätthållits, men det påverkar sannolikt inte användningen av EUPL eller LGPL som båda uttrycker att proprietära system får <em>använda</em> mjukvaran utan vidare licenskrav.</p>\n<p dir=\"auto\">Jag kan också konstatera att näringslivet i stort redan idag använder mycket programvara licensierad under s.k. starka copyleft licenser. Så jag ser inte det som ett stort problem i dagsläget.</p>\n</blockquote>\n<p dir=\"auto\">\"As a conclusion, it looks that in most cases, linking two programs or linking an existing software with your own work does not – at least in Europe – produce a derivative or extends the coverage of the linked software license to your own work.\"</p>\n<p dir=\"auto\">Rädslen för GPL ska \"smitta\" genom att man linkar program med den är alltså inom EU helt inbillad.</p>\n",
+      "pid": 2121,
+      "tid": 422,
+      "timestamp": 1662300042970,
+      "toPid": "2108",
+      "uid": 25,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-04T17:52:08.277Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-04T14:00:42.970Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "Peter_Bengtsson",
+        "displayname": "Peter_Bengtsson"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Dennis_Priskorn sa i <a href=\"/post/2121\">Licenser för öppen källkod</a>:</p>\n<blockquote>\n<p dir=\"auto\">Rädslan för GPL ska \"smitta\" genom att man linkar program med den är alltså inom EU helt inbillad.</p>\n</blockquote>\n<p dir=\"auto\">Ja precis, det verkar så. Men nu när jag reflekterat en bit så undrar hur det ser ut utanför EU. I det fall man vill bygga ett multinationellt bolag kanske ändå \"virala\" licenser spelar roll. Även om bolaget en bygger till en början inte är multinationellt så kanske en har aspirationer till att bli det.</p>\n<p dir=\"auto\">Jag tror att om önskan är att sprida och göra nytta till så stor andel som möjligt så kanske dubbellicensiering ändå kan vara en klok idé, kanske just för att alla inte läst det juridiska utlåtandet (jag uppfattar ändå en utbredd åsikt som liknar min egna högre upp i tråden). Där kommer nog många inte ta på sig uppgiften att läsa på utan bara saka de man tror är virala. Ofta i privata bolag tas just dessa beslut av enskilda utvecklare eller utvecklare i grupp, helt utan juridisk kompetens.</p>\n<p dir=\"auto\">Med det sagt skulle det vara intressant att se en juridisk genomlysning säga att \"det spelar roll\"  eller \"det spelar ingen roll\" om man har internationella ambitioner.</p>\n",
+      "pid": 2123,
+      "tid": 422,
+      "timestamp": 1662313928277,
+      "toPid": "2121",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 526,
+            "username": "Raniz",
+            "userslug": "raniz",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Raniz",
+            "icon:text": "R",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-05T13:13:43.315Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-04T17:52:08.277Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/topic/547",
+      "timestamp": 1666622462881,
+      "type": "fork",
+      "uid": 62,
+      "id": 562,
+      "timestampISO": "2022-10-24T14:41:02.881Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "icon": "fa-code-fork",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> <a href=\"/topic/547\">forked</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-10-24T14:41:02.881Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "422",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/422.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/422/licenser-för-öppen-källkod?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/422",
+  "bodyClass": "page-topic page-topic-422 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Licenser för öppen källkod"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Jag är ny i det här forumet och arbetar som IT-arkitekt i Malmö stad till vardags. Just nu har vi en fråga kring licenser för öppen källkod, och jag undrar om någon har en bra överblick över vilka som är de vanligaste licenserna för öppen källkod som..."
+        },
+        {
+          "property": "og:title",
+          "content": "Licenser för öppen källkod"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Jag är ny i det här forumet och arbetar som IT-arkitekt i Malmö stad till vardags. Just nu har vi en fråga kring licenser för öppen källkod, och jag undrar om någon har en bra överblick över vilka som är de vanligaste licenserna för öppen källkod som..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-08-30T13:22:26.371Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-24T12:38:30.340Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/422",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/422/licenser-för-öppen-källkod",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/422.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/björn-robért"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/422/licenser-för-öppen-källkod?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

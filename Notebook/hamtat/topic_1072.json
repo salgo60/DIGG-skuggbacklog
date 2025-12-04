@@ -1,0 +1,565 @@
+{
+  "cid": 30,
+  "lastposttime": 1764403411899,
+  "mainPid": 5414,
+  "postcount": 1,
+  "slug": "1072/framtida-länkröta-wikipedia-digg-hanterbart",
+  "tid": 1072,
+  "timestamp": 1764403411899,
+  "title": "Framtida länkröta Wikipedia -&gt; DIGG - hanterbart",
+  "uid": 1802,
+  "viewcount": 50,
+  "postercount": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Framtida länkröta Wikipedia -> DIGG - hanterbart",
+  "timestampISO": "2025-11-29T08:03:31.899Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-11-29T08:03:31.899Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<ul>\n<li>Issue <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1467\" rel=\"nofollow ugc\">#1467</a> \"Stabila unika identifierare för websidor hos DIGG \"</li>\n</ul>\n<p dir=\"auto\">En check innan forumet stängs ned och kanske domänen dör <a href=\"http://digg.se\" rel=\"nofollow ugc\">digg.se</a></p>\n<ul>\n<li>kollade <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/blob/master/Notebook/DIGG_1467_linkroot.ipynb\" rel=\"nofollow ugc\">Wikipedia 207 språkversioner</a>\n<ul>\n<li>resultat enbart 32 länkar så dom går att spara ned till internet archive....</li>\n<li>lista <a href=\"https://raw.githubusercontent.com/salgo60/DIGG-skuggbacklog/refs/heads/master/Notebook/results/links_digg_2025_11_29.csv\" rel=\"nofollow ugc\">som csv</a></li>\n<li><a href=\"https://salgo60.github.io/DIGG-skuggbacklog/Notebook/results/links_digg_2025_11_29.html\" rel=\"nofollow ugc\">html</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Total links: 32<br />\nTotal unique links: 23<br />\nNumber of languages: 3</p>\n<p dir=\"auto\"><strong>Languages with most links:<br />\nlang<br />\nsv    28<br />\nno     3<br />\nda     1</strong></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>lang</th>\n<th>page_title</th>\n<th>url</th>\n<th>wiki_link</th>\n<th>domain</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>da</td>\n<td>Registerdata</td>\n<td><a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/nationella-grunddata\" rel=\"nofollow ugc\">https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur/nationella-grunddata</a></td>\n<td><a href=\"https://da.wikipedia.org/wiki/Registerdata\" rel=\"nofollow ugc\">https://da.wikipedia.org/wiki/Registerdata</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>no</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/om-oss/sa-har-styrs-vi\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/sa-har-styrs-vi</a></td>\n<td><a href=\"https://no.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://no.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>no</td>\n<td>Diskussion:Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/om-oss/sa-har-styrs-vi\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/sa-har-styrs-vi</a></td>\n<td><a href=\"https://no.wikipedia.org/wiki/Diskusjon:Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://no.wikipedia.org/wiki/Diskusjon:Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>no</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/\" rel=\"nofollow ugc\">https://www.digg.se/</a></td>\n<td><a href=\"https://no.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://no.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/\" rel=\"nofollow ugc\">https://www.digg.se/</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/om-oss/sa-har-styrs-vi\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/sa-har-styrs-vi</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Bybrunnen/Arkiv 2018-10</td>\n<td><a href=\"https://www.digg.se/\" rel=\"nofollow ugc\">https://www.digg.se/</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2018-10\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2018-10</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Bybrunnen/Arkiv 2018-10</td>\n<td><a href=\"https://www.digg.se/om-oss\" rel=\"nofollow ugc\">https://www.digg.se/om-oss</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2018-10\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2018-10</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Diskussion:Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/om-oss/sa-har-styrs-vi\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/sa-har-styrs-vi</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Diskussion:Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Diskussion:Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Bybrunnen/Arkiv 2019-06</td>\n<td><a href=\"https://www.digg.se/utveckling--innovation/oppna-data-och-datadriven-innovation\" rel=\"nofollow ugc\">https://www.digg.se/utveckling--innovation/oppna-data-och-datadriven-innovation</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2019-06\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2019-06</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/nyheter--publikationer/nyheter/oppenhet-som-standard\" rel=\"nofollow ugc\">https://www.digg.se/nyheter--publikationer/nyheter/oppenhet-som-standard</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Bybrunnen/Arkiv 2020-06</td>\n<td><a href=\"https://www.digg.se/nyheter--publikationer/nyheter/digg-lanserar-principer-for-okat-vidareutnyttjande-av-information\" rel=\"nofollow ugc\">https://www.digg.se/nyheter--publikationer/nyheter/digg-lanserar-principer-for-okat-vidareutnyttjande-av-information</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2020-06\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2020-06</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Bybrunnen/Arkiv 2020-06</td>\n<td><a href=\"https://www.digg.se/om-oss/var-verksamhet/remisser/remisser-fran-digg/principer-vid-tillgangliggorande-av-information-for-vidareutnyttjande\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/var-verksamhet/remisser/remisser-fran-digg/principer-vid-tillgangliggorande-av-information-for-vidareutnyttjande</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2020-06\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2020-06</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/om-oss/regeringsuppdrag/pagaende-regeringsuppdrag/uppdrag-att-vara-projektledare-for-utvecklingen-av-en-digital-infrastruktur-for-vaccinationsintyg\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/regeringsuppdrag/pagaende-regeringsuppdrag/uppdrag-att-vara-projektledare-for-utvecklingen-av-en-digital-infrastruktur-for-vaccinationsintyg</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Förordningen om elektronisk identifiering och betrodda tjänster</td>\n<td><a href=\"https://www.digg.se/digitala-tjanster/e-legitimering\" rel=\"nofollow ugc\">https://www.digg.se/digitala-tjanster/e-legitimering</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/F%C3%B6rordningen_om_elektronisk_identifiering_och_betrodda_tj%C3%A4nster\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Förordningen_om_elektronisk_identifiering_och_betrodda_tjänster</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Tillitsnivå</td>\n<td><a href=\"https://www.digg.se/digitala-tjanster/e-legitimering/tillitsnivaer-for-e-legitimering\" rel=\"nofollow ugc\">https://www.digg.se/digitala-tjanster/e-legitimering/tillitsnivaer-for-e-legitimering</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Tillitsniv%C3%A5\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Tillitsnivå</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Bybrunnen/Arkiv 2024-09</td>\n<td><a href=\"https://www.digg.se/analys-och-uppfoljning/publikationer/publikationer/2019-06-04-myndigheters-strategiska-it-projekt-it-kostnader-och-mognad\" rel=\"nofollow ugc\">https://www.digg.se/analys-och-uppfoljning/publikationer/publikationer/2019-06-04-myndigheters-strategiska-it-projekt-it-kostnader-och-mognad</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2024-09\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen/Arkiv_2024-09</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Projekt svenska kommuner/PSIdata Länstyrelser</td>\n<td><a href=\"https://www.digg.se/\" rel=\"nofollow ugc\">https://www.digg.se/</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_L%C3%A4nstyrelser\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_Länstyrelser</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Projekt svenska kommuner/PSIdata Länstyrelser</td>\n<td><a href=\"https://www.digg.se/psidata\" rel=\"nofollow ugc\">https://www.digg.se/psidata</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_L%C3%A4nstyrelser\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_Länstyrelser</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Wikipedia:Projekt svenska kommuner/PSIdata Myndigheter</td>\n<td><a href=\"https://www.digg.se/psidata\" rel=\"nofollow ugc\">https://www.digg.se/psidata</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_Myndigheter\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Wikipedia:Projekt_svenska_kommuner/PSIdata_Myndigheter</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Alt-text</td>\n<td><a href=\"https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text\" rel=\"nofollow ugc\">https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Alt-text\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Alt-text</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Tillgänglighet för personer med funktionsnedsättning</td>\n<td><a href=\"https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text\" rel=\"nofollow ugc\">https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Tillg%C3%A4nglighet_f%C3%B6r_personer_med_funktionsneds%C3%A4ttning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Tillgänglighet_för_personer_med_funktionsnedsättning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Prediktiv textinmatning</td>\n<td><a href=\"https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/ange-syftet-for-formularfalt-i-koden\" rel=\"nofollow ugc\">https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/ange-syftet-for-formularfalt-i-koden</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Prediktiv_textinmatning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Prediktiv_textinmatning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Säker digital kommunikation</td>\n<td><a href=\"https://www.digg.se/saker-digital-kommunikation\" rel=\"nofollow ugc\">https://www.digg.se/saker-digital-kommunikation</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/S%C3%A4ker_digital_kommunikation\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Säker_digital_kommunikation</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Säker digital kommunikation</td>\n<td><a href=\"https://www.digg.se/saker-digital-kommunikation/fragor-och-svar-om-sdk/faq-for-deltagarorganisationer\" rel=\"nofollow ugc\">https://www.digg.se/saker-digital-kommunikation/fragor-och-svar-om-sdk/faq-for-deltagarorganisationer</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/S%C3%A4ker_digital_kommunikation\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Säker_digital_kommunikation</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Säker digital kommunikation</td>\n<td><a href=\"https://www.digg.se/saker-digital-kommunikation/sdk-for-leverantorer-av-meddelandesystem/tekniska-specifikationer/sdk-tekniska-specifikationer\" rel=\"nofollow ugc\">https://www.digg.se/saker-digital-kommunikation/sdk-for-leverantorer-av-meddelandesystem/tekniska-specifikationer/sdk-tekniska-specifikationer</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/S%C3%A4ker_digital_kommunikation\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Säker_digital_kommunikation</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Säker digital kommunikation</td>\n<td><a href=\"https://www.digg.se/om-oss/nyheter/sdk---saker-digital-kommunikation/nyheter/2023-03-22-att-skrota-faxen-ar-ett-av-malen-nar-digg-tar-over-ansvaret-for-att-infora-saker-digital-kommunikation-mellan-valfardens-aktorer\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/nyheter/sdk---saker-digital-kommunikation/nyheter/2023-03-22-att-skrota-faxen-ar-ett-av-malen-nar-digg-tar-over-ansvaret-for-att-infora-saker-digital-kommunikation-mellan-valfardens-aktorer</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/S%C3%A4ker_digital_kommunikation\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Säker_digital_kommunikation</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Diskussion:Vaccinationsbevis verifiering</td>\n<td><a href=\"https://www.digg.se/ovrigt/dolda-sidor/vaccinationsbevis/vaccinationsbevis-verifiering-information\" rel=\"nofollow ugc\">https://www.digg.se/ovrigt/dolda-sidor/vaccinationsbevis/vaccinationsbevis-verifiering-information</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Diskussion:Vaccinationsbevis_verifiering\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Diskussion:Vaccinationsbevis_verifiering</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Myndigheten för digital förvaltning</td>\n<td><a href=\"https://www.digg.se/om-oss/remisser-och-yttranden/yttranden-2024/yttranden-2024/2024-12-04-digital-myndighetspost-sou-202447\" rel=\"nofollow ugc\">https://www.digg.se/om-oss/remisser-och-yttranden/yttranden-2024/yttranden-2024/2024-12-04-digital-myndighetspost-sou-202447</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Myndigheten_f%C3%B6r_digital_f%C3%B6rvaltning\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Myndigheten_för_digital_förvaltning</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Covid-19-vaccinering i Sverige</td>\n<td><a href=\"https://www.digg.se/utveckling-av-digital-forvaltning/verifieringslosning-for-vaccinationsbevis\" rel=\"nofollow ugc\">https://www.digg.se/utveckling-av-digital-forvaltning/verifieringslosning-for-vaccinationsbevis</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Covid-19-vaccinering_i_Sverige\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Covid-19-vaccinering_i_Sverige</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>Covid-19-vaccinering i Sverige</td>\n<td><a href=\"https://www.digg.se/ovrigt/dolda-sidor/vaccinationsbevis/vaccinationsbevis-verifiering-information\" rel=\"nofollow ugc\">https://www.digg.se/ovrigt/dolda-sidor/vaccinationsbevis/vaccinationsbevis-verifiering-information</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/Covid-19-vaccinering_i_Sverige\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Covid-19-vaccinering_i_Sverige</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n<tr>\n<td>sv</td>\n<td>AI-förordningen</td>\n<td><a href=\"https://www.digg.se/kunskap-och-stod/eu-rattsakter/ai-forordningen\" rel=\"nofollow ugc\">https://www.digg.se/kunskap-och-stod/eu-rattsakter/ai-forordningen</a></td>\n<td><a href=\"https://sv.wikipedia.org/wiki/AI-f%C3%B6rordningen\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/AI-förordningen</a></td>\n<td><a href=\"http://www.digg.se\" rel=\"nofollow ugc\">www.digg.se</a></td>\n</tr>\n</tbody>\n</table>\n",
+      "pid": 5414,
+      "tid": 1072,
+      "timestamp": 1764403411899,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-11-29T08:03:31.899Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/5415",
+          "type": "backlink",
+          "uid": 1802,
+          "id": 717,
+          "timestamp": 1764404946843,
+          "timestampISO": "2025-11-29T08:29:06.843Z",
+          "user": {
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "uid": 1802,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          },
+          "icon": "fa-link",
+          "text": "<img alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #2196f3;\">M</span> <a href=\"/user/magnus-sälgö\">Magnus Sälgö</a> <a href=\"/post/5415\">referenced</a> this topic <span class=\"timeago timeline-text\" title=\"2025-11-29T08:29:06.843Z\"></span>"
+        },
+        {
+          "href": "/post/5416",
+          "type": "backlink",
+          "uid": 1802,
+          "id": 718,
+          "timestamp": 1764491207527,
+          "timestampISO": "2025-11-30T08:26:47.527Z",
+          "user": {
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "uid": 1802,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          },
+          "icon": "fa-link",
+          "text": "<img alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #2196f3;\">M</span> <a href=\"/user/magnus-sälgö\">Magnus Sälgö</a> <a href=\"/post/5416\">referenced</a> this topic <span class=\"timeago timeline-text\" title=\"2025-11-30T08:26:47.527Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/5415",
+      "type": "backlink",
+      "uid": 1802,
+      "id": 717,
+      "timestamp": 1764404946843,
+      "timestampISO": "2025-11-29T08:29:06.843Z",
+      "user": {
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "uid": 1802,
+        "displayname": "Magnus Sälgö",
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3"
+      },
+      "icon": "fa-link",
+      "text": "<img alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #2196f3;\">M</span> <a href=\"/user/magnus-sälgö\">Magnus Sälgö</a> <a href=\"/post/5415\">referenced</a> this topic <span class=\"timeago timeline-text\" title=\"2025-11-29T08:29:06.843Z\"></span>"
+    },
+    {
+      "href": "/post/5416",
+      "type": "backlink",
+      "uid": 1802,
+      "id": 718,
+      "timestamp": 1764491207527,
+      "timestampISO": "2025-11-30T08:26:47.527Z",
+      "user": {
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "uid": 1802,
+        "displayname": "Magnus Sälgö",
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3"
+      },
+      "icon": "fa-link",
+      "text": "<img alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #2196f3;\">M</span> <a href=\"/user/magnus-sälgö\">Magnus Sälgö</a> <a href=\"/post/5416\">referenced</a> this topic <span class=\"timeago timeline-text\" title=\"2025-11-30T08:26:47.527Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#AB4642",
+    "cid": 30,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Här samlar vi information om de byggblock som utgör [Ena - Sveriges digitala infrastruktur. ](https:&#x2F;&#x2F;www.digg.se&#x2F;ledning-och-samordning&#x2F;ena---sveriges-digitala-infrastruktur)\n\nI denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,\nRespektive byggblock visas som underkategorier till denna kategori. \n",
+    "descriptionParsed": "<p dir=\"auto\">Här samlar vi information om de byggblock som utgör <a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur\" rel=\"nofollow ugc\">Ena - Sveriges digitala infrastruktur. </a></p>\n<p dir=\"auto\">I denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,<br />\nRespektive byggblock visas som underkategorier till denna kategori.</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Digital Infrastruktur ",
+    "numRecentReplies": 1,
+    "order": 3,
+    "parentCid": 0,
+    "post_count": 113,
+    "slug": "30/digital-infrastruktur",
+    "subCategoriesPerPage": 15,
+    "topic_count": 19,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 113,
+    "totalTopicCount": 19
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1072",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1072.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1072",
+  "bodyClass": "page-topic page-topic-1072 template-topic page-topic-category-30 page-topic-category-digital-infrastruktur parent-category-30 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Framtida länkröta Wikipedia -&gt; DIGG - hanterbart"
+        },
+        {
+          "name": "description",
+          "content": " Issue #1467 &quot;Stabila unika identifierare för websidor hos DIGG &quot;  En check innan forumet stängs ned och kanske domänen dör digg.se  kollade Wikipedia 207 språkversioner  resultat enbart 32 länkar så dom går att spara ned till internet archive.... lista s..."
+        },
+        {
+          "property": "og:title",
+          "content": "Framtida länkröta Wikipedia -&gt; DIGG - hanterbart"
+        },
+        {
+          "property": "og:description",
+          "content": " Issue #1467 &quot;Stabila unika identifierare för websidor hos DIGG &quot;  En check innan forumet stängs ned och kanske domänen dör digg.se  kollade Wikipedia 207 språkversioner  resultat enbart 32 länkar så dom går att spara ned till internet archive.... lista s..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-11-29T08:03:31.899Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-11-29T08:03:31.899Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Digital Infrastruktur "
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1072",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1072/framtida-länkröta-wikipedia-digg-hanterbart",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1072.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/30/digital-infrastruktur"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/magnus-sälgö"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

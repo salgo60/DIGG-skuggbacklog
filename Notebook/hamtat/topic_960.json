@@ -1,0 +1,582 @@
+{
+  "cid": 23,
+  "lastposttime": 1724599144998,
+  "mainPid": 4796,
+  "postcount": 2,
+  "slug": "960/problem-med-definition-av-maskinläsbar",
+  "tid": 960,
+  "timestamp": 1724594439009,
+  "title": "Problem med definition av &quot;maskinläsbar&quot;?",
+  "uid": 25,
+  "viewcount": 239,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 4798,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Problem med definition av \"maskinläsbar\"?",
+  "timestampISO": "2024-08-25T14:00:39.009Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-08-25T15:19:04.998Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">En verksjurist på Åklagarmyndigheten verkar tolka öppna datalagen så att deras hemsida är maskinläsbar och att publicering där därför kan räknas som att de redan lämnat ut.</p>\n<p dir=\"auto\">Se <a href=\"https://handlingar.se/request/begaran_om_ordlista_som_oppen_da#incoming-4055\" rel=\"nofollow ugc\">https://handlingar.se/request/begaran_om_ordlista_som_oppen_da#incoming-4055</a></p>\n<p dir=\"auto\">Här följer en definition på maskinläsbar som jag hittade efter en snabbgoogling:<br />\n\"Maskinläsbara data innebära att data är <strong>väl strukturerat</strong> i ett <strong>standardiserat format</strong> så att maskiner kan utläsa betydelsen och bearbeta innehållet utan manuell handpåläggning.\" <a href=\"https://www.clearbyte.org/?p=2610&amp;lang=sv\" rel=\"nofollow ugc\">källa</a></p>\n<p dir=\"auto\">Här är definitionen enligt DIGG:<br />\n\"Maskinläsbart format innebär ett filformat som är strukturerat på ett sådant sätt att det enkelt kan läsas av ett datorprogram, vilket definieras i 1 kap. 4 § öppna datalagen. Enkelt innebär att det inte bör krävas att den som begärt att få tillgång till data skaffar kostsam eller svårtillämpad programvara för att kunna ta del av den data som tillgängliggörs (prop. 2021/22:225 s. 7469).\" <a href=\"https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/offentliga-aktorer/vagledning-om-oppna-datalagen/krav-vid-tillgangliggorande-av-data-for-vidareutnyttjande/krav-pa-format\" rel=\"nofollow ugc\">källa</a></p>\n<p dir=\"auto\">Det ligger helt i linje med det jag sett vid andra förfrågningar: de flesta myndigheter tvärvägrar att svara eller lämna ut data i vettigt maskinläsbart format. Det finns undantag, men tyvärr är de få sett till våra 600+ myndigheter.</p>\n<p dir=\"auto\">Till verksjuristens fördel kan tilläggas att han valde att bifoga en XML-fil med välstrukturerad data för att vara snäll.</p>\n<p dir=\"auto\">Det intressanta är att ingen än stämt nån av våra myndigheter som vägrar lämna ut enligt nya lagen. Vi har således noll rättspraxis.</p>\n<p dir=\"auto\">Tekniskt sett har juristen rätt när han skriver att hemsidan går att läsa med maskin via en webbläsare. Så min gissning är att andra myndigheter kommer börja ducka på detta sätt framöver tills någon stämmer dem och får medhåll i domstol eller tills lagen tydliggörs så de inte kan hävda att (x)html är maskinläsbar och väl strukturerad på det sätt som avses av lagstiftaren.</p>\n<p dir=\"auto\">Vi behöver ett tydligt fall som dras till domstol så att vi slipper osäkerhet på hur lagen ska tolkas.</p>\n",
+      "pid": 4796,
+      "tid": 960,
+      "timestamp": 1724594439009,
+      "uid": 25,
+      "edited": 1724596104592,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 1763,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-08-25T15:19:04.998Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-08-25T14:00:39.009Z",
+      "editedISO": "2024-08-25T14:28:24.592Z",
+      "index": 0,
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@Nizo_Priskorn sa i <a href=\"/post/4796\">Problem med definition av \"maskinläsbar\"?</a>:</p>\n<blockquote>\n<p dir=\"auto\">tolka öppna datalagen</p>\n</blockquote>\n<p dir=\"auto\">vore smidigt om DIGG hade en <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/50\" rel=\"nofollow ugc\">öppen publik backlog</a> där man kunde skicka in saker som detta och få en åsikt eller att dom inte har en åsikt dvs. om <strong>DIGG också duckar</strong> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f62d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--sob\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":sob:\" alt=\"😭\" /></p>\n<ul>\n<li>\n<p dir=\"auto\">hittade detta \"<a href=\"https://www.digg.se/kunskap-och-stod/oppna-och-delade-data/offentliga-aktorer/vagledning-om-oppna-datalagen\" rel=\"nofollow ugc\">Vägledning om öppna datalagen</a>\" med avsändare DIGG</p>\n</li>\n<li>\n<p dir=\"auto\">issue #886 \"<a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/886\" rel=\"nofollow ugc\">Websidor som skall refereras hos DIGG saknar persistenta unika identifierare</a>\" se tidigare problem rapporterat med DIGG och länkröta <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/62\" rel=\"nofollow ugc\">#62</a> /  <a href=\"https://community.dataportal.se/topic/391/diggs-r%C3%A5dgivande-organ-l%C3%A4nkr%C3%B6ta\">21 juli 2022 DIGGs rådgivande organ - länkröta</a></p>\n</li>\n</ul>\n",
+      "pid": 4798,
+      "tid": 960,
+      "timestamp": 1724599144998,
+      "toPid": "4796",
+      "uid": 1763,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-08-25T15:19:04.998Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 1763,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "960",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/960.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/960",
+  "bodyClass": "page-topic page-topic-960 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Problem med definition av &quot;maskinläsbar&quot;?"
+        },
+        {
+          "name": "description",
+          "content": "En verksjurist på Åklagarmyndigheten verkar tolka öppna datalagen så att deras hemsida är maskinläsbar och att publicering där därför kan räknas som att de redan lämnat ut. Se https://handlingar.se/request/begaran_om_ordlista_som_oppen_da#incoming-4055 Hä..."
+        },
+        {
+          "property": "og:title",
+          "content": "Problem med definition av &quot;maskinläsbar&quot;?"
+        },
+        {
+          "property": "og:description",
+          "content": "En verksjurist på Åklagarmyndigheten verkar tolka öppna datalagen så att deras hemsida är maskinläsbar och att publicering där därför kan räknas som att de redan lämnat ut. Se https://handlingar.se/request/begaran_om_ordlista_som_oppen_da#incoming-4055 Hä..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-08-25T14:00:39.009Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-08-25T15:19:04.998Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/960",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/960/problem-med-definition-av-maskinläsbar",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/960.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

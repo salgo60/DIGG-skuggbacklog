@@ -1,0 +1,1748 @@
+{
+  "cid": 24,
+  "lastposttime": 1666081462819,
+  "mainPid": 1555,
+  "postcount": 17,
+  "slug": "371/hållbar-digital-informationshantering-baserat-på-öppen-källkod",
+  "tid": 371,
+  "timestamp": 1654253332627,
+  "title": "Hållbar digital informationshantering baserat på öppen källkod",
+  "uid": 362,
+  "viewcount": 1614,
+  "postercount": 8,
+  "downvotes": 0,
+  "upvotes": 10,
+  "teaserPid": 2928,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Hållbar digital informationshantering baserat på öppen källkod",
+  "timestampISO": "2022-06-03T10:48:52.627Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-18T08:24:22.819Z",
+  "pinExpiryISO": "",
+  "votes": 10,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Under hösten 2020 fram till vintern 2021 genomförde vi på Arbetsförmedlingen en förstudie i myndighetens möjlighet att anskaffa ett öppet licensierat e-arkiv. Resultatet var en rapport om strategiska vägval för e-arkiv (Af-2021/0001 1174). Vi har nu sammanfattat några intressanta (enligt oss) punkter från rapporten</p>\n<p dir=\"auto\">Vi såg initialt under utredningen problemområden för e-arkivet kopplade till inlåsningseffekt och hållbarhet i hanteringen av Arbetsförmedlingens information.</p>\n<p dir=\"auto\"><strong>Problemområden</strong><br />\nInlåsningseffekt innebär att en verksamhet eller organisation blir beroende av en viss leverantör och att man kan få problem när man vill exportera eller hantera information utanför en specifik systemlösningen. Det skapar en effekt att användaren inte har möjlighet att lämna leverantören utan att antingen lägga stora resurser och en hög kostnad på flytt av information eller problem att lösa ut sin information utan att acceptera en viss informationsförlust.</p>\n<p dir=\"auto\">En proaktiv och hållbar digital informationshantering innebär att det finns kontroll över hur informationen skapas, används och förvaras. Det i sig ställer krav på de IT-system som ska hantera informationen. Genom att utgå från t.ex. öppna standarder och specifikationer vid hanteringen av informationen säkerställer man förståelsen och funktion av information över tid</p>\n<p dir=\"auto\"><strong>Öppen källkod som lösning</strong><br />\nI samband med att koden och dess dokumentation finns öppet tillgängligt skapas en transparens för hur e-arkivet fungerar och vad som händer med information som hanteras av e-arkivet i olika instanser. Detta bidrar till informationens autenticitet över tid då det går att se och spåra vad som hänt informationen och därigenom kan man lite på informationens innehåll i större utsträckning.</p>\n<p dir=\"auto\">Öppen källkod ger även användaren ett visst oberoende genom att man kan vara oberoende från särskilda utvecklare. I samband med att dokumentationen om källkoden även ligger öppet är det möjligt att flera olika utvecklare att sätta sig in i e-arkivet och bedriva support eller genomföra utveckling. Oberoendet ger även användaren tillgång till bland annat en vidgad marknad, och därmed ett större utbud av kunskap och expertis. Detta motverkar den så kallade inlåsningseffekten.</p>\n<p dir=\"auto\">Offentlig sektor ska inom ramen av LOU genomföra upphandlingar och dessa upphandlingar behöver med vissa mellanrum genomföras på nytt. Det här kan medföra risker för informationshanteringen inom olika IT-system när data behöver migreras. Beroende på hur ofta en ny upphandling krävs, är detta en potentiell stor risk för hållbarheten av informationen. Det här innebär att alla e-arkiv kommer behöva migrera information, vilket medför en ökad risk för informationsförlust med stora konsekvenser i och med mängderna information ett e-arkiv kan innehålla. En mitigering av den här risken vore att minimera mängden byten av e-arkiv. Här är lösningar med öppen källkod rimlig eftersom en myndighet har större kontroll över när/hur avveckling och migrering sker. Avveckling av ett informationssystem är utan tvekan oundvikligt. Men med en lösning baserad på öppen källkod, så finns möjlighet att förlänga livscykeln på e-arkivet.</p>\n<p dir=\"auto\">Hör gärna av er med synpunkter på hur vi resonerar och saker ni tycker vi ska ta med oss tillbaka till vårt arbete med e-arkivet <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">//Malin Åkerlund och Rickard Lundstedt (IT-arkivarier)</p>\n",
+      "pid": 1555,
+      "tid": 371,
+      "timestamp": 1654253332627,
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 10,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 115,
+            "username": "joho68",
+            "userslug": "joho68",
+            "picture": null,
+            "fullname": "Joaquim Homrighausen",
+            "displayname": "joho68",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 468,
+            "username": "Ingegerd",
+            "userslug": "ingegerd",
+            "picture": "",
+            "fullname": "",
+            "displayname": "Ingegerd",
+            "icon:text": "I",
+            "icon:bgColor": "#9c27b0"
+          },
+          {
+            "uid": 472,
+            "username": "elias",
+            "userslug": "elias",
+            "picture": null,
+            "fullname": "Elias Rudberg",
+            "displayname": "elias",
+            "icon:text": "E",
+            "icon:bgColor": "#33691e"
+          },
+          {
+            "uid": 523,
+            "username": "PerAnd",
+            "userslug": "perand",
+            "picture": null,
+            "fullname": "Per Åke Andersson",
+            "displayname": "PerAnd",
+            "icon:text": "P",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 5]]",
+        "count": 5,
+        "timestampISO": "2022-06-07T06:22:53.719Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 10,
+      "timestampISO": "2022-06-03T10:48:52.627Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a> Tittade ni på några specifika plattformar?</p>\n<p dir=\"auto\">(Som involverad i både utveckling och drift av plattformar med/på/av Öppen Källkod så blir jag såklart nyfiken.)</p>\n<p dir=\"auto\">-Joaquim</p>\n",
+      "pid": 1559,
+      "tid": 371,
+      "timestamp": 1654582973719,
+      "toPid": "1555",
+      "uid": 115,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-06-09T11:32:36.138Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-06-07T06:22:53.719Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 115,
+        "username": "joho68",
+        "fullname": "Joaquim Homrighausen",
+        "userslug": "joho68",
+        "reputation": 24,
+        "postcount": 22,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1740993220767,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "joho68",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2025-03-03T09:13:40.767Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/115\">@joho68</a><br />\nVi gjorde några översiktliga analyser av RODA (<a href=\"http://roda.jobtechdev.se/#welcome\" rel=\"nofollow ugc\">http://roda.jobtechdev.se/#welcome</a>) och EssArch (<a href=\"https://www.essolutions.se/essarch/\" rel=\"nofollow ugc\">https://www.essolutions.se/essarch/</a>). Framförallt gällande funktion av systemen men även utifrån CHAOSS-metriken för hållbart community. Det vi kom fram till vid den tidpunkten var att möjligheten till ett svenskt community var större med RODA, vilket vi därefter har gjort en POT för.</p>\n<p dir=\"auto\">I dit arbete med öppen källkod, har ni använt någon mjukvara för analys av community för de system/plattformar ni använder? Vi gjorde en manuell analys men har sett att det verkar gå att göra smidigare.</p>\n",
+      "pid": 1569,
+      "tid": 371,
+      "timestamp": 1654774356138,
+      "toPid": "1559",
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 115,
+            "username": "joho68",
+            "userslug": "joho68",
+            "picture": null,
+            "fullname": "Joaquim Homrighausen",
+            "displayname": "joho68",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-06-11T08:43:13.829Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-06-09T11:32:36.138Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "joho68",
+        "displayname": "joho68"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Nosad underhåller ju en programvarukatalog med en kategori för arkiv-verktyg. Det vore intressant att koppla programvarukatalogen till utvärderingar och analyser av programvarorna.</p>\n<p dir=\"auto\">Utifrån katalogen ser det ut som fler använder ESSArch i nuläget. Vilka kriterier talar för bättre förutsättningar för en svensk gemenskap/community med RODA?</p>\n<p dir=\"auto\">Vad står POT för?</p>\n<p dir=\"auto\"><a href=\"https://nosad.se/katalog\" rel=\"nofollow ugc\">https://nosad.se/katalog</a></p>\n<blockquote>\n<p dir=\"auto\">Arkiv- och katalogverktyg</p>\n<ul>\n<li>\n<p dir=\"auto\">Access to Memory (AtoM)<br />\nAnvänds av: SGU, Kungliga biblioteket</p>\n</li>\n<li>\n<p dir=\"auto\">Archivematica<br />\nAnvänds av: SGU<br />\nSe även: AOAIS - Ett nätverk för Archivematica och AtoM i Sverige</p>\n</li>\n<li>\n<p dir=\"auto\">CollectiveAccess<br />\nAnvänds av: Extern lista<br />\nBeskrivning: En webbaserad databas och ett katalogiseringverktyg för museer, arkiv och digitala samlingar.<br />\nSe även: Collective Access Sverige</p>\n</li>\n<li>\n<p dir=\"auto\">ESSArch<br />\nAnvänds av: Svensk Riksarkivet, Norska Arkivverket, Sydarkivera, Svenska kyrkan, Luftfartsverket, Sjöfartsverket</p>\n</li>\n<li>\n<p dir=\"auto\">NetarchiveSuite<br />\nBeskrivning: Verktyg för insamling och arkivering av hemsidor.<br />\nAnvänds av: Kungliga Biblioteket</p>\n</li>\n<li>\n<p dir=\"auto\">Roda<br />\nAnvänds av: Tullverket</p>\n</li>\n</ul>\n</blockquote>\n",
+      "pid": 1574,
+      "tid": 371,
+      "timestamp": 1654936993829,
+      "toPid": "1569",
+      "uid": 125,
+      "edited": 1654937275174,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-06-13T06:04:52.198Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-06-11T08:43:13.829Z",
+      "editedISO": "2022-06-11T08:47:55.174Z",
+      "index": 3,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej! Är den rapporten öppna data? (Af-2021/0001 1174)<br />\nLeverantörsberoende och inlåsta data är i hög grad fallet för hantering av geodata, en av de viktigare datatyperna för att förverkliga en digital samhällsbyggnadsprocess.</p>\n",
+      "pid": 1575,
+      "tid": 371,
+      "timestamp": 1655030321120,
+      "uid": 109,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-06-13T06:10:29.060Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-06-12T10:38:41.120Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 109,
+        "username": "Matself",
+        "userslug": "matself",
+        "reputation": 38,
+        "postcount": 40,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764756112216,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Matself",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T10:01:52.216Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a> Nej, några verktyg har jag/vi inte använt för analys av community. Vi tittar ofta på parametrar som hur aktivt ett projekt är, hur gammalt det är, osv; utöver sedvanliga punkter som funktionalitet, säkerhet, etc.</p>\n<p dir=\"auto\">Men min \"bedömning\" är att vi är alldeles för dåliga på att använda Öppen Källkod i Sverige (och många andra delar av världen).</p>\n",
+      "pid": 1579,
+      "tid": 371,
+      "timestamp": 1655099284711,
+      "toPid": "1569",
+      "uid": 115,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-06-13T05:48:04.711Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 115,
+        "username": "joho68",
+        "fullname": "Joaquim Homrighausen",
+        "userslug": "joho68",
+        "reputation": 24,
+        "postcount": 22,
+        "topiccount": 3,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1740993220767,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "joho68",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2025-03-03T09:13:40.767Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a><br />\nAbsolut, och det diskuteras lite inom arkiv-kretsar om hur man på bästa sättet tillgängliggör och sammanställer våra tester för olika verktyg/system.</p>\n<p dir=\"auto\">Ja, det är information från vår rapport som vi har uppdaterat delar av den katalogen med <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Den skulle däremot behöva uppdateras då jag har hört rykten om att Luftfartsverket och Sjöfartsverket gått vidare från EssArch.<br />\nDet är några olika myndigheter som håller på med ett införande av RODA, och där man har ett perspektiv för att vara med och skapa ett community.<br />\nSen verkar det som att intresset för Archivematica (<a href=\"https://www.archivematica.org/en/\" rel=\"nofollow ugc\">https://www.archivematica.org/en/</a>) ökat i samband med en utvärdering som Sydarkivera gjort där de kom fram till att det var bästa e-arkivet baserat på öppen källkod.  Vet ej om de publicerat rapporten öppet, men det går snabbt att höra med dom om man vill ha mer information.</p>\n<p dir=\"auto\">POT står för Proof of Technology, och det är i princip ett test för att säkerställa att tekniken fungerar. I vårt fall var det ett test för att se om systemet fungerar i vår miljö och uppfyller våra krav på funktionalitet.</p>\n",
+      "pid": 1581,
+      "tid": 371,
+      "timestamp": 1655100292198,
+      "toPid": "1574",
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 3,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-06-13T06:04:52.198Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/109\">@Matself</a><br />\nHej!<br />\nDen är inte licensierad som öppen data, däremot är den en offentlig allmän handling som NOSAD lagt upp på sin webbplats över lästips: <a href=\"https://nosad.se/tips\" rel=\"nofollow ugc\">https://nosad.se/tips</a>.</p>\n<p dir=\"auto\">Förstår problematiken med geodata! Har du tittat något på mer standardiserade metadatastrukturer och möjligheten att kravställa på dessa? Jag vet att DILCIS (EU-nivå) tagit fram en: <a href=\"https://dilcis.eu/content-types/cs-geospatial-data\" rel=\"nofollow ugc\">https://dilcis.eu/content-types/cs-geospatial-data</a></p>\n<p dir=\"auto\">Vet inte hur väl den lirar med strukturen för  Lantmäteriets grunddata däremot..</p>\n",
+      "pid": 1582,
+      "tid": 371,
+      "timestamp": 1655100629060,
+      "toPid": "1575",
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-06-13T06:10:29.060Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "Matself",
+        "displayname": "Matself"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a><br />\nHej!<br />\nFinns möjlighet att ta del av er rapport Af-2021/0001 1174?<br />\nMVH/Ingegerd</p>\n",
+      "pid": 1978,
+      "tid": 371,
+      "timestamp": 1661349272995,
+      "toPid": "1555",
+      "uid": 468,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-08-24T14:10:35.470Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-08-24T13:54:32.995Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 468,
+        "username": "Ingegerd",
+        "userslug": "ingegerd",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1665409222153,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ingegerd",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "I",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2022-10-10T13:40:22.153Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/468\">@Ingegerd</a> Bra rapport, men jag kanske är lite partisk. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f603.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smiley\" style=\"height:23px;width:auto;vertical-align:middle\" title=\"=)\" alt=\"😃\" /> (från arbetsförmedlingen). Rapporten finns under <a href=\"http://nosad.se/tips\" rel=\"nofollow ugc\">nosad.se/tips</a> och en direktlänk är <a href=\"https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/uploads/c7d94fc0e6bdea26df7182e54b6e6683/Rapport_l%C3%A5ngsiktig_informationshantering_E-arkiv.pdf\" rel=\"nofollow ugc\">https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/uploads/c7d94fc0e6bdea26df7182e54b6e6683/Rapport_långsiktig_informationshantering_E-arkiv.pdf</a></p>\n",
+      "pid": 1979,
+      "tid": 371,
+      "timestamp": 1661350235470,
+      "toPid": "1978",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 5,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 5,
+      "timestampISO": "2022-08-24T14:10:35.470Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "Ingegerd",
+        "displayname": "Ingegerd"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a><br />\nHej Malin och Rickard,<br />\nBra jobbat! Ni har helt rätt i att öppen källkod är bra för att undvika inlåsning och ger mycket bättre möjlighet att hålla saker igång över tid.<br />\nOm ni kan förklara det här för fler inom myndighets-Sverige har ni gjort en jätteviktig insats. Tack!</p>\n",
+      "pid": 1990,
+      "tid": 371,
+      "timestamp": 1661497013151,
+      "toPid": "1555",
+      "uid": 472,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-04T09:09:49.468Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-08-26T06:56:53.151Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 472,
+        "username": "elias",
+        "userslug": "elias",
+        "reputation": 96,
+        "postcount": 68,
+        "topiccount": 13,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756032209452,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "elias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2025-08-24T10:43:29.452Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a></p>\n<p dir=\"auto\">På sidan 18 står det:</p>\n<p dir=\"auto\">\"I förstudiens hot- och riskanalys upptäcktes 7 risker med en riskbedömning inom det här intervallet, varav en är specifik för COTS-lösningar och benämns nedan.\"</p>\n<p dir=\"auto\">I tabellen finns dock bara 6 risker redovisade. Saknas det nån eller är det ett skrivfel?</p>\n",
+      "pid": 2198,
+      "tid": 371,
+      "timestamp": 1662629940588,
+      "toPid": "1555",
+      "uid": 523,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-04T08:54:52.437Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-08T09:39:00.588Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 523,
+        "username": "PerAnd",
+        "userslug": "perand",
+        "reputation": 15,
+        "postcount": 25,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1760975248576,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PerAnd",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2025-10-20T15:47:28.576Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/523\">@PerAnd</a> Hej!<br />\nFörlåt för supersen återkoppling, det här kom när jag var på semester tyvärr.<br />\nDet kan absolut vara ett skrivfel som du är inne på. Det finns flera bilagor till rapporten som inte har publicerats, du får gärna begära ut dessa från Arbetsförmedlingen så skickar vi över dom.  Du kan begära ut dom här: <a href=\"https://arbetsformedlingen.se/kontakt/ta-del-av-allmanna-handlingar\" rel=\"nofollow ugc\">https://arbetsformedlingen.se/kontakt/ta-del-av-allmanna-handlingar</a></p>\n<p dir=\"auto\">En av bilagorna är hela riskbedömningen <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 2762,
+      "tid": 371,
+      "timestamp": 1664873692437,
+      "toPid": "2198",
+      "uid": 362,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-04T08:54:52.437Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "PerAnd",
+        "displayname": "PerAnd"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/472\">@elias</a> Tack så mycket <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" />  Vi försöker lyfta detta inom vårt ämnesområde, dvs arkiv och digitalt bevarande, så att vi kan börja titta på lösningar.  Men det är ju ibland lite segt i början och vi som yrkesgrupp är beroende av att nå fram till andra professioner inom IT för draghjälp.</p>\n",
+      "pid": 2763,
+      "tid": 371,
+      "timestamp": 1664874589468,
+      "toPid": "1990",
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-10-04T09:09:49.468Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "elias",
+        "displayname": "elias"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/468\">@Ingegerd</a> Hej! Du fick som tur är en länk nedan till rapporten som är publicerad via NOSAD men vill du ta del av bilagorna som hör till kan du begära ut dom här: <a href=\"https://arbetsformedlingen.se/kontakt/ta-del-av-allmanna-handlingar\" rel=\"nofollow ugc\">https://arbetsformedlingen.se/kontakt/ta-del-av-allmanna-handlingar</a></p>\n",
+      "pid": 2764,
+      "tid": 371,
+      "timestamp": 1664874648972,
+      "toPid": "1978",
+      "uid": 362,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-10-04T09:10:48.972Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "Ingegerd",
+        "displayname": "Ingegerd"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/362\">@MalinÅ</a> Det är mycket möjligt att jag läst rapporten lite slarvigt, men en generell synpunkt är att jag saknar en stor del av den säkerhetsanalys som ni (väl?) borde göra eller ha gjort inom ramen för ett sådant här arbete.</p>\n<p dir=\"auto\">Främst tänker jag på värdering (informationsklassning) av den information som ni kommer att hantera i e-arkivet, med tillhörande konsekvensnivåer, skyddsåtgärder osv. Det är inte helt säkert att alla de produkter som ni behandlar (och har utvärderat) i rapporten klarar, exempelvis, en sårbarhetsanalys.</p>\n<p dir=\"auto\">MSB kom med en uppdatering av sin \"Vägledning för säkerhetsåtgärder i informationssystem\" i fredags, där man i kapitel 3 ganska väl utvecklar vilka aktiviteter en myndighet bör genomföra inför en anskaffning av ett nytt IT-system. Och en del av de aktiviteterna kan absolut användas även vid en förstudie/produktutvärdering. Se också MSBFS 2020:7.</p>\n<p dir=\"auto\"><a href=\"https://www.msb.se/sv/publikationer/vagledning--sakerhetsatgarder-i-informationssystem/\" rel=\"nofollow ugc\">https://www.msb.se/sv/publikationer/vagledning--sakerhetsatgarder-i-informationssystem/</a></p>\n<p dir=\"auto\">Informationsklassning antar jag att ni som Arkivarier har svart bälte i!</p>\n",
+      "pid": 2926,
+      "tid": 371,
+      "timestamp": 1666078105532,
+      "toPid": "1555",
+      "uid": 523,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 362,
+            "username": "MalinÅ",
+            "userslug": "malinå",
+            "picture": null,
+            "fullname": "Malin Åkerlund",
+            "displayname": "MalinÅ",
+            "icon:text": "M",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-18T08:24:22.819Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-18T07:28:25.532Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "MalinÅ",
+        "displayname": "MalinÅ"
+      },
+      "user": {
+        "uid": 523,
+        "username": "PerAnd",
+        "userslug": "perand",
+        "reputation": 15,
+        "postcount": 25,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1760975248576,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "PerAnd",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "P",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2025-10-20T15:47:28.576Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/523\">@PerAnd</a>  Hej <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /><br />\nDet resonemang som finns med i förstudien är generellt hållet för förstudien var främst till att utforska och resonera kring om Arbetsförmedlingen borde välja ett e-arkiv baserat på standardsystem eller på öppen källkod. För att därefter koppla till ett förslag på strategi för digitalt bevarande.  Tester och vidare analyser(inklusive de för att säkerställa säkerheten) kopplade till specifika systemlösningar kommer ju alltid behöva göras innan ett skarpt införande. Vi nämner däremot potentiella åtgärder/konsekvenser av en säkerhetsskyddsanalys under kapitel 2.7.3.. De resonemangen är främst hämtade från SSC arbete men vi ser att det är frågor som blir relevanta för alla myndigheter.</p>\n<p dir=\"auto\">Det jag försöker förklara är att förstudien inte bör ses som en utvärdering av specifika systemlösningar. Alla omnämnde av specifika lösningar är del av en omvärldsbevakning för marknaden av e-arkivsystem.</p>\n<p dir=\"auto\">Informationsklassningen är även en stor del i leveransprocessen där varje leverans klassas, så där har du rätt att det är något vi gärna håller på med <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 2928,
+      "tid": 371,
+      "timestamp": 1666081462819,
+      "toPid": "2926",
+      "uid": 362,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-18T08:24:22.819Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "PerAnd",
+        "displayname": "PerAnd"
+      },
+      "user": {
+        "uid": 362,
+        "username": "MalinÅ",
+        "fullname": "Malin Åkerlund",
+        "userslug": "malinå",
+        "reputation": 26,
+        "postcount": 13,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1716373055664,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "MalinÅ",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-05-22T10:17:35.664Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "371",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/371.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/371",
+  "bodyClass": "page-topic page-topic-371 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Hållbar digital informationshantering baserat på öppen källkod"
+        },
+        {
+          "name": "description",
+          "content": "Under hösten 2020 fram till vintern 2021 genomförde vi på Arbetsförmedlingen en förstudie i myndighetens möjlighet att anskaffa ett öppet licensierat e-arkiv. Resultatet var en rapport om strategiska vägval för e-arkiv (Af-2021/0001 1174). Vi har nu samma..."
+        },
+        {
+          "property": "og:title",
+          "content": "Hållbar digital informationshantering baserat på öppen källkod"
+        },
+        {
+          "property": "og:description",
+          "content": "Under hösten 2020 fram till vintern 2021 genomförde vi på Arbetsförmedlingen en förstudie i myndighetens möjlighet att anskaffa ett öppet licensierat e-arkiv. Resultatet var en rapport om strategiska vägval för e-arkiv (Af-2021/0001 1174). Vi har nu samma..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-06-03T10:48:52.627Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-18T08:24:22.819Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/371",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/371/hållbar-digital-informationshantering-baserat-på-öppen-källkod",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/371.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/malinå"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

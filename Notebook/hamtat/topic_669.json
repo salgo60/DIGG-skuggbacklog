@@ -1,0 +1,929 @@
+{
+  "cid": 34,
+  "lastposttime": 1683867623008,
+  "mainPid": 3871,
+  "postcount": 6,
+  "slug": "669/ai-i-praktiken-en-guide",
+  "tags": [
+    {
+      "value": "offentligai",
+      "valueEscaped": "offentligai",
+      "valueEncoded": "offentligai",
+      "class": "offentligai"
+    },
+    {
+      "value": "aiguide",
+      "valueEscaped": "aiguide",
+      "valueEncoded": "aiguide",
+      "class": "aiguide"
+    }
+  ],
+  "tid": 669,
+  "timestamp": 1674135543784,
+  "title": "AI i praktiken – en guide",
+  "uid": 148,
+  "viewcount": 2137,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 4184,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "AI i praktiken – en guide",
+  "timestampISO": "2023-01-19T13:39:03.784Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-05-12T05:00:23.008Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">I <a href=\"https://beta.dataportal.se/offentligai\" rel=\"nofollow ugc\">Ai-guiden</a> har erfarenheter från regeringsuppdragets fyra myndigheter Digg, Skatteverket, Arbetsförmedlingen och Bolagsverket samlats och komprimerats till generella råd som kan vara användbara för alla i offentlig sektor. Guiden kommer att vidareutvecklas. Bidra gärna till den utvecklingen genom att kommentera i denna tråd om hur den kan förbättras och bli mer användbar för er verksamhet. OBS! Lanseringen av <a href=\"http://offentligai.se\" rel=\"nofollow ugc\">offentligai.se</a> sker 24/1 2023 och guiden finns tillgänglig först då via länken.</p>\n",
+      "pid": 3871,
+      "tid": 669,
+      "timestamp": 1674135543784,
+      "uid": 148,
+      "downvotes": 0,
+      "upvotes": 4,
+      "edited": 1674244683589,
+      "editor": {
+        "uid": 148,
+        "username": "Theo Andersson",
+        "userslug": "theo-andersson",
+        "displayname": "Theo Andersson"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 857,
+            "username": "Mandi",
+            "userslug": "mandi",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Mandi",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-01-30T08:31:44.209Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2023-01-19T13:39:03.784Z",
+      "editedISO": "2023-01-20T19:58:03.589Z",
+      "index": 0,
+      "user": {
+        "uid": 148,
+        "username": "Theo Andersson",
+        "userslug": "theo-andersson",
+        "reputation": 15,
+        "postcount": 9,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739864957685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Theo Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2025-02-18T07:49:17.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/148\">@Theo-Andersson</a>  Hej, det skulle vara intressant om man kunde läsa mer om de olika exemplen från myndigheterna. Så att man kan läsa mer om casen, mål, utmaningar, framgångsfaktorer, kontaktpersoner etc.</p>\n",
+      "pid": 3894,
+      "tid": 669,
+      "timestamp": 1675067504209,
+      "toPid": "3871",
+      "uid": 857,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 148,
+            "username": "Theo Andersson",
+            "userslug": "theo-andersson",
+            "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+            "fullname": "Theodor Andersson",
+            "displayname": "Theo Andersson",
+            "icon:text": "T",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-02-01T13:41:37.907Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-01-30T08:31:44.209Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Theo Andersson",
+        "displayname": "Theo Andersson"
+      },
+      "user": {
+        "uid": 857,
+        "username": "Mandi",
+        "userslug": "mandi",
+        "reputation": 2,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1675068105468,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Mandi",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2023-01-30T08:41:45.468Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/3904",
+          "type": "backlink",
+          "uid": 125,
+          "id": 602,
+          "timestamp": 1675198177783,
+          "timestampISO": "2023-01-31T20:49:37.783Z",
+          "user": {
+            "picture": null,
+            "username": "jonor",
+            "userslug": "jonor",
+            "uid": 125,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          "icon": "fa-link",
+          "text": "<span alt=\"jonor\" title=\"jonor\" data-uid=\"125\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #009688;\">J</span> <a href=\"/user/jonor\">jonor</a> <a href=\"/post/3904\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2023-01-31T20:49:37.783Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/857\">@Mandi</a> Hej! Vi har en ambition om att samla in fler goda exempel från de deltagande myndigheterna (Skatteverket har en video-presentation uppe under Inspirationsfilmerna). Hoppas kunna publicera goda exempel även från Bolagsverket och Arbetsförmedlingen inom en snar framtid.</p>\n",
+      "pid": 3909,
+      "tid": 669,
+      "timestamp": 1675258897907,
+      "toPid": "3894",
+      "uid": 148,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-02-01T13:41:37.907Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Mandi",
+        "displayname": "Mandi"
+      },
+      "user": {
+        "uid": 148,
+        "username": "Theo Andersson",
+        "userslug": "theo-andersson",
+        "reputation": 15,
+        "postcount": 9,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739864957685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Theo Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2025-02-18T07:49:17.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Hej,</p>\n<p dir=\"auto\">Jag har läst guiden, tittat på förtroendemodellen och läst inspirationsexemplen. Mycket bra och nyttigt innehåll för den som står i begrepp att utveckla eller implementera AI i sin tekniska miljö. Däremot finner jag inte så mycket om användning av befintliga AI-tjänster där den offentliga aktören enbart använder/konsumerar tjänsten?</p>\n<p dir=\"auto\">Om vi tar exempelvis ChatGPT som är väldigt hett just nu (med all rätt) så handlar det för en offentlig aktör i första hand om att använda/konsumera den redan befintliga tjänsten. Den offentliga aktören är inte direkt involverad i träning, design, drift.</p>\n<p dir=\"auto\">Har/kommer Offentlig AI att leverera stöd/rekommendationer/guide för användning av AI-tjänster som levereras likt ChatGPT?</p>\n",
+      "pid": 4178,
+      "tid": 669,
+      "timestamp": 1683633907463,
+      "uid": 1467,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 148,
+            "username": "Theo Andersson",
+            "userslug": "theo-andersson",
+            "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+            "fullname": "Theodor Andersson",
+            "displayname": "Theo Andersson",
+            "icon:text": "T",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-05-11T06:00:05.319Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-05-09T12:05:07.463Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 1467,
+        "username": "Alexander H",
+        "userslug": "alexander-h",
+        "reputation": 3,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1685022057789,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Alexander H",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-05-25T13:40:57.789Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1467\">@Alexander-H</a> Tack för din kommentar och frågeställningen! Vi har ambitioner att utveckla guiden för att innehålla mer fall och olika scenarion. Vi har även gett förslag i rapporten från regeringsuppdraget om att utveckla policylabbet till en regulatorisk sandlåda för AI vilket skulle kunna vara en bra instans för att hantera t.ex. det du pekar på som ett oklart område. Vi har inte fått förlängt eller nytt uppdrag men fortsätter att jobba med dessa frågor - det tar dock längre tid när samverkan sker utanför ett officiellt uppdrag.</p>\n<p dir=\"auto\">Får passa på att tipsa om AI Swedens kraftsamlingsuppdrag som ska kartlägga användardata från främst kommuner - det är ett långgående uppdrag och möjligen kommer man stöta på fall av detta slag och redogöra för hur de hanterats.</p>\n<p dir=\"auto\">Kan även tipsa om hackathon som tangerar frågeställningar kring generativ AI som hålls av Atea och Tony Mc Carrick 16 maj. Det är fullbokat men resultat och kontakt med organisatörer kan ju tas del av efteråt. <a href=\"https://www.atea.se/event/2023/ai-hackathon/\" rel=\"nofollow ugc\">https://www.atea.se/event/2023/ai-hackathon/</a>.</p>\n",
+      "pid": 4183,
+      "tid": 669,
+      "timestamp": 1683784805319,
+      "toPid": "4178",
+      "uid": 148,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1467,
+            "username": "Alexander H",
+            "userslug": "alexander-h",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Alexander H",
+            "icon:text": "A",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-05-12T05:00:23.008Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-05-11T06:00:05.319Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Alexander H",
+        "displayname": "Alexander H"
+      },
+      "user": {
+        "uid": 148,
+        "username": "Theo Andersson",
+        "userslug": "theo-andersson",
+        "reputation": 15,
+        "postcount": 9,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739864957685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Theo Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2025-02-18T07:49:17.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/148\">@Theo-Andersson</a> Tack för återkopplingen! Det låter bra, hoppas att ni får till de resurser som behövs. Det är ett viktigt arbete ni bedriver och det hjälper oss andra.</p>\n<p dir=\"auto\">Ser fram emot att följa utvecklingen av både guide och förtroendemodell <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4184,
+      "tid": 669,
+      "timestamp": 1683867623008,
+      "toPid": "4183",
+      "uid": 1467,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-05-12T05:00:23.008Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Theo Andersson",
+        "displayname": "Theo Andersson"
+      },
+      "user": {
+        "uid": 1467,
+        "username": "Alexander H",
+        "userslug": "alexander-h",
+        "reputation": 3,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1685022057789,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Alexander H",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-05-25T13:40:57.789Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/3904",
+      "type": "backlink",
+      "uid": 125,
+      "id": 602,
+      "timestamp": 1675198177783,
+      "timestampISO": "2023-01-31T20:49:37.783Z",
+      "user": {
+        "picture": null,
+        "username": "jonor",
+        "userslug": "jonor",
+        "uid": 125,
+        "displayname": "jonor",
+        "icon:text": "J",
+        "icon:bgColor": "#009688"
+      },
+      "icon": "fa-link",
+      "text": "<span alt=\"jonor\" title=\"jonor\" data-uid=\"125\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #009688;\">J</span> <a href=\"/user/jonor\">jonor</a> <a href=\"/post/3904\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2023-01-31T20:49:37.783Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#BA8BAF",
+    "cid": 34,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Offentlig AI",
+    "numRecentReplies": 1,
+    "order": 2,
+    "parentCid": 0,
+    "post_count": 66,
+    "slug": "34/offentlig-ai",
+    "subCategoriesPerPage": 10,
+    "topic_count": 16,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 66,
+    "totalTopicCount": 16
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "669",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/669.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Offentlig AI",
+      "url": "/category/34/offentlig-ai",
+      "cid": 34
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/669",
+  "bodyClass": "page-topic page-topic-669 template-topic page-topic-category-34 page-topic-category-offentlig-ai parent-category-34 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "AI i praktiken – en guide"
+        },
+        {
+          "name": "description",
+          "content": "I Ai-guiden har erfarenheter från regeringsuppdragets fyra myndigheter Digg, Skatteverket, Arbetsförmedlingen och Bolagsverket samlats och komprimerats till generella råd som kan vara användbara för alla i offentlig sektor. Guiden kommer att vidareutveckl..."
+        },
+        {
+          "property": "og:title",
+          "content": "AI i praktiken – en guide"
+        },
+        {
+          "property": "og:description",
+          "content": "I Ai-guiden har erfarenheter från regeringsuppdragets fyra myndigheter Digg, Skatteverket, Arbetsförmedlingen och Bolagsverket samlats och komprimerats till generella råd som kan vara användbara för alla i offentlig sektor. Guiden kommer att vidareutveckl..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-01-19T13:39:03.784Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-05-12T05:00:23.008Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Offentlig AI"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/148-profileavatar-1674207095769.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/669",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/669/ai-i-praktiken-en-guide",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/669.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/34/offentlig-ai"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/theo-andersson"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

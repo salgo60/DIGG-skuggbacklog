@@ -1,0 +1,2026 @@
+{
+  "cid": 1,
+  "lastposttime": 1707925547763,
+  "mainPid": 629,
+  "postcount": 24,
+  "slug": "160/energy-data-api",
+  "tid": 160,
+  "timestamp": 1629185275312,
+  "title": "energy data api",
+  "uid": 248,
+  "viewcount": 12572,
+  "postercount": 11,
+  "teaserPid": 4649,
+  "downvotes": 0,
+  "upvotes": 0,
+  "tags": [
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "elpriser",
+      "valueEscaped": "elpriser",
+      "valueEncoded": "elpriser",
+      "class": "elpriser"
+    },
+    {
+      "value": "energi",
+      "valueEscaped": "energi",
+      "valueEncoded": "energi",
+      "class": "energi"
+    }
+  ],
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "energy data api",
+  "timestampISO": "2021-08-17T07:27:55.312Z",
+  "scheduled": false,
+  "lastposttimeISO": "2024-02-14T15:45:47.763Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej,</p>\n<p dir=\"auto\">Vet ni om det finns en api som tillhandahåller dagens spotpriser för el ?</p>\n<p dir=\"auto\">tack på förhand<br />\n<a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/248\">@ckopp</a></p>\n",
+      "pid": 629,
+      "tid": 160,
+      "timestamp": 1629185275312,
+      "uid": 248,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 30,
+            "username": "mattias",
+            "userslug": "mattias",
+            "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+            "fullname": "Mattias Axell",
+            "displayname": "mattias",
+            "icon:text": "M",
+            "icon:bgColor": "#607d8b"
+          },
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-08-17T09:02:17.649Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "edited": 1629211169463,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-08-17T07:27:55.312Z",
+      "editedISO": "2021-08-17T14:39:29.463Z",
+      "index": 0,
+      "user": {
+        "uid": 248,
+        "username": "ckopp",
+        "userslug": "ckopp",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1629186839861,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "ckopp",
+        "groupTitleArray": [],
+        "icon:text": "C",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2021-08-17T07:53:59.861Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Bra fråga <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/248\">@ckopp</a>! Känner inte till öppet API från offentlig sektor. Tänker att rimlig myndighet att publicera sådant API vore Energimyndigheten men än så länge har de inga publicerade öppna data.</p>\n",
+      "pid": 631,
+      "tid": 160,
+      "timestamp": 1629190937649,
+      "toPid": "629",
+      "uid": 30,
+      "edited": 1629190951460,
+      "editor": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "displayname": "mattias"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-08-17T14:22:08.960Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-08-17T09:02:17.649Z",
+      "editedISO": "2021-08-17T09:02:31.460Z",
+      "index": 1,
+      "parent": {
+        "username": "ckopp",
+        "displayname": "ckopp"
+      },
+      "user": {
+        "uid": 30,
+        "username": "mattias",
+        "userslug": "mattias",
+        "reputation": 140,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/30-profileavatar-1734532570667.jpeg",
+        "signature": "<p dir=\"auto\">Mattias Axell</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761316789337,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "mattias",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2025-10-24T14:39:49.337Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Är det inte en aktör <a href=\"https://www.youtube.com/watch?v=upcH85Zqi70&amp;t=50s\" rel=\"nofollow ugc\">Nord Pool</a> deras <a href=\"https://marketdata.nordpoolgroup.com/faq\" rel=\"nofollow ugc\">API</a></p>\n",
+      "pid": 635,
+      "tid": 160,
+      "timestamp": 1629210128960,
+      "toPid": "631",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-08-17T14:22:08.960Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "mattias",
+        "displayname": "mattias"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Har du testat denna? <a href=\"https://transparency.entsoe.eu/dashboard/show\" rel=\"nofollow ugc\">https://transparency.entsoe.eu/dashboard/show</a></p>\n",
+      "pid": 2122,
+      "tid": 160,
+      "timestamp": 1662303296099,
+      "uid": 525,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-04T14:54:56.099Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 525,
+        "username": "alcaeusdevelopment",
+        "userslug": "alcaeusdevelopment",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1662303296139,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "alcaeusdevelopment",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2022-09-04T14:54:56.139Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Vi på Beneficial Apps har nu skapat ett helt öppet och gratis API för svenska elpriser: <a href=\"https://www.elprisetjustnu.se/elpris-api\" rel=\"nofollow ugc\">https://www.elprisetjustnu.se/elpris-api</a></p>\n<p dir=\"auto\">Vi hämtar vår data från <a href=\"http://transparency.entsoe.eu\" rel=\"nofollow ugc\">transparency.entsoe.eu</a>, men valde att även föra denna vidare till andra i ett enklare format.</p>\n<p dir=\"auto\">Anledningen till att vi inte hämtar direkt från Nord Pool är att de tar ut vansinnigt höga avgifter för API-åtkomst!</p>\n",
+      "pid": 3520,
+      "tid": 160,
+      "timestamp": 1669306377140,
+      "uid": 782,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-24T17:13:23.003Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-11-24T16:12:57.140Z",
+      "editedISO": "",
+      "index": 4,
+      "user": {
+        "uid": 782,
+        "username": "tormund",
+        "userslug": "tormund",
+        "reputation": 10,
+        "postcount": 5,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1669640037007,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tormund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2022-11-28T12:53:57.007Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/248\">@ckopp</a> såg nu att <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> har skapat och svarat men hade tänkt skriva att jag tror Tibber har <a href=\"https://developer.tibber.com/\" rel=\"nofollow ugc\">någon API-lösning</a> för både konsumtion, timpris både historiskt och framtida, metadata för konsumtion hemma och IRL konsumtion, men de ska göra någon förändring nu i dec 2022 så läs noga om ni skulle gå med dom.</p>\n<p dir=\"auto\">Off topic ev, användningsområde för data kanske: <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /><br />\nVi funderar på att sätta en lampa vid tvättmaskin och diskmaskin som är grön, gul eller röd, beroende på pris. Men problemet har varit att det är så relativt vad jag tycker känns högt beroende på dag och månad.</p>\n<p dir=\"auto\">Ibland när en får notisen \"högt pris 250 öre mellan 18-19 imorgon\" så känns det som en spott i sjön för att det varit över 600 öre 7-22 någon dag innan.</p>\n",
+      "pid": 3537,
+      "tid": 160,
+      "timestamp": 1669309791734,
+      "toPid": "629",
+      "uid": 744,
+      "edited": 1669309875942,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-24T17:09:51.734Z",
+      "editedISO": "2022-11-24T17:11:15.942Z",
+      "index": 5,
+      "parent": {
+        "username": "ckopp",
+        "displayname": "ckopp"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> sa i <a href=\"/post/3520\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\">Beneficial Apps har nu skapat ett helt öppet och gratis API för svenska elpriser</p>\n</blockquote>\n<p dir=\"auto\">Grymt ju! Och uppskattar den gröna designen, snyggt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3538,
+      "tid": 160,
+      "timestamp": 1669310003003,
+      "toPid": "3520",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 782,
+            "username": "tormund",
+            "userslug": "tormund",
+            "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+            "fullname": "Tormund Gerhardsen",
+            "displayname": "tormund",
+            "icon:text": "T",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T09:01:23.998Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-24T17:13:23.003Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> snyggt! Vill ni synas med ert API i Sveriges dataportal?</p>\n",
+      "pid": 3539,
+      "tid": 160,
+      "timestamp": 1669310107166,
+      "toPid": "3520",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 782,
+            "username": "tormund",
+            "userslug": "tormund",
+            "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+            "fullname": "Tormund Gerhardsen",
+            "displayname": "tormund",
+            "icon:text": "T",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T08:37:02.455Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-24T17:15:07.166Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Absolut! Det skulle vi väldigt gärna vilja <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3572,
+      "tid": 160,
+      "timestamp": 1669365422455,
+      "toPid": "3539",
+      "uid": 782,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 29,
+            "username": "Eric",
+            "userslug": "eric",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Eric",
+            "icon:text": "E",
+            "icon:bgColor": "#827717"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T10:24:41.403Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-25T08:37:02.455Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 782,
+        "username": "tormund",
+        "userslug": "tormund",
+        "reputation": 10,
+        "postcount": 5,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1669640037007,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tormund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2022-11-28T12:53:57.007Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3538\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> sa i <a href=\"/post/3520\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\">Beneficial Apps har nu skapat ett helt öppet och gratis API för svenska elpriser</p>\n</blockquote>\n<p dir=\"auto\">Grymt ju! Och uppskattar den gröna designen, snyggt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n</blockquote>\n<p dir=\"auto\">Tack så mycket! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3537\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\">Off topic ev, användningsområde för data kanske: <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /><br />\nVi funderar på att sätta en lampa vid tvättmaskin och diskmaskin som är grön, gul eller röd, beroende på pris. Men problemet har varit att det är så relativt vad jag tycker känns högt beroende på dag och månad.</p>\n<p dir=\"auto\">Ibland när en får notisen \"högt pris 250 öre mellan 18-19 imorgon\" så känns det som en spott i sjön för att det varit över 600 öre 7-22 någon dag innan.</p>\n</blockquote>\n<p dir=\"auto\">Inte en dålig idé!</p>\n<p dir=\"auto\">Nu är det visserligen inte många kronor att spara på en tvättmaskin, som du kan se av prisexemplen vi har på framsidan: <a href=\"https://www.elprisetjustnu.se\" rel=\"nofollow ugc\">https://www.elprisetjustnu.se</a></p>\n<p dir=\"auto\">Men vi har faktiskt funderat på att skapa en sådan tjänst som räknar ut detta åt dig, integrerad med smarta produkter. Du säger bara till när du behöver tvättmaskinen klar, så startar den när det är som billigast. Samma koncept som smart laddning för elbilar, bara en oberoende lösning från elbolaget, och som du kan använda mot vad som helst.</p>\n",
+      "pid": 3577,
+      "tid": 160,
+      "timestamp": 1669366883998,
+      "toPid": "3538",
+      "uid": 782,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-25T12:11:09.609Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T09:01:23.998Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 782,
+        "username": "tormund",
+        "userslug": "tormund",
+        "reputation": 10,
+        "postcount": 5,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1669640037007,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tormund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2022-11-28T12:53:57.007Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> Hej Tormund bra initiativ! Du kan publicera det på Sv dataportal med vår gratistjänst <a href=\"https://entryscape.com/sv/free/\" rel=\"nofollow ugc\">https://entryscape.com/sv/free/</a> då ni jobbar med en gratistjänst (om jag förstår rätt).<br />\nSå här gör du:<br />\n1 skaffa en konto i FREE<br />\n2 gå till <a href=\"http://admin.dataportal.se\" rel=\"nofollow ugc\">admin.dataportal.se</a> och skapa ett konto där<br />\n3 lägg in adressen till den data du beskrivit i FREE och tryck skörda</p>\n<p dir=\"auto\">DIGG har allt stöd du behöver här: <a href=\"https://docs.dataportal.se/registry/start/\" rel=\"nofollow ugc\">https://docs.dataportal.se/registry/start/</a></p>\n<p dir=\"auto\">30min senare har du din datamängd på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a></p>\n",
+      "pid": 3579,
+      "tid": 160,
+      "timestamp": 1669371881403,
+      "toPid": "3572",
+      "uid": 29,
+      "flagId": 232,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 29,
+            "username": "Eric",
+            "userslug": "eric",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Eric",
+            "icon:text": "E",
+            "icon:bgColor": "#827717"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T16:42:09.272Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-25T10:24:41.403Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 29,
+        "username": "Eric",
+        "userslug": "eric",
+        "reputation": 22,
+        "postcount": 22,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1744189442554,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Eric",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2025-04-09T09:04:02.554Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> nej, det är ju inte ur kostnadsperspektiv utan mer för att få in en datastyrd beteendeförändring eller ens uppmärksamma eller vara medveten om hur vi använder el. Skrev slarvigt så tvättmaskin och torktumlare ska det vara men inte många kronor ändå. Vi har fjärrvärme via förening, så inte så många sätt att påverka det ur kostnadsperspektiv.</p>\n<p dir=\"auto\">Har tänkt på ugn och laddning av elcykel. Men ur beteendeförändrings-perspektiv är ugn svårt. Det är ju inte direkt så att vi kan säga att vi äter kl 15 bara för att lampan är röd. Och laddning av elcykel är inte tillräckligt ofta för att det ska kännas lönt i mitt fall.</p>\n",
+      "pid": 3591,
+      "tid": 160,
+      "timestamp": 1669378269609,
+      "toPid": "3577",
+      "uid": 744,
+      "edited": 1669378379687,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 782,
+            "username": "tormund",
+            "userslug": "tormund",
+            "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+            "fullname": "Tormund Gerhardsen",
+            "displayname": "tormund",
+            "icon:text": "T",
+            "icon:bgColor": "#1b5e20"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T14:32:50.536Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-25T12:11:09.609Z",
+      "editedISO": "2022-11-25T12:12:59.687Z",
+      "index": 11,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> sa i <a href=\"/post/3577\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\">Men vi har faktiskt funderat på att skapa en sådan tjänst som räknar ut detta åt dig, integrerad med smarta produkter. Du säger bara till när du behöver tvättmaskinen klar, så startar den när det är som billigast.</p>\n</blockquote>\n<p dir=\"auto\">Jag skulle definitivt vara intresserad av sådant om jag kunde ha elbilsladdning hemma. Kanske kan tänka mig det framåt för tvättmaskin/torktumlare men just nu vill jag som sagt inte att det ska vara automatiserat utan det är ett datadrivet beteende och beteendeförändringen jag vill åt.</p>\n<p dir=\"auto\">Tänker att det skulle vara bra för barn att få in tänket. Det är inte så att rött betyder att man inte får (eftersom ugnen kanske går varje kväll när det är rött) men man är medveten.</p>\n",
+      "pid": 3592,
+      "tid": 160,
+      "timestamp": 1669378713886,
+      "toPid": "3577",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-25T12:18:33.886Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> Aha, jag förstår!</p>\n<p dir=\"auto\">Men för att göra en sådan lampa, borde du nog kunna göra det enkelt med vårt Elpris API och <a href=\"https://ifttt.com/\" rel=\"nofollow ugc\">IFTTT</a> med koppling till en smart lampa <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f603.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smiley\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":smiley:\" alt=\"😃\" /></p>\n",
+      "pid": 3595,
+      "tid": 160,
+      "timestamp": 1669386770536,
+      "toPid": "3591",
+      "uid": 782,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-25T14:39:49.560Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T14:32:50.536Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 782,
+        "username": "tormund",
+        "userslug": "tormund",
+        "reputation": 10,
+        "postcount": 5,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1669640037007,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tormund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2022-11-28T12:53:57.007Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> absolut! Och där är avvägningen mellan att få det på plats eller lära sig något nytt. IFTTT har använts frekvent men försöker ju bli lite mer haj på kod och då känns det lite som fusk <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";)\" alt=\"😉\" /></p>\n<p dir=\"auto\">Nu kommer vi lite off topic men superkul att ni tagit fram detta och återkommer när jag testkört det, oavsett form!</p>\n",
+      "pid": 3598,
+      "tid": 160,
+      "timestamp": 1669387189560,
+      "toPid": "3595",
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-26T09:33:54.971Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-25T14:39:49.560Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> efter att ha postat och läst forumets policy igen så är jag osäker på om det kan ses som reklam av särskild näringsidkare, kan du säga till om så ä fallet. Givetvis inte avsikten. /Eric</p>\n",
+      "pid": 3602,
+      "tid": 160,
+      "timestamp": 1669394529272,
+      "toPid": "3579",
+      "uid": 29,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-25T16:42:09.272Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Eric",
+        "displayname": "Eric"
+      },
+      "user": {
+        "uid": 29,
+        "username": "Eric",
+        "userslug": "eric",
+        "reputation": 22,
+        "postcount": 22,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1744189442554,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Eric",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2025-04-09T09:04:02.554Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3598\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\">försöker ju bli lite mer haj på kod och då känns det lite som fusk</p>\n</blockquote>\n<p dir=\"auto\">Respekt!</p>\n<p dir=\"auto\">Du har ju redan gjort en MR till <a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a>. Tack för ditt bidrag Tove.</p>\n",
+      "pid": 3609,
+      "tid": 160,
+      "timestamp": 1669455234971,
+      "toPid": "3598",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-29T07:35:53.008Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-26T09:33:54.971Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/29\">@Eric</a> sa i <a href=\"/post/3602\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> efter att ha postat och läst forumets policy igen så är jag osäker på om det kan ses som reklam av särskild näringsidkare, kan du säga till om så ä fallet. Givetvis inte avsikten. /Eric</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/29\">@Eric</a> Vår API-tjänst är helt öppen och gratis för alla att använda, och kommer att fortsätta att vara det. Vi har utvecklat denna tjänst helt pro bono. Men visst är vi också ett kommersiellt företag, som tjänar pengar på annat.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/29\">@Eric</a> sa i <a href=\"/post/3579\">energy data api</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> Hej Tormund bra initiativ! Du kan publicera det på Sv dataportal med vår gratistjänst <a href=\"https://entryscape.com/sv/free/\" rel=\"nofollow ugc\">https://entryscape.com/sv/free/</a> då ni jobbar med en gratistjänst (om jag förstår rätt).<br />\nSå här gör du:<br />\n1 skaffa en konto i FREE<br />\n2 gå till <a href=\"http://admin.dataportal.se\" rel=\"nofollow ugc\">admin.dataportal.se</a> och skapa ett konto där<br />\n3 lägg in adressen till den data du beskrivit i FREE och tryck skörda</p>\n<p dir=\"auto\">DIGG har allt stöd du behöver här: <a href=\"https://docs.dataportal.se/registry/start/\" rel=\"nofollow ugc\">https://docs.dataportal.se/registry/start/</a></p>\n<p dir=\"auto\">30min senare har du din datamängd på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a></p>\n</blockquote>\n<p dir=\"auto\">Nu har jag i alla fall följt instruktionerna, och publicerat vårt API under organisationen \"Elpriset just <a href=\"http://nu.se\" rel=\"nofollow ugc\">nu.se</a>\" och katalogen \"Elpris API\" med det juridiska företaget (Beneficial Apps AS) som utgivare. Jag är inte säker på om jag har gjort allt rätt, men rätta mig gärna om det är något som är felaktigt angett här.</p>\n<p dir=\"auto\">Sedan har vi såklart respekt för om detta är något som inte är tillåtet på den här plattformen.</p>\n",
+      "pid": 3628,
+      "tid": 160,
+      "timestamp": 1669640036945,
+      "uid": 782,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 29,
+            "username": "Eric",
+            "userslug": "eric",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Eric",
+            "icon:text": "E",
+            "icon:bgColor": "#827717"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-29T14:31:18.632Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-28T12:53:56.945Z",
+      "editedISO": "",
+      "index": 17,
+      "user": {
+        "uid": 782,
+        "username": "tormund",
+        "userslug": "tormund",
+        "reputation": 10,
+        "postcount": 5,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/782-profileavatar-1669306686551.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1669640037007,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tormund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2022-11-28T12:53:57.007Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> haha, för att jag inte hittade Issues ja... Det räknas ju knappast, men låt mig bara få iväg det här projektförslaget imorgon så är jag game igen.</p>\n",
+      "pid": 3645,
+      "tid": 160,
+      "timestamp": 1669707353008,
+      "toPid": "3609",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-29T07:35:53.008Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/782\">@tormund</a> Kul med mer energidata på Sveriges dataportal. /Eric</p>\n",
+      "pid": 3657,
+      "tid": 160,
+      "timestamp": 1669732278632,
+      "toPid": "3628",
+      "uid": 29,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-29T14:31:18.632Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "tormund",
+        "displayname": "tormund"
+      },
+      "user": {
+        "uid": 29,
+        "username": "Eric",
+        "userslug": "eric",
+        "reputation": 22,
+        "postcount": 22,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1744189442554,
+        "groupTitle": "[\"NSÖD - Nationell skalning Öppna data\"]",
+        "mutedUntil": 0,
+        "displayname": "Eric",
+        "groupTitleArray": [
+          "NSÖD - Nationell skalning Öppna data"
+        ],
+        "icon:text": "E",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2025-04-09T09:04:02.554Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#d59151",
+    "cid": 1,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Diskutera data och API:er som du skulle vilja använda eller få tillgång till.",
+    "descriptionParsed": "<p dir=\"auto\">Diskutera data och API:er som du skulle vilja använda eller få tillgång till.</p>\n",
+    "disabled": 0,
+    "icon": "fa-bullhorn",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Efterfråga data och API:er",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 23,
+    "post_count": 186,
+    "slug": "1/efterfråga-data-och-api-er",
+    "topic_count": 21,
+    "undefined": "Vad är \"Tag whitelist\"",
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 186,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "160",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/160.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Efterfråga data och API:er",
+      "url": "/category/1/efterfråga-data-och-api-er",
+      "cid": 1
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/160/energy-data-api?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/160",
+  "bodyClass": "page-topic page-topic-160 template-topic page-topic-category-1 page-topic-category-efterfråga-data-och-api-er parent-category-23 parent-category-1 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "energy data api"
+        },
+        {
+          "name": "description",
+          "content": "Hej, Vet ni om det finns en api som tillhandahåller dagens spotpriser för el ? tack på förhand @ckopp "
+        },
+        {
+          "property": "og:title",
+          "content": "energy data api"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, Vet ni om det finns en api som tillhandahåller dagens spotpriser för el ? tack på förhand @ckopp "
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-08-17T07:27:55.312Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2024-02-14T15:45:47.763Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Efterfråga data och API:er"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/160",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/160/energy-data-api",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/160.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/1/efterfråga-data-och-api-er"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/ckopp"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/160/energy-data-api?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

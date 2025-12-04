@@ -1,0 +1,996 @@
+{
+  "cid": 35,
+  "lastposttime": 1761851141294,
+  "mainPid": 4725,
+  "postcount": 7,
+  "slug": "934/arbete-med-en-sammanhållen-datainfrastruktur-fortsätter",
+  "tid": 934,
+  "timestamp": 1714370431926,
+  "title": "Arbete med en sammanhållen datainfrastruktur fortsätter",
+  "uid": 62,
+  "viewcount": 589,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 5376,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Arbete med en sammanhållen datainfrastruktur fortsätter",
+  "timestampISO": "2024-04-29T06:00:31.926Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-10-30T19:05:41.294Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Nu etableras en fortsättning på det myndighetsgemensamma arbetet med att utveckla en sammanhållen datainfrastruktur för kompetensförsörjning och livslångs lärande. Syftet med denna grupp är att förbättra möjligheterna att utveckla tjänster med utbildnings- och arbetsmarknadsinformation för den enskilde såväl som utbildningsanordnare och arbetsgivare. Vi kommer löpande att informera om arbetet i detta forum. <a href=\"https://gitlab.com/groups/arbetsformedlingen/collaboration/-/wikis/MSV-DATA\" rel=\"nofollow ugc\">Ta del av mötesanteckningarna från vår första möte.</a></p>\n",
+      "pid": 4725,
+      "tid": 934,
+      "timestamp": 1714370431926,
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-05-15T11:08:31.171Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-04-29T06:00:31.926Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Nu finns mötesanteckningarna från vårt <a href=\"https://gitlab.com/groups/arbetsformedlingen/collaboration/-/wikis/MSV-DATAINFRASTRUKTUR\" rel=\"nofollow ugc\">andra möte.</a></p>\n",
+      "pid": 4739,
+      "tid": 934,
+      "timestamp": 1715771311171,
+      "toPid": "4725",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-05-16T13:42:40.934Z"
+      },
+      "edited": 1715880081869,
+      "editor": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-05-15T11:08:31.171Z",
+      "editedISO": "2024-05-16T17:21:21.869Z",
+      "index": 1,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> jag får en bruten länk för det andra mötet. Eventuellt något fel hos mig?</p>\n",
+      "pid": 4740,
+      "tid": 934,
+      "timestamp": 1715866960934,
+      "toPid": "4739",
+      "uid": 117,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-05-16T17:20:45.205Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2024-05-16T13:42:40.934Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/117\">@jenniferskoglund</a> tack för att du uppmärksammade trasig länk! Helt och hållet mitt fel. Länkade till vårt intranät...Här är en <a href=\"https://gitlab.com/groups/arbetsformedlingen/collaboration/-/wikis/MSV-DATAINFRASTRUKTUR\" rel=\"nofollow ugc\">fungerande länk</a>.</p>\n",
+      "pid": 4741,
+      "tid": 934,
+      "timestamp": 1715880045205,
+      "toPid": "4740",
+      "uid": 62,
+      "edited": 1715928688248,
+      "editor": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2024-05-20T21:41:16.826Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-05-16T17:20:45.205Z",
+      "editedISO": "2024-05-17T06:51:28.248Z",
+      "index": 3,
+      "parent": {
+        "username": "jenniferskoglund",
+        "displayname": "jenniferskoglund"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> tack! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4744,
+      "tid": 934,
+      "timestamp": 1716241276826,
+      "toPid": "4741",
+      "uid": 117,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2024-05-20T21:41:16.826Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a>,</p>\n<p dir=\"auto\">Hur har arbetet med \"en sammanhållen datainfrastruktur\" gått?</p>\n<ul>\n<li>Vad har fungerat bra, och vad har inte fungerat?</li>\n<li>Finns det några konkreta leverabler i form av byggblock — t.ex. bugg- eller plattformspecifikationer, datamodeller eller andra gemensamma komponenter?</li>\n</ul>\n<p dir=\"auto\">Anledningen till att jag frågar är att jag själv har <a href=\"https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html\" rel=\"nofollow ugc\">digitaliserat 27 mil av vandringsleden Stockholm Archipelago Trail</a>,  och ser liknande utmaningar som jag gissar att ni försökte angripa — framför allt att en sammanhållen datainfrastruktur verkar saknas för digital information om vandringsleder...</p>\n<p dir=\"auto\">I dagsläget består mycket av materialet av PDF-dokument..., medan min målbilden är att koppla ihop data och objekt globalt — något jag börjat experimentera med.</p>\n<p dir=\"auto\">Har låtit Notebook LM förklara grundläggande begrepp som</p>\n<ul>\n<li>persistenta identifierare</li>\n<li>SSOT</li>\n<li>att ha produktägare och jobba agilt</li>\n<li>data roundtripping</li>\n</ul>\n<p dir=\"auto\">Notebook LM - <strong>status idag ett digitala spöke</strong></p>\n<ul>\n<li>skapade en bra bild hur det är idag med ledinfo \"<a href=\"https://www.youtube.com/watch?v=5atWdmH1StA\" rel=\"nofollow ugc\">Stockholms Archipelago Trails digitala spöke</a>\" -  <a href=\"https://www.youtube.com/playlist?list=PLNWUKRLAYDeTeJjC4RklcS0M_Kp_1htMd\" rel=\"nofollow ugc\">fler filmer</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1761547074455-21837d44-b882-4112-94e8-0b624e55592c-image-resized.png\" alt=\"21837d44-b882-4112-94e8-0b624e55592c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1761547116305-a8259406-eef4-457f-8466-fb9a88f770db-image.png\" alt=\"a8259406-eef4-457f-8466-fb9a88f770db-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1761547145253-28879107-ffe3-4f8a-ac9d-aba927a6ac51-image.png\" alt=\"28879107-ffe3-4f8a-ac9d-aba927a6ac51-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1761547175165-912845b5-5826-4985-883b-1f766cd53fb2-image.png\" alt=\"912845b5-5826-4985-883b-1f766cd53fb2-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1761547188391-224e10a0-69a2-477e-99d5-3d3256e2647f-image.png\" alt=\"224e10a0-69a2-477e-99d5-3d3256e2647f-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1761547198454-05aeda7e-6e94-4443-88bd-9b56c6043da6-image.png\" alt=\"05aeda7e-6e94-4443-88bd-9b56c6043da6-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5375,
+      "tid": 934,
+      "timestamp": 1761547605100,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-27T06:46:45.100Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h3>Skapade &gt; 70 AI genererade filmer</h3>\n<p dir=\"auto\">Temat är digital mognad, öppna data och framtidens leder.<br />\nFilmerna visar hur Stockholm Archipelago Trail borde utvecklas från PDF och projekt till ett levande, datadrivet ekosystem. Genom AI-genererade kortfilmer illustreras resan mot FAIR-data, interoperabilitet och smart turism.</p>\n<h3><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f5fa.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--world_map\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":world_map:\" alt=\"🗺\" />️ FAS 1 – Digitaliseringens resa börjar (från PDF till API)</h3>\n<p dir=\"auto\"><em>Omställningen från statiska dokument till levande data och API:er.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td><a href=\"https://youtu.be/cGzB2ufkVeY\" rel=\"nofollow ugc\">Från PDF till API: Ledens framtid</a></td>\n<td>Svenska</td>\n<td>Videon beskriver övergången från traditionell PDF-baserad dokumentation till ett öppet API för vandringsleden, och visar hur data kan göras tillgänglig och interoperabel för olika aktörer. Den tar upp tekniska och organisatoriska utmaningar i digitaliseringen av leden.</td>\n</tr>\n<tr>\n<td>2</td>\n<td><a href=\"https://youtu.be/tjfSc8FdKjo\" rel=\"nofollow ugc\">Den universella leden - Stockholm Archipelago Trail</a></td>\n<td>Svenska</td>\n<td>Relaterar till hur leden kan göras internationellt tillgänglig och språköverskridande genom att använda Wikidata för att skapa ett \"language-agnostic framework\" för vandrare från utlandet.</td>\n</tr>\n<tr>\n<td>3</td>\n<td><a href=\"https://youtu.be/VbWErh2A8O8\" rel=\"nofollow ugc\">Att avkoda leden - Stockholm Archipelago Trail</a></td>\n<td>Svenska</td>\n<td>Fokuserar på behovet av att strukturera och standardisera data (Nivå 3) genom att följa standarder som INSPIRE eller Wikidata för att möjliggöra digital interoperabilitet.</td>\n</tr>\n<tr>\n<td>4</td>\n<td><a href=\"https://youtu.be/5atWdmH1StA\" rel=\"nofollow ugc\">Stockholms Archipelago Trails digitala spöke</a></td>\n<td>Svenska</td>\n<td>Adresserar bristen på transparent och öppen data för leden, där investeringar i fysiska objekt (som skyltar eller grillplatser) inte har resulterat i tillgängliga digitala leveranser eller API:er.</td>\n</tr>\n<tr>\n<td>5</td>\n<td><a href=\"https://youtu.be/4CkxYAfV_wg\" rel=\"nofollow ugc\">Stockholm Archipelago Trail - the Hikers Challenge - The Power of the Crowd</a></td>\n<td>Engelska</td>\n<td>Belyser vikten av community-drivna initiativ (Crowd) och verktyg som OpenStreetMap och Wikidata för att samla in och kvalitetssäkra data om intressepunkter längs leden.</td>\n</tr>\n<tr>\n<td>6</td>\n<td><a href=\"https://youtu.be/eB3MzlTqo9Q\" rel=\"nofollow ugc\">Skapandet av den moderna leden - Stockholm Archipelago Trail</a></td>\n<td>Svenska</td>\n<td>Diskuterar utvecklingen mot en \"modern led\" genom att uppnå högre digital mognad (Nivå 4–5) med länkad data och realtidsinformation.</td>\n</tr>\n<tr>\n<td>7</td>\n<td><a href=\"https://youtu.be/lavjNdKVhxs\" rel=\"nofollow ugc\">Data Reshaping Hiking</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/151\" rel=\"nofollow ugc\"> #151 </a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/73\" rel=\"nofollow ugc\"> #73 </a></td>\n<td>Engelska</td>\n<td>Handlar om hur data och digitalisering omformar vandringsupplevelsen och möjliggör smart turism genom datakvalitet och digitala tvillingar.</td>\n</tr>\n<tr>\n<td>8</td>\n<td><a href=\"https://youtu.be/12rXf-Txvsw\" rel=\"nofollow ugc\">The Future of the Trail</a></td>\n<td>Engelska</td>\n<td>Fokuserar på framtidsvisionen för leden: full digital mognad (Nivå 5) med realtidsmetadata, API-tillgänglighet och en Single Source of Truth (SSOT).</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f30d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--earth_africa\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":earth_africa:\" alt=\"🌍\" /> FAS 2 – Flerspråkighet och global räckvidd</h3>\n<p dir=\"auto\"><em>Hur leden görs tillgänglig för en internationell publik med hjälp av länkad data och Wikidata.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>9</td>\n<td><a href=\"https://youtu.be/JFOg-OaW2VI\" rel=\"nofollow ugc\">Hiking's Data Problem</a></td>\n<td>Engelska</td>\n<td>Beskriver de utmaningar som finns i friluftslivsdata – datasilos och brist på API-först-tänkande, vilket leder till låg digital mognad (ofta Nivå 0).</td>\n</tr>\n<tr>\n<td>10</td>\n<td><a href=\"https://youtu.be/QQiYeN9R8Y0\" rel=\"nofollow ugc\">Données de Randonnée</a></td>\n<td>Franska</td>\n<td>Visar hur SAT använder Linked Data (Wikidata/OSM) för att skapa språköverskridande information om leden för internationella vandrare.</td>\n</tr>\n<tr>\n<td>11</td>\n<td><a href=\"https://youtu.be/UUFjZBQAqns\" rel=\"nofollow ugc\">De Stockholm Archipelago Trail</a></td>\n<td>Nederländska</td>\n<td>Fokuserar på vikten av digital tillgänglighet och hur datamognad säkerställer att information om leden är sökbar och återanvändbar.</td>\n</tr>\n<tr>\n<td>12</td>\n<td><a href=\"https://youtu.be/RYc-5nYXYho\" rel=\"nofollow ugc\">Schärengarten-Wanderweg</a></td>\n<td>Tyska</td>\n<td>Adresserar utmaningarna med datasilos och betonar att övergången till API:er är nödvändig för realtids- och flerspråkig information.</td>\n</tr>\n<tr>\n<td>13</td>\n<td><a href=\"https://youtu.be/_7IiAPmiQ1I\" rel=\"nofollow ugc\">Stockholms skjulte utfordring</a></td>\n<td>Norska</td>\n<td>Belyser hur bristen på öppen data och API-först-tänkande skapar en “dold utmaning” för datahantering, och hur Wikidata löser nordiska språkbarriärer.</td>\n</tr>\n<tr>\n<td>14</td>\n<td><a href=\"https://youtu.be/nHeCo3hL64o\" rel=\"nofollow ugc\">Il Puzzle dell'Arcipelago</a></td>\n<td>Italienska</td>\n<td>Beskriver hur projektet samlar ihop splittrad information (“puzzlet”) genom strukturerad, länkad data (Nivå 4).</td>\n</tr>\n<tr>\n<td>15</td>\n<td><a href=\"https://youtu.be/scZ4DEBB6gQ\" rel=\"nofollow ugc\">Stockholms Skærgårdssti</a></td>\n<td>Danska</td>\n<td>Illustrerar behovet av en gemensam datakälla (SSOT) för korrekt och uppdaterad information på danska oavsett plattform.</td>\n</tr>\n<tr>\n<td>16</td>\n<td><a href=\"https://youtu.be/O4t3FkHQqiQ\" rel=\"nofollow ugc\">Guia do Caminhante Perdido</a></td>\n<td>Portugisiska</td>\n<td>Presenterar visionen om en digital guide med flerspråkig metadata för att hjälpa vandrare att hitta service och intressepunkter.</td>\n</tr>\n<tr>\n<td>17</td>\n<td><a href=\"https://youtu.be/2HgteQrKW5E\" rel=\"nofollow ugc\">Stockholmi saarestiku rada</a></td>\n<td>Estniska</td>\n<td>Fokuserar på hur digital interoperabilitet möjliggör datadelning oberoende av lokala språkkunskaper.</td>\n</tr>\n<tr>\n<td>18</td>\n<td><a href=\"https://youtu.be/fyjOYjfXt6c\" rel=\"nofollow ugc\">Szlak Mówiący Twoim Językiem</a></td>\n<td>Polska</td>\n<td>Understryker målet att skapa en språkligt oberoende ram via Wikidata som levererar ledinformation på polska och andra språk.</td>\n</tr>\n<tr>\n<td>19</td>\n<td><a href=\"https://youtu.be/Vmwalfvsc28\" rel=\"nofollow ugc\">El Camí de l'Arxipèlag</a></td>\n<td>Katalanska</td>\n<td>Beskriver hur SAT-projektet arbetar datadrivet för att nå högsta nivåer av digital mognad (Nivå 4/5).</td>\n</tr>\n<tr>\n<td>20</td>\n<td><a href=\"https://youtu.be/Tj4wPq4ixL4\" rel=\"nofollow ugc\">Stockholm Patikası Zorlukları</a></td>\n<td>Turkiska</td>\n<td>Adresserar de digitala utmaningar som finns i svensk friluftslivsdata där aktörer misslyckas leverera öppna, strukturerade data.</td>\n</tr>\n<tr>\n<td>21</td>\n<td><a href=\"https://youtu.be/dGkyoLwazHA\" rel=\"nofollow ugc\">Карта первопроходца</a></td>\n<td>Ryska</td>\n<td>Visar hur Wikidata används för att skapa flerspråkiga kartor (Nivå 4) tillgängliga för rysktalande besökare.</td>\n</tr>\n<tr>\n<td>22</td>\n<td><a href=\"https://youtu.be/RfwT4z0u40I\" rel=\"nofollow ugc\">Μονοπάτι Αρχιπελάγους Στοκχόλμης</a></td>\n<td>Grekiska</td>\n<td>Diskuterar hur digital interoperabilitet gör metadata begriplig för grekisktalande användare.</td>\n</tr>\n<tr>\n<td>23</td>\n<td><a href=\"https://youtu.be/bSLwu3DRXug\" rel=\"nofollow ugc\">จากพิมพ์เขียวสู่ป่าลึก: ภาษาลับของเส้นทาง</a></td>\n<td>Thailändska</td>\n<td>Beskriver övergången från analoga källor till strukturerad Smart Data (Nivå 3-5) för automatisk översättning och publicering.</td>\n</tr>\n<tr>\n<td>24</td>\n<td><a href=\"https://youtu.be/HqQoNkjwdC8\" rel=\"nofollow ugc\">數據破解斯德哥爾摩群島步道</a></td>\n<td>Kinesiska (Traditionell)</td>\n<td>Belyser vikten av att standardisera geodata (INSPIRE/Wikidata) för att “avkoda” leden för kinesisktalande besökare.</td>\n</tr>\n<tr>\n<td>25</td>\n<td><a href=\"https://youtu.be/NQ171uj29yU\" rel=\"nofollow ugc\">広がる道：誰もが使えるトレイルへ</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Japanese_language\" rel=\"nofollow ugc\">Japanska</a></td>\n<td>Handlar om att skapa en led som är universellt tillgänglig och följer FAIR-principerna via Wikidata.</td>\n</tr>\n<tr>\n<td>26</td>\n<td><a href=\"https://youtu.be/aMGSSJrTAKw\" rel=\"nofollow ugc\">ஸ்டாக்ஹோம் தீவுக்கூட்டப் பாதை திட்டம்</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Tamils\" rel=\"nofollow ugc\">Tamil</a></td>\n<td>Understryker behovet av API:er och länkad data (Nivå 5) för aktuell information till tamiltalande turister.</td>\n</tr>\n<tr>\n<td>27</td>\n<td><a href=\"https://youtu.be/FVzif0AFjQs\" rel=\"nofollow ugc\">സ്റ്റോക്ക്ഹോം പാതയും ഓപ്പൺ ഡാറ്റയും</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Malayalam\" rel=\"nofollow ugc\">Malayalam</a></td>\n<td>Fokuserar på hur öppen data och community-insatser (OSM/Wikidata) bygger ett hållbart informations-ekosystem.</td>\n</tr>\n<tr>\n<td>28</td>\n<td><a href=\"https://youtu.be/Ul6DfKul-2E\" rel=\"nofollow ugc\">द्वीपसमूह को समझना</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Hindi\" rel=\"nofollow ugc\">Hindi</a></td>\n<td>Diskuterar hur datakvalitet och SSOT är avgörande för tillförlitlig information på hindi.</td>\n</tr>\n<tr>\n<td>29</td>\n<td><a href=\"https://youtu.be/NhfPucSTSKU\" rel=\"nofollow ugc\">ਟਾਪੂ-ਸਮੂਹ ਨੂੰ ਖੋਲ੍ਹਣਾ</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Punjabi_language\" rel=\"nofollow ugc\">Punjabi</a></td>\n<td>Belyser hur flerspråkig metadata via Wikidata öppnar upp skärgårdens information för punjabitalande besökare.</td>\n</tr>\n<tr>\n<td>30</td>\n<td><a href=\"https://youtu.be/Pd2MVCMcBpE\" rel=\"nofollow ugc\">ಹಾದಿಯ ಭವಿಷ್ಯ: ಡಿಜಿಟಲ್ ಸವಾಲು</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Kannada\" rel=\"nofollow ugc\">Kannada</a></td>\n<td>Sammanfattar digitala utmaningar (brist på API:er, strukturerad data) och behovet av hög digital mognad.</td>\n</tr>\n<tr>\n<td>31</td>\n<td><a href=\"https://youtu.be/qAZdXqmsEOQ\" rel=\"nofollow ugc\">길의 미래를 함께 만들다: 스톡홀름 군도 트레일</a></td>\n<td><a href=\"https://en.wikipedia.org/wiki/Korean_language\" rel=\"nofollow ugc\">Koreanska</a></td>\n<td>Fokuserar på att bygga framtidens led med Linked Data (Wikidata) för global tillgänglighet.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3>🧩 FAS 3 – Arkitektur och smart data</h3>\n<p dir=\"auto\"><em>Hur vi går från fragmenterad information till sammanhängande digitala tvillingar.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>32</td>\n<td><a href=\"https://youtu.be/3JjOkCv5BeM\" rel=\"nofollow ugc\">Länkad data: Kartlägger vår värld</a></td>\n<td>Svenska</td>\n<td>Visar hur länkad data knyter samman geografiska data (OSM) och metadata (Wikidata) för interoperabilitet (Nivå 4).</td>\n</tr>\n<tr>\n<td>33</td>\n<td><a href=\"https://youtu.be/sc_H0kHgFxo\" rel=\"nofollow ugc\">Den vidgade stigen</a></td>\n<td>Svenska</td>\n<td>Fokuserar på att utvidga leden till ett öppet dataekosystem med flerspråkig, länkad information.</td>\n</tr>\n<tr>\n<td>34</td>\n<td><a href=\"https://youtu.be/q2uqr-16Zd8\" rel=\"nofollow ugc\">Bygg framtidens vandringsleder</a></td>\n<td>Svenska</td>\n<td>Strategier för digital mognad (Nivå 5): API-först, realtidsdata och SSOT.</td>\n</tr>\n<tr>\n<td>35</td>\n<td><a href=\"https://youtu.be/FW6MDhoCEKk\" rel=\"nofollow ugc\">Agile Linked Data: Sustainable Trails</a></td>\n<td>Engelska</td>\n<td>Hur agila metoder och Linked Data säkrar hållbarhet genom interoperabilitet (Nivå 4/5).</td>\n</tr>\n<tr>\n<td>36</td>\n<td><a href=\"https://youtu.be/mKvdCT2wF94\" rel=\"nofollow ugc\">Den smarta leden</a></td>\n<td>Svenska</td>\n<td>Introducerar “Smart Data” och hur API:er kan ge realtidsstatus och dynamiska data.</td>\n</tr>\n<tr>\n<td>37</td>\n<td><a href=\"https://youtu.be/NKDyRAtjvDI?si=qUumR21Yv0MYndB9\" rel=\"nofollow ugc\">Från kaos till smart data</a></td>\n<td>Svenska</td>\n<td>Illustrerar vägen från Kaosnivå (Nivå 0) till Smart Data och digitala tvillingar (Nivå 5).</td>\n</tr>\n<tr>\n<td>38</td>\n<td><a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/252\" rel=\"nofollow ugc\">Unseen Architecture of Trails</a></td>\n<td>Engelska</td>\n<td>Beskriver den “osynliga arkitekturen” bakom leden: metadata, Linked Data och SSOT.</td>\n</tr>\n<tr>\n<td>39</td>\n<td><a href=\"https://youtu.be/VH1reSTAMwY\" rel=\"nofollow ugc\">Make Hiking Data Shine</a></td>\n<td>Engelska</td>\n<td>Förespråkar FAIR-data (Findable, Accessible, Interoperable, Reusable). Relaterar till <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/241\" rel=\"nofollow ugc\"> #241 </a>.</td>\n</tr>\n<tr>\n<td>40</td>\n<td><a href=\"https://youtu.be/_oR8I80JYP0\" rel=\"nofollow ugc\">Bortom ledmarkeringarna</a></td>\n<td>Svenska</td>\n<td>Betonar att digital upplevelse bör gå bortom fysiska skyltar – genom rik metadata.</td>\n</tr>\n<tr>\n<td>41</td>\n<td><a href=\"https://youtu.be/SzkKbzsfyRU\" rel=\"nofollow ugc\">Hiking Maturity Model</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/241\" rel=\"nofollow ugc\"> #241 </a></td>\n<td>Svenska</td>\n<td>Introducerar Hiking Trails Digital Maturity Model – från Kaosnivå (0) till Smart Data (5).</td>\n</tr>\n<tr>\n<td>42</td>\n<td><a href=\"https://youtu.be/JaD7mYzlma8?si=fNwz_K0HS3Q4z9gh\" rel=\"nofollow ugc\">Stockholm Archipelago Trail Living Digital Twin</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/200\" rel=\"nofollow ugc\"> #200 </a></td>\n<td>Svenska</td>\n<td>Fokuserar på den levande digitala tvillingen för SAT med Linked Open Data (Wikidata/OSM).</td>\n</tr>\n<tr>\n<td>43</td>\n<td><a href=\"https://youtu.be/uGPEOp3B7WQ\" rel=\"nofollow ugc\">Stockholm Trail’s Digital Twin – English</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/200\" rel=\"nofollow ugc\"> #200 </a></td>\n<td>Engelska</td>\n<td>Engelska versionen av nr 42 – smart turism genom Linked Open Data och flerspråkighet.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3>🧠 FAS 4 – Tillgänglighet, kvalitet och transparens</h3>\n<p dir=\"auto\"><em>Om vikten av öppna data, tillgänglighet och ansvar i offentliga projekt.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>44</td>\n<td><a href=\"https://youtu.be/Ab2VHF6n3V8\" rel=\"nofollow ugc\">Skapa tillgänglig natur</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/245\" rel=\"nofollow ugc\"> #245 </a></td>\n<td>Svenska</td>\n<td>Betonar vikten av tillgänglighetsdata (t.ex. “wheelchair”-taggar) och behovet av tydliga datakrav.</td>\n</tr>\n<tr>\n<td>45</td>\n<td><a href=\"https://youtu.be/N9LI_8Zy-to\" rel=\"nofollow ugc\">SAT: Vacker led, digital fälla?</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/261\" rel=\"nofollow ugc\"> #261 </a></td>\n<td>Svenska</td>\n<td>Ställer kritiska frågor om SAT-projektet: är det en vacker led men en digital fälla?</td>\n</tr>\n<tr>\n<td>46</td>\n<td><a href=\"https://youtu.be/qdIDF2SFjJE\" rel=\"nofollow ugc\">Stockholm Archipelago Trail – Path or Trap</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/261\" rel=\"nofollow ugc\"> #261 </a></td>\n<td>Engelska</td>\n<td>Engelska versionen av nr 45 – saknad av API:er och öppna data ger digital risker.</td>\n</tr>\n<tr>\n<td>47</td>\n<td><a href=\"https://youtu.be/ybWZkL8Mhpk?si=hRHPhJ1iK4emi9zZ\" rel=\"nofollow ugc\">Vackra leder, digitala fällor</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/261\" rel=\"nofollow ugc\"> #261 </a></td>\n<td>Svenska</td>\n<td>Del av samma kritiska diskussion – visar hur kommunikation ersätter dataförsörjning.</td>\n</tr>\n<tr>\n<td>49</td>\n<td><a href=\"https://youtu.be/F-Te57TCKzU\" rel=\"nofollow ugc\">Offentliga leder, öppen data</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/262\" rel=\"nofollow ugc\"> #262 </a></td>\n<td>Svenska</td>\n<td>Tar upp vikten av öppna data enligt EU:s direktiv om vidareutnyttjande av offentlig information.</td>\n</tr>\n<tr>\n<td>50</td>\n<td><a href=\"https://youtu.be/wJwttzo9Ao4\" rel=\"nofollow ugc\">Gör friluftsäventyr FAIR</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/263\" rel=\"nofollow ugc\"> #263 </a></td>\n<td>Svenska</td>\n<td>Visar hur friluftsdata kan göras FAIR – sökbar, interoperabel, återanvändbar.</td>\n</tr>\n<tr>\n<td>51</td>\n<td><a href=\"https://youtu.be/FKco6rs8H3s\" rel=\"nofollow ugc\">Från vilse till återfunnen</a></td>\n<td>Svenska</td>\n<td>Fokuserar på säkerhet: hur data kan förebygga att vandrare går vilse genom realtidsdata.</td>\n</tr>\n<tr>\n<td>52</td>\n<td><a href=\"https://youtu.be/sUhx2HFUCbU\" rel=\"nofollow ugc\">Från Papper till Plattform</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/263\" rel=\"nofollow ugc\"> #263 </a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/241\" rel=\"nofollow ugc\"> #241 </a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/147\" rel=\"nofollow ugc\"> #147 </a></td>\n<td>Svenska</td>\n<td>Visar processen att flytta leddata från PDF:er till digitala plattformar – en resa i mognad.</td>\n</tr>\n<tr>\n<td>53</td>\n<td><a href=\"https://youtu.be/n-EQQLI-JTs\" rel=\"nofollow ugc\">SAT: Från PDF till öppen karta</a></td>\n<td>Svenska</td>\n<td>Praktiskt exempel på övergång från Kaosnivå (PDF) till interoperabel karta via Wikidata/OSM.</td>\n</tr>\n<tr>\n<td>54</td>\n<td><a href=\"https://youtu.be/NDeKbyfGmPk\" rel=\"nofollow ugc\">Att digitalisera skärgården</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/93\" rel=\"nofollow ugc\"> #93 </a></td>\n<td>Svenska</td>\n<td>Diskuterar Archipelago Access-projektet (€1.46M) och bristen på API:er och öppna data.</td>\n</tr>\n</tbody>\n</table>\n<h3><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f3d6.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--beach_with_umbrella\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":beach_with_umbrella:\" alt=\"🏖\" />️ SMART TURISM &amp; DATADRIVET EKOSYSTEM</h3>\n<p dir=\"auto\"><em>Hur öppna data, digitala tvillingar och realtidsinformation kan förvandla besöksnäringen – och vad som händer när man inte gör det.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>70</td>\n<td><a href=\"https://www.youtube.com/watch?v=35zAwMobm3o\" rel=\"nofollow ugc\">Smart Tourism – Beyond the Brochure</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/282\" rel=\"nofollow ugc\"> #282 </a></td>\n<td>Engelska</td>\n<td>Filmen visar hur smart turism bygger på öppna data, API:er och realtidsinformation – inte PDF-broschyrer. Jämför länder som Finland och Estland med Sverige, där bristen på datadrivna plattformar bromsar innovation.</td>\n</tr>\n<tr>\n<td>71</td>\n<td><a href=\"https://youtu.be/CHQAuIj26Yk\" rel=\"nofollow ugc\">Sjumiljonersfrågan – Lessons from Archipelago Access</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/283\" rel=\"nofollow ugc\"> #283 </a></td>\n<td>Svenska</td>\n<td>En kritisk granskning av projektet Archipelago Access (2019–2021), där 7 miljoner kronor investerades i en “digital portal” utan öppna data, API:er eller interoperabilitet. Filmen visar vad som hade kunnat byggas istället: ett datadrivet ekosystem för skärgårdsturism.</td>\n</tr>\n<tr>\n<td>72</td>\n<td><a href=\"https://youtu.be/--6JxYIxJoI?si=l90QBH1bVl2OIBXP\" rel=\"nofollow ugc\">Marketing to Data Stewardship</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/284\" rel=\"nofollow ugc\"> #284 </a></td>\n<td>Engelska</td>\n<td>Förklarar skiftet från kommunikationskampanjer till datadriven destinationsutveckling. Visar hur FAIR-data och digital mognad kan skapa hållbar tillväxt i besöksnäringen.</td>\n</tr>\n<tr>\n<td>73</td>\n<td><a href=\"https://youtu.be/4OGjOy3sQAU\" rel=\"nofollow ugc\">Öppna Data, Öppen Turism</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/285\" rel=\"nofollow ugc\"> #285 </a></td>\n<td>Svenska</td>\n<td>En framtidsvision där öppna data om natur, kultur, transporter och service skapar en “Smart Destination” – ett levande digitalt ekosystem för turism där innovation sker genom samverkan.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3>🧭 STRATEGI &amp; STYRNING (vision och ansvar)</h3>\n<p dir=\"auto\"><em>Om kultur, ledarskap och ansvar i digital transformation.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>55</td>\n<td><a href=\"https://youtu.be/QuK-GscJCXs\" rel=\"nofollow ugc\">Den saknade digitala visionen</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/268\" rel=\"nofollow ugc\"> #268 </a></td>\n<td>Svenska</td>\n<td>En film som tydliggör problemet: myndigheter skriver dokument istället för att bygga öppna, datadrivna ekosystem. Budskapet: “Digitalisering handlar inte om dokument – utan om data.”</td>\n</tr>\n<tr>\n<td>56</td>\n<td><a href=\"https://youtu.be/8OXiiDjiOYo\" rel=\"nofollow ugc\">FAIR Governance – att leda med data</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/269\" rel=\"nofollow ugc\"> #269 </a></td>\n<td>Svenska</td>\n<td>Förklarar hur FAIR-principerna (Findable, Accessible, Interoperable, Reusable) bör genomsyra ledning och styrning. Betonar vikten av datakvalitet, metadata och EU:s Open Data Directive (2023/138).</td>\n</tr>\n<tr>\n<td>57</td>\n<td><a href=\"https://www.youtube.com/watch?v=QuK-GscJCXs&amp;list=PLNWUKRLAYDeTeJjC4RklcS0M_Kp_1htMd&amp;index=13\" rel=\"nofollow ugc\">The Missing Digital Vision – EU Data Strategy in Action</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/270\" rel=\"nofollow ugc\"> #270 </a></td>\n<td>Svenska</td>\n<td>Riktad till beslutsfattare – visar hur EU:s High Value Datasets och PSI-direktiv kan användas konkret inom friluftsliv och turism, men där Sverige halkar efter.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3>🧱 INFRASTRUKTUR &amp; STANDARDER (kopplingen till EU, INSPIRE, PSI)</h3>\n<p dir=\"auto\"><em>Hur europeiska ramverk formar framtiden för interoperabilitet.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>58</td>\n<td><a href=\"https://youtu.be/qs-WXxFZGH4\" rel=\"nofollow ugc\">Offentlig datainfrastruktur</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/271\" rel=\"nofollow ugc\"> #271 </a></td>\n<td>Svenska</td>\n<td>Visar hur EU:s INSPIRE-direktiv kan fungera som bro mellan geografiska data och kultur/turismdata. Jämför med Wikidata som ett lättare semantiskt lager.</td>\n</tr>\n<tr>\n<td>59</td>\n<td><a href=\"https://youtu.be/QzXfOy7-xJM\" rel=\"nofollow ugc\">EU:s Viktiga Datamängder – Sveriges Digitala Blindfläck</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/272\" rel=\"nofollow ugc\"> #272 </a></td>\n<td>Svenska</td>\n<td>Lyfter att Sverige ännu inte uppfyller EU-krav på att publicera High Value Datasets som öppna API:er – särskilt inom geodata och mobilitet.</td>\n</tr>\n<tr>\n<td>60</td>\n<td><a href=\"#\">Open Data Act in Practice</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/273\" rel=\"nofollow ugc\"> #273 </a></td>\n<td>Svenska</td>\n<td>Visar hur Nederländerna, Frankrike och Estland implementerar EU:s öppna datadirektiv konkret, medan Sverige ofta stannar vid dokument.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2699.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--gear\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":gear:\" alt=\"⚙\" />️ TEKNIK &amp; ARBETSSÄTT (agilt, API-först, open backlog)</h3>\n<p dir=\"auto\"><em>Om arbetssätt, metoder och verktyg som möjliggör öppen innovation.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>61</td>\n<td><a href=\"https://youtu.be/1fcyZA_okus\" rel=\"nofollow ugc\">Från backlog till verklighet</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/274\" rel=\"nofollow ugc\"> #274 </a></td>\n<td>Svenska</td>\n<td>Visar hur agila metoder, öppna GitHub-backlogs och iterativ utveckling skapar transparens och snabbare innovation.</td>\n</tr>\n<tr>\n<td>62</td>\n<td><a href=\"https://youtu.be/qN0Cbl8Hsv4\" rel=\"nofollow ugc\">API First Sweden</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/275\" rel=\"nofollow ugc\"> #275 </a></td>\n<td>Svenska</td>\n<td>Undersöker varför API-först-tänkandet inte slagit igenom i offentlig sektor trots dess centrala roll för modern datadelning.</td>\n</tr>\n<tr>\n<td>63</td>\n<td><a href=\"#\">Public Data Infrastructure – the Missing Layer</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/276\" rel=\"nofollow ugc\"> #276 </a></td>\n<td>Engelska</td>\n<td>Förklarar behovet av att betrakta datadelning som infrastruktur – inte som enskilda projekt. Knyter till konceptet “Data Spaces” och EU:s Data Strategy.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f4a1.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--bulb\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":bulb:\" alt=\"💡\" /> MÄNNISKA &amp; VÄRDE (vad händer när man inte är datadriven)</h3>\n<p dir=\"auto\"><em>Om konsekvenserna av bristande digital mognad – och varför öppenhet lönar sig.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>64</td>\n<td><a href=\"https://youtu.be/BssSOKhaLIc\" rel=\"nofollow ugc\">Den förlorade datan</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/276\" rel=\"nofollow ugc\"> #276 </a></td>\n<td>Svenska</td>\n<td>En berättelse om vad som händer när projekt avslutas utan att data lever vidare – PDF:er, döda länkar, bortglömda filer. “Vi betalar för data vi aldrig kan återanvända.”</td>\n</tr>\n<tr>\n<td>65</td>\n<td><a href=\"#\">From Tax Money to Open APIs</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/277\" rel=\"nofollow ugc\"> #277 </a></td>\n<td>Engelska</td>\n<td>En internationell version av samma tema – offentliga investeringar ska leda till öppna data assets, inte kommunikationskampanjer.</td>\n</tr>\n<tr>\n<td>66</td>\n<td><a href=\"#\">The Cost of Closed Data</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/278\" rel=\"nofollow ugc\"> #278 </a></td>\n<td>Svenska</td>\n<td>Tar upp samhällsekonomiska konsekvenser av stängda data: utebliven innovation, dubbla projekt och onödiga upphandlingar – med exempel från turism och friluftsliv.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h3><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f680.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--rocket\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":rocket:\" alt=\"🚀\" /> FRAMTID &amp; VISION (The FAIR Trail Network)</h3>\n<p dir=\"auto\"><em>En avslutande blick framåt – hur Sverige och Europa kan bygga en gemensam datadriven framtid.</em></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Nr</th>\n<th>Titel</th>\n<th>Språk</th>\n<th>Innehåll</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>67</td>\n<td><a href=\"#\">The FAIR Trail Network</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/279\" rel=\"nofollow ugc\"> #279 </a></td>\n<td>Engelska</td>\n<td>En framtidsfilm som visar visionen: Europas leder som en sammanhängande, öppen datainfrastruktur via Wikidata och OSM – med realtidskoppling till service, natur, säkerhet och tillgänglighet.</td>\n</tr>\n<tr>\n<td>68</td>\n<td><a href=\"https://youtu.be/LG9yA7TTmOA\" rel=\"nofollow ugc\">Sweden’s Digital Awakening</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/280\" rel=\"nofollow ugc\"> #280 </a></td>\n<td>Engelska</td>\n<td>En reflekterande film om Sveriges nuläge inom öppna data – potentialen finns, men implementationen saknas. En wake-up call till beslutsfattare.</td>\n</tr>\n<tr>\n<td>69</td>\n<td><a href=\"https://youtu.be/GSW9q9u1O2w\" rel=\"nofollow ugc\">Data First – Not Documents</a> <a href=\"https://github.com/salgo60/Stockholm_Archipelago_Trail/issues/281\" rel=\"nofollow ugc\"> #281 </a></td>\n<td>Svenska / Engelska</td>\n<td>En kort, kraftfull film som påminner: digitalisering handlar inte om att skriva – utan om att länka. Fungerar som trailer eller manifest.</td>\n</tr>\n</tbody>\n</table>\n",
+      "pid": 5376,
+      "tid": 934,
+      "timestamp": 1761851141294,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-30T19:05:41.294Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/5385",
+          "type": "backlink",
+          "uid": 1802,
+          "id": 711,
+          "timestamp": 1762770366477,
+          "timestampISO": "2025-11-10T10:26:06.477Z",
+          "user": {
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "uid": 1802,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          },
+          "icon": "fa-link",
+          "text": "<img alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #2196f3;\">M</span> <a href=\"/user/magnus-sälgö\">Magnus Sälgö</a> <a href=\"/post/5385\">referenced</a> this topic <span class=\"timeago timeline-text\" title=\"2025-11-10T10:26:06.477Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/5385",
+      "type": "backlink",
+      "uid": 1802,
+      "id": 711,
+      "timestamp": 1762770366477,
+      "timestampISO": "2025-11-10T10:26:06.477Z",
+      "user": {
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "uid": 1802,
+        "displayname": "Magnus Sälgö",
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3"
+      },
+      "icon": "fa-link",
+      "text": "<img alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Magnus Sälgö\" title=\"Magnus Sälgö\" data-uid=\"1802\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #2196f3;\">M</span> <a href=\"/user/magnus-sälgö\">Magnus Sälgö</a> <a href=\"/post/5385\">referenced</a> this topic <span class=\"timeago timeline-text\" title=\"2025-11-10T10:26:06.477Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#bd7056",
+    "cid": 35,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Delta i dialog och inkom med behov som rör kompetensförsörjning och livslångtlärande (KLL).",
+    "descriptionParsed": "<p dir=\"auto\">Delta i dialog och inkom med behov som rör kompetensförsörjning och livslångtlärande (KLL).</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Kompetensförsörjning och livslångtlärande (KLL)  ",
+    "numRecentReplies": 1,
+    "order": 0,
+    "parentCid": 23,
+    "post_count": 80,
+    "slug": "35/kompetensförsörjning-och-livslångtlärande-kll",
+    "subCategoriesPerPage": 10,
+    "topic_count": 30,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 80,
+    "totalTopicCount": 30
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "934",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/934.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Kompetensförsörjning och livslångtlärande (KLL)  ",
+      "url": "/category/35/kompetensförsörjning-och-livslångtlärande-kll",
+      "cid": 35
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/934",
+  "bodyClass": "page-topic page-topic-934 template-topic page-topic-category-35 page-topic-category-kompetensförsörjning-och-livslångtlärande-kll parent-category-23 parent-category-35 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Arbete med en sammanhållen datainfrastruktur fortsätter"
+        },
+        {
+          "name": "description",
+          "content": "Nu etableras en fortsättning på det myndighetsgemensamma arbetet med att utveckla en sammanhållen datainfrastruktur för kompetensförsörjning och livslångs lärande. Syftet med denna grupp är att förbättra möjligheterna att utveckla tjänster med utbildnings..."
+        },
+        {
+          "property": "og:title",
+          "content": "Arbete med en sammanhållen datainfrastruktur fortsätter"
+        },
+        {
+          "property": "og:description",
+          "content": "Nu etableras en fortsättning på det myndighetsgemensamma arbetet med att utveckla en sammanhållen datainfrastruktur för kompetensförsörjning och livslångs lärande. Syftet med denna grupp är att förbättra möjligheterna att utveckla tjänster med utbildnings..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2024-04-29T06:00:31.926Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-10-30T19:05:41.294Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Kompetensförsörjning och livslångtlärande (KLL)  "
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/934",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/934/arbete-med-en-sammanhållen-datainfrastruktur-fortsätter",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/934.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/35/kompetensförsörjning-och-livslångtlärande-kll"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/maria_dalhage"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

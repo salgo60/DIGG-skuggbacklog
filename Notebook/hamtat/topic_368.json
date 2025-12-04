@@ -1,0 +1,748 @@
+{
+  "cid": 4,
+  "lastposttime": 1655650541675,
+  "mainPid": 1551,
+  "postcount": 4,
+  "slug": "368/dataportal-ses-identifierare-ifrån-rdf",
+  "tags": [
+    {
+      "value": "entryscape",
+      "valueEscaped": "entryscape",
+      "valueEncoded": "entryscape",
+      "class": "entryscape"
+    },
+    {
+      "value": "dataportal.se",
+      "valueEscaped": "dataportal.se",
+      "valueEncoded": "dataportal.se",
+      "class": "dataportal.se"
+    },
+    {
+      "value": "maskinläsbarhet",
+      "valueEscaped": "maskinläsbarhet",
+      "valueEncoded": "maskinl%C3%A4sbarhet",
+      "class": "maskinläsbarhet"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    }
+  ],
+  "tid": 368,
+  "timestamp": 1654162386231,
+  "title": "dataportal.ses identifierare ifrån RDF",
+  "uid": 465,
+  "viewcount": 559,
+  "postercount": 4,
+  "teaserPid": 1639,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "dataportal.ses identifierare ifrån RDF",
+  "timestampISO": "2022-06-02T09:33:06.231Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-06-19T14:55:41.675Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Finns det något sett att få eller beräkna identifierarna som används för dataset och kataloger på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> i RDF-dumpen?</p>\n<p dir=\"auto\">Till exempel om man genom <a href=\"https://admin.dataportal.se/store/233/metadata/9780?recursive=dcat\" rel=\"nofollow ugc\">RDF versionen</a> av följande sida vill ha ut \"233\" och \"9780\".</p>\n<p dir=\"auto\"><a href=\"https://www.dataportal.se/en/datasets/233_9780\" rel=\"nofollow ugc\">https://www.dataportal.se/en/datasets/233_9780</a></p>\n",
+      "pid": 1551,
+      "tid": 368,
+      "timestamp": 1654162386231,
+      "uid": 465,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-06-09T15:27:19.213Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-06-02T09:33:06.231Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 465,
+        "username": "hinep",
+        "userslug": "hinep",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1654183998438,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "hinep",
+        "groupTitleArray": [],
+        "icon:text": "H",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-06-02T15:33:18.438Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/465\">@hinep</a><br />\nHej,  efter lite rådfrågning hos våra tekniska specialister:<br />\nOm vi förstår frågan rätt så handlar det om hur man från informationen i RDF hittar 233 (contextId) och 9780 (entryId). Om man tittar i RDF (använd gärna Turtle formatet som är lättare för ögat):<br />\n<a href=\"https://admin.dataportal.se/store/233/metadata/9780?recursive=dcat&amp;format=text/turtle\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/233/metadata/9780?recursive=dcat&amp;format=text/turtle</a><br />\nSå ser man att datamängden motsvaras av URIn \"<a href=\"https://katalog.lund.se/store/1/resource/9\" rel=\"nofollow ugc\">https://katalog.lund.se/store/1/resource/9</a>\" då den är typad som dcat:Dataset.</p>\n<p dir=\"auto\">För att hitta den i API:et måste man ställa en fråga som ser ut som:</p>\n<p dir=\"auto\"><a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=resource:H%C3%84R_SKRIVER_DU_IN_DATAM%C3%84NGDENS_URI_ESCAPAD\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=resource:HÄR_SKRIVER_DU_IN_DATAMÄNGDENS_URI_ESCAPAD</a></p>\n<p dir=\"auto\">Obs, på grund av att kolon är en speciellt tecken i solr queryn måste det escapas först som \":\". Men eftersom \"\" är ett escape tecken i strängar måste man dubbelescapa, dvs \"\\:\".  Därefter måste alla övriga tecken escapas enligt URI escape principer. I javascript kan man åstadkomma alltihopa genom följande kod:<br />\nencodeURIComponent(\"<a href=\"https://katalog.lund.se/store/1/resource/9%22.replace(%22:\" rel=\"nofollow ugc\">https://katalog.lund.se/store/1/resource/9\".replace(\":</a>\", \"\\:\"))</p>\n<p dir=\"auto\">I detta fall blir själva söksträngen:<br />\n<a href=\"https://admin.dataportal.se/store/search?type=solr&amp;query=resource:https%5C%3A%2F%2Fkatalog.lund.se%2Fstore%2F1%2Fresource%2F9\" rel=\"nofollow ugc\">https://admin.dataportal.se/store/search?type=solr&amp;query=resource:https\\%3A%2F%2Fkatalog.lund.se%2Fstore%2F1%2Fresource%2F9</a></p>\n<p dir=\"auto\">I svaret man får (i JSON) får man ut contextId och entryId för varje matchande resultat, dvs i detta fall där det bara finns en träff :<br />\ncontextId = results.resource.children[0].contextId<br />\nentryId    = resource.children[0].entryId</p>\n<p dir=\"auto\">För mer information om hur API:et fungerar i sin helhet läs här:<br />\n<a href=\"https://entrystore.org/kb/search/\" rel=\"nofollow ugc\">https://entrystore.org/kb/search/</a><br />\nSamt lite förenklad information om API:et för dataportalen: <a href=\"https://docs.dataportal.se/registry/api/\" rel=\"nofollow ugc\">https://docs.dataportal.se/registry/api/</a> Jag ska se över om vi kan komplettera den informationen med just denna frågeställning, om fler har behov av informationen.</p>\n<p dir=\"auto\">Hoppas det hjälper!<br />\nVänliga hälsningar,<br />\nKristine</p>\n",
+      "pid": 1570,
+      "tid": 368,
+      "timestamp": 1654788439213,
+      "toPid": "1551",
+      "uid": 7,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 475,
+            "username": "kepehi5155",
+            "userslug": "kepehi5155",
+            "picture": null,
+            "fullname": null,
+            "displayname": "kepehi5155",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-06-09T22:52:27.071Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-06-09T15:27:19.213Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "hinep",
+        "displayname": "hinep"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@Kristine_</a> intressant med lite dokumentation</p>\n<p dir=\"auto\">Fundering på exemplet \"<a href=\"https://www.dataportal.se/datasets/233_9780/skolmaten-i-lunds-kommun#ref=?p=1&amp;q=skolmat%20Lund&amp;s=2&amp;t=20&amp;f=&amp;rt=dataset%24esterms_IndependentDataService%24esterms_ServedByDataService&amp;c=false\" rel=\"nofollow ugc\">Skolmaten i Lunds kommun</a>\" den pekar på ett API som inte bara har med Lunds kommun att göra (se <a href=\"https://github.com/salgo60/open-data-examples/blob/master/Skolmat.se%20API.ipynb\" rel=\"nofollow ugc\">notebook</a>)</p>\n<p dir=\"auto\">Har ni tänkt att alla kommuner som använder detta skall lägga upp identiska poster? Borde räcka med en post i dataportalen som täcker alla kommuner som är med i detta API..... vem styr upp detta eller blir det som det blir...</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1654815115428-ca3c2675-8679-41ea-aa48-6f225670ff9f-image.png\" alt=\"ca3c2675-8679-41ea-aa48-6f225670ff9f-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1571,
+      "tid": 368,
+      "timestamp": 1654815147071,
+      "toPid": "1570",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-06-09T22:52:27.071Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@Kristine_</a> Tack! Finns det några planer att infoga dessa identifierare i RDF versionen / datadumpen? Man förväntar ju sig att dumpen ska vara fullständigt och om inte annat hade det varit praktiskt att kunna hålla sig till RDF.</p>\n",
+      "pid": 1639,
+      "tid": 368,
+      "timestamp": 1655650541675,
+      "toPid": "1570",
+      "uid": 475,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-06-19T14:55:41.675Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 475,
+        "username": "kepehi5155",
+        "userslug": "kepehi5155",
+        "reputation": 0,
+        "postcount": 1,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1655650541728,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "kepehi5155",
+        "groupTitleArray": [],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2022-06-19T14:55:41.728Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd7a6e",
+    "cid": 4,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Om du har synpunkter på Sveriges dataportal.",
+    "descriptionParsed": "<p dir=\"auto\">Om du har synpunkter på Sveriges dataportal.</p>\n",
+    "disabled": 0,
+    "icon": "fa-question",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Feedback på dataportal.se",
+    "numRecentReplies": 1,
+    "order": 12,
+    "parentCid": 0,
+    "post_count": 648,
+    "slug": "4/feedback-på-dataportal-se",
+    "topic_count": 103,
+    "subCategoriesPerPage": 10,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 648,
+    "totalTopicCount": 103
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "368",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/368.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Feedback på dataportal.se",
+      "url": "/category/4/feedback-på-dataportal-se",
+      "cid": 4
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/368",
+  "bodyClass": "page-topic page-topic-368 template-topic page-topic-category-4 page-topic-category-feedback-på-dataportal-se parent-category-4 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "dataportal.ses identifierare ifrån RDF"
+        },
+        {
+          "name": "description",
+          "content": "Finns det något sett att få eller beräkna identifierarna som används för dataset och kataloger på dataportal.se i RDF-dumpen? Till exempel om man genom RDF versionen av följande sida vill ha ut &quot;233&quot; och &quot;9780&quot;. https://www.dataportal.se/en/datasets/233_9..."
+        },
+        {
+          "property": "og:title",
+          "content": "dataportal.ses identifierare ifrån RDF"
+        },
+        {
+          "property": "og:description",
+          "content": "Finns det något sett att få eller beräkna identifierarna som används för dataset och kataloger på dataportal.se i RDF-dumpen? Till exempel om man genom RDF versionen av följande sida vill ha ut &quot;233&quot; och &quot;9780&quot;. https://www.dataportal.se/en/datasets/233_9..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-06-02T09:33:06.231Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-06-19T14:55:41.675Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Feedback på dataportal.se"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/368",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/368/dataportal-ses-identifierare-ifrån-rdf",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/368.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/4/feedback-på-dataportal-se"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/hinep"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

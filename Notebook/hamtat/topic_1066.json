@@ -1,0 +1,687 @@
+{
+  "cid": 23,
+  "lastposttime": 1762773095683,
+  "mainPid": 5379,
+  "postcount": 4,
+  "slug": "1066/referensdata",
+  "tags": [
+    {
+      "value": "referensdata",
+      "valueEscaped": "referensdata",
+      "valueEncoded": "referensdata",
+      "class": "referensdata"
+    }
+  ],
+  "tid": 1066,
+  "timestamp": 1762342844839,
+  "title": "Referensdata",
+  "uid": 1773,
+  "viewcount": 147,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 5387,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Referensdata",
+  "timestampISO": "2025-11-05T11:40:44.839Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-11-10T11:11:35.683Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag hittade inget kring ämnet referensdata så jag startar en allmän tråd om ämnet. Är referensdata off topic för Community på Sveriges dataportal så mottar jag gärna tips om var man kan diskutera det.</p>\n<p dir=\"auto\">Enligt Data Management Body of Knowledge (DAMA) definieras referensdata på följande sätt:</p>\n<p dir=\"auto\">\"Reference data is data used to classify or categorize other data.\" (<a href=\"https://en.wikipedia.org/wiki/Reference_data#cite_note-1\" rel=\"nofollow ugc\">Wikipedia Reference data<br />\n</a>)</p>\n<p dir=\"auto\">Några diskussionsfrågor:</p>\n<ul>\n<li>Är referensdata ett vedertaget begrepp i er organisation?</li>\n<li>Hur arbetar ni med referensdata i er organisation?</li>\n<li>Vilka förbättringsområde ser ni som viktiga inom referensdata och semantik?</li>\n</ul>\n<p dir=\"auto\">Vill även tipsa om ENDORSE. Det är en årlig konferens om referensdata och semantik som anordnas av EU:s publiceringsbyrå (EU Publication Office). I år fanns det många intressanta föreläsningar. Vissa berör även öppna data, till exempel \"<a href=\"https://www.youtube.com/watch?v=CTwLPpXCvWo&amp;list=PLT5rARDev_rmgK8ZddP7p3oKFaj5A2whJ&amp;index=34\" rel=\"nofollow ugc\">The Future of Data Stewardship</a>\". Hela programmet för 2025: <a href=\"https://op.europa.eu/en/web/endorse-2025/programme?pk_campaign=YouTubeVideoDescription&amp;pk_source=ENDORSE&amp;pk_medium=YT\" rel=\"nofollow ugc\">https://op.europa.eu/en/web/endorse-2025/programme?pk_campaign=YouTubeVideoDescription&amp;pk_source=ENDORSE&amp;pk_medium=YT</a></p>\n",
+      "pid": 5379,
+      "tid": 1066,
+      "timestamp": 1762342844839,
+      "uid": 1773,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-11-05T11:40:44.839Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1773,
+        "username": "Andersos",
+        "userslug": "andersos",
+        "reputation": 5,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": "/assets/uploads/profile/1773-profileavatar-1742387525227.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764750090229,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Andersos",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-03T08:21:30.229Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Ingen verkar svara så jag bidrar med mina observationer och taffliga försök med SSYK och koppla det till internationella vokabulär...</p>\n<p dir=\"auto\">I rapporten <a href=\"https://arbetsformedlingen.se/download/18.70846b5318d40100840663/1706704697845/uppdrag-att-utveckla-en-sammanhallen-datainfrastruktur-for-kompetensf%C3%B6rs%C3%B6rjning-och-livslangt-larande-slutredovisning.pdf\" rel=\"nofollow ugc\">Uppdrag att utveckla en sammanhållen<br />\ndatainfrastruktur för kompetensförsörjning och livslångt lärande Slutredovisning 31 januari 2024</a> lyfts SSYK, SUN och SNI som centrala klassifikationer.</p>\n<p dir=\"auto\">Tveksam om detta jobb leder någonstans försökte fråga om status i <a href=\"https://community.dataportal.se/topic/934/arbete-med-en-sammanh%C3%A5llen-datainfrastruktur-forts%C3%A4tter/6?_=1762770282221\">en tidigare tråd</a> (inget svar är också ett svar ;-)) .... var på en workshop i Stockholm men det kändes alldeles för rörigt och ingen riktning framåt och det kändes som det saknades öppna publika backloggar vilket jag tycker slutrapporten även visar...</p>\n<p dir=\"auto\">Citat sidan 15 \"De senaste versionerna som används<br />\ni Sverige är SNI2007 (baserad på NACE_rev2), SSYK2012 (baserad på ISCO-08) och<br />\nSUN2020 (baserad på ISCED 2011 och ISCED-F 2013).\" dvs. dom har yrken som senast uppdaterades 2012</p>\n<p dir=\"auto\">När SSYK inte längre speglar dagens arbetsmarknad får det tydliga följdeffekter:</p>\n<ul>\n<li>Arbetsförmedlingen kan inte matcha utbildning <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2194.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--left_right_arrow\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":left_right_arrow:\" alt=\"↔\" /> yrke <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2194.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--left_right_arrow\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":left_right_arrow:\" alt=\"↔\" /> arbetsmarknad på ett meningsfullt sätt.</li>\n<li>Statistiska centralbyrån (SCB) producerar föråldrad statistik.</li>\n<li>Utbildningsväsendet planerar insatser efter fel behovsbild.</li>\n<li>AI-modeller för kompetensanalys (t.ex. i ESCO) blir inkompatibla eller missvisande i svensk kontext.</li>\n</ul>\n<p dir=\"auto\">Det känns som att <strong>fel kompetens</strong> eller fel aktörer leder arbetet, eller åtminstone att <strong>samarbetet mellan de centrala myndigheterna inte fungerar fullt ut.</strong></p>\n<p dir=\"auto\">Jag försökte <a href=\"https://gitlab.com/arbetsformedlingen/uppdrag-att-utveckla-en-sammanhallen-datainfrastruktur-foer-kompetensfoersoerjning-och-livslangt-laerande/-/issues?sort=created_date&amp;state=closed&amp;first_page_size=20&amp;show=eyJpaWQiOiIxNiIsImZ1bGxfcGF0aCI6ImFyYmV0c2Zvcm1lZGxpbmdlbi91cHBkcmFnLWF0dC11dHZlY2tsYS1lbi1zYW1tYW5oYWxsZW4tZGF0YWluZnJhc3RydWt0dXItZm9lci1rb21wZXRlbnNmb2Vyc29lcmpuaW5nLW9jaC1saXZzbGFuZ3QtbGFlcmFuZGUiLCJpZCI6MTI4NzE0NzExfQ%3D%3D\" rel=\"nofollow ugc\">ställa frågan 2023 maj</a> hur dom hanterar saker som \"deep learning\" men sedan när rapporten kom var det bara ett konstaterande att <strong>SSYK var från 2012</strong>....</p>\n<hr />\n<p dir=\"auto\">Min känsla</p>\n<ul>\n<li>att flera av klassifikationerna är föråldrade (t.ex. SSYK 2012 missar många nya yrken),</li>\n<li>att versionering och publicering som öppen data ofta saknas,</li>\n<li>att kopplingar till internationella kodverk (som EU:s ESCO för yrken och kompetenser) inte verkar finnas maskinläsbart</li>\n</ul>\n<p dir=\"auto\">Gissar att jobtech kanske har något <a href=\"https://phabricator.wikimedia.org/T262906\" rel=\"nofollow ugc\">jag hade en ambition 2020</a> att koppla ihop SSYK med Wikidata och ESCO men gav upp det kändes för rörigt det var inga som prata ontologier och SKOS</p>\n<ul>\n<li>skapade Wikidata egenskap <a href=\"https://www.wikidata.org/wiki/Property:P8654\" rel=\"nofollow ugc\">Property:P8654</a> / <a href=\"https://www.wikidata.org/wiki/Wikidata:Property_proposal/SSYK_2012\" rel=\"nofollow ugc\">diskussion om egenskapen</a>\n<ul>\n<li>där en ambitiös tanke fanns att <a href=\"https://www.wikidata.org/wiki/Template:Occupation_codes_properties\" rel=\"nofollow ugc\">koppla ihop olika internationella koder på WIkidata</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1762769394406-055bd831-3395-498c-8eef-b90ef7142539-image-resized.png\" alt=\"055bd831-3395-498c-8eef-b90ef7142539-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>lesson leaned 2020 var att <strong>SSYK skapades som ett statistiskt och partsneutralt kodsystem för bland annat löne-, sysselsättnings- och arbetskraftsstatistik</strong> vilket kanske inte är optimalt 2025.... om man använder SSYK som bas för AI-matchning, livslångt lärande eller kompetensförsörjning,<br />\n…så bygger man på ett kodsystem konstruerat för industrisamhällets statistikbehov, inte för kunskapsgrafen i ett digitalt samhälle.</li>\n</ul>\n",
+      "pid": 5385,
+      "tid": 1066,
+      "timestamp": 1762770366232,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-11-10T10:26:06.232Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Annat försök jag gjorde 2021 var med <a href=\"https://github.com/salgo60/HISCOKoder\" rel=\"nofollow ugc\">HISCO koder</a> dvs. standarden för historiska yrken ....</p>\n<p dir=\"auto\">Min tanke var att man borde enas kring denna standard i stället för att varje institution skapar egna datasilos och påhittade yrkesnamn.</p>\n<p dir=\"auto\">Jag ägnade en dag åt att webskrapa yrkesdata från flera institutioner – Alvin, Arken, Riksarkivet (SBL), Historiska museet, Kungliga biblioteket, Litteraturbanken, Levande musikarv och Svenskt kvinnobiografiskt lexikon.</p>\n<p dir=\"auto\">Resultat var att det var <strong>enormt rörigt</strong></p>\n<ul>\n<li>jag skickade <a href=\"https://github.com/salgo60/HISCOKoder/issues/1\" rel=\"nofollow ugc\">ett email aug 2021</a> till ett antal aktörer 0 intresse... status idag 2025 är att inget har hänt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":wink:\" alt=\"😉\" /></li>\n</ul>\n<p dir=\"auto\"><strong>Min gissning:</strong></p>\n<ul>\n<li>Man föredrar att arbeta i datasilos</li>\n<li>Det saknas vana att samarbeta mellan arkivinstitutioner</li>\n<li>Få personer har en datadriven bakgrund</li>\n<li>Det finns inga tydliga krav eller incitament för att systemen ska fungera tillsammans</li>\n</ul>\n<p dir=\"auto\">Har sett att <a href=\"https://swedpop.se/wp-content/uploads/2021/06/HISCO-codes-and-description.pdf\" rel=\"nofollow ugc\">SWEPOP pekar på HISCOkoder</a> men tycker dom har massa konstigheter se <a href=\"https://github.com/salgo60/HISCOKoder/issues/8\" rel=\"nofollow ugc\">försök att ha dialog 2023</a></p>\n",
+      "pid": 5386,
+      "tid": 1066,
+      "timestamp": 1762772154785,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-11-10T10:55:54.785Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag nås på 0735152802 om du har frågor... det mesta finns dock på <a href=\"https://github.com/salgo60?tab=repositories\" rel=\"nofollow ugc\">GITHUB</a> av alla hobby projekt jag gjort eller <a href=\"https://minancestry.blogspot.com/2020/12/linked-data-magnus-salgo.html\" rel=\"nofollow ugc\">föredrag jag haft mest förut om Länkade data</a> vilket jag ser som en \"vidare utveckling\" av referenskoder</p>\n<p dir=\"auto\"><strong><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f517.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--link\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":link:\" alt=\"🔗\" /> Länkad data vs. referenskoder</strong></p>\n<p dir=\"auto\">Referenskoder (t.ex. interna ID-nummer eller kodsystem som “A123” eller “SE12345”) används ofta för att identifiera objekt i slutna system — till exempel en kommun, ett skyddsobjekt eller en plats i en databas. De fungerar bra inom den egna organisationen, men saknar ofta mening utanför sitt sammanhang. Om någon utanför systemet ser koden “A123” vet de inte vad den betyder utan tillgång till samma kodlista.</p>\n<p dir=\"auto\"><strong>Länkad data</strong> däremot bygger på öppna <strong>URIs (webbadresser)</strong> som pekar direkt till ett objekt som kan förstås globalt.<br />\nI stället för en sluten kod används alltså en webblänk, ofta från Wikidata, VIAF, GeoNames eller OpenStreetMap.</p>\n<p dir=\"auto\">Till exempel:</p>\n<ul>\n<li>Referenskod: NR123</li>\n<li>Länkad data: <a href=\"https://www.wikidata.org/entity/Q179049\" rel=\"nofollow ugc\">https://www.wikidata.org/entity/Q179049</a> (Nature reserve) som en graf <a href=\"https://w.wiki/G24c\" rel=\"nofollow ugc\">https://w.wiki/G24c</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1762773227390-e5b3c943-5570-4479-91fc-9e24d99f94e7-image.png\" alt=\"e5b3c943-5570-4479-91fc-9e24d99f94e7-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Det innebär att:</p>\n<ul>\n<li>varje objekt får en globalt unik identifierare - <strong>persistent unik identifierare</strong></li>\n<li>data kan kopplas samman automatiskt mellan olika databaser,</li>\n<li>man slipper manuella kodlistor,</li>\n<li>och information kan uppdateras och delas maskinellt via standarder som RDF och SPARQL.</li>\n</ul>\n<p dir=\"auto\">Kort sagt:</p>\n<p dir=\"auto\"><strong>Referenskoder är interna etiketter, medan länkad data är öppna länkar till begrepp som datorer och människor kan förstå globalt.</strong></p>\n<hr />\n<p dir=\"auto\">OT: DIGG hade ett projekt med att skapa en profil för <a href=\"https://github.com/diggsweden/persistent-identifiers-investigation\" rel=\"nofollow ugc\">persistenta identifierare</a> för 2 år sedan som jag tycker tyvärr blev för konsult styrt och mer en pdf än nu tar vi nästa steg....</p>\n",
+      "pid": 5387,
+      "tid": 1066,
+      "timestamp": 1762773095683,
+      "uid": 1802,
+      "edited": 1762773234022,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-11-10T11:11:35.683Z",
+      "editedISO": "2025-11-10T11:13:54.022Z",
+      "index": 3,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1066",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1066.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1066",
+  "bodyClass": "page-topic page-topic-1066 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Referensdata"
+        },
+        {
+          "name": "description",
+          "content": "Jag hittade inget kring ämnet referensdata så jag startar en allmän tråd om ämnet. Är referensdata off topic för Community på Sveriges dataportal så mottar jag gärna tips om var man kan diskutera det. Enligt Data Management Body of Knowledge (DAMA) defini..."
+        },
+        {
+          "property": "og:title",
+          "content": "Referensdata"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag hittade inget kring ämnet referensdata så jag startar en allmän tråd om ämnet. Är referensdata off topic för Community på Sveriges dataportal så mottar jag gärna tips om var man kan diskutera det. Enligt Data Management Body of Knowledge (DAMA) defini..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-11-05T11:40:44.839Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-11-10T11:11:35.683Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1773-profileavatar-1742387525227.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1773-profileavatar-1742387525227.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1066",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1066/referensdata",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1066.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/andersos"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

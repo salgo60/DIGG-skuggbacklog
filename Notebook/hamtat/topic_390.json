@@ -1,0 +1,1218 @@
+{
+  "cid": 23,
+  "lastposttime": 1659359009705,
+  "mainPid": 1719,
+  "postcount": 10,
+  "slug": "390/internship-om-öppna-api-er-på-csn",
+  "tid": 390,
+  "timestamp": 1657267644453,
+  "title": "Internship om öppna API:er på CSN",
+  "uid": 474,
+  "viewcount": 975,
+  "postercount": 6,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 1806,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Internship om öppna API:er på CSN",
+  "timestampISO": "2022-07-08T08:07:24.453Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-08-01T13:03:29.705Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej! I sommar arbetar jag och min kollega, Mikolaj Wagner med att utreda möjligheterna med öppna API:er inom CSN. Vi båda pluggar i vanliga fall men bor i Sundsvall under sommaren för att arbeta med projektet. Längre fram är det tänkt att API:erna ska publiceras på dataportalen så vi tänkte passa på att presentera oss!</p>\n<p dir=\"auto\">CSN har upptäckt att bland annat studenter och elever inte spenderar särskilt mycket tid på myndighetens hemsida och därför riskerar att missa viktig information, något som kan leda till felaktiga utbetalningar. Vårt uppdrag är därför att utreda möjligheterna med att publicera info på plattformar där låntagarna spenderar mer tid, exempelvis skolportaler.<br />\nSom verktyg för detta använder vi öppna API:er och utvecklar just nu en prototyp på ett system som CSN ska kunna använda. Vi har samarbetat en del med Sundsvalls kommun och DIGG, och eventuellt blir det också en provkörning med Mittuniversitetet i slutet av sommaren.</p>\n<p dir=\"auto\">Hela projektet är jättespännande och vi hoppas det blir något som organisationen kan använda i framtiden. Vi tycker också om att bolla idéer så kom gärna med input eller inspiration på användningsområden. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 1719,
+      "tid": 390,
+      "timestamp": 1657267644453,
+      "uid": 474,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-07-08T08:18:28.781Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-07-08T08:07:24.453Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 474,
+        "username": "davidcarlsson",
+        "userslug": "davidcarlsson",
+        "reputation": 4,
+        "postcount": 1,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660199347883,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "davidcarlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2022-08-11T06:29:07.883Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/474\">@davidcarlsson</a> Inspirerande!  Helt klart bör digitalisering handla mer om att möta kunden där kunden befinner sig och det innebär att offentlig sektor behöver bli bättre på att tillhandahålla öppna API:er. Ser fram emot att ta del av ert resultat.</p>\n<p dir=\"auto\">Roligt också att ni hittat till detta forum. Välkomna.</p>\n",
+      "pid": 1720,
+      "tid": 390,
+      "timestamp": 1657268308781,
+      "toPid": "1719",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-07-09T09:43:20.490Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-07-08T08:18:28.781Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "davidcarlsson",
+        "displayname": "davidcarlsson"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Starta gärna med en teaser vad ni har för datamodell, vilka user cases ni har, sätt upp en GITHUB yta där man kan man kan skapa frågor/issues, gör en POC med en version 0.1 av era tankar just nu, jobba i korta iterationer och var Agila och öppna för feedback ett vanligt myndighets beteende är att att vara en Silo och tysta i flera år och sedan kommer något som det inte går att ge feedback på eller felanmälan…,</p>\n<p dir=\"auto\">Bra med dummy APIer där ni visar hur ni tänker ert data skall se ur. Jag tror skall vi komma ur dagens producerande av Silos där data i princip inte kan kopplas ihop så MÅSTE vi få in folk som kan kunskapsgrafer och ”knowledge engineers”</p>\n<p dir=\"auto\">Spontant gissar jag att ni kanske har skolor i ert data säg då samma som skolverkets/SCB skolregistet<br />\nSe <a href=\"https://www.scb.se/vara-tjanster/oppna-data/api-for-skolenhetsregistret/\" rel=\"nofollow ugc\">https://www.scb.se/vara-tjanster/oppna-data/api-for-skolenhetsregistret/</a></p>\n<p dir=\"auto\">Exempel issue hantering jag tycker funkar bra är <a href=\"http://partiguiden.nu\" rel=\"nofollow ugc\">partiguiden.nu</a> <a href=\"https://github.com/Ackuq/partiguiden\" rel=\"nofollow ugc\">https://github.com/Ackuq/partiguiden</a></p>\n<p dir=\"auto\">Läs på om Linked data det är samma kille som skapa web:en Tim Berners-Lee som ber folk leverera data som data som går att använda dvs. Data som kopplas till sitt context och är 5-star</p>\n<ul>\n<li><a href=\"https://5stardata.info/en/\" rel=\"nofollow ugc\">https://5stardata.info/en/</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"https://5stardata.info/images/5-star-steps.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Tim’s vädjan raw data now och Api First se <a href=\"https://www.ted.com/talks/tim_berners_lee_the_next_web\" rel=\"nofollow ugc\">The next Web</a></p>\n<p dir=\"auto\">Bra fundering om faran att vi tror att massa APIer ger mervärde skriver <a href=\"https://twitter.com/rubenverborgh?s=21&amp;t=ZUUcNDxaALLOUnkEyebo7Q\" rel=\"nofollow ugc\">Ruben Verborgh</a> om se <a href=\"https://ruben.verborgh.org/blog/2021/12/23/reflections-of-knowledge/\" rel=\"nofollow ugc\">blog</a></p>\n<blockquote>\n<p dir=\"auto\">How do we build apps on top of the decentralized Web?<br />\nWhile the sum of many individual knowledge graphs is a bigger knowledge graph, the sum of many individual Web APIs is not a bigger API. Let's talk about the shift from API to data integration:</p>\n</blockquote>\n<p dir=\"auto\"><img src=\"https://pbs.twimg.com/media/FHSa5XIWYAIOeaT.jpg\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Googla även <a href=\"https://en.wikipedia.org/wiki/FAIR_data\" rel=\"nofollow ugc\">FAIRDATA</a></p>\n",
+      "pid": 1721,
+      "tid": 390,
+      "timestamp": 1657359800490,
+      "toPid": "1720",
+      "uid": 24,
+      "edited": 1657360212096,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 473,
+            "username": "csnmiki",
+            "userslug": "csnmiki",
+            "picture": null,
+            "fullname": null,
+            "displayname": "csnmiki",
+            "icon:text": "C",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-07-09T11:36:23.351Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-07-09T09:43:20.490Z",
+      "editedISO": "2022-07-09T09:50:12.096Z",
+      "index": 2,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Även leverera kodexempel med notebooks så vi dödliga kommer igång snabbt känns som ett bra mönster som fler bör följa, se min fråga till <a href=\"https://github.com/Riksarkivet/dataplattform/issues/1\" rel=\"nofollow ugc\">Riksarkivet</a> om att hämta ut data från deras XML med en struktur som inte är trivial utan exempel och datamodell…</p>\n",
+      "pid": 1722,
+      "tid": 390,
+      "timestamp": 1657366583351,
+      "toPid": "1721",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-07-09T11:36:23.351Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> hur skyndar vi på utvecklingen med att möta ”kunden där kunden” befinner sig? Kanske skapa ”show cases”, enkelt koppla dessa show cases till identifierare för dom som distribuerar datan, koppla ”show cases” till data set…</p>\n<p dir=\"auto\">Min test med Github Topics är lite av detta att koppla aktör/område till lösningar som finns på GITHUB men det går nog att göra 1000 ggr bättre. <strong>Öppna datas</strong> värde borde definieras i hur mycket det kopplas ihop med andra dataset, hur många ggr per dag datat hämtas, hur många aktörer som änvänder det. Idag känns det som vi fastnar i att räkna hur många dataset som laddas upp, har ingen koll om det används, specar laddas upp utan tydlighet hur ändringshantweingen sköts och var det sker…</p>\n<p dir=\"auto\">#GITHUB Topics &lt;-&gt; #Wikidata hur det kan användas i GITHUB men kopplas till Wikipedia via Wikidata</p>\n<p dir=\"auto\"><a href=\"https://github.community/t/wikidata-property-p9100-created-for-github-topics/158508\" rel=\"nofollow ugc\">https://github.community/t/wikidata-property-p9100-created-for-github-topics/158508</a></p>\n<p dir=\"auto\">Kollar vi på CSN i Wikidata <a href=\"https://www.wikidata.org/wiki/Q6971083?uselang=sv\" rel=\"nofollow ugc\">Q6971083</a> så finns artiklar på sv fi de en som kanske kan ge ledtrådar till andra länders liknande myndigheter, om dom har öppna data, finns på GITHUB och vad som görs med deras data…</p>\n<p dir=\"auto\">Utan att vara domänkunnig men det känns som även utländska medborgare är kunder till CSN vilket kanske pekar på ett behov att ha en kunskapsgraf modell #Wikidata i botten som stödjer flera språk (<a href=\"https://youtu.be/m_9_23jXPoE\" rel=\"nofollow ugc\">video om WD</a>) och leverera CSNs data på det språk som efterfrågas…</p>\n",
+      "pid": 1723,
+      "tid": 390,
+      "timestamp": 1657435635637,
+      "toPid": "1720",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-07-10T06:47:15.637Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> tack så mycket för ditt svar och mycket att av det du skriver ska vi försöka ta med oss till framtida utvecklingsmöjligheter som CSN ska kunna jobba vidare med. Dock är vi båda rätt nya till API:er och allt det som har att göra med Öppna data så vi känner väl oss inte super trygga just nu med hela utvecklingsbiten. Vi producerar för tillfället en mycket enkel prototyp mer för att visa möjligheterna som går att uppnå med ett API och vad företag senare kan använda dessa till. Tyvärr jobbar vi bara fram till mitten av augusti så skulle vara väldigt svårt för oss att starta upp en teaser med datamodeller och allt som du skriver om och lägga tid på det, när vi nu i första hand måste fokusera på att leverera en fungerande prototyp helt enkelt.  Vi ska som jag skrev ta med dina tankar vidare för framtida projekt men, tyvärr tror jag inte riktigt tiden finns till för oss att hålla reda på issue-cases och börja skriva på kodexempel med mera.</p>\n<p dir=\"auto\">Ännu en gång tack för ditt svar och vi ska försöka förmedla dina tankar till utvecklare här på CSN som kanske i närmaste tiden kommer börja titta lite närmare på Öppna-API:er.</p>\n",
+      "pid": 1730,
+      "tid": 390,
+      "timestamp": 1657620616665,
+      "toPid": "1721",
+      "uid": 473,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-07-12T12:12:21.548Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-07-12T10:10:16.665Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 473,
+        "username": "csnmiki",
+        "userslug": "csnmiki",
+        "reputation": 6,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1659683649469,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "csnmiki",
+        "groupTitleArray": [],
+        "icon:text": "C",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2022-08-05T07:14:09.469Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/473\">@csnmiki</a> Jag vill slå ett slag för DIGG:s API-playbook som vi i samverkan med  Bolagsverket, Arbetsförmedlingen, Lantmäteriet och E-hälsomyndigheten har tagit fram.  API-playbook är ett samlat stöd för hanteringen av API:er och riktar speciellt in sig på dem som utvecklar och förvaltar API:er inom offentliga organisationer.  <a href=\"https://dev.dataportal.se/api-playbook\" rel=\"nofollow ugc\">https://dev.dataportal.se/api-playbook</a></p>\n",
+      "pid": 1731,
+      "tid": 390,
+      "timestamp": 1657627941548,
+      "toPid": "1730",
+      "uid": 117,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 473,
+            "username": "csnmiki",
+            "userslug": "csnmiki",
+            "picture": null,
+            "fullname": null,
+            "displayname": "csnmiki",
+            "icon:text": "C",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-07-13T11:53:53.230Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-07-12T12:12:21.548Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "csnmiki",
+        "displayname": "csnmiki"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/117\">@jenniferskoglund</a> Den har vi kollat in en hel del, vi tänkte ifall vi har tid skriva en liten kort sammanfattning om vad vi tyckte om API-Playbooken och även vad vi tyckte om DCAT-AP-SE-Processorn. <a href=\"https://github.com/DIGGSweden/DCAT-AP-SE-Processor\" rel=\"nofollow ugc\">https://github.com/DIGGSweden/DCAT-AP-SE-Processor</a> . Och skicka våra tankar till Nina Berlin. Dock kommer vi skriva vår sammanfattning ur ett nybörjarperspektiv som kanske inte är er dom ni riktigt riktar er till först och främst när det gäller API-Playbook eller DCAT-AP-SE-Processorn.</p>\n",
+      "pid": 1737,
+      "tid": 390,
+      "timestamp": 1657713233230,
+      "toPid": "1731",
+      "uid": 473,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-07-13T12:44:21.017Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-07-13T11:53:53.230Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "jenniferskoglund",
+        "displayname": "jenniferskoglund"
+      },
+      "user": {
+        "uid": 473,
+        "username": "csnmiki",
+        "userslug": "csnmiki",
+        "reputation": 6,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1659683649469,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "csnmiki",
+        "groupTitleArray": [],
+        "icon:text": "C",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2022-08-05T07:14:09.469Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/473\">@csnmiki</a> det får ni väldigt gärna göra! Vi tar gärna emot synpunkter från olika personer med olika mycket kunskap inom området och med olika erfarenheter. Resultatet blir bäst då. Perspektivet från \"nybörjare\" är mycket värt eftersom dem ofta uppmärksammar det som inte är tillräckligt pedagogiskt och tydligt <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 1738,
+      "tid": 390,
+      "timestamp": 1657716261017,
+      "toPid": "1737",
+      "uid": 117,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-07-13T12:44:21.017Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "csnmiki",
+        "displayname": "csnmiki"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/474\">@davidcarlsson</a> Hej, kul att ha er här och kul att den här tråden tagit fart! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /><br />\nDavid och Mikolaj jobbar som sagt med en prototyp för öppna API:er på CSN. Det är värdefullt både för CSN och för DIGG, så även om själva uppdraget pågår på CSN så hjälper vi till så gott vi kan från DIGG:s och Enas sida. Det blir litegrann som ett beta-test för oss av en del vi gjort, även om det ligger ute i produktion.<br />\nFrågor som jag har bett David och Mikolaj fundera på och återkomma med feedback på:</p>\n<ul>\n<li>\n<p dir=\"auto\">Funkar Utvecklarportalen som en hjälp för att skriva APIer om man är ny i en organisation? Saknar man något? I så fall vad?</p>\n</li>\n<li>\n<p dir=\"auto\">Funkar DCAT-AP-SE-processorn bra att använda? Är den en hjälp?</p>\n</li>\n<li>\n<p dir=\"auto\">Hur är det att ta till sig DCAT-AP-SE-specen? Går det att förstå dokumentationen om man är ny på området?</p>\n</li>\n<li>\n<p dir=\"auto\">Får ni vettiga svar i vårt community?</p>\n</li>\n<li>\n<p dir=\"auto\">Är det något ni särskilt reagerar på som vi borde veta om?</p>\n</li>\n</ul>\n<p dir=\"auto\">David och Mikolaj gör det här som en kurs inom <a href=\"https://www.miun.se/civing/internship\" rel=\"nofollow ugc\">MiUns internship</a>, med CSN som uppdragsgivare.</p>\n",
+      "pid": 1806,
+      "tid": 390,
+      "timestamp": 1659359009705,
+      "toPid": "1719",
+      "uid": 216,
+      "downvotes": 0,
+      "upvotes": 4,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-08-01T13:03:29.705Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "davidcarlsson",
+        "displayname": "davidcarlsson"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "390",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/390.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/390",
+  "bodyClass": "page-topic page-topic-390 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Internship om öppna API:er på CSN"
+        },
+        {
+          "name": "description",
+          "content": "Hej! I sommar arbetar jag och min kollega, Mikolaj Wagner med att utreda möjligheterna med öppna API:er inom CSN. Vi båda pluggar i vanliga fall men bor i Sundsvall under sommaren för att arbeta med projektet. Längre fram är det tänkt att API:erna ska pub..."
+        },
+        {
+          "property": "og:title",
+          "content": "Internship om öppna API:er på CSN"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! I sommar arbetar jag och min kollega, Mikolaj Wagner med att utreda möjligheterna med öppna API:er inom CSN. Vi båda pluggar i vanliga fall men bor i Sundsvall under sommaren för att arbeta med projektet. Längre fram är det tänkt att API:erna ska pub..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-07-08T08:07:24.453Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-08-01T13:03:29.705Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/390",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/390/internship-om-öppna-api-er-på-csn",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/390.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/davidcarlsson"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

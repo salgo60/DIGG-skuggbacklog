@@ -1,0 +1,1772 @@
+{
+  "cid": 24,
+  "lastposttime": 1702989052154,
+  "mainPid": 4067,
+  "postcount": 17,
+  "slug": "727/jitsi-outlook-plugin",
+  "tid": 727,
+  "timestamp": 1680534817646,
+  "title": "Jitsi Outlook-plugin",
+  "uid": 521,
+  "viewcount": 1657,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 3,
+  "teaserPid": 4592,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Jitsi Outlook-plugin",
+  "timestampISO": "2023-04-03T15:13:37.646Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-12-19T12:30:52.154Z",
+  "pinExpiryISO": "",
+  "votes": 3,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej,<br />\nKan vara intressant: Havs- och Vattenmyndigheten har i samverkan med Försäkringskassan, Digg, lagt upp en jitsi-plugin för outlook på Digg's GitHub: <a href=\"https://github.com/diggsweden/jitsi-outlook\" rel=\"nofollow ugc\">https://github.com/diggsweden/jitsi-outlook</a>. Det finns förbättringsförslag och framtida tankar, men den är redan i användning \"skarpt\".</p>\n<p dir=\"auto\">Förutom den praktiska nyttan har detta varit en övning i hur flera myndigheter kan samverka tillsammans praktiskt i ett avgränsat öppen källkod-projekt. Förhoppningen är förstås att vi ska hitta form och flera sätt för mer praktiskt samarbete och lösa frågor som uppstår. Enjoy! och var hyfsat snälla mot denna första release <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":slightly_smiling_face:\" alt=\"🙂\" /></p>\n",
+      "pid": 4067,
+      "tid": 727,
+      "timestamp": 1680534817646,
+      "uid": 521,
+      "edited": 1680535663101,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-04-04T07:21:33.683Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2023-04-03T15:13:37.646Z",
+      "editedISO": "2023-04-03T15:27:43.101Z",
+      "index": 0,
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> Mycket fyllig och välskriven CONTRIBUTING fil! Det enda som var något oklart var om det måste finnas en issue som man hänvisar till vid ett bidrag. Det är inte explicit, så jag gjorde mitt första minimala bidrag utan ett sådant. Hoppas att det går bra!</p>\n",
+      "pid": 4068,
+      "tid": 727,
+      "timestamp": 1680592893683,
+      "toPid": "4067",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-04-04T11:47:19.301Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-04-04T07:21:33.683Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Tack för PR! Bra hittat! Finns säkert flera här. Vi jobbar vidare med Contributing, tar med mig den. Behöves ej issues för bidrag, allra minst bug-fixar - (men gärna för diskussion om man tänker sig större ändringar feature-tillägg, refaktoriseringar)</p>\n",
+      "pid": 4076,
+      "tid": 727,
+      "timestamp": 1680608839301,
+      "toPid": "4068",
+      "uid": 521,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 247,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "picture": null,
+            "fullname": "",
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-04-11T07:35:36.625Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-04-04T11:47:19.301Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Härligt med ett öppen källkodsprojekt där myndigheterna samarbetar.</p>\n<p dir=\"auto\">Jag måste dock fråga hur denna relaterar till en redan existerande plugin: <a href=\"https://github.com/timetheoretical/jitsi-meet-outlook\" rel=\"nofollow ugc\">https://github.com/timetheoretical/jitsi-meet-outlook</a></p>\n<p dir=\"auto\">Uppfattar det som att DIGG:S plugin är ny. Det hade kanske varit att föredra att bidra till en redan existerande om det finns tillräckligt många likheter?</p>\n<p dir=\"auto\">Mvh Jimisola</p>\n",
+      "pid": 4083,
+      "tid": 727,
+      "timestamp": 1681198536625,
+      "toPid": "4076",
+      "uid": 247,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-04-11T17:31:03.329Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-04-11T07:35:36.625Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/247\">@lfvjimisola</a> sa i <a href=\"/post/4083\">Jitsi Outlook-plugin</a>:</p>\n<blockquote>\n<p dir=\"auto\">Härligt med ett öppen källkodsprojekt där myndigheterna samarbetar.</p>\n</blockquote>\n<p dir=\"auto\">Tack, instämmer 100%. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Hoppas att ovan och allt annat bra arbete som pågår i, och kring myndighets-Sverige - NOSAD, dSam med flera kring detta ämne (ÖK) är delar av helheten som inspirerar till flera släppta samverkansprojekt framöver.</p>\n<blockquote>\n<p dir=\"auto\">Det hade kanske varit att föredra att bidra till en redan existerande om det finns tillräckligt många likheter?</p>\n</blockquote>\n<p dir=\"auto\">Kan tyvärr inte svara precis på vilka argument eller framtida planer som varit avgörande i valen av Öppen källkod-lösning istället för en annan - just den här härstammar från Hav- och Vatten-myndigheten  - även om jag nog skulle kunna komma med några kvalificerade gissningar direkt. Jag tar med din fråga till kommande samverkansmöte så återkopplar jag senare helt enkelt. Men delar generellt din uppfattning - kan man bidra till ett befintligt projekt så ska man göra det, men att det ibland finns en mängd anledningar till att man väljer något annat.</p>\n<blockquote>\n<p dir=\"auto\">Uppfattar det som att DIGG:S plugin är ny</p>\n</blockquote>\n<p dir=\"auto\">Vill  lyfta att det är ett gemensamt samarbete och inte bara Diggs' plugin, även om den ligger på Digg's yta. För Digg's del är/var tanken med just denna att man hjälper till med yta, plats och projektform (uppfyller det licenser etc) - samverkansaspekten. Vi letar dock form kring detta vidare och framöver.<br />\n.</p>\n",
+      "pid": 4091,
+      "tid": 727,
+      "timestamp": 1681234263329,
+      "toPid": "4083",
+      "uid": 521,
+      "edited": 1681238049803,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-04-12T09:07:08.274Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-04-11T17:31:03.329Z",
+      "editedISO": "2023-04-11T18:34:09.803Z",
+      "index": 4,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/247\">@lfvjimisola</a><br />\nAtt man inte valde att bidra till det projekt du nämnde beror på att den bygger på den gamla standarden för outlook-plugins, och att man vill bygga på det som MS numer rekommenderar för denna typ av plugins. Så en viktig del var tekniska aspekter , och då också möjliggörare av eventuella framtida planer.</p>\n<p dir=\"auto\">Sen får jag ur min roll tillägga att det finns en viss mognadsgrad för organisationer att jobba med öppen källkod, där det är enklare att börja med att releases/producera, och sedan gå vidare till bidrag - Det är inte bara anekdotiskt från mig - liknande mognadssteg finns i diverse modeller för Öppen Källkod, t.e.x kan man se liknande i  EU's strategi för öppen källkod - använda -&gt; producera-&gt; bidra-vidare. <a href=\"https://commission.europa.eu/system/files/2023-02/en_ec_open_source_strategy_2020-2023.pdf\" rel=\"nofollow ugc\">https://commission.europa.eu/system/files/2023-02/en_ec_open_source_strategy_2020-2023.pdf</a><br />\nMed det tillägget skulle jag vilja säga att för att nå en bättre framtida mognadsgrad så kanske det (även om det fanns tekniska skäl för just denna plugin) i framtiden också är viktigt med att jobba mer med att släppa en del projekt gemensamt  - även om det ibland blir överlapp. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4094,
+      "tid": 727,
+      "timestamp": 1681290428274,
+      "toPid": "4091",
+      "uid": 521,
+      "edited": 1681296858019,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 247,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "picture": null,
+            "fullname": "",
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-04-13T07:16:40.682Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-04-12T09:07:08.274Z",
+      "editedISO": "2023-04-12T10:54:18.019Z",
+      "index": 5,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> Tack för återkopplingen och informationen.</p>\n<p dir=\"auto\">Jag/vi saknar information om vilka versioner av Outlook som pluginen fungerar med. Fungerar den t ex Office 2016?</p>\n<p dir=\"auto\">Mvh Jimisola</p>\n",
+      "pid": 4100,
+      "tid": 727,
+      "timestamp": 1681370200682,
+      "toPid": "4094",
+      "uid": 247,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-04-13T08:51:13.087Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-04-13T07:16:40.682Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/247\">@lfvjimisola</a> Hej, jag rekommenderar att denna typ av frågor läggs en issue som fråga på projektets GitHub - då får också devs där tillfälle att förbättra sin dokumentation kring vanliga frågor.</p>\n<p dir=\"auto\">/Josef</p>\n",
+      "pid": 4103,
+      "tid": 727,
+      "timestamp": 1681375873087,
+      "toPid": "4100",
+      "uid": 521,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 247,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "picture": null,
+            "fullname": "",
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-04-13T09:00:09.636Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-04-13T08:51:13.087Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> Fixat. <a href=\"https://github.com/diggsweden/jitsi-outlook/issues/21\" rel=\"nofollow ugc\">https://github.com/diggsweden/jitsi-outlook/issues/21</a></p>\n",
+      "pid": 4104,
+      "tid": 727,
+      "timestamp": 1681376409636,
+      "toPid": "4103",
+      "uid": 247,
+      "downvotes": 0,
+      "upvotes": 3,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2023-04-13T09:00:09.636Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> Ett par frågor:</p>\n<ol>\n<li>\n<p dir=\"auto\">Det ser ut att gjorts en del ändringar i pluginen men ingen ny release har skett. När räknar ni med att göra en ny release.</p>\n</li>\n<li>\n<p dir=\"auto\">Den aktuella releasen ser endast ut att vara en tag. Vår leverantör har fått till uppgift att lägga in pluginen för vår organisation. Vilka filer är det som ska med? Måste något byggas? Det vore bra med lite mer guidning kring vad som krävs för att kunna följa Microsofts-guide som ni länkar till. Med det sagt, så är jag inte någon Windows-nisse men det verkar ändå inte vara tydligt.</p>\n</li>\n</ol>\n<p dir=\"auto\">Ni kanske behöver köra en pipeline som bygger ett färdigt paket när ni gör en release?</p>\n",
+      "pid": 4376,
+      "tid": 727,
+      "timestamp": 1695885587224,
+      "toPid": "4103",
+      "uid": 247,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-09-28T17:42:22.757Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-09-28T07:19:47.224Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/247\">@lfvjimisola</a> Hej, Det är inte jag som är huvudmaintainer, men jag kan ta dina frågor till det forumet eller så ännu bättre, peta in några issues på github, så får du snabbare respons tror jag. Lägg det som förbättringsförslag.</p>\n",
+      "pid": 4381,
+      "tid": 727,
+      "timestamp": 1695922942757,
+      "toPid": "4376",
+      "uid": 521,
+      "edited": 1695923030374,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 247,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "picture": null,
+            "fullname": "",
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-09-28T18:44:31.987Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-09-28T17:42:22.757Z",
+      "editedISO": "2023-09-28T17:43:50.374Z",
+      "index": 10,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> Hej, jag får be vår SA alternativt CGI. Skriva då. Tack.</p>\n",
+      "pid": 4382,
+      "tid": 727,
+      "timestamp": 1695926671987,
+      "toPid": "4381",
+      "uid": 247,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-09-28T18:44:31.987Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Vår leverantör, CGI, får inte rätt på pluginen och de verkar inte riktigt anamma idén med att fråga på GitHub. Finns det någon på DIGG som de kan kontakta direkt? Annars lär det nog inte blir någon plugin för LFV vilket vore jäkligt synd.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Vet du?</p>\n",
+      "pid": 4417,
+      "tid": 727,
+      "timestamp": 1697533311305,
+      "uid": 247,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 247,
+            "username": "lfvjimisola",
+            "userslug": "lfvjimisola",
+            "picture": null,
+            "fullname": "",
+            "displayname": "lfvjimisola",
+            "icon:text": "L",
+            "icon:bgColor": "#33691e"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-14T21:17:56.064Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-17T09:01:51.305Z",
+      "editedISO": "",
+      "index": 12,
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag tänker att detta plugin skulle kunna vara en egen underkategori i Öppen källkod så att det är möjligt att skapa flera parallella diskussioner om pluginet som kan bli mer detaljerade och lättare att följa än om det bara är en megalång tråd för det.</p>\n<p dir=\"auto\">Och tänker man vidare, kanske borde varje kodbas i <a href=\"http://offentligkod.se\" rel=\"nofollow ugc\">offentligkod.se</a> ha en sådan underkategori så att det finns en naturlig plats för de som använder dem att diskutera.</p>\n",
+      "pid": 4418,
+      "tid": 727,
+      "timestamp": 1697535932957,
+      "toPid": "4067",
+      "uid": 41,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-17T09:45:32.957Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/531\">@DIGG_admin</a></p>\n<p dir=\"auto\">Det är väldigt olyckligt att en plugin som DIGG tagit fram och annonserat här sedan inte har någon som svarar på frågor.</p>\n<p dir=\"auto\">Jag har full förståelse för att det är open source och utan några som helst garantier men jag tycker det är oerhört viktigt att DIGG visar vägen för open source inom myndighets-Sverige.</p>\n<p dir=\"auto\">Med anledning av denna plugin så har jag involverad en rad personer på LFV samt hos vår leverantör och det är tyvärr inte en bra upplevelse för dessa och jag är orolig att det påverkar hur LFV kommer se på open source framöver.</p>\n<p dir=\"auto\">Jag har skapat en ticket på github med frågorna från vår leverantör.</p>\n<p dir=\"auto\"><a href=\"https://github.com/diggsweden/jitsi-outlook/issues/43\" rel=\"nofollow ugc\">https://github.com/diggsweden/jitsi-outlook/issues/43</a></p>\n",
+      "pid": 4493,
+      "tid": 727,
+      "timestamp": 1699996676064,
+      "toPid": "4417",
+      "uid": 247,
+      "edited": 1699996714566,
+      "editor": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "userslug": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-23T11:37:32.279Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-11-14T21:17:56.064Z",
+      "editedISO": "2023-11-14T21:18:34.566Z",
+      "index": 14,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 247,
+        "username": "lfvjimisola",
+        "fullname": "",
+        "userslug": "lfvjimisola",
+        "reputation": 35,
+        "postcount": 35,
+        "topiccount": 7,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1709205742353,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lfvjimisola",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#33691e",
+        "lastonlineISO": "2024-02-29T11:22:22.353Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/247\">@lfvjimisola</a><br />\nFörst, Jag tycker ticketen ser exemplarisk ut förutom att man inte får reda på hur det går p.g.a. ni tar diskussionen privat i slutet så uppdatera gärna där hur det har gått (fick hjälp, fick ej hjälp etc), och har du inte fått feedback alls återkoppla i issuen också så.</p>\n<p dir=\"auto\">Som du är inne på, har tidigare i tråden nämnt att issues bör tas på GitHub, bland annat för att nå rätt personer (och nämns också i projektets contributing-guide). Det är olyckligt om leverantören känner sig obekväm med det, men då kan man kanske hitta en mellanväg och göra som du precis gjorde - att man försöker ta det från issues och diskussionen vidare privat (men se då helst till att lämna en kommentar i ärendet sen så att man som användare vet hur det gick och kanske något övergripande om hur det löste sig).<br />\nÖvrigt än GitHub-isssues för just öppen källkodsprojekten från Digg är inte något vi bevakar löpande i dagsläget tyvärr. Och det finns inga resurser till sådan bevakning heller just nu.</p>\n<p dir=\"auto\">\".. jag tycker det är oerhört viktigt att DIGG visar vägen för open source inom myndighets-Sverige.\"<br />\nsamt \"support i andra forum (än GitHub issues\"),</p>\n<p dir=\"auto\">Ja, inga av dessa kan jag tyvärr påverka jättemycket i dagsläget även om vi kör vidare med de resurser vi just nu har, men jag tar med dina rader här som exempel på behov utifrån, försöker spara och samla in sådant för framtida sammanställning.</p>\n",
+      "pid": 4517,
+      "tid": 727,
+      "timestamp": 1700739452279,
+      "toPid": "4493",
+      "uid": 521,
+      "edited": 1700739885404,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-12-19T12:30:52.154Z"
+      },
+      "bookmarks": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-23T11:37:32.279Z",
+      "editedISO": "2023-11-23T11:44:45.404Z",
+      "index": 15,
+      "parent": {
+        "username": "lfvjimisola",
+        "displayname": "lfvjimisola"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Förra veckan spelade vi in en podcast med fokus på Jitsi-pluginet och filosofin kring utvecklingen av det: <a href=\"https://blog.publiccode.net/news/2023/12/18/episode-fourteen-of-lets-talk-about-public-code.html\" rel=\"nofollow ugc\">https://blog.publiccode.net/news/2023/12/18/episode-fourteen-of-lets-talk-about-public-code.html</a></p>\n",
+      "pid": 4592,
+      "tid": 727,
+      "timestamp": 1702989052154,
+      "toPid": "4517",
+      "uid": 41,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-12-19T12:30:52.154Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#cd751d",
+    "cid": 24,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppen källkod",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppen källkod</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppen källkod",
+    "numRecentReplies": 1,
+    "order": 5,
+    "parentCid": 0,
+    "post_count": 489,
+    "slug": "24/öppen-källkod",
+    "subCategoriesPerPage": 10,
+    "topic_count": 84,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 489,
+    "totalTopicCount": 84
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "727",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/727.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppen källkod",
+      "url": "/category/24/öppen-källkod",
+      "cid": 24
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/727",
+  "bodyClass": "page-topic page-topic-727 template-topic page-topic-category-24 page-topic-category-öppen-källkod parent-category-24 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Jitsi Outlook-plugin"
+        },
+        {
+          "name": "description",
+          "content": "Hej, Kan vara intressant: Havs- och Vattenmyndigheten har i samverkan med Försäkringskassan, Digg, lagt upp en jitsi-plugin för outlook på Digg&#x27;s GitHub: https://github.com/diggsweden/jitsi-outlook. Det finns förbättringsförslag och framtida tankar, men d..."
+        },
+        {
+          "property": "og:title",
+          "content": "Jitsi Outlook-plugin"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej, Kan vara intressant: Havs- och Vattenmyndigheten har i samverkan med Försäkringskassan, Digg, lagt upp en jitsi-plugin för outlook på Digg&#x27;s GitHub: https://github.com/diggsweden/jitsi-outlook. Det finns förbättringsförslag och framtida tankar, men d..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-04-03T15:13:37.646Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-12-19T12:30:52.154Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppen källkod"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/727",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/727/jitsi-outlook-plugin",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/727.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/24/öppen-källkod"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/josef_andersson"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

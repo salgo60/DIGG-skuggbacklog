@@ -1,0 +1,899 @@
+{
+  "cid": 23,
+  "lastposttime": 1669706490564,
+  "mainPid": 3270,
+  "postcount": 6,
+  "slug": "582/öppen-eller-semi-stängd-data-om-sårbarheter-eller-cybersäkerhetsanalyser",
+  "tid": 582,
+  "timestamp": 1668787470597,
+  "title": "Öppen eller &quot;Semi-stängd&quot; data om sårbarheter eller cybersäkerhetsanalyser?",
+  "uid": 744,
+  "viewcount": 585,
+  "postercount": 3,
+  "tags": [
+    {
+      "value": "cve",
+      "valueEscaped": "cve",
+      "valueEncoded": "cve",
+      "class": "cve"
+    },
+    {
+      "value": "sårbarheter",
+      "valueEscaped": "sårbarheter",
+      "valueEncoded": "s%C3%A5rbarheter",
+      "class": "sårbarheter"
+    },
+    {
+      "value": "data",
+      "valueEscaped": "data",
+      "valueEncoded": "data",
+      "class": "data"
+    },
+    {
+      "value": "säkerhet",
+      "valueEscaped": "säkerhet",
+      "valueEncoded": "s%C3%A4kerhet",
+      "class": "säkerhet"
+    }
+  ],
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 3642,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Öppen eller \"Semi-stängd\" data om sårbarheter eller cybersäkerhetsanalyser?",
+  "timestampISO": "2022-11-18T16:04:30.597Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-11-29T07:21:30.564Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!<br />\nData om sårbarheter och cybersäkerhetsanalys finns öppet eller semi-stängt (hålls inom landet men öppet mellan privat och offentlig sektor) i andra länder. Vet vi om något sådant finns i Sverige?</p>\n<p dir=\"auto\">Jag har kollat MSB, nybildade Nationella centret för cybersäkerhet, vårt nationella CSIRT CERT-SE mm och även på privata sidan Tech Sverige m.m. Men har inte hittat någon strukturerad data eller ens api till ostrukturerade analyser/artiklar.</p>\n<p dir=\"auto\">Så undrar om någon vet om vi någonstans nationellt öppet använder API:er från <a href=\"https://nvd.nist.gov/vuln/data-feeds\" rel=\"nofollow ugc\">National Vulnerability Database (NVD)</a> mer känt som CVE? Kanske kopplar det till svenska incidenter?</p>\n<p dir=\"auto\">Vet att CERT-SE hänvisar till aktuella CVE i en del nyhetsbrev och rekommendationer t.ex. <a href=\"https://cert.se/2022/11/allvarliga-sarbarheter-i-openlitespeed-web-server\" rel=\"nofollow ugc\">här</a>, men det är vad jag kan se helt ostrukturerat och manuellt hämtat.</p>\n<p dir=\"auto\">UK har ett \"Cyber Security Information Sharing Partnership (CISP) is a joint industry and government digital service to allow UK organisations to share cyber threat information in a secure and confidential environment.\" (<a href=\"https://www.ncsc.gov.uk/section/keep-up-to-date/cisp\" rel=\"nofollow ugc\">länk</a> om någon vill läsa mer). Det är ju svårt att säga vad för typ av datadelning som är bakom inlogg men \"in-depth analysis of cyber threat information\" låter i alla fall strukturerat <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Ni får flytta eller ta bort om detta inte hör hemma här, är min första nystartade tråd <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 3270,
+      "tid": 582,
+      "timestamp": 1668787470597,
+      "uid": 744,
+      "edited": 1668787532919,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 521,
+            "username": "Josef_Andersson",
+            "userslug": "josef_andersson",
+            "picture": null,
+            "fullname": "Josef Andersson",
+            "displayname": "Josef_Andersson",
+            "icon:text": "J",
+            "icon:bgColor": "#607d8b"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-11-19T10:02:50.138Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-11-18T16:04:30.597Z",
+      "editedISO": "2022-11-18T16:05:32.919Z",
+      "index": 0,
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> relevant fråga!</p>\n<p dir=\"auto\">Jag gissar på att många programkods-auditverktyg använder sig av NVD, men också andra källor.</p>\n<p dir=\"auto\">Jag känner bara till nyhetsbrev från CERT. men frågan är hur dessa brister nått CERT.  Vem rapporterar in? Eller kommer infon från NVD?</p>\n<p dir=\"auto\">Vet någon om det Finns en nationell inrapportering av de sårbarheter vi själva upptäcker? Det hade annars varit bra.</p>\n",
+      "pid": 3295,
+      "tid": 582,
+      "timestamp": 1668852170138,
+      "toPid": "3270",
+      "uid": 62,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-19T10:02:50.138Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> rapportering av sårbarheter i Sverige kan vara krav på enligt NIS och anmälan om att sådan ska ske sker oftast via en av de fem tillsynsmyndigheterna för NIS (beroende på bransch samt om samhällsviktig verksamhet och/eller digital tjänst) men tror all rapportering vid en it-incident sker direkt till <a href=\"https://www.msb.se/sv/amnesomraden/informationssakerhet-cybersakerhet-och-sakra-kommunikationer/nis-direktivet/incidentrapportering-for-nis-leverantorer/\" rel=\"nofollow ugc\">MSB</a>. Dit kan också sk frivillig rapportering ske.</p>\n<p dir=\"auto\">MSB har årlig information till allmänheten/branschen i rapportform av lärdomar av It-incidenter som rapporterats till följd av NIS (2021 info <a href=\"https://www.msb.se/sv/amnesomraden/informationssakerhet-cybersakerhet-och-sakra-kommunikationer/it-incidenter/samlad-information-om-it-incidenter/\" rel=\"nofollow ugc\">här</a>).</p>\n<p dir=\"auto\">Medan den dagliga, veckosamma eller sk \"blixtmeddelanden\" hänvisar till nyhetssidor och/eller NVD (utan länk). Exempel på <a href=\"https://cert.se/2022/10/cert-se-s-veckobrev-v-40\" rel=\"nofollow ugc\">veckomeddelande</a> när dataintrång skedde på Naturvårdsverket, enbart hänvisning till svt.</p>\n<p dir=\"auto\">Så det känns som det är helt olika datakällor och att vi såsom systemet är uppbyggt idag inte tillvaratar datan som rapporteringen av NIS innebär. Om vi tar Naturvårdsverket som exempel så förstår jag att vissa uttalanden inte kan göras pga förundersökning, men att få ut information om det är sårbarheter som andra (även i privat sektor) behöver agera på, behöver ske mer skyndsamt än inom ett år. Och just nu får vi endast den inputen utifrån eller av människors goda vilja, om jag förstår processerna rätt.</p>\n<p dir=\"auto\">Notera att jag inte alls berömmer eller tar upp allt gott arbete som görs i forumform och kommunikationsarbete. Utan detta berör bara hur vi samverkar vid en incident och/eller hantering vid kända sårbarheter.</p>\n",
+      "pid": 3307,
+      "tid": 582,
+      "timestamp": 1668856618594,
+      "uid": 744,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-19T11:16:58.594Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/744\">@tove</a> sa i <a href=\"/post/3270\">Öppen eller \"Semi-stängd\" data om sårbarheter eller cybersäkerhetsanalyser?</a>:</p>\n<blockquote>\n<p dir=\"auto\">Så undrar om någon vet om vi någonstans nationellt öppet använder API:er från National Vulnerability Database (NVD) mer känt som CVE? Kanske kopplar det till svenska incidenter?</p>\n</blockquote>\n<blockquote>\n<p dir=\"auto\">Utan detta berör bara hur vi samverkar vid en incident och/eller hantering vid kända sårbarheter.</p>\n</blockquote>\n<p dir=\"auto\">Hej Tove,  viktiga frågor, och känns väldigt aktuella. Har tyvärr inte hört något (och kan ha helt fel, då säkerhet inte är mitt specialområde) om att det finns motsvarande Cyber Security Information Sharing Partnership (CISP) som du nämner, men det kanske är en fråga som skulle få gehör om initiativ togs, och någon/några hade långsiktigt engagemang att sätta fokus på att efterfråga ett sådant utbyte. En semistängd modell, tills lösningar och berörda fått en chans att ordna låter rimligt.</p>\n<p dir=\"auto\">Ja, kan iaf bara instämma med att det annars är ju väldigt aktuellt ämne inom Öppen Källkods-världen att söka igenom projekt och/eller beroenden, både efter sårbarheter och licenser både på kodbas och i container-miljöerna.,  där  de flesta av lösningarna i grund använder NVD och sedan kompletterande källor. Tror vidare att det är en flerstegsresa för många organisationer att formalisera detta (när man inser hur mycket kritiska CVE's man har:), hur får man in att löpande hantera dess resultat osv <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> ,men inom en inte allt för avlägsen framtid är jag positiv till att det är del av grundpraxis att dessa CVE-uppslag med mera hör till standardpraxis för de flest något mer seriösa utvecklings/deployment-projekt.</p>\n<p dir=\"auto\">Förutom de alternativ du nämner är en annan del att fundera hur man som organisation kan uppmuntra och göra det så enkelt som möjligt att få in upptäckter om (icke kända offentliga) sårbarheter från allmänhet/enskilda individer. Kanske inte något som händer varje dag, men har varit med om det tillräckligt många gånger för att funderar på hur många gånger någon inte orkade rapportera in något-</p>\n",
+      "pid": 3325,
+      "tid": 582,
+      "timestamp": 1668985864712,
+      "toPid": "3270",
+      "uid": 521,
+      "edited": 1668986320118,
+      "editor": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 744,
+            "username": "tove",
+            "userslug": "tove",
+            "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+            "fullname": "Tove",
+            "displayname": "tove",
+            "icon:text": "T",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-11-29T07:21:30.564Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-11-20T23:11:04.712Z",
+      "editedISO": "2022-11-20T23:18:40.118Z",
+      "index": 3,
+      "parent": {
+        "username": "tove",
+        "displayname": "tove"
+      },
+      "user": {
+        "uid": 521,
+        "username": "Josef_Andersson",
+        "userslug": "josef_andersson",
+        "reputation": 22,
+        "postcount": 14,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "<p dir=\"auto\">Utvecklare, Öppen Källkodsspecialist, Digg</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1714391306884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Josef_Andersson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2024-04-29T11:48:26.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> håller helt med dig, och besvarar stycke 1 och 2 senare. Men tycker om att du lyfter uppmuntran till att anmäla. Jag skulle säga att vi idag med den arbetsrätt (<a href=\"https://www.akavia.se/senaste/pressmeddelanden/akavia-varnar-for-oskaliga-villkor-i-anstallningsavtal/\" rel=\"nofollow ugc\">stränga anställningsavtals villkor</a>) till och med ibland har vissa hinder att rapportera, medverka i open source och hjälpa till att förhindra incidenter i Sverige. Eller i vart fall en otydlighet för individen. Vet flera fall där arbetsgivare har gått efter, men även fall där man blivit anmäld till polisen.</p>\n<p dir=\"auto\">Håller på att ta fram projektunderlag ang detta och du får gärna säga till om du har tid för en e-kaffe och diskutera vilka möjligheter respektive hinder du ser.</p>\n<p dir=\"auto\">Exempel på anmälan är ju Folkhälsomyndighetens covid db, om det stämmer så främjar ju inte det direkt att rapportera de sårbarheter man ser. Jag vet att personen som anmälde skrev via anonym e-post så möjligt att det finns omständigheter som inte framgår av mediebevakningen men jag ser det som anmärkningsvärt om det stämmer att personen skrev ett mail och blev polisanmäld redan vid mail nr 1. Och hans mail 2 var efter att de hade haft stängt och sedan öppnat efter säkerhetsgenomgång.</p>\n<p dir=\"auto\">\"I mejl från hackaren, skickade till bland annat Folkhälsomyndigheten, intygar personen att hen inte är ute efter att skada, utan bara vill varna för säkerhetshålet. För att bevisa att Sminet verkligen var öppet för intrång bifogade hackaren information från databasen som inte innehöll känsliga personuppgifter. Vid det andra tillfället visade samma person att hen själv kunde lägga in data, genom att plantera en falsk covid-patient i registret.\" (<a href=\"https://www.dn.se/sverige/sa-hackades-folkhalsomyndigheten-gammalt-sakerhetshal-utnyttjades/\" rel=\"nofollow ugc\">länk till dn</a>,ev betalvägg dock)</p>\n",
+      "pid": 3333,
+      "tid": 582,
+      "timestamp": 1669027824482,
+      "uid": 744,
+      "edited": 1669029384858,
+      "editor": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "displayname": "tove"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-21T10:50:24.482Z",
+      "editedISO": "2022-11-21T11:16:24.858Z",
+      "index": 4,
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/521\">@Josef_Andersson</a> nu har jag skrivit en projektbeskrivning för finansiering av detta och MSB har varit positiva. Om det är någon som vill ge input innan det skickas in imorgon (10 sidor) får ni hojta!</p>\n<p dir=\"auto\">Jag ska kolla hur det skulle funka att publicera delar här (personuppgifter, så hela blir det inte).</p>\n",
+      "pid": 3642,
+      "tid": 582,
+      "timestamp": 1669706490564,
+      "toPid": "3325",
+      "uid": 744,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-11-29T07:21:30.564Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "Josef_Andersson",
+        "displayname": "Josef_Andersson"
+      },
+      "user": {
+        "uid": 744,
+        "username": "tove",
+        "userslug": "tove",
+        "reputation": 78,
+        "postcount": 108,
+        "topiccount": 8,
+        "picture": "/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+        "signature": "<p dir=\"auto\">Utveckla hur vi utvecklar säker systemutveckling samhällseffektivt &amp; innovativt</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1674464577685,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tove",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-01-23T09:02:57.685Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "582",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/582.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/582",
+  "bodyClass": "page-topic page-topic-582 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Öppen eller &quot;Semi-stängd&quot; data om sårbarheter eller cybersäkerhetsanalyser?"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Data om sårbarheter och cybersäkerhetsanalys finns öppet eller semi-stängt (hålls inom landet men öppet mellan privat och offentlig sektor) i andra länder. Vet vi om något sådant finns i Sverige? Jag har kollat MSB, nybildade Nationella centret för c..."
+        },
+        {
+          "property": "og:title",
+          "content": "Öppen eller &quot;Semi-stängd&quot; data om sårbarheter eller cybersäkerhetsanalyser?"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Data om sårbarheter och cybersäkerhetsanalys finns öppet eller semi-stängt (hålls inom landet men öppet mellan privat och offentlig sektor) i andra länder. Vet vi om något sådant finns i Sverige? Jag har kollat MSB, nybildade Nationella centret för c..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-11-18T16:04:30.597Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-11-29T07:21:30.564Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/744-profileavatar-1668859241432.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/582",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/582/öppen-eller-semi-stängd-data-om-sårbarheter-eller-cybersäkerhetsanalyser",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/582.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/tove"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

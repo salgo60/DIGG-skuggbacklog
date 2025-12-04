@@ -1,0 +1,2220 @@
+{
+  "cid": 31,
+  "lastposttime": 1665144842740,
+  "mainPid": 2362,
+  "postcount": 25,
+  "slug": "440/uppdaterad-dokumentation-20220914",
+  "tags": [
+    {
+      "value": "mina ärenden",
+      "valueEscaped": "mina ärenden",
+      "valueEncoded": "mina%20%C3%A4renden",
+      "class": "mina-ärenden"
+    },
+    {
+      "value": "skatteverket",
+      "valueEscaped": "skatteverket",
+      "valueEncoded": "skatteverket",
+      "class": "skatteverket"
+    },
+    {
+      "value": "ena",
+      "valueEscaped": "ena",
+      "valueEncoded": "ena",
+      "class": "ena"
+    },
+    {
+      "value": "byggblock",
+      "valueEscaped": "byggblock",
+      "valueEncoded": "byggblock",
+      "class": "byggblock"
+    }
+  ],
+  "tid": 440,
+  "timestamp": 1663154550839,
+  "title": "Uppdaterad dokumentation 20220914",
+  "uid": 454,
+  "viewcount": 5613,
+  "postercount": 9,
+  "downvotes": 0,
+  "upvotes": 3,
+  "teaserPid": 2803,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Uppdaterad dokumentation 20220914",
+  "timestampISO": "2022-09-14T11:22:30.839Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-10-07T12:14:02.740Z",
+  "pinExpiryISO": "",
+  "votes": 3,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Mina ärenden har uppdaterat delar av lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att dokumentationen uppdateras/förändras.</p>\n<p dir=\"auto\">Om du som läser detta har några frågor så är du välkommen att skriva de i denna tråd.</p>\n<h2>Förändringar</h2>\n<p dir=\"auto\">2022-09-14</p>\n<h3>Tjänstebeskrivning</h3>\n<ul>\n<li>Indata ska skickas i body till POST-anrop istället för GET. Skälet till ändringen är att möjliggöra kryptering av t.ex. personnummer som anses vara extra skyddsvärda personuppgifter.</li>\n<li>Två nya indataparametrar \"kund.identifierare\" och \"kund.typ\" ersätter tidigare \"kund\". Syftet är att möjliggöra för fler typer av identifierare än personnummer och organisationsnummer</li>\n</ul>\n<h3>Verksamhetsguide</h3>\n<ul>\n<li>Nytt avsnitt i kapitel 1 med rubriken \"Kundsituation\" har tillkommit som närmare beskriver begreppet och kundsituationsperspektivet.</li>\n<li>Nytt avsnitt i kapitel 2 med rubriken \"Mappning från kundärende till producentärenden\".</li>\n<li>Ändrad utformning av avsnittet \"Kundhändelser och hur du formulerar dem (mikrocopy)\" i kapitel 3 i syfte att göra det mer lättläst.</li>\n<li>Nytt innehåll i kapitel 4 med exempel på hur kundhändelser kan användas i gränssnitt i tjänst hos en Konsument.</li>\n<li>Mindre språkliga justeringar</li>\n</ul>\n<h3>Begreppsmodell</h3>\n<ul>\n<li>En begreppsmodell har publicerats i PDF-format. Ambitionen är att göra begreppsmodellen tillgänglig i ett mer lämpligt format framöver.</li>\n</ul>\n<h3>Enkel Kundhändelsetjänst</h3>\n<ul>\n<li>Uppdaterad enligt senaste tjänstebeskrivning (sker inom kort)</li>\n</ul>\n",
+      "pid": 2362,
+      "tid": 440,
+      "timestamp": 1663154550839,
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-09-14T11:38:56.653Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-09-14T11:22:30.839Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> skapa något så saker hänger ihop typ en kategori med ärendenummer eller helpdesk id</p>\n<p dir=\"auto\">En diskussionsgrupp har sina brister....</p>\n<ul>\n<li>gärna ha unika id:n för varje ändring så blir det enklare att referera till dom....</li>\n</ul>\n<p dir=\"auto\">ex.<br />\n2022-09-14-1 Indata ska skickas.....<br />\n2022-09-14-2 Två nya indataparametrar.....</p>\n<p dir=\"auto\">GET vs. POST</p>\n<p dir=\"auto\">Skall Wikidata använda saker som källa funkar inte POST se problem med <a href=\"https://phabricator.wikimedia.org/T200700#4910234\" rel=\"nofollow ugc\">SCB Regina</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1663155811493-ece94e60-e4b9-4895-8993-97ac1b2eb7ee-image.png\" alt=\"ece94e60-e4b9-4895-8993-97ac1b2eb7ee-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 2363,
+      "tid": 440,
+      "timestamp": 1663155536653,
+      "toPid": "2362",
+      "uid": 24,
+      "edited": 1663155815585,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-15T07:34:55.341Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-14T11:38:56.653Z",
+      "editedISO": "2022-09-14T11:43:35.585Z",
+      "index": 1,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> Tack Johan! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Välkommen hit!</p>\n",
+      "pid": 2365,
+      "tid": 440,
+      "timestamp": 1663157029611,
+      "toPid": "2362",
+      "uid": 216,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-14T12:03:49.611Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Bra synpunkter. Lägger till ID för varje förändring så det går att hänvisa till så får vi utvärdera längs vägen om det här är ett bra sätt eller om det ska justeras mer.</p>\n<p dir=\"auto\">Ang. GET vs POST<br />\nIntressant synpunkt. Skulle du kunna utveckla vad du ser för användningsområde mellan Wikidata och kundhändelser (Mina ärenden)?</p>\n",
+      "pid": 2384,
+      "tid": 440,
+      "timestamp": 1663227295341,
+      "toPid": "2363",
+      "uid": 454,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-15T07:50:36.792Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-15T07:34:55.341Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">--Uppdaterat med ID--</p>\n<p dir=\"auto\">Mina ärenden har uppdaterat lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som görs kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att dokumentationen uppdateras/förändras.</p>\n<p dir=\"auto\">Du hittar Mina ärendens lösningsdokumentation på <a href=\"https://www.dataportal.se/sv/datasets/6_71657/mina-arenden#ref=?p=1&amp;q=mina%20%C3%A4renden\" rel=\"nofollow ugc\">Sveriges dataportal</a>.</p>\n<p dir=\"auto\">Om du som läser detta har några frågor så är du välkommen att skriva de i denna tråd.</p>\n<h2>Förändringar</h2>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>ID</th>\n<th>Vart</th>\n<th>Beskrivning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2022-09-14-<strong>01</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Indata ska skickas i body till POST-anrop istället för GET. Skälet till ändringen är att möjliggöra kryptering av t.ex. personnummer som anses vara extra skyddsvärda personuppgifter.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>02</strong></td>\n<td>Tjänstebeskrivning</td>\n<td>Två nya indataparametrar <code>kund.identifierare</code> och <code>kund.typ</code> ersätter tidigare <code>kund</code>. Syftet är att möjliggöra för fler typer av identifierare än personnummer och organisationsnummer.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>03</strong></td>\n<td>Verksamhetsguide</td>\n<td>Nytt avsnitt i kapitel 1 med rubriken \"Kundsituation\" har tillkommit som närmare beskriver begreppet och kundsituationsperspektivet.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>04</strong></td>\n<td>Verksamhetsguide</td>\n<td>Nytt avsnitt i kapitel 2 med rubriken \"Mappning från kundärende till producentärenden\".</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>05</strong></td>\n<td>Verksamhetsguide</td>\n<td>Ändrad utformning av avsnittet \"Kundhändelser och hur du formulerar dem (mikrocopy)\" i kapitel 3 i syfte att göra det mer lättläst.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>06</strong></td>\n<td>Verksamhetsguide</td>\n<td>Nytt innehåll i kapitel 4 med exempel på hur kundhändelser kan användas i gränssnitt i tjänst hos en Konsument.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>07</strong></td>\n<td>Verksamhetsguide</td>\n<td>Mindre språkliga justeringar.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>08</strong></td>\n<td>Begreppsmodell</td>\n<td>En begreppsmodell har publicerats i PDF-format. Ambitionen är att göra begreppsmodellen tillgänglig i ett mer lämpligt format framöver.</td>\n</tr>\n<tr>\n<td>2022-09-14-<strong>09</strong></td>\n<td>Enkel kundhändelsetjänst</td>\n<td>Uppdaterad enligt senaste tjänstebeskrivning (sker inom kort)</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> sa i <a href=\"/post/2362\">Uppdaterad dokumentation 20220914</a>:</p>\n<blockquote>\n<p dir=\"auto\">Mina ärenden har uppdaterat delar av lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att dokumentationen uppdateras/förändras.</p>\n<p dir=\"auto\">Om du som läser detta har några frågor så är du välkommen att skriva de i denna tråd.</p>\n<h2>Förändringar</h2>\n<p dir=\"auto\">2022-09-14</p>\n<h3>Tjänstebeskrivning</h3>\n<ul>\n<li>Indata ska skickas i body till POST-anrop istället för GET. Skälet till ändringen är att möjliggöra kryptering av t.ex. personnummer som anses vara extra skyddsvärda personuppgifter.</li>\n<li>Två nya indataparametrar \"kund.identifierare\" och \"kund.typ\" ersätter tidigare \"kund\". Syftet är att möjliggöra för fler typer av identifierare än personnummer och organisationsnummer</li>\n</ul>\n<h3>Verksamhetsguide</h3>\n<ul>\n<li>Nytt avsnitt i kapitel 1 med rubriken \"Kundsituation\" har tillkommit som närmare beskriver begreppet och kundsituationsperspektivet.</li>\n<li>Nytt avsnitt i kapitel 2 med rubriken \"Mappning från kundärende till producentärenden\".</li>\n<li>Ändrad utformning av avsnittet \"Kundhändelser och hur du formulerar dem (mikrocopy)\" i kapitel 3 i syfte att göra det mer lättläst.</li>\n<li>Nytt innehåll i kapitel 4 med exempel på hur kundhändelser kan användas i gränssnitt i tjänst hos en Konsument.</li>\n<li>Mindre språkliga justeringar</li>\n</ul>\n<h3>Begreppsmodell</h3>\n<ul>\n<li>En begreppsmodell har publicerats i PDF-format. Ambitionen är att göra begreppsmodellen tillgänglig i ett mer lämpligt format framöver.</li>\n</ul>\n<h3>Enkel Kundhändelsetjänst</h3>\n<ul>\n<li>Uppdaterad enligt senaste tjänstebeskrivning (sker inom kort)</li>\n</ul>\n</blockquote>\n",
+      "pid": 2385,
+      "tid": 440,
+      "timestamp": 1663227385390,
+      "toPid": "2362",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-15T07:36:25.390Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> sa i <a href=\"/post/2384\">Uppdaterad dokumentation 20220914</a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Bra synpunkter. Lägger till ID för varje förändring så det går att hänvisa till så får vi utvärdera längs vägen om det här är ett bra sätt eller om det ska justeras mer.</p>\n<p dir=\"auto\">Ang. GET vs POST<br />\nIntressant synpunkt. Skulle du kunna utveckla vad du ser för användningsområde mellan Wikidata och kundhändelser (Mina ärenden)?</p>\n</blockquote>\n<p dir=\"auto\">Jag är nog ute och cyklar igen trodde du pratade om det API framework som togs fram av <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a></p>\n<p dir=\"auto\"><strong>Sorry</strong></p>\n",
+      "pid": 2386,
+      "tid": 440,
+      "timestamp": 1663228236792,
+      "toPid": "2384",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-15T08:00:43.527Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-09-15T07:50:36.792Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> Ingen fara. Vi uppskattar all input så delta gärna i fortsatta diskussioner så får vi på sikt förhoppningsvis fram en standard för ärendeåterkoppling från det offentliga som möter upp de behov och förutsättningar som finns därute <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 2387,
+      "tid": 440,
+      "timestamp": 1663228843527,
+      "toPid": "2386",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-15T08:24:37.032Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-15T08:00:43.527Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/topic/523",
+          "timestamp": 1663230277032,
+          "type": "fork",
+          "uid": 62,
+          "id": 530,
+          "timestampISO": "2022-09-15T08:24:37.032Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "icon": "fa-code-fork",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> <a href=\"/topic/523\">forked</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-09-15T08:24:37.032Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Bra input, här kommer ett tråkigt svar men vi är begränsade kring val av verktyg i dagsläget till de . Självklart ska dock se hur vi kan göra vårt arbete ännu mer transperent och inbjudande till samskapande. Tänker att vi kan lägga upp den road map som vi jobbar efter här på Communtyt så snart den är förankrad med samverkande myndigheter.</p>\n<p dir=\"auto\">Har någon av er haft möjlighet att ta del av den dokumentation vi lagt upp och har ni några spontanta synpunkter på innehållet? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 2405,
+      "tid": 440,
+      "timestamp": 1663246887555,
+      "toPid": "2390",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-15T13:32:03.828Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-15T13:01:27.555Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> Jag skulle nog ändå råda er att se över om det verkligen är nödvändigt att använda HTTP POST för läsoperationer. Tänker att HTTPS är grunden för en säker kommunikation och det viktigaste, och sedan går det alltid går att undvika att logga hela förfrågnings-URL. Sen finns det andra småtips som \"Referrer hiding\" etc. Kan säkert finnas fog för valet. Men att bryta mot grundläggande principer om hur internet är uppbyggt bör noga övervägas, små beslut tenderar till att leda till problem med interoperatbilitet om flera gör olika i dessa frågor.</p>\n",
+      "pid": 2406,
+      "tid": 440,
+      "timestamp": 1663248723828,
+      "toPid": "2405",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 0,
+      "edited": 1663248873168,
+      "editor": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "displayname": "jonass"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 508,
+            "username": "Fredrik Ferm",
+            "userslug": "fredrik-ferm",
+            "picture": null,
+            "fullname": "Fredrik Ferm",
+            "displayname": "Fredrik Ferm",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-16T07:51:42.410Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-15T13:32:03.828Z",
+      "editedISO": "2022-09-15T13:34:33.168Z",
+      "index": 8,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/topic/524",
+          "timestamp": 1663248774025,
+          "type": "fork",
+          "uid": 531,
+          "id": 532,
+          "timestampISO": "2022-09-15T13:32:54.025Z",
+          "user": {
+            "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+            "username": "DIGG_admin",
+            "userslug": "digg_admin",
+            "uid": 531,
+            "displayname": "DIGG_admin",
+            "icon:text": "D",
+            "icon:bgColor": "#673ab7"
+          },
+          "icon": "fa-code-fork",
+          "text": "<img alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/531-profileavatar-1662995628514.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">D</span> <a href=\"/user/digg_admin\">DIGG_admin</a> <a href=\"/topic/524\">forked</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-09-15T13:32:54.025Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Sen har jag en metapoäng om att namnet \"mina ärenden\" är något förvirrande. Jag får mer känslan av att byggblocket hanterar \"Mina Notifieringar\". Kanske inte är önsvärt att ändra det såklart. Men när jag läser dokumentationen så får jag förhoppningen om att nu äntligen kommer ett förslag  på det \"slutgiltiga\" schemat och begreppsmodell för hur en myndighet bör representera informationsmängden ärende. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f603.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smiley\" style=\"height:23px;width:auto;vertical-align:middle\" title=\"=)\" alt=\"😃\" /></p>\n",
+      "pid": 2408,
+      "tid": 440,
+      "timestamp": 1663249350821,
+      "toPid": "2407",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 509,
+            "username": "Jakob Fransson",
+            "userslug": "jakob-fransson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Jakob Fransson",
+            "icon:text": "J",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-16T07:51:24.898Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-15T13:42:30.821Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a><br />\nHej Jonas! Schema och begreppsmodell för hundratals autonoma offentliga aktörer på verksamhetsprocessområdet är en rejäl utmaning. Håller helt med om att det skulle ha varit bra om det fanns. Vi har avgränsat oss till ärendeåterkoppling och tror det finns ett stort värde att hämta om offentliga aktörer kan mappa sina processer till standraden och tillgängliggöra sk. kundhändelser, då det ger ökan insyn och kontroll för den det berör. Här ligger fokus initialt och vi tror det kommer vara ett minst sagt omfattande arbete att ensa på ärendeåterkopplingsområdet. Det skulle kunna vara en början på det du efterfrågar, det får tiden utvisa. Håller också med om att namnet Mina ärenden kan vara missvisande, vi tar med oss den.</p>\n",
+      "pid": 2424,
+      "tid": 440,
+      "timestamp": 1663314684898,
+      "toPid": "2408",
+      "uid": 509,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-16T08:04:44.279Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-09-16T07:51:24.898Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 509,
+        "username": "Jakob Fransson",
+        "userslug": "jakob-fransson",
+        "reputation": 7,
+        "postcount": 3,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1715846992270,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Jakob Fransson",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2024-05-16T08:09:52.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Hej Jonas</p>\n<p dir=\"auto\">Ja du har rätt, detta bryter mot grundläggande REST-principer, vilket i sig är ett problem.</p>\n<p dir=\"auto\">Men att exponera personnummer är också ett problem som till en början kan tyckas vara lite banalt.  Men vi vill att standarden för Mina ärenden skall kunna användas i många verksamheter och därför måste vi tänka lie kring de värsta fallen.  I vissa fall av offentlig förvaltning bara vetskapen om att någon frågar om en viss person till en viss producent ett säkerhetshål.  Till exempel kan man tänka sig att vetskapen om att många frågor ställs till en viss kommun om en person med skyddad identitet säger någonting om var denna person befinner sig.  Eller att vetskapen om att frågor ställs om en viss person till en specifik vårdinrättning (cancerbehandling, könsbyte etc) exponerar information om personens medicinska hemligheter.</p>\n<p dir=\"auto\">Så här behöver vi välja mellan två dåliga alternativ.  Antingen bryta mot REST-principer och komplicera lösningen eller potentiellt exponera skyddsvärd information.  I den sammanvägda bedömningen har vi landat i att skyddet är viktigare än principerna i detta fall och därför har vi ändrat till POST.</p>\n",
+      "pid": 2426,
+      "tid": 440,
+      "timestamp": 1663314702410,
+      "toPid": "2406",
+      "uid": 508,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 432,
+            "username": "Fredrik Forsberg",
+            "userslug": "fredrik-forsberg",
+            "picture": "/assets/uploads/profile/432-profileavatar-1664462038650.jpeg",
+            "fullname": "Fredrik Axelsson Forsberg",
+            "displayname": "Fredrik Forsberg",
+            "icon:text": "F",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-09-16T08:06:36.421Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-16T07:51:42.410Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 508,
+        "username": "Fredrik Ferm",
+        "userslug": "fredrik-ferm",
+        "reputation": 2,
+        "postcount": 4,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1665144842783,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Fredrik Ferm",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2022-10-07T12:14:02.783Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/509\">@Jakob-Fransson</a> Många projekt börjar med för stora omfång och kommer aldrig till det konkreta. Att som ni börjar med att leverera något konkret och avgränsat är ju en viktigt för att det ska bli något vettigt. Så det var inte kritik. Snarare så kanske \"mina ärenden\" har en solid strategi. Kommer någon myndighet att göra ett formellt åtagande att börja använda det ni kommer fram till? Tänker att någon måste vara först ut.</p>\n",
+      "pid": 2428,
+      "tid": 440,
+      "timestamp": 1663315484279,
+      "toPid": "2424",
+      "uid": 78,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-16T08:17:38.288Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-16T08:04:44.279Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "Jakob Fransson",
+        "displayname": "Jakob Fransson"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/508\">@Fredrik-Ferm</a> Tror många med er resonerar på liknande sätt. Delar er riskbedömning, men jag är inte helt övertygad att åtgärderna behöver vara att lämna GET.</p>\n",
+      "pid": 2429,
+      "tid": 440,
+      "timestamp": 1663315596421,
+      "toPid": "2426",
+      "uid": 78,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-16T08:06:36.421Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Fredrik Ferm",
+        "displayname": "Fredrik Ferm"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Hej Jonas<br />\nVi tolkade det som inte kritik och vi håller med dig till 100% <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> tror det är en framgångsfaktor att avgränsa sig och våga testa att vara så konkret det går - även om det gör ont eller inte att allt inte riktigt hänger hop.</p>\n<p dir=\"auto\">Först ut är Skatteverket som siktar på att ha ett kundhändelse-API i produktion v.44. Vi kommer lägga ut mer information om det inom kort.</p>\n<p dir=\"auto\">Sen håller vi på att starta upp piloter med ett antal olika kommuner på bygglovsområdet. Intressant där är att verksamhetsprocessen \"söka bygglov\" är i stort likadan i varje enskild kommun vilket skapar en del nya utmaningar som vi vill lära oss mer om.</p>\n<p dir=\"auto\">Därutöver håller några av myndigheterna som har koppling till <a href=\"http://verksamt.se\" rel=\"nofollow ugc\">verksamt.se</a> att jobba med kundhändelser - dels att generera ärendeåterkopplingen och dels att göra informationen tillgänglig på ett standardiserat sätt.</p>\n<p dir=\"auto\">Skjut gärna på med mer inspel och fortsätt följa Mina ärenden, vi är fortfarande i en utvecklande fas där all input är uppskattad <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /></p>\n",
+      "pid": 2431,
+      "tid": 440,
+      "timestamp": 1663316258288,
+      "toPid": "2428",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-16T14:15:20.691Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-16T08:17:38.288Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> är det nån kommun från Stockholmsregionen som ska vara med i piloten kring bygglov?</p>\n",
+      "pid": 2434,
+      "tid": 440,
+      "timestamp": 1663337720691,
+      "toPid": "2431",
+      "uid": 28,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-19T08:31:36.811Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-16T14:15:20.691Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a><br />\nHej Jonas<br />\nVärmdö är med på piloten tillsammans med Boverket och så ser vi också ut att få med en norrlandskommun på den här första kommunpiloten.</p>\n<p dir=\"auto\">Men vi söker fler piloter och ser gärna att fler kommuner sätter sig in i de lösningar som vi håller på att ta fram för att se vad som fungerar bra och mindre bra. Har du spontant förslag på någon/några kommuner som skulle kunna vara intresserade eller forum där vi skulle kunna nå ut med att berätta närmare om initiativet Mina ärenden?</p>\n",
+      "pid": 2471,
+      "tid": 440,
+      "timestamp": 1663576296811,
+      "toPid": "2434",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-19T09:49:28.276Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-09-19T08:31:36.811Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/454\">@johantjader</a> sa i <a href=\"/post/2471\">Uppdaterad dokumentation 20220914</a>:</p>\n<blockquote>\n<p dir=\"auto\">Har du spontant förslag på någon/några kommuner som skulle kunna vara intresserade eller forum där vi skulle kunna nå ut med att berätta närmare om initiativet Mina ärenden?</p>\n</blockquote>\n<p dir=\"auto\">Ja, det har jag. Kontakta mig på <a href=\"mailto:jonas.nordqvist@storsthlm.se\" rel=\"nofollow ugc\">jonas.nordqvist@storsthlm.se</a></p>\n",
+      "pid": 2474,
+      "tid": 440,
+      "timestamp": 1663580968276,
+      "toPid": "2471",
+      "uid": 28,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-09-19T10:33:17.034Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-19T09:49:28.276Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "johantjader",
+        "displayname": "johantjader"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/28\">@Jonas-Nordqvist</a> Du har mail <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 2475,
+      "tid": 440,
+      "timestamp": 1663583597034,
+      "toPid": "2474",
+      "uid": 454,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-19T10:33:17.034Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "Jonas Nordqvist",
+        "displayname": "Jonas Nordqvist"
+      },
+      "user": {
+        "uid": 454,
+        "username": "johantjader",
+        "userslug": "johantjader",
+        "reputation": 23,
+        "postcount": 22,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1672908723788,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "johantjader",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2023-01-05T08:52:03.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/508\">@Fredrik-Ferm</a><br />\nJag instämmer i <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> tankar och det är synd att ett behov av att bryta mot REST finns. Men ser att detta iaf stämmer väl överens med vad som står angivet i den tekniska dokumentationen för Mina Ärenden på skatteverket (<a href=\"https://skatteverket.entryscape.net/store/9/resource/1667\" rel=\"nofollow ugc\">https://skatteverket.entryscape.net/store/9/resource/1667</a>) och det är det absolut viktigaste. Att samtliga myndigheters ärenden/händelser och api:er för dessa fungerar likadant <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /><br />\nSen svider det alltid lite i själen när avsteg från väletablerade mönster behöver göras <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f60f.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--smirk\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":smirk:\" alt=\"😏\" /></p>\n<p dir=\"auto\">Ska försöka följa det här forumet, superbra om ni kommer med information kring detta allt eftersom!</p>\n<p dir=\"auto\">Vill någon eller några myndigheter/kommuner ha input tidigt, framför allt om det gäller företag, även på skiss-stadie så är det bara att höra av sig. Oftast mycket lättare att komma med konkret feedback när man har något att \"ta\" på.</p>\n<p dir=\"auto\">Fredrik Axelsson Forsberg<br />\n/VISMA Spcs</p>\n",
+      "pid": 2706,
+      "tid": 440,
+      "timestamp": 1664461863009,
+      "toPid": "2426",
+      "uid": 432,
+      "bookmarks": 1,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 454,
+            "username": "johantjader",
+            "userslug": "johantjader",
+            "picture": null,
+            "fullname": "Johan Tjäder",
+            "displayname": "johantjader",
+            "icon:text": "J",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-10-03T07:01:39.424Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "votes": 1,
+      "timestampISO": "2022-09-29T14:31:03.009Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "Fredrik Ferm",
+        "displayname": "Fredrik Ferm"
+      },
+      "user": {
+        "uid": 432,
+        "username": "Fredrik Forsberg",
+        "userslug": "fredrik-forsberg",
+        "reputation": 3,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": "/assets/uploads/profile/432-profileavatar-1664462038650.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1665647070659,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Fredrik Forsberg",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "F",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-10-13T07:44:30.659Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/topic/523",
+      "timestamp": 1663230277032,
+      "type": "fork",
+      "uid": 62,
+      "id": 530,
+      "timestampISO": "2022-09-15T08:24:37.032Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "icon": "fa-code-fork",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> <a href=\"/topic/523\">forked</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-09-15T08:24:37.032Z\"></span>"
+    },
+    {
+      "href": "/topic/524",
+      "timestamp": 1663248774025,
+      "type": "fork",
+      "uid": 531,
+      "id": 532,
+      "timestampISO": "2022-09-15T13:32:54.025Z",
+      "user": {
+        "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "uid": 531,
+        "displayname": "DIGG_admin",
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7"
+      },
+      "icon": "fa-code-fork",
+      "text": "<img alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/531-profileavatar-1662995628514.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">D</span> <a href=\"/user/digg_admin\">DIGG_admin</a> <a href=\"/topic/524\">forked</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-09-15T13:32:54.025Z\"></span>"
+    },
+    {
+      "href": "/topic/509",
+      "timestamp": 1665166766650,
+      "type": "fork",
+      "uid": 62,
+      "id": 509,
+      "timestampISO": "2022-10-07T18:19:26.650Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "icon": "fa-code-fork",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> <a href=\"/topic/509\">forked</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-10-07T18:19:26.650Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#A16946",
+    "cid": 31,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "",
+    "descriptionParsed": "",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Mina ärenden",
+    "numRecentReplies": 1,
+    "order": 1,
+    "parentCid": 30,
+    "post_count": 72,
+    "slug": "31/mina-ärenden",
+    "subCategoriesPerPage": 10,
+    "topic_count": 18,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 72,
+    "totalTopicCount": 18
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "440",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/440.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    },
+    {
+      "text": "Mina ärenden",
+      "url": "/category/31/mina-ärenden",
+      "cid": 31
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/440/uppdaterad-dokumentation-20220914?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/440",
+  "bodyClass": "page-topic page-topic-440 template-topic page-topic-category-31 page-topic-category-mina-ärenden parent-category-30 parent-category-31 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Uppdaterad dokumentation 20220914"
+        },
+        {
+          "name": "description",
+          "content": "Mina ärenden har uppdaterat delar av lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Uppdaterad dokumentation 20220914"
+        },
+        {
+          "property": "og:description",
+          "content": "Mina ärenden har uppdaterat delar av lösningsdokumentationen för byggblocket. För att hålla arbetet transperent och göra det enklare att förstå vilka ändringar som gjorts kommer vi att löpande skapa inlägg här på Dataportalens community i samband med att ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-09-14T11:22:30.839Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-10-07T12:14:02.740Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Mina ärenden"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/440",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/440/uppdaterad-dokumentation-20220914",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/440.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/31/mina-ärenden"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/johantjader"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/440/uppdaterad-dokumentation-20220914?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

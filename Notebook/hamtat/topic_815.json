@@ -1,0 +1,624 @@
+{
+  "cid": 23,
+  "lastposttime": 1686121496088,
+  "mainPid": 4249,
+  "postcount": 3,
+  "slug": "815/evenemang-specifikation",
+  "tid": 815,
+  "timestamp": 1685959460016,
+  "title": "Evenemang specifikation",
+  "uid": 1441,
+  "viewcount": 818,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 1,
+  "teaserPid": 4251,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Evenemang specifikation",
+  "timestampISO": "2023-06-05T10:04:20.016Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-06-07T07:04:56.088Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<h1>Bakgrund och syfte</h1>\n<p dir=\"auto\">Inom projektet Nationell Dataverkstad har det tagits fram en topplista över datamängder att standardisera för publicering och datadelning. En sådan datamängd är Evenemang. Datamängden kategoriseras inom området <em>Besöksnäring &amp; Rekreation</em>.  Vi har i dialog med kommuner, regioner, myndigheter och datakonsumenter tagit fram en specifikation för evenemang. Syftet med specifikationen är att beskriva information om evenemang på ett enhetligt och standardiserat vis och därigenom göra det enklare för kommuner och regioner i Sverige att publicera datamängder som beskriver evenemang. Specifikationen har baserats på arbetet med informationsmodeller för upplevelser inom besöksnäringen.</p>\n<p dir=\"auto\">Vi ser att den här specifikationen har en tydlig koppling till den nationella strategi för hållbar turism och växande besöksnäring som den då sittande regeringen tog fram 2021.  Den uppmärksammar hur tillgången till data är en viktig förutsättning för att utveckla nya digitala tjänster inom besöksnäringen.</p>\n<h1>Datamodell för Evenemang</h1>\n<p dir=\"auto\">Det finns nu en <a href=\"https://www.dataportal.se/sv/specifications/event/0.9#ref=?p=1&amp;q=evenemang&amp;s=2&amp;t=20&amp;f=&amp;rt=spec_standard%24spec_profile&amp;c=false\" rel=\"nofollow ugc\">specifikation</a> framtagen för Evenemang och bör vara intressant för alla som vill publicera datamängder som beskriver ett evenemang.</p>\n<p dir=\"auto\">Datamodellen är tabulär vilket innebär att varje rad motsvarar exakt ett evenemang och varje kolumn motsvarar en egenskap för evenemanget. Totalt har vi definierat 20 attribut. Fem attribut är obligatoriska att ha med, medan övriga rekommenderar vi då det berikar datamängden med intressant information för datakonsumenten. Vi har valt att använda beskrivande och korta kolumnnamn på engelska för att datamodellen ska bli enklare att hantera i programvaror och tjänster utvecklade utanför Sverige.  Modellen bygger på <a href=\"http://schema.org\" rel=\"nofollow ugc\">schema.org</a></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>Namn</th>\n<th style=\"text-align:center\">Kardinalitet</th>\n<th style=\"text-align:center\">Datatyp</th>\n<th>Beskrivning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"#id\"><strong>name</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">text</td>\n<td><strong>Obligatoriskt</strong> - Ange evenemangets namn.</td>\n</tr>\n<tr>\n<td><a href=\"#description\"><strong>description</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\">text</td>\n<td><strong>Obligatoriskt</strong> - Ange en kortare beskrivning av evenemanget.</td>\n</tr>\n<tr>\n<td><a href=\"#type\"><strong>type</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\"><a href=\"#type\">concept</a></td>\n<td><strong>Obligatoriskt</strong> - Ange evenemangets typ.</td>\n</tr>\n<tr>\n<td><a href=\"#latitude\"><strong>latitude</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\"><a href=\"#decimal\">decimal</a></td>\n<td><strong>Obligatoriskt</strong> - Latitude anges per format enligt WGS84.</td>\n</tr>\n<tr>\n<td><a href=\"#longitude\"><strong>longitude</strong></a></td>\n<td style=\"text-align:center\">1</td>\n<td style=\"text-align:center\"><a href=\"#decimal\">decimal</a></td>\n<td><strong>Obligatoriskt</strong> - Longitude anges per format enligt WGS84.</td>\n</tr>\n<tr>\n<td><a href=\"#start_date\">start_date</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#datetime\">dateTime</a></td>\n<td>Ange startdatumet och starttiden för evenemanget enligt <a href=\"https://www.iso.org/iso-8601-date-and-time-format.html\" rel=\"nofollow ugc\">ISO 8601</a>.</td>\n</tr>\n<tr>\n<td><a href=\"#end_date\">end_date</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#datetime\">dateTime</a></td>\n<td>Ange slutdatumet och sluttiden för evenemanget enligt <a href=\"https://www.iso.org/iso-8601-date-and-time-format.html\" rel=\"nofollow ugc\">ISO 8601</a>.</td>\n</tr>\n<tr>\n<td><a href=\"#capacity\">capacity</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#heltal\">heltal</a></td>\n<td>Ange max antal besökare tillåtna på evenemanget.</td>\n</tr>\n<tr>\n<td><a href=\"#age_limit\">age_limit</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#heltal\">heltal</a></td>\n<td>Åldersgräns för evenemanget.</td>\n</tr>\n<tr>\n<td><a href=\"#price\">price</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#heltal\">heltal</a></td>\n<td>Ange pris för biljetter till evenemanget.</td>\n</tr>\n<tr>\n<td><a href=\"#free\">free</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#boolean\">boolean</a></td>\n<td>Ange om evenemanget är gratis.</td>\n</tr>\n<tr>\n<td><a href=\"#food\">food</a></td>\n<td style=\"text-align:center\">0..*</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange vilken mat det serveras vid evenemanget.</td>\n</tr>\n<tr>\n<td><a href=\"#street\">street</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange gatuadress.</td>\n</tr>\n<tr>\n<td><a href=\"#postalcode\">postalcode</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#heltal\">heltal</a></td>\n<td>Ange postnummer.</td>\n</tr>\n<tr>\n<td><a href=\"#city\">city</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange postort.</td>\n</tr>\n<tr>\n<td><a href=\"#organizer\">organizer</a></td>\n<td style=\"text-align:center\">0..*</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange evenemangets arrangör eller arrangörer.</td>\n</tr>\n<tr>\n<td><a href=\"#phone\">phone</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>Ange telefonnumret till evenemangets arrangör med inledande landskod, exempelvis +46</td>\n</tr>\n<tr>\n<td><a href=\"#email\">email</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\">text</td>\n<td>E-postadress för vidare kontakt, anges med gemener och med @ som avdelare.</td>\n</tr>\n<tr>\n<td><a href=\"#url\">URL</a></td>\n<td style=\"text-align:center\">0..1</td>\n<td style=\"text-align:center\"><a href=\"#url\">URL</a></td>\n<td>Ingångssida för mer information om evenemanget.</td>\n</tr>\n<tr>\n<td><a href=\"#image\">image</a></td>\n<td style=\"text-align:center\">0..*</td>\n<td style=\"text-align:center\"><a href=\"#url\">URL</a></td>\n<td>En länk eller flera länkar till bilder på evenemanget.</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\"><strong>Glöm inte att peka på specifikationen om ni tillgängliggör data om evenemang enligt den <a href=\"https://dataportal.se/specifications/evenemang/1.0/\" rel=\"nofollow ugc\">https://dataportal.se/specifications/evenemang/1.0/</a>. Det görs genom egenskapen property <em>dcterms:conformsTo.</em></strong></p>\n<p dir=\"auto\"><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/27a1.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--arrow_right\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":arrow_right:\" alt=\"➡\" /> <a href=\"mailto:incoming+sarskilt-viktiga-datamangder-evenemang-40753988-cViSeDhGTsTDwrsk1bNo-issue@incoming.gitlab.com\" rel=\"nofollow ugc\">incoming+sarskilt-viktiga-datamangder-evenemang-40753988-cViSeDhGTsTDwrsk1bNo-issue@incoming.gitlab.com</a></p>\n<p dir=\"auto\"><strong>Vi vill gärna få in synpunkter på vidareutveckling, så välkommen att vidareutveckla specifikationen och hjälp oss gärna att sprida ordet! <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/267b.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--recycle\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":recycle:\" alt=\"♻\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f58d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--lower_left_crayon\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":lower_left_crayon:\" alt=\"🖍\" /></strong></p>\n",
+      "pid": 4249,
+      "tid": 815,
+      "timestamp": 1685959460016,
+      "uid": 1441,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-06-05T10:04:20.016Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1441,
+        "username": "FilipDijak",
+        "userslug": "filipdijak",
+        "reputation": 15,
+        "postcount": 15,
+        "topiccount": 4,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699012741170,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "FilipDijak",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "F",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2023-11-03T11:59:01.170Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1441\">@FilipDijak</a> Lite spontana kommentarer från mig.<br />\nVi kanske bör specifisera vad ett Evenemang betyder om man använder denna specifikation?<br />\nKan det vara digitalt?<br />\nOm svaret är JA -&gt; Då kan inte latitude/longitude vara obligatoriska.<br />\nOm svaret är NEJ -&gt; Misstänker att så är fallet. Hur ska vi göra med evenemang som är digitala (nu för tiden finns du ju även sådana). Och om de inte ska ingå så måste det till en bra och tydlig beskrivning på exakt vad vi menar med Evenemang i denna specifikation. Vi kan ju till och med ha Hybrid evenemang nu för tiden <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Sen en liten fråga, av ren nyfikenhet, det är inte kritik. Det skulle vara kul och intressant att få veta vilka som har jobbat med varje specifikation och hur de blev utvalda/inbjudna att delta i arbetet?<br />\nUpprepar - det är inte kritik mot er som jobbat med dem, enbart nyfikenhet <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 4250,
+      "tid": 815,
+      "timestamp": 1685967503403,
+      "uid": 49,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1441,
+            "username": "FilipDijak",
+            "userslug": "filipdijak",
+            "picture": "",
+            "fullname": "Filip Dijak",
+            "displayname": "FilipDijak",
+            "icon:text": "F",
+            "icon:bgColor": "#2196f3"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-06-07T07:04:56.088Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-06-05T12:18:23.403Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 49,
+        "username": "Maria Söderlind",
+        "userslug": "maria-söderlind",
+        "reputation": 116,
+        "postcount": 83,
+        "topiccount": 7,
+        "picture": "/assets/uploads/profile/49-profileavatar-1741083727418.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1762977287884,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria Söderlind",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#1b5e20",
+        "lastonlineISO": "2025-11-12T19:54:47.884Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/49\">@Maria-Söderlind</a> bra synpunkt. Det kommer <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a> lägga upp i samband med att det hamnar på <a href=\"https://lankadedata.se/specifikationer/index.html\" rel=\"nofollow ugc\">https://lankadedata.se/specifikationer/index.html</a>. Men du kanske kan fylla på här <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a>?</p>\n<p dir=\"auto\">Angående digitala evenemang bra inspel, de blir ju allt vanligare även om detta som du säger riktar sig främst mot klassiska evenemang. Kanske är det något som man kan förtydliga på något sätt kring <strong>typ</strong> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a>?</p>\n",
+      "pid": 4251,
+      "tid": 815,
+      "timestamp": 1686121496088,
+      "toPid": "4250",
+      "uid": 1441,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-06-07T07:04:56.088Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Maria Söderlind",
+        "displayname": "Maria Söderlind"
+      },
+      "user": {
+        "uid": 1441,
+        "username": "FilipDijak",
+        "userslug": "filipdijak",
+        "reputation": 15,
+        "postcount": 15,
+        "topiccount": 4,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699012741170,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "FilipDijak",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "F",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2023-11-03T11:59:01.170Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "815",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/815.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/815",
+  "bodyClass": "page-topic page-topic-815 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Evenemang specifikation"
+        },
+        {
+          "name": "description",
+          "content": "Bakgrund och syfte Inom projektet Nationell Dataverkstad har det tagits fram en topplista över datamängder att standardisera för publicering och datadelning. En sådan datamängd är Evenemang. Datamängden kategoriseras inom området Besöksnäring &amp; Rekreation..."
+        },
+        {
+          "property": "og:title",
+          "content": "Evenemang specifikation"
+        },
+        {
+          "property": "og:description",
+          "content": "Bakgrund och syfte Inom projektet Nationell Dataverkstad har det tagits fram en topplista över datamängder att standardisera för publicering och datadelning. En sådan datamängd är Evenemang. Datamängden kategoriseras inom området Besöksnäring &amp; Rekreation..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-06-05T10:04:20.016Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-06-07T07:04:56.088Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/815",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/815/evenemang-specifikation",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/815.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/filipdijak"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

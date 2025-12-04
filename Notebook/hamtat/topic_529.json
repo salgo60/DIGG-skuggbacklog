@@ -1,0 +1,1004 @@
+{
+  "cid": 23,
+  "lastposttime": 1635704374408,
+  "mainPid": 948,
+  "postcount": 7,
+  "slug": "529/svenskt-porträttarkiv-spa",
+  "tid": 529,
+  "timestamp": 1666098454798,
+  "title": "Svenskt porträttarkiv - SPA",
+  "uid": 24,
+  "viewcount": 549,
+  "postercount": 4,
+  "teaserPid": 1021,
+  "downvotes": 0,
+  "upvotes": 0,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Svenskt porträttarkiv - SPA",
+  "timestampISO": "2022-10-18T13:07:34.798Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-10-31T18:19:34.408Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/289\">@nilsw-ra</a> spännande vore bra om kulturAPI:er hade lite liknande design. Kolla in <a href=\"https://portrattarkiv.se\" rel=\"nofollow ugc\">https://portrattarkiv.se</a> <strong>SPA</strong> dom tycker jag har bra API dock ej dokumenterat men enkla att prata med  ;-(</p>\n<p dir=\"auto\"><a href=\"https://portrattarkiv.se\" rel=\"nofollow ugc\">SPA</a> innehåller &gt; 800 000 scannade bilder som en gubbe scannat in. Sedan har några skapat en web för dessa scannade bilder som</p>\n<ol>\n<li>OCR:ar texten</li>\n<li>kör ML  på texten och kopplar den till rätt metadata</li>\n<li>användare kan sedan konfirmera metadatat som ML föreslagit</li>\n<li>söker du via api:et så får du en score dvs. sannolikheten att  bilden  motsvarar det jag söker efter</li>\n</ol>\n<p dir=\"auto\">API som finns</p>\n<ul>\n<li>senaste <a href=\"https://portrattarkiv.se/endpoints/latest.php\" rel=\"nofollow ugc\">https://portrattarkiv.se/endpoints/latest.php</a></li>\n<li>sök <a href=\"https://portrattarkiv.se/endpoints/search.php\" rel=\"nofollow ugc\">https://portrattarkiv.se/endpoints/search.php</a></li>\n</ul>\n<p dir=\"auto\">Exempel vad jag byggt denna månad <a href=\"https://github.com/salgo60/spa2Commons\" rel=\"nofollow ugc\">github.com/salgo60/spa2Commons</a></p>\n<ul>\n<li>\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20test.ipynb\" rel=\"nofollow ugc\">Notebook</a> som söker ut folk på en kyrkogård som saknar bild i Wikidata och skickar den till <a href=\"http://portrattarkiv.se\" rel=\"nofollow ugc\">portrattarkiv.se</a><br />\n<img src=\"/assets/uploads/files/1635108150618-18fc271f-2522-441e-9e16-d86346ab9c53-image-resized.png\" alt=\"18fc271f-2522-441e-9e16-d86346ab9c53-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>Exempel sökning <strong>Abraham Ahlén 1844</strong> samma som WD <a href=\"http://www.wikidata.org/entity/Q29341994\" rel=\"nofollow ugc\">Q29341994</a>\n<ul>\n<li><strong>score 31.16589</strong> på <a href=\"https://portrattarkiv.se/details/sj9PGLAlnmUAAAAAAA20qQ\" rel=\"nofollow ugc\">sj9PGLAlnmUAAAAAAA20qQ</a></li>\n<li><strong>score 29.573391</strong> på <a href=\"https://portrattarkiv.se/details/sj9PGLAlnmUAAAAAAA2odw\" rel=\"nofollow ugc\">sj9PGLAlnmUAAAAAAA2odw</a></li>\n<li>....</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\">javascript som söker från Wikipedia/Wikicommons om bilder finns för en person och sedan laddar upp den på Wikicommons se <a href=\"https://github.com/salgo60/spa2Commons\" rel=\"nofollow ugc\">GITHUB</a> och katalog med snart <a href=\"https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons\" rel=\"nofollow ugc\">3000 uppladdade  bilder</a></p>\n</li>\n<li>\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20links%20Wikipedia.ipynb\" rel=\"nofollow ugc\">Notebook</a> som hittar poster i SPA som säger samma som Wikipedia</p>\n<ul>\n<li>där egenskapen SPA <a href=\"https://www.wikidata.org/wiki/Property:P4819?uselang=sv\" rel=\"nofollow ugc\">Property:P4819</a> saknas i WD så sätter jag den genom att köra <a href=\"https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine\" rel=\"nofollow ugc\">Open Refine</a> se <a href=\"https://www.youtube.com/watch?v=bTWtG3NA0uo\" rel=\"nofollow ugc\">video</a></li>\n<li>SPA länkar  \"samma som\" Wikipedia --&gt; jag kör igenom deras API:et efter dessa och sätter i Wikidata egenskapen <a href=\"https://www.wikidata.org/wiki/Property:P4819?uselang=sv\" rel=\"nofollow ugc\">Property:P4819</a> och skapar sedan <a href=\"https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild\" rel=\"nofollow ugc\">listor för personer i Wikidata</a> som saknar en bild men som SPA säger att dom har en bild för</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>GITHUB repositories</strong><br />\nVore trevligt om Riksarkivet satte upp lite fler repositories där man kan kommunicera jmf <a href=\"https://github.com/Riksarkivet/tora\" rel=\"nofollow ugc\">Tora</a> där var det tyvärr tycker jag lite segt att kommunicera med Karswall plus att Wikidata och Tora har lite olika semantik vilket störde mig. Tora har socken i samma objekt medans Wikidata delar på församling och socken och många fler.... dock har Tora samma som WD och vi har SPARQL federation....</p>\n<ul>\n<li>Tora  -&gt; egenskap WD <a href=\"https://www.wikidata.org/wiki/Property:P4820\" rel=\"nofollow ugc\">Property:P4820</a>\n<ul>\n<li><a href=\"https://w.wiki/4G$x\" rel=\"nofollow ugc\">karta vad vi har</a> i Wikidata är tyvärr \"skitigt\" , <a href=\"https://tora.entryscape.net/snorql/?query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0D%0APREFIX+wdt%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0D%0ASELECT+DISTINCT+%3Finstance+%3FTORA_label+%3FTORA_province_name+%3FwdLabel+%3FwdAdminLabel++%3FTORA_parishcode+%3FTORA_wd+%3FTORA_wd+%3FWD+%3FWDsame+%3Fitem+%3FWiki%0D%0AWHERE+%7B+%3Finstance+a+%3Chttps%3A%2F%2Fdata.riksarkivet.se%2Ftora%2Fschema%2FModernParish%3E.%0D%0A%3Finstance+skos%3AaltLabel+%3FTORA_label+.%0D%0AOPTIONAL+%7B%3Finstance+tora%3Aprovince_name+%3FTORA_province_name%7D%0D%0A%3Finstance+tora%3Aparishcode+%3FTORA_parishcode+.%0D%0A%3Finstance++rdfs%3AseeAlso+%3FTORA_wduri+.%0D%0ABIND+%28REPLACE%28str%28%3FTORA_wduri%29%2C%22https%3A%2F%2Fwww.wikidata.org%2Fwiki%2F%22%2C%22%22%29+AS+%3FTORA_wd%29.%0D%0ABIND+%28REPLACE%28str%28%3Fitem%29%2C%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%2C%22%22%29+AS+%3FWD%29.%0D%0A++BIND%28%0D%0A+++IF%28%3FWD+%3D+%3FTORA_wd%2C+%22Y%22%2C++%22N%22%29%0D%0A++++AS+%3FWDsame%29.%0D%0ASERVICE+%3Chttps%3A%2F%2Fquery.wikidata.org%2Fsparql%3E+%7B+%0D%0A++++%3Fitem+wdt%3AP31+wd%3AQ1523821%3B+wdt%3AP777+%3FTORA_parishcode+.+%0D%0A%09OPTIONAL+%7B%0D%0A%09%09%3Fitem+rdfs%3Alabel+%3FwdLabel.%0D%0A%09%09FILTER%28LANG%28%3FwdLabel%29+%3D+%22sv%22%29.%0D%0A%09%7D%0D%0A+++++++OPTIONAL+%7B+%0D%0A+++++++++++++++%3Fitem+wdt%3AP131+%3FWDAdmin.%0D%0A+++++++++++++++%3FWDAdmin+wdt%3AP31+wd%3AQ193556.%0D%0A%09%09%3FWDAdmin+rdfs%3Alabel+%3FwdAdminLabel.%0D%0A%09%09FILTER%28LANG%28%3FwdAdminLabel%29+%3D+%22sv%22%29.%0D%0A%09%7D%0D%0A%7D%0D%0AFILTER+%28%28+STRSTARTS%28str%28%3FTORA_wduri%29%2C+%22https%3A%2F%2Fwww.wikidata.org%2Fwiki%2F%22%29%29+%26%26+%3FWDsame+%3D+%22N%22+%29%0D%0A%7D+order+by++%3FTORA_label\" rel=\"nofollow ugc\">SPARQL Federation WD &lt;-&gt; Tora</a></li>\n<li>några av dom tasks jag skapade <a href=\"https://phabricator.wikimedia.org/T234179\" rel=\"nofollow ugc\">T234179</a> <a href=\"https://phabricator.wikimedia.org/T199977\" rel=\"nofollow ugc\">T199977</a>, <a href=\"https://phabricator.wikimedia.org/T200066\" rel=\"nofollow ugc\">T200066</a></li>\n<li><a href=\"https://sv.wikipedia.org/wiki/Wikipediadiskussion:Projekt_svenska_f%C3%B6rsamlingar#Koppling_till_Tora_objekt\" rel=\"nofollow ugc\">diskussioner hos oss sep 2019</a> om vad som bör göras.... dog tyvärr ut...</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>OT koordinater</strong>: Tora dom \"fega\" med SWEREF 99 och WGS 84 exempel <a href=\"https://toramaptest.riksarkivet.se/view/12371/sv\" rel=\"nofollow ugc\">Skånelaholm Toraid = 12371</a><br />\n<img src=\"/assets/uploads/files/1635119476095-b3ae9c3d-f1fe-4229-972f-6f2e758e71d0-image.png\" alt=\"b3ae9c3d-f1fe-4229-972f-6f2e758e71d0-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 948,
+      "tid": 529,
+      "timestamp": 1635119612262,
+      "toPid": "947",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 289,
+            "username": "nilsw-ra",
+            "userslug": "nilsw-ra",
+            "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+            "fullname": "Nils Weinander",
+            "displayname": "nilsw-ra",
+            "icon:text": "N",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-25T13:45:34.494Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-24T23:53:32.262Z",
+      "editedISO": "",
+      "index": 0,
+      "parent": {
+        "username": "nilsw-ra",
+        "displayname": "nilsw-ra"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv TORA är ett forskningsprojekt, så resultatet är inte redo att släppas publikt än. Om/när vi kommer dit får vi se till att titta på dina synpunkter!</p>\n",
+      "pid": 953,
+      "tid": 529,
+      "timestamp": 1635169534494,
+      "toPid": "948",
+      "uid": 289,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          },
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-10-25T21:31:56.281Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-10-25T13:45:34.494Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 289,
+        "username": "nilsw-ra",
+        "fullname": "Nils Weinander",
+        "userslug": "nilsw-ra",
+        "reputation": 5,
+        "postcount": 17,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660723814270,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "nilsw-ra",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-08-17T08:10:14.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/289\">@nilsw-ra</a> ?!?! vi jobbar hellre med forskningsprojekt för då är min erfarenhet att det är mera fart och driv framåt... när saker går på drift brukar inget hända....</p>\n<p dir=\"auto\">Jag och en Wikipedia <a href=\"https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Yger\" rel=\"nofollow ugc\">användaren Yger</a> var och träffade Karswall hos er men det var för lite enligt mig....  jag har även sprungit på Karswall när jag <a href=\"https://www.youtube.com/watch?v=mpLcTSG7VPg\" rel=\"nofollow ugc\">snackade på  Linked Data Sweden</a> där jag vid <a href=\"https://youtu.be/mpLcTSG7VPg?t=703\" rel=\"nofollow ugc\">11:45 pratade  om svårigheterna med att koppla ihop sig med  Riksarkivet SBL</a></p>\n<ul>\n<li>kollar vi på ett ungt projekt som <a href=\"https://skbl.se/sv\" rel=\"nofollow ugc\">Svenskt kvinnobiografiskt lexikon</a> <strong>SKBL</strong> så är en sådan organisation mer på tå jmf med Riksarkivet\n<ul>\n<li>SKBL levererar på<br />\n* svenska/engelska texter --&gt; vi länkar dom från <a href=\"https://pageviews.toolforge.org/massviews/?platform=all-access&amp;agent=user&amp;source=category&amp;range=this-year&amp;subjectpage=0&amp;subcategories=0&amp;sort=views&amp;direction=1&amp;view=list&amp;target=https://en.wikipedia.org/wiki/Category:SKBL_template_using_Wikidata_property_P4963\" rel=\"nofollow ugc\">en:Wikipedia</a> en av <a href=\"https://en.wikipedia.org/wiki/List_of_most_visited_websites\" rel=\"nofollow ugc\">världens 20 största websiter</a><br />\n* SKBL har API / strukturerat data<br />\n* jag har i dec 2020 pratat på deras ledningsgruppsmöte om att dom borde lyfta sig till <a href=\"https://5stardata.info/en/\" rel=\"nofollow ugc\">5stardata</a> se <a href=\"https://docs.google.com/presentation/d/1EvQHdzPsIA4hr2WuNXnbpsLHec2GS89b_pHvilO6xhQ/edit#slide=id.p\" rel=\"nofollow ugc\">presentation</a>...\n<ul>\n<li>SKBL är del i community projektet Women in Red --&gt; skapa4 fler artiklar om kvinnor i Wiki världen</li>\n</ul>\n</li>\n<li>vi kan via <a href=\"https://github.com/salgo60/open-data-examples/blob/master/Svenskt%20Kvinnobiografiskt%20lexikon%20part%203.ipynb\" rel=\"nofollow ugc\">SKBL API;et hämta strukturerad data</a> jmf <a href=\"https://github.com/salgo60/open-data-examples/blob/master/SBL.ipynb\" rel=\"nofollow ugc\">Riksarkivet SBL där vi får webscrapa och gissa</a> etc...</li>\n</ul>\n</li>\n<li>frågor som detta med Riksarkivet SBL att dom skall levererar en bättre produkt ser jag ingen kanal för. Känns inte att det finns produktägare hos Riksarkivet som lyssnar... etc....</li>\n<li>vän av ordning kan se att SKBL levererar 100 ggr fler kvinnliga biografier än SBL och en bra digital produkt. Det tog 4 år för SKBL att köra om SBL som gjort detta i 100 år...</li>\n</ul>\n<p dir=\"auto\">Ingen är gladare än jag om det bli enklare att skapa mervärde med Riksarkivet --&gt; <a href=\"https://forum.jobtechdev.se/t/har-ni-input-till-varens-meetups/263/3?u=salgo60\" rel=\"nofollow ugc\">co-creation</a> och win-win för alla</p>\n",
+      "pid": 961,
+      "tid": 529,
+      "timestamp": 1635197516281,
+      "toPid": "953",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 289,
+            "username": "nilsw-ra",
+            "userslug": "nilsw-ra",
+            "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+            "fullname": "Nils Weinander",
+            "displayname": "nilsw-ra",
+            "icon:text": "N",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-31T18:19:34.408Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-25T21:31:56.281Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "nilsw-ra",
+        "displayname": "nilsw-ra"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/289\">@nilsw-ra</a> sa i <a href=\"/post/953\">Exempel på bra användningsvillkor för APIer</a>:</p>\n<blockquote>\n<p dir=\"auto\">TORA är ett forskningsprojekt</p>\n</blockquote>\n<p dir=\"auto\">Definiera gärna \"forskningsprojekt\". Menar du att ni gör det ihop med forskare från en högskola?</p>\n",
+      "pid": 963,
+      "tid": 529,
+      "timestamp": 1635198114745,
+      "toPid": "953",
+      "uid": 25,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 289,
+            "username": "nilsw-ra",
+            "userslug": "nilsw-ra",
+            "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+            "fullname": "Nils Weinander",
+            "displayname": "nilsw-ra",
+            "icon:text": "N",
+            "icon:bgColor": "#e91e63"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-10-31T18:15:32.664Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-25T21:41:54.745Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "nilsw-ra",
+        "displayname": "nilsw-ra"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn TORA-projektet genomfördes tillsammans med Institutet för språk och folkminnen och forskare vid Uppsala universitet och Sveriges lantbruksuniversitet.</p>\n",
+      "pid": 1020,
+      "tid": 529,
+      "timestamp": 1635704132664,
+      "toPid": "963",
+      "uid": 289,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-31T18:15:32.664Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 289,
+        "username": "nilsw-ra",
+        "fullname": "Nils Weinander",
+        "userslug": "nilsw-ra",
+        "reputation": 5,
+        "postcount": 17,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660723814270,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "nilsw-ra",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-08-17T08:10:14.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Tja, men projekt är per definition avgränsade i tid och scope. När projektet är avslutat finns inga resurser att göra något med resultatet förrän det kommer in i produktion. Förhoppningsvis kommer dock ett annat projekt (Dataplattform) att kunna föra TORA till produktion med tiden.</p>\n",
+      "pid": 1021,
+      "tid": 529,
+      "timestamp": 1635704374408,
+      "toPid": "961",
+      "uid": 289,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-10-31T18:19:34.408Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 289,
+        "username": "nilsw-ra",
+        "fullname": "Nils Weinander",
+        "userslug": "nilsw-ra",
+        "reputation": 5,
+        "postcount": 17,
+        "topiccount": 5,
+        "picture": "/assets/uploads/profile/289-profileavatar-1660659359314.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1660723814270,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "nilsw-ra",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#e91e63",
+        "lastonlineISO": "2022-08-17T08:10:14.270Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "[[topic:post_is_deleted]]",
+      "pid": 2997,
+      "tid": 529,
+      "timestamp": 1666730945460,
+      "uid": 283,
+      "deleted": 1,
+      "deleterUid": 283,
+      "upvotes": 0,
+      "downvotes": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-10-25T20:49:05.460Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 283,
+        "username": "VisbyStar",
+        "userslug": "visbystar",
+        "reputation": 21,
+        "postcount": 33,
+        "topiccount": 3,
+        "picture": "/assets/uploads/profile/283-profileavatar-1670955983988.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1740382984849,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "VisbyStar",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "V",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-02-24T07:43:04.849Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": false
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "529",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/529.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/529",
+  "bodyClass": "page-topic page-topic-529 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Svenskt porträttarkiv - SPA"
+        },
+        {
+          "name": "description",
+          "content": "@nilsw-ra spännande vore bra om kulturAPI:er hade lite liknande design. Kolla in https://portrattarkiv.se SPA dom tycker jag har bra API dock ej dokumenterat men enkla att prata med  ;-( SPA innehåller &gt; 800 000 scannade bilder som en gubbe scannat in. Se..."
+        },
+        {
+          "property": "og:title",
+          "content": "Svenskt porträttarkiv - SPA"
+        },
+        {
+          "property": "og:description",
+          "content": "@nilsw-ra spännande vore bra om kulturAPI:er hade lite liknande design. Kolla in https://portrattarkiv.se SPA dom tycker jag har bra API dock ej dokumenterat men enkla att prata med  ;-( SPA innehåller &gt; 800 000 scannade bilder som en gubbe scannat in. Se..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-10-18T13:07:34.798Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-10-31T18:19:34.408Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1635108150618-18fc271f-2522-441e-9e16-d86346ab9c53-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1635108150618-18fc271f-2522-441e-9e16-d86346ab9c53-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2576"
+        },
+        {
+          "property": "og:image:height",
+          "content": "638"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1635119476095-b3ae9c3d-f1fe-4229-972f-6f2e758e71d0-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1635119476095-b3ae9c3d-f1fe-4229-972f-6f2e758e71d0-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1854"
+        },
+        {
+          "property": "og:image:height",
+          "content": "914"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/529",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/529/svenskt-porträttarkiv-spa",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/529.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

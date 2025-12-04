@@ -1,0 +1,504 @@
+{
+  "cid": 27,
+  "lastposttime": 1688131196295,
+  "mainPid": 4268,
+  "postcount": 1,
+  "slug": "824/update-om-dataportalen-och-betaversionen",
+  "tid": 824,
+  "timestamp": 1688131196295,
+  "title": "Update om dataportalen och betaversionen:)",
+  "uid": 118,
+  "viewcount": 241,
+  "postercount": 1,
+  "downvotes": 0,
+  "upvotes": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Update om dataportalen och betaversionen:)",
+  "timestampISO": "2023-06-30T13:19:56.295Z",
+  "scheduled": false,
+  "lastposttimeISO": "2023-06-30T13:19:56.295Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej! Det är säkert många som undrar vad som egentligen hände med den <a href=\"https://beta.dataportal.se/\" rel=\"nofollow ugc\">betaversion</a> som vi släppte i nov i fjol, så här kommer lite info. Ledsen att det har dröjt.</p>\n<p dir=\"auto\">Vi samlade ju ihop en hel del synpunkter då i höstas och testade även den mot ett antal personer, vilket visade på en del förbättringsmöjligheter. Bland annat så upplevdes det som svårt att veta vilket innehåll som var riktat till olika målgrupper, och att man hade svårt att hitta olika verktyg, t.ex. stödet för API:er. Dark mode fick också både ris och ros. Men eftersom vi i ungefär samma veva kraftigt minskade vår personalstyrka eftersom datauppdraget tog slut och ungefär samtidigt gick in i en upphandling av konsulterna som jobbar just med webbutveckling (och själva upphandlingen tog hemskt mkt tid), så hann och kunde vi inte göra så mkt mer just där och då<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f615.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--confused\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":confused:\" alt=\"😕\" /> .<br />\nVärt att komma ihåg är att med betan så gjordes även ett tekniskt lyft utifrån Headless tekniken (CMS'et är Strapi), så den bakomliggande grunden blev hemskt mkt bättre, även om det inte syns utåt.</p>\n<p dir=\"auto\">Under våren har Digg också arbetat med en ny övergripande webbstrategi som syftar till att ensa bl.a. utseende och målgruppanpassning för alla Diggs webbar, vilket även påverkar dataportalen. Denna slutlevererades nu under juni. Så parallellt med detta arbete har vi bett samma konsulter (Springtime Intellecta) att även titta på betaversionen. I den översynen har vi tagit med synpunkterna på betaversionen, samt även lagt till lite övriga önskemål. Det vi särskilt önskade var tydligare målgruppanpassning, tydligare ytor för verktyg/stöd och  goda exempel/inspiration. Vi tryckte även på att det bl.a. ska vara enkelt att skala upp innehåll resurseffektivt (bl.a. med innehåll från andra än Digg), t.ex. genom tydligare \"ytor\" och definierade \"innehållselement\" mm. Vi har även tänkt \"Digitala arenan\" såklart. Denna nya skiss över betan 2.0 fick vi slutpresenterad idag<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f917.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--hugging_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":hugging_face:\" alt=\"🤗\" /> . Vår nya leverantörer av webbutveckling Digitalist har såklart hållits i loopen samtidigt (även om mkt fokus där har varit på övertagande av alla tekniska miljöer).</p>\n<p dir=\"auto\">Så nu kommer vi (tillsammans med primärt Digitalist) att så fort som möjligt vidareutveckla denna skiss/wireframe till en mer grafisk prototyp som vi vill ut och testa med er efter sommaren!:) Jag ser hemskt mkt fram emot detta, och jag hoppas att  vi tillsammans kan slipa på utseende och funktioner så att vi får ett fint lyft:) <strong>Så vi återkommer med mer info om möjligheter till användartester så fort som möjligt efter sommaren! Det känns jättekul!</strong><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2600.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--sunny\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":sunny:\" alt=\"☀\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2600.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--sunny\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":sunny:\" alt=\"☀\" /> <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/2600.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--sunny\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":sunny:\" alt=\"☀\" /> Sen har vi mer på listan under hösten, men det tar vi sen.</p>\n<p dir=\"auto\"><em>Vi ses efter sommaren!</em></p>\n",
+      "pid": 4268,
+      "tid": 824,
+      "timestamp": 1688131196295,
+      "uid": 118,
+      "edited": 1688131312213,
+      "editor": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "displayname": "josefinlassi"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-06-30T13:19:56.295Z",
+      "editedISO": "2023-06-30T13:21:52.213Z",
+      "index": 0,
+      "user": {
+        "uid": 118,
+        "username": "josefinlassi",
+        "userslug": "josefinlassi",
+        "reputation": 86,
+        "postcount": 134,
+        "topiccount": 26,
+        "picture": "/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764765974479,
+        "groupTitle": "[\"administrators\"]",
+        "mutedUntil": 0,
+        "displayname": "josefinlassi",
+        "groupTitleArray": [
+          "administrators"
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-12-03T12:46:14.479Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [
+          {
+            "name": "administrators",
+            "slug": "administrators",
+            "labelColor": "#000000",
+            "textColor": "#ffffff",
+            "icon": "",
+            "userTitle": "administrators"
+          }
+        ],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#c9b42c",
+    "cid": 27,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör arbetssätt och organisation för att dela och använda öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-heartbeat",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Arbetssätt och organisation",
+    "numRecentReplies": 1,
+    "order": 7,
+    "parentCid": 0,
+    "post_count": 471,
+    "slug": "27/arbetssätt-och-organisation",
+    "subCategoriesPerPage": 10,
+    "topic_count": 78,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 471,
+    "totalTopicCount": 78
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "824",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/824.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Arbetssätt och organisation",
+      "url": "/category/27/arbetssätt-och-organisation",
+      "cid": 27
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/824",
+  "bodyClass": "page-topic page-topic-824 template-topic page-topic-category-27 page-topic-category-arbetssätt-och-organisation parent-category-27 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Update om dataportalen och betaversionen:)"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Det är säkert många som undrar vad som egentligen hände med den betaversion som vi släppte i nov i fjol, så här kommer lite info. Ledsen att det har dröjt. Vi samlade ju ihop en hel del synpunkter då i höstas och testade även den mot ett antal person..."
+        },
+        {
+          "property": "og:title",
+          "content": "Update om dataportalen och betaversionen:)"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Det är säkert många som undrar vad som egentligen hände med den betaversion som vi släppte i nov i fjol, så här kommer lite info. Ledsen att det har dröjt. Vi samlade ju ihop en hel del synpunkter då i höstas och testade även den mot ett antal person..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-06-30T13:19:56.295Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2023-06-30T13:21:52.213Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Arbetssätt och organisation"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/118-profileavatar-1616663191225.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/824",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/824/update-om-dataportalen-och-betaversionen",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/824.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/27/arbetssätt-och-organisation"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/josefinlassi"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

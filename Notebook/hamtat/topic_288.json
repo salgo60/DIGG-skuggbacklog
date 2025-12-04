@@ -1,0 +1,1539 @@
+{
+  "cid": 35,
+  "lastposttime": 1644665360952,
+  "mainPid": 1231,
+  "postcount": 13,
+  "slug": "288/ett-verktyg-för-dataanalys-av-jobsearch-joblinks-susa-navet-etc",
+  "tid": 288,
+  "timestamp": 1642524724078,
+  "title": "Ett verktyg för dataanalys av JobSearch, JobLinks, SUSA-navet etc.",
+  "uid": 359,
+  "viewcount": 1059,
+  "postercount": 5,
+  "downvotes": 0,
+  "upvotes": 4,
+  "teaserPid": 1282,
+  "oldCid": 24,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Ett verktyg för dataanalys av JobSearch, JobLinks, SUSA-navet etc.",
+  "timestampISO": "2022-01-18T16:52:04.078Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-02-12T11:29:20.952Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag har skrivit ett verktyg som tar en JSON-fil och organiserar den i grupperingar på flera nivåer. Att användas för att få överblick över innehållet, för analyser och för att utvärdera datakvaliteten. En demo finns som innehåller exempel för platsannonser - grupperat på geografi, yrkestaxonomi, språk m.m.</p>\n<p dir=\"auto\">Ladda ner här: <a href=\"https://github.com/erik-gbg/json-explorer\" rel=\"nofollow ugc\">https://github.com/erik-gbg/json-explorer</a></p>\n<p dir=\"auto\">För Windows finns en körbar version att packa upp:<br />\n<a href=\"https://github.com/erik-gbg/json-explorer/releases/download/v1.0/json_explorer_exe_for_windows.zip\" rel=\"nofollow ugc\">https://github.com/erik-gbg/json-explorer/releases/download/v1.0/json_explorer_exe_for_windows.zip</a></p>\n<p dir=\"auto\">Programmet är helt generellt och funkar på vilken JSON-fil som helst. Anpassningen görs på några få rader i en konfigurationsfil. Ett bra verktyg för att snabbt bekanta sig med nya data, eller för att ta kontroll över och felsöka gamla data.</p>\n",
+      "pid": 1231,
+      "tid": 288,
+      "timestamp": 1642524724078,
+      "uid": 359,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 359,
+            "username": "erik-gbg",
+            "userslug": "erik-gbg",
+            "picture": null,
+            "fullname": null,
+            "displayname": "erik-gbg",
+            "icon:text": "E",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 4]]",
+        "count": 4,
+        "timestampISO": "2022-01-18T19:30:26.258Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-01-18T16:52:04.078Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/359\">@erik-gbg</a> Snyggt!!! Vore roligt att få feedback från någon annan org som har jsonfiler och utbildningsdata.</p>\n",
+      "pid": 1232,
+      "tid": 288,
+      "timestamp": 1642534226258,
+      "toPid": "1231",
+      "uid": 62,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 216,
+            "username": "Nina_Berlin",
+            "userslug": "nina_berlin",
+            "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+            "fullname": "",
+            "displayname": "Nina_Berlin",
+            "icon:text": "N",
+            "icon:bgColor": "#ff5722"
+          },
+          {
+            "uid": 359,
+            "username": "erik-gbg",
+            "userslug": "erik-gbg",
+            "picture": null,
+            "fullname": null,
+            "displayname": "erik-gbg",
+            "icon:text": "E",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-01-19T10:17:45.191Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-01-18T19:30:26.258Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@maria_dalhage</a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/359\">@erik-gbg</a> Bra idé <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> jag tipsar CSN, där jag känner lite folk.</p>\n",
+      "pid": 1233,
+      "tid": 288,
+      "timestamp": 1642587465191,
+      "toPid": "1232",
+      "uid": 216,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-01-19T10:17:45.191Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 216,
+        "username": "Nina_Berlin",
+        "userslug": "nina_berlin",
+        "reputation": 145,
+        "postcount": 241,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/216-profileavatar-1624961169071.jpeg",
+        "signature": "<p dir=\"auto\">CSN</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1683811685903,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Nina_Berlin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "N",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2023-05-11T13:28:05.903Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@maria_dalhage</a> Japp, jag nämnde ju SUSA-navet i rubriken ;-). Och jag släpper snart ett par olika konfigurationer för deras utbildningsdata.</p>\n<p dir=\"auto\">Faktum är att det var när jag jobbade i Revival och skulle analysera utbildningsdatat i SUSA-navet som jag fick idén till detta verktyg. För att svara på frågor som:</p>\n<ul>\n<li>Vad finns exakt i SUSA-navet? (svaret = 99% är kostnadsfria &amp; CSN-berättigande)</li>\n<li>Karaktären hos de resterande 1%?</li>\n<li>Hur många utbildningar saknar ett viss attribut, t.ex. 'description'?</li>\n</ul>\n<p dir=\"auto\">Om jag haft detta verktyg då, så skulle jobbet ha gått på mindre än en tiondel av tiden.</p>\n",
+      "pid": 1234,
+      "tid": 288,
+      "timestamp": 1642589334330,
+      "toPid": "1232",
+      "uid": 359,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-19T10:48:54.330Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Maria_Dalhage",
+        "displayname": "Maria_Dalhage"
+      },
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@nina_ <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> Kul att få feedback! Jag vill uppmana alla att ladda ner den körbara Windows-versionen. Den är lätt som en plätt att få igång (om ni bara ser till att ert virusskydd inte bråkar med er).</p>\n<p dir=\"auto\"><a href=\"https://github.com/erik-gbg/json-explorer/releases/download/v1.0/json_explorer_exe_for_windows.zip\" rel=\"nofollow ugc\">https://github.com/erik-gbg/json-explorer/releases/download/v1.0/json_explorer_exe_for_windows.zip</a></p>\n<p dir=\"auto\">Så att ni kan ge mig lite mer synpunkter på utformningen <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":-)\" alt=\"🙂\" /></p>\n",
+      "pid": 1235,
+      "tid": 288,
+      "timestamp": 1642589742939,
+      "toPid": "1231",
+      "uid": 359,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-01-19T10:55:42.939Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Även om programmet redan fungerar väl, är det att betrakta som en prototyp. I en tänkt slutversion så borde programmet gå som en web server med ett web interface, som är direkt tillgängligt för alla, utan installation. Och att man hela tiden hämtar färska data från de olika API:erna (eller åtminstone dagligen).</p>\n<p dir=\"auto\">Vidare så kan man göra syntaxen för konfigurationen enklare. T.ex:<br />\n<strong>$.occupation_group.label</strong> istället för<br />\nlambda x: x.get('occupation_group').get('label')</p>\n<p dir=\"auto\">Ett till synes läskigt uttryck som:<br />\nlambda x: x.get('events') and x.get('events')[0].get('urls') and x.get('events')[0].get('urls')[0].get('content')</p>\n<p dir=\"auto\">kan faktiskt förenklas till: <strong>$.events.urls.content</strong>.<br />\nOm man inte nöjer sig med första träffen, utan vill ha hela listan så skriver man: [$.events.urls.content], eller t.o.m. &lsqb;&lsqb;$.events.urls.content&rsqb;&rsqb;</p>\n<p dir=\"auto\">Sånt där kan jag fixa, om det visar sig att folk är intresserade av att använda det här på allvar,</p>\n",
+      "pid": 1236,
+      "tid": 288,
+      "timestamp": 1642590712240,
+      "toPid": "1231",
+      "uid": 359,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-19T11:11:52.240Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Ny rejält genomarbetad version av JSON Explorer (One tool to tool them all). Nya konfigurationer, nu också för SUSA-navet och Joblinks.</p>\n<p dir=\"auto\"><a href=\"https://github.com/erik-gbg/json-explorer\" rel=\"nofollow ugc\">https://github.com/erik-gbg/json-explorer</a></p>\n<p dir=\"auto\">Körbar demo för Windows:<br />\n<a href=\"https://github.com/erik-gbg/json-explorer/releases/download/v2.0/json_explorer_exe_for_windows_v2_DEMO.zip\" rel=\"nofollow ugc\">https://github.com/erik-gbg/json-explorer/releases/download/v2.0/json_explorer_exe_for_windows_v2_DEMO.zip</a></p>\n<p dir=\"auto\">Följande trädvyer finns nu:</p>\n<ul>\n<li>JobSearch - Anställningstyp &gt; Lönetyp</li>\n<li>JobSearch - Flera platser i samma annons</li>\n<li>JobSearch - Geografi</li>\n<li>JobSearch - Kompetenskrav</li>\n<li>JobSearch - Krav på arbetslivserfarenhet</li>\n<li>JobSearch - Språkkrav</li>\n<li>JobSearch - Yrkestaxonomi</li>\n<li>Jobtech Links: Externa annonssajter - enkel vy (något missvisande)</li>\n<li>Jobtech Links: Externa annonssajter - komplett vy</li>\n<li>SUSA-navet: Myndighet &gt; Skoltyp &gt; Lärosäte</li>\n<li>SUSA-navet: Utbildningar med flera lärosäten</li>\n<li>SUSA-navet: Utbildningar som saknar beskrivning</li>\n<li>SUSA-navet: Vilka utbildningar finns? (CSN, avgift o.s.v.)</li>\n</ul>\n",
+      "pid": 1245,
+      "tid": 288,
+      "timestamp": 1643104687173,
+      "uid": 359,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 359,
+            "username": "erik-gbg",
+            "userslug": "erik-gbg",
+            "picture": null,
+            "fullname": null,
+            "displayname": "erik-gbg",
+            "icon:text": "E",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-01-25T10:10:31.250Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-25T09:58:07.173Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Trädvyerna kan nu sparas i formatet .jtree. Den körbara demon för Windows använder nu dessa filer, istället för att man laddar ner de stora json-filerna.</p>\n",
+      "pid": 1247,
+      "tid": 288,
+      "timestamp": 1643105431250,
+      "toPid": "1245",
+      "uid": 359,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-01-25T10:10:31.250Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag har börjat göra instruktionsfilmer som presenterar mitt nya verktyg, JSON Explorer. Lägg en stund och kolla på detta.</p>\n<p dir=\"auto\"><a href=\"https://archive.org/details/json-explorer-en-introduktion\" rel=\"nofollow ugc\">https://archive.org/details/json-explorer-en-introduktion</a></p>\n",
+      "pid": 1261,
+      "tid": 288,
+      "timestamp": 1643795746569,
+      "toPid": "1231",
+      "uid": 359,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 359,
+            "username": "erik-gbg",
+            "userslug": "erik-gbg",
+            "picture": null,
+            "fullname": null,
+            "displayname": "erik-gbg",
+            "icon:text": "E",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-02-03T07:35:40.845Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-02-02T09:55:46.569Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Titta på den här länken istället, för bättre bildkvalitet:<br />\n<a href=\"https://ia801403.us.archive.org/27/items/json-explorer-en-introduktion/JSON%20Explorer%20-%20En%20introduktion.webm\" rel=\"nofollow ugc\">https://ia801403.us.archive.org/27/items/json-explorer-en-introduktion/JSON Explorer - En introduktion.webm</a></p>\n",
+      "pid": 1262,
+      "tid": 288,
+      "timestamp": 1643873740845,
+      "toPid": "1261",
+      "uid": 359,
+      "downvotes": 0,
+      "upvotes": 4,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 62,
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "fullname": "Maria Dalhage, Arbetsförmedlingen",
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2022-02-07T19:06:42.675Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2022-02-03T07:35:40.845Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 359,
+        "username": "erik-gbg",
+        "userslug": "erik-gbg",
+        "reputation": 16,
+        "postcount": 10,
+        "topiccount": 2,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1644049351027,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "erik-gbg",
+        "groupTitleArray": [],
+        "icon:text": "E",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2022-02-05T08:22:31.027Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/359\">@erik-gbg</a> Föredömligt Erik! Rekommenderar att de som  jobbar med Regeringsuppdraget KLL kollar in detta klipp. Att spela in en kort demo är ett lysande sätt att beskriva sina API:er och tjänster på mer av detta hoppas jag få se i detta forum!</p>\n",
+      "pid": 1272,
+      "tid": 288,
+      "timestamp": 1644260802675,
+      "toPid": "1262",
+      "uid": 62,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-02-07T19:06:42.675Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 62,
+        "username": "Maria_Dalhage",
+        "fullname": "Maria Dalhage, Arbetsförmedlingen",
+        "userslug": "maria_dalhage",
+        "reputation": 558,
+        "postcount": 516,
+        "topiccount": 155,
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "signature": "<p dir=\"auto\">Community Manager NOSAD - Network Open source and data / Arbetsförmedlingen Jobtech</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1761805826371,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Maria_Dalhage",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-10-30T06:30:26.371Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Häftigt Erik! Ska prova detta direkt då jag själv känt mig lost ibland när jag navigerar runt i SUSA <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n",
+      "pid": 1280,
+      "tid": 288,
+      "timestamp": 1644421797427,
+      "uid": 371,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-02-09T15:49:57.427Z",
+      "editedISO": "",
+      "index": 11,
+      "user": {
+        "uid": 371,
+        "username": "lennartjohansson",
+        "userslug": "lennartjohansson",
+        "reputation": 3,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670933015238,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "lennartjohansson",
+        "groupTitleArray": [],
+        "icon:text": "L",
+        "icon:bgColor": "#607d8b",
+        "lastonlineISO": "2022-12-13T12:03:35.238Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/359\">@erik-gbg</a> Det verkar vara en behändig applikation för att få en överblick och botanisera i datamaterialet. Jag tyckte det var lite intressant med representationen av språkkompetenser vid 9:48, är det avsiktligt att varje språkkombination får en egen gruppering, eller har det att göra med att strukturen i datamaterialet skulle kräva ytterligare bearbetning. Man kunde ju annars tänka sig att gruppera på enskilda språk och att samma annons dyker upp under flera grupperingar, eller att språken bildar nivåer under varandra.</p>\n<p dir=\"auto\">Hur är det med att dela ut exe-filer, vågar man ladda ned och köra sådana utan certifiering och säkerhetsgarantier i dessa tider, eller finns det sätt att köra dem säkert? Jag undrar lite över användningen av webbplatsen <a href=\"http://archive.org\" rel=\"nofollow ugc\">archive.org</a>, är det en tjänst där man kan lägga upp eget material och vad är skillnaden/fördelen mot videotjänster som Youtube?</p>\n",
+      "pid": 1282,
+      "tid": 288,
+      "timestamp": 1644665360952,
+      "toPid": "1262",
+      "uid": 125,
+      "edited": 1644665562780,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-02-12T11:29:20.952Z",
+      "editedISO": "2022-02-12T11:32:42.780Z",
+      "index": 12,
+      "parent": {
+        "username": "erik-gbg",
+        "displayname": "erik-gbg"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 3,
+          "type": "move",
+          "uid": 62,
+          "id": 216,
+          "timestamp": 1648482483038,
+          "timestampISO": "2022-03-28T15:48:03.038Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Goda exempel och inspiration",
+            "slug": "3/goda-exempel-och-inspiration",
+            "icon": "fa-newspaper-o",
+            "color": "#fff",
+            "bgColor": "#5a6751"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:48:03.038Z\"></span>"
+        },
+        {
+          "fromCid": 23,
+          "type": "move",
+          "uid": 62,
+          "id": 217,
+          "timestamp": 1648482509603,
+          "timestampISO": "2022-03-28T15:48:29.603Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Data",
+            "slug": "23/data",
+            "icon": "fa-comments",
+            "color": "#ffffff",
+            "bgColor": "#000000"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:48:29.603Z\"></span>"
+        },
+        {
+          "fromCid": 24,
+          "type": "move",
+          "uid": 531,
+          "id": 616,
+          "timestamp": 1680157281890,
+          "timestampISO": "2023-03-30T06:21:21.890Z",
+          "user": {
+            "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+            "username": "DIGG_admin",
+            "userslug": "digg_admin",
+            "uid": 531,
+            "displayname": "DIGG_admin",
+            "icon:text": "D",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Öppen källkod",
+            "slug": "24/öppen-källkod",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#cd751d"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/531-profileavatar-1662995628514.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">D</span> <a href=\"/user/digg_admin\">DIGG_admin</a> moved this topic from Öppen källkod on <span class=\"timeago timeline-text\" title=\"2023-03-30T06:21:21.890Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 3,
+      "type": "move",
+      "uid": 62,
+      "id": 216,
+      "timestamp": 1648482483038,
+      "timestampISO": "2022-03-28T15:48:03.038Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Goda exempel och inspiration",
+        "slug": "3/goda-exempel-och-inspiration",
+        "icon": "fa-newspaper-o",
+        "color": "#fff",
+        "bgColor": "#5a6751"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Goda exempel och inspiration on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:48:03.038Z\"></span>"
+    },
+    {
+      "fromCid": 23,
+      "type": "move",
+      "uid": 62,
+      "id": 217,
+      "timestamp": 1648482509603,
+      "timestampISO": "2022-03-28T15:48:29.603Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Data",
+        "slug": "23/data",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#000000"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-03-28T15:48:29.603Z\"></span>"
+    },
+    {
+      "fromCid": 24,
+      "type": "move",
+      "uid": 531,
+      "id": 616,
+      "timestamp": 1680157281890,
+      "timestampISO": "2023-03-30T06:21:21.890Z",
+      "user": {
+        "picture": "/assets/uploads/profile/531-profileavatar-1662995628514.png",
+        "username": "DIGG_admin",
+        "userslug": "digg_admin",
+        "uid": 531,
+        "displayname": "DIGG_admin",
+        "icon:text": "D",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Öppen källkod",
+        "slug": "24/öppen-källkod",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#cd751d"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/531-profileavatar-1662995628514.png\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"DIGG_admin\" title=\"DIGG_admin\" data-uid=\"531\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">D</span> <a href=\"/user/digg_admin\">DIGG_admin</a> moved this topic from Öppen källkod on <span class=\"timeago timeline-text\" title=\"2023-03-30T06:21:21.890Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#bd7056",
+    "cid": 35,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Delta i dialog och inkom med behov som rör kompetensförsörjning och livslångtlärande (KLL).",
+    "descriptionParsed": "<p dir=\"auto\">Delta i dialog och inkom med behov som rör kompetensförsörjning och livslångtlärande (KLL).</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Kompetensförsörjning och livslångtlärande (KLL)  ",
+    "numRecentReplies": 1,
+    "order": 0,
+    "parentCid": 23,
+    "post_count": 80,
+    "slug": "35/kompetensförsörjning-och-livslångtlärande-kll",
+    "subCategoriesPerPage": 10,
+    "topic_count": 30,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 80,
+    "totalTopicCount": 30
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "288",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/288.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    },
+    {
+      "text": "Kompetensförsörjning och livslångtlärande (KLL)  ",
+      "url": "/category/35/kompetensförsörjning-och-livslångtlärande-kll",
+      "cid": 35
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/288",
+  "bodyClass": "page-topic page-topic-288 template-topic page-topic-category-35 page-topic-category-kompetensförsörjning-och-livslångtlärande-kll parent-category-23 parent-category-35 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Ett verktyg för dataanalys av JobSearch, JobLinks, SUSA-navet etc."
+        },
+        {
+          "name": "description",
+          "content": "Jag har skrivit ett verktyg som tar en JSON-fil och organiserar den i grupperingar på flera nivåer. Att användas för att få överblick över innehållet, för analyser och för att utvärdera datakvaliteten. En demo finns som innehåller exempel för platsannonse..."
+        },
+        {
+          "property": "og:title",
+          "content": "Ett verktyg för dataanalys av JobSearch, JobLinks, SUSA-navet etc."
+        },
+        {
+          "property": "og:description",
+          "content": "Jag har skrivit ett verktyg som tar en JSON-fil och organiserar den i grupperingar på flera nivåer. Att användas för att få överblick över innehållet, för analyser och för att utvärdera datakvaliteten. En demo finns som innehåller exempel för platsannonse..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-01-18T16:52:04.078Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-02-12T11:29:20.952Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Kompetensförsörjning och livslångtlärande (KLL)  "
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/288",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/288/ett-verktyg-för-dataanalys-av-jobsearch-joblinks-susa-navet-etc",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/288.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/35/kompetensförsörjning-och-livslångtlärande-kll"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/erik-gbg"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

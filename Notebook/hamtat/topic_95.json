@@ -1,0 +1,843 @@
+{
+  "cid": 23,
+  "lastposttime": 1619249130945,
+  "mainPid": 337,
+  "postcount": 4,
+  "slug": "95/länkade-data-och-api-specar",
+  "tid": 95,
+  "timestamp": 1619247201250,
+  "title": "Länkade data och API-specar",
+  "uid": 128,
+  "viewcount": 606,
+  "postercount": 2,
+  "downvotes": 0,
+  "upvotes": 0,
+  "teaserPid": 340,
+  "tags": [
+    {
+      "value": "länkade data",
+      "valueEscaped": "länkade data",
+      "valueEncoded": "l%C3%A4nkade%20data",
+      "class": "länkade-data"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "standarder",
+      "valueEscaped": "standarder",
+      "valueEncoded": "standarder",
+      "class": "standarder"
+    }
+  ],
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Länkade data och API-specar",
+  "timestampISO": "2021-04-24T06:53:21.250Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-04-24T07:25:30.945Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Är det någon som känner till en specifik standard för hur man kan uttrycka sina API-specar i ett maskinkonsumerbart format där fälten är entiteter à la länkade data men ändå har ett litet fotavtryck på överföringsmängden.</p>\n<p dir=\"auto\">Säg t.ex att jag vill lägga upp ett API för att publicera nyhetsbilder(obs: inget som finns på någon roadmap hos oss!). Då skulle bilden kunna föreställa olika objekt typ personer och platser</p>\n<p dir=\"auto\">Exempelvis skulle en bild av Ardalan Shekarabi kunna representeras såhär:</p>\n<p dir=\"auto\">{<br />\nimage: url,<br />\ncaption: {<br />\nsv: “”<br />\n},<br />\ndescription: {<br />\nsv: “”<br />\n},<br />\npeople: [<br />\n{<br />\nname: “Ardalan Shekarabi”,<br />\nsameAs: “Q4787806”,<br />\n}<br />\n]<br />\n}</p>\n<p dir=\"auto\">Men hur gör man ett API som en länkaddata-aggregator kan förstå instinktivt snarare än ytterligare ett sätt att speca ett API?</p>\n",
+      "pid": 337,
+      "tid": 95,
+      "timestamp": 1619247201250,
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-24T07:04:50.341Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-24T06:53:21.250Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a> jag skulle ha ett fält WD där du lägger  <a href=\"https://www.wikidata.org/wiki/Q4787806\" rel=\"nofollow ugc\">Q4787806</a> --&gt; att du för hela artikle säger samma som eller om man gör det bredare och säger dessa koncept berörs och så anger man fler saker</p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Q4787806\" rel=\"nofollow ugc\">Q14125</a></li>\n<li><a href=\"https://www.wikidata.org/wiki/Q14125\" rel=\"nofollow ugc\">Q4787806</a></li>\n</ul>\n<p dir=\"auto\">Jag har fått bl.a. Litteraturbanken att lägga till Wikidata i sitt data se api litteraturbanken <a href=\"https://litteraturbanken.se/api/get_authors\" rel=\"nofollow ugc\">get_authors</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1619247412854-7d9c6e7a-dfbb-43d1-82d0-8d7609955563-image.png\" alt=\"7d9c6e7a-dfbb-43d1-82d0-8d7609955563-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">dvs. denna post handlar om författaren Margit  Abenius = litteraturbanken <a href=\"https://litteraturbanken.se/f%C3%B6rfattare/AbeniusM\" rel=\"nofollow ugc\">AbeniusM</a>  är samma som</p>\n<ul>\n<li>Wikidata <a href=\"https://www.wikidata.org/wiki/Q4933592\" rel=\"nofollow ugc\">Q4933592</a></li>\n<li>Wikipedia <a href=\"https://sv.wikipedia.org/wiki/Margit_Abenius\" rel=\"nofollow ugc\">Margit_Abenius</a> - behövs inte då WD är stabilare</li>\n<li>Svenskt Kvinnobiografiskt lexikon <a href=\"https://www.skbl.se/sv/artikel/MargitAbenius\" rel=\"nofollow ugc\">MargitAbenius</a></li>\n</ul>\n",
+      "pid": 338,
+      "tid": 95,
+      "timestamp": 1619247890341,
+      "toPid": "337",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-24T07:13:08.733Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-24T07:04:50.341Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 Nobelpriset har ett API som vi synkar med i oktober då priserna delas ut och do har nu Wikidata objekt</p>\n<ul>\n<li>min <a href=\"https://github.com/salgo60/open-data-examples/blob/master/Nobel%20API.ipynb\" rel=\"nofollow ugc\">jupyter</a> som synkar med Nobel\n<ul>\n<li>exempel deras API <a href=\"https://api.nobelprize.org/2.0/laureates?offset=0&amp;limit=1500\" rel=\"nofollow ugc\">api.nobelprize.org/2.0/laureates</a>  - <a href=\"https://www.nobelprize.org/about/developer-zone-2/\" rel=\"nofollow ugc\">developerzone</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>Kollar du på Albert</strong> så har han massa same as Wikidata</p>\n<pre><code>\n\"id\": \"26\",\n\"knownName\": {\n\"en\": \"Albert Einstein\",\n\"se\": \"Albert Einstein\"\n},\n\"givenName\": {\n\"en\": \"Albert\",\n\"se\": \"Albert\"\n},\n\"familyName\": {\n\"en\": \"Einstein\",\n\"se\": \"Einstein\"\n},\n\"fullName\": {\n\"en\": \"Albert Einstein\",\n\"se\": \"Albert Einstein\"\n},\n\"gender\": \"male\",\n\"birth\": {\n\"date\": \"1879-03-14\",\n\"place\": {\n\"city\": {\n\"en\": \"Ulm\",\n\"no\": \"Ulm\",\n\"se\": \"Ulm\"\n},\n\"country\": {\n\"en\": \"Germany\",\n\"no\": \"Tyskland\",\n\"se\": \"Tyskland\"\n},\n\"cityNow\": {\n\"en\": \"Ulm\",\n\"no\": \"Ulm\",\n\"se\": \"Ulm\",\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q3012\",\n\"https://www.wikipedia.org/wiki/Ulm\"\n]\n},\n\"countryNow\": {\n\"en\": \"Germany\",\n\"no\": \"Tyskland\",\n\"se\": \"Tyskland\",\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q183\"\n]\n},\n\"continent\": {\n\"en\": \"Europe\"\n},\n\"locationString\": {\n\"en\": \"Ulm, Germany\",\n\"no\": \"Ulm, Tyskland\",\n\"se\": \"Ulm, Tyskland\"\n}\n}\n},\n\"death\": {\n\"date\": \"1955-04-18\",\n\"place\": {\n\"city\": {\n\"en\": \"Princeton, NJ\",\n\"no\": \"Princeton, NJ\",\n\"se\": \"Princeton, NJ\"\n},\n\"country\": {\n\"en\": \"USA\",\n\"no\": \"USA\",\n\"se\": \"USA\",\n\"sameas\": \"https://www.wikidata.org/wiki/Q30\"\n},\n\"cityNow\": {\n\"en\": \"Princeton, NJ\",\n\"no\": \"Princeton, NJ\",\n\"se\": \"Princeton, NJ\",\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q138518\",\n\"https://www.wikipedia.org/wiki/Princeton,_New_Jersey\"\n]\n},\n\"countryNow\": {\n\"en\": \"USA\",\n\"no\": \"USA\",\n\"se\": \"USA\",\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q30\"\n]\n},\n\"continent\": {\n\"en\": \"North America\"\n},\n\"locationString\": {\n\"en\": \"Princeton, NJ, USA\",\n\"no\": \"Princeton, NJ, USA\",\n\"se\": \"Princeton, NJ, USA\"\n}\n}\n},\n\"wikipedia\": {\n\"slug\": \"Albert_Einstein\",\n\"english\": \"https://en.wikipedia.org/wiki/Albert_Einstein\"\n},\n\"wikidata\": {\n\"id\": \"Q937\",\n\"url\": \"https://www.wikidata.org/wiki/Q937\"\n},\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q937\",\n\"https://en.wikipedia.org/wiki/Albert_Einstein\"\n],\n\"links\": {\n\"rel\": \"laureate\",\n\"href\": \"https://api.nobelprize.org/2/laureate/26\",\n\"action\": \"Get\",\n\"types\": \"application/json\"\n},\n\"nobelPrizes\": [\n{\n\"awardYear\": \"1921\",\n\"category\": {\n\"en\": \"Physics\",\n\"no\": \"Fysikk\",\n\"se\": \"Fysik\"\n},\n\"categoryFullName\": {\n\"en\": \"The Nobel Prize in Physics\",\n\"no\": \"Nobelprisen i fysikk\",\n\"se\": \"Nobelpriset i fysik\"\n},\n\"sortOrder\": \"1\",\n\"portion\": \"1\",\n\"prizeStatus\": \"received\",\n\"motivation\": {\n\"en\": \"for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect\",\n\"se\": \"för hans förtjänster om den teoretiska fysiken, särskilt hans upptäckt av lagen för den fotoelektriska effekten\"\n},\n\"prizeAmount\": 121573,\n\"prizeAmountAdjusted\": 2578698,\n\"affiliations\": [\n{\n\"name\": {\n\"en\": \"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik\",\n\"no\": \"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik\",\n\"se\": \"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik\"\n},\n\"nameNow\": {\n\"en\": \"Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik\"\n},\n\"city\": {\n\"en\": \"Berlin\",\n\"no\": \"Berlin\",\n\"se\": \"Berlin\"\n},\n\"country\": {\n\"en\": \"Germany\",\n\"no\": \"Tyskland\",\n\"se\": \"Tyskland\"\n},\n\"cityNow\": {\n\"en\": \"Berlin\",\n\"no\": \"Berlin\",\n\"se\": \"Berlin\",\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q64\",\n\"https://www.wikipedia.org/wiki/Berlin\"\n]\n},\n\"countryNow\": {\n\"en\": \"Germany\",\n\"no\": \"Tyskland\",\n\"se\": \"Tyskland\",\n\"sameas\": [\n\"https://www.wikidata.org/wiki/Q183\"\n]\n},\n\"locationString\": {\n\"en\": \"Berlin, Germany\",\n\"no\": \"Berlin, Tyskland\",\n\"se\": \"Berlin, Tyskland\"\n}\n}\n],\n\"links\": {\n\"rel\": \"nobelPrize\",\n\"href\": \"https://api.nobelprize.org/2/nobelPrize/phy/1921\",\n\"action\": \"Get\",\n\"types\": \"application/json\"\n}\n}\n]\n},\n</code></pre>\n",
+      "pid": 339,
+      "tid": 95,
+      "timestamp": 1619248388733,
+      "toPid": "338",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-04-24T07:25:30.945Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-24T07:13:08.733Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60 I Wikidata så är Jorden Q2 --&gt;</p>\n<ul>\n<li>\n<p dir=\"auto\">Q2 svenska</p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Q2?uselang=sv\" rel=\"nofollow ugc\">https://www.wikidata.org/wiki/Q2?uselang=sv</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\">Q2 engelska</p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Q2?uselang=en\" rel=\"nofollow ugc\">https://www.wikidata.org/wiki/Q2?uselang=en</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\">Q2 svenska kinesiska</p>\n<ul>\n<li><a href=\"https://www.wikidata.org/wiki/Q2?uselang=zh\" rel=\"nofollow ugc\">https://www.wikidata.org/wiki/Q2?uselang=zh</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\">Q2 json dvs. hur vi levererar vårt <strong>data maskinläsbart</strong></p>\n<ul>\n<li><a href=\"http://www.wikidata.org/entity/Q2.json\" rel=\"nofollow ugc\">http://www.wikidata.org/entity/Q2.json</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>Semantisk Interoperabilitet</strong><br />\nWikidata världen har sina bilder i Wikicommons, senaste projektet som gjordes var att flytta dessa bilder till <a href=\"https://wikiba.se/\" rel=\"nofollow ugc\">Wikibase</a> som är en tom Wikidata se <a href=\"https://www.youtube.com/watch?v=lmWmMIuCJVM\" rel=\"nofollow ugc\">enkel video</a> dvs. tanken är att dessa bilder kan markeras med bra strukturerad data --&gt; skall man vara seriös med AI och Maskin inlärning måste man ha bra metadata --&gt; att vi kan i en bild peka på ett objekt i Wikidata och säga det är samma som. Längre <a href=\"https://minancestry.blogspot.com/2020/08/lankad-data-i-wikicommons.html\" rel=\"nofollow ugc\">blogpost om detta</a>  - <a href=\"https://www.youtube.com/watch?v=ySdROglNKFI\" rel=\"nofollow ugc\">video hur jag kopplar ihop den</a></p>\n",
+      "pid": 340,
+      "tid": 95,
+      "timestamp": 1619249130945,
+      "toPid": "339",
+      "uid": 24,
+      "edited": 1619249228481,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-04-24T07:25:30.945Z",
+      "editedISO": "2021-04-24T07:27:08.481Z",
+      "index": 3,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 273,
+          "timestamp": 1648840464211,
+          "timestampISO": "2022-04-01T19:14:24.211Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:14:24.211Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 273,
+      "timestamp": 1648840464211,
+      "timestampISO": "2022-04-01T19:14:24.211Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-04-01T19:14:24.211Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "95",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/95.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/95",
+  "bodyClass": "page-topic page-topic-95 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Länkade data och API-specar"
+        },
+        {
+          "name": "description",
+          "content": "Är det någon som känner till en specifik standard för hur man kan uttrycka sina API-specar i ett maskinkonsumerbart format där fälten är entiteter à la länkade data men ändå har ett litet fotavtryck på överföringsmängden. Säg t.ex att jag vill lägga upp e..."
+        },
+        {
+          "property": "og:title",
+          "content": "Länkade data och API-specar"
+        },
+        {
+          "property": "og:description",
+          "content": "Är det någon som känner till en specifik standard för hur man kan uttrycka sina API-specar i ett maskinkonsumerbart format där fälten är entiteter à la länkade data men ändå har ett litet fotavtryck på överföringsmängden. Säg t.ex att jag vill lägga upp e..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-04-24T06:53:21.250Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-04-24T07:25:30.945Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/95",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/95/länkade-data-och-api-specar",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/95.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/stefan-wallin"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

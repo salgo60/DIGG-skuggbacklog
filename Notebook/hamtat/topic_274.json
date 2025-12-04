@@ -1,0 +1,2111 @@
+{
+  "cid": 32,
+  "lastposttime": 1659107300441,
+  "mainPid": 1181,
+  "postcount": 31,
+  "slug": "274/förslag-till-nationell-api-profil-på-utvecklarportalen",
+  "tid": 274,
+  "timestamp": 1639668175970,
+  "title": "Förslag till nationell API-profil på Utvecklarportalen",
+  "uid": 7,
+  "viewcount": 7696,
+  "postercount": 9,
+  "tags": [
+    {
+      "value": "api-hantering",
+      "valueEscaped": "api-hantering",
+      "valueEncoded": "api-hantering",
+      "class": "api-hantering"
+    },
+    {
+      "value": "api",
+      "valueEscaped": "api",
+      "valueEncoded": "api",
+      "class": "api"
+    },
+    {
+      "value": "utvecklarportalen",
+      "valueEscaped": "utvecklarportalen",
+      "valueEncoded": "utvecklarportalen",
+      "class": "utvecklarportalen"
+    },
+    {
+      "value": "openapi",
+      "valueEscaped": "openapi",
+      "valueEncoded": "openapi",
+      "class": "openapi"
+    }
+  ],
+  "teaserPid": 1784,
+  "downvotes": 0,
+  "upvotes": 4,
+  "oldCid": 23,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Förslag till nationell API-profil på Utvecklarportalen",
+  "timestampISO": "2021-12-16T15:22:55.970Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-07-29T15:08:20.441Z",
+  "pinExpiryISO": "",
+  "votes": 4,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Nu är den första versionen av <strong>Utvecklarportalen</strong> publicerad!</p>\n<p dir=\"auto\">Utvecklarportalen innehåller ett förslag på en nationell REST API-profil och information som stöd för framförallt offentliga organisationers arbete med API:er. Hoppas att du får nytta och stöd av Utvecklarportalen och sprider information om den i dina nätverk.<br />\n<a href=\"https://dev.dataportal.se/\" rel=\"nofollow ugc\">Klicka på denna länk</a> för att komma till Utvecklarportalen</p>\n<p dir=\"auto\">Dela gärna med dig i forumet om du har några tips eller goda exempel på API-strategier, API-utveckling eller API- förvaltning.</p>\n<p dir=\"auto\">Innan Myndigheten för digital förvaltning (DIGG) fastställer profilen som en rekommendation i sin första version <strong>inhämtar vi synpunkter fram till den 10 februari</strong>. För att vi ska kunna ta omhand synpunkter på ett strukturerat sätt hänvisar vi till en enkät. Läs på <a href=\"https://www.digg.se/publicerat/remisser-och-yttranden/remisser-fran-digg/2020/lamna-synpunkter-pa-nationell-rest-api-profil\" rel=\"nofollow ugc\">denna länk</a> hur du lämnar synpunkter. DIGG kommer att beakta alla inkomna synpunkter och förbättringsförslag men vi kommer inte att kunna skicka ut svar på alla inlägg.</p>\n<p dir=\"auto\"><a href=\"https://dev.dataportal.se/\" rel=\"nofollow ugc\"><img src=\"/assets/uploads/files/1639671852307-86f96b58-7c98-441e-bf6d-5fff04607762-image.png\" alt=\"86f96b58-7c98-441e-bf6d-5fff04607762-image.png\" class=\" img-fluid img-markdown\" /></a></p>\n",
+      "pid": 1181,
+      "tid": 274,
+      "timestamp": 1639668175970,
+      "uid": 7,
+      "edited": 1639671916049,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 128,
+            "username": "Stefan Wallin",
+            "userslug": "stefan-wallin",
+            "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+            "fullname": "Stefan Wallin",
+            "displayname": "Stefan Wallin",
+            "icon:text": "S",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2021-12-16T22:07:38.054Z"
+      },
+      "downvotes": 0,
+      "upvotes": 4,
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 4,
+      "timestampISO": "2021-12-16T15:22:55.970Z",
+      "editedISO": "2021-12-16T16:25:16.049Z",
+      "index": 0,
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> Vad menas med användande av händelser och motsvarande händelsenamn i detta stycke? Det känns lite taget ur sitt sammanhang, så det vore bra med något exempel. Jag kan inte hitta namnen i den lista från IANA som refereras?</p>\n<p dir=\"auto\"><a href=\"https://dev.dataportal.se/sv/rest-api--profil/hypermedia/#link_relation_type\" rel=\"nofollow ugc\">https://dev.dataportal.se/sv/rest-api--profil/hypermedia/#link_relation_type</a></p>\n<blockquote>\n<p dir=\"auto\">Vid användande av olika typer av händelser, ska motsvarande händelsenamn användas som Link Relation Type ( t.ex.  activate ,  cancel ,  send , …).</p>\n</blockquote>\n",
+      "pid": 1182,
+      "tid": 274,
+      "timestamp": 1639692458054,
+      "toPid": "1181",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          },
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          },
+          {
+            "uid": 33,
+            "username": "vesstrom",
+            "userslug": "vesstrom",
+            "picture": "/assets/uploads/profile/33-profileavatar-1612277814486.jpeg",
+            "fullname": "Fredrik Vesström",
+            "displayname": "vesstrom",
+            "icon:text": "V",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2021-12-17T11:15:22.267Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-16T22:07:38.054Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Jag tror att en dokumenterad profil faktiskt behövs för att kunna fungera som en rekommendation. Nästa steg är att ta in återkoppling om själva profilen (den här tråden etc). Med det sagt så behövs en referensimplementation och/eller några exempel så fort som möjligt. Tror dock det är orimligt att DIGG ska tillhandahålla alla dessa exempel. Det är inte klart, men bättre vore om flera förvaltningsmyndigheter kan implementera profilen för några öppna API:er.</p>\n",
+      "pid": 1186,
+      "tid": 274,
+      "timestamp": 1639737849945,
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-17T10:44:09.945Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a><br />\nHej,<br />\nJag undrar om <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> som ingått i arbetsgruppen och sakkunnig inom API-hantering kan ge någon kommentar på din fråga?</p>\n<p dir=\"auto\">Vänliga hälsningar,<br />\nKristine</p>\n",
+      "pid": 1187,
+      "tid": 274,
+      "timestamp": 1639739722267,
+      "toPid": "1182",
+      "uid": 7,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-12-17T11:15:22.267Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Håller nog med dig Jonor om att ett exempel vore på sin plats. Tanken är att profilen inte ska begränsa i de fall det finns domänspecifika händelser, dock borde nog de allra flesta API:er bara använda de typer som är listade ovan på länken som du angav.</p>\n",
+      "pid": 1188,
+      "tid": 274,
+      "timestamp": 1639745486147,
+      "toPid": "1182",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-17T12:51:26.147Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Tyck till om denna artikel <a href=\"https://dev.dataportal.se/sv/api-playbook/audit-trail/\" rel=\"nofollow ugc\">https://dev.dataportal.se/sv/api-playbook/audit-trail/</a>. Den föreslår att det bör finnas ett unikt id vid loggning som du föreslår.</p>\n",
+      "pid": 1189,
+      "tid": 274,
+      "timestamp": 1639747681083,
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-18T03:16:47.781Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-17T13:28:01.083Z",
+      "editedISO": "",
+      "index": 5,
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Det går nog att uttrycka sig bättre i denna mening, men det vi avser är att när man uttrycker mer komplexa operationer (som inte ingår i IANA listan) så ska man beskriva dem avseende den händelse som avses. De exempel som anges är tre exempel på detta, där vi anser att de ska återspegla vad som kommer ske vid anrop.</p>\n",
+      "pid": 1190,
+      "tid": 274,
+      "timestamp": 1639752138414,
+      "toPid": "1182",
+      "uid": 33,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-19T19:24:39.383Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-12-17T14:42:18.414Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 33,
+        "username": "vesstrom",
+        "userslug": "vesstrom",
+        "reputation": 9,
+        "postcount": 4,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/33-profileavatar-1612277814486.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1707918082416,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "vesstrom",
+        "groupTitleArray": [],
+        "icon:text": "V",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2024-02-14T13:41:22.416Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> det problem jag ser var att samma dataset publiceras i flera portaler utan en unik identifierare som exempelvis <a href=\"https://snd.gu.se/sv/beskriv-och-dela-data/piddoi-tjanst\" rel=\"nofollow ugc\">DOI</a>, vet inte om det är tillämpbart med det ni beskriver med  ert dokument för API:er...  <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a>, European data portal plus en egen dataportal hade dataset som antydde det var samma data men bristen på unikt <a href=\"https://snd.gu.se/sv/beskriv-och-dela-data/piddoi-tjanst\" rel=\"nofollow ugc\">DOI</a> och version gjorde att man måste gissa...</p>\n<p dir=\"auto\">dvs. det som beskrivs i \"<a href=\"https://ai.googleblog.com/2018/09/building-google-dataset-search-and.html\" rel=\"nofollow ugc\">Building Google Dataset Search and Fostering an Open Data Ecosystem</a>\"  - <em>It is very common for a dataset, in particular a popular one, to be present in more than one repository.</em></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1639796556788-5e5b2b36-5388-41f5-994c-72f48f684b05-image-resized.png\" alt=\"5e5b2b36-5388-41f5-994c-72f48f684b05-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">som sagt ge oss lite exempel implementationer...  dom få \"dataset\" som vi/jag hämtar via API:er är väldigt statiska ex. <a href=\"https://litteraturbanken.se/api/get_authors\" rel=\"nofollow ugc\">Litteraturbanken</a>, <a href=\"https://api.nobelprize.org/2.0/laureates?offset=0&amp;limit=1500\" rel=\"nofollow ugc\">Nobelprize.org</a>, <a href=\"https://ws.spraakbanken.gu.se/ws/karp/v5/query?mode=skbl&amp;q=extended%7C%7Cand%7Cskblstatus%7Cequals%7Cok&amp;size=10000\" rel=\"nofollow ugc\">SKBL</a> där är det overkill med transaktionsid och spårbarhet utan är mer statitiskt data och ett API som gör det enklare att maskinläsa datat och som gör att vi slipper webscrapa massa websidor...   och i <a href=\"https://api.nobelprize.org/2.0/laureates?offset=0&amp;limit=1500\" rel=\"nofollow ugc\">Nobelprize.org</a> fallet har man även med \"samma som\" Wikidata --&gt; vi har <a href=\"https://5stardata.info/en/\" rel=\"nofollow ugc\">5stardata</a> och vet vad dom syftar på direkt...</p>\n<p dir=\"auto\">men men tror att det är svårt att torrsimma och täcka in alla användarfall...</p>\n",
+      "pid": 1191,
+      "tid": 274,
+      "timestamp": 1639797407781,
+      "toPid": "1189",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-18T08:06:24.198Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-18T03:16:47.781Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> annan vag tanke med <a href=\"https://snd.gu.se/sv/beskriv-och-dela-data/piddoi-tjanst\" rel=\"nofollow ugc\">DOI</a> för dataset var att man skulle kunna ha dom som <a href=\"https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics\" rel=\"nofollow ugc\">GITHUB subject</a> (Wikidata egenskap <a href=\"https://www.wikidata.org/wiki/Property:P9100\" rel=\"nofollow ugc\">P9100</a> - <a href=\"https://www.youtube.com/watch?v=LpweV2msf9Y\" rel=\"nofollow ugc\">video tankar</a>) för att göra lösningar med ett visst dataset mer <strong><a href=\"https://ec.europa.eu/info/sites/default/files/turning_fair_into_reality_0.pdf\" rel=\"nofollow ugc\">findable</a></strong></p>\n<p dir=\"auto\">dvs. det skall vara enklare att hitta lösningar som skapats med visst dataset...  känns lite som om du också varit inne på detta att det vore inte helt fel att tänka på samma sätt med olika API:er att man hittar en \"konvention\" kanske med GITHUB ämne så man enkelt hittar vilka lösningar som skapats med ett API....  så att andra kommer igång snabbt... leker en del på <a href=\"https://www.kaggle.com/datasets\" rel=\"nofollow ugc\">Kaggle och där är det självklart att koppla kod med dataset</a></p>\n<p dir=\"auto\">Skrev lite om det på <a href=\"https://github.community/t/wikidata-property-p9100-created-for-github-topics/158508\" rel=\"nofollow ugc\">GITHUB community forum</a>.... idag är det ofta forskare som är duktiga på att ange DOI för sina vetenskapliga papper och tillhörande dataset...</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1639814005873-5cede088-124f-4bb8-94e5-83308023d783-image.png\" alt=\"5cede088-124f-4bb8-94e5-83308023d783-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>\"<a href=\"https://www.dcc.ac.uk/sites/default/files/documents/publications/reports/guides/How_to_Cite_Link.pdf\" rel=\"nofollow ugc\">How to Cite Datasets and Link to Publications</a>\"</li>\n</ul>\n",
+      "pid": 1192,
+      "tid": 274,
+      "timestamp": 1639814784198,
+      "toPid": "1191",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-21T07:53:46.611Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-18T08:06:24.198Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/33\">@vesstrom</a> Jag förstod utan större problem det övriga innehållet på sidan om hypermedia fram till det sista stycket. Där introduceras plötsligt begreppet \"händelser\" utan någon särskild motivering när man tidigare pratat om transaktioner, länkrelationer och typer.</p>\n<p dir=\"auto\">Jag gick direkt in på sidan om hypermedia, så jag vet inte om man möjligen refererar underförstått till något som tas upp i andra delar av API-handledningen. Eller handlar det om att överföra befintliga RPC-liknande API:er till ett hypermedia-baserat gränssnitt?</p>\n<p dir=\"auto\">De exempel som förekommer på sidan handlar om organisationer och kontotransaktioner, och där det gäller egna relationstyper anges svenska uttryck som \"insättning\" och \"uttag\" (är det realistiska exempel?).</p>\n<p dir=\"auto\">Varför inte i så fall nämna \"insättning, uttag och överföring\" som exempel på domänspecifika typer då de redan tagits upp i ett sammanhang.  Om nu detta också utgör ett exempel på vad man vill kalla \"händelser\" så kanske det uttrycket kan nämnas redan där det finns en kontext, t.ex. koppla det till ordet \"transaktioner\" som annars verkar användas för exemplen med \"insättning\", \"uttag\", \"överföring\", \"edit\", \"replace\", \"delete\".</p>\n<p dir=\"auto\">\"Olika typer av händelser\" skulle kanske tydligare beskrivas av \"representera domänspecifika händelseorienterade operationer som relationstyper/transaktioner\" eller något liknande, och samtidigt referera till exemplen med kontotransaktioner (domänspecifika) och organisationer (standard).</p>\n<p dir=\"auto\">Något som också är oklart är varför det är asterisker i relationstyperna, är det kanske ursprungligen märkspråk för fetstil i exemplet?</p>\n<p dir=\"auto\">Inklistrat som vanlig inläggstext:</p>\n<p dir=\"auto\">{\"rel\": \" <strong>insättning</strong>\", \"href\":\"/konton/12345/insattning\"},<br />\n{\"rel\": \" <strong>uttag</strong>\", \"href\":\"/konton/12345/uttag\"},<br />\n{\"rel\": \" <strong>överföring</strong>\", \"href\":\"/konton/12345/overforing\"}</p>\n<pre><code>{\n     \"kontonummer\":\"12345\",\n     \"balans\": 100.00,\n     \"_links\":[\n         {\"rel\": \" **insättning**\", \"href\":\"/konton/12345/insattning\"},\n         {\"rel\": \" **uttag**\", \"href\":\"/konton/12345/uttag\"},\n         {\"rel\": \" **överföring**\", \"href\":\"/konton/12345/overforing\"}\n     ]\n}\n\n{\n  \"kontonummer\":\"12345\",\n  \"balans\": -25.00,\n  \"_links\":[{\n    \"rel\": \"insättning\",\n    \"href\":\"/konton/12345/insattning\"\n  }]\n}\n</code></pre>\n",
+      "pid": 1193,
+      "tid": 274,
+      "timestamp": 1639941879383,
+      "toPid": "1190",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 33,
+            "username": "vesstrom",
+            "userslug": "vesstrom",
+            "picture": "/assets/uploads/profile/33-profileavatar-1612277814486.jpeg",
+            "fullname": "Fredrik Vesström",
+            "displayname": "vesstrom",
+            "icon:text": "V",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-21T07:31:00.301Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-19T19:24:39.383Z",
+      "editedISO": "",
+      "index": 9,
+      "parent": {
+        "username": "vesstrom",
+        "displayname": "vesstrom"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> Uppskattar att du är engagerad och intresserad av vad vi tagit fram. Som sagt så finns det utrymme för förbättringar och delar som behöver förtydligas i texten. Dina åsikter är relevanta och vi ser gärna att du använder vår enkät som vi har för att mer formellt samla in feedback på REST API profilen.<br />\nLäs mer om detta här, <a href=\"https://www.digg.se/publicerat/remisser-och-yttranden/remisser-fran-digg/2020/lamna-synpunkter-pa-nationell-rest-api-profil\" rel=\"nofollow ugc\">https://www.digg.se/publicerat/remisser-och-yttranden/remisser-fran-digg/2020/lamna-synpunkter-pa-nationell-rest-api-profil</a></p>\n<p dir=\"auto\">Tack</p>\n",
+      "pid": 1194,
+      "tid": 274,
+      "timestamp": 1640071860301,
+      "toPid": "1193",
+      "uid": 33,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-21T22:08:26.815Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2021-12-21T07:31:00.301Z",
+      "editedISO": "",
+      "index": 10,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 33,
+        "username": "vesstrom",
+        "userslug": "vesstrom",
+        "reputation": 9,
+        "postcount": 4,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/33-profileavatar-1612277814486.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1707918082416,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "vesstrom",
+        "groupTitleArray": [],
+        "icon:text": "V",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2024-02-14T13:41:22.416Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv För en handling, ett dokument, eller en forskningsartikel känns det naturligt att ha en unik global identifierare. Spontant tänker jag dock att ett DOI/sameAs attribut som i googles exempel gäller hela datasetet (en samling dokument, handlingar, forskningsartiklar), och kanske är en mer fråga för <a href=\"https://docs.dataportal.se/dcat/sv/\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/sv/</a>. Dvs att objektet \"datamängd\" borde ha en identifierare. Hoppas att en expert på DCAT-AP-Se läser och tycker till.</p>\n<p dir=\"auto\">Exempel från arbetsmarknaden när det är svårt att få dataproducenter att tagga sitt innehåll med en unik identifierare (jobbannonser förekommer ofta på många sajter).</p>\n<p dir=\"auto\">Dubbletthantering: <a href=\"https://gitlab.com/arbetsformedlingen/joblinks/job_ad_hash/-/tree/develop\" rel=\"nofollow ugc\">https://gitlab.com/arbetsformedlingen/joblinks/job_ad_hash/-/tree/develop</a></p>\n<p dir=\"auto\">Tjänst: <a href=\"https://arbetsformedlingen.se/platsbanken/annonser?s=2\" rel=\"nofollow ugc\">https://arbetsformedlingen.se/platsbanken/annonser?s=2</a></p>\n<p dir=\"auto\"><a href=\"https://en.wikipedia.org/wiki/Jaccard_index\" rel=\"nofollow ugc\">https://en.wikipedia.org/wiki/Jaccard_index</a> och <a href=\"https://en.wikipedia.org/wiki/MinHash\" rel=\"nofollow ugc\">https://en.wikipedia.org/wiki/MinHash</a> används för att identifiera informationsmängder som har stort överlapp.</p>\n<p dir=\"auto\">Konsekvensen av att inte använda bra identifierare blir ju precis som du säger att det är svårt att i efterhand sortera upp informationen rätt.</p>\n",
+      "pid": 1195,
+      "tid": 274,
+      "timestamp": 1640073226611,
+      "toPid": "1192",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 25,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-23T09:54:46.729Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-21T07:53:46.611Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/33\">@vesstrom</a> Tack, jag ser gärna en öppen dialog då jag även är intresserad av att ta del av andras synpunkter och erfarenheter och följa diskussionen.</p>\n",
+      "pid": 1196,
+      "tid": 274,
+      "timestamp": 1640124506815,
+      "toPid": "1194",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-12-21T22:08:26.815Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "vesstrom",
+        "displayname": "vesstrom"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> sa i <a href=\"/post/1195\">Förslag till nationell API-profil på Utvecklarportalen</a>:</p>\n<blockquote>\n<p dir=\"auto\">Exempel från arbetsmarknaden när det är svårt att få dataproducenter att tagga sitt innehåll med en unik identifierare (jobbannonser förekommer ofta på många sajter).</p>\n</blockquote>\n<p dir=\"auto\">jag känner mig inte förvånad. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<blockquote>\n<p dir=\"auto\">Dubbletthantering: <a href=\"https://gitlab.com/arbetsformedlingen/joblinks/job_ad_hash/-/tree/develop\" rel=\"nofollow ugc\">https://gitlab.com/arbetsformedlingen/joblinks/job_ad_hash/-/tree/develop</a></p>\n<p dir=\"auto\">Tjänst: <a href=\"https://arbetsformedlingen.se/platsbanken/annonser?s=2\" rel=\"nofollow ugc\">https://arbetsformedlingen.se/platsbanken/annonser?s=2</a></p>\n<p dir=\"auto\"><a href=\"https://en.wikipedia.org/wiki/Jaccard_index\" rel=\"nofollow ugc\">https://en.wikipedia.org/wiki/Jaccard_index</a> och <a href=\"https://en.wikipedia.org/wiki/MinHash\" rel=\"nofollow ugc\">https://en.wikipedia.org/wiki/MinHash</a> används för att identifiera informationsmängder som har stort överlapp.</p>\n</blockquote>\n<p dir=\"auto\">Intressant</p>\n<blockquote>\n<p dir=\"auto\">Konsekvensen av att inte använda bra identifierare blir ju precis som du säger att det är svårt att i efterhand sortera upp informationen rätt.</p>\n</blockquote>\n<p dir=\"auto\">Exakt och det är jobbigt för alla inblandade. Ett jobbuppslag är en historisk unik händelse. Den berättar mycket om vår samtid och om organisationen. Det är en värdefull datapunkt men behandlas att döma efter vad du skriver ovan styvmoderligt av alla inblandade...</p>\n<p dir=\"auto\">Sparar riksarkivet alla annonser? Kan jag lätt kolla upp alla annonser SJ/Banverket hade ute i 1936? Är de bra kvalitet så jag kan köra NLP topic classification på dem? Kanske visualisera elektrifieringen av järnvägen med jobbannonserna som prism?</p>\n<p dir=\"auto\">För att detta ska kunna göras så MÅSTE vi ha bra data med unika identifierare i grunden och gärna även grafdata som beskriver rollen de söker (tex backendutvecklare Q110245834 != frontendutvecklare Q54568999 != webbutvecklare Q6859454). För att detta ska funka måste vi ha in rollerna i en graf som vi kan peka på. Här har jag angett Wikidata QID men AF eller nån annan skulle lika väl kunna ha sin egen graf som beskriver varenda typ av jobb som förekommer eller har förekommit någonsin på svenska arbetsmarknaden.</p>\n<p dir=\"auto\">Om ni vill ha hjälp att skapa en sådan graf så hojta till <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Era samarbetspartners och resten av världen kommer älska er! Inget har gjort det öppet än (@salgo60-ej-aktiv gissar att LinkedIn redan gör detta, men de håller korten tät till kroppen så det har inget allmänt värde för samhället utan syftar till vinstmaximering hos dem)</p>\n<p dir=\"auto\">Jag skrev just riksarkivet<br />\n\"Hej<br />\nJag undrar om ni sparat jobbannonser från 1900-talet? Tex från banverket så jag kan se hur elektrifieringen påverkade jobbannonserna över tid?</p>\n<p dir=\"auto\">Är de digitaliserade? Om inte, är det planerad? Vad är ETA på det arbetet i så fall?\"</p>\n",
+      "pid": 1197,
+      "tid": 274,
+      "timestamp": 1640253286729,
+      "toPid": "1195",
+      "uid": 25,
+      "edited": 1640253726805,
+      "editor": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitle": "",
+        "groupTitleArray": [],
+        "status": "offline",
+        "reputation": 0,
+        "email:confirmed": 0,
+        "picture": ""
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-23T12:05:01.482Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-12-23T09:54:46.729Z",
+      "editedISO": "2021-12-23T10:02:06.805Z",
+      "index": 13,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 25,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@dennis_priskorn <a href=\"https://data.arbetsformedlingen.se/annonser/historiska\" rel=\"nofollow ugc\">https://data.arbetsformedlingen.se/annonser/historiska</a> här kan annonser för åren 2006-2021 laddas ner.</p>\n",
+      "pid": 1198,
+      "tid": 274,
+      "timestamp": 1640261101482,
+      "toPid": "1197",
+      "uid": 78,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-12-23T12:05:01.482Z",
+      "editedISO": "",
+      "index": 14,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/7\">@kristine_</a> ni säger att ni vill ta emot synpunkter på ett strukturerat sätt. Men ändå vill ni ha en enkät med fritext. Varför publicerar ni inte API-profilen som ett gäng markdown-filer i ett publikt repo på exvis github eller gitlab så att kommentarer kan göras i kontext?</p>\n<p dir=\"auto\">”Tala till de lärde på de lärdes vis och till apor på apors vis”.</p>\n<p dir=\"auto\">Jag vill passa på att berömma att ni öppnar upp för feedback i en såpass tidig fas ändå!<img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44f.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--clap\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":clap:\" alt=\"👏\" /><img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44f.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--clap\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":clap:\" alt=\"👏\" />🤩</p>\n",
+      "pid": 1202,
+      "tid": 274,
+      "timestamp": 1640999087343,
+      "toPid": "1181",
+      "uid": 128,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 7,
+            "username": "Kristine_",
+            "userslug": "kristine_",
+            "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+            "fullname": "Kristine Ulander",
+            "displayname": "Kristine_",
+            "icon:text": "K",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-01-10T09:58:38.398Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-01-01T01:04:47.343Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "Kristine_",
+        "displayname": "Kristine_"
+      },
+      "user": {
+        "uid": 128,
+        "username": "Stefan Wallin",
+        "fullname": "Stefan Wallin",
+        "userslug": "stefan-wallin",
+        "reputation": 59,
+        "postcount": 92,
+        "topiccount": 9,
+        "picture": "/assets/uploads/profile/128-profileavatar-1660828482341.jpeg",
+        "signature": "<p dir=\"auto\">Senior systemutvecklare i privata sektorn (f.n. Iteam)</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1703371866597,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Stefan Wallin",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "S",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-12-23T22:51:06.597Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/128\">@stefan-wallin</a><br />\nBra input, just idag använde vi inte Markdown men vi tar med oss frågan för hur vi långsiktigt ska arbeta med profilen och playbooken.</p>\n<p dir=\"auto\">Hälsningar, Kristine</p>\n",
+      "pid": 1203,
+      "tid": 274,
+      "timestamp": 1641808718398,
+      "toPid": "1202",
+      "uid": 7,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-01-10T09:58:38.398Z",
+      "editedISO": "",
+      "index": 16,
+      "parent": {
+        "username": "Stefan Wallin",
+        "displayname": "Stefan Wallin"
+      },
+      "user": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "reputation": 95,
+        "postcount": 130,
+        "topiccount": 27,
+        "picture": "/assets/uploads/profile/7-profileavatar-1612266529992.png",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699271782573,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Kristine_",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "K",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2023-11-06T11:56:22.573Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Finns det en möjlighet att följa arbetet med API-profilen eller annars någon tidplan alternativt uppskattning av hur stora förändringar som förväntas som man kan ta del av?</p>\n<p dir=\"auto\">Jordbruksverket är i ett läge där vi arbetar med att låta API:er ta en mer central roll i både applikations- och integrationsutveckling, vilket gör att behovet av förutsägbarhet kring API-profilen ökar då vi önskar utgå från den.</p>\n",
+      "pid": 1475,
+      "tid": 274,
+      "timestamp": 1650663485721,
+      "uid": 172,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-05-02T08:31:40.021Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-04-22T21:38:05.721Z",
+      "editedISO": "",
+      "index": 17,
+      "user": {
+        "uid": 172,
+        "username": "Peter_Bengtsson",
+        "userslug": "peter_bengtsson",
+        "reputation": 14,
+        "postcount": 8,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670452670788,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peter_Bengtsson",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-12-07T22:37:50.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/172\">@peter_bengtsson</a> Vad kul att ni är intresserade och vill följa arbetet!<br />\n <br />\nREST API-profilen har varit ute på remiss där personer som jobbar med utveckling av API:er har fått möjlighet att lämnar synpunkter. De inkomna synpunkterna hanteras och bearbetas nu av DIGG tillsammans med arbetsgruppen kring utvecklingen av REST API-profilen.<br />\n <br />\nVår plan är att releasa (publicera) och fastställa version 1.0 av REST-API Profilen inom ramen för Q2. På grund av att vi genomför en migrering av CMS (Content Management System) har vi svårt att lova någon specifik tidsplan och det gör det svårt att följa arbetet.</p>\n<p dir=\"auto\">Om ni har mer specifika frågor kopplat till något specifikt område i profilen kontakta <a href=\"mailto:info@digg.se\" rel=\"nofollow ugc\">info@digg.se</a>. Jordbruksverket har lämnat synpunkter på profilen, så det har vi med oss.<br />\n <br />\nLäs mer om profilen på vår webbplats Utvecklarportalen, <a href=\"https://dev.dataportal.se/sv/rest-api--profil/\" rel=\"nofollow ugc\">https://dev.dataportal.se/sv/rest-api--profil/</a>.</p>\n<p dir=\"auto\">Läs mer om synpunktsarbetet på vår webbplats, <a href=\"https://www.digg.se/publicerat/remisser-och-yttranden/remisser-fran-digg/2020/lamna-synpunkter-pa-nationell-rest-api-profil\" rel=\"nofollow ugc\">https://www.digg.se/publicerat/remisser-och-yttranden/remisser-fran-digg/2020/lamna-synpunkter-pa-nationell-rest-api-profil</a>.</p>\n<p dir=\"auto\">Observera att det inte längre går att skicka in synpunkter.</p>\n",
+      "pid": 1507,
+      "tid": 274,
+      "timestamp": 1651480300021,
+      "toPid": "1475",
+      "uid": 117,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 172,
+            "username": "Peter_Bengtsson",
+            "userslug": "peter_bengtsson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "Peter_Bengtsson",
+            "icon:text": "P",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-05-02T12:15:46.397Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-05-02T08:31:40.021Z",
+      "editedISO": "",
+      "index": 18,
+      "parent": {
+        "username": "Peter_Bengtsson",
+        "displayname": "Peter_Bengtsson"
+      },
+      "user": {
+        "uid": 117,
+        "username": "jenniferskoglund",
+        "userslug": "jenniferskoglund",
+        "reputation": 35,
+        "postcount": 38,
+        "topiccount": 6,
+        "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+        "signature": "<p dir=\"auto\">Specialist på Digg och moderator på forumet för Sveriges dataportal</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1728388648098,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jenniferskoglund",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2024-10-08T11:57:28.098Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/117\">@jenniferskoglund</a></p>\n<p dir=\"auto\">Tackar för svaret! Q2 är ändå någonting att förhålla sig till. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Jag är en av de som var med och tog fram synpunkterna för Jordbruksverkets räkning, så skulle det uppstå några frågor är det bara att höra av sig.</p>\n",
+      "pid": 1508,
+      "tid": 274,
+      "timestamp": 1651493746397,
+      "toPid": "1507",
+      "uid": 172,
+      "downvotes": 0,
+      "upvotes": 3,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 117,
+            "username": "jenniferskoglund",
+            "userslug": "jenniferskoglund",
+            "picture": "/assets/uploads/profile/117-profileavatar-1716556481658.jpeg",
+            "fullname": "Jennifer Skoglund",
+            "displayname": "jenniferskoglund",
+            "icon:text": "J",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-07-12T12:24:09.326Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 3,
+      "timestampISO": "2022-05-02T12:15:46.397Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "jenniferskoglund",
+        "displayname": "jenniferskoglund"
+      },
+      "user": {
+        "uid": 172,
+        "username": "Peter_Bengtsson",
+        "userslug": "peter_bengtsson",
+        "reputation": 14,
+        "postcount": 8,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1670452670788,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Peter_Bengtsson",
+        "groupTitleArray": [],
+        "icon:text": "P",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2022-12-07T22:37:50.788Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 23,
+      "type": "move",
+      "uid": 62,
+      "id": 568,
+      "timestamp": 1667395469057,
+      "timestampISO": "2022-11-02T13:24:29.057Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Data",
+        "slug": "23/data",
+        "icon": "fa-comments",
+        "color": "#ffffff",
+        "bgColor": "#000000"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Data on <span class=\"timeago timeline-text\" title=\"2022-11-02T13:24:29.057Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#DC9656",
+    "cid": 32,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Byggblock API",
+    "descriptionParsed": "<p dir=\"auto\">Byggblock API</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "API-profilen",
+    "numRecentReplies": 1,
+    "order": 0,
+    "parentCid": 30,
+    "post_count": 80,
+    "slug": "32/api-profilen",
+    "subCategoriesPerPage": 10,
+    "topic_count": 6,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 80,
+    "totalTopicCount": 6
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "274",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/274.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    },
+    {
+      "text": "API-profilen",
+      "url": "/category/32/api-profilen",
+      "cid": 32
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/274/förslag-till-nationell-api-profil-på-utvecklarportalen?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/274",
+  "bodyClass": "page-topic page-topic-274 template-topic page-topic-category-32 page-topic-category-api-profilen parent-category-30 parent-category-32 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Förslag till nationell API-profil på Utvecklarportalen"
+        },
+        {
+          "name": "description",
+          "content": "Nu är den första versionen av Utvecklarportalen publicerad! Utvecklarportalen innehåller ett förslag på en nationell REST API-profil och information som stöd för framförallt offentliga organisationers arbete med API:er. Hoppas att du får nytta och stöd av..."
+        },
+        {
+          "property": "og:title",
+          "content": "Förslag till nationell API-profil på Utvecklarportalen"
+        },
+        {
+          "property": "og:description",
+          "content": "Nu är den första versionen av Utvecklarportalen publicerad! Utvecklarportalen innehåller ett förslag på en nationell REST API-profil och information som stöd för framförallt offentliga organisationers arbete med API:er. Hoppas att du får nytta och stöd av..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-12-16T15:22:55.970Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-07-29T15:08:20.441Z"
+        },
+        {
+          "property": "article:section",
+          "content": "API-profilen"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1639671852307-86f96b58-7c98-441e-bf6d-5fff04607762-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1639671852307-86f96b58-7c98-441e-bf6d-5fff04607762-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1217"
+        },
+        {
+          "property": "og:image:height",
+          "content": "441"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/7-profileavatar-1612266529992.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/7-profileavatar-1612266529992.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/274",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/274/förslag-till-nationell-api-profil-på-utvecklarportalen",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/274.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/32/api-profilen"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/kristine_"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/274/förslag-till-nationell-api-profil-på-utvecklarportalen?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

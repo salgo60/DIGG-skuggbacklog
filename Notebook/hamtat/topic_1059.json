@@ -1,0 +1,1085 @@
+{
+  "cid": 23,
+  "lastposttime": 1759842468050,
+  "mainPid": 5304,
+  "postcount": 9,
+  "slug": "1059/dataportal-se-har-stöd-för-sparql-queries-visste-ni-det",
+  "tid": 1059,
+  "timestamp": 1759741962687,
+  "title": "Dataportal.se har stöd för Sparql-queries, visste ni det? :)",
+  "uid": 127,
+  "viewcount": 205,
+  "postercount": 3,
+  "downvotes": 0,
+  "upvotes": 2,
+  "teaserPid": 5326,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Dataportal.se har stöd för Sparql-queries, visste ni det? :)",
+  "timestampISO": "2025-10-06T09:12:42.687Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-10-07T13:07:48.050Z",
+  "pinExpiryISO": "",
+  "votes": 2,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej tänkte bara meddela att en feature som inte fanns för inte allt för länge sen, nu finns... SparQL queries går att köra mot portalen! (Kan vara old news, jag kanske är sist på bollen ... men men <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> )</p>\n<p dir=\"auto\"><strong>Vad är ditt case, Tomas?</strong><br />\n...jo jag behövde få fram en lista på alla som publicerar data enligt en viss specifikation. I mitt fall gäller det Lediga Tomter. Vilka i katalogen publicerar enligt \"Lediga Tomter 2.0\" - kan jag få fram en lista med ändpunkter att slå vidare mot i min applikation, slipper jag sitta och \"bläddra\" i <a href=\"http://Dataportal.se\" rel=\"nofollow ugc\">Dataportal.se</a>.</p>\n<p dir=\"auto\"><strong>Hur kör man script mot <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> som SparQL?</strong><br />\nJag använder en enkel webbtjänst YASGUI (<a href=\"https://yasgui.org\" rel=\"nofollow ugc\">https://yasgui.org</a>) som låter mig experimentera, lite som Postman.</p>\n<p dir=\"auto\"><strong>Vad är ändpunkten för Sparql-queries?</strong><br />\n<a href=\"https://admin.dataportal.se/sparql\" rel=\"nofollow ugc\">https://admin.dataportal.se/sparql</a></p>\n<p dir=\"auto\"><strong>Visa mig ett exempel på script som du kör då?</strong></p>\n<pre><code>PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;\nPREFIX dct: &lt;http://purl.org/dc/terms/&gt;\n\nSELECT ?dataset ?distribution ?url ?organisation\nWHERE {\n?dataset a dcat:Dataset ;\ndct:conformsTo &lt;https://dataportal.se/specifications/ledigatomter/2.0&gt; .\n?dataset dcat:distribution ?distribution .\n?distribution dcat:accessURL ?url .\n?distribution dct:format ?format .\nFILTER (str(?format) = \"text/csv\") .\n?dataset dct:publisher ?organisation .\n}\n</code></pre>\n<p dir=\"auto\"><strong>...och resultatet? (exempel från <a href=\"http://yasgui.org\" rel=\"nofollow ugc\">yasgui.org</a></strong><br />\n<img src=\"/assets/uploads/files/1759741419745-b5fe6145-cc83-4a6f-8dd9-94bfde292e86-image.png\" alt=\"b5fe6145-cc83-4a6f-8dd9-94bfde292e86-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">...i Yasgui kan du få restultat som Json, tabell osv. Du kan även köra scriptet som ett URL-anrop direkt i webbläsaren om du vill:</p>\n<pre><code>https://admin.dataportal.se/sparql?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0APREFIX%20dct%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0ASELECT%20%3Fdataset%20%3Fdistribution%20%3Furl%20%3Forganisation%0AWHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%20%3B%0A%20%20%20%20%20%20dct%3AconformsTo%20%3Chttps%3A%2F%2Fdataportal.se%2Fspecifications%2Fledigatomter%2F2.0%3E%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdistribution%20dcat%3AaccessURL%20%3Furl%20.%0A%20%20%3Fdistribution%20dct%3Aformat%20%3Fformat%20.%0A%20%20FILTER%20%28str%28%3Fformat%29%20%3D%20%22text%2Fcsv%22%29%20.%0A%20%20%3Fdataset%20dct%3Apublisher%20%3Forganisation%20.%0A%7D\n</code></pre>\n<p dir=\"auto\">...ja de tär lite svårläst, men funka om du t.ex. kör script i Powershell, Python eller anropar via FME kanske? There is no end to the possibilities..... <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Svaret filtrerar jag sen, eller stukar om min fråga, så att jag t.ex. bara får ut URL om jag inte behöver mer metadata. Sen mosar jag in listan på URL till FME som slår mot dem och hämtar ut datat som jag sen kan använda vidare.</p>\n<p dir=\"auto\"><strong>Fördelen?</strong><br />\n...är att jag alltså får ut en dynamisk lista - så fort någon lägger till en distribution på <a href=\"http://dataportal.se\" rel=\"nofollow ugc\">dataportal.se</a> som pekar ut Lediga Tomter 2.0 -specfikationen, så kommer min lista att fyllas på med den. Detta kan man alltså även använda för att sätta ihop statistik om hur många som nyttjar gamla och nya specifikationen t.ex.</p>\n<p dir=\"auto\">Jag håller på att försöka, på lediga stunder, stäta samman en enkel formatkontrollerare, som ställer en Sparql-fråga, hämtar hem alla URL till distributioner, laddar dessa distributioners data och utvärderar dem mot schemat för distributionen - de som inte matchar hamnar i en fel-lista som man kan använda för att hjälpa dataägaren förbättra kvaliteten på sin data (t.ex. felaktiga filformat, kolumnindelning, datatyper, obligatoriska fält som saknas osv).</p>\n",
+      "pid": 5304,
+      "tid": 1059,
+      "timestamp": 1759741962687,
+      "uid": 127,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-10-07T12:07:54.492Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2025-10-06T09:12:42.687Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Trevligt man kan undra varför detta inte beskrivs så folk kunnat använda tidigare....</p>\n<p dir=\"auto\">Sökning <a href=\"https://community.dataportal.se/search?in=posts&amp;term=SPARQL%20dataportalen&amp;matchWords=all&amp;by=&amp;categories=&amp;searchChildren=false&amp;hasTags=&amp;replies=&amp;repliesFilter=atleast&amp;timeFilter=newer&amp;timeRange=&amp;sortBy=topic.timestamp&amp;sortDirection=asc&amp;showAs=posts\">dom ggr \"SPARQL dataportalen\" diskuterats på forumet</a> verkar som det snackats om sedan 2022.... Huston Huston...</p>\n",
+      "pid": 5305,
+      "tid": 1059,
+      "timestamp": 1759745201301,
+      "uid": 1802,
+      "edited": 1759745227316,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-10-06T12:31:26.643Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-06T10:06:41.301Z",
+      "editedISO": "2025-10-06T10:07:07.316Z",
+      "index": 1,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5305\">Dataportal.se har stöd för Sparql-queries, visste ni det? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></a>:</p>\n<blockquote>\n<p dir=\"auto\">Trevligt man kan undra varför detta inte beskrivs så folk kunnat använda tidigare....</p>\n<p dir=\"auto\">Sökning <a href=\"https://community.dataportal.se/search?in=posts&amp;term=SPARQL%20dataportalen&amp;matchWords=all&amp;by=&amp;categories=&amp;searchChildren=false&amp;hasTags=&amp;replies=&amp;repliesFilter=atleast&amp;timeFilter=newer&amp;timeRange=&amp;sortBy=topic.timestamp&amp;sortDirection=asc&amp;showAs=posts\">dom ggr \"SPARQL dataportalen\" diskuterats på forumet</a> verkar som det snackats om sedan 2022.... Huston Huston...</p>\n</blockquote>\n<p dir=\"auto\">Ja det är relativt nytt, jag upptäckte detta i somras när jag hackade runt lite - man har tillfört denna funktion nyss och kanske inte varit jättetydlig med att annonsera det. Jag tänkte att jag kunde hjälpa till med detta inlägg.</p>\n<p dir=\"auto\">Troligen kan vi ordna nån tråd med steg-för-steg för att kunna nyttja funktionen framöver, jag vet ju att du är händig med SparQL och själv är jag glad entusiast <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></p>\n<p dir=\"auto\">Jag har föreslagit att detta tas upp i dokumentationen för plattformen och jag vet att <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/118\">@josefinlassi</a> är \"på\" det, visst är det så, Josefin?</p>\n",
+      "pid": 5307,
+      "tid": 1059,
+      "timestamp": 1759753886643,
+      "toPid": "5305",
+      "uid": 127,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-10-06T12:31:26.643Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">SPARQL det är bara att vibe programmera med ChatGPT...</p>\n<ul>\n<li>jag skapade denna <a href=\"https://raw.githack.com/salgo60/Stockholm_Archipelago_Trail/main/notebook/output/SAT_ALL_IN_ONE_142_3_dashboard_latest.html\" rel=\"nofollow ugc\">dashboard</a> på några dagar med chatGPT koda - tog <a href=\"https://www.outdooractive.com/en/list/stockholm-archipelago-trail/312250678/\" rel=\"nofollow ugc\">2 månader att vandra 27 mil</a>  och ta <a href=\"https://commons.wikimedia.org/wiki/Category:Stockholm_Archipelago_Trail\" rel=\"nofollow ugc\">5000 bilder</a>(<a href=\"https://petscan.wmcloud.org/?show_redirects=both&amp;cb_labels_yes_l=1&amp;langs_labels_yes=&amp;sortorder=descending&amp;file_usage_data=on&amp;ext_image_data=on&amp;rxp_filter=&amp;sitelinks_any=&amp;language=commons&amp;subpage_filter=either&amp;min_sitelink_count=&amp;categories=Stockholm_Archipelago_Trail&amp;smaller=&amp;sortby=uploaddate&amp;max_sitelink_count=&amp;combination=union&amp;cb_labels_any_l=1&amp;wikidata_item=no&amp;depth=4&amp;search_max_results=500&amp;project=wikimedia&amp;ores_type=any&amp;cb_labels_no_l=1&amp;manual_list_wiki=&amp;format=html&amp;interface_language=en&amp;ns%5B6%5D=1&amp;doit=\" rel=\"nofollow ugc\">senaste</a>) dock <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1759756548604-6c30c8cb-6c7d-40a9-86c6-98352739fb69-image.png\" alt=\"6c30c8cb-6c7d-40a9-86c6-98352739fb69-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1759756560721-fcb4f42c-b53f-4a18-8fd9-c7147b65f28d-image.png\" alt=\"fcb4f42c-b53f-4a18-8fd9-c7147b65f28d-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5309,
+      "tid": 1059,
+      "timestamp": 1759756588870,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-06T13:16:28.870Z",
+      "editedISO": "",
+      "index": 3,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a>, jättebra och användbart exempel <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f64c.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--raised_hands\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":raised_hands:\" alt=\"🙌\" /></p>\n<p dir=\"auto\">Jag vill bara puffa för att detta nämns i dokumentationen:<br />\n<a href=\"https://docs.dataportal.se/dcat/docs/sparql/\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/docs/sparql/</a></p>\n",
+      "pid": 5319,
+      "tid": 1059,
+      "timestamp": 1759838874492,
+      "toPid": "5304",
+      "uid": 1715,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1802,
+            "username": "Magnus Sälgö",
+            "userslug": "magnus-sälgö",
+            "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+            "fullname": null,
+            "displayname": "Magnus Sälgö",
+            "icon:text": "M",
+            "icon:bgColor": "#2196f3"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-10-07T12:33:43.781Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-07T12:07:54.492Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "tomasmonsen",
+        "displayname": "tomasmonsen"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 82,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1764837375150,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-04T08:36:15.150Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> tackar.... skulle vilja se en bra datamodell och en tydlig termkatalog med persistenta identifierare som används....</p>\n",
+      "pid": 5321,
+      "tid": 1059,
+      "timestamp": 1759840423781,
+      "toPid": "5319",
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-07T12:33:43.781Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "lmdaniel",
+        "displayname": "lmdaniel"
+      },
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Kanske finns här <a href=\"https://docs.dataportal.se/dcat/sv/\" rel=\"nofollow ugc\">dcat</a> vore trevligt att se lite SPARQL exempel som hämtar datat....</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1759841372625-bc3fe082-461e-47df-9a06-1a27e652e174-image.png\" alt=\"bc3fe082-461e-47df-9a06-1a27e652e174-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5323,
+      "tid": 1059,
+      "timestamp": 1759841400393,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-07T12:50:00.393Z",
+      "editedISO": "",
+      "index": 6,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Skall vi lita på <a href=\"https://web.archive.org/web/20250000000000*/https://docs.dataportal.se/dcat/docs/sparql/\" rel=\"nofollow ugc\">web.archive.org</a> så är första gången det hittades 2025 jan 13</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1759841605107-e57be83e-be74-48ae-b495-b78a5670bb8f-image-resized.png\" alt=\"e57be83e-be74-48ae-b495-b78a5670bb8f-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5324,
+      "tid": 1059,
+      "timestamp": 1759841611219,
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 127,
+            "username": "tomasmonsen",
+            "userslug": "tomasmonsen",
+            "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+            "fullname": "Tomas Monsén",
+            "displayname": "tomasmonsen",
+            "icon:text": "T",
+            "icon:bgColor": "#f44336"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-10-07T13:07:48.050Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-10-07T12:53:31.219Z",
+      "editedISO": "",
+      "index": 7,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 18,
+        "postcount": 218,
+        "topiccount": 13,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "online",
+        "lastonline": 1764841298224,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-04T09:41:38.224Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1715\">@lmdaniel</a> sa i <a href=\"/post/5319\">Dataportal.se har stöd för Sparql-queries, visste ni det? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></a>:</p>\n<blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/127\">@tomasmonsen</a>, jättebra och användbart exempel <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f64c.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--raised_hands\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":raised_hands:\" alt=\"🙌\" /></p>\n<p dir=\"auto\">Jag vill bara puffa för att detta nämns i dokumentationen:<br />\n<a href=\"https://docs.dataportal.se/dcat/docs/sparql/\" rel=\"nofollow ugc\">https://docs.dataportal.se/dcat/docs/sparql/</a></p>\n</blockquote>\n<p dir=\"auto\">Tackar!<br />\nJa det stämmer, men det tillkom tidigare i år, då funktionen aktiverades, så det är \"ganska nytt\" iaf <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /> Tror det dök upp i mitt synfält nån gång kring maj då jag skrev mina första trevande frågor.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5324\">Dataportal.se har stöd för Sparql-queries, visste ni det? <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f642.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--slightly_smiling_face\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":)\" alt=\"🙂\" /></a>:</p>\n<blockquote>\n<p dir=\"auto\">Skall vi lita på <a href=\"https://web.archive.org/web/20250000000000*/https://docs.dataportal.se/dcat/docs/sparql/\" rel=\"nofollow ugc\">web.archive.org</a> så är första gången det hittades 2025 jan 13</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1759841605107-e57be83e-be74-48ae-b495-b78a5670bb8f-image-resized.png\" alt=\"e57be83e-be74-48ae-b495-b78a5670bb8f-image.png\" class=\" img-fluid img-markdown\" /></p>\n</blockquote>\n<p dir=\"auto\">Det kan säkert stämma, jag hittade sektionen i maj nångång första gången och började experimentera då, tror det kom i samband med en uppdatering av portalen.</p>\n",
+      "pid": 5326,
+      "tid": 1059,
+      "timestamp": 1759842468050,
+      "toPid": "5324",
+      "uid": 127,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-10-07T13:07:48.050Z",
+      "editedISO": "",
+      "index": 8,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 127,
+        "username": "tomasmonsen",
+        "fullname": "Tomas Monsén",
+        "userslug": "tomasmonsen",
+        "reputation": 49,
+        "postcount": 58,
+        "topiccount": 11,
+        "picture": "/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+        "signature": "<hr />\n<p dir=\"auto\">There is nothing in the desert,<br />\nand no man needs nothing.</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763987330345,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "tomasmonsen",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "T",
+        "icon:bgColor": "#f44336",
+        "lastonlineISO": "2025-11-24T12:28:50.345Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1059",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1059.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1059",
+  "bodyClass": "page-topic page-topic-1059 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Dataportal.se har stöd för Sparql-queries, visste ni det? :)"
+        },
+        {
+          "name": "description",
+          "content": "Hej tänkte bara meddela att en feature som inte fanns för inte allt för länge sen, nu finns... SparQL queries går att köra mot portalen! (Kan vara old news, jag kanske är sist på bollen ... men men  ) Vad är ditt case, Tomas? ...jo jag behövde få fram en ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Dataportal.se har stöd för Sparql-queries, visste ni det? :)"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej tänkte bara meddela att en feature som inte fanns för inte allt för länge sen, nu finns... SparQL queries går att köra mot portalen! (Kan vara old news, jag kanske är sist på bollen ... men men  ) Vad är ditt case, Tomas? ...jo jag behövde få fram en ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-10-06T09:12:42.687Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-10-07T13:07:48.050Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1759741419745-b5fe6145-cc83-4a6f-8dd9-94bfde292e86-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1759741419745-b5fe6145-cc83-4a6f-8dd9-94bfde292e86-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "867"
+        },
+        {
+          "property": "og:image:height",
+          "content": "893"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/127-profileavatar-1759822477749.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1059",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1059/dataportal-se-har-stöd-för-sparql-queries-visste-ni-det",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1059.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/tomasmonsen"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

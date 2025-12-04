@@ -1,0 +1,890 @@
+{
+  "cid": 28,
+  "lastposttime": 1669973365005,
+  "mainPid": 3684,
+  "postcount": 6,
+  "slug": "645/sekretess-särskilt-leverantörsreskontra",
+  "tid": 645,
+  "timestamp": 1669879698080,
+  "title": "Sekretess, särskilt leverantörsreskontra",
+  "uid": 789,
+  "viewcount": 690,
+  "postercount": 4,
+  "teaserPid": 3744,
+  "downvotes": 0,
+  "upvotes": 0,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Sekretess, särskilt leverantörsreskontra",
+  "timestampISO": "2022-12-01T07:28:18.080Z",
+  "scheduled": false,
+  "lastposttimeISO": "2022-12-02T09:29:25.005Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Hej!<br />\nJag har sett att leverantörsreskontra har börjat tillgängliggöras som öppna data hos vissa kommuner, och att det finns en specifikation för det här på dataportalen. Kommunen där jag arbetar funderar på att göra detsamma. Det jag funderar på är sekretessen enligt 31 kap. 16 § OSL, dvs. för affärs och driftsförhållanden. För den som inte känner till det, är det sekretess som syftar till att skydda dem som gör affärer med det allmänna mot osund konkurrens. Enligt praxis är vissa prisuppgifter sekretessbelagda, eftersom det kan leda till ekonomisk skada för ett företag att så sina priser avslöjade, bl.a. eftersom det är en nackdel i kommande upphandlingar.</p>\n<p dir=\"auto\">I de allra flesta fall är en totalsumma på en faktura (vilket är vad som läggs ut) en harmlös uppgift att lämna ut. Men i vissa fall kan en totalsumma röja exempelvis vad den fasta månadskostnaden är för en viss tjänst. I de fallen borde totalsumman alltså vara en sekretessbelagd uppgift som inte får röjas.</p>\n<p dir=\"auto\">Nu till min fråga: Är det någon som vet hur och om man har resonerat kring sekretessen innan man öppnat upp data om leverantörsreskontra? Brukar man gå igenom och sekretesspröva respektive belopp innan man lägger ut datan?</p>\n",
+      "pid": 3684,
+      "tid": 645,
+      "timestamp": 1669879698080,
+      "uid": 789,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 196,
+            "username": "FredrikEriksson",
+            "userslug": "fredrikeriksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "FredrikEriksson",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          },
+          {
+            "uid": 28,
+            "username": "Jonas Nordqvist",
+            "userslug": "jonas-nordqvist",
+            "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+            "fullname": "Jonas Nordqvist",
+            "displayname": "Jonas Nordqvist",
+            "icon:text": "J",
+            "icon:bgColor": "#ff5722"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 3]]",
+        "count": 3,
+        "timestampISO": "2022-12-01T10:42:28.686Z"
+      },
+      "downvotes": 0,
+      "upvotes": 0,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-12-01T07:28:18.080Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 789,
+        "username": "linnea.princis",
+        "userslug": "linnea-princis",
+        "reputation": 0,
+        "postcount": 3,
+        "topiccount": 1,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739260292558,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "linnea.princis",
+        "groupTitleArray": [],
+        "icon:text": "L",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2025-02-11T07:51:32.558Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/789\">@linnea-princis</a> Hej Linnea, alla personuppgifter och sekretessbelagda upphandlingar, s k SUA-upphandlingar, hanteras. Personuppgifter som ex. företagsnamn och organisationsnumret för ett enskilt företag ersätts med en standardtext \"Kan innehålla personuppgifter\" och organisationsnumret tas bort. Sen är frågan på vilken nivå du pratar om sekretess.</p>\n<p dir=\"auto\">SUA-upphandlingar tas bort som sagt, filtreras på <a href=\"http://lev.nr\" rel=\"nofollow ugc\">lev.nr</a>, men man filtrerar inte bort grundläggande information om leverantörsfakturor även om en leverantör begärt sekretess på sina priser, eftersom det endast är totaler som publiceras.</p>\n<p dir=\"auto\">Om en leverantör levererar produkter och tjänster som omfattar både SUA-upphandlingar och upphandlingar utan den sekretessnivå, så visas alla fakturor oavsett vad de avser eftersom det inte går att särskilja vad som är vad. Hoppas du förstår vad jag menar? Hör av dig annars... <a href=\"http://www.dataverkstad.se\" rel=\"nofollow ugc\">www.dataverkstad.se</a></p>\n",
+      "pid": 3693,
+      "tid": 645,
+      "timestamp": 1669891348686,
+      "toPid": "3684",
+      "uid": 196,
+      "edited": 1669891401865,
+      "editor": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "displayname": "FredrikEriksson"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2022-12-01T10:42:28.686Z",
+      "editedISO": "2022-12-01T10:43:21.865Z",
+      "index": 1,
+      "parent": {
+        "username": "linnea.princis",
+        "displayname": "linnea.princis"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/789\">@linnea-princis</a> Kul att ni börjar kika på detta. Och mycket bra att du nu kan kontakta <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a>. För de frågor du har, är ett det ett gäng kommuner som har löst! Jag har kontaktuppgifter till Södertälje kommun om du vill veta hur dom har gjort och Dataverkstaden kan bistå med fler.</p>\n",
+      "pid": 3708,
+      "tid": 645,
+      "timestamp": 1669908570780,
+      "toPid": "3684",
+      "uid": 28,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-12-01T15:29:30.780Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "linnea.princis",
+        "displayname": "linnea.princis"
+      },
+      "user": {
+        "uid": 28,
+        "username": "Jonas Nordqvist",
+        "userslug": "jonas-nordqvist",
+        "reputation": 195,
+        "postcount": 234,
+        "topiccount": 22,
+        "picture": "/assets/uploads/profile/28-profileavatar-1652442874214.jpeg",
+        "signature": "<p dir=\"auto\">/Jonas Nordqvist<br />\nStorsthlm</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1736417554490,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Jonas Nordqvist",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#ff5722",
+        "lastonlineISO": "2025-01-09T10:12:34.490Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/789\">@linnea-princis</a> hej igen, angående sekretessbelagda priser så är det ingen skyldighet som en offentlig myndighet (kommun, region, stat) har i egentlig mening som jag förstått det, när ett avtal väl är tecknat och myndigheten börjat köpa (avropa) produkter och tjänster på avtalet. Det är snarare tvärtom - det är en offentlig handling.</p>\n<p dir=\"auto\">Däremot kan/ska sekretess råda under upphandlingen, men som sagt, sällan efteråt.</p>\n<p dir=\"auto\">Undantaget är SUA-upphandlingar, men även här kan det vara så att man visar alla fakturor eftersom leverantören kanske säljer andra ”icke-skyddsvärda” produkter och tjänster till myndigheten. Det måste man bedöma från fall till fall. Ett sätt att hantera detta är att bokföra SUA-relaterade fakturor på en egen verifikatserie, som undantas från uttaget (data) men tyvärr är dessa fakturor sällan bokförda så eftersom kontroll idag sker när någon begär ut leverantörsfakturor.</p>\n<p dir=\"auto\">Som sagt, hör av dig om du vill diskutera det mer - här eller mejl/tfn se <a href=\"http://www.dataverkstad.se\" rel=\"nofollow ugc\">www.dataverkstad.se</a> för mer info</p>\n",
+      "pid": 3712,
+      "tid": 645,
+      "timestamp": 1669914154876,
+      "toPid": "3684",
+      "uid": 196,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-12-02T08:43:08.316Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-12-01T17:02:34.876Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "linnea.princis",
+        "displayname": "linnea.princis"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/196\">@FredrikEriksson</a> Tack för info. Vi på arbetsförmedlingen utreder detta (dela ekonomidata) just nu också. Eventuellt hör vi av oss!</p>\n",
+      "pid": 3736,
+      "tid": 645,
+      "timestamp": 1669970588316,
+      "toPid": "3712",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 196,
+            "username": "FredrikEriksson",
+            "userslug": "fredrikeriksson",
+            "picture": null,
+            "fullname": null,
+            "displayname": "FredrikEriksson",
+            "icon:text": "F",
+            "icon:bgColor": "#673ab7"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2022-12-02T09:29:25.005Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2022-12-02T08:43:08.316Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "FredrikEriksson",
+        "displayname": "FredrikEriksson"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> Du är välkommen!</p>\n",
+      "pid": 3744,
+      "tid": 645,
+      "timestamp": 1669973365005,
+      "toPid": "3736",
+      "uid": 196,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2022-12-02T09:29:25.005Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 196,
+        "username": "FredrikEriksson",
+        "userslug": "fredrikeriksson",
+        "reputation": 159,
+        "postcount": 102,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1739781472653,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "FredrikEriksson",
+        "groupTitleArray": [],
+        "icon:text": "F",
+        "icon:bgColor": "#673ab7",
+        "lastonlineISO": "2025-02-17T08:37:52.653Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "href": "/post/3757",
+          "type": "backlink",
+          "uid": 25,
+          "id": 587,
+          "timestamp": 1670143043386,
+          "timestampISO": "2022-12-04T08:37:23.386Z",
+          "icon": "fa-link",
+          "text": "System <a href=\"/post/3757\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-12-04T08:37:23.386Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "href": "/post/3757",
+      "type": "backlink",
+      "uid": 25,
+      "id": 587,
+      "timestamp": 1670143043386,
+      "timestampISO": "2022-12-04T08:37:23.386Z",
+      "icon": "fa-link",
+      "text": "System <a href=\"/post/3757\">referenced</a> this topic on <span class=\"timeago timeline-text\" title=\"2022-12-04T08:37:23.386Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#715d7e",
+    "cid": 28,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Dialog och erfarenhetsutbyte i frågor som rör juridik på området för datadriven innovation och utveckling",
+    "descriptionParsed": "<p dir=\"auto\">Dialog och erfarenhetsutbyte i frågor som rör juridik på området för datadriven innovation och utveckling</p>\n",
+    "disabled": 0,
+    "icon": "fa-legal",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Lagar och förordningar",
+    "numRecentReplies": 1,
+    "order": 8,
+    "parentCid": 0,
+    "post_count": 105,
+    "slug": "28/lagar-och-förordningar",
+    "subCategoriesPerPage": 10,
+    "topic_count": 21,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 105,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "645",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/645.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Lagar och förordningar",
+      "url": "/category/28/lagar-och-förordningar",
+      "cid": 28
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/645",
+  "bodyClass": "page-topic page-topic-645 template-topic page-topic-category-28 page-topic-category-lagar-och-förordningar parent-category-28 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Sekretess, särskilt leverantörsreskontra"
+        },
+        {
+          "name": "description",
+          "content": "Hej! Jag har sett att leverantörsreskontra har börjat tillgängliggöras som öppna data hos vissa kommuner, och att det finns en specifikation för det här på dataportalen. Kommunen där jag arbetar funderar på att göra detsamma. Det jag funderar på är sekret..."
+        },
+        {
+          "property": "og:title",
+          "content": "Sekretess, särskilt leverantörsreskontra"
+        },
+        {
+          "property": "og:description",
+          "content": "Hej! Jag har sett att leverantörsreskontra har börjat tillgängliggöras som öppna data hos vissa kommuner, och att det finns en specifikation för det här på dataportalen. Kommunen där jag arbetar funderar på att göra detsamma. Det jag funderar på är sekret..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2022-12-01T07:28:18.080Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2022-12-02T09:29:25.005Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Lagar och förordningar"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/645",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/645/sekretess-särskilt-leverantörsreskontra",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/645.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/28/lagar-och-förordningar"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/linnea-princis"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

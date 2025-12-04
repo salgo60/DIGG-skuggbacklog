@@ -1,0 +1,1028 @@
+{
+  "cid": 23,
+  "lastposttime": 1638361830242,
+  "mainPid": 1120,
+  "postcount": 6,
+  "slug": "254/taxonomi-api",
+  "tid": 254,
+  "timestamp": 1637964673210,
+  "title": "Taxonomi API",
+  "uid": 24,
+  "viewcount": 806,
+  "postercount": 4,
+  "teaserPid": 1147,
+  "downvotes": 0,
+  "upvotes": 1,
+  "tags": [
+    {
+      "value": "jobtech",
+      "valueEscaped": "jobtech",
+      "valueEncoded": "jobtech",
+      "class": "jobtech"
+    },
+    {
+      "value": "öppna apier",
+      "valueEscaped": "öppna apier",
+      "valueEncoded": "%C3%B6ppna%20apier",
+      "class": "öppna-apier"
+    }
+  ],
+  "oldCid": 2,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "deleterUid": 0,
+  "titleRaw": "Taxonomi API",
+  "timestampISO": "2021-11-26T22:11:13.210Z",
+  "scheduled": false,
+  "lastposttimeISO": "2021-12-01T12:30:30.242Z",
+  "pinExpiryISO": "",
+  "votes": 1,
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">OT <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> snyggt med kommuner<br />\n<img src=\"/assets/uploads/files/1637922858077-e62e2ea2-517f-4544-8847-ec53beef915d-image-resized.png\" alt=\"e62e2ea2-517f-4544-8847-ec53beef915d-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Finns det en tanke med hur andra språk skall stödjas?</p>\n<p dir=\"auto\">Känns även här behöver vi <strong>ETT</strong> ställe där vi har en auktoritet som handhar namnet på olika språk maskinläsbart.... idag finns detta i #Wikidata mer eller mindre bra... men tråkigt många luckor för exempel arabiska som är <a href=\"https://www.isof.se/lar-dig-mer/kunskapsbanker/lar-dig-mer-om-flersprakighet/spraken-i-sverige\" rel=\"nofollow ugc\">Sveriges andra språk</a>...</p>\n<ul>\n<li>SPARQL <a href=\"https://w.wiki/4TKf\" rel=\"nofollow ugc\">https://w.wiki/4TKf</a>\n<ul>\n<li><a href=\"https://w.wiki/4TKj\" rel=\"nofollow ugc\">karta</a></li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637923927154-ce0f1378-59c5-43fb-97cb-f9df9be2e3fc-image-resized.png\" alt=\"ce0f1378-59c5-43fb-97cb-f9df9be2e3fc-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637923746404-e9430aec-d48d-4c2c-ae5c-f51cdc734036-image.png\" alt=\"e9430aec-d48d-4c2c-ae5c-f51cdc734036-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1120,
+      "tid": 254,
+      "timestamp": 1637923841937,
+      "toPid": "1119",
+      "uid": 24,
+      "edited": 1638529293470,
+      "editor": {
+        "uid": 7,
+        "username": "Kristine_",
+        "userslug": "kristine_",
+        "displayname": "Kristine_"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 78,
+            "username": "jonass",
+            "userslug": "jonass",
+            "picture": null,
+            "fullname": "Jonas S - Arbetsförmedlingen",
+            "displayname": "jonass",
+            "icon:text": "J",
+            "icon:bgColor": "#e65100"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-26T13:22:48.250Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-26T10:50:41.937Z",
+      "editedISO": "2021-12-03T11:01:33.470Z",
+      "index": 0,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Finns inte stöd för att länka till andra språk/översättningar idag. Vår värld utgår ifrån taxonomy/id ovan som identifierare, men för vissa dataset finns det säkert översättningar om ett wikidata-id kunde användas som en \"foreign key\". Ska dubbelkolla med taxonomy-teamet om det finns några tankar/planer.</p>\n",
+      "pid": 1121,
+      "tid": 254,
+      "timestamp": 1637932968250,
+      "toPid": "1120",
+      "uid": 78,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 333,
+            "username": "davidnorman",
+            "userslug": "davidnorman",
+            "picture": null,
+            "fullname": null,
+            "displayname": "davidnorman",
+            "icon:text": "D",
+            "icon:bgColor": "#827717"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-26T15:59:48.618Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-26T13:22:48.250Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 78,
+        "username": "jonass",
+        "userslug": "jonass",
+        "reputation": 158,
+        "postcount": 141,
+        "topiccount": 6,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1694846210627,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "jonass",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#e65100",
+        "lastonlineISO": "2023-09-16T06:36:50.627Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/78\">@jonass</a> @salgo60-ej-aktiv Åtminstone när det kommer till yrken och kompetenser så har ju ESCO översättningar till många språk. I och med att vi mappat de svenska yrkesbenämningarna (och arbetar med att mappa kompetenserna) så bör man i bästa fall kunna plocka in översättningar därifrån.</p>\n<p dir=\"auto\">Problemet är kanske att de ”bästa fallen” bara utgör runt 40 % av de svenska yrkesbenämningarna (den andel som har en exact matchning mot ett ESCO-yrke), för vilka man borde kunna hitta okej översättningar till alla officiella EU-språk + arabiska. I övriga fall rör det sig om inexakta mappningar (broad match, narrow match, close match) och där blir allting lite mer diffust.</p>\n<p dir=\"auto\">Gjorde en snabbkoll och om man begränsar urvalet till de 100 mest förekommande yrkesbenämningarna i annonser (där arbetsgivaren valt yrkesbenämning), för det första halvåret av 2021 så har runt 70 % av dem exact match till ett ESCO-yrke. Kanske en godtycklig avgränsning, men åtminstone kan den fungera som en indikation på att det går att hitta rätt bra översättningar (till många språk) för merparten av de av arbetsgivare mest använda yrkesbenämningarna. Vet dock inte hur straight forward det är att hämta ut översättningarna i dagsläget, men jag gissar att man borde kunna slå upp dem med hjälp av de esco-uri:er vi har i Taxonomy.</p>\n<p dir=\"auto\">Ursäktar om jag kanske kom in på ett annat spår här. Men när det kommer till saker som kommuner, län och dylikt så känns det som en bra idé att inkludera externa idn. Vi har faktiskt inte resonerat så mycket kring det för annat än yrken men vi får fundera en vända.</p>\n",
+      "pid": 1122,
+      "tid": 254,
+      "timestamp": 1637942388618,
+      "toPid": "1121",
+      "uid": 333,
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-27T07:02:03.205Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-26T15:59:48.618Z",
+      "editedISO": "",
+      "index": 2,
+      "parent": {
+        "username": "jonass",
+        "displayname": "jonass"
+      },
+      "user": {
+        "uid": 333,
+        "username": "davidnorman",
+        "userslug": "davidnorman",
+        "reputation": 2,
+        "postcount": 2,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1643036271590,
+        "groupTitle": "[\"Kompetensförsörjning och livslångt lärande\"]",
+        "mutedUntil": 0,
+        "displayname": "davidnorman",
+        "groupTitleArray": [
+          "Kompetensförsörjning och livslångt lärande"
+        ],
+        "icon:text": "D",
+        "icon:bgColor": "#827717",
+        "lastonlineISO": "2022-01-24T14:57:51.590Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/333\">@davidnorman</a> som icke domän expert så har jag kollat kort på  <a href=\"https://ec.europa.eu/esco/portal/home\" rel=\"nofollow ugc\">ESCO</a> och det känns intressant tror vi måste börja beskriva yrken, kompetenser på nya sätt så att det fungerar för alla matchnings algoritmer som börjar finnas och där dom stora vinsterna troligen kan skapas....</p>\n<p dir=\"auto\">Wikidata tror man kan plocka russinen ur kakan men man bör ha WIkidata som är en öppen kunskapsgraf på ett \"armlängds avstånd\" och inte se det som en sanning...</p>\n<p dir=\"auto\"><strong>Hur andra jobbar med Wikidata</strong><br />\nBra presentation hur en applikation <a href=\"https://bionomia.net/\" rel=\"nofollow ugc\">Bionomia</a> som håller reda på personer som dokumenterat växter.... synkar med Wikidata, <a href=\"https://orcid.org/\" rel=\"nofollow ugc\">ORCID</a> (levande personer) och <a href=\"https://www.gbif.org/\" rel=\"nofollow ugc\">GBIF</a> (biodiversity data)</p>\n<ul>\n<li>LD4 - <a href=\"https://stanford.zoom.us/rec/play/zCW7Zel4sQVeSIgwYL1fAz2E9dytx0_VDdCdKHd2e-CpXQJvS37W-PtohlON9wYLJ3PV_CCH1PR2Kg_s._N9DzHE1blpFqQNL\" rel=\"nofollow ugc\">video presentation</a> startar vid 05:00 <strong>Keepin 'N Sync... with wikidata ... and ORCID...and GBIF</strong> - <a href=\"https://www.slideshare.net/DavidShorthouse/ld4-wikidata-affinity-group-shorthouse\" rel=\"nofollow ugc\">slides</a> av <a href=\"https://twitter.com/dpsSpiders\" rel=\"nofollow ugc\">David Shorthouse</a></li>\n<li><a href=\"https://www.slideshare.net/DavidShorthouse/ld4-wikidata-affinity-group-shorthouse\" rel=\"nofollow ugc\">slide 20</a> - vid 23:00 hantera merge i Wikidata (troligen inget problem med kommuner)</li>\n<li>han lyfter fram en \"<a href=\"https://www.wikidata.org/wiki/User:Salgo60/ExternalIdentifiers\" rel=\"nofollow ugc\">checklista</a>\" jag skapat the Magnus list vid 27:00</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637996190980-1e8d0b6c-5715-4f70-ad57-7edf9a5114ca-image.png\" alt=\"1e8d0b6c-5715-4f70-ad57-7edf9a5114ca-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637996426526-23c513b6-9f49-414a-b79e-93ad50323627-image.png\" alt=\"23c513b6-9f49-414a-b79e-93ad50323627-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637996444167-883e1b97-8dfe-44e9-8810-33155ac068ab-image.png\" alt=\"883e1b97-8dfe-44e9-8810-33155ac068ab-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1637996468723-308cd4d7-f9e8-456d-9525-15934b2a359b-image.png\" alt=\"308cd4d7-f9e8-456d-9525-15934b2a359b-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 1125,
+      "tid": 254,
+      "timestamp": 1637996523205,
+      "toPid": "1122",
+      "uid": 24,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-11-27T14:59:38.850Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2021-11-27T07:02:03.205Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "davidnorman",
+        "displayname": "davidnorman"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">@salgo60-ej-aktiv Bra att det finns transkript i videon, men lite konstig sökfunktion, den verkar bara träffa på hela ord. Innehållet går lite över huvudet på mig, innebär authoritativeness att något är en förstahandskälla, eller att man bemyndigats eller på något sätt utsetts att vara det? Och myten innebär att detta inte nödvändigtvis korrelerar med kvaliteten på datan? Hans förslag är då att Bionomia antar rollen som en egen auktoritet genom att införa Bionomia ID.</p>\n",
+      "pid": 1128,
+      "tid": 254,
+      "timestamp": 1638025178850,
+      "toPid": "1125",
+      "uid": 125,
+      "downvotes": 0,
+      "upvotes": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 0,
+            "username": "[[global:former_user]]",
+            "userslug": "",
+            "picture": "",
+            "fullname": "[[global:guest]]",
+            "oldUid": 24,
+            "displayname": "[[global:former_user]]",
+            "email": "",
+            "icon:text": "?",
+            "icon:bgColor": "#aaa",
+            "groupTitle": "",
+            "groupTitleArray": [],
+            "status": "offline",
+            "reputation": 0,
+            "email:confirmed": 0
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2021-12-01T12:30:30.242Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2021-11-27T14:59:38.850Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "[[global:former_user]]",
+        "displayname": "[[global:former_user]]"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> sa i <a href=\"/post/1128\">Taxonomi API</a>:</p>\n<blockquote>\n<p dir=\"auto\">authoritativeness</p>\n</blockquote>\n<p dir=\"auto\">Han som pratar på videon är extremt ödmjuk och galet snabb att koda men min tolkning blandat med min erfarenhet nedan</p>\n<ul>\n<li>authoritativeness\n<ul>\n<li>traditionellt var \"gamla auktoriteter\" = sanningen\n<ul>\n<li>Kungliga Biblioteket (KB) lever i den tron fortfarande och senast jag fråga ansåg dom inte att dom behöver källor på deras påstående eftersom dom är <a href=\"https://www.kb.se/\" rel=\"nofollow ugc\">Sveri­ges natio­nal­bib­li­otek - Samhällets minne</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1638361163385-49b3399b-7b79-4971-bb8b-9344fc135ff1-image.png\" alt=\"49b3399b-7b79-4971-bb8b-9344fc135ff1-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>det som händer är att \"gamla stötar\" som Kungliga biblioteket inte hänger med och inte uppfyller saker på <a href=\"https://www.wikidata.org/wiki/User:Salgo60/ExternalIdentifiers\" rel=\"nofollow ugc\">\"min\" lista</a> --&gt; de håller på att \"utrota\" sig själva om du frågar mig... eftersom de ofta/alltid är bidragsstyrd verksamhet så är det en långsam process...\n<ul>\n<li>vad som har hänt sedan KB skapades är\n<ul>\n<li>kortkatalogen är elektroniska\n<ul>\n<li>2012 startade man <a href=\"https://www.mynewsdesk.com/se/kungliga_biblioteket/pressreleases/kb-becomes-the-first-national-library-to-fully-transition-to-linked-data-2573975\" rel=\"nofollow ugc\">LIBRISXL</a> som skulle skapa en Linked data katalog men min tolkning är att <a href=\"http://library.ifla.org/id/eprint/2745/\" rel=\"nofollow ugc\">KB organisationen är inte lärande</a> --&gt; enormt tamt resultat</li>\n</ul>\n</li>\n<li>man söker idag via Google oftast, KBs sökning idag är lite \"udda\"</li>\n<li>Google kör <a href=\"https://books.google.com/googlebooks/about/\" rel=\"nofollow ugc\">projekt där man scannar in alla böcker</a> --&gt; att dom kan även fritextsöka i boken och visa upp i sin Google sökning\n<ul>\n<li>eftersom Google har min sökhistorik \"vet dom\" vad jag brukar söka på och gissar jag har en kunskapsgraf med mina preferenser</li>\n</ul>\n</li>\n<li><a href=\"https://cloud.google.com/products/ai\" rel=\"nofollow ugc\">Google vet vad ML</a> är och gissar jag har helt andra kompetenser på att extrahera ut vad böckerna handlar om --&gt; du kan  söka med både högre <a href=\"https://en.wikipedia.org/wiki/Precision_and_recall\" rel=\"nofollow ugc\">recall/precision</a> än vad KB erbjuder... plus att KB <strong><a href=\"https://web.archive.org/web/20190416152712/https://kundo.se/org/librisxl/d/engelska-menyer/\" rel=\"nofollow ugc\">bara stödjer svenska</a></strong></li>\n</ul>\n</li>\n<li>nästa problem som börjar synas är att även dessa \"gamla auktoriteter\" behöver ha kunskap om ny teknologi så är min tolkning att eftersom man inte \"hänger på\" så blir man mindre och mindre attraktiv som arbetsgivare PLUS att man konkurrerar med dom stora jättarna om samma kunskap som att kunna #<a href=\"https://www.knowledgehut.com/blog/data-science/machine-learning-skills\" rel=\"nofollow ugc\">ML</a>/<a href=\"https://venturebeat.com/2021/07/24/how-nasa-is-using-knowledge-graphs-to-find-talent/\" rel=\"nofollow ugc\">kunskapsgrafer</a> se <a href=\"https://twitter.com/AlbinPCLarsson/status/1464959150224551942?s=20\" rel=\"nofollow ugc\">tweet om detta problem --&gt; att många utlysningar aldrig tillsätts</a>... även fast jag känner att man sänker kraven till löjligt låg nivå för tjänster inom kulturarvet....</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>Japp</strong> jag drar samma slutsats som du att informationssamhället håller på att omformas och en site som Bionomia kanske har större trovärdighet.... jag har funderat lite över detta och även frågat Denny som skapade Wikidata om hur han ser på trovärdighet/trust se <a href=\"https://www.youtube.com/watch?v=VdAc0JReVSw&amp;t=2450s\" rel=\"nofollow ugc\">video</a> / <a href=\"https://phabricator.wikimedia.org/T222142\" rel=\"nofollow ugc\">mina tankar</a> där jag vill ha \"trust\" i maskinläsbar form....</p>\n",
+      "pid": 1147,
+      "tid": 254,
+      "timestamp": 1638361830242,
+      "toPid": "1128",
+      "uid": 24,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2021-12-01T12:30:30.242Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 0,
+        "username": "[[global:former_user]]",
+        "userslug": "",
+        "reputation": 0,
+        "postcount": 0,
+        "topiccount": 0,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 0,
+        "groupTitle": "",
+        "mutedUntil": 0,
+        "oldUid": 24,
+        "displayname": "[[global:former_user]]",
+        "email": "",
+        "icon:text": "?",
+        "icon:bgColor": "#aaa",
+        "groupTitleArray": [],
+        "email:confirmed": 0,
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [
+        {
+          "fromCid": 2,
+          "type": "move",
+          "uid": 62,
+          "id": 179,
+          "timestamp": 1648478512263,
+          "timestampISO": "2022-03-28T14:41:52.263Z",
+          "user": {
+            "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+            "username": "Maria_Dalhage",
+            "userslug": "maria_dalhage",
+            "uid": 62,
+            "displayname": "Maria_Dalhage",
+            "icon:text": "M",
+            "icon:bgColor": "#673ab7"
+          },
+          "fromCategory": {
+            "name": "Tipsa och fråga",
+            "slug": "2/tipsa-och-fråga",
+            "icon": "fa-comments-o",
+            "color": "#fff",
+            "bgColor": "#2b2a29"
+          },
+          "icon": "fa-arrow-circle-right",
+          "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:41:52.263Z\"></span>"
+        }
+      ],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [
+    {
+      "fromCid": 2,
+      "type": "move",
+      "uid": 62,
+      "id": 179,
+      "timestamp": 1648478512263,
+      "timestampISO": "2022-03-28T14:41:52.263Z",
+      "user": {
+        "picture": "/assets/uploads/profile/62-profileavatar-1612368633195.jpeg",
+        "username": "Maria_Dalhage",
+        "userslug": "maria_dalhage",
+        "uid": 62,
+        "displayname": "Maria_Dalhage",
+        "icon:text": "M",
+        "icon:bgColor": "#673ab7"
+      },
+      "fromCategory": {
+        "name": "Tipsa och fråga",
+        "slug": "2/tipsa-och-fråga",
+        "icon": "fa-comments-o",
+        "color": "#fff",
+        "bgColor": "#2b2a29"
+      },
+      "icon": "fa-arrow-circle-right",
+      "text": "<img alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/picture\" src=\"/assets/uploads/profile/62-profileavatar-1612368633195.jpeg\" style=\"--avatar-size: 16px;\" onError=\"this.remove();\" itemprop=\"image\" /><span alt=\"Maria_Dalhage\" title=\"Maria_Dalhage\" data-uid=\"62\" loading=\"lazy\" class=\"avatar avatar-rounded\" component=\"avatar/icon\" style=\"--avatar-size: 16px; background-color: #673ab7;\">M</span> <a href=\"/user/maria_dalhage\">Maria_Dalhage</a> moved this topic from Tipsa och fråga on <span class=\"timeago timeline-text\" title=\"2022-03-28T14:41:52.263Z\"></span>"
+    }
+  ],
+  "category": {
+    "bgColor": "#000000",
+    "cid": 23,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera allt som rör data, API:er och öppna digitala resurser</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Data",
+    "numRecentReplies": 1,
+    "order": 4,
+    "parentCid": 0,
+    "post_count": 1624,
+    "slug": "23/data",
+    "subCategoriesPerPage": 10,
+    "topic_count": 233,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 1624,
+    "totalTopicCount": 233
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "254",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/254.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Data",
+      "url": "/category/23/data",
+      "cid": 23
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/254",
+  "bodyClass": "page-topic page-topic-254 template-topic page-topic-category-23 page-topic-category-data parent-category-23 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Taxonomi API"
+        },
+        {
+          "name": "description",
+          "content": "OT @jonass snyggt med kommuner  Finns det en tanke med hur andra språk skall stödjas? Känns även här behöver vi ETT ställe där vi har en auktoritet som handhar namnet på olika språk maskinläsbart.... idag finns detta i #Wikidata mer eller mindre bra... me..."
+        },
+        {
+          "property": "og:title",
+          "content": "Taxonomi API"
+        },
+        {
+          "property": "og:description",
+          "content": "OT @jonass snyggt med kommuner  Finns det en tanke med hur andra språk skall stödjas? Känns även här behöver vi ETT ställe där vi har en auktoritet som handhar namnet på olika språk maskinläsbart.... idag finns detta i #Wikidata mer eller mindre bra... me..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2021-11-26T22:11:13.210Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2021-12-03T11:01:33.470Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Data"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1637922858077-e62e2ea2-517f-4544-8847-ec53beef915d-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1637922858077-e62e2ea2-517f-4544-8847-ec53beef915d-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2236"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1246"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1637923746404-e9430aec-d48d-4c2c-ae5c-f51cdc734036-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1637923746404-e9430aec-d48d-4c2c-ae5c-f51cdc734036-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1694"
+        },
+        {
+          "property": "og:image:height",
+          "content": "918"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1637923927154-ce0f1378-59c5-43fb-97cb-f9df9be2e3fc-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1637923927154-ce0f1378-59c5-43fb-97cb-f9df9be2e3fc-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2712"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1230"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/254",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/254/taxonomi-api",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/254.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/23/data"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

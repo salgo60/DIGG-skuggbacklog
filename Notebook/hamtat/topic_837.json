@@ -1,0 +1,2003 @@
+{
+  "cid": 25,
+  "lastposttime": 1745129819452,
+  "mainPid": 4307,
+  "postcount": 33,
+  "slug": "837/datastandard-för-offentliga-toaletter",
+  "tid": 837,
+  "timestamp": 1692358924135,
+  "title": "Datastandard för offentliga toaletter",
+  "uid": 1645,
+  "viewcount": 7629,
+  "postercount": 9,
+  "teaserPid": 5115,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Datastandard för offentliga toaletter",
+  "timestampISO": "2023-08-18T11:42:04.135Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-04-20T06:16:59.452Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Någon som vet ifall det finns någon vedertagen datastandard för offentliga toaletter?</p>\n<p dir=\"auto\">Vi har gjort ett större arbete med inventering för att skapa en egen karta men när det kom till att kratta för att det ska bli öppen data har vi tyvärr gått bet.</p>\n<p dir=\"auto\">Vi har hittat <a href=\"https://www.dataportal.se/sv/datasets?p=1&amp;q=toaletter\" rel=\"nofollow ugc\">https://www.dataportal.se/sv/datasets?p=1&amp;q=toaletter</a>, så klart, och även <a href=\"https://data.london.gov.uk/blog/new-standard-open-data-format-public-toilets/\" rel=\"nofollow ugc\">https://data.london.gov.uk/blog/new-standard-open-data-format-public-toilets/</a> men jag upplever att vad vi arbetat fram är mer uttömmande.</p>\n",
+      "pid": 4307,
+      "tid": 837,
+      "timestamp": 1692358924135,
+      "uid": 1645,
+      "edited": 1692359266486,
+      "editor": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "displayname": "Johan_Bard"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1441,
+            "username": "FilipDijak",
+            "userslug": "filipdijak",
+            "picture": "",
+            "fullname": "Filip Dijak",
+            "displayname": "FilipDijak",
+            "icon:text": "F",
+            "icon:bgColor": "#2196f3"
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-08-18T12:38:02.182Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-08-18T11:42:04.135Z",
+      "editedISO": "2023-08-18T11:47:46.486Z",
+      "index": 0,
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/30\">@mattias</a> har du koll på det? Finns ingen specifikation uppladdad på dataportalen, men finns det något att följa?</p>\n",
+      "pid": 4309,
+      "tid": 837,
+      "timestamp": 1692362282182,
+      "toPid": "4307",
+      "uid": 1441,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-08-18T12:38:02.182Z",
+      "editedISO": "",
+      "index": 1,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 1441,
+        "username": "FilipDijak",
+        "userslug": "filipdijak",
+        "reputation": 15,
+        "postcount": 15,
+        "topiccount": 4,
+        "picture": "",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1699012741170,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "FilipDijak",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "F",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2023-11-03T11:59:01.170Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag är nu i kontakt med <a href=\"https://www.vgregion.se/ov/dataverkstad/\" rel=\"nofollow ugc\">https://www.vgregion.se/ov/dataverkstad/</a> om möjligheten att ta fram ett första utkast till en standard, baserat på de specar som finns för till exempel badplatser, utegym och lekplatser.</p>\n",
+      "pid": 4315,
+      "tid": 837,
+      "timestamp": 1692948979009,
+      "uid": 1645,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-08-25T07:36:19.009Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h1>Första utkast till specifikation</h1>\n<p dir=\"auto\"><strong>INAKTUELL - SE ISTÄLLET <a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/public-toilets\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/public-toilets</a></strong></p>\n<table class=\"table table-bordered table-striped\">\n<thead>\n<tr>\n<th>#</th>\n<th>Kolumnnamn</th>\n<th>Datatyp</th>\n<th>Exempel och förklaring</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>source</td>\n<td>heltal</td>\n<td><strong>Obligatoriskt</strong> - Ange SCB:s kommunkod för er kommun eller organisationsnumret för verksamheten. Exempel: \"1401\" för Härryda kommun eller organisationsnummer “21 20 00-12 64”.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>id</td>\n<td>text</td>\n<td><strong>Obligatoriskt</strong> - Ange en unik och stabil identifierare för utegymmet inom er kommun. Det viktiga är att identifieraren är unik (tänk unik i hela världen), och att den är stabil över tid - dvs att den inte ändras mellan uppdateringar. Om en offentlig toalett avvecklas ska identifieraren inte återanvändas på en annan offentlig toalett.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>name</td>\n<td>text</td>\n<td><strong>Obligatoriskt</strong> - Den offentliga toalettens namn, exempel för ett en offentlig toalett i Region Gotland \"Tingstäde träsk badplats”.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>latitude</td>\n<td>decimaltal</td>\n<td><strong>Obligatoriskt</strong> - Latitud anges per format som WGS84-specifikation.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>longitude</td>\n<td>decimaltal</td>\n<td><strong>Obligatoriskt</strong> - Longitud anges per format som WGS84-specifikation.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>email</td>\n<td>text</td>\n<td><strong>Obligatoriskt</strong> - E-postadress för vidare kontakt, anges med gemener och med @ som avdelare. Använd ej mailto: eller andra HTML-koder. Exempel: <a href=\"mailto:info@toreboda.se\" rel=\"nofollow ugc\">info@toreboda.se</a></td>\n</tr>\n<tr>\n<td>7</td>\n<td>visit_url</td>\n<td>URL</td>\n<td>Länk till allmän besöksinformation för platsen, t.ex. verksamhetens öppettider eller liknande.</td>\n</tr>\n<tr>\n<td>8</td>\n<td>wikidata</td>\n<td>text</td>\n<td>Referens till Wikidata-artikel/entry om platsen. Se kapitel “3. Wikidata\" i detta dokument. Använd den sk. Q-koden till entiteten på Wikidata. Exempel för att länka till offentlig toalett i Raahe, Finland på Wikidata: Q55596141 Q-kod anges utan mellanslag, bindestreck eller skiljetecken och består alltid av bokstaven Q följt av ett antal siffror.</td>\n</tr>\n<tr>\n<td>9</td>\n<td>updated</td>\n<td>datum</td>\n<td>Ett datum som anger när informationen om den offentlig toaletten senast uppdaterades.</td>\n</tr>\n<tr>\n<td>10</td>\n<td>description</td>\n<td>text</td>\n<td>Kort beskrivning av den specifika offentliga toalettens placering eller särskilda förutsättningar. Exempel: \"Ligger på bibliotekets baksida\" eller \"Felanmäl direkt till verksamhetens personal\" Undvik att beskriva sådant som redan framgår i specifikationen.</td>\n</tr>\n<tr>\n<td>11</td>\n<td>street</td>\n<td>text</td>\n<td>Gatuadress till platsen, exempelvis “Strandvägen”. Ange inte nummer på gata eller fastighet, det anges i attributet “housenumber”. Mappar mot Open Street Maps “addr:street” läs mer på <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr\" rel=\"nofollow ugc\">Key:addr på Open Streetmaps webbplats.</a></td>\n</tr>\n<tr>\n<td>12</td>\n<td>housenumber</td>\n<td>text</td>\n<td>Gatunummer eller husnummer med bokstav. Exempelvis “1” eller “42 E”. Mappar mot Open Street Maps “addr:housenumber” läs mer på: <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr\" rel=\"nofollow ugc\">Key:addr på Open Streetmaps webbplats.</a></td>\n</tr>\n<tr>\n<td>13</td>\n<td>postcode</td>\n<td>text</td>\n<td>Postnummer, exempelvis “46430”, mappar mot Open Street Maps “addr:postcode”, läs mer på: <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr\" rel=\"nofollow ugc\">Key:addr på Open Streetmaps webbplats.</a></td>\n</tr>\n<tr>\n<td>14</td>\n<td>city</td>\n<td>text</td>\n<td>Postort, exempelvis “Mellerud”. Mappar mot Open Street Maps “addr:city”, läs mer på: <a href=\"https://wiki.openstreetmap.org/wiki/Key:addr\" rel=\"nofollow ugc\">Key:addr på Open Streetmaps webbplats.</a></td>\n</tr>\n<tr>\n<td>15</td>\n<td>country</td>\n<td>text</td>\n<td>Land där utegymmet finns. Skall anges enligt ISO3166-1. För Sverige ange “SE”. Fältet mappar mot Open Streetmaps “addr:country”.</td>\n</tr>\n<tr>\n<td>16</td>\n<td>wc</td>\n<td>int</td>\n<td>Antal vattenklosetter.</td>\n</tr>\n<tr>\n<td>17</td>\n<td>urinal</td>\n<td>int</td>\n<td>Antal urinoarer.</td>\n</tr>\n<tr>\n<td>18</td>\n<td>outhouse</td>\n<td>int</td>\n<td>Antal torrklosetter (dass).</td>\n</tr>\n<tr>\n<td>19</td>\n<td>rwc</td>\n<td>int</td>\n<td>Antal toaletter som uppfyller Plan- och bygglagens krav på tillgängliga hygienrum. <a href=\"https://www.boverket.se/sv/PBL-kunskapsbanken/regler-om-byggande/boverkets-byggregler/tillganglighet/hygienrum/\" rel=\"nofollow ugc\">https://www.boverket.se/sv/PBL-kunskapsbanken/regler-om-byggande/boverkets-byggregler/tillganglighet/hygienrum/</a></td>\n</tr>\n<tr>\n<td>20</td>\n<td>lighting</td>\n<td>boolean</td>\n<td>Beskriver om den offentliga toaletten har belysning.</td>\n</tr>\n<tr>\n<td>21</td>\n<td>water</td>\n<td>boolean</td>\n<td>Anger om det finns tillgång till vatten för att exempelvis tvätta händerna.</td>\n</tr>\n<tr>\n<td>22</td>\n<td>drinking_water</td>\n<td>boolean</td>\n<td>Anger om det finns dricksvatten på platsen i någon form.</td>\n</tr>\n<tr>\n<td>23</td>\n<td>trashbin</td>\n<td>boolean</td>\n<td>Anger om det finns en soptunna i någon form på platsen.</td>\n</tr>\n<tr>\n<td>24</td>\n<td>unisex</td>\n<td>boolean</td>\n<td>Anger om den offentliga toaletten är unisex.</td>\n</tr>\n<tr>\n<td>25</td>\n<td>change_table_child</td>\n<td>boolean</td>\n<td>Anger om det finns ett skötbord anpassat för barn.</td>\n</tr>\n<tr>\n<td>26</td>\n<td>wc_child</td>\n<td>boolean</td>\n<td>Anger om toaletten är anpassad för barn, eller att det finns en mindre toalett för barn.</td>\n</tr>\n<tr>\n<td>27</td>\n<td>change_table_adult</td>\n<td>boolean</td>\n<td>Anger om det finns ett skötbord anpassat för vuxna.</td>\n</tr>\n<tr>\n<td>28</td>\n<td>rwc-alarm</td>\n<td>boolean</td>\n<td>Anger om det finns RWC-larm installerat.</td>\n</tr>\n<tr>\n<td>29</td>\n<td>door_opener</td>\n<td>boolean</td>\n<td>Anger om det finns RWC-anpassad automatisk dörröppnare installerad.</td>\n</tr>\n<tr>\n<td>30</td>\n<td>accessability</td>\n<td>text</td>\n<td>Ytterligare beskrivning om hur tillgänglighetsanpassad den offentliga toaletten är.</td>\n</tr>\n<tr>\n<td>31</td>\n<td>open_season</td>\n<td>Text <strong>?Datum-standard?</strong></td>\n<td>Beskriver när under året den offentliga toaletten är öppen. Exempel: \"1 maj - 30 september\". Året-runt-öppna lämnas tomma.</td>\n</tr>\n<tr>\n<td>32</td>\n<td>open_hours</td>\n<td>Text <strong>?Tid-standard?</strong></td>\n<td>Beskriver när under dygnet den offentliga toaletten är öppen. Exempel: \"05:00-22:00\" eller \"Tillgång endast under bibliotekets öppettider\". Dygnet-runt-öppna lämnas tomma.</td>\n</tr>\n<tr>\n<td>33</td>\n<td>service_interval</td>\n<td>UNKNOWN/IRREG/ YEARLY/QUARTERLY/ MONTHLY/WEEKLY/DAILY</td>\n<td>Ange i vilken frekvens den offentliga toaletten städas. <strong>?När den senast städades?</strong></td>\n</tr>\n<tr>\n<td>34</td>\n<td>fee</td>\n<td>boolean</td>\n<td>Anger om den offentliga toaletten är avgiftsbelagd.</td>\n</tr>\n<tr>\n<td>35</td>\n<td>fee_description</td>\n<td>text</td>\n<td>Beskriver avgiften och hur man betalar. Exempel \"5kr. Betala med mynt, betalkort eller Swish\" Avgiftsfria lämnas tomma.</td>\n</tr>\n<tr>\n<td>36</td>\n<td>td_url</td>\n<td>URL</td>\n<td><a href=\"https://www.t-d.se/\" rel=\"nofollow ugc\">Länk till Tillgänglighetsdatabasen (TD).</a></td>\n</tr>\n<tr>\n<td>37</td>\n<td>Image_url</td>\n<td>URL</td>\n<td>Länk till en bild i formaten .jpg, .png eller .webp. <strong>?Licens för bild - CC0?</strong></td>\n</tr>\n<tr>\n<td>38</td>\n<td>report_phone</td>\n<td>phone</td>\n<td>Telefonnummer för frågor, synpunkter och/eller felanmälan.</td>\n</tr>\n<tr>\n<td>39</td>\n<td>report_url</td>\n<td>URL</td>\n<td>Länk till tjänst för frågor, synpunkter och/eller felanmälan.</td>\n</tr>\n<tr>\n<td>40</td>\n<td>open</td>\n<td>boolean</td>\n<td>Anger om den offentliga toaletten är tillfälligt stängd, till exempel för underhåll eller ombyggnation.</td>\n</tr>\n</tbody>\n</table>\n",
+      "pid": 4327,
+      "tid": 837,
+      "timestamp": 1694183402872,
+      "uid": 1645,
+      "downvotes": 0,
+      "upvotes": 1,
+      "edited": 1698830999635,
+      "editor": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "displayname": "Johan_Bard"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          },
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-10-18T11:43:55.576Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-09-08T14:30:02.872Z",
+      "editedISO": "2023-11-01T09:29:59.635Z",
+      "index": 3,
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> En tanke angående fee.</p>\n<p dir=\"auto\">Jag tänker att denna med fördel kan delas upp i en boolean som är lätt att tolka maskinellt och ett text-fält med detaljer om kostnaden om en sådan finns.</p>\n<p dir=\"auto\">Annars kommer någon att skriva \"Ingen kostnad\", \"gratis\", \"Free\" eller dylikt som inte gör någon som försöker tolka det hela automatiskt glad.</p>\n<p dir=\"auto\">Angående URL. Jag har lärt mig den hårda vägen att inte alla inser att den bör vara fullständig som <a href=\"https://site.com/sida\" rel=\"nofollow ugc\">https://site.com/sida</a> utan att de skriver <a href=\"http://site.com/sida\" rel=\"nofollow ugc\">site.com/sida</a>. Så detta kanske kan förtydligas?</p>\n",
+      "pid": 4434,
+      "tid": 837,
+      "timestamp": 1697629435576,
+      "toPid": "4327",
+      "uid": 1679,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1645,
+            "username": "Johan_Bard",
+            "userslug": "johan_bard",
+            "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+            "fullname": "Johan Bard",
+            "displayname": "Johan_Bard",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-27T11:04:58.593Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-10-18T11:43:55.576Z",
+      "editedISO": "",
+      "index": 4,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1679\">@ChristerOlsson</a> BRA förslag!</p>\n<p dir=\"auto\">Justerar till:<br />\nfee - bool<br />\nfee_descripton - text</p>\n<p dir=\"auto\">Rörande URL är jag helt med dig, jag utgår ifrån att när vi går från utkast till specifikation kommer vi ha med ett förtydligande liknande <a href=\"https://lankadedata.se/spec/grillplatser/#url\" rel=\"nofollow ugc\">https://lankadedata.se/spec/grillplatser/#url</a></p>\n",
+      "pid": 4469,
+      "tid": 837,
+      "timestamp": 1698404698593,
+      "toPid": "4434",
+      "uid": 1645,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-27T11:04:58.593Z",
+      "editedISO": "",
+      "index": 5,
+      "parent": {
+        "username": "ChristerOlsson",
+        "displayname": "ChristerOlsson"
+      },
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> sa i <a href=\"/post/4327\">Datastandard för offentliga toaletter</a>:</p>\n<blockquote>\n<p dir=\"auto\">fee_description\t| text\t| Beskriver avgiften och hur man betalar. Exempel \"5kr. Betala med mynt, betalkort eller Swish\" Avgiftsfria lämnas tomma.</p>\n</blockquote>\n<p dir=\"auto\">Finns det några idéer om eller exempel på hur man kan representera avgifter så de kan jämföras?</p>\n",
+      "pid": 4471,
+      "tid": 837,
+      "timestamp": 1698651762825,
+      "toPid": "4327",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 41,
+            "username": "Ainali",
+            "userslug": "ainali",
+            "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+            "fullname": "Jan Ainali",
+            "displayname": "Ainali",
+            "icon:text": "A",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-30T14:04:07.164Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-30T07:42:42.825Z",
+      "editedISO": "",
+      "index": 6,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> det skulle kunna vara ett fält till:<br />\nfee_size - Avgift i SEK.<br />\nOch sedan skulle fee_description kunna användas till att beskriva hur betalning kan ske.</p>\n",
+      "pid": 4472,
+      "tid": 837,
+      "timestamp": 1698674647164,
+      "toPid": "4471",
+      "uid": 41,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-10-31T15:28:34.180Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-10-30T14:04:07.164Z",
+      "editedISO": "",
+      "index": 7,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 41,
+        "username": "Ainali",
+        "userslug": "ainali",
+        "reputation": 141,
+        "postcount": 125,
+        "topiccount": 16,
+        "picture": "/assets/uploads/profile/41-profileavatar-1613463826672.jpeg",
+        "signature": "<p dir=\"auto\">Tillgänglig för jobb: konsult -&gt; <a href=\"https://openbydefault.se\" rel=\"nofollow ugc\">Open By Defult</a>, anställning -&gt; <a href=\"https://aina.li/cv\" rel=\"nofollow ugc\">CV</a></p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1755249518855,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Ainali",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "A",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-08-15T09:18:38.855Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/41\">@Ainali</a> Ja, säg om jag vill räkna ut snittpris/max/min på avgiften, eller se vilka betalningsmetoder som är vanligast, då är det ju bra om de uppgifterna ligger för sig på ett förutbestämt vis.</p>\n<p dir=\"auto\">Det utgör väl också en schema-modul som kunde tillämpas generellt på avgiftsbelagda tjänster.</p>\n<p dir=\"auto\">Egentligen borde väl fälten vara belopp, valuta och en eller flera betalningsmetoder från en uppsättning standardvärden med ett \"övrigt\"-värde som kunde förklaras i ett beskrivningsfält.</p>\n<p dir=\"auto\">Trycker man in flera uppgifter i ett textfält utan struktur får man tänka på att man överlåter jobbet på någon annan att reda ut vad innehållet betyder. Det är att föredra att ange strukturerade värden eller identifierare för saker.</p>\n",
+      "pid": 4475,
+      "tid": 837,
+      "timestamp": 1698766114180,
+      "toPid": "4472",
+      "uid": 125,
+      "edited": 1698766144188,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-10-31T15:28:34.180Z",
+      "editedISO": "2023-10-31T15:29:04.188Z",
+      "index": 8,
+      "parent": {
+        "username": "Ainali",
+        "displayname": "Ainali"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Jag hör er och det låter rimligt. Jag överger nu ovanstående tabell till fördel för att arbeta direkt i den schema.json som finns i <a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/public-toilets\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/public-toilets</a>. Det ligger en merge request för utkastet med alla era kloka idéer tillagda.</p>\n<p dir=\"auto\">JSON är förvisso lite mer svårläst för gemene man men närmre produktion så jag föredrar att göra så. Vem som helst får dock gärna omvandla schema.json till MD och klistra in här. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f44d.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--+1\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":+1:\" alt=\"👍\" /></p>\n<p dir=\"auto\">Problem alla gärna får klura och svara på:</p>\n<ul>\n<li>\"open_season\" bör vara i ett format för datumperioder (MM-DD till MM-DD). Oklart om en sådan datatype finns eller om det ska hanteras som en array med startdatum och slutdatum.</li>\n<li>\"open_hours\" hade varit fiffigt att ha i ett format för tidsperiod (hh:mm till hh:mm). Oklart om en sådan datatype finns eller om det ska hanteras som en array med starttid och sluttid. Behöver då även kunna kompletteras med textfält för \"Tillgång endast under bibliotekets öppettider\", vilket är vanligt hos oss.</li>\n<li>\"fee_sum\" satte jag som float begränsad mellan 0.01 och 999 för att öppna upp för andra valutor än SEK. Oklart om det är nödvändigt eller om float ens existerar som datatype i sammanhanget</li>\n<li>\"fee_payment_method\" satte jag som array där man kan välja upp till tre möjliga alternativ - CASH, CARD, SWISH. Oklart vilka alternativ som bör finnas med, till exempel gör man i många länder skillnad på kontokort och kreditkort - ska det reflekteras häri? Oklart om array existerar som datatype i sammanhanget.</li>\n</ul>\n",
+      "pid": 4477,
+      "tid": 837,
+      "timestamp": 1698830836025,
+      "uid": 1645,
+      "downvotes": 0,
+      "upvotes": 2,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-01T22:54:36.061Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-11-01T09:27:16.025Z",
+      "editedISO": "",
+      "index": 9,
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> Jag är inte så insatt i praxis, men ISO 8601 har specifikationer för datumformat, intervall och perioder.</p>\n<p dir=\"auto\"><a href=\"https://en.wikipedia.org/wiki/ISO_8601#Time_intervals\" rel=\"nofollow ugc\">https://en.wikipedia.org/wiki/ISO_8601#Time_intervals</a></p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> sa:</p>\n<blockquote>\n<p dir=\"auto\">Oklart om array existerar som datatype i sammanhanget.</p>\n</blockquote>\n<p dir=\"auto\">Beror kanske på vad som åsyftas med \"sammanhanget\", är det någon särskild notation för datamodellering, eller scenarier för praktisk användning av datan?</p>\n<p dir=\"auto\">Edit: Om specen gäller ett CSV-format, vilket jag fick intryck av, så fick jag ett förslag från ChatGPT. Jag gissar att propertyUrl pekar på vidare information om vad elementen i listan betyder.</p>\n<pre><code>{\n  \"@context\": \"http://www.w3.org/ns/csvw\"\n  ...\n      {\n        \"name\": \"tags\",\n        \"datatype\": \"string\",\n        \"propertyUrl\": \"http://example.org/tags\",\n        \"separator\": \";\"\n      }\n</code></pre>\n<p dir=\"auto\">Det behövs ju en metod för att kunna ange fler än ett element om man inte för alltid ska vara hänvisad till att skjuta in extra fält i stil med \"betalningsmetod 1\", \"betalningsmetod 2\", \"betalningsmetod 3\" (hoppas ingen har användning för fler än tre betalningsmetoder).</p>\n<p dir=\"auto\">Finns det i nuläget någon befintlig data tillgänglig för området, och hur ser den isf. ut?</p>\n",
+      "pid": 4478,
+      "tid": 837,
+      "timestamp": 1698879276061,
+      "toPid": "4477",
+      "uid": 125,
+      "edited": 1699024126100,
+      "editor": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "displayname": "jonor"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          },
+          {
+            "uid": 1645,
+            "username": "Johan_Bard",
+            "userslug": "johan_bard",
+            "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+            "fullname": "Johan Bard",
+            "displayname": "Johan_Bard",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-11-03T15:26:29.904Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-01T22:54:36.061Z",
+      "editedISO": "2023-11-03T15:08:46.100Z",
+      "index": 10,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Egentligen borde väl DIGG ha någon guide och exempel för hur man modellerar och specificerar olika typer  av data och relationer, som är tillämplig i ett sådant här fall?</p>\n",
+      "pid": 4479,
+      "tid": 837,
+      "timestamp": 1699025189904,
+      "toPid": "4478",
+      "uid": 125,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-03T15:26:29.904Z",
+      "editedISO": "",
+      "index": 11,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a></a> <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a></a> Ja jag vet inte riktigt, jag har utgått ifrån specifikationer för badplatser, utegym, lekplatser och grillplatser. Ingen av dem innehåller array eller tidsperioder vad jag kan se.</p>\n<p dir=\"auto\">ISO 8601 låter klockrent (tihi) för att standardisera tids- och datumperioder.</p>\n<p dir=\"auto\">Kan bara hålla med om att det borde finnas guide och exempel. En sträng med specad  separator är ett bra sätt i brist på annat.</p>\n",
+      "pid": 4480,
+      "tid": 837,
+      "timestamp": 1699365029692,
+      "toPid": "4478",
+      "uid": 1645,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 1679,
+            "username": "ChristerOlsson",
+            "userslug": "christerolsson",
+            "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+            "fullname": "Christer Olsson",
+            "displayname": "ChristerOlsson",
+            "icon:text": "C",
+            "icon:bgColor": "#3f51b5"
+          },
+          {
+            "uid": 497,
+            "username": "almeta",
+            "userslug": "almeta",
+            "picture": null,
+            "fullname": null,
+            "displayname": "almeta",
+            "icon:text": "A",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-11-07T17:06:12.613Z"
+      },
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-11-07T13:50:29.692Z",
+      "editedISO": "",
+      "index": 12,
+      "parent": {
+        "username": "jonor",
+        "displayname": "jonor"
+      },
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> Kan bara hålla med om att ett json-schema kan vara rätt väg. Möjligen kan det vara ännu bättre att använda geojson eftersom det då finns gott om färdigskriven kod för att läsa och tolka innehållet.</p>\n<p dir=\"auto\">Det sagt så är ändå json väldigt mycket bättre än csv.</p>\n",
+      "pid": 4481,
+      "tid": 837,
+      "timestamp": 1699376772613,
+      "toPid": "4480",
+      "uid": 1679,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-07T17:06:12.613Z",
+      "editedISO": "",
+      "index": 13,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 1679,
+        "username": "ChristerOlsson",
+        "userslug": "christerolsson",
+        "reputation": 13,
+        "postcount": 22,
+        "topiccount": 2,
+        "picture": "/assets/uploads/profile/1679-profileavatar-1697627050546.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1756387930562,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "ChristerOlsson",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "C",
+        "icon:bgColor": "#3f51b5",
+        "lastonlineISO": "2025-08-28T13:32:10.562Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> du kan titta på dessa CSV scheman gällande datatyper för tid och datum</p>\n<p dir=\"auto\"><a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/point-of-interest/-/blob/main/schema.json?ref_type=heads\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/point-of-interest/-/blob/main/schema.json?ref_type=heads</a><br />\n<a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/evenemang/-/blob/main/schema.json?ref_type=heads\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/evenemang/-/blob/main/schema.json?ref_type=heads</a></p>\n<p dir=\"auto\">Gällande \"fee_payment_method\" satte jag som array där man kan välja upp till tre möjliga alternativ - CASH, CARD, SWISH. Oklart vilka alternativ som bör finnas med, till exempel gör man i många länder skillnad på kontokort och kreditkort - ska det reflekteras häri? Oklart om array existerar som datatype i sammanhanget.\"</p>\n<p dir=\"auto\">Du kan hitta inspiration i schemat från Points-of-interest, se exempel nedan med <a href=\"http://schema.org\" rel=\"nofollow ugc\">schema.org</a>'s vokabulär där jag utgått ifrån <a href=\"https://schema.org/PaymentMethod\" rel=\"nofollow ugc\">https://schema.org/PaymentMethod</a><br />\njson</p>\n<pre><code>           {\n              \"name\": \"payment_method\",\n              \"titles\": \"Betalning\",\n              \"dc:description\": \"Betalningstyp.\",\n              \"datatype\": {\n                \"base\": \"string\",\n                \"format\": \"Cash|DirectDebit\"\n              },\n              \"required\": true,\n              \"valueUrl\": \"http://purl.org/goodrelations/v1#{type}\",\n              \"propertyUrl\": \"schema:acceptedPaymentMethod\"\n            },</code></pre>\n",
+      "pid": 4482,
+      "tid": 837,
+      "timestamp": 1699441387668,
+      "toPid": "4480",
+      "uid": 497,
+      "edited": 1699442349820,
+      "editor": {
+        "uid": 497,
+        "username": "almeta",
+        "userslug": "almeta",
+        "displayname": "almeta"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1645,
+            "username": "Johan_Bard",
+            "userslug": "johan_bard",
+            "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+            "fullname": "Johan Bard",
+            "displayname": "Johan_Bard",
+            "icon:text": "J",
+            "icon:bgColor": "#9c27b0"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-08T13:32:03.142Z"
+      },
+      "deleted": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-08T11:03:07.668Z",
+      "editedISO": "2023-11-08T11:19:09.820Z",
+      "index": 14,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 497,
+        "username": "almeta",
+        "userslug": "almeta",
+        "reputation": 14,
+        "postcount": 14,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763645432207,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "almeta",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-11-20T13:30:32.207Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a> Om jag läser payment_method rätt finns det bara möjlighet att välja en av dem, Cash <em>eller</em> DirectDebit?</p>\n<p dir=\"auto\">Hur gör man när man behöver välja flera av alternativen, Cash <em>och</em> DirectDebit?</p>\n",
+      "pid": 4483,
+      "tid": 837,
+      "timestamp": 1699450323142,
+      "toPid": "4482",
+      "uid": 1645,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 497,
+            "username": "almeta",
+            "userslug": "almeta",
+            "picture": null,
+            "fullname": null,
+            "displayname": "almeta",
+            "icon:text": "A",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-08T13:43:04.616Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-08T13:32:03.142Z",
+      "editedISO": "",
+      "index": 15,
+      "parent": {
+        "username": "almeta",
+        "displayname": "almeta"
+      },
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1645\">@Johan_Bard</a> kardinaliteten beskrivs inte i CSV schemat utan anges i dokumentationen (specifikationen) för det specifika attributet, i det här fallet <strong>payment_method</strong></p>\n<p dir=\"auto\">För att tillåta flera värden än <strong>1</strong> bör ni uttrycka det enligt nedan.</p>\n<p dir=\"auto\">Obligatorisk egenskap (det givna exemplet ovan) - 1..*<br />\nRekommenderad egenskap  -  0..*</p>\n",
+      "pid": 4484,
+      "tid": 837,
+      "timestamp": 1699450984616,
+      "toPid": "4483",
+      "uid": 497,
+      "edited": 1699451045638,
+      "editor": {
+        "uid": 497,
+        "username": "almeta",
+        "userslug": "almeta",
+        "displayname": "almeta"
+      },
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 125,
+            "username": "jonor",
+            "userslug": "jonor",
+            "picture": null,
+            "fullname": null,
+            "displayname": "jonor",
+            "icon:text": "J",
+            "icon:bgColor": "#009688"
+          }
+        ],
+        "text": "[[topic:replies_to_this_post, 2]]",
+        "count": 2,
+        "timestampISO": "2023-11-08T20:40:54.911Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-08T13:43:04.616Z",
+      "editedISO": "2023-11-08T13:44:05.638Z",
+      "index": 16,
+      "parent": {
+        "username": "Johan_Bard",
+        "displayname": "Johan_Bard"
+      },
+      "user": {
+        "uid": 497,
+        "username": "almeta",
+        "userslug": "almeta",
+        "reputation": 14,
+        "postcount": 14,
+        "topiccount": 0,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1763645432207,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "almeta",
+        "groupTitleArray": [],
+        "icon:text": "A",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-11-20T13:30:32.207Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a> Det ska alltså finnas både en \"specifikation\" som beskriver datamodellen, och ett JSON-schema som beskriver ett CSV-format?</p>\n<p dir=\"auto\">Hur fungerar det i praktiken, är kardinaliteten i en relation maskinläsbar? Tänker om man vill validera att data följer specifikationen? Från JSON-schemat kan man då bara läsa ut om egenskapen är obligatorisk/\"required\" i tabellformatet, dvs. antingen 0..*, eller 1..*?</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a> sa i <a href=\"/post/4482\">Datastandard för offentliga toaletter</a>:</p>\n<blockquote>\n<p dir=\"auto\">du kan titta på dessa CSV scheman gällande datatyper för tid och datum</p>\n<p dir=\"auto\"><a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/point-of-interest/-/blob/main/schema.json?ref_type=heads\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/point-of-interest/-/blob/main/schema.json?ref_type=heads</a><br />\n<a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/evenemang/-/blob/main/schema.json?ref_type=heads\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/evenemang/-/blob/main/schema.json?ref_type=heads</a></p>\n</blockquote>\n<p dir=\"auto\">Förmodar att dessa är specifikationer för datamodeller för ovanstående exempel:</p>\n<ul>\n<li><a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/point-of-interest/-/blob/main/content/model.md?ref_type=heads\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/point-of-interest/-/blob/main/content/model.md?ref_type=heads</a></li>\n<li><a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/evenemang/-/blob/main/content/model.md?ref_type=heads\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/evenemang/-/blob/main/content/model.md?ref_type=heads</a></li>\n</ul>\n<p dir=\"auto\">Schemaexemplen verkar i en del avseeenden vara förenklingar som inte täcker in vanliga omständigheter i verkligheten.</p>\n<p dir=\"auto\">Hur är det med fälten \"opens\" och \"closes\", är dessa standardegenskaper för öppettider så att det går att härleda ett tidsintervall för olika typer av verksamheter? Det finns väl annars inget i själva schemat som beskriver att de hör ihop som tidpunkter i ett intervall?</p>\n<p dir=\"auto\">Det är vanligt att öppettider varierar över olika veckodagar, schemat för POI fångar inte den aspekten på ett strukturerat sätt. Fältet \"openinghours\" är ett strängvärde med risken att man skriver in varierande öppettider på ett ostrukturerat vis.</p>\n<p dir=\"auto\">När det gäller fältet \"price\" är det väl på motsvarande vis vanligt att inträde kan variera för olika åldersgrupper eller andra kategorier. Där skulle också behövas ett sätt att strukturera detta, ett heltalsfält är troligen otillräckligt för att beskriva den  prisinformation man ofta ser på informationssidor.</p>\n",
+      "pid": 4485,
+      "tid": 837,
+      "timestamp": 1699476054911,
+      "toPid": "4484",
+      "uid": 125,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2023-11-08T20:40:54.911Z",
+      "editedISO": "",
+      "index": 17,
+      "parent": {
+        "username": "almeta",
+        "displayname": "almeta"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\">Vill bara meddela att jag uppdaterat schemat, men att det ännu inte är mergat.</p>\n<p dir=\"auto\"><a href=\"https://gitlab.com/sarskilt-viktiga-datamangder/public-toilets/-/merge_requests/1/diffs?commit_id=0aee90c1f778edf0b486e0fee6aa9a564fcb095d\" rel=\"nofollow ugc\">https://gitlab.com/sarskilt-viktiga-datamangder/public-toilets/-/merge_requests/1/diffs?commit_id=0aee90c1f778edf0b486e0fee6aa9a564fcb095d</a></p>\n<p dir=\"auto\">Vi på Region Gotland har för avsikt att släppa öppna data för våra offentliga toaletter, baserat på den standard vi fortfarande diskuterar, på <a href=\"https://sv.wikipedia.org/wiki/V%C3%A4rldstoalettdagen\" rel=\"nofollow ugc\">https://sv.wikipedia.org/wiki/Världstoalettdagen</a>. Skämten till den externa nyheten skriver sig själva. <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f601.png?v=ri45v5qda1g\" class=\"not-responsive emoji emoji-android emoji--grin\" style=\"height:23px;width:auto;vertical-align:middle\" title=\":grin:\" alt=\"😁\" /></p>\n",
+      "pid": 4487,
+      "tid": 837,
+      "timestamp": 1699530067154,
+      "uid": 1645,
+      "downvotes": 0,
+      "upvotes": 2,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 2,
+      "timestampISO": "2023-11-09T11:41:07.154Z",
+      "editedISO": "",
+      "index": 18,
+      "user": {
+        "uid": 1645,
+        "username": "Johan_Bard",
+        "userslug": "johan_bard",
+        "reputation": 31,
+        "postcount": 28,
+        "topiccount": 4,
+        "picture": "/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1751030299266,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "Johan_Bard",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "J",
+        "icon:bgColor": "#9c27b0",
+        "lastonlineISO": "2025-06-27T13:18:19.266Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a> Är du sakkunnig / representerar DIGG?</p>\n<p dir=\"auto\">Finns det exempel på hur man representerar många-relationer och sammansatta datatyper i en specifikation resp. schema och data för ett format, som i detta fall CSVW?</p>\n<p dir=\"auto\">Tror det är viktigt med vägledning och exempel för komma fram till datamodeller som kan representera verkliga förhållanden.</p>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/497\">@almeta</a> sa i <a href=\"/post/4484\">Datastandard för offentliga toaletter</a>:</p>\n<blockquote>\n<p dir=\"auto\">kardinaliteten beskrivs inte i CSV schemat utan anges i dokumentationen (specifikationen) för det specifika attributet, i det här fallet payment_method</p>\n</blockquote>\n",
+      "pid": 4488,
+      "tid": 837,
+      "timestamp": 1699545231544,
+      "toPid": "4484",
+      "uid": 125,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [
+          {
+            "uid": 497,
+            "username": "almeta",
+            "userslug": "almeta",
+            "picture": null,
+            "fullname": null,
+            "displayname": "almeta",
+            "icon:text": "A",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2023-11-14T08:32:49.842Z"
+      },
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2023-11-09T15:53:51.544Z",
+      "editedISO": "",
+      "index": 19,
+      "parent": {
+        "username": "almeta",
+        "displayname": "almeta"
+      },
+      "user": {
+        "uid": 125,
+        "username": "jonor",
+        "userslug": "jonor",
+        "reputation": 146,
+        "postcount": 316,
+        "topiccount": 43,
+        "picture": null,
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1749742555876,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "jonor",
+        "groupTitleArray": [],
+        "icon:text": "J",
+        "icon:bgColor": "#009688",
+        "lastonlineISO": "2025-06-12T15:35:55.876Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#5a6751",
+    "cid": 25,
+    "class": "col-md-3 col-xs-6",
+    "color": "#fff",
+    "description": "Tipsa, fråga och diskutera om öppna standarder och format",
+    "descriptionParsed": "<p dir=\"auto\">Tipsa, fråga och diskutera om öppna standarder och format</p>\n",
+    "disabled": 0,
+    "icon": "fa-newspaper-o",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Öppna standarder och format",
+    "numRecentReplies": 1,
+    "order": 6,
+    "parentCid": 0,
+    "post_count": 252,
+    "slug": "25/öppna-standarder-och-format",
+    "subCategoriesPerPage": 10,
+    "topic_count": 34,
+    "image": null,
+    "maxTags": 5,
+    "minTags": 0,
+    "postQueue": 0,
+    "totalPostCount": 252,
+    "totalTopicCount": 34
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "837",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/837.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Öppna standarder och format",
+      "url": "/category/25/öppna-standarder-och-format",
+      "cid": 25
+    }
+  ],
+  "pagination": {
+    "rel": [
+      {
+        "rel": "next",
+        "href": "https://community.dataportal.se/topic/837/datastandard-för-offentliga-toaletter?page&#x3D;2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "active": true,
+        "qs": "page=1"
+      },
+      {
+        "page": 2,
+        "active": false,
+        "qs": "page=2"
+      }
+    ],
+    "currentPage": 1,
+    "pageCount": 2,
+    "prev": {
+      "page": 1,
+      "active": false,
+      "qs": "page=1"
+    },
+    "next": {
+      "page": 2,
+      "active": true,
+      "qs": "page=2"
+    },
+    "first": {
+      "page": 1,
+      "active": true,
+      "qs": "page=1"
+    },
+    "last": {
+      "page": 2,
+      "active": false,
+      "qs": "page=2"
+    }
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/837",
+  "bodyClass": "page-topic page-topic-837 template-topic page-topic-category-25 page-topic-category-öppna-standarder-och-format parent-category-25 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Datastandard för offentliga toaletter"
+        },
+        {
+          "name": "description",
+          "content": "Någon som vet ifall det finns någon vedertagen datastandard för offentliga toaletter? Vi har gjort ett större arbete med inventering för att skapa en egen karta men när det kom till att kratta för att det ska bli öppen data har vi tyvärr gått bet. Vi har ..."
+        },
+        {
+          "property": "og:title",
+          "content": "Datastandard för offentliga toaletter"
+        },
+        {
+          "property": "og:description",
+          "content": "Någon som vet ifall det finns någon vedertagen datastandard för offentliga toaletter? Vi har gjort ett större arbete med inventering för att skapa en egen karta men när det kom till att kratta för att det ska bli öppen data har vi tyvärr gått bet. Vi har ..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2023-08-18T11:42:04.135Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-04-20T06:16:59.452Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Öppna standarder och format"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1645-profileavatar-1692599698513.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/837",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;ri45v5qda1g"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/837/datastandard-för-offentliga-toaletter",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/837.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/25/öppna-standarder-och-format"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/johan_bard"
+        },
+        {
+          "rel": "next",
+          "href": "https://community.dataportal.se/topic/837/datastandard-för-offentliga-toaletter?page&#x3D;2"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}
