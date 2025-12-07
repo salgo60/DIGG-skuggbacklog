@@ -4,6 +4,9 @@ DIGG-skuggbacklog, Magnus Sälgö, & Nizo Priskorn. (2024). salgo60/DIGG-skuggba
 
 - [DIGG skuggbacklog](https://github.com/salgo60/DiggUptime/issues/47)
 
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/8cd2c131-18da-498d-a500-6df687585189" />
+
+
 #### [📈 Live Status](https://upptime.github.io/upptime): <!--live status--> **🟧 Partial outage**
 
 - This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
