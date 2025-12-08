@@ -1,0 +1,378 @@
+{
+  "years": [
+    {
+      "year": 2018,
+      "source": "fairdata:regb/2018",
+      "goals": [
+        {
+          "id": "fairdata:regb/2018/goal/prognoser",
+          "text": "DIGG ska redovisa utgiftsprognoser och avvikelser för anslaget.",
+          "eu_relevance": false,
+          "metadata_relevance": false,
+          "forum_regex": {
+            "manual": ["(?i)prognos", "(?i)budget", "(?i)hermes"],
+            "ml": [],
+            "combined": ["(?i)prognos", "(?i)budget", "(?i)hermes"]
+          },
+          "tags": ["styrning", "rapportering"]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2018/task/eidas",
+          "title": "Nationellt införande av eIDAS",
+          "description": "Stödja införandet av eIDAS-förordningen och erkännande av utländska e-legitimationer.",
+          "eu_relevance": true,
+          "metadata_relevance": false,
+          "forum_regex": {
+            "manual": ["(?i)eidas", "(?i)e-id(as)?", "(?i)utländsk[a]? e-legitimation"],
+            "ml": [],
+            "combined": ["(?i)eidas", "(?i)e-id(as)?", "(?i)utländsk[a]? e-legitimation"]
+          },
+          "concept_cluster": ["identifiering", "säkerhet", "infrastruktur"]
+        },
+        {
+          "id": "fairdata:regb/2018/task/efaktura",
+          "title": "Elektroniska fakturor",
+          "description": "Stödja införandet av elektroniska fakturor vid offentlig upphandling.",
+          "eu_relevance": true,
+          "metadata_relevance": false,
+          "forum_regex": {
+            "manual": ["(?i)e-faktura", "(?i)efaktura", "(?i)elektronisk[a]? faktur", "(?i)upphandling"],
+            "ml": [],
+            "combined": ["(?i)e-faktura", "(?i)efaktura", "(?i)elektronisk[a]? faktur", "(?i)upphandling"]
+          },
+          "concept_cluster": ["e-handel", "standarder", "upphandling"]
+        }
+      ],
+      "funding": [
+        {
+          "id": "fairdata:regb/2018/funding/ap11",
+          "name": "DIGG – förvaltningsutgifter (ap.11)",
+          "amount_tkr": null,
+          "conditions": [],
+          "tags": ["drift", "förvaltning"]
+        }
+      ]
+    },
+
+    {
+      "year": 2019,
+      "source": "fairdata:regb/2019",
+      "goals": [
+        {
+          "id": "fairdata:regb/2019/goal/prognoser",
+          "text": "DIGG ska lämna utgiftsprognoser för 2019–2022 vid angivna tidpunkter.",
+          "eu_relevance": false,
+          "metadata_relevance": false,
+          "forum_regex": {
+            "manual": ["(?i)prognos", "(?i)budget", "(?i)utgiftsprognos"],
+            "ml": [],
+            "combined": ["(?i)prognos", "(?i)budget", "(?i)utgiftsprognos"]
+          },
+          "tags": ["styrning", "rapportering"]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2019/task/eidas",
+          "title": "Stödja införandet av eIDAS-erkännande",
+          "description": "Stödja nationellt införande av eIDAS och erkännande av utländska e-legitimationer.",
+          "eu_relevance": true,
+          "metadata_relevance": false,
+          "forum_regex": {
+            "manual": ["(?i)eidas", "(?i)e-id(as)?"],
+            "ml": [],
+            "combined": ["(?i)eidas", "(?i)e-id(as)?"]
+          },
+          "concept_cluster": ["identifiering", "säkerhet", "infrastruktur"]
+        },
+        {
+          "id": "fairdata:regb/2019/task/grunddata",
+          "title": "Samordning av grunddatauppdrag",
+          "description": "Samordna uppdrag kring grunddata och informationsutbyte mellan myndigheter.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": ["(?i)grunddata", "(?i)basregister", "(?i)stamdata", "(?i)interoperabilitet"],
+            "ml": [],
+            "combined": ["(?i)grunddata", "(?i)basregister", "(?i)stamdata", "(?i)interoperabilitet"]
+          },
+          "concept_cluster": ["metadata", "interoperabilitet", "governance"]
+        }
+      ],
+      "funding": [
+        {
+          "id": "fairdata:regb/2019/funding/ap11",
+          "name": "DIGG – förvaltningsutgifter (ap.11)",
+          "amount_tkr": null,
+          "conditions": [],
+          "tags": ["drift", "förvaltning"]
+        },
+        {
+          "id": "fairdata:regb/2019/funding/ap7",
+          "name": "Nationell digital infrastruktur (ap.7)",
+          "amount_tkr": null,
+          "conditions": [],
+          "tags": ["infrastruktur", "interoperabilitet"]
+        }
+      ]
+    },
+
+    {
+      "year": 2020,
+      "source": "fairdata:regb/2020",
+      "goals": [],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2020/task/oppnadata",
+          "title": "Främja öppna data och datadriven förvaltning",
+          "description": "Stärka arbetet med öppna data, vidareutnyttjande och datadriven innovation.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)öppna data",
+              "(?i)open data",
+              "(?i)vidareutnyttjande",
+              "(?i)psi",
+              "(?i)data.europa"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)öppna data",
+              "(?i)open data",
+              "(?i)vidareutnyttjande",
+              "(?i)psi",
+              "(?i)data.europa"
+            ]
+          },
+          "concept_cluster": ["öppna data", "metadata", "eu"]
+        },
+        {
+          "id": "fairdata:regb/2020/task/interop",
+          "title": "Interoperabilitet och informationsutbyte",
+          "description": "Utveckla förvaltningsgemensam digital infrastruktur för informationsutbyte.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)interoperabilitet",
+              "(?i)informationsutbyte",
+              "(?i)datautbyte",
+              "(?i)gemensam infrastruktur"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)interoperabilitet",
+              "(?i)informationsutbyte",
+              "(?i)datautbyte",
+              "(?i)gemensam infrastruktur"
+            ]
+          },
+          "concept_cluster": ["api", "infrastruktur", "interoperabilitet"]
+        }
+      ],
+      "funding": [
+        {
+          "id": "fairdata:regb/2020/funding/ap11",
+          "name": "DIGG – förvaltningsutgifter (ap.11)",
+          "amount_tkr": null,
+          "conditions": [],
+          "tags": ["drift", "förvaltning"]
+        }
+      ]
+    },
+
+    {
+      "year": 2021,
+      "source": "fairdata:regb/2021",
+      "goals": [],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2021/task/infrastruktur",
+          "title": "Förvaltningsgemensam digital infrastruktur",
+          "description": "Vidareutveckla och förvalta gemensam digital infrastruktur för offentlig sektor.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)förvaltningsgemensam",
+              "(?i)gemensam infrastruktur",
+              "(?i)digital infrastruktur"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)förvaltningsgemensam",
+              "(?i)gemensam infrastruktur",
+              "(?i)digital infrastruktur"
+            ]
+          },
+          "concept_cluster": ["infrastruktur", "api", "plattformar"]
+        }
+      ],
+      "funding": []
+    },
+
+    {
+      "year": 2022,
+      "source": "fairdata:regb/2022",
+      "goals": [],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2022/task/dcatap",
+          "title": "Stöd för DCAT-AP och metadata",
+          "description": "Utveckla och stödja användning av DCAT-AP och metadata-standarder för öppna data.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)dcat[- ]?ap(\\b|[-](se|no|fi))?",
+              "(?i)dcterms?:",
+              "(?i)metadata",
+              "(?i)metadatakvalitet"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)dcat[- ]?ap(\\b|[-](se|no|fi))?",
+              "(?i)dcterms?:",
+              "(?i)metadata",
+              "(?i)metadatakvalitet"
+            ]
+          },
+          "concept_cluster": ["metadata", "standarder", "öppna data"]
+        },
+        {
+          "id": "fairdata:regb/2022/task/pid",
+          "title": "Identifierare och PID",
+          "description": "Främja användning av persistenta identifierare och URI:er i offentlig data.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)pid",
+              "(?i)persistent identifier",
+              "(?i)identifierare",
+              "(?i)uri",
+              "(?i)urn:"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)pid",
+              "(?i)persistent identifier",
+              "(?i)identifierare",
+              "(?i)uri",
+              "(?i)urn:"
+            ]
+          },
+          "concept_cluster": ["identifierare", "semantik", "uri"]
+        }
+      ],
+      "funding": []
+    },
+
+    {
+      "year": 2023,
+      "source": "fairdata:regb/2023",
+      "goals": [],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2023/task/eu_data",
+          "title": "Anpassning till EU:s datalagstiftning",
+          "description": "Stödja genomförandet av EU:s datarelaterade regelverk (t.ex. öppna data, dataförordningar).",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)data act",
+              "(?i)data governance act",
+              "(?i)open data directive",
+              "(?i)direktiv 2019/1024",
+              "(?i)dataförordning"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)data act",
+              "(?i)data governance act",
+              "(?i)open data directive",
+              "(?i)direktiv 2019/1024",
+              "(?i)dataförordning"
+            ]
+          },
+          "concept_cluster": ["eu-rätt", "öppna data", "governance"]
+        }
+      ],
+      "funding": []
+    },
+
+    {
+      "year": 2024,
+      "source": "fairdata:regb/2024",
+      "goals": [],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2024/task/ai_data",
+          "title": "Datastöd för AI och innovation",
+          "description": "Stödja datainfrastruktur som möjliggör AI och datadriven innovation.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)ai",
+              "(?i)maskininlärning",
+              "(?i)machine learning",
+              "(?i)datadriven",
+              "(?i)data space",
+              "(?i)data space[s]?"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)ai",
+              "(?i)maskininlärning",
+              "(?i)machine learning",
+              "(?i)datadriven",
+              "(?i)data space",
+              "(?i)data space[s]?"
+            ]
+          },
+          "concept_cluster": ["ai", "data space", "innovation"]
+        }
+      ],
+      "funding": []
+    },
+
+    {
+      "year": 2025,
+      "source": "fairdata:regb/2025",
+      "goals": [],
+      "tasks": [
+        {
+          "id": "fairdata:regb/2025/task/transition_pts",
+          "title": "Övergång DIGG → PTS",
+          "description": "Genomföra övergång av uppgifter från DIGG till PTS och säkerställa kontinuitet i digital infrastruktur och öppna data.",
+          "eu_relevance": true,
+          "metadata_relevance": true,
+          "forum_regex": {
+            "manual": [
+              "(?i)digg",
+              "(?i)pts",
+              "(?i)myndighetsomorganis",
+              "(?i)övertagande",
+              "(?i)digital infrastruktur"
+            ],
+            "ml": [],
+            "combined": [
+              "(?i)digg",
+              "(?i)pts",
+              "(?i)myndighetsomorganis",
+              "(?i)övertagande",
+              "(?i)digital infrastruktur"
+            ]
+          },
+          "concept_cluster": ["styrning", "infrastruktur", "organisation"]
+        }
+      ],
+      "funding": []
+    }
+  ]
+}
