@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7af71a14eaf403543b9f1d4f88043b36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7af71a14eaf403543b9f1d4f88043b36" ></div>
+        
+    
+<style>
+#legendBox {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 160px;
+    z-index: 9999;
+    font-family: Arial, sans-serif;
+}
+#legendHeader {
+    background: #333;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+}
+#legendContent {
+    background: white;
+    border: 2px solid #555;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 5px;
+    display: none;
+    font-size: 13px;
+}
+.legend-color-box {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+</style>
+
+<div id="legendBox">
+  <div id="legendHeader">Legend ▼</div>
+  <div id="legendContent">
+    <div><span class="legend-color-box" style="background:red;"></span>Centralized</div>
+    <div><span class="legend-color-box" style="background:orange;"></span>Hybrid</div>
+    <div><span class="legend-color-box" style="background:blue;"></span>Decentralized</div>
+  </div>
+</div>
+
+<script>
+document.getElementById('legendHeader').onclick = function() {
+    var content = document.getElementById('legendContent');
+    if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+        this.innerHTML = "Legend ▲";
+    } else {
+        content.style.display = "none";
+        this.innerHTML = "Legend ▼";
+    }
+};
+</script>
+</body>
+<script>
+    
+    
+            var map_7af71a14eaf403543b9f1d4f88043b36 = L.map(
+                "map_7af71a14eaf403543b9f1d4f88043b36",
+                {
+                    center: [54.0, 15.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a3febea9761ebfad2e916690c89b0952 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a3febea9761ebfad2e916690c89b0952.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            var feature_group_851b52ef59c9a3f318ec2123111f1ffa = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_25e44ed970f557f6056b3192b0c13542 = L.circleMarker(
+                [50.0, 15.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_8de02b73b7bbb696c625cdb361f3738e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_81ed532323a648527e2a9b0f2a3d1607 = $(`<div id="html_81ed532323a648527e2a9b0f2a3d1607" style="width: 100.0%; height: 100.0%;">     <b>Czech Republic</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Czechia%20Montage.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Czech_Republic' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q213' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_8de02b73b7bbb696c625cdb361f3738e.setContent(html_81ed532323a648527e2a9b0f2a3d1607);
+            
+        
+
+        circle_marker_25e44ed970f557f6056b3192b0c13542.bindPopup(popup_8de02b73b7bbb696c625cdb361f3738e)
+        ;
+
+        
+    
+    
+            var circle_marker_0251b206b9e3e04681da0e8a7e236f7d = L.circleMarker(
+                [56.0, 10.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_af74f392aabec4281db995a1872061ff = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6ba30c1be0801d5ac09e05e05bd812b6 = $(`<div id="html_6ba30c1be0801d5ac09e05e05bd812b6" style="width: 100.0%; height: 100.0%;">     <b>Denmark</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Dannebrog.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Denmark' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q35' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_af74f392aabec4281db995a1872061ff.setContent(html_6ba30c1be0801d5ac09e05e05bd812b6);
+            
+        
+
+        circle_marker_0251b206b9e3e04681da0e8a7e236f7d.bindPopup(popup_af74f392aabec4281db995a1872061ff)
+        ;
+
+        
+    
+    
+            var circle_marker_0cfd7f1b39414355993e92d7a58b28a0 = L.circleMarker(
+                [59.0, 26.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_0c23f4d308835ab7a15d27138ccb50e2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_81bf136bf35ff788f2fd99b7ad7dffc8 = $(`<div id="html_81bf136bf35ff788f2fd99b7ad7dffc8" style="width: 100.0%; height: 100.0%;">     <b>Estonia</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Estonia%20-%20Location%20Map%20%282013%29%20-%20EST%20-%20UNOCHA.svg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Estonia' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q191' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_0c23f4d308835ab7a15d27138ccb50e2.setContent(html_81bf136bf35ff788f2fd99b7ad7dffc8);
+            
+        
+
+        circle_marker_0cfd7f1b39414355993e92d7a58b28a0.bindPopup(popup_0c23f4d308835ab7a15d27138ccb50e2)
+        ;
+
+        
+    
+    
+            var circle_marker_bdfa4213cf30f154258421b25c45db38 = L.circleMarker(
+                [65.0, 27.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_d2d706bbf646b4117501fc157b18d3e4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e703be9ef687b0762082d1235e71d795 = $(`<div id="html_e703be9ef687b0762082d1235e71d795" style="width: 100.0%; height: 100.0%;">     <b>Finland</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Koli%20National%20Park%2C%20Finland%20%2852164943968%29.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Finland' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q33' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_d2d706bbf646b4117501fc157b18d3e4.setContent(html_e703be9ef687b0762082d1235e71d795);
+            
+        
+
+        circle_marker_bdfa4213cf30f154258421b25c45db38.bindPopup(popup_d2d706bbf646b4117501fc157b18d3e4)
+        ;
+
+        
+    
+    
+            var circle_marker_338f3cb6bb951a0e8ba7f7a1070f5ea8 = L.circleMarker(
+                [47.0, 2.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_79d0d16ab071d327c714b9bc66601902 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_85151e7bd6b16b04ed2389d5088667d3 = $(`<div id="html_85151e7bd6b16b04ed2389d5088667d3" style="width: 100.0%; height: 100.0%;">     <b>France</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Paris%20from%20the%20Arc%20de%20Triomphe%2C%2017%20October%202019.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/France' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q142' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_79d0d16ab071d327c714b9bc66601902.setContent(html_85151e7bd6b16b04ed2389d5088667d3);
+            
+        
+
+        circle_marker_338f3cb6bb951a0e8ba7f7a1070f5ea8.bindPopup(popup_79d0d16ab071d327c714b9bc66601902)
+        ;
+
+        
+    
+    
+            var circle_marker_f51e399869dc1dd937fb1abcabb73c25 = L.circleMarker(
+                [53.0, -8.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_8df8c4c9e490fa1373dbb752210cbccc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5624c394a9f00af043b839f89b68243 = $(`<div id="html_b5624c394a9f00af043b839f89b68243" style="width: 100.0%; height: 100.0%;">     <b>Ireland</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/000%20Irlanda%20harta.PNG' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Republic_of_Ireland' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q27' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_8df8c4c9e490fa1373dbb752210cbccc.setContent(html_b5624c394a9f00af043b839f89b68243);
+            
+        
+
+        circle_marker_f51e399869dc1dd937fb1abcabb73c25.bindPopup(popup_8df8c4c9e490fa1373dbb752210cbccc)
+        ;
+
+        
+    
+    
+            var circle_marker_816b227eb65975d30daead943e5d90bb = L.circleMarker(
+                [57.0, 25.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_ffd592e1c1c5ef75645cb1ae9cc86629 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fe0305c18dd8ebbf1b1d5ffae77f7509 = $(`<div id="html_fe0305c18dd8ebbf1b1d5ffae77f7509" style="width: 100.0%; height: 100.0%;">     <b>Latvia</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Satellite%20image%20of%20Latvia%20in%20March%202003.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Latvia' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q211' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_ffd592e1c1c5ef75645cb1ae9cc86629.setContent(html_fe0305c18dd8ebbf1b1d5ffae77f7509);
+            
+        
+
+        circle_marker_816b227eb65975d30daead943e5d90bb.bindPopup(popup_ffd592e1c1c5ef75645cb1ae9cc86629)
+        ;
+
+        
+    
+    
+            var circle_marker_92480174b91e4006536614233cfee737 = L.circleMarker(
+                [55.2, 24.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_346bccad0f4c0562cbf2b5ea7230c742 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0b1e23f375c85517fbec9c347fed02ad = $(`<div id="html_0b1e23f375c85517fbec9c347fed02ad" style="width: 100.0%; height: 100.0%;">     <b>Lithuania</b><br>     Model: Centralized<br><br>     <a href='https://en.wikipedia.org/wiki/Lithuania' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q37' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_346bccad0f4c0562cbf2b5ea7230c742.setContent(html_0b1e23f375c85517fbec9c347fed02ad);
+            
+        
+
+        circle_marker_92480174b91e4006536614233cfee737.bindPopup(popup_346bccad0f4c0562cbf2b5ea7230c742)
+        ;
+
+        
+    
+    
+            var circle_marker_043fa74c76061b9d098a9894a2e4950f = L.circleMarker(
+                [38.7, -9.183333333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_db79c902b416a92287e7a1f921b5d0d8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ba2a9d90111f6e3177f3a54b02fdaf5d = $(`<div id="html_ba2a9d90111f6e3177f3a54b02fdaf5d" style="width: 100.0%; height: 100.0%;">     <b>Portugal</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Portugal%20-%20Location%20Map%20%282013%29%20-%20PRT%20-%20UNOCHA.svg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Portugal' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q45' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_db79c902b416a92287e7a1f921b5d0d8.setContent(html_ba2a9d90111f6e3177f3a54b02fdaf5d);
+            
+        
+
+        circle_marker_043fa74c76061b9d098a9894a2e4950f.bindPopup(popup_db79c902b416a92287e7a1f921b5d0d8)
+        ;
+
+        
+    
+    
+            var circle_marker_7381b5cbbfbbfcd831c425829c75bf7a = L.circleMarker(
+                [54.6, -2.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_851b52ef59c9a3f318ec2123111f1ffa);
+        
+    
+        var popup_642b295ac3e4a2cb98b892ad45405abd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_42e5b67701388936562109cb4defe5a8 = $(`<div id="html_42e5b67701388936562109cb4defe5a8" style="width: 100.0%; height: 100.0%;">     <b>United Kingdom</b><br>     Model: Centralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Palace%20of%20Westminster%20from%20the%20dome%20on%20Methodist%20Central%20Hall.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/United_Kingdom' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q145' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_642b295ac3e4a2cb98b892ad45405abd.setContent(html_42e5b67701388936562109cb4defe5a8);
+            
+        
+
+        circle_marker_7381b5cbbfbbfcd831c425829c75bf7a.bindPopup(popup_642b295ac3e4a2cb98b892ad45405abd)
+        ;
+
+        
+    
+    
+            feature_group_851b52ef59c9a3f318ec2123111f1ffa.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            var feature_group_5578e1ee86c70b8794abd8d406580c7a = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_7d5cab97bd8628ff5c12a9cbcb50240c = L.circleMarker(
+                [48.0, 14.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_df23cdacaeda652f107aa9d0374e2ea4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f71dd962f951c5377862cf7c4583b516 = $(`<div id="html_f71dd962f951c5377862cf7c4583b516" style="width: 100.0%; height: 100.0%;">     <b>Austria</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Oesterreichisches%20Woerterbuch%2043.%20Auflage%20Deckel.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Austria' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q40' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_df23cdacaeda652f107aa9d0374e2ea4.setContent(html_f71dd962f951c5377862cf7c4583b516);
+            
+        
+
+        circle_marker_7d5cab97bd8628ff5c12a9cbcb50240c.bindPopup(popup_df23cdacaeda652f107aa9d0374e2ea4)
+        ;
+
+        
+    
+    
+            var circle_marker_9be7f80cd285aa0d205971f6e919bb0e = L.circleMarker(
+                [65.0, -19.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_f8af563a63daf264f5566b5dcff64f47 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b2c36969c78c8098bae9ca9398caca1e = $(`<div id="html_b2c36969c78c8098bae9ca9398caca1e" style="width: 100.0%; height: 100.0%;">     <b>Iceland</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Cloud-free%20Iceland%20ESA22181280%20%28cropped%29.jpeg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Iceland' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q189' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_f8af563a63daf264f5566b5dcff64f47.setContent(html_b2c36969c78c8098bae9ca9398caca1e);
+            
+        
+
+        circle_marker_9be7f80cd285aa0d205971f6e919bb0e.bindPopup(popup_f8af563a63daf264f5566b5dcff64f47)
+        ;
+
+        
+    
+    
+            var circle_marker_60634662d3ac1241e02785ba1bc51664 = L.circleMarker(
+                [42.5, 12.5],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_e052b568efa346dea6c65875a2abf61c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e99d2b309c0201938d8037903a852ece = $(`<div id="html_e99d2b309c0201938d8037903a852ece" style="width: 100.0%; height: 100.0%;">     <b>Italy</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Colosseo%202020.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Italy' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q38' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_e052b568efa346dea6c65875a2abf61c.setContent(html_e99d2b309c0201938d8037903a852ece);
+            
+        
+
+        circle_marker_60634662d3ac1241e02785ba1bc51664.bindPopup(popup_e052b568efa346dea6c65875a2abf61c)
+        ;
+
+        
+    
+    
+            var circle_marker_0e8b86743ce23d0cd398e2fe20a3d7dc = L.circleMarker(
+                [52.316666666, 5.55],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_91feb23249af10e53fb8e3a2122dc8eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_23c86db8eed42efddb725571ecb02444 = $(`<div id="html_23c86db8eed42efddb725571ecb02444" style="width: 100.0%; height: 100.0%;">     <b>Netherlands</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Karakteristieke%20boerderij%2C%20Aldlansdyk%20in%20Cornjum%2002.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Netherlands' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q55' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_91feb23249af10e53fb8e3a2122dc8eb.setContent(html_23c86db8eed42efddb725571ecb02444);
+            
+        
+
+        circle_marker_0e8b86743ce23d0cd398e2fe20a3d7dc.bindPopup(popup_91feb23249af10e53fb8e3a2122dc8eb)
+        ;
+
+        
+    
+    
+            var circle_marker_6a1c59516f0ae587663c7d13191d1c5f = L.circleMarker(
+                [65.0, 11.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_409c448a09255da7bfba5c3cb75c3972 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a0312ec446457c30ed7e92b2d91dba2b = $(`<div id="html_a0312ec446457c30ed7e92b2d91dba2b" style="width: 100.0%; height: 100.0%;">     <b>Norway</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Norway%20-%20Location%20Map%20%282013%29%20-%20NOR%20-%20UNOCHA.svg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Norway' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q20' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_409c448a09255da7bfba5c3cb75c3972.setContent(html_a0312ec446457c30ed7e92b2d91dba2b);
+            
+        
+
+        circle_marker_6a1c59516f0ae587663c7d13191d1c5f.bindPopup(popup_409c448a09255da7bfba5c3cb75c3972)
+        ;
+
+        
+    
+    
+            var circle_marker_0c7895554136e5f75916c90bc447cb85 = L.circleMarker(
+                [52.0, 19.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_b33b84ddc6c4c20b654d836fb2d94d51 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_449543bfbd015f7f8d056ce4d1c5ff5c = $(`<div id="html_449543bfbd015f7f8d056ce4d1c5ff5c" style="width: 100.0%; height: 100.0%;">     <b>Poland</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Warsaw%20Old%20Town%20Market%20Square%2010.JPG' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Poland' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q36' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_b33b84ddc6c4c20b654d836fb2d94d51.setContent(html_449543bfbd015f7f8d056ce4d1c5ff5c);
+            
+        
+
+        circle_marker_0c7895554136e5f75916c90bc447cb85.bindPopup(popup_b33b84ddc6c4c20b654d836fb2d94d51)
+        ;
+
+        
+    
+    
+            var circle_marker_ba989bbb64485c58afe03409bd3f9c70 = L.circleMarker(
+                [40.2, -3.5],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_ab0f695918761a34df4aeb9c5ccfd289 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_67d6a023826c48a9a3c254de105beb2c = $(`<div id="html_67d6a023826c48a9a3c254de105beb2c" style="width: 100.0%; height: 100.0%;">     <b>Spain</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Spain%20-%20Location%20Map%20%282013%29%20-%20ESP%20-%20UNOCHA.svg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Spain' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q29' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_ab0f695918761a34df4aeb9c5ccfd289.setContent(html_67d6a023826c48a9a3c254de105beb2c);
+            
+        
+
+        circle_marker_ba989bbb64485c58afe03409bd3f9c70.bindPopup(popup_ab0f695918761a34df4aeb9c5ccfd289)
+        ;
+
+        
+    
+    
+            var circle_marker_0c39ec857b0b68f287565699d32fe48a = L.circleMarker(
+                [61.0, 15.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_88bbc812832c363bcf05747a8ae36534 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0ac3951e0569f4ca9adcd8e58fdb5c33 = $(`<div id="html_0ac3951e0569f4ca9adcd8e58fdb5c33" style="width: 100.0%; height: 100.0%;">     <b>Sweden</b><br>     Model: Hybrid<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Sweden%20-%20Location%20Map%20%282013%29%20-%20SWE%20-%20UNOCHA.svg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Sweden' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q34' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_88bbc812832c363bcf05747a8ae36534.setContent(html_0ac3951e0569f4ca9adcd8e58fdb5c33);
+            
+        
+
+        circle_marker_0c39ec857b0b68f287565699d32fe48a.bindPopup(popup_88bbc812832c363bcf05747a8ae36534)
+        ;
+
+        
+    
+    
+            var circle_marker_6be4d572d855d55b673dff758199282f = L.circleMarker(
+                [46.798562, 8.231973],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5578e1ee86c70b8794abd8d406580c7a);
+        
+    
+        var popup_db0055d1cdc1e124e68a20d782fda1a1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2843f8f169a7374c69fc4dda2b403f98 = $(`<div id="html_2843f8f169a7374c69fc4dda2b403f98" style="width: 100.0%; height: 100.0%;">     <b>Switzerland</b><br>     Model: Hybrid<br><br>     <a href='https://en.wikipedia.org/wiki/Switzerland' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q39' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_db0055d1cdc1e124e68a20d782fda1a1.setContent(html_2843f8f169a7374c69fc4dda2b403f98);
+            
+        
+
+        circle_marker_6be4d572d855d55b673dff758199282f.bindPopup(popup_db0055d1cdc1e124e68a20d782fda1a1)
+        ;
+
+        
+    
+    
+            feature_group_5578e1ee86c70b8794abd8d406580c7a.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            var feature_group_304d2a20eeda45ae031954dd588256a6 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_bda68694981534ac9e4bde815911f1dd = L.circleMarker(
+                [50.641111111, 4.668055555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_304d2a20eeda45ae031954dd588256a6);
+        
+    
+        var popup_96f4ebbd2c612393a9891871a1fa03e0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_00176b2292140aae99135eca060bd563 = $(`<div id="html_00176b2292140aae99135eca060bd563" style="width: 100.0%; height: 100.0%;">     <b>Belgium</b><br>     Model: Decentralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Belgique%20-%20Bruxelles%20-%20Grand-Place%20-%20C%C3%B4t%C3%A9%20nord-est.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Belgium' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q31' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_96f4ebbd2c612393a9891871a1fa03e0.setContent(html_00176b2292140aae99135eca060bd563);
+            
+        
+
+        circle_marker_bda68694981534ac9e4bde815911f1dd.bindPopup(popup_96f4ebbd2c612393a9891871a1fa03e0)
+        ;
+
+        
+    
+    
+            var circle_marker_8eee87b037ac1cefaea2611476c9d892 = L.circleMarker(
+                [51.0, 10.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_304d2a20eeda45ae031954dd588256a6);
+        
+    
+        var popup_c2ada6291a6721750b6687c0ec8a321e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_57f896a0057452230f7e1b0b52accc19 = $(`<div id="html_57f896a0057452230f7e1b0b52accc19" style="width: 100.0%; height: 100.0%;">     <b>Germany</b><br>     Model: Decentralized<br><img src='http://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20Berlin%20%2832881394137%29.jpg' width='120'><br><br>     <a href='https://en.wikipedia.org/wiki/Germany' target='_blank'>Wikipedia</a><br>     <a href='https://www.wikidata.org/wiki/Q183' target='_blank'>Wikidata</a>     </div>`)[0];
+                popup_c2ada6291a6721750b6687c0ec8a321e.setContent(html_57f896a0057452230f7e1b0b52accc19);
+            
+        
+
+        circle_marker_8eee87b037ac1cefaea2611476c9d892.bindPopup(popup_c2ada6291a6721750b6687c0ec8a321e)
+        ;
+
+        
+    
+    
+            feature_group_304d2a20eeda45ae031954dd588256a6.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            var layer_control_e262094a60536c9bdda42f1aed841fe7_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a3febea9761ebfad2e916690c89b0952,
+                },
+                overlays :  {
+                    "Centralized" : feature_group_851b52ef59c9a3f318ec2123111f1ffa,
+                    "Hybrid" : feature_group_5578e1ee86c70b8794abd8d406580c7a,
+                    "Decentralized" : feature_group_304d2a20eeda45ae031954dd588256a6,
+                },
+            };
+            let layer_control_e262094a60536c9bdda42f1aed841fe7 = L.control.layers(
+                layer_control_e262094a60536c9bdda42f1aed841fe7_layers.base_layers,
+                layer_control_e262094a60536c9bdda42f1aed841fe7_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+
+        
+    
+            tile_layer_a3febea9761ebfad2e916690c89b0952.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            feature_group_851b52ef59c9a3f318ec2123111f1ffa.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            feature_group_5578e1ee86c70b8794abd8d406580c7a.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            feature_group_304d2a20eeda45ae031954dd588256a6.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            tile_layer_a3febea9761ebfad2e916690c89b0952.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            feature_group_851b52ef59c9a3f318ec2123111f1ffa.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            feature_group_5578e1ee86c70b8794abd8d406580c7a.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+    
+            feature_group_304d2a20eeda45ae031954dd588256a6.addTo(map_7af71a14eaf403543b9f1d4f88043b36);
+        
+</script>
+</html>
