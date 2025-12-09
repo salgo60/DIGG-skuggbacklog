@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Interaktiv roadmap - demo</title>
+  <link href="https://unpkg.com/vis-timeline@7.7.0/styles/vis-timeline-graph2d.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; display:flex; height:100vh; }
+    #left { width: 55%; padding:10px; box-sizing:border-box; }
+    #right { width: 45%; display:flex; flex-direction:column; }
+    #timeline { height:60%; border:1px solid #ddd; }
+    #map { height:40%; }
+    .panel { padding:8px; border:1px solid #eee; margin-top:8px; height:calc(100% - 68%); overflow:auto; }
+  </style>
+</head>
+<body>
+  <div id="left">
+    <h3>Roadmap (demo)</h3>
+    <div id="timeline"></div>
+    <div class="panel" id="filters">
+      <label>Filter tag: <input id="tagfilter" placeholder="e.g. infrastruktur"/></label>
+    </div>
+  </div>
+  <div id="right">
+    <div id="map"></div>
+    <div class="panel" id="details">Klicka på en milstolpe för detaljer.</div>
+  </div>
+
+  <script src="https://unpkg.com/vis-timeline@7.7.0/standalone/umd/vis-timeline-graph2d.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // Exempeldataset
+    const items = new vis.DataSet([
+      {id:1, content:'Datahub – design', start:'2026-03-01', end:'2026-04-01', group: 'Year2', tags:['infrastruktur']},
+      {id:2, content:'API Beta', start:'2026-06-01', tags:['infrastruktur','public']},
+      {id:3, content:'Semantik POC', start:'2027-02-15', tags:['semantik']}
+    ]);
+
+    const container = document.getElementById('timeline');
+    const options = {
+      stack: false,
+      selectable: true,
+      editable: {updateTime:true},
+      zoomKey: 'ctrlKey'
+    };
+    const timeline = new vis.Timeline(container, items, options);
+
+    // Map
+    const map = L.map('map').setView([59.33,18.07], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:''}).addTo(map);
+    const markers = {
+      1: L.marker([59.3293,18.0686]).addTo(map).bindPopup('Datahub – Stockholm'),
+      2: L.marker([57.7089,11.9746]).addTo(map).bindPopup('API Beta – Göteborg')
+    };
+
+    // Click handler
+    timeline.on('select', function (props) {
+      if (!props.items.length) return;
+      const id = props.items[0];
+      const it = items.get(id);
+      const d = document.getElementById('details');
+      d.innerHTML = `<h4>${it.content}</h4>
+                     <p><strong>Start:</strong> ${it.start || '—'}</p>
+                     <p><strong>Tags:</strong> ${(it.tags||[]).join(', ')}</p>
+                     <button onclick="zoomToMarker(${id})">Zoom to location</button>`;
+    });
+
+    window.zoomToMarker = function(id){
+      const m = markers[id];
+      if (m){ map.setView(m.getLatLng(), 12); m.openPopup(); }
+    };
+
+    // Simple filter
+    document.getElementById('tagfilter').addEventListener('input', function(e){
+      const v = e.target.value.trim();
+      if (!v) return timeline.setItems(items);
+      const filtered = items.get().filter(i => (i.tags||[]).includes(v));
+      timeline.setItems(filtered);
+    });
+  </script>
+</body>
+</html>
