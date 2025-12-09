@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="500" viewBox="0 0 1800 500">
+
+  <style>
+    .box { rx:22; ry:22; fill:white; stroke-width:3; }
+    .label { font-family: Arial, sans-serif; font-size:24px; font-weight:700; fill:#1a1a1a; text-anchor:middle; }
+    .sub { font-family: Arial, sans-serif; font-size:15px; fill:#333; text-anchor:middle; }
+    .arrow { fill:none; stroke-width:5; marker-end:url(#arrowhead); }
+
+    /* Line icon stroke */
+    .icon path, .icon circle, .icon rect, .icon line {
+      fill:none;
+      stroke-width:3;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+    }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto">
+      <polygon points="0 0, 14 6, 0 12" fill="#777"/>
+    </marker>
+  </defs>
+
+  <!-- ================= RIKSDAG ================= -->
+  <g transform="translate(40,80)">
+    <rect class="box" width="280" height="140" stroke="#4A90E2"/>
+    <!-- Icon: Parliament building (outline) -->
+    <g class="icon" transform="translate(95,20) scale(1)">
+      <path stroke="#4A90E2" d="M10 70h100M20 70V40h80v30M0 70h120v10H0z"/>
+      <rect x="45" y="20" width="30" height="20" stroke="#4A90E2"/>
+    </g>
+    <text class="label" x="140" y="100">RIKSDAG</text>
+    <text class="sub" x="140" y="125">Beslut / lagstiftning</text>
+  </g>
+
+  <path class="arrow" stroke="#4A90E2" d="M320 150 L420 150"/>
+
+  <!-- ================= MYNDIGHETSUPPDRAG ================= -->
+  <g transform="translate(420,80)">
+    <rect class="box" width="330" height="140" stroke="#9B59B6"/>
+    <!-- Icon: Folder/documents outline -->
+    <g class="icon" transform="translate(130,25) scale(1)">
+      <rect x="0" y="20" width="70" height="50" stroke="#9B59B6" rx="6"/>
+      <rect x="15" y="0" width="70" height="50" stroke="#9B59B6" rx="6"/>
+    </g>
+    <text class="label" x="165" y="100">MYNDIGHETSUPPDRAG</text>
+    <text class="sub" x="165" y="125">Regeringens uppdrag &amp; styrning</text>
+  </g>
+
+  <path class="arrow" stroke="#9B59B6" d="M750 150 L900 150"/>
+
+  <!-- ================= EU-KOPPLING ================= -->
+  <g transform="translate(900,80)">
+    <rect class="box" width="300" height="140" stroke="#16A085"/>
+    <!-- Icon: circle of stars (outline) -->
+    <g class="icon" transform="translate(125,25) scale(0.9)">
+      <circle cx="40" cy="40" r="30" stroke="#16A085"/>
+      <g stroke="#16A085">
+        <path d="M40 10l0 -4"/>
+        <path d="M65 20l3 -3"/>
+        <path d="M75 45l4 0"/>
+        <path d="M65 70l3 3"/>
+        <path d="M40 80l0 4"/>
+        <path d="M15 70l-3 3"/>
+        <path d="M5 45l-4 0"/>
+        <path d="M15 20l-3 -3"/>
+      </g>
+    </g>
+    <text class="label" x="150" y="100">EU-KOPPLING</text>
+    <text class="sub" x="150" y="125">Direktiv, förordningar, EU-rätt</text>
+  </g>
+
+  <path class="arrow" stroke="#16A085" d="M1200 150 L1350 150"/>
+
+  <!-- ================= GENOMFÖRANDE ================= -->
+  <g transform="translate(1350,80)">
+    <rect class="box" width="300" height="140" stroke="#27AE60"/>
+    <!-- Icon: gears (outline) -->
+    <g class="icon" transform="translate(115,25) scale(1)">
+      <circle cx="40" cy="40" r="18" stroke="#27AE60"/>
+      <circle cx="85" cy="50" r="12" stroke="#27AE60"/>
+    </g>
+    <text class="label" x="150" y="100">GENOMFÖRANDE</text>
+    <text class="sub" x="150" y="125">Myndigheter, kommuner, regioner</text>
+  </g>
+
+  <!-- Down arrow -->
+  <path class="arrow" stroke="#27AE60" d="M1500 220 L1500 310"/>
+
+  <!-- ================= KOSTNADER ================= -->
+  <g transform="translate(1250,310)">
+    <rect class="box" width="300" height="140" stroke="#E67E22"/>
+    <!-- Icon: coins outline -->
+    <g class="icon" transform="translate(110,35) scale(1)">
+      <ellipse cx="40" cy="20" rx="35" ry="15" stroke="#E67E22"/>
+      <ellipse cx="40" cy="40" rx="35" ry="15" stroke="#E67E22"/>
+    </g>
+    <text class="label" x="150" y="100">KOSTNADER</text>
+    <text class="sub" x="150" y="125">Budget, resurser, analys</text>
+  </g>
+
+  <path class="arrow" stroke="#E67E22" d="M1250 380 L1000 380"/>
+
+  <!-- ================= UPPFÖLJNING ================= -->
+  <g transform="translate(700,310)">
+    <rect class="box" width="260" height="140" stroke="#E74C3C"/>
+    <!-- Icon: magnifier outline -->
+    <g class="icon" transform="translate(100,30) scale(1)">
+      <circle cx="40" cy="40" r="22" stroke="#E74C3C"/>
+      <line x1="60" y1="60" x2="80" y2="80" stroke="#E74C3C"/>
+    </g>
+    <text class="label" x="130" y="100">UPPFÖLJNING</text>
+    <text class="sub" x="130" y="125">Utvärdering &amp; återrapportering</text>
+  </g>
+
+</svg>
