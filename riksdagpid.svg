@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="520" viewBox="0 0 2200 520">
+
+  <style>
+    .box { fill:#ffffff; stroke-width:3; rx:10; ry:10; }
+    .title { font-family:Arial, sans-serif; font-size:22px; font-weight:bold; fill:#111; text-anchor:middle; }
+    .pid { font-family:Arial, monospace; font-size:14px; fill:#444; text-anchor:middle; }
+    .arrow { fill:none; stroke-width:4; marker-end:url(#arrowhead); }
+    .rel { font-family:Arial, monospace; font-size:14px; fill:#333; text-anchor:middle; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <polygon points="0 0, 12 6, 0 12" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- RIKSDAG -->
+  <g transform="translate(40,120)">
+    <rect class="box" stroke="#4A90E2" width="320" height="120"/>
+    <text class="title" x="160" y="45">RIKSDAG (Thing)</text>
+    <text class="pid" x="160" y="80">PID: https://example.org/riksdag/123</text>
+  </g>
+
+  <!-- relation arrow -->
+  <path class="arrow" stroke="#4A90E2" d="M360 180 L520 180"/>
+  <text class="rel" x="440" y="165">relation:hasMandate</text>
+
+  <!-- MYNDIGHETSUPPDRAG -->
+  <g transform="translate(520,120)">
+    <rect class="box" stroke="#9B59B6" width="360" height="120"/>
+    <text class="title" x="180" y="45">MYNDIGHETSUPPDRAG (Thing)</text>
+    <text class="pid" x="180" y="80">PID: https://data.gov.se/mandate/456</text>
+  </g>
+
+  <path class="arrow" stroke="#9B59B6" d="M880 180 L1060 180"/>
+  <text class="rel" x="970" y="165">relation:alignedWith</text>
+
+  <!-- EU-KOPPLING -->
+  <g transform="translate(1060,120)">
+    <rect class="box" stroke="#16A085" width="320" height="120"/>
+    <text class="title" x="160" y="45">EU-KOPPLING (Thing)</text>
+    <text class="pid" x="160" y="80">PID: http://eur-lex.europa.eu/.../789</text>
+  </g>
+
+  <path class="arrow" stroke="#16A085" d="M1380 180 L1560 180"/>
+  <text class="rel" x="1470" y="165">relation:implements</text>
+
+  <!-- GENOMFÖRANDE -->
+  <g transform="translate(1560,120)">
+    <rect class="box" stroke="#27AE60" width="340" height="120"/>
+    <text class="title" x="170" y="45">GENOMFÖRANDE (Thing)</text>
+    <text class="pid" x="170" y="80">PID: https://org.example.se/process/999</text>
+  </g>
+
+  <!-- Down arrow -->
+  <path class="arrow" stroke="#27AE60" d="M1730 240 L1730 330"/>
+  <text class="rel" x="1730" y="255">relation:costs</text>
+
+  <!-- KOSTNADER -->
+  <g transform="translate(1500,330)">
+    <rect class="box" stroke="#E67E22" width="360" height="120"/>
+    <text class="title" x="180" y="45">KOSTNADER (Thing)</text>
+    <text class="pid" x="180" y="80">PID: https://stats.example.se/cost/2024</text>
+  </g>
+
+  <path class="arrow" stroke="#E67E22" d="M1500 390 L1200 390"/>
+  <text class="rel" x="1350" y="375">relation:evaluatedBy</text>
+
+  <!-- UPPFÖLJNING -->
+  <g transform="translate(880,330)">
+    <rect class="box" stroke="#E74C3C" width="300" height="120"/>
+    <text class="title" x="150" y="45">UPPFÖLJNING (Thing)</text>
+    <text class="pid" x="150" y="80">PID: https://eval.example.org/report/42</text>
+  </g>
+
+</svg>

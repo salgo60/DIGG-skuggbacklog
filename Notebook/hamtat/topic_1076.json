@@ -1,0 +1,559 @@
+{
+  "cid": 30,
+  "lastposttime": 1765457090621,
+  "mainPid": 5459,
+  "postcount": 1,
+  "slug": "1076/digg-efter-sju-år-sveriges-digitalisering-problemet-är-inte-att-vi-saknar-strategier-utan-att-vi-saknar-struktur",
+  "tid": 1076,
+  "timestamp": 1765457090621,
+  "title": "DIGG efter sju år: Sveriges digitalisering: Problemet är inte att vi saknar strategier – utan att vi saknar struktur",
+  "uid": 1802,
+  "viewcount": 9,
+  "postercount": 1,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "DIGG efter sju år: Sveriges digitalisering: Problemet är inte att vi saknar strategier – utan att vi saknar struktur",
+  "timestampISO": "2025-12-11T12:44:50.621Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-12-11T12:44:50.621Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "teaserPid": null,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Med dagens AI-verktyg går det snabbt att jämföra myndigheters förmåga med andra länder och aktörer. Tyvärr blir bilden för Sverige mer entydig ju fler indikatorer man granskar: vi har strukturella problem i hela det offentliga digitaliseringslandskapet som inte adresseras.</p>\n<p dir=\"auto\">Regeringen beskriver sammanslagningen av PTS och DIGG som ett sätt att <em><a href=\"https://www.digg.se/om-oss/nyheter/ovriga-nyheter-fran-digg/nyheter/2025-09-22-regeringens-besked-digg-och-pts-gar-samman#:~:text=I%20budgetpropositionen%20f%C3%B6r%202026%20framg%C3%A5r%20att%20Myndigheten%20f%C3%B6r,syfte%20att%20skapa%20en%20st%C3%A4rkt%20myndighet%20f%C3%B6r%20digitaliseringsfr%C3%A5gor.\" rel=\"nofollow ugc\">påbörja uppbyggnaden av en större gemensam myndighet för Sveriges digitalisering</a></em>. Frågan är om man verkligen har förstått grundproblemet – <strong>eller om man förstärker det.</strong></p>\n<p dir=\"auto\"><strong>1. Indikationerna är samstämmiga: Sverige halkar efter</strong><br />\nAI-genererade analyser fångar i princip samma brister som OECD, EU och Digital Nations redan påpekat:</p>\n<ul>\n<li>Svag interoperabilitet</li>\n<li>Låg datamognad</li>\n<li>Avsaknad av nationell digital infrastruktur</li>\n<li>Ett decentraliserat ansvar som gör att ingenting blir genomfört</li>\n</ul>\n<p dir=\"auto\">Exempel:</p>\n<ul>\n<li>\n<p dir=\"auto\">Issue <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1544\" rel=\"nofollow ugc\">#1544</a>: Analysen pekar på att Sverige inte är på väg att bli bäst i världen på digitalisering – snarare tvärtom.</p>\n</li>\n<li>\n<p dir=\"auto\">Issue <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1527\" rel=\"nofollow ugc\">#1527</a>: Jämförelse med övriga Norden visar tydligt att Sverige tappar tempo.</p>\n</li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765453597571-d5769c0b-49fd-432a-be36-3b81138b6a7d-image.png\" alt=\"d5769c0b-49fd-432a-be36-3b81138b6a7d-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765442609777-6c47ba48-829e-4c70-8ed9-1efe418b6a18-image.png\" alt=\"6c47ba48-829e-4c70-8ed9-1efe418b6a18-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>2. Dataportalen är ett illustrativt exempel på systemfelet</strong><br />\nDataportalen lanserades 2012 och bär fortfarande strukturen av en metadata-dump, inte ett nav för nationell data-infrastruktur.</p>\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1543\" rel=\"nofollow ugc\">Issue #1543</a> sammanfattar problemen:<br />\nA. Engångsleveranser – data hålls inte aktuellt<br />\nB. Fokus på metadata istället för data<br />\nC. EDP-integration förstärker problemet eftersom EDP inte löser avsaknaden av API-infrastruktur och kontinuerliga datatjänster</p>\n<ul>\n<li>se även \"<a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/76\" rel=\"nofollow ugc\">Ett Ekosystem måste skapas... #76</a>\" 2022-10-22</li>\n</ul>\n<p dir=\"auto\">Trots att området varit känt i mer än tio år saknas fortfarande:</p>\n<ul>\n<li>API-first-krav</li>\n<li>Nationella datamodeller</li>\n<li>Kvalitetskrav på maskinläsbarhet</li>\n<li>Gemensamma versionerade datatjänster</li>\n<li>Implementering av FAIR data-principer och persistenta unika identifierare</li>\n</ul>\n<p dir=\"auto\">Detta är inte tekniska detaljer – det är grundläggande förmåga.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765456719021-a9187f9e-6062-4678-a7b8-c0e73769201c-image-resized.png\" alt=\"a9187f9e-6062-4678-a7b8-c0e73769201c-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Tragiskt exempel är hur DIGG själva arbetar se Myndighetsanalys av Myndigheten för digital förvaltning (Digg) där Statskontoret <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/610\" rel=\"nofollow ugc\">konstatera om dom INTE jobbar enligt sitt regleringsbrev #610</a></p>\n<ul>\n<li>\"<a href=\"https://www.statskontoret.se/publicerat/publikationer/publikationer-2023/myndighetsanalys-av-myndigheten-for-digital-forvaltning-digg/\" rel=\"nofollow ugc\">Digg har däremot inte lyckats etablera hållbara strukturer för bland annat kompetensförsörjning, verksamhetsplanering och resultatredovisning</a>.\"</li>\n<li>\"Det gör också att det inte är möjligt att bedöma myndighetens resultat och <strong>inte heller dra några tydliga slutsatser</strong> om hur Digg fullgör sitt uppdrag.\"\n<ul>\n<li>hur skall man då kunna styra upp övriga Sveriges myndigheter</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>3. Vinnova och andra satsningar förstärker fragmenteringen</strong>.<br />\nIssue <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1538\" rel=\"nofollow ugc\">#1538</a> visar hur stora belopp hamnar hos konsulter som levererar PDF-specifikationer i stället för fungerande datatjänster NSÖD, Dataverkstaden... . Det saknas styrning som säkerställer att offentligt finansierade projekt faktiskt ökar Sveriges nationella interoperabilitet och API-förmåga.</p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765454014537-06d036aa-23c6-48b2-b67d-2f119cb16163-image-resized.png\" alt=\"06d036aa-23c6-48b2-b67d-2f119cb16163-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><strong>4. DIGGs egen förklaring – och varför den inte räcker</strong><br />\nNär skillnaderna mot länder som Estland blir uppenbara återkommer en standardförklaring:</p>\n<blockquote>\n<p dir=\"auto\">“Vi kan inte styra över andra offentliga aktörer.” (Issue #<a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1537\" rel=\"nofollow ugc\">1537</a>)</p>\n</blockquote>\n<p dir=\"auto\">Och där står vi.</p>\n<ul>\n<li>Ingen aktör känner sig ha mandat att sätta krav, införa standarder eller driva nationell infrastruktur.</li>\n<li>Ingen kan kräva API-first eller öppna datamodeller.</li>\n<li><strong>Ingenting tvingar fram förändring.</strong> 7 år ung 2 miljarder utan leverans ...</li>\n</ul>\n<p dir=\"auto\">Sammantaget blir slutsatsen tyvärr lika tröttsam som förutsägbar: <strong>vi vet vad som är fel, vi har vetat det länge, och ändå fortsätter allt som förut</strong> inget tyder på att saker blir bättre</p>\n",
+      "pid": 5459,
+      "tid": 1076,
+      "timestamp": 1765457090621,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-11T12:44:50.621Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 19,
+        "postcount": 227,
+        "topiccount": 15,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1765458375587,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-11T13:06:15.587Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#AB4642",
+    "cid": 30,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Här samlar vi information om de byggblock som utgör [Ena - Sveriges digitala infrastruktur. ](https:&#x2F;&#x2F;www.digg.se&#x2F;ledning-och-samordning&#x2F;ena---sveriges-digitala-infrastruktur)\n\nI denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,\nRespektive byggblock visas som underkategorier till denna kategori. \n",
+    "descriptionParsed": "<p dir=\"auto\">Här samlar vi information om de byggblock som utgör <a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur\" rel=\"nofollow ugc\">Ena - Sveriges digitala infrastruktur. </a></p>\n<p dir=\"auto\">I denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,<br />\nRespektive byggblock visas som underkategorier till denna kategori.</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Digital Infrastruktur ",
+    "numRecentReplies": 1,
+    "order": 3,
+    "parentCid": 0,
+    "post_count": 120,
+    "slug": "30/digital-infrastruktur",
+    "subCategoriesPerPage": 15,
+    "topic_count": 21,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 120,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": true,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1076",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1076.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1076",
+  "bodyClass": "page-topic page-topic-1076 template-topic page-topic-category-30 page-topic-category-digital-infrastruktur parent-category-30 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "DIGG efter sju år: Sveriges digitalisering: Problemet är inte att vi saknar strategier – utan att vi saknar struktur"
+        },
+        {
+          "name": "description",
+          "content": "Med dagens AI-verktyg går det snabbt att jämföra myndigheters förmåga med andra länder och aktörer. Tyvärr blir bilden för Sverige mer entydig ju fler indikatorer man granskar: vi har strukturella problem i hela det offentliga digitaliseringslandskapet so..."
+        },
+        {
+          "property": "og:title",
+          "content": "DIGG efter sju år: Sveriges digitalisering: Problemet är inte att vi saknar strategier – utan att vi saknar struktur"
+        },
+        {
+          "property": "og:description",
+          "content": "Med dagens AI-verktyg går det snabbt att jämföra myndigheters förmåga med andra länder och aktörer. Tyvärr blir bilden för Sverige mer entydig ju fler indikatorer man granskar: vi har strukturella problem i hela det offentliga digitaliseringslandskapet so..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-12-11T12:44:50.621Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-12-11T12:44:50.621Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Digital Infrastruktur "
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765454014537-06d036aa-23c6-48b2-b67d-2f119cb16163-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765454014537-06d036aa-23c6-48b2-b67d-2f119cb16163-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2620"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1290"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765456719021-a9187f9e-6062-4678-a7b8-c0e73769201c-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765456719021-a9187f9e-6062-4678-a7b8-c0e73769201c-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "2378"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1342"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765442609777-6c47ba48-829e-4c70-8ed9-1efe418b6a18-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765442609777-6c47ba48-829e-4c70-8ed9-1efe418b6a18-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1810"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1044"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765453597571-d5769c0b-49fd-432a-be36-3b81138b6a7d-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1765453597571-d5769c0b-49fd-432a-be36-3b81138b6a7d-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1656"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1564"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1076",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1076/digg-efter-sju-år-sveriges-digitalisering-problemet-är-inte-att-vi-saknar-strategier-utan-att-vi-saknar-struktur",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1076.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/30/digital-infrastruktur"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/magnus-sälgö"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}

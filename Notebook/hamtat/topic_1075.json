@@ -1,0 +1,957 @@
+{
+  "cid": 30,
+  "lastposttime": 1765113595764,
+  "mainPid": 5448,
+  "postcount": 5,
+  "slug": "1075/dataset-digg-forum",
+  "tid": 1075,
+  "timestamp": 1764911169609,
+  "title": "Dataset DIGG forum",
+  "uid": 1802,
+  "viewcount": 121,
+  "postercount": 2,
+  "teaserPid": 5452,
+  "deleted": 0,
+  "locked": 0,
+  "pinned": 0,
+  "pinExpiry": 0,
+  "upvotes": 0,
+  "downvotes": 0,
+  "deleterUid": 0,
+  "titleRaw": "Dataset DIGG forum",
+  "timestampISO": "2025-12-05T05:06:09.609Z",
+  "scheduled": false,
+  "lastposttimeISO": "2025-12-07T13:19:55.764Z",
+  "pinExpiryISO": "",
+  "votes": 0,
+  "tags": [],
+  "thumbs": [],
+  "posts": [
+    {
+      "content": "<p dir=\"auto\">Jag gjorde ett snabbt försök att spara diskussionerna ifall någon vill återskapa / analyser varför det blir som det blir och vilka <strong>early warnings</strong> tecken man skall leta efter i framtiden i dialogen om öppna data...</p>\n<ul>\n<li><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/tree/master/Notebook/hamtat\" rel=\"nofollow ugc\">trådar</a> / <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/blob/master/Notebook/forum_data.json\" rel=\"nofollow ugc\">json</a> - <a href=\"https://raw.githubusercontent.com/salgo60/DIGG-skuggbacklog/refs/heads/master/Notebook/forum_data.json\" rel=\"nofollow ugc\">raw</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910894259-bc69f1dc-d767-4b14-ba4c-e1f80308c12d-image.png\" alt=\"bc69f1dc-d767-4b14-ba4c-e1f80308c12d-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\">Testade lite snabbt att skapa lite olika grafer <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1482\" rel=\"nofollow ugc\">1482</a></p>\n<ul>\n<li>Jag har länge funderat över varför DIGG tog på sig rollen att mest driva att vara forumadmin och raderade inlägg med personnamn.</li>\n<li>borde man jobbat mer aktivt med att fånga upp om diskussionen speglade att saker inte händer i den takt vi vill om Sverige skall bli bäst i världen på Digialisering dvs. ha en Dashboard \"<a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1489\" rel=\"nofollow ugc\">Dashboard: ”Early Warning – Mognad i Sveriges öppna data‑diskussioner</a>”</li>\n</ul>\n<p dir=\"auto\"><strong>OBS varning AI genererade grafer och tankar</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910417152-b392dc93-d042-4bf9-9358-84ff25a755d3-image.png\" alt=\"b392dc93-d042-4bf9-9358-84ff25a755d3-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910430223-53d7ac55-dd10-4742-84bd-8a12d849a91b-image.png\" alt=\"53d7ac55-dd10-4742-84bd-8a12d849a91b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910442333-d2c2c2a1-30b9-4b73-9c4a-b6a03d59248b-image.png\" alt=\"d2c2c2a1-30b9-4b73-9c4a-b6a03d59248b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910454229-0636a79d-37d8-4658-ba18-23e06b233bcf-image.png\" alt=\"0636a79d-37d8-4658-ba18-23e06b233bcf-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910477965-8bbe4fee-91ba-4d56-85ac-ae070fd2fdd8-image.png\" alt=\"8bbe4fee-91ba-4d56-85ac-ae070fd2fdd8-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910505325-5121f3c7-c975-4028-841d-cd03f8f23120-image.png\" alt=\"5121f3c7-c975-4028-841d-cd03f8f23120-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910523588-9eeaa800-26b2-4430-ab04-f17f6be90bec-image.png\" alt=\"9eeaa800-26b2-4430-ab04-f17f6be90bec-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910548205-d85f106e-0d13-434f-b582-3e1a9a1433bb-image.png\" alt=\"d85f106e-0d13-434f-b582-3e1a9a1433bb-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910559356-3d2f05c5-0af1-440f-bef6-c45b78b87b08-image.png\" alt=\"3d2f05c5-0af1-440f-bef6-c45b78b87b08-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764910573645-78e83c24-ad33-4073-9490-961270d17bdd-image.png\" alt=\"78e83c24-ad33-4073-9490-961270d17bdd-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5448,
+      "tid": 1075,
+      "timestamp": 1764911169609,
+      "uid": 1802,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-05T05:06:09.609Z",
+      "editedISO": "",
+      "index": 0,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 19,
+        "postcount": 227,
+        "topiccount": 15,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1765458375587,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-11T13:06:15.587Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h4>AI Tankar att lägga diskussionerna på plattformar som Linked in och Facebook</h4>\n<ul>\n<li>se även diskussion från 2021 \"<a href=\"https://community.dataportal.se/topic/199/hur-andra-l%C3%A4nders-myndigheter-ser-p%C3%A5-att-publicera-p%C3%A5-sociala-medier?_=1764912137168\">Hur andra länders myndigheter ser på att publicera på sociala medier</a>\"</li>\n</ul>\n<p dir=\"auto\">DIGG:s forum fick aldrig riktigt någon fart under fyra år, troligen för att målgruppen inte hade vana eller intresse av att diskutera öppna data där. Om en diskussion uppstår idag hamnar den ofta på sociala medier, där flera myndigheter redan är aktiva. Det innebär dock risker som fragmenterad dialog och bristande långsiktighet. nedan <strong>hur AI tänker</strong></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911587435-a349eca4-0b33-4a5e-b0b9-b72b3d049fb1-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911601420-7fe5ac00-477a-4e98-bc1c-2a9f19ea0db1-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911614905-6dc83214-bcca-436e-a6c1-bb5ba953edb5-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911632400-541fd86a-e7ec-4bf9-85da-7cc008e74c79-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911657790-4c8f604b-599f-44f5-8f2d-cf06b14f86ec-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911670813-2ed50066-54a4-4fa0-8574-a8dca018096b-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911687530-c58e77c3-1e76-4285-9128-08ead0071aa7-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911702211-b3a6b51d-7983-4cf6-8eef-b04ee99bc925-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911724183-beeaabc6-1346-4d98-889b-a86cea068a72-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911738034-3620b6a3-dbd0-43c5-97be-a52b26eeb0d6-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1764911877252-daa489b2-71d4-45b6-9b6b-55732120e231-image.png\" alt=\"image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5449,
+      "tid": 1075,
+      "timestamp": 1764912313454,
+      "uid": 1802,
+      "downvotes": 0,
+      "upvotes": 1,
+      "deleted": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 1,
+      "timestampISO": "2025-12-05T05:25:13.454Z",
+      "editedISO": "",
+      "index": 1,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 19,
+        "postcount": 227,
+        "topiccount": 15,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1765458375587,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-11T13:06:15.587Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<h2>Lite AI analyser av DIGG forums inlägg och koppling EU vokabulär/ infrastruktur</h2>\n<p dir=\"auto\"><strong>Tanken</strong> Teknisk skuld är inte trasig kod – <strong>det är samtalen vi aldrig har</strong>.<br />\nNär metadata, PID, DCAT‑fält och EU‑vokabulärer inte diskuteras byggs en tyst skuld som stoppar skalbar öppna‑data‑infrastruktur</p>\n<ul>\n<li><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1501\" rel=\"nofollow ugc\">#1501 <strong>Tema Most people think technical debt lives in code. It doesn’t</strong>.</a><br />\nThe most dangerous technical debt lives in conversations people are afraid to have\n<ul>\n<li><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/blob/master/Notebook/1501_DIGG_forum_tech_debt.ipynb\" rel=\"nofollow ugc\">Notebook</a>\n<ul>\n<li><a href=\"https://raw.githubusercontent.com/salgo60/DIGG-skuggbacklog/refs/heads/master/Notebook/forum_data.json\" rel=\"nofollow ugc\">data</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Citat <em>After decades in engineering, I’ve seen systems survive bad code, outdated tooling, and architectural mistakes. But I’ve never seen an organization survive, unspoken concerns, unresolved conflicts, hidden assumptions, silent disagreement, or leaders who don’t want to hear the truth</em></p>\n<p dir=\"auto\"><em><strong>Here’s the paradox: Fixing code is easy. Fixing silence is not.</strong></em></p>\n<hr />\n<p dir=\"auto\"><a href=\"https://github.com/salgo60/DIGG-skuggbacklog/blob/master/Notebook/1501_DIGG_forum_tech_debt.ipynb\" rel=\"nofollow ugc\">Analyser föreslagna för att visualisera detta</a></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057176069-ad307b75-975e-49a0-a683-f557c10dd203-image.png\" alt=\"ad307b75-975e-49a0-a683-f557c10dd203-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057244773-e5cf13eb-258e-4b3c-9b09-29354688b8d7-image-resized.png\" alt=\"e5cf13eb-258e-4b3c-9b09-29354688b8d7-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057257870-589449f4-face-4c89-99fa-b391fd5ee390-image-resized.png\" alt=\"589449f4-face-4c89-99fa-b391fd5ee390-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057304047-c5a7c473-3aa2-4840-9315-6f75829c2335-image-resized.png\" alt=\"c5a7c473-3aa2-4840-9315-6f75829c2335-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057317071-8c474ff9-ef64-4629-9e77-168e1da0446b-image-resized.png\" alt=\"8c474ff9-ef64-4629-9e77-168e1da0446b-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057333077-b61dfe31-8e73-4fb6-a80d-28ee2e483a4f-image.png\" alt=\"b61dfe31-8e73-4fb6-a80d-28ee2e483a4f-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057342476-7df9db49-ba78-4c03-ab4a-4379cdfcabca-image.png\" alt=\"7df9db49-ba78-4c03-ab4a-4379cdfcabca-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057367199-e6ae1892-f746-4a60-a369-cbc198d0e516-image-resized.png\" alt=\"e6ae1892-f746-4a60-a369-cbc198d0e516-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765057457683-525e60fc-91d1-4e62-923e-66f5d3986ae2-image.png\" alt=\"525e60fc-91d1-4e62-923e-66f5d3986ae2-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5450,
+      "tid": 1075,
+      "timestamp": 1765057897868,
+      "uid": 1802,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": true,
+        "users": [
+          {
+            "uid": 1715,
+            "username": "lmdaniel",
+            "userslug": "lmdaniel",
+            "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+            "fullname": "Daniel Regemar",
+            "displayname": "lmdaniel",
+            "icon:text": "L",
+            "icon:bgColor": "#795548"
+          }
+        ],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 1,
+        "timestampISO": "2025-12-07T08:42:16.312Z"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-06T21:51:37.868Z",
+      "editedISO": "",
+      "index": 2,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 19,
+        "postcount": 227,
+        "topiccount": 15,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1765458375587,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-11T13:06:15.587Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/1802\">@Magnus-Sälgö</a> sa i <a href=\"/post/5450\">Dataset DIGG forum</a>:</p>\n<blockquote>\n<p dir=\"auto\">visualisera detta</p>\n</blockquote>\n<p dir=\"auto\">Vilka sorgliga grafer som visar den nedåtgående trenden.</p>\n",
+      "pid": 5451,
+      "tid": 1075,
+      "timestamp": 1765096936312,
+      "toPid": "5450",
+      "uid": 1715,
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "edited": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-07T08:42:16.312Z",
+      "editedISO": "",
+      "index": 3,
+      "parent": {
+        "username": "Magnus Sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "user": {
+        "uid": 1715,
+        "username": "lmdaniel",
+        "userslug": "lmdaniel",
+        "reputation": 37,
+        "postcount": 85,
+        "topiccount": 10,
+        "picture": "/assets/uploads/profile/1715-profileavatar-1718005744305.jpeg",
+        "signature": "<p dir=\"auto\">Daniel Regemar<br />\nRegional geodatasamordnare<br />\nLantmäteriet</p>\n",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1765462243335,
+        "groupTitle": "[\"\"]",
+        "mutedUntil": 0,
+        "displayname": "lmdaniel",
+        "groupTitleArray": [
+          ""
+        ],
+        "icon:text": "L",
+        "icon:bgColor": "#795548",
+        "lastonlineISO": "2025-12-11T14:10:43.335Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "editor": null,
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": false,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    },
+    {
+      "content": "<blockquote>\n<p dir=\"auto\">Vilka sorgliga grafer som visar den nedåtgående trenden.</p>\n</blockquote>\n<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/62\">@Maria_Dalhage</a> effekten <img src=\"https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/android/1f609.png?v=3bouuhghll0\" class=\"not-responsive emoji emoji-android emoji--wink\" style=\"height:23px;width:auto;vertical-align:middle\" title=\";-)\" alt=\"😉\" /> även om det var ett galet flyttande av forum inlägg på hennes tid istället för att ha en vettig backlog så hände något med forumet och NOSAD var ett försök som tyvärr inte enligt mig hade en tillräckligt visionär ambition <a href=\"https://github.com/salgo60/NOSAD-POC-Wikidata\" rel=\"nofollow ugc\">salgo60/NOSAD-POC-Wikidata</a>....</p>\n<ul>\n<li>exempel <a href=\"https://oswald.wikibase.cloud/query/embed.html#%23title%3A%20Lista%20f%C3%B6rel%C3%A4sningar%20i%20omv%C3%A4nd%20tidsordning%20med%20ID%2C%20titel%2C%20videol%C3%A4nk%20osv.%0A%23%20https%3A%2F%2Fbeyond-notability.wikibase.cloud%2Fwiki%2FProject%3ASPARQL%2Fexamples%0APREFIX%20wd%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fentity%2F%3E%0APREFIX%20wds%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fentity%2Fstatement%2F%3E%0APREFIX%20wdv%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fvalue%2F%3E%0APREFIX%20wdt%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0APREFIX%20p%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2F%3E%0APREFIX%20ps%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2Fstatement%2F%3E%0APREFIX%20pq%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2Fqualifier%2F%3E%0A%23%202022-w42-7%0ASELECT%0A%3Fdt%20%3Fsess%20%3FsessLabel%20%3Fagenda%20%3Fstart%0A%3Fpres%20%3FpresLabel%20%3Forg%20%3ForgLabel%20%3Fspkr%20%3FspkrLabel%0A%23%20%3Ft%20%3Ft0%20%3Ftest%20%3Fvurl%20%3Fytid%0A%3Fvurl_t%20%3Fyturl_t%0AWHERE%20%7B%0A%20%20%3Fpres%20wdt%3AP12%20wd%3AQ157%20.%20%23%20a%20Presentation%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP14%20%3Forg%20.%7D%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP20%20%3Fsess%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP22%20%3Fdt%20.%7D%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP23%20%3Fstart%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP16%20%3Fvurl%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP21%20%3Fytid%20.%7D%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP13%20%3Fspkr%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP17%20%3Fagenda%20.%7D%0A%20%20%23%20BIND%20expressions%20referring%20to%20variables%20need%20to%20be%20outside%20OPTIONAL%20for%20some%20reason%3F%0A%20%20BIND(COALESCE(%3Fstart%2C%200)%20AS%20%3Ft0).%0A%23%20%20%20BIND(IF(%3Ft0%20%3E%203000%2C%20%22late%22%2C%20%22early%22)%20AS%20%3Ftest).%0A%20%20BIND(IRI(CONCAT(STR(%3Fvurl)%2C%20IF(%3Ft0%20%3E%200%2C%20CONCAT(%22%23t%3D%22%2C%20STR(%3Ft0))%2C%20%22%22)))%20AS%20%3Fvurl_t)%20.%0A%20%20BIND(IRI(CONCAT(%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D%22%2C%20%3Fytid%2C%20IF(%3Ft0%20%3E%200%2C%20CONCAT(%22%23t%3D%22%2C%20STR(%3Ft0))%2C%20%22%22)))%20AS%20%3Fyturl_t)%20.%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Csv%2Cno%2Cen-gb%2Cen%22.%0A%20%20%7D%0A%7D%0AORDER%20BY%20DESC(%3Fdt)%20%3FsessLabel%20(!BOUND(%3Fstart))%20%3Fstart%20%3FpresLabel%0A%23GROUP%20BY%20%3FpLabel%20%3FvLabel%20%0A%23ORDER%20BY%20DESC(%3Fcount)\" rel=\"nofollow ugc\">OSWALD POC</a> som <a class=\"plugin-mentions-user plugin-mentions-a\" href=\"https://community.dataportal.se/uid/125\">@jonor</a> skapade på en vecka utan förkunskaper -  visar hur NOSAD kunde jobba med länkade data - <a href=\"https://oswald.wikibase.cloud/wiki/NOSAD-POC\" rel=\"nofollow ugc\">mer SPARQL</a></li>\n</ul>\n<p dir=\"auto\"><strong>Frågar du mig så är det inte många rätt... och om 5 år skapas nog nästa Digitaliseringsmyndighet</strong></p>\n<ul>\n<li>jag var på Almedalsveckan 2022 och ställde frågor till DIGG och kände direkt redflags...</li>\n<li>bara detta att vi inte kopplar ihop Regleringsbrev med utfall som öppen data är fel... <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1510\" rel=\"nofollow ugc\">10 minuters test med ChatGPT #1510</a></li>\n<li>var är den digitala visionen<br />\n<img src=\"/assets/uploads/files/1765111750285-5a795980-ddbb-4635-96da-2a394ce09ef5-image.png\" alt=\"5a795980-ddbb-4635-96da-2a394ce09ef5-image.png\" class=\" img-fluid img-markdown\" /></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765111775873-a10b00a6-008a-42e5-b2b0-e0803aa4ac53-image.png\" alt=\"a10b00a6-008a-42e5-b2b0-e0803aa4ac53-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765111810200-be18ef5b-20d6-4f52-8f09-75dc331b15de-image.png\" alt=\"be18ef5b-20d6-4f52-8f09-75dc331b15de-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765111824318-b8f7b856-5d74-4294-98dc-cae96f2c5a6d-image.png\" alt=\"b8f7b856-5d74-4294-98dc-cae96f2c5a6d-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li>gör vi inte om <a href=\"https://github.com/salgo60/DIGG-skuggbacklog/issues/1474\" rel=\"nofollow ugc\">samma mistag hela tiden #1474</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765111880982-e39d1079-2704-4bb0-8937-8cf16eb48f6d-image.png\" alt=\"e39d1079-2704-4bb0-8937-8cf16eb48f6d-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765111925934-7ff2651a-386c-41d3-acaa-a9bb64d6ebd5-image.png\" alt=\"7ff2651a-386c-41d3-acaa-a9bb64d6ebd5-image.png\" class=\" img-fluid img-markdown\" /></p>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765111939044-1f6c9c89-69a0-47d4-aeac-6a5a5232bdfa-image.png\" alt=\"1f6c9c89-69a0-47d4-aeac-6a5a5232bdfa-image.png\" class=\" img-fluid img-markdown\" /></p>\n<ul>\n<li><a href=\"https://community.dataportal.se/topic/1068/lagar-som-bromsar-framtiden-sfs-2007-755-kr%C3%A4ver-faxnummer\">lagar som bromsar SFS 2007:755</a></li>\n</ul>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765112150887-2037405d-92b8-4897-a952-ebafe1815d6f-image.png\" alt=\"2037405d-92b8-4897-a952-ebafe1815d6f-image.png\" class=\" img-fluid img-markdown\" /></p>\n<hr />\n<h4>ChatGPT ger oss låga odds på att ett nytt DIGG skapas om 5 år i förvaltningsrouletten</h4>\n<p dir=\"auto\"><img src=\"/assets/uploads/files/1765113545310-a64ff384-dc6a-44d4-bb1d-282e37cc8146-image.png\" alt=\"a64ff384-dc6a-44d4-bb1d-282e37cc8146-image.png\" class=\" img-fluid img-markdown\" /></p>\n",
+      "pid": 5452,
+      "tid": 1075,
+      "timestamp": 1765113595764,
+      "uid": 1802,
+      "edited": 1765113762573,
+      "editor": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "displayname": "Magnus Sälgö"
+      },
+      "deleted": 0,
+      "upvotes": 0,
+      "downvotes": 0,
+      "deleterUid": 0,
+      "replies": {
+        "hasMore": false,
+        "hasSingleImmediateReply": false,
+        "users": [],
+        "text": "[[topic:one_reply_to_this_post]]",
+        "count": 0
+      },
+      "bookmarks": 0,
+      "votes": 0,
+      "timestampISO": "2025-12-07T13:19:55.764Z",
+      "editedISO": "2025-12-07T13:22:42.573Z",
+      "index": 4,
+      "user": {
+        "uid": 1802,
+        "username": "Magnus Sälgö",
+        "userslug": "magnus-sälgö",
+        "reputation": 19,
+        "postcount": 227,
+        "topiccount": 15,
+        "picture": "/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+        "signature": "",
+        "banned": false,
+        "banned:expire": 0,
+        "status": "offline",
+        "lastonline": 1765458375587,
+        "groupTitle": null,
+        "mutedUntil": 0,
+        "displayname": "Magnus Sälgö",
+        "groupTitleArray": [],
+        "icon:text": "M",
+        "icon:bgColor": "#2196f3",
+        "lastonlineISO": "2025-12-11T13:06:15.587Z",
+        "banned_until": 0,
+        "banned_until_readable": "Not Banned",
+        "muted": false,
+        "selectedGroups": [],
+        "custom_profile_info": []
+      },
+      "bookmarked": false,
+      "upvoted": false,
+      "downvoted": false,
+      "selfPost": false,
+      "events": [],
+      "topicOwnerPost": true,
+      "display_edit_tools": false,
+      "display_delete_tools": false,
+      "display_moderator_tools": false,
+      "display_move_tools": false,
+      "display_post_menu": true
+    }
+  ],
+  "events": [],
+  "category": {
+    "bgColor": "#AB4642",
+    "cid": 30,
+    "class": "col-md-3 col-xs-6",
+    "color": "#ffffff",
+    "description": "Här samlar vi information om de byggblock som utgör [Ena - Sveriges digitala infrastruktur. ](https:&#x2F;&#x2F;www.digg.se&#x2F;ledning-och-samordning&#x2F;ena---sveriges-digitala-infrastruktur)\n\nI denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,\nRespektive byggblock visas som underkategorier till denna kategori. \n",
+    "descriptionParsed": "<p dir=\"auto\">Här samlar vi information om de byggblock som utgör <a href=\"https://www.digg.se/ledning-och-samordning/ena---sveriges-digitala-infrastruktur\" rel=\"nofollow ugc\">Ena - Sveriges digitala infrastruktur. </a></p>\n<p dir=\"auto\">I denna kategori diskuterar vi de olika byggblocken och bidrar med feedback,<br />\nRespektive byggblock visas som underkategorier till denna kategori.</p>\n",
+    "disabled": 0,
+    "icon": "fa-comments",
+    "imageClass": "cover",
+    "isSection": 0,
+    "link": "",
+    "name": "Digital Infrastruktur ",
+    "numRecentReplies": 1,
+    "order": 3,
+    "parentCid": 0,
+    "post_count": 120,
+    "slug": "30/digital-infrastruktur",
+    "subCategoriesPerPage": 15,
+    "topic_count": 21,
+    "minTags": 0,
+    "maxTags": 5,
+    "postQueue": 0,
+    "totalPostCount": 120,
+    "totalTopicCount": 21
+  },
+  "tagWhitelist": [],
+  "minTags": 0,
+  "maxTags": 5,
+  "thread_tools": [],
+  "isFollowing": false,
+  "isNotFollowing": true,
+  "isIgnoring": false,
+  "bookmark": null,
+  "postSharing": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "class": "fa-facebook",
+      "activated": true
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter",
+      "class": "fa-twitter",
+      "activated": true
+    }
+  ],
+  "deleter": null,
+  "merger": null,
+  "related": [],
+  "unreplied": false,
+  "icons": [],
+  "privileges": {
+    "topics:reply": false,
+    "topics:read": true,
+    "topics:schedule": false,
+    "topics:tag": false,
+    "topics:delete": false,
+    "posts:edit": false,
+    "posts:history": false,
+    "posts:upvote": false,
+    "posts:downvote": false,
+    "posts:delete": false,
+    "posts:view_deleted": false,
+    "read": true,
+    "purge": false,
+    "view_thread_tools": false,
+    "editable": false,
+    "deletable": false,
+    "view_deleted": false,
+    "view_scheduled": false,
+    "isAdminOrMod": false,
+    "disabled": 0,
+    "tid": "1075",
+    "uid": 0
+  },
+  "topicStaleDays": 60,
+  "reputation:disabled": 0,
+  "downvote:disabled": 1,
+  "feeds:disableRSS": 0,
+  "signatures:hideDuplicates": 0,
+  "bookmarkThreshold": 5,
+  "necroThreshold": 7,
+  "postEditDuration": 300,
+  "postDeleteDuration": 0,
+  "scrollToMyPost": true,
+  "updateUrlWithPostIndex": true,
+  "allowMultipleBadges": true,
+  "privateUploads": false,
+  "showPostPreviewsOnHover": true,
+  "rssFeedUrl": "/topic/1075.rss",
+  "postIndex": 1,
+  "breadcrumbs": [
+    {
+      "text": "[[global:home]]",
+      "url": "/"
+    },
+    {
+      "text": "[[global:header.categories]]",
+      "url": "/categories"
+    },
+    {
+      "text": "Digital Infrastruktur ",
+      "url": "/category/30/digital-infrastruktur",
+      "cid": 30
+    }
+  ],
+  "pagination": {
+    "prev": {
+      "page": 1,
+      "active": false
+    },
+    "next": {
+      "page": 1,
+      "active": false
+    },
+    "first": {
+      "page": 1,
+      "active": true
+    },
+    "last": {
+      "page": 1,
+      "active": true
+    },
+    "rel": [],
+    "pages": [],
+    "currentPage": 1,
+    "pageCount": 1
+  },
+  "loggedIn": false,
+  "loggedInUser": {
+    "uid": 0,
+    "username": "[[global:guest]]",
+    "picture": "",
+    "icon:text": "?",
+    "icon:bgColor": "#aaa"
+  },
+  "relative_path": "",
+  "template": {
+    "name": "topic",
+    "topic": true
+  },
+  "url": "/topic/1075",
+  "bodyClass": "page-topic page-topic-1075 template-topic page-topic-category-30 page-topic-category-digital-infrastruktur parent-category-30 page-status-200 theme-harmony user-guest",
+  "_header": {
+    "tags": {
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width&#x3D;device-width, initial-scale&#x3D;1.0"
+        },
+        {
+          "name": "content-type",
+          "content": "text/html; charset=UTF-8",
+          "noEscape": true
+        },
+        {
+          "name": "apple-mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "name": "mobile-web-app-capable",
+          "content": "yes"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Community på Sveriges dataportal"
+        },
+        {
+          "name": "msapplication-badge",
+          "content": "frequency=30; polling-uri=https://community.dataportal.se/sitemap.xml",
+          "noEscape": true
+        },
+        {
+          "name": "theme-color",
+          "content": "#ACB3A8"
+        },
+        {
+          "name": "keywords",
+          "content": "öppna data,api,open data,innovation,dataportal,community,forum"
+        },
+        {
+          "name": "msapplication-square150x150logo",
+          "content": "/assets/uploads/system/site-logo.svg",
+          "noEscape": true
+        },
+        {
+          "name": "title",
+          "content": "Dataset DIGG forum"
+        },
+        {
+          "name": "description",
+          "content": "Jag gjorde ett snabbt försök att spara diskussionerna ifall någon vill återskapa / analyser varför det blir som det blir och vilka early warnings tecken man skall leta efter i framtiden i dialogen om öppna data...  trådar / json - raw   Testade lite snabb..."
+        },
+        {
+          "property": "og:title",
+          "content": "Dataset DIGG forum"
+        },
+        {
+          "property": "og:description",
+          "content": "Jag gjorde ett snabbt försök att spara diskussionerna ifall någon vill återskapa / analyser varför det blir som det blir och vilka early warnings tecken man skall leta efter i framtiden i dialogen om öppna data...  trådar / json - raw   Testade lite snabb..."
+        },
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2025-12-05T05:06:09.609Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2025-12-07T13:19:55.764Z"
+        },
+        {
+          "property": "article:section",
+          "content": "Digital Infrastruktur "
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910573645-78e83c24-ad33-4073-9490-961270d17bdd-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910573645-78e83c24-ad33-4073-9490-961270d17bdd-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1342"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1152"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910559356-3d2f05c5-0af1-440f-bef6-c45b78b87b08-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910559356-3d2f05c5-0af1-440f-bef6-c45b78b87b08-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1350"
+        },
+        {
+          "property": "og:image:height",
+          "content": "734"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910548205-d85f106e-0d13-434f-b582-3e1a9a1433bb-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910548205-d85f106e-0d13-434f-b582-3e1a9a1433bb-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1356"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1312"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910523588-9eeaa800-26b2-4430-ab04-f17f6be90bec-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910523588-9eeaa800-26b2-4430-ab04-f17f6be90bec-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1244"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1140"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910505325-5121f3c7-c975-4028-841d-cd03f8f23120-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910505325-5121f3c7-c975-4028-841d-cd03f8f23120-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1008"
+        },
+        {
+          "property": "og:image:height",
+          "content": "940"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910477965-8bbe4fee-91ba-4d56-85ac-ae070fd2fdd8-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910477965-8bbe4fee-91ba-4d56-85ac-ae070fd2fdd8-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1388"
+        },
+        {
+          "property": "og:image:height",
+          "content": "642"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910454229-0636a79d-37d8-4658-ba18-23e06b233bcf-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910454229-0636a79d-37d8-4658-ba18-23e06b233bcf-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1118"
+        },
+        {
+          "property": "og:image:height",
+          "content": "984"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910442333-d2c2c2a1-30b9-4b73-9c4a-b6a03d59248b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910442333-d2c2c2a1-30b9-4b73-9c4a-b6a03d59248b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1302"
+        },
+        {
+          "property": "og:image:height",
+          "content": "810"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910430223-53d7ac55-dd10-4742-84bd-8a12d849a91b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910430223-53d7ac55-dd10-4742-84bd-8a12d849a91b-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1324"
+        },
+        {
+          "property": "og:image:height",
+          "content": "644"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910417152-b392dc93-d042-4bf9-9358-84ff25a755d3-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910417152-b392dc93-d042-4bf9-9358-84ff25a755d3-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1324"
+        },
+        {
+          "property": "og:image:height",
+          "content": "644"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910894259-bc69f1dc-d767-4b14-ba4c-e1f80308c12d-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/files/1764910894259-bc69f1dc-d767-4b14-ba4c-e1f80308c12d-image.png",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1660"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1212"
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/profile/1802-profileavatar-1747320938633.jpeg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:url",
+          "content": "https://community.dataportal.se/assets/uploads/system/og-image.jpg",
+          "noEscape": true
+        },
+        {
+          "property": "og:image:width",
+          "content": "1600"
+        },
+        {
+          "property": "og:image:height",
+          "content": "555"
+        },
+        {
+          "content": "https://community.dataportal.se/api/topic/1075",
+          "property": "og:url"
+        }
+      ],
+      "link": [
+        {
+          "rel": "icon",
+          "type": "image/x-icon",
+          "href": "/assets/uploads/system/favicon.ico?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "manifest",
+          "href": "/manifest.webmanifest",
+          "crossorigin": "use-credentials"
+        },
+        {
+          "rel": "search",
+          "type": "application/opensearchdescription+xml",
+          "title": "Community på Sveriges dataportal",
+          "href": "/osd.xml"
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "/assets/uploads/system/touchicon-orig.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "36x36",
+          "href": "/assets/uploads/system/touchicon-36.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "48x48",
+          "href": "/assets/uploads/system/touchicon-48.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "72x72",
+          "href": "/assets/uploads/system/touchicon-72.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "96x96",
+          "href": "/assets/uploads/system/touchicon-96.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "144x144",
+          "href": "/assets/uploads/system/touchicon-144.png"
+        },
+        {
+          "rel": "icon",
+          "sizes": "192x192",
+          "href": "/assets/uploads/system/touchicon-192.png"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/uploads.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/drafts.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/tags.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/categoryList.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/resize.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/src/modules/composer/autocomplete.js?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/templates/composer.tpl?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/topic.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/modules.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/tags.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "prefetch stylesheet",
+          "type": "",
+          "href": "/assets/plugins/nodebb-plugin-markdown/styles/default.css"
+        },
+        {
+          "rel": "prefetch",
+          "href": "/assets/language/sv/markdown.json?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://community.dataportal.se/assets/plugins/nodebb-plugin-emoji/emoji/styles.css?v&#x3D;3bouuhghll0"
+        },
+        {
+          "rel": "canonical",
+          "href": "https://community.dataportal.se/topic/1075/dataset-digg-forum",
+          "noEscape": true
+        },
+        {
+          "rel": "alternate",
+          "type": "application/rss+xml",
+          "href": "/topic/1075.rss"
+        },
+        {
+          "rel": "up",
+          "href": "https://community.dataportal.se/category/30/digital-infrastruktur"
+        },
+        {
+          "rel": "author",
+          "href": "https://community.dataportal.se/user/magnus-sälgö"
+        }
+      ]
+    }
+  },
+  "widgets": {
+    "footer": [
+      {
+        "html": "<footer id=\"footer\" class=\"container footer\" style=\"margin-bottom:1em\">\r\n\t<div>\r\n<img src=\"https://community.dataportal.se/assets/uploads/files/finansieras_av_europeiskaunionen.png\" alt=\"Finansieras av Europeiska unionen logo\" width=\"200\" />\r\n\t\t\r\n\t</div>\r\n</footer>"
+      }
+    ],
+    "header": [
+      {
+        "html": "<h1>Community på Sveriges dataportal</h1>"
+      }
+    ]
+  }
+}
