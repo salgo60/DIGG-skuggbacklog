@@ -1,36 +1,126 @@
-const cellSize = 14;
-const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+console.log("renderCalendars rows:", data.length);
+/* ============================
+   Hjälpfunktioner
+============================ */
 
-Promise.all([
-  d3.csv("calendar_daily.csv", d => ({
-    endpoint: d.endpoint,
-    date: new Date(d.date),
-    downtime: +d.downtime_min
-  })),
-  d3.json("meta.json")
-]).then(([data, meta]) => {
+function niceEndpoint(name) {
+  return name.replaceAll("_", " ");
+}
 
-  // --- META ---
-  d3.select("#meta").text(
-    `Senast uppdaterad: ${meta.generated_at} · Commit: ${meta.commit}`
+function colorForDowntime(min) {
+  if (min === 0) return "#eee";
+  if (min < 5) return "#fde0dd";
+  if (min < 15) return "#fcae91";
+  if (min < 60) return "#fb6a4a";
+  return "#cb181d";
+}
+
+/* ============================
+   Tabell: Incidenter (sammanfattning)
+============================ */
+
+function renderSummaryTable(data) {
+  const summary = Array.from(
+    d3.rollup(
+      data,
+      v => ({
+        incidents: v.length,
+        total_min: d3.sum(v, d => d.duration_min),
+        max_min: d3.max(v, d => d.duration_min)
+      }),
+      d => d.endpoint
+    ),
+    ([endpoint, s]) => ({
+      endpoint,
+      incidents: s.incidents,
+      total_min: s.total_min,
+      total_hours: (s.total_min / 60).toFixed(1),
+      max_min: s.max_min.toFixed(1)
+    })
   );
 
-  // --- GROUP BY ENDPOINT ---
-  const byEndpoint = d3.group(data, d => d.endpoint);
+  const table = d3.select("#summary");
+  table.html("");
+
+  table.append("thead").append("tr")
+    .selectAll("th")
+    .data([
+      "Tjänst",
+      "Incidenter",
+      "Total nertid (min)",
+      "Total nertid (h)",
+      "Längsta incident (min)"
+    ])
+    .enter()
+    .append("th")
+    .text(d => d);
+
+  const rows = table.append("tbody")
+    .selectAll("tr")
+    .data(summary)
+    .enter()
+    .append("tr");
+
+  rows.append("td").text(d => niceEndpoint(d.endpoint));
+  rows.append("td").text(d => d.incidents);
+  rows.append("td").text(d => d.total_min.toFixed(1));
+  rows.append("td").text(d => d.total_hours);
+  rows.append("td").text(d => d.max_min);
+}
+
+/* ============================
+   Tabell: Incidenter över tid
+============================ */
+
+function renderIncidentsTable(data) {
+  const table = d3.select("#incidents");
+  table.html("");
+
+  table.append("thead").append("tr")
+    .selectAll("th")
+    .data([
+      "Tjänst",
+      "Start",
+      "Slut",
+      "Varaktighet (min)",
+      "Pågående"
+    ])
+    .enter()
+    .append("th")
+    .text(d => d);
+
+  const rows = table.append("tbody")
+    .selectAll("tr")
+    .data(data)
+    .enter()
+    .append("tr");
+
+  rows.append("td").text(d => niceEndpoint(d.endpoint));
+  rows.append("td").text(d => d.start);
+  rows.append("td").text(d => d.end);
+  rows.append("td").text(d => d.duration_min.toFixed(1));
+  rows.append("td").text(d => d.ongoing ? "Ja" : "");
+}
+
+/* ============================
+   Kalender per endpoint
+============================ */
+
+function renderCalendars(data) {
+  const cellSize = 14;
 
   const container = d3.select("#calendars");
+  container.html("");
 
-  const color = d3.scaleSequential(d3.interpolateReds)
-    .domain([0, d3.max(data, d => d.downtime)]);
+  const byEndpoint = d3.group(data, d => d.endpoint);
 
   for (const [endpoint, rows] of byEndpoint) {
 
-    container.append("h3").text(endpoint.replaceAll("_", " "));
+    container.append("h3").text(niceEndpoint(endpoint));
 
-    const cal = container.append("div")
-      .attr("class", "calendar");
-
-    const svg = cal.append("svg")
+    const svg = container.append("div")
+      .attr("class", "calendar")
+      .append("svg")
       .attr("width", 900)
       .attr("height", 7 * cellSize + 20);
 
@@ -44,11 +134,42 @@ Promise.all([
         d3.timeWeek.count(d3.timeYear(d.date), d.date) * cellSize
       )
       .attr("y", d => d.date.getDay() * cellSize)
-      .attr("fill", d => d.downtime > 0 ? color(d.downtime) : "#eee")
+      .attr("fill", d => colorForDowntime(d.downtime))
       .append("title")
       .text(d =>
-        `${endpoint}\n${d.date.toISOString().slice(0,10)}\n` +
+        `${niceEndpoint(endpoint)}\n` +
+        `${d.date.toISOString().slice(0, 10)}\n` +
         `${d.downtime.toFixed(1)} min nertid`
       );
   }
+}
+
+/* ============================
+   Main: ladda allt
+============================ */
+
+Promise.all([
+  d3.csv("incidents_clean.csv", d => ({
+    endpoint: d.endpoint,
+    start: d.start,
+    end: d.end,
+    duration_min: +d.duration_min,
+    ongoing: d.ongoing === "True"
+  })),
+  d3.csv("calendar_daily.csv", d => ({
+    endpoint: d.endpoint,
+    date: new Date(d.date),
+    downtime: +d.downtime_min
+  })),
+  d3.json("meta.json")
+]).then(([incidents, calendar, meta]) => {
+
+  renderSummaryTable(incidents);
+  renderIncidentsTable(incidents);
+  renderCalendars(calendar);
+
+  d3.select("#meta").text(
+    `Senast uppdaterad: ${meta.generated_at} · Commit: ${meta.commit}`
+  );
+
 });
