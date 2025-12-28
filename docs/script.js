@@ -156,6 +156,7 @@ function renderCalendars(data) {
 
 function renderLegend() {
   const legend = d3.select("#legend");
+  legend.html("");
 
   const items = [
     { label: "< 5 min", color: "#fde0dd" },
@@ -165,17 +166,21 @@ function renderLegend() {
   ];
 
   const row = legend.append("div")
-    .attr("class", "legendcss
     .attr("class", "legend-row");
 
   items.forEach(i => {
-    const item = row.append("div").attr("class", "legend-item");
+    const item = row.append("div")
+      .attr("class", "legend-item");
+
     item.append("span")
       .attr("class", "legend-swatch")
       .style("background", i.color);
-    item.append("span").text(i.label);
+
+    item.append("span")
+      .text(i.label);
   });
 }
+
 
 /* ============================
    Main: ladda allt
