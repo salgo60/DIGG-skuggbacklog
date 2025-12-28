@@ -1,4 +1,4 @@
-/* ============================
+ /* ============================
    Hjälpfunktioner 2
 ============================ */
 
@@ -193,8 +193,17 @@ function renderYearBand(calendar) {
 
   const maxDowntime = d3.max(calendar, d => d.downtime);
 
-  const color = d3.scaleSequential(d3.interpolateReds)
-    .domain([0, maxDowntime || 1]);
+//  const color = d3.scaleSequential(d3.interpolateReds)
+//    .domain([0, maxDowntime || 1]);
+   const color = d3.scaleThreshold()
+  	.domain([5, 15, 60])
+  	.range([
+    	"#fde0dd", // < 5 min
+	    "#fcae91", // 5–15
+    	"#fb6a4a", // 15–60
+	    "#cb181d"  // > 60
+  	]);
+
 
   for (const [endpoint, rows] of byEndpoint) {
 
