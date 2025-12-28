@@ -1,0 +1,14 @@
+Såg [[BibliotekPlay]] jag gjorde lite aktiviteter som kanske skulle kunna vara del... slit det med hälsa allt är CC-0 men som sagt inte uppdaterade de senaste åren och allt lever sitt eget liv på WIkidata ;-) 
+* min projektsida [Användare:Salgo60/Listeria/Det_litter%C3%A4ra_Stockholm] / [https://w.wiki/rB2 Karta]
+** i Wikidata har vi koppling skylt författare -> SBL SKBL....
+* visualisera böcker i Wikidata med platser
+** [https://litteraturbanken.se/f%C3%B6rfattare/Anders%C3%A9nML/titlar/BellmanVarD%C3%A4r/sida/3/faksimil?om-boken Litteraturbanken] "Bellman var där.En vägvisare till Bellmansmiljöer (1997)" på en [https://w.wiki/mYA karta] 
+** kopplade alla runstenar som finns hos Litteraturbanken till Wikidata 
+*** hade hoppats på att [https://goteborg.se/wps/portal/enhetssida/litteraturstaden-goteborg/om-litteraturstaden-goteborg2/litteraturkartan Litterturkartan] skulle kunna kopplas ihop med men tycker dom hade en svag datamodell se [https://github.com/Litteraturbanken/littb-frontend/issues/24#issuecomment-711973213 dialog med mycket bra tekniker Roxendahl] där han inte inser skillnad mellan att ha Things och text med koordinat...
+*** skapat koppling Wikidata --> Litteraturbanken {{Q|P5101}} med 5 558 kopplingar 
+**** som Litteraturbanken använder att koppla till SBL ex. August Strindberg {{Q|7724}} -> [https://litteraturbanken.se/f%C3%B6rfattare/StrindbergA litteraturbanken.se StrindbergA] [https://litteraturbanken.se/api/get_author/StrindbergA litteraturbanken.se API json StrindbergA] 
+***** Mina försök att ha [https://github.com/Litteraturbanken/littb-frontend/issues/25 dialog med Litterturbanken],... pratat med Mats Malm 2 ggr och deras mycket duktiga tekniker [https://github.com/jroxendal Roxendahl]
+**** finns en skevhet i ekosystemet att LIBRISXL inte kopplar Litteraturbanken lika mycket som Wikidata jag hade hoppats på dialog med LIBRISXL och var nere i Bonn på SWIB för att få igång en dialog med dom men har gett upp (Bonn var för egna pengar 2018) det går inte ha prata med dom min kommentar [https://www.youtube.com/watch?si=d96xwA1UE7WhbnXH&t=1578&v=K0l4fv5uUvg&feature=youtu.be att det är brist på publika backloggar och kommunikation] ... Issue "[https://github.com/salgo60/spa2Commons/issues/21 #21 Litteraturbanken kommunicerar dom med LIBRISXL?]" / [https://github.com/salgo60/spa2Commons/issues/43 Status 2025 med processer för metadata debt ]
+**** [[d:Wikidata:WikiProject Sweden/The Swedish Literature bank]]
+
+Vill även slå ett slag för Entity Explosion en plug in till webläsare som kopplar ihop websidor i SBL / SKBL ... genom att slå i Wikidata
