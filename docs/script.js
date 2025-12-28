@@ -1,6 +1,5 @@
-console.log("renderCalendars rows:", data.length);
 /* ============================
-   Hjälpfunktioner
+   Hjälpfunktioner 2
 ============================ */
 
 function niceEndpoint(name) {
@@ -124,6 +123,17 @@ function renderCalendars(data) {
       .attr("width", 900)
       .attr("height", 7 * cellSize + 20);
 
+	const days = ["Sön", "Mån", "Tis", "Ons", "Tor", "Fre", "Lör"];
+
+	svg.selectAll("text.day")
+	  .data(days)
+	  .enter()
+	  .append("text")
+	  .attr("class", "day-label")
+	  .attr("x", -6)
+	  .attr("y", (_, i) => i * cellSize + cellSize - 2)
+	  .attr("text-anchor", "end")
+	  .text(d => d);
     svg.selectAll("rect")
       .data(rows)
       .enter()
@@ -142,6 +152,29 @@ function renderCalendars(data) {
         `${d.downtime.toFixed(1)} min nertid`
       );
   }
+}
+
+function renderLegend() {
+  const legend = d3.select("#legend");
+
+  const items = [
+    { label: "< 5 min", color: "#fde0dd" },
+    { label: "5–15 min", color: "#fcae91" },
+    { label: "15–60 min", color: "#fb6a4a" },
+    { label: "> 60 min", color: "#cb181d" }
+  ];
+
+  const row = legend.append("div")
+    .attr("class", "legendcss
+    .attr("class", "legend-row");
+
+  items.forEach(i => {
+    const item = row.append("div").attr("class", "legend-item");
+    item.append("span")
+      .attr("class", "legend-swatch")
+      .style("background", i.color);
+    item.append("span").text(i.label);
+  });
 }
 
 /* ============================
@@ -167,6 +200,7 @@ Promise.all([
   renderSummaryTable(incidents);
   renderIncidentsTable(incidents);
   renderCalendars(calendar);
+  renderLegend();
 
   d3.select("#meta").text(
     `Senast uppdaterad: ${meta.generated_at} · Commit: ${meta.commit}`
