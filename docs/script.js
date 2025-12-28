@@ -181,6 +181,76 @@ function renderLegend() {
   });
 }
 
+function renderYearBand(calendar) {
+  const width = 900;
+  const height = 18;
+  const barHeight = height;
+
+  const container = d3.select("#yearband");
+  container.html("");
+
+  const byEndpoint = d3.group(calendar, d => d.endpoint);
+
+  const maxDowntime = d3.max(calendar, d => d.downtime);
+
+  const color = d3.scaleSequential(d3.interpolateReds)
+    .domain([0, maxDowntime || 1]);
+
+  for (const [endpoint, rows] of byEndpoint) {
+
+    container.append("div")
+      .attr("class", "yearband-label")
+      .text(niceEndpoint(endpoint));
+
+    const svg = container.append("svg")
+      .attr("class", "yearband")
+      .attr("width", width)
+      .attr("height", barHeight);
+
+    const x = d3.scaleTime()
+      .domain(d3.extent(rows, d => d.date))
+      .range([0, width]);
+
+    svg.selectAll("rect")
+      .data(rows)
+      .enter()
+      .append("rect")
+      .attr("x", d => x(d.date))
+      .attr("y", 0)
+      .attr("width", 6)
+      .attr("height", barHeight)
+      .attr("fill", d => color(d.downtime))
+      .append("title")
+      .text(d =>
+        `${niceEndpoint(endpoint)}\n` +
+        `${d.date.toISOString().slice(0,10)}\n` +
+        `${d.downtime.toFixed(1)} min nertid`
+      );
+  }
+}
+
+
+function renderMonthlyBars(calendar) {
+  const byMonth = d3.rollup(
+    calendar,
+    v => d3.sum(v, d => d.downtime),
+    d => d.endpoint,
+    d => d.date.toISOString().slice(0,7)
+  );
+
+  const container = d3.select("#monthlybars");
+
+  for (const [endpoint, months] of byMonth) {
+    container.append("h3").text(niceEndpoint(endpoint));
+
+    const data = Array.from(months, ([month, downtime]) => ({
+      month,
+      downtime
+    })).sort((a,b) => a.month.localeCompare(b.month));
+
+    // (Här kan vi lägga full D3-bar-chart – säger till om du vill ha komplett kod)
+  }
+}
 
 /* ============================
    Main: ladda allt
@@ -206,6 +276,7 @@ Promise.all([
   renderIncidentsTable(incidents);
   renderCalendars(calendar);
   renderLegend();
+  renderYearBand(calendar);
 
   d3.select("#meta").text(
     `Senast uppdaterad: ${meta.generated_at} · Commit: ${meta.commit}`

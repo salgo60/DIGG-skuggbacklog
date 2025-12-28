@@ -107,3 +107,17 @@ footer {
   padding-top: 1rem;
   border-top: 1px solid #ddd;
 }
+
+.yearband {
+  margin-bottom: 2.5rem;
+}
+
+.yearband svg {
+  display: block;
+}
+
+.yearband-label {
+  font-weight: 600;
+  margin: 0.5rem 0 0.2rem 0;
+}
+
