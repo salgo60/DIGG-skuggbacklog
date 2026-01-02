@@ -266,14 +266,14 @@ function renderMonthlyBars(calendar) {
 ============================ */
 
 Promise.all([
-  d3.csv("incidents_clean.csv", d => ({
+  d3.csv("incidents_clean_2.csv", d => ({
     endpoint: d.endpoint,
     start: d.start,
     end: d.end,
     duration_min: +d.duration_min,
     ongoing: d.ongoing === "True"
   })),
-  d3.csv("calendar_daily.csv", d => ({
+  d3.csv("calendar_daily_2.csv", d => ({
     endpoint: d.endpoint,
     date: new Date(d.date),
     downtime: +d.downtime_min
