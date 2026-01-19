@@ -2,11 +2,6 @@
 owner: upptime # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
-x-ra-error-texts: &ra_error_texts
-  - "Webbplatsen går inte att besöka just nu"
-  - "tekniska problem med webbplatsen"
-  - "404 - File or directory not found"
-  - "The resource you are looking for might have been removed"
 
 sites:
   - name: DIGG webbplats
@@ -34,17 +29,29 @@ sites:
     url: https://sok.riksarkivet.se/?postid=ArkisRef%20SE/ULA/12231
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_present: *ra_error_texts
+    __dangerous__body_down_if_text_present: 
+      - "Webbplatsen går inte att besöka just nu"
+      - "tekniska problem med webbplatsen"
+      - "404 - File or directory not found"
+      - "The resource you are looking for might have been removed"
   - name: Riksarkivet forskarsalen
     url: https://sok.riksarkivet.se/digitala-forskarsalen
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_present: *ra_error_texts
+    __dangerous__body_down_if_text_present: 
+      - "Webbplatsen går inte att besöka just nu"
+      - "tekniska problem med webbplatsen"
+      - "404 - File or directory not found"
+      - "The resource you are looking for might have been removed"
   - name: Riksarkivet kyrkbok C0005418
     url: https://sok.riksarkivet.se/bildvisning/C0005418
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_present: *ra_error_texts
+    __dangerous__body_down_if_text_present: 
+      - "Webbplatsen går inte att besöka just nu"
+      - "tekniska problem med webbplatsen"
+      - "404 - File or directory not found"
+      - "The resource you are looking for might have been removed"
   - name: SCB - svensk-utbildningsnomenklatur-sun
     url: https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/
   - name: SCB - h6.scb.se/metadata/klassdb 
