@@ -2,6 +2,12 @@
 owner: upptime # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
+x-ra-error-texts: &ra_error_texts
+  - "Webbplatsen går inte att besöka just nu"
+  - "tekniska problem med webbplatsen"
+  - "404 - File or directory not found"
+  - "The resource you are looking for might have been removed"
+
 sites:
   - name: DIGG webbplats
     url: https://www.digg.se/
@@ -43,11 +49,6 @@ sites:
     url: https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/
   - name: SCB - h6.scb.se/metadata/klassdb 
     url: https://www.h6.scb.se/metadata/klassdb.aspx
-x-ra-error-texts: &ra_error_texts
-  - "Webbplatsen går inte att besöka just nu"
-  - "tekniska problem med webbplatsen"
-  - "404 - File or directory not found"
-  - "The resource you are looking for might have been removed"
   
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
