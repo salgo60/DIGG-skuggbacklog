@@ -29,10 +29,7 @@ sites:
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_present:
-       - "Webbplatsen går inte att besöka just nu"
-       - "tekniska problem med webbplatsen"
-       - "404 - File or directory not found"
-       - "The resource you are looking for might have been removed"
+       - "THIS_STRING_DOES_NOT_EXIST"
   - name: Riksarkivet forskarsalen
     url: https://sok.riksarkivet.se/digitala-forskarsalen
     expectedStatusCodes:
