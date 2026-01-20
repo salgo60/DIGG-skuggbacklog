@@ -10,9 +10,6 @@ sites:
     url: https://www.dataportal.se/
   - name: DIGG forum
     url: https://community.dataportal.se/
-    __dangerous__body_down:
-      - "har stängts ned"
-    
   - name: DIGG webbriktlinjer
     url: https://webbriktlinjer.se/
   - name: RAÄ Kringla
