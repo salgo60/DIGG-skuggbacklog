@@ -30,28 +30,28 @@ sites:
     expectedStatusCodes:
        - 200
     __dangerous__body_down:
-         - "Webbplatsen går inte att besöka just nu"
-         - "tekniska problem med webbplatsen"
-         - "404 - File or directory not found"
-         - "The resource you are looking for might have been removed"
+      - "Webbplatsen går inte att besöka just nu"
+      - "tekniska problem med webbplatsen"
+      - "404 - File or directory not found"
+      - "The resource you are looking for might have been removed"
   - name: Riksarkivet forskarsalen
     url: https://sok.riksarkivet.se/digitala-forskarsalen
     expectedStatusCodes:
-       - 200 
+       - 200
     __dangerous__body_down:
-         - "Webbplatsen går inte att besöka just nu"
-         - "tekniska problem med webbplatsen"
-         - "404 - File or directory not found"
-         - "The resource you are looking for might have been removed"
+      - "Webbplatsen går inte att besöka just nu"
+      - "tekniska problem med webbplatsen"
+      - "404 - File or directory not found"
+      - "The resource you are looking for might have been removed"
   - name: Riksarkivet kyrkbok C0005418
     url: https://sok.riksarkivet.se/bildvisning/C0005418
     expectedStatusCodes:
        - 200
     __dangerous__body_down:
-         - "Webbplatsen går inte att besöka just nu"
-         - "tekniska problem med webbplatsen"
-         - "404 - File or directory not found"
-         - "The resource you are looking for might have been removed"
+      - "Webbplatsen går inte att besöka just nu"
+      - "tekniska problem med webbplatsen"
+      - "404 - File or directory not found"
+      - "The resource you are looking for might have been removed"
   - name: SCB - svensk-utbildningsnomenklatur-sun
     url: https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/
   - name: SCB - h6.scb.se/metadata/klassdb 
