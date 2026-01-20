@@ -10,7 +10,7 @@ sites:
     url: https://www.dataportal.se/
   - name: DIGG forum
     url: https://community.dataportal.se/
-    __dangerous__body_down_if_text_present:
+    __dangerous__body_down:
       - "har stängts ned"
     
   - name: DIGG webbriktlinjer
@@ -29,7 +29,7 @@ sites:
     url: https://sok.riksarkivet.se/?postid=ArkisRef%20SE/ULA/12231
     expectedStatusCodes:
       - 200
-      __dangerous__body_down_if_text_present: 
+        __dangerous__body_down:
         - "Webbplatsen går inte att besöka just nu"
         - "tekniska problem med webbplatsen"
         - "404 - File or directory not found"
@@ -38,7 +38,7 @@ sites:
     url: https://sok.riksarkivet.se/digitala-forskarsalen
     expectedStatusCodes:
       - 200
-      __dangerous__body_down_if_text_present: 
+       __dangerous__body_down:
         - "Webbplatsen går inte att besöka just nu"
         - "tekniska problem med webbplatsen"
         - "404 - File or directory not found"
@@ -46,8 +46,8 @@ sites:
   - name: Riksarkivet kyrkbok C0005418
     url: https://sok.riksarkivet.se/bildvisning/C0005418
     expectedStatusCodes:
-      - 200
-      __dangerous__body_down_if_text_present: 
+    - 200
+    __dangerous__body_down:
         - "Webbplatsen går inte att besöka just nu"
         - "tekniska problem med webbplatsen"
         - "404 - File or directory not found"
