@@ -226,7 +226,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/oswald.wikibase.cloud.ico",
     "slug": "oswald-sparql-end-point",
     "status": "up",
-    "uptime": "90.71%",
+    "uptime": "90.72%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -367,16 +367,16 @@
     "url": "https://sok.riksarkivet.se/?postid=ArkisRef%20SE/ULA/12231",
     "icon": "https://icons.duckduckgo.com/ip3/sok.riksarkivet.se.ico",
     "slug": "riksarkivet-nad-se-ula-12231",
-    "status": "up",
-    "uptime": "95.54%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.12%",
-    "uptimeYear": "86.49%",
+    "status": "down",
+    "uptime": "95.55%",
+    "uptimeDay": "99.27%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.02%",
+    "uptimeYear": "86.48%",
     "time": 1896,
     "timeDay": 1005,
     "timeWeek": 1324,
-    "timeMonth": 1187,
+    "timeMonth": 1189,
     "timeYear": 1917,
     "dailyMinutesDown": {
       "2025-06-12": 32,
@@ -486,7 +486,8 @@
       "2026-05-09": 81,
       "2026-05-16": 62,
       "2026-05-21": 218,
-      "2026-05-23": 60
+      "2026-05-23": 60,
+      "2026-05-31": 11
     }
   },
   {
@@ -494,16 +495,16 @@
     "url": "https://sok.riksarkivet.se/digitala-forskarsalen",
     "icon": "https://icons.duckduckgo.com/ip3/sok.riksarkivet.se.ico",
     "slug": "riksarkivet-forskarsalen",
-    "status": "up",
-    "uptime": "95.24%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.17%",
+    "status": "down",
+    "uptime": "95.25%",
+    "uptimeDay": "99.60%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.07%",
     "uptimeYear": "85.72%",
-    "time": 721,
+    "time": 722,
     "timeDay": 746,
     "timeWeek": 1278,
-    "timeMonth": 1124,
+    "timeMonth": 1115,
     "timeYear": 763,
     "dailyMinutesDown": {
       "2025-06-12": 31,
@@ -610,7 +611,8 @@
       "2026-05-09": 76,
       "2026-05-16": 57,
       "2026-05-21": 213,
-      "2026-05-23": 55
+      "2026-05-23": 55,
+      "2026-05-31": 6
     }
   },
   {
@@ -618,16 +620,16 @@
     "url": "https://sok.riksarkivet.se/bildvisning/C0005418",
     "icon": "https://icons.duckduckgo.com/ip3/sok.riksarkivet.se.ico",
     "slug": "riksarkivet-kyrkbok-c0005418",
-    "status": "up",
-    "uptime": "94.76%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.83%",
+    "status": "down",
+    "uptime": "94.77%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.13%",
     "uptimeYear": "86.46%",
     "time": 656,
     "timeDay": 876,
     "timeWeek": 1002,
-    "timeMonth": 804,
+    "timeMonth": 814,
     "timeYear": 625,
     "dailyMinutesDown": {
       "2025-06-12": 29,
@@ -727,7 +729,8 @@
       "2026-05-09": 71,
       "2026-05-16": 52,
       "2026-05-21": 208,
-      "2026-05-23": 50
+      "2026-05-23": 50,
+      "2026-05-31": 1
     }
   },
   {
@@ -1069,7 +1072,7 @@
       "2025-11-06": 1440,
       "2025-11-05": 1440,
       "2026-03-14": 16,
-      "2026-05-31": 165,
+      "2026-05-31": 1286,
       "2026-05-30": 1440,
       "2026-05-29": 1440,
       "2026-05-28": 1440,
