@@ -13,7 +13,7 @@
     "time": 1298,
     "timeDay": 961,
     "timeWeek": 1150,
-    "timeMonth": 1234,
+    "timeMonth": 1231,
     "timeYear": 1290,
     "dailyMinutesDown": {
       "2025-12-19": 22,
@@ -39,7 +39,7 @@
     "time": 1128,
     "timeDay": 955,
     "timeWeek": 1003,
-    "timeMonth": 1143,
+    "timeMonth": 1151,
     "timeYear": 1138,
     "dailyMinutesDown": {
       "2025-11-27": 20,
@@ -65,7 +65,7 @@
     "time": 1203,
     "timeDay": 2946,
     "timeWeek": 1247,
-    "timeMonth": 1159,
+    "timeMonth": 1171,
     "timeYear": 1204,
     "dailyMinutesDown": {
       "2025-10-30": 51,
@@ -116,7 +116,7 @@
     "time": 1666,
     "timeDay": 2714,
     "timeWeek": 2854,
-    "timeMonth": 2198,
+    "timeMonth": 2204,
     "timeYear": 1703,
     "dailyMinutesDown": {
       "2026-02-14": 94,
@@ -166,7 +166,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/kulturarvsdata.se.ico",
     "slug": "ra-ae-kulturarvsdata-runor",
     "status": "up",
-    "uptime": "99.56%",
+    "uptime": "99.57%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -174,7 +174,7 @@
     "time": 785,
     "timeDay": 2724,
     "timeWeek": 1134,
-    "timeMonth": 958,
+    "timeMonth": 965,
     "timeYear": 788,
     "dailyMinutesDown": {
       "2025-11-20": 19
@@ -208,16 +208,16 @@
     "url": "https://oswald.wikibase.cloud/wiki/NOSAD-POC",
     "icon": "https://icons.duckduckgo.com/ip3/oswald.wikibase.cloud.ico",
     "slug": "oswald",
-    "status": "up",
+    "status": "down",
     "uptime": "99.75%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.75%",
+    "uptimeDay": "99.61%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.74%",
     "uptimeYear": "99.62%",
-    "time": 1590,
+    "time": 1592,
     "timeDay": 2309,
     "timeWeek": 2724,
-    "timeMonth": 2859,
+    "timeMonth": 2811,
     "timeYear": 1758,
     "dailyMinutesDown": {
       "2025-11-10": 78,
@@ -233,7 +233,8 @@
       "2026-07-06": 239,
       "2026-08-03": 200,
       "2026-08-17": 103,
-      "2026-10-12": 110
+      "2026-10-12": 110,
+      "2026-10-21": 6
     }
   },
   {
@@ -241,16 +242,16 @@
     "url": "https://oswald.wikibase.cloud/query/embed.html#%23%20https%3A%2F%2Fbeyond-notability.wikibase.cloud%2Fwiki%2FProject%3ASPARQL%2Fexamples%0APREFIX%20wd%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fentity%2F%3E%0APREFIX%20wds%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fentity%2Fstatement%2F%3E%0APREFIX%20wdv%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fvalue%2F%3E%0APREFIX%20wdt%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0APREFIX%20p%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2F%3E%0APREFIX%20ps%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2Fstatement%2F%3E%0APREFIX%20pq%3A%20%3Chttps%3A%2F%2Foswald.wikibase.cloud%2Fprop%2Fqualifier%2F%3E%0A%23%202022-w42-7%0ASELECT%0A%3Fdt%20%3Fsess%20%3FsessLabel%20%3Fagenda%20%3Fstart%0A%3Fpres%20%3FpresLabel%20%3Forg%20%3ForgLabel%20%3Fspkr%20%3FspkrLabel%0A%23%20%3Ft%20%3Ft0%20%3Ftest%20%3Fvurl%20%3Fytid%0A%3Fvurl_t%20%3Fyturl_t%0AWHERE%20%7B%0A%20%20%3Fpres%20wdt%3AP12%20wd%3AQ157%20.%20%23%20a%20Presentation%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP14%20%3Forg%20.%7D%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP20%20%3Fsess%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP22%20%3Fdt%20.%7D%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP23%20%3Fstart%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP16%20%3Fvurl%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP21%20%3Fytid%20.%7D%0A%20%20OPTIONAL%7B%3Fpres%20wdt%3AP13%20%3Fspkr%20.%7D%0A%20%20OPTIONAL%7B%3Fsess%20wdt%3AP17%20%3Fagenda%20.%7D%0A%20%20%23%20BIND%20expressions%20referring%20to%20variables%20need%20to%20be%20outside%20OPTIONAL%20for%20some%20reason%3F%0A%20%20BIND%28COALESCE%28%3Fstart%2C%200%29%20AS%20%3Ft0%29.%0A%23%20%20%20BIND%28IF%28%3Ft0%20%3E%203000%2C%20%22late%22%2C%20%22early%22%29%20AS%20%3Ftest%29.%0A%20%20BIND%28IRI%28CONCAT%28STR%28%3Fvurl%29%2C%20IF%28%3Ft0%20%3E%200%2C%20CONCAT%28%22%23t%3D%22%2C%20STR%28%3Ft0%29%29%2C%20%22%22%29%29%29%20AS%20%3Fvurl_t%29%20.%0A%20%20BIND%28IRI%28CONCAT%28%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D%22%2C%20%3Fytid%2C%20IF%28%3Ft0%20%3E%200%2C%20CONCAT%28%22%23t%3D%22%2C%20STR%28%3Ft0%29%29%2C%20%22%22%29%29%29%20AS%20%3Fyturl_t%29%20.%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Csv%2Cno%2Cen-gb%2Cen%22.%0A%20%20%7D%0A%7D%0AORDER%20BY%20DESC%28%3Fdt%29%20%3FsessLabel%20%28%21BOUND%28%3Fstart%29%29%20%3Fstart%20%3FpresLabel%0A%23GROUP%20BY%20%3FpLabel%20%3FvLabel%20%0A%23ORDER%20BY%20DESC%28%3Fcount%29",
     "icon": "https://icons.duckduckgo.com/ip3/oswald.wikibase.cloud.ico",
     "slug": "oswald-sparql-end-point",
-    "status": "up",
+    "status": "down",
     "uptime": "91.63%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "85.82%",
+    "uptimeYear": "85.90%",
     "time": 262,
     "timeDay": 579,
     "timeWeek": 534,
-    "timeMonth": 563,
+    "timeMonth": 561,
     "timeYear": 310,
     "dailyMinutesDown": {
       "2025-12-11": 1090,
@@ -303,7 +304,8 @@
       "2025-10-25": 1440,
       "2025-10-24": 1440,
       "2025-10-23": 1440,
-      "2025-10-22": 1440
+      "2025-10-22": 1440,
+      "2026-10-21": 1
     }
   },
   {
@@ -320,7 +322,7 @@
     "time": 1687,
     "timeDay": 3524,
     "timeWeek": 1592,
-    "timeMonth": 1463,
+    "timeMonth": 1472,
     "timeYear": 1484,
     "dailyMinutesDown": {
       "2026-04-20": 182,
@@ -410,7 +412,7 @@
     "time": 1001,
     "timeDay": 3867,
     "timeWeek": 1287,
-    "timeMonth": 1100,
+    "timeMonth": 1107,
     "timeYear": 1034,
     "dailyMinutesDown": {
       "2026-04-19": 26,
@@ -493,13 +495,13 @@
     "status": "up",
     "uptime": "98.50%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "30.49%",
+    "uptimeWeek": "34.61%",
     "uptimeMonth": "65.80%",
     "uptimeYear": "94.86%",
     "time": 845,
     "timeDay": 573,
     "timeWeek": 633,
-    "timeMonth": 659,
+    "timeMonth": 662,
     "timeYear": 873,
     "dailyMinutesDown": {
       "2026-04-19": 120,
@@ -594,7 +596,7 @@
     "time": 1723,
     "timeDay": 5573,
     "timeWeek": 1992,
-    "timeMonth": 1563,
+    "timeMonth": 1572,
     "timeYear": 1881,
     "dailyMinutesDown": {
       "2025-11-17": 40,
@@ -643,8 +645,8 @@
     "time": 1072,
     "timeDay": 3178,
     "timeWeek": 1179,
-    "timeMonth": 1042,
-    "timeYear": 1146,
+    "timeMonth": 1044,
+    "timeYear": 1148,
     "dailyMinutesDown": {
       "2025-11-04": 1428,
       "2025-11-03": 1440,
@@ -1004,7 +1006,7 @@
       "2026-03-20": 1440,
       "2026-03-19": 1440,
       "2026-03-18": 837,
-      "2026-10-21": 15,
+      "2026-10-21": 429,
       "2026-10-20": 1440,
       "2026-10-19": 1440
     }
