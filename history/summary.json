@@ -107,19 +107,19 @@
     "url": "https://www.kringla.nu",
     "icon": "https://icons.duckduckgo.com/ip3/www.kringla.nu.ico",
     "slug": "ra-ae-kringla",
-    "status": "up",
+    "status": "down",
     "uptime": "99.39%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "85.81%",
-    "uptimeYear": "97.81%",
-    "time": 1667,
-    "timeDay": 2355,
-    "timeWeek": 2849,
-    "timeMonth": 2220,
+    "uptimeYear": "97.82%",
+    "time": 1666,
+    "timeDay": 2058,
+    "timeWeek": 2713,
+    "timeMonth": 2209,
     "timeYear": 1706,
     "dailyMinutesDown": {
-      "2026-02-14": 94,
+      "2026-02-14": 70,
       "2026-02-15": 81,
       "2026-02-16": 104,
       "2026-02-18": 246,
@@ -157,7 +157,8 @@
       "2026-10-12": 584,
       "2026-10-11": 1440,
       "2026-10-10": 1440,
-      "2026-10-09": 1440
+      "2026-10-09": 1440,
+      "2026-10-22": 1
     }
   },
   {
@@ -210,10 +211,10 @@
     "slug": "oswald",
     "status": "down",
     "uptime": "99.68%",
-    "uptimeDay": "5.13%",
-    "uptimeWeek": "86.45%",
-    "uptimeMonth": "96.63%",
-    "uptimeYear": "99.36%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "85.14%",
+    "uptimeMonth": "96.33%",
+    "uptimeYear": "99.34%",
     "time": 1591,
     "timeDay": 349,
     "timeWeek": 2155,
@@ -234,7 +235,7 @@
       "2026-08-03": 200,
       "2026-08-17": 103,
       "2026-10-12": 110,
-      "2026-10-22": 350,
+      "2026-10-22": 482,
       "2026-10-21": 1017
     }
   },
@@ -244,10 +245,10 @@
     "icon": "https://icons.duckduckgo.com/ip3/oswald.wikibase.cloud.ico",
     "slug": "oswald-sparql-end-point",
     "status": "down",
-    "uptime": "91.57%",
-    "uptimeDay": "5.47%",
-    "uptimeWeek": "86.50%",
-    "uptimeMonth": "96.89%",
+    "uptime": "91.56%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "85.18%",
+    "uptimeMonth": "96.59%",
     "uptimeYear": "85.90%",
     "time": 262,
     "timeDay": 304,
@@ -305,7 +306,7 @@
       "2025-10-25": 1440,
       "2025-10-24": 1440,
       "2025-10-23": 1440,
-      "2026-10-22": 350,
+      "2026-10-22": 482,
       "2026-10-21": 1012
     }
   },
@@ -316,17 +317,17 @@
     "slug": "riksarkivet-nad-se-ula-12231",
     "status": "up",
     "uptime": "99.14%",
-    "uptimeDay": "99.19%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.68%",
-    "uptimeYear": "97.03%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "97.01%",
     "time": 1685,
     "timeDay": 1344,
     "timeWeek": 1570,
     "timeMonth": 1472,
     "timeYear": 1483,
     "dailyMinutesDown": {
-      "2026-04-20": 86,
+      "2026-04-20": 182,
       "2026-04-21": 140,
       "2026-04-22": 156,
       "2026-04-23": 6,
@@ -396,8 +397,7 @@
       "2026-08-25": 24,
       "2026-09-09": 274,
       "2026-09-17": 249,
-      "2026-10-08": 128,
-      "2026-10-22": 12
+      "2026-10-08": 128
     }
   },
   {
@@ -407,9 +407,9 @@
     "slug": "riksarkivet-forskarsalen",
     "status": "up",
     "uptime": "99.11%",
-    "uptimeDay": "99.53%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.69%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.71%",
     "uptimeYear": "96.94%",
     "time": 1001,
     "timeDay": 985,
@@ -417,6 +417,7 @@
     "timeMonth": 1115,
     "timeYear": 1035,
     "dailyMinutesDown": {
+      "2026-04-19": 26,
       "2026-04-20": 181,
       "2026-04-21": 140,
       "2026-04-22": 154,
@@ -485,8 +486,7 @@
       "2026-09-09": 273,
       "2026-09-16": 295,
       "2026-09-17": 779,
-      "2026-10-08": 128,
-      "2026-10-22": 7
+      "2026-10-08": 128
     }
   },
   {
@@ -496,17 +496,17 @@
     "slug": "riksarkivet-kyrkbok-c0005418",
     "status": "up",
     "uptime": "98.50%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "48.08%",
-    "uptimeMonth": "65.79%",
-    "uptimeYear": "94.87%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "49.42%",
+    "uptimeMonth": "65.80%",
+    "uptimeYear": "94.86%",
     "time": 846,
     "timeDay": 688,
     "timeWeek": 638,
     "timeMonth": 661,
     "timeYear": 874,
     "dailyMinutesDown": {
-      "2026-04-19": 61,
+      "2026-04-19": 120,
       "2026-04-20": 179,
       "2026-04-21": 139,
       "2026-04-22": 153,
@@ -581,8 +581,7 @@
       "2026-10-11": 1440,
       "2026-10-10": 1440,
       "2026-10-09": 1440,
-      "2026-10-08": 762,
-      "2026-10-22": 2
+      "2026-10-08": 762
     }
   },
   {
@@ -1008,7 +1007,7 @@
       "2026-03-20": 1440,
       "2026-03-19": 1440,
       "2026-03-18": 837,
-      "2026-10-22": 350,
+      "2026-10-22": 482,
       "2026-10-21": 1440,
       "2026-10-20": 1440,
       "2026-10-19": 1440
