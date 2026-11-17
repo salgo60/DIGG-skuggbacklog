@@ -164,19 +164,20 @@
     "url": "https://kulturarvsdata.se/uu/srdb/fab985d7-61cc-4014-9d85-0a5011d40dc8",
     "icon": "https://icons.duckduckgo.com/ip3/kulturarvsdata.se.ico",
     "slug": "ra-ae-kulturarvsdata-runor",
-    "status": "up",
+    "status": "down",
     "uptime": "99.57%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 801,
-    "timeDay": 1083,
-    "timeWeek": 995,
-    "timeMonth": 1130,
+    "time": 800,
+    "timeDay": 861,
+    "timeWeek": 951,
+    "timeMonth": 1115,
     "timeYear": 810,
     "dailyMinutesDown": {
-      "2025-11-20": 19
+      "2025-11-20": 19,
+      "2026-11-17": 1
     }
   },
   {
@@ -247,7 +248,7 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "96.53%",
-    "uptimeYear": "93.03%",
+    "uptimeYear": "93.13%",
     "time": 286,
     "timeDay": 457,
     "timeWeek": 524,
@@ -380,7 +381,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/sok.riksarkivet.se.ico",
     "slug": "riksarkivet-forskarsalen",
     "status": "up",
-    "uptime": "99.11%",
+    "uptime": "99.12%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.28%",
@@ -472,7 +473,7 @@
     "uptime": "98.52%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "94.38%",
+    "uptimeMonth": "95.56%",
     "uptimeYear": "94.81%",
     "time": 813,
     "timeDay": 500,
@@ -566,15 +567,15 @@
     "slug": "scb-svensk-utbildningsnomenklatur-sun",
     "status": "up",
     "uptime": "99.70%",
-    "uptimeDay": "99.18%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.61%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.62%",
     "time": 1751,
     "timeDay": 1419,
     "timeWeek": 1415,
     "timeMonth": 1528,
-    "timeYear": 1894,
+    "timeYear": 1896,
     "dailyMinutesDown": {
       "2025-11-18": 15,
       "2025-12-02": 21,
@@ -605,8 +606,7 @@
       "2026-08-19": 32,
       "2026-08-22": 22,
       "2026-09-14": 321,
-      "2026-10-24": 64,
-      "2026-11-17": 12
+      "2026-10-24": 64
     }
   },
   {
@@ -984,7 +984,7 @@
       "2026-10-21": 1440,
       "2026-10-20": 1440,
       "2026-10-19": 1440,
-      "2026-11-17": 549,
+      "2026-11-17": 1065,
       "2026-11-16": 1440,
       "2026-11-15": 1440
     }
